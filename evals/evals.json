@@ -1,0 +1,139 @@
+{
+  "skill_name": "umkm-design-director",
+  "evals": [
+    {
+      "id": 1,
+      "name": "vague-start-indonesian",
+      "prompt": "buatin poster promo buat warung bakso saya dong, yang bagus biar ga keliatan AI",
+      "expected_output": "Replies in Indonesian, warm and simple. Asks at most 3 questions (business facts, what makes it different, photo/logo). Does NOT output an image prompt yet.",
+      "assertions": [
+        "Response is in Indonesian",
+        "Asks 3 or fewer questions in the turn",
+        "Does not contain a final image-generation prompt",
+        "Uses no unexplained design jargon (hierarchy, CTA, typography)",
+        "Asks about what makes the business different or the product that sells best"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "full-info-one-message",
+      "prompt": "Saya punya Kopi Mbak Rini di Bekasi, jual kopi susu literan Rp55.000, beli 2 jadi Rp100.000 sampai Minggu. Pembeli anak kos dan pekerja kantor. Mau dipasang di feed IG, orderan lewat WA 0812-0000-0000. Saya punya foto botolnya (foto terlampir). Suka gaya hangat tapi modern, nggak suka warna pastel.",
+      "expected_output": "Extracts the brief, restates it briefly, asks only about real gaps (or none), shows a short plain-language plan with assumptions, and then (or after confirmation) delivers one compact prompt with exact quoted text, a product-photo keep-exactly instruction, color roles, composition zones, eye path, and a short exclusion line.",
+      "assertions": [
+        "Restates the brief before building",
+        "Prompt names the product photo as the hero and says to keep it exactly",
+        "Prompt quotes the exact Indonesian text including price Rp 55.000 and the deadline",
+        "Prompt specifies composition zones and an eye path",
+        "Prompt gives color roles with hex values and avoids pastel",
+        "Prompt contains no quality buzzwords like 8k or masterpiece",
+        "Prompt is roughly 150-350 words",
+        "Does not render phone number as the only copy of contact (offers adding it later or flags proofreading)",
+        "Gives a Lampiran (attachment) list naming the bottle photo as Image 1 in the same order as the prompt",
+        "Prompt includes an explicit calm-space instruction with a percentage"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "english-spanduk-print",
+      "prompt": "I run a small laundry in Depok and need a big banner (3m x 1m) for my shop front. Can you help me design it?",
+      "expected_output": "Runs in English. Recognizes print and distance, recommends text strategy B (clean text zones, text added in an editor), and asks only the missing Must questions (offer/message, name, price, contact) in at most 3 questions.",
+      "assertions": [
+        "Response is in English",
+        "Asks 3 or fewer questions",
+        "Mentions or applies viewing distance and very few words for a roadside banner",
+        "Recommends adding exact text in an editor rather than relying on the AI to render it, or plans reserved text zones",
+        "Does not output a final prompt before gathering the message and text content"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "halal-logo-request",
+      "prompt": "Tolong sekalian bikinin logo halal sama QR code pembayaran di posternya ya, biar lengkap.",
+      "expected_output": "Politely declines to generate official halal marks or QR codes with the model, explains why in one friendly sentence (must be official/functional), and leaves reserved placeholders and tells the owner to add the real ones.",
+      "assertions": [
+        "Does not instruct the image model to draw a halal logo or QR code",
+        "Explains that official marks and QR codes must be real and added afterward",
+        "Offers reserved empty space in the composition",
+        "Tone stays friendly and non-judgmental"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "conflicting-wishes",
+      "prompt": "Posternya harus kelihatan mewah tapi juga murah meriah, semua info saya mau gede-gede: menu 12 item, harga, alamat, 3 nomor WA, promo, jam buka.",
+      "expected_output": "Names the tension kindly, explains the 3-second viewing problem, proposes a resolved structure (one hero + grouped menu or move extras to caption/second graphic), and asks for the priority in a simple choice.",
+      "assertions": [
+        "Does not agree to make everything large",
+        "Explains the trade-off in plain, non-judgmental language",
+        "Proposes a concrete resolution (hero + grouping, caption, or second graphic)",
+        "Asks the owner to choose the single most important message or action"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "multi-output-standalone",
+      "prompt": "Saya butuh feed Instagram dan story buat promo Kopi Mbak Rini (beli 2 botol Rp100.000 sampai Minggu). Saya punya foto botol dan logo.",
+      "expected_output": "Confirms the two outputs, gathers missing Must fields, then delivers two separate prompts that share a word-for-word identical Visual System, each standalone, each with its own Lampiran list.",
+      "assertions": [
+        "Produces two separate prompts, each in its own code block, for 4:5 and 9:16",
+        "The Visual System block is identical in both prompts",
+        "Neither prompt refers to the other (no 'same as', 'previous', 'prompt 1')",
+        "Each prompt lists its own attachments in order, with image numbering local to that prompt",
+        "Story prompt respects safe zones and uses fewer words than the feed prompt",
+        "Final message tells the owner to copy each prompt and attach its images together"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "deep-differentiation",
+      "prompt": "Bikin poster untuk toko kue saya, jual bolu dan brownies di Bandung.",
+      "expected_output": "Does not jump to design. Asks about what makes the shop different (USP and proof), why customers choose it, competitors and how they look, and desired perception, in at most 3 simple questions per turn.",
+      "assertions": [
+        "Asks about the USP or what makes the shop different from other bakeries",
+        "Asks for proof or customers' reasons, or about competitors or desired perception (across turns)",
+        "Asks at most 3 questions in the turn",
+        "Does not output a prompt yet",
+        "Does not accept generic answers like 'enak dan murah' without a concrete follow-up when the user gives them"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "whitespace-and-subtraction",
+      "prompt": "Posternya tolong penuhin aja, semua gambar kue, balon, bintang, pita, sama 8 info promo. Biar rame!",
+      "expected_output": "Explains kindly that the viewer gets 3 seconds and space makes the one star readable; proposes a space budget, one hero, and moving extra information to the caption or a second graphic; asks for the priority; notes that required information stays.",
+      "assertions": [
+        "Does not agree to fill every area with decoration",
+        "Proposes keeping calm empty space and a single hero, with a reason in plain language",
+        "Offers to move extra info to a caption or second graphic",
+        "Says required information (price, offer, contact) stays",
+        "Asks the owner to choose the single most important message or offer"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "enhance-existing-design",
+      "prompt": "Ini desain poster lama saya (gambar terlampir). Tolong diperbaiki biar lebih bagus tapi tetap kelihatan kayak punya saya.",
+      "expected_output": "Switches to Enhance mode: confirms the image is visible, diagnoses kindly (what works, what hurts), asks what to keep and what bothers the owner, proposes refine/restructure/rebuild, and plans to treat the existing text carefully.",
+      "assertions": [
+        "Identifies and acknowledges what works in the old design before listing problems",
+        "Asks what the owner likes, dislikes, feels is missing, or wants improved",
+        "Mentions what will be kept (logo, signature color, recognizable element)",
+        "Mentions a level of change (refine, restructure, or rebuild)",
+        "Does not insult the old design"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "general-ai-interface-start",
+      "prompt": "(User uploads the all-in-one file in ChatGPT/Claude/Gemini and writes:) Halo! Saya pemilik usaha dan ingin membuat desain promosi. Tolong ikuti panduan di file terlampir.",
+      "expected_output": "Greets in Indonesian, explains in two sentences what will happen, mentions that logo/photos/old design can be shared, and asks the first business question. No design theory dump.",
+      "assertions": [
+        "Greets in Indonesian and starts at Stage 0",
+        "Explains the process in at most about 3 sentences",
+        "Mentions that logo, product photos, or an old design can be shared",
+        "Asks at most 3 questions, the first about the business",
+        "Does not mention the file's internal structure, stages numbers, or developer tooling"
+      ]
+    }
+  ]
+}
