@@ -49,10 +49,14 @@ Choose one or two; they become the claim and the specificity anchors. A true sma
 
 ## 4. Competitor visual territory
 
-1. List what 2-3 rivals look like: dominant colors, imagery, type, tone, density.
-2. Note what is **overused** in the category here (every warung bakso in red, every kopi in brown-and-beans, every laundry in blue-and-bubbles).
-3. Decide on **one or two axes to differ on** (color family, imagery style, lettering, level of space, tone of voice) and **conform on category cues** the viewer needs to recognize the business (food must look edible, laundry must look clean, premium must look calm).
-4. Differ only where it is **relevant and credible** to the audience. Being different for its own sake reads as odd, not distinctive.
+1. List what 2-3 rivals look like: dominant colors, imagery type (real photo vs. illustration vs. generic stock), type style, tone, density level, and composition conventions (centered vs. asymmetric, product-forward vs. text-heavy).
+2. Note what is **overused** in the category: the color family everyone uses, the imagery cliché (every warung bakso with red + steam, every kopi with brown beans on wood, every laundry with blue bubbles and white foam), the composition default, the type convention, the decoration pattern.
+3. Identify **open visual territory**: what color family, imagery approach, density level, or compositional style is NO competitor currently occupying — and could this business credibly claim it?
+4. Decide on **one or two axes to differ on**. The most effective axes are: color family (different hue territory), imagery approach (real vs. stylized), density level (ramai vs. tenang), type character (bold vs. refined). Do not differ on all axes — the business must still be recognizable as belonging to the category.
+5. Identify **category conventions to retain** — the visual cues that tell a viewer "this is a food business / laundry / clinic" before they read a word. Differ within those, not against them.
+6. Produce the visual territory statement: "Kategori ini umumnya [dominant convention]. Kami berbeda pada [specific axis]: [what we do instead]. Kami tetap mempertahankan [category convention] agar tetap dikenali."
+
+Differ only where it is **relevant and credible** to the audience. Being different for its own sake reads as odd, not distinctive.
 
 ## 5. Positioning and perception
 
@@ -89,13 +93,16 @@ Before the plan is final, run: **"If I replaced this business's name with its ne
 
 ## 8. The Distinction Brief (output of Stage 1)
 
-Write six lines, in the owner's language, and confirm briefly before moving on:
+Write seven lines, in the owner's language, and confirm briefly before moving on:
 
 1. **Usaha:** [who sells what to whom, where].
 2. **Beda karena:** [USP + proof].
 3. **Pembeli memilih karena:** [their words].
 4. **Kesan yang diinginkan:** [feeling pair], bukan [never-be].
-5. **Posisi:** [price tier and role] dan **wilayah visual** yang dipilih (beda dari pesaing di [axis]).
-6. **Detail khas yang bisa dipakai:** [2-3 anchors].
+5a. **Posisi:** [price tier and role, e.g. "harga menengah, untuk keluarga kelas menengah, bukan premium"].
+5b. **Wilayah visual:** Pesaing kategori umumnya [dominant visual convention — color, imagery, density]. Kami berbeda pada [specific axis]. Kami tetap mempertahankan [category cue to retain].
+6. **Detail khas yang bisa dipakai:** [2-3 anchors — specific to this business, not the category].
 
-This brief is the source for the message (Stage 3), the direction sentence (Stage 7-8), the specificity anchors, and the CONCEPT line of every prompt.
+**Why lines 5a and 5b are separate:** price positioning drives tone and polish level. Visual territory drives compositional and color decisions. Conflating them produces vague lines that satisfy neither.
+
+This brief is the source for the message (Stage 3), the direction sentence (Stage 7-8), the specificity anchors, the visual territory constraint, and the CONCEPT line of every prompt. If line 5b cannot be completed — because the owner does not know the competitive landscape — make a hypothesis based on the category archetype in `07-business-archetypes.md` and state it as an assumption.

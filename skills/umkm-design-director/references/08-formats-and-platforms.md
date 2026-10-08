@@ -1,84 +1,252 @@
-# Formats, Platforms, and Viewing Context
+# Physical Print Formats, Viewing Context, and Production
 
-Contents: why format comes first · quick-pick table · screen formats and safe zones · marketplace and delivery apps · physical and print · resolution and print readiness · density and text per medium · choosing aspect ratio · series and consistency
+Contents: why format and physical context come first · physical print formats for UMKM · viewing distance and type size · outdoor vs indoor · lighting and contrast requirements · print production basics · density and text by medium · choosing dimensions · production checklist
 
-Platform sizes and interface layouts change. Treat the numbers below as sensible defaults and **ask the owner to check the platform's current requirements** when a platform enforces exact sizes (marketplace and delivery-app banners especially).
+This system specializes in **physical printed graphic materials** only. For digital-only outputs, this reference does not apply.
 
-## 1. Why format comes first
+---
 
-The medium decides how long viewers look, how far away they are, how much text is acceptable, where platform buttons cover your design, and how exact the text must be. A good poster in the wrong format fails. Decide format *before* composition.
+## 1. Why format and physical context must come before design
 
-## 2. Quick-pick table
+The physical medium is not a container for the design — it **is** the design constraint. Where the piece lives, how far away the viewer is, how long they look at it, what the lighting is like, what they are doing when they encounter it — these determine everything downstream: type size, element count, information density, contrast requirements, composition approach, and text strategy.
 
-| Where it appears | Typical shape | Approx. pixels | Viewing time | Text budget | Text strategy |
-|---|---|---|---|---|---|
-| Instagram/Facebook feed post | Portrait 4:5 (best use of space) or square 1:1 | 1080x1350 / 1080x1080 | ~1-3 s while scrolling | 15-40 words | A or C |
-| Instagram/Facebook Story, Reels cover, TikTok, WhatsApp Status | Vertical 9:16 | 1080x1920 | ~2-5 s per frame | 8-20 words | C |
-| Marketplace/food-delivery banner (Shopee, Tokopedia, GoFood, GrabFood, ShopeeFood) | Wide banners vary (often ~16:9 or ~2:1, sometimes square product images) | Platform-specific | ~1-2 s | 6-12 words | B or C |
-| Product photo on marketplace | Square 1:1 (commonly) | 1000x1000+ | ~1 s in a grid | Almost none (a badge at most) | B |
-| Spanduk / banner depan toko | Wide (e.g. 3:1) | Vector or high-res in printer's software | ~2-3 s from distance | 3-7 words | B |
-| X-banner / roll-up | Tall (~60x160 cm) | Printer spec | ~3-5 s | 8-15 words | B |
-| Flyer/brosur A5/A4 | Portrait 148x210 / 210x297 mm | 300 dpi at final size | Held in hand; 5-20 s | 40-90 words grouped | B or C |
-| Menu board / daftar menu | Portrait or wide | Printer spec | Reading to choose; 10-40 s | As needed, grouped | B |
-| Label / stiker kemasan | Small; varies | 300 dpi at final size | Seconds | Name + 2-3 facts | B |
-| WhatsApp broadcast image | 4:5 or 1:1 | 1080 wide | ~2 s | 10-30 words | C |
-| Kartu nama | 90x55 mm | 300 dpi | Reference | Minimal | B |
+A design that looks beautiful on a screen can fail completely when printed at actual size and placed in the real world. Design for the physical reality, not for the preview.
 
-## 3. Screen formats and safe zones
+---
 
-- **Feed posts:** Portrait 4:5 uses the most screen. Keep important content inside the central ~90% because feed grids and previews may crop edges to square or 3:4. Put the headline in the upper third; keep the CTA away from the extreme bottom.
-- **Story/Reels/TikTok/WhatsApp Status (9:16):** The top and bottom portions are covered by interface elements (profile name, reply bar, captions, buttons). As a safe default keep essential text and the CTA inside roughly the middle 65-70% of the height: about 12-15% clear at the top and about 18-22% clear at the bottom. On TikTok the right edge also holds buttons: keep a margin on the right.
-- **Mobile legibility:** test the design at about 360 px wide. If the smallest meaningful line is unreadable, enlarge or delete it.
-- **Dark mode and brightness:** viewers use varied brightness; avoid designs that rely on subtle tonal differences.
-- **Carousels:** each frame must work alone; frame 1 = hook, last frame = action. For a single AI prompt, create each frame as a separate prompt in a consistent style.
+## 2. Physical print formats for UMKM
 
-## 4. Marketplace and delivery apps
+### Large-format outdoor
 
-- Banners and product images are viewed as small thumbnails in grids, next to competitors: **simplicity and one clear promise** win. Large product, one offer, minimal text.
-- Respect the platform's rules (restrictions on text coverage, watermarks, claims). Tell the owner to check the current guidelines of the platform.
-- Use real product photos wherever the platform expects representation of the actual product.
-- Keep important elements away from corners where badges or price overlays appear.
+**Spanduk / Banner (roadside or storefront front)**
+- Typical dimensions: 3×1 m, 4×1 m, 5×1 m, 6×2 m (custom to printer)
+- Ratio: 3:1 to 6:1 (wide horizontal), occasionally square for storefront
+- Viewing distance: 5–20 m from road, or 2–5 m from sidewalk
+- Viewing duration: 1–3 seconds for passing traffic, 3–8 seconds for pedestrians
+- Viewing angle: often horizontal and slightly upward if hung high
+- Material: vinyl tarpaulin (terpal), matte preferred for sun
+- Text budget: **3–6 words maximum** for roadside; 6–10 words for sidewalk-facing; one phone number
+- Text strategy: **B** (text zones, add text in printer or Canva)
+- Production: deliver as background art; add text and logo in printer software at actual size
 
-## 5. Physical and print
+**Billboard-scale (gedung, jalan utama)**
+- Similar to roadside spanduk, but at even greater distance
+- Treated identically; fewer words, even larger type
 
-- **Distance sets size.** Rule of thumb: about 2.5 cm of letter height per 3 m of reading distance. A spanduk viewed from a road at motorbike speed needs far larger and fewer words than a flyer.
-- **Light and context:** outdoor sun fades pale colors; use strong value contrast; matte vs glossy material changes glare.
-- **Spanduk/banner:** one idea, one number, one contact. Reserve large clean text zones and add text in the printer's/Canva software (text strategy B), because text must be exact and big. Ask the printer for the final pixel/size requirements and file format.
-- **Menus:** group into 3-6 categories, align prices in a right column, flag 1-3 best-sellers, leave margins for cropping or lamination.
-- **Flyers:** one primary message at the top, offer in the middle, how to act at the bottom; leave margins.
-- **Labels and stickers:** respect legal info zones (ingredients, net weight, halal, PIRT/BPOM) and keep the design secondary to the mandatory text.
+**Backdrop / Photo Booth / Event Banner**
+- Dimensions: 2×2 m, 2×3 m, 3×4 m (custom)
+- Viewed from 1–3 m, photos taken in front
+- Text budget: name and logo large; supporting text minimal
+- Text strategy: B or hybrid
 
-## 6. Resolution and print readiness
+---
 
-- AI image outputs are typically a limited resolution (often around 1-2K px on the long side, some tools offer more). That is fine for screens; **large print needs upscaling or rebuilding** the text and graphic elements as vectors/high-res in a layout tool.
-- For prints, aim for about 300 dpi at final size for flyers and labels; for large banners viewed from far, lower effective dpi is acceptable, but ask the printer.
-- Printing may shift colors (RGB screen → CMYK ink). Avoid neon and very dark saturated colors in print; request a proof if color is critical.
-- Add **bleed (about 3 mm)** and keep important content inside a safe margin (about 5-8 mm) for printed pieces.
-- Tell the owner: for print, generate the *background/visual* with AI, then place exact text, logo, and legal marks in Canva or the printer's template.
+### Display and in-store
 
-## 7. Density, space, and text per medium
+**X-Banner / Roll-Up Banner**
+- Typical dimensions: 60×160 cm, 80×200 cm
+- Ratio: approximately 1:2.5 to 1:3 (tall vertical)
+- Viewing distance: 0.5–3 m (beside a counter, at entrance)
+- Viewing duration: 3–10 seconds
+- Text budget: 8–20 words; clear hierarchy; business name prominent
+- Text strategy: B (add text separately)
 
-Calm space is part of the layout, not what is left over; budgets for each context are in `04-design-principles.md` section 2. The table below adds element and text limits.
+**Poster / Mading (papan pengumuman)**
+- Typical dimensions: A3 (297×420 mm), A2 (420×594 mm), custom
+- Ratio: A-series portrait (1:√2), or custom
+- Viewing distance: 0.5–2 m (on wall, notice board)
+- Viewing duration: 5–30 seconds
+- Text budget: 20–60 words with clear grouping
+- Text strategy: B (print-ready) or A if text is very short
 
-| Medium | Max primary ideas | Max text elements | Calm space | Notes |
+**Storefront Window / Toko Sign**
+- Dimensions: custom to window/wall size
+- Viewing distance: from street: 3–10 m; at door: 0.5–2 m
+- Design must work at both distances
+- Text strategy: B
+
+---
+
+### Print-to-hand materials
+
+**Flyer / Brosur**
+- Typical dimensions: A5 (148×210 mm) portrait, DL (99×210 mm), A4 (210×297 mm)
+- Viewing distance: held in hand, 0.3–0.5 m
+- Viewing duration: 15–60 seconds (if kept), 3–5 seconds (if passing)
+- Text budget: 30–90 words, grouped in clear zones
+- Text strategy: A or B (often hybrid: print AI background, add text in layout)
+- Production: 300 dpi, bleed 3 mm, safe margin 5–8 mm
+
+**Kartu Nama / Business Card**
+- Dimensions: 90×55 mm standard (Indonesia), or 85×55 mm
+- Text budget: name, title, contact, address — essential only
+- Text strategy: B (all text added in layout software)
+- Production: 300–350 dpi, bleed 3 mm
+
+---
+
+### Menu and information
+
+**Menu Board / Daftar Menu**
+- Dimensions: A3, A2, or larger for wall mounting; A4-A5 for table cards
+- Viewing distance: 0.5–3 m depending on mounting
+- Viewing duration: 15–60 seconds (active reading)
+- Structure: grouped by category (3–6 categories maximum); prices right-aligned; 1-3 best-sellers flagged; name large
+- Text strategy: B (always — menu text changes too often for in-image)
+
+**Poster Harga / Price Board**
+- Similar to menu board; dominated by a single product or promotion
+- Text budget: 1-3 items with clear prices
+- Text strategy: B
+
+---
+
+### Packaging and labeling
+
+**Label / Stiker Kemasan**
+- Dimensions: custom to packaging (typically 5×5 cm to 10×15 cm)
+- Viewing distance: 0.1–0.5 m (held in hand)
+- Text budget: product name, variant, net weight, mandatory legal info (halal, PIRT/BPOM), contact
+- Legal notes: halal mark, PIRT/BPOM number must be officially obtained and placed — never generated by AI
+- Text strategy: B (all critical text added in layout software; legal marks added from official files)
+- Production: 300 dpi at final size, often round or die-cut — account for shape in composition
+
+**Stiker Promosi (promo seal, sticker)**
+- Dimensions: typically 3–8 cm diameter or rectangular
+- Message: one line maximum
+- Text strategy: B
+
+---
+
+## 3. Viewing distance and minimum type size
+
+The following are working guidelines based on physical letter height. In practice, add 30–50% for bright outdoor sun, visual noise, and motion.
+
+| Intended viewing distance | Min capital letter height | Design implication |
+|---|---|---|
+| 0.3–0.5 m (hand-held) | 3–5 mm (approx 10–14 pt) | Full text possible; hierarchy by size and weight |
+| 0.5–1.5 m (close stand) | 5–12 mm (approx 14–36 pt) | Supporting text readable; headline prominent |
+| 1.5–3 m (short distance) | 12–25 mm (approx 36–72 pt) | Body text disappears; headline + 2-3 elements only |
+| 3–8 m (sidewalk, shop front) | 25–70 mm (approx 72–200 pt) | 5-8 words maximum total; headline only readable |
+| 8–20 m (roadside, passing traffic) | 70–175 mm (200 pt+ at print size) | 3-5 words maximum; extreme contrast; single message |
+| 20+ m (roadside high speed) | 175 mm+ minimum | One word or symbol possible; name and logo only |
+
+**Practical application for spanduk 3×1 m viewed from 8 m:**
+- Headline: occupies at least 25–35% of canvas height
+- Maximum 4–6 words across the whole piece
+- One phone number (large) is the limit for contact
+- No body text, no supporting text — it will not be read
+
+**Translate distance into prompt instructions (never leave this to the model):**
+- "Headline at 30% of canvas height in heavy condensed caps"
+- "Maximum 5 words total across all text elements"
+- "No text element smaller than 12% of canvas height"
+
+---
+
+## 4. Indoor vs outdoor environments
+
+### Outdoor in tropical sun (Indonesia default)
+
+**Contrast requirements:**
+- High value contrast is mandatory. Light-on-dark or dark-on-light, strong ratio.
+- Hue contrast alone (e.g., red on green) is insufficient — both saturated colors can have similar lightness and disappear into each other in strong light.
+- Target contrast ratio: minimum 4.5:1 for large headline text, higher is better for outdoor.
+- Avoid pastel-on-white, gray-on-white, or any color combination that relies on subtle tonal differences.
+
+**Color reproduction:**
+- Neon and fluorescent colors may be vivid on screen but tend to shift in CMYK print.
+- Very dark near-black colors can fill in (ink spreads) on absorbent materials.
+- Avoid subtle tonal gradients — they often print as flat bands or invisible shifts.
+- Test against: does this design have clear black-vs-white (or near equivalent) contrast for all critical text?
+
+**Material considerations:**
+- Matte vinyl tarpaulin: standard for Indonesian outdoor spanduk; colors appear slightly flatter than on screen
+- Glossy: more vivid colors, but heavy glare in direct sun — avoid for pieces read in daylight
+- UV-coated (outdoor): extends print life in rain and sun; common for long-term signage
+
+### Indoor (interior, covered, artificial lighting)
+
+- More latitude for subtle color relationships
+- Finer type at reading distances
+- Glossy materials appropriate if relevant to brand
+- Dark environments (bars, evening events): consider how design reads under warm artificial light
+
+---
+
+## 5. Print production basics (internal knowledge — do not overwhelm owner)
+
+These are things the designer understands internally and applies to the design decisions. Share with the owner only what they need to act on.
+
+**Resolution:**
+- For printed pieces viewed close (flyers, menus, labels, business cards): 300 dpi at final print size
+- For large-format viewed from distance (spanduk, billboards): 100–150 dpi at print size is acceptable (the viewing distance compensates)
+- AI image outputs are typically 1024–2048 px on the long side. For large-format print, this requires significant upscaling. Inform owner: "Untuk spanduk ukuran besar, gambar dari AI perlu di-upscale atau latar dibuat ulang di printer."
+
+**Bleed and safe margins:**
+- Bleed: 3 mm extension beyond the trim edge (prevents white edges after cutting)
+- Safe margin: 5–8 mm inward from trim edge (prevent important content from being cut)
+- In AI-generated images, these zones are conceptual — the design must have clear margins built in
+- For print production, the owner adds the real file bleed in Canva or the printer's software
+
+**Color mode:**
+- Screen: RGB
+- Print: CMYK
+- The conversion often shifts colors — especially bright reds, oranges, and blues
+- When designing for print, avoid colors that rely on screen-specific neon vibrancy
+- If color accuracy is critical (brand logo colors), request a proof from the printer
+
+**Text in print:**
+- For any piece with exact phone numbers, addresses, legal marks, prices, or long text: use text strategy B (add text separately in an editor), never rely on AI to render these correctly
+- For large printed type (headline only, few words): AI-generated text can work if proofread carefully
+
+---
+
+## 6. Text budget and density by physical medium
+
+| Physical medium | Max information ideas | Max text elements in the image | Min calm space | Notes |
 |---|---|---|---|---|
-| Spanduk | 1 | 3 (name, offer, contact) | ~40-60% | Contact number huge and simple |
-| Story/Status | 1 | 3-4 | ~35-45% | Big headline, one offer, one CTA |
-| Feed promo | 1-2 | 4-6 | ~35-45% | Strong hero; price accent |
-| Marketplace banner | 1 | 2-3 | ~40-50% | Product + promise |
-| Flyer | 2-3 grouped | 6-10 | ~30-40% | Clear zones |
-| Menu | n/a | grouped list | ~20-30%, strict grouping | Hierarchy via headings, alignment |
+| Roadside spanduk (8+ m) | 1 | 2–3 (name, offer, contact) | 40–60% | Contact must be enormous |
+| Spanduk (sidewalk, 3–6 m) | 1–2 | 3–5 | 35–50% | One strong hero message |
+| X-banner / roll-up | 1–2 | 4–7 | 30–45% | Clear visual zones |
+| Poster A3/A2 (1–3 m) | 2–3 | 5–10 | 25–40% | Strong grouping required |
+| Flyer (hand-held) | 2–4 grouped | 6–15 | 20–35% | Clear zone structure |
+| Menu board | All needed | Grouped list | 15–25% (between groups) | Rigorous grouping and alignment |
+| Label / sticker | 1–3 facts | Minimal | Design secondary to legibility | Mandatory legal info always |
+| Business card | Name + contact | Reference level | Generous margins | Text added in layout |
 
-## 8. Choosing the aspect ratio
+---
 
-- Single post for scrolling → 4:5.
-- Ephemeral and full-screen → 9:16.
-- Thumbnail grids (marketplace, delivery) → follow the platform's spec; default 1:1.
-- Roadside → wide; follow the printer's size.
-- If the same message will run in multiple places, make one master and adapt: do not stretch; regenerate or recompose per ratio.
+## 7. Choosing dimensions
 
-## 9. Series and consistency
+**Ask the owner for:**
+- The intended physical size (in cm or standard format)
+- Where it will be placed (wall, street, window, table, handed out)
+- Whether the printer has specific requirements
 
-For several outputs at once, follow `09-output-sets.md`: one shared Visual System, one standalone prompt per ratio.
+**If the owner does not know the size:** propose based on context. A storefront spanduk is typically 2–3 m wide. A flyer is typically A5. A menu card is A4 or A5 portrait.
 
-If the owner will post repeatedly, define a small **system** that survives across posts: one palette with roles, two type characters, one layout skeleton (where headline, hero, price, CTA sit), one recurring graphic device (a stripe, a stamp, a border, a lettering style), and one photographic style. Recommend reusing the plan and prompt skeleton, changing only the content. Consistency builds recognition faster than variety.
+**For AI image generation:**
+- Generate at the highest resolution the tool supports
+- Use an aspect ratio that matches the intended physical piece (3:1 for a wide spanduk, 1:√2 for A-series portrait)
+- Note in the plan that the AI output will need to be upscaled and adjusted in Canva or printer software for final production
+
+---
+
+## 8. Production checklist (share with owner when relevant)
+
+**Before sending to printer:**
+- [ ] Text is correct: name, price, phone number, date — character by character
+- [ ] Official marks (halal, PIRT, BPOM) are placed from official sources, not AI-generated
+- [ ] Logo is placed from the original file, not redrawn by AI
+- [ ] Dimensions are confirmed with the printer
+- [ ] File format is what the printer requires (typically high-resolution JPEG or PDF)
+- [ ] Bleed is added if the printer requires it
+- [ ] The design is proofed at actual size (print at scale or view at actual print dimensions on screen)
+- [ ] Contrast checked: does it read in bright light?
+- [ ] Type legible at the intended viewing distance
+
+**The good workflow:**
+1. Use AI to generate the visual background, hero imagery, and overall composition
+2. Add all exact text, logo, official marks, and QR codes in Canva or printer software
+3. Export at the correct resolution and format for the printer

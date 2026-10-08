@@ -7,9 +7,9 @@ Target length 200-450 words (up to about 550 with three or more images). Instruc
 Every sentence must change what the image model produces. No meta-commentary, no process notes, no viewing-context statements that have not been translated into design decisions.
 
 ```
-FORMAT: [material], [aspect ratio and pixels], for [platform].
+FORMAT: [physical material and production purpose — e.g. "Printed roadside spanduk, 3×1 m, vinyl tarpaulin"], [aspect ratio and pixels — e.g. "3:1 (3000×1000 px)"].
 
-CONCEPT: "[campaign idea, same words in every prompt]". [Feeling 1] and [feeling 2]. For [audience]. This output's job: [hook / inform / act].
+CONCEPT: "[campaign idea, same words in every prompt — derived from Distinction Brief]". [Feeling 1] and [feeling 2]. For [specific audience]. This output's job: [hook / inform / act].
 
 [INCLUDE this block ONLY when images are being attached:]
 ATTACHED IMAGES (attach in this order):
@@ -73,3 +73,11 @@ Prompt N ([name, ratio]):
 - [ ] Concept line identical in all prompts
 - [ ] Same facts (name, price, deadline) across all prompts
 - [ ] No prompt depends on another
+
+**Physical print specific:**
+- [ ] Headline type size specified as % of canvas height (not in points — model works in proportions)
+- [ ] Element count within the budget for the viewing duration (roadside = max 3–4 elements; hand-held = up to 5–6)
+- [ ] High value contrast specified for outdoor pieces
+- [ ] No text element smaller than the legibility threshold for the intended viewing distance
+- [ ] Text strategy B confirmed for: spanduk, menu, phone numbers, addresses, legal marks, menus
+- [ ] Production note added to plan (AI output to be upscaled; text/logo added in Canva or printer software)

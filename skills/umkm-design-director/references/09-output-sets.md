@@ -1,23 +1,24 @@
-# Output Sets: Several Graphics, One System (Stages 4, 8, 9)
+# Output Sets: Several Physical Materials, One Design System (Stages 4, 8, 10)
 
 Contents: why ask about outputs · deciding the set · Output Spec · the shared Visual System · what varies per output · standalone-prompt rule · attachments per prompt · splitting the message · delivery format · limits
 
-Owners rarely need one graphic. A promo usually lives as a feed post, a story, and a broadcast; an opening needs a post and a banner. Ask what they need, design them as **one family**, and give **one standalone prompt per output**.
+Physical print materials for a single business are often needed as a set: a storefront spanduk, a flyer, a price board, and a menu. Design them as **one visual family** — one shared Visual System applied to each physical format with its own appropriate composition, text budget, and viewing context.
 
 ## 1. Deciding the set (Stage 4)
 
-Ask after the goal and message are known: "Untuk menyampaikan ini, Kakak butuh gambar apa saja? Satu saja, atau beberapa (misal feed + story)?" If they do not know, propose a set with the reason and let them trim:
+Ask after the objective and message are known: "Materi cetak apa saja yang Kakak butuhkan? Satu saja, atau beberapa?" If they do not know, propose a set with the reason and let them trim:
 
-| Goal | Suggested set | Why |
+| Goal | Suggested physical set | Why |
 |---|---|---|
-| Promo / discount | Feed post 4:5 + Story/Status 9:16 | Feed carries the offer for browsing; story pushes the deadline and action |
-| New product launch | Feed post + Story + marketplace/product banner (if sold there) | Awareness + action where the purchase happens |
-| Grand opening | Feed post + Story + spanduk background | Online hook + physical presence |
-| Menu or price list | Menu board/print + feed highlight of best-sellers | Full list in print, one hero item online |
-| Brand awareness / new look | Feed post + profile or cover image | Recognition across places |
-| Regular posting (weekly) | A series of N posts with the same system, different content | Consistency builds recognition |
+| Promo / discount | Spanduk depan toko + flyer yang dibagikan | Spanduk attracts passing traffic; flyer delivers the detail for interested buyers |
+| New product launch | Spanduk + poster + price board | Awareness from street + information inside + price visible |
+| Grand opening | Spanduk besar + poster + flyer | Street hook + event information + hand-held detail |
+| Menu / price list | Menu board + price board of best-sellers | Full list in place + highlight for quick decisions |
+| Brand awareness | Spanduk + X-banner + label/stiker | Consistent presence at multiple touchpoints |
+| Packaging and selling | Label kemasan + stiker promo + flyer | Product identity + promotion + information |
 
-Rules: one output per **placement and ratio** (never stretch one image across ratios). Recommend **at most 4 outputs per session**; more can be done in a second batch using the same Visual System. Remove outputs without a clear job (inclusion test).
+Rules: one output per **physical format and placement** (never stretch one design across different formats). Recommend **at most 4 outputs per session**; more in a second batch using the same Visual System.
+
 
 ## 2. Output Spec (one row per output)
 
@@ -47,9 +48,24 @@ Decide **once** (Stage 8), then write it identically into every prompt. Keep it 
 
 ## 4. What varies per output
 
-Format and ratio · composition (recomposed for the ratio and its safe zones, never stretched) · hierarchy emphasis for the job (feed: offer + hero; story: deadline + action) · text length and content · crop of the hero image · which images are attached.
+**Fixed across all outputs (Visual System — must be identical):**
+- Palette hex values and assigned roles
+- Type character (headline weight/personality, support character)
+- Graphic device (if any) and its color
+- Image treatment (surface material, light quality, photo style)
+- Brand/identity treatment (logo placement rules, or identity treatment spec)
 
-Consistency check: put any two outputs side by side. Same colors, same type, same material, same graphic device, same space feeling: yes. Same layout: not required.
+**Adapts per output (driven by format + viewing context — must change):**
+- Space level (roadside spanduk: 40-60% calm; flyer: 20-35%)
+- Element count (spanduk: 3-5 elements; flyer: 6-15 elements)
+- Composition structure (recomposed for each ratio — never stretched)
+- Text budget and content length
+- Hierarchy emphasis for the job (feed: offer + hero; story: deadline + action; spanduk: one message only)
+- Crop and scale of the hero image
+
+**The test:** place any two outputs side by side. Same colors, same type character, same material feel, same graphic device, same space personality — yes. Same layout or element count — not required, and not expected.
+
+**Warning:** if space level, element count, and composition all change but the palette or type character also drift, the family breaks. The Visual System block in each prompt must be copied verbatim — not paraphrased — to prevent drift.
 
 ## 5. Standalone-prompt rule
 

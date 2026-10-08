@@ -1,12 +1,36 @@
-# Typography, Text, and Readability
+# Typography, Text, and Readability for Physical Print
 
-Contents: why type decides trust · describing type to an image model · type character by feeling · limits and hierarchy · prices and numbers · Indonesian-specific notes · text on photos · text risk and proofreading
+Contents: why type decides trust · physical print viewing distance · describing type to an image model · type character by feeling · limits and hierarchy · prices and numbers · Indonesian-specific notes · text on photos · text risk and proofreading
 
-## 1. Why type decides trust
+## 1. Why type decides trust in physical print
 
-Text is where most small-business designs fail first: too much of it, too many styles, too small, low contrast, or misspelled. Legibility is credibility. A viewer forgives a plain layout; they do not forgive a price they cannot read or a word that is spelled wrong.
+Text is where most small-business designs fail first — especially in physical print: too much of it, too many styles, too small for the viewing distance, too low contrast for outdoor light, or misspelled. Legibility is credibility. A viewer forgives a plain layout; they do not forgive a price they cannot read or a word that is spelled wrong.
 
-Typography has three jobs: **be read** (legibility and readability), **rank information** (hierarchy), and **carry personality** (voice). Always satisfy the first two before the third.
+Typography has three jobs in physical print: **be read at the actual viewing distance and lighting conditions** (legibility), **rank information** (hierarchy), and **carry personality** (voice). Always satisfy the first two before the third.
+
+## 1a. Physical print: viewing distance and minimum type size
+
+The most critical and most overlooked constraint in physical print typography. Type that looks fine on a screen can be completely unreadable at actual physical scale and distance.
+
+**The working rule:** approximately 2.5 cm of capital letter height per 3 meters of comfortable reading distance. For roadside viewing from moving vehicles, add 50–100%.
+
+| Viewing distance | Min capital letter height | Design implication |
+|---|---|---|
+| 0.3–0.5 m (hand-held flyer, menu) | 3–5 mm | Full text possible; hierarchy through size/weight |
+| 0.5–1.5 m (close stand, window) | 5–12 mm | Supporting text readable; clear headline |
+| 1.5–5 m (poster, indoor sign) | 12–50 mm | Body text minimal; headline dominant |
+| 5–10 m (storefront, sidewalk) | 50–100 mm | 5–8 words maximum; headline only |
+| 10–20 m (roadside, passing vehicles) | 100–200 mm | 3–5 words; extreme contrast; single message |
+| 20+ m (highway, fast traffic) | 200 mm+ | One word or symbol; otherwise unreadable |
+
+**Translating distance to prompt instructions:**
+- "Headline at 30% of canvas height in heavy condensed caps"
+- "Maximum 4 words across the entire design"
+- "No text element smaller than 10% of canvas height"
+
+For outdoor print in tropical sun: increase minimums by 30–50%. Bright sun washes out low-contrast text.
+
+
 
 ## 2. Describing type to an image model
 
@@ -40,7 +64,7 @@ Local lettering is a rich anchor: hand-painted warung boards, angkot and truck l
 - **Line length and breaks:** break lines by meaning ("Beli 2 / hemat 10rb"), not just by width. Keep lines short.
 - **Spacing:** tight but even for display; open for small text; avoid wide-tracked lowercase.
 - **Contrast and placement:** text goes on calm areas or panels; never across busy detail.
-- **Word budgets** (headline + support, excluding contact): spanduk/billboard 3-7 words; story/status 8-15 words; feed promo 15-40; marketplace banner 6-12; flyer 40-90 with grouping; menu: as needed, grouped in 3-6 categories.
+- **Word budgets** (headline + support, excluding contact): roadside spanduk 3–5 words; storefront spanduk 5–8 words; X-banner 8–15 words; poster A3/A2 20–50 words; flyer 30–90 with grouping; menu as needed in 3–6 grouped categories; label: name + 2–3 facts only.
 - **Minimum sizes:** phone-viewed text should remain readable when the image is about 360 px wide (can you still read the smallest line?). If not, it is too small or too long.
 - **Viewing distance rule of thumb:** roughly 2.5 cm of letter height per 3 m of reading distance for comfortable reading of signs; passing motorbikes and cars need considerably larger and fewer words.
 

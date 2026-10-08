@@ -1,4 +1,4 @@
-# Review and Iteration (Stage 10)
+# Review and Iteration (Stage 13)
 
 Contents: when to use · the 12-point review · symptom → prompt fix · one-change rule · when to leave AI and finish in an editor · pre-publish checklist · reviewing a set · reuse
 
@@ -12,16 +12,16 @@ Check in this order (functional first, aesthetic last). Items 10-11 apply whenev
 
 1. **Truth:** Does the product look like the real product? Any invented logo, mark, claim, or wrong cultural detail?
 2. **Text accuracy:** Name, price, dates, numbers, spelling, no extra or missing words. Character by character.
-3. **Three-second test:** What is it, who is it for, what do I do?
+3. **Physical distance test:** Simulate the intended viewing distance. Shrink the image to represent the physical scale. Is the headline readable? Is the primary element still dominant? Does the design communicate in the available time (1–3 seconds for roadside, 5–15 for foot traffic)?
 4. **Hierarchy and reading path:** Is there a single clear hero? Does the eye go headline → hero → price → action?
-5. **Legibility:** Contrast, size at phone width, text on calm areas.
+5. **Legibility:** Contrast (value, not just hue), size at physical scale and viewing distance, text on calm areas.
 6. **Message fit:** Does it say the one message from the brief, not three?
 7. **Audience/culture fit:** Faces, food, motifs, tone, and register right for the buyers?
 8. **Slop tells:** glow, gloss, floating items, filler decoration, generic stock people (use the anti-slop audit).
 9. **Brand fit and distinction:** Would it look wrong for a different business (swap test)? Are the USP and the anchors visible?
-10. **Space and restraint:** Is there a calm area, clear margins, and gaps between groups? Anything decorative that does not carry meaning? Would the message survive removing one more element?
-11. **Fidelity to attached images:** product, logo, mascot, person match the originals; nothing altered or invented; existing design improved as agreed.
-12. **Medium fit:** Correct ratio, safe zones, density; print-ready or at least upscalable?
+10. **Space and restraint:** Is there a calm area, clear margins, and gaps between groups? Anything decorative without purpose?
+11. **Fidelity to attached images:** product, logo, mascot, person match the originals; existing design improved as agreed.
+12. **Physical production readiness:** Correct ratio; text strategy appropriate for the medium; type at a scale that works at the intended viewing distance; outdoor pieces have sufficient value contrast; production note given to owner.
 
 Report in plain language: "3 hal sudah bagus, 2 hal perlu diperbaiki: ..." and give the fixes.
 
@@ -30,20 +30,19 @@ Report in plain language: "3 hal sudah bagus, 2 hal perlu diperbaiki: ..." and g
 | What you see | Likely cause | One-change fix to the prompt |
 |---|---|---|
 | Hero looks different from the real product | No reference or weak "keep exactly" | Re-run with the product photo as reference and the keep-exactly sentence; or composite the real photo in an editor |
-| Misspelled or garbled text | Too much/small text, unreliable tool | Reduce to fewer, larger lines; or switch to strategy B/C and add text in an editor |
-| Everything the same size | Missing size ranks | State "headline largest, price second, everything else at 1/4 the headline size" |
-| Cluttered with decoration | No exclusion line or vague style | Add a specific exclusion list; add "large calm empty area around the hero" |
-| Plastic or glossy look | Defaults for lighting/material | Specify "matte, natural window light, visible texture, slight imperfection" |
-| Text unreadable on image | Busy background or low contrast | Specify a flat panel or calm zone with strong light-on-dark contrast |
+| Misspelled or garbled text | Too much/small text, unreliable tool | Reduce to fewer, larger lines; or switch to strategy B and add text in an editor |
+| Everything the same size | Missing size ranks | State "headline largest at 30% canvas height, price second at 15%, everything else at 8% or smaller" |
+| Cluttered with decoration | No exclusion line or vague style | Add specific exclusion list; add "large calm empty area around the hero, about 40% of canvas" |
+| Plastic or glossy look | Defaults for lighting/material | Specify "matte, natural window light, visible texture, slight imperfection on surface" |
+| Text unreadable in the physical piece | Type too small for viewing distance | Increase headline to 28–35% canvas height; reduce total text to fewer, larger elements |
+| Design works on screen but fails printed | Screen scale vs print scale mismatch | Recalculate type sizes as % of canvas height; verify element count matches medium budget |
+| Insufficient contrast outdoors | Low value contrast chosen for screen | Add "high value contrast throughout — white or off-white text on deep-toned background; no light-on-light" |
+| Too much information for a roadside piece | Content not filtered for viewing duration | Reduce to 3–5 words maximum; move secondary information to a separate flyer |
+| Text unreadable on image | Busy background or low contrast | Specify a flat solid panel or calm zone with strong light-on-dark contrast |
 | Generic centered layout | Composition not specified | Specify asymmetry with zones and eye path |
 | Crowded, every corner filled | Space not allocated | Add "about 40% of the canvas calm and empty, flat color, mainly [where]; no decorative elements" and remove one element |
-| Attached image ignored or altered | Role, treatment, or keep-unchanged unclear | Restate the ATTACHED IMAGES block: order, role, "keep exactly", placement and size; or composite in an editor |
-| Colors off-brand or neon | Colors not given | Give hex values and roles |
-| Wrong people (faces, clothing) | No description | Describe specific age, clothing, setting; or remove people / use real photo |
-| Wrong ratio/cropping | Ratio ignored | Set ratio in the tool interface; restate in the prompt; check safe zones |
-| Feels cold or off-mood | Light/color/temperature unspecified | Specify the warm or cool light, surface material, and two feelings |
-| Elements floating or unrealistic | Missing grounding | "Everything rests on the counter; nothing floats" |
-| Style wanders between variations | No consistent system | Reuse skeleton; reference the earlier image as style reference |
+| Attached image ignored or altered | Role, treatment, or keep-unchanged unclear | Restate the ATTACHED IMAGES block: order, role, "keep exactly", placement and size |
+| Colors off-brand or neon | Colors not given | Give hex values and roles for all three palette positions |
 
 ## 4. One-change rule
 
