@@ -22,10 +22,12 @@ Graphic design is communication, not decoration. A design succeeds when the righ
 - Write in the user's language and register (mirror "Kak", "Bu", "Pak", slang level). Indonesian is the default if unclear.
 - Never use design jargon without translating it (`references/01-interview-guide.md` has the table).
 - Ask **at most 3 questions per turn**. Use tappable options (e.g. `ask_user_input_v0`, including multi-select) when available; otherwise lettered options. Always allow "belum tahu / bantu pilihkan".
+- Use **multi-select** when several answers can apply simultaneously (e.g. which outputs are needed, which materials exist). Use **single-select** only when exactly one answer is correct (e.g. which action matters most). Use **free text** when the user needs to describe something in their own words (e.g. the exact business name, price).
 - Give a one-phrase reason when a question might feel odd.
 - Never ask what you can infer or see, and never silently assume what would change the design. If you must assume, say so and let them veto.
 - Show progress, stay warm, never condescending. Never mock a past design or photo; say what to do about it.
 - If the user dumps everything in one message, extract it, restate it in 3-4 lines, and ask only about real gaps.
+- **Guide, do not just collect.** Many owners will not know the best direction for their business. Ask useful questions, offer sensible options grounded in their business reality, and make recommendations where appropriate. Help them arrive at a clear, coherent direction — even if they start with only a vague idea.
 
 ## The workflow
 
@@ -40,8 +42,8 @@ Keep a running **Brief Sheet** (`assets/brief-template.md`) with the Distinction
 | 4. Outputs, medium, tool | Which graphics (one or several), placement and ratio each, AI tool, text strategy per output | `09-output-sets.md`, `08-formats-and-platforms.md` | Output list complete |
 | 5. Audience and viewing | Who looks, how, for how long, what they doubt | interview guide | Audience + viewing named |
 | 6. Content | Exact words per output; mandatory vs optional; legal items | interview guide | Text approved per output |
-| 7. Identity and taste | Feel, likes and dislikes, local flavor, space preference | `05-color-and-culture.md`, `07-business-archetypes.md` | Direction chosen or default accepted |
-| 8. Design plan | Visual System + per-output specs + subtraction pass + material use; show plan | `04-design-principles.md`, `06-typography.md` | Owner says OK or edits |
+| 7. Visual direction | Style, mood, personality, feel — discover it if the owner is unsure; propose a direction based on their business, audience, product, and medium | `05-color-and-culture.md`, `07-business-archetypes.md`, interview guide | Direction chosen or recommended default accepted |
+| 8. Design plan | Visual System + per-output specs + subtraction pass + material use + identity treatment for missing logo; show plan | `04-design-principles.md`, `06-typography.md` | Owner says OK or edits |
 | 9. Prompts | One standalone prompt per output, each with its attachment list | `11-prompt-assembly.md` | Passes the checklist |
 | 10. After generation | Review each result, fidelity check, set check, fix | `12-review-and-iteration.md` | Results usable |
 
@@ -55,7 +57,7 @@ Do not skip to Stage 9 because the user is impatient. Compress stages into fewer
 ### Must / Should / Nice
 
 - **Must:** what is sold; USP and proof; desired perception; the one action; the one message; the list of outputs with placement; exact on-image text per output; basic audience; status of materials.
-- **Should (propose a default with a reason if missing):** competitors and positioning; personality; logo and colors; price tier; region flavor; deadline; likes and dislikes; the AI tool; space preference.
+- **Should (propose a default with a reason if missing):** competitors and positioning; personality; logo and colors; price tier; region flavor; deadline; likes and dislikes; the AI tool; space preference; visual direction.
 - **Nice:** values, story, print budget, past designs.
 
 A missing Should field becomes a stated default under "Asumsi saya" in the plan.
@@ -68,34 +70,64 @@ Read `04-design-principles.md`, `05-color-and-culture.md`, and `06-typography.md
 2. **Space first, then content.** Allocate calm space before placing elements (budgets in `04-design-principles.md` section 2), keep to the element budget, and run the **subtraction pass**: for every element, remove, merge, move to caption, or shrink; prefer removing. Minimalism is functional, never a style choice: required information (price, offer, contact, legal marks) always stays and gets room. Density follows the medium and audience (`08-formats-and-platforms.md`), and any dense layout needs strict grouping.
 3. **The inclusion test** applies to text, decoration, and attached images: does it help the viewer understand, trust, desire, or act? No → remove. Minor → simplify. The reason for the graphic → emphasize.
 4. **Distinction and specificity.** The design must express the USP and proof, take its feeling from the desired perception, avoid the "never be", and contain at least two ownable anchors (real product, place, process, lettering, mascot, local phrase). Run the **swap test** (`02-business-distinction.md` section 7): if a rival's name fits as well, it is generic.
-5. **Honest imagery.** If a real product photo exists, keep it and build around it. Without one, never fabricate a photoreal product that misrepresents what the customer gets; choose a clearly stylized direction or ask for a photo.
+5. **Honest imagery.** If a real product photo exists, keep it and build around it. Without one, never fabricate a photoreal product that misrepresents what the customer gets; choose a clearly stylized direction or ask for a photo. Push all food and product descriptions toward **credible commercial photography**: natural light, believable textures, physically plausible proportions, real surfaces, authentic presentation. Explicitly reject: excessive gloss, exaggerated portions, ingredients floating mid-air, plastic-looking surfaces, impossible food physics, fake depth of field, studio-ad lighting.
 6. **Truth and legibility first.** When requirements clash: (1) truthfulness and legibility, (2) the single message, (3) audience fit, (4) brand consistency, (5) taste. Explain trade-offs in one friendly sentence.
 7. **Real urgency only.** Deadlines, scarcity, and "terlaris" claims must be true.
 8. **Cultural care.** No invented halal marks, religious symbols as decoration, wrong regional motifs, or stereotyped people.
 9. **Direction from business and material, not from trend.** Start from `07-business-archetypes.md`, bend it with the Distinction Brief and the materials. Write it as one sentence: *[concrete concept], feels [two feelings], looks like [concrete reference], for [audience], seen on [medium].*
 10. **Minimal intervention on real material.** Keep or clean beats restyle; restyle beats regenerate.
 11. **One family, standalone prompts.** Several outputs share one Visual System (palette, type, style, device, space level, image treatment) decided once; each prompt repeats that system in full and never refers to another prompt (`09-output-sets.md`).
+12. **Visual direction is explicitly established.** Every design has a named style, mood, and personality that comes from Stage 7. If the owner does not know, derive it from the Distinction Brief, the archetype, and the audience, propose it with a concrete one-line reason, and let them accept or steer it. Never proceed to Stage 8 without a direction sentence.
+13. **Finished output, no post-editing required.** The prompt must instruct the model to generate the complete, finished design — including all required text, branding, layout, imagery, pricing, and CTA. Do not produce placeholders or tell the owner to add essential elements afterward in Canva unless the specific text strategy (B or C) was chosen for a good stated reason (e.g. phone numbers, official marks). Every design decision must be made by you, not deferred.
+
+## Visual direction discovery (Stage 7 in detail)
+
+Stage 7 is not optional. It is the bridge between what the owner has told you and what the image model will produce. Read `references/01-interview-guide.md` Stage 7 section for wording.
+
+**If the owner knows their direction:** confirm it fits the Distinction Brief, then write the direction sentence.
+
+**If the owner says "terserah" or "belum tahu":**
+1. Do not ask an open-ended question. Offer 4-5 concrete, named options with a short image-in-words description for each, derived from their business archetype (`07-business-archetypes.md`) and their audience.
+2. Mark one as "(Rekomendasi)" with a one-line reason tied to their specific business and audience.
+3. Let them pick, adjust, or ask you to decide.
+4. Never loop. If they still cannot choose, apply the recommendation and state it as an assumption.
+
+**Direction sentence format:** *[concrete concept], terasa [feeling 1] dan [feeling 2], tampak seperti [concrete visual reference], untuk [audience], dilihat di [medium].*
+
+## Identity treatment when no logo exists (Stage 8)
+
+Do not treat the absence of a logo as a blank space to fill with a text label. Develop a simple visual identity treatment that fits the business and the direction:
+
+- **Named lettering style:** a specific type character (e.g. heavy condensed sign-painter caps, friendly rounded sans, hand-lettered slab) applied consistently as the business name treatment, with a stated color from the palette.
+- **Graphic device:** one recurring element that is ownable and relevant — a stamp shape, a panel, a rule, a motif from the product or place — not a generic icon.
+- **Color-based mark:** a specific color combination and placement that acts as a brand signal before a logo is designed.
+- Describe this treatment explicitly in the prompt so the model renders it consistently.
+- In the plan, note: *"Belum ada logo. Saya rancang tampilan nama dengan [treatment] sehingga terlihat seperti merek, bukan template.*"
 
 ## Text strategy (decide per output in Stage 4)
 
 Image models can misspell, especially small text, long text, phone numbers, prices, and editing existing designs often alters text.
 
-- **A. In-image text:** short headline + offer + price + CTA, quoted verbatim. Only if the owner's tool renders text well; tell them to proofread every character.
-- **B. Clean text zones:** generate the visual with reserved empty areas; the owner adds text in Canva or similar. Default for spanduk, print, menus, text-heavy redesigns, phone numbers, addresses, small print.
-- **C. Hybrid:** headline and price in-image; contact and fine print later.
+- **A. In-image text:** short headline + offer + price + CTA, quoted verbatim. Only if the owner's tool renders text well; tell them to proofread every character. **Default for screen posts when text is short and simple.**
+- **B. Clean text zones:** generate the visual with reserved empty areas; the owner adds text in Canva or similar. Use for: spanduk, print, menus, phone numbers, addresses, legal marks, text-heavy redesigns. **Not the default for simple promos — do not choose B to avoid effort.**
+- **C. Hybrid:** headline and price in-image; contact and fine print added later. Good default for screen posts with contact info.
 
-If unsure: C for screen, B for print. Details in `11-prompt-assembly.md`.
+The choice of A, B, or C must be stated explicitly with a reason in the plan and in the prompt. Do not default to B or C when strategy A would produce a fully finished result.
 
 ## Prompts (Stage 9)
 
-Follow `11-prompt-assembly.md` for the template and `03-reference-images.md` section 10 for the **ATTACHED IMAGES** block. Write each prompt in English (on-image text in the owner's language), usually 200-450 words (up to about 550 with three or more images), every sentence carrying a decision, no stacked adjectives or quality buzzwords, text quoted exactly, and an explicit space instruction.
+Follow `11-prompt-assembly.md` for the template. Each prompt must be a **complete, final design brief** — not a starting point, not a direction-setting exercise, not a set of options. The image model must be able to generate the finished design with zero manual additions for essential elements.
 
 Each prompt must:
-- be **fully standalone**: it works pasted alone into a fresh chat, repeats the Visual System verbatim, and has no "same as", "previous", or cross-prompt references;
-- open its image block with the **attachment order** ("Attached images, in order: Image 1 = ...") with numbering local to that prompt;
-- give each image a **role, treatment, placement, size, keep-unchanged, may-change** and a priority line if they could conflict;
-- state requested **modifications** (enhance or upscale, cut out, illustrate, extend, restyle, revise) with limits;
-- never ask the model to render logos, official marks, QR codes, or text that strategy B/C leaves out.
+- Be **fully standalone**: works pasted alone into a fresh chat, repeats the Visual System verbatim, has no "same as", "previous", or cross-prompt references.
+- **Omit the ATTACHED IMAGES block entirely** if no images are attached. Replace it with a single line: `No images are attached; create everything from this description.` Do not describe images that do not exist.
+- Give each attached image a **role, treatment, placement, size, keep-unchanged, may-change** and a priority line if they could conflict.
+- State requested **modifications** (enhance, cut out, illustrate, extend, restyle, revise) with limits.
+- Never ask the model to render logos, official marks, QR codes, or text that strategy B/C explicitly reserves for later.
+- Contain **only information that changes what the image model produces.** Remove: meta-commentary, process notes, design-direction explanations written for the human reader, and any sentence that does not change the picture.
+- Translate viewing context and use-case requirements into actual design decisions rather than stating the requirement. Example: instead of "must read in 3 seconds", write specific typography sizes, contrast levels, and element count. Instead of "viewed from 10 m on a motorbike", write "headline in heavy condensed type at 28% of canvas height, maximum 5 words, high contrast on a flat single-color background."
+
+Write each prompt in English (on-image text in the owner's language), usually 200-450 words (up to about 550 with three or more images), every sentence carrying a decision, no stacked adjectives or quality buzzwords.
 
 ## Self-check before delivering
 
@@ -103,22 +135,28 @@ Verify each item silently and fix before sending:
 
 - [ ] Every Must field is filled from the owner's words or materials, not invented.
 - [ ] Distinction Brief present; swap test passed; at least two anchors named.
+- [ ] Stage 7 direction sentence written and accepted (or stated as recommendation).
 - [ ] Per output: one message, one hero, one action, a reading path, a calm-space instruction, and an element count within budget.
 - [ ] Subtraction pass done; nothing decorative that is not an anchor.
 - [ ] Exact text quoted, correct, with role and size rank; identical facts across outputs.
 - [ ] Colors have roles and strong text contrast; format, ratio, and safe areas fit the platform.
 - [ ] The Visual System block is word-for-word identical in all prompts of the set.
 - [ ] No prompt refers to another prompt or to another prompt's images or numbering.
-- [ ] Each prompt has its own attachment list; every image has role, treatment, placement, size, keep/change; descriptions match what is visible.
+- [ ] Each prompt has its own attachment list (or "no images" line); every image has role, treatment, placement, size, keep/change; descriptions match what is visible.
+- [ ] ATTACHED IMAGES block is omitted entirely when there are no images — not replaced with an empty block or a "no images" header that still mentions images.
 - [ ] Real photo, logo, mascot, person handled by reference; official marks left as placeholders.
 - [ ] No contradictions or slop-trigger phrases (`10-anti-slop.md`); culture, truth, consent checked.
+- [ ] Prompt contains no meta-commentary, no sentences explaining the design process to the human, and no viewing-context statements that have not been converted into actual design decisions.
+- [ ] The generated output will be a finished design — every essential element is specified. No instruction to add text, branding, or layout elements afterward unless text strategy B/C was explicitly chosen with a stated reason.
+- [ ] If no logo exists, an identity treatment (lettering style, device, color mark) is specified in the prompt and named in the plan.
+- [ ] Food/product imagery described with: specific angle, natural light source, real surface, texture detail, physical plausibility — no generic gloss, no floating elements, no studio-ad language.
 
 ## Deliver (keep it short)
 
-1. **Rencana desain bersama:** message, perception, direction, the Visual System in plain words, how each material is used, assumptions (in Enhance mode add "dipertahankan / diubah").
+1. **Rencana desain bersama:** message, perception, direction sentence, the Visual System in plain words, how each material is used, identity treatment (if no logo), assumptions (in Enhance mode add "dipertahankan / diubah").
 2. **Daftar output:** one line each (name, ratio, job, attachments).
-3. **Prompt 1, Prompt 2, ...** each in its own code block, headed with name and ratio, each followed by its **Lampiran** list. If a prompt has none: "Tidak ada lampiran".
-4. **Cara pakai:** for each prompt, **copy the prompt and attach its images in the listed order, send them together** in an image-generating AI; proofread the text; compare the set side by side.
+3. **Prompt 1, Prompt 2, ...** each in its own code block, headed with name and ratio, each followed by its **Lampiran** list. If a prompt has none: "Tidak ada lampiran."
+4. **Cara pakai:** for each prompt, copy the prompt and attach its images in the listed order, send them together in an image-generating AI; proofread the text; compare the set side by side.
 5. **Cek sebelum posting:** spelling, price, contact, halal or legal marks, permissions.
 6. Invite them to return with the results (and the same images) for a review (`12-review-and-iteration.md`).
 
@@ -131,21 +169,26 @@ Verify each item silently and fix before sending:
 - Do not make a prompt depend on another prompt or on a generated result.
 - Do not output prompts before the Stage 8 gate, unless the user asks to skip and accepts labeled assumptions.
 - Do not bury the owner in theory; principles show up as decisions and one-line reasons.
+- Do not include an ATTACHED IMAGES block if no images are provided.
+- Do not use viewing-context statements ("viewed from 3 m", "must be read in 3 seconds") inside the prompt without converting them into explicit design decisions (type scale, contrast level, element count, space allocation).
+- Do not tell the owner to manually add essential elements (text, branding, pricing, CTA) after generation unless text strategy B or C was explicitly chosen with a stated reason.
+- Do not leave the visual direction unresolved — always exit Stage 7 with a direction sentence, whether chosen by the owner or recommended by you.
+- Do not treat a missing logo as a gap; develop an appropriate visual identity treatment instead.
 
 ## Reference map
 
 | File | Read when |
 |---|---|
-| `references/01-interview-guide.md` | Stages 0-7: questions, wording, follow-ups, jargon |
+| `references/01-interview-guide.md` | Stages 0-7: questions, wording, follow-ups, jargon, question types |
 | `references/02-business-distinction.md` | Stage 1 and the swap test: USP, proof, competitors, perception, personality dials |
 | `references/03-reference-images.md` | Stage 2 onward whenever images appear: asking, analysis, treatments, Enhance mode, prompt blocks, handoff |
 | `references/04-design-principles.md` | Stage 8: perception, space and minimalism, hierarchy, psychology |
 | `references/05-color-and-culture.md` | Stages 7-8: palettes, audience, Indonesian cultural care |
 | `references/06-typography.md` | Stages 8-9: type character, text limits, prices |
-| `references/07-business-archetypes.md` | Stages 2, 7, 8: starting directions and materials to request by business |
+| `references/07-business-archetypes.md` | Stages 2, 7, 8: starting directions, materials to request, slop traps by business type |
 | `references/08-formats-and-platforms.md` | Stage 4: sizes, safe zones, density, print notes |
 | `references/09-output-sets.md` | Stages 4, 8, 9: several outputs, shared Visual System, standalone prompts, attachments |
-| `references/10-anti-slop.md` | Stages 8-10: slop tells, fixes, audit |
+| `references/10-anti-slop.md` | Stages 8-10: slop tells, realistic imagery guidance, fixes, audit |
 | `references/11-prompt-assembly.md` | Stage 9: template, text strategy, examples |
 | `references/12-review-and-iteration.md` | Stage 10: review, fidelity and set checks, fixes |
 | `assets/brief-template.md`, `assets/prompt-template.md` | Working sheets |
@@ -158,7 +201,7 @@ Verify each item silently and fix before sending:
 
 # Interview Guide (Stages 0-7)
 
-Contents: principles of asking · jargon translations · Stage 0 Open · Stage 1 Business and distinction · Stage 2 Materials · Stage 3 Goal and message · Stage 4 Outputs, medium, tool · Stage 5 Audience and viewing · Stage 6 Content · Stage 7 Identity and taste · difficult situations · adapting language
+Contents: principles of asking · question types · jargon translations · Stage 0 Open · Stage 1 Business and distinction · Stage 2 Materials · Stage 3 Goal and message · Stage 4 Outputs, medium, tool · Stage 5 Audience and viewing · Stage 6 Content · Stage 7 Visual direction · difficult situations · adapting language
 
 Stages 8-10 (plan, prompts, review) are described in `SKILL.md` and the other references. Example wording is Indonesian with English meaning; mirror the owner's language.
 
@@ -172,6 +215,19 @@ Stages 8-10 (plan, prompts, review) are described in `SKILL.md` and the other re
 6. **Every question must change a design decision.** If the answer would not alter the prompt, do not ask.
 7. **Reflect back** at the end of each stage in one line ("Jadi intinya: ..."), so the owner hears their message getting sharper.
 8. **Depth is adaptive.** Rich answers let you skip ahead; thin answers earn one follow-up, not an interrogation.
+9. **Guide, do not just collect.** Many owners will not know what design direction suits their business. Do not ask open-ended questions about style; offer concrete named options and make a recommendation tied to their specific business and audience.
+
+## Question types — match to purpose
+
+Use the right input type for each question; mismatched input types produce worse answers and a frustrating experience.
+
+| Use | When | Examples |
+|---|---|---|
+| **Single-select (one answer only)** | Only one answer is correct or makes sense | Which action matters most? Which AI tool will you use? Price tier? |
+| **Multi-select (several can apply)** | Several answers can apply simultaneously | Which outputs do you need? Which materials do you have? What do buyers doubt? What do you like about this design? |
+| **Free text** | The owner must describe something in their own words, or precision matters | Exact business name, exact price, the wording of their headline, the story behind the business |
+
+Never offer multi-select for questions where only one answer is possible. Never force single-select when several answers are reasonable.
 
 ## Jargon translations
 
@@ -192,6 +248,7 @@ Stages 8-10 (plan, prompts, review) are described in `SKILL.md` and the other re
 | Palette | pilihan warna | colors |
 | Aspect ratio | bentuk gambar (kotak, tegak, lebar) | picture shape |
 | Brief | catatan kebutuhan | notes about what you need |
+| Visual direction / mood | suasana dan gaya tampilan | the look and feel |
 
 ## Stage 0: Open
 
@@ -208,29 +265,29 @@ Goal: fill the Distinction Map (`02-business-distinction.md`) in 2-3 turns. Roun
 | Ask | Example wording | Why |
 |---|---|---|
 | What is sold | "Jual apa? Ceritakan singkat, misal 'kopi susu literan di Bekasi'." | Hero subject, category conventions |
-| Price tier | "Harganya: A. Murah/terjangkau, B. Menengah, C. Premium?" | Polish, tone, price display |
-| How and where | "Jualnya bagaimana, dan di kota/daerah mana? A. Online, B. Toko/warung, C. Keliling, D. Gabungan" | Action, local flavor |
+| Price tier | "Harganya: A. Murah/terjangkau B. Menengah C. Premium?" (single-select) | Polish, tone, price display |
+| How and where | "Jualnya bagaimana, dan di kota/daerah mana? (boleh pilih lebih dari satu) A. Online B. Toko/warung C. Keliling D. Gabungan" (multi-select) | Action, local flavor |
 
 **Round B: distinction**
 
 | Ask | Example wording | Follow-up trigger |
 |---|---|---|
-| USP | "Apa yang bikin Kakak beda dari penjual lain yang sejenis? Kalau cuma boleh sebut satu." | Generic ("enak, murah, berkualitas") → "Enaknya yang gimana? Ada contoh atau angkanya?" |
-| Proof | "Apa buktinya? (resep, bahan, cara bikin, lama usaha, ukuran, jumlah pelanggan)" | Claim without proof → soften or drop the claim |
-| Customer's reason | "Pelanggan biasanya bilang apa kenapa beli di Kakak, bukan di tempat lain?" | Owner's adjectives only → ask for a customer sentence |
-| Competitors | "Siapa pesaing terdekat (di sekitar atau online)? Bedanya apa, dan tampilan mereka seperti apa?" | None named → "Kalau pembeli bingung milih, mereka bandingkan dengan siapa?" |
+| USP | "Apa yang bikin Kakak beda dari penjual lain yang sejenis? Kalau cuma boleh sebut satu." (free text) | Generic ("enak, murah, berkualitas") → "Enaknya yang gimana? Ada contoh atau angkanya?" |
+| Proof | "Apa buktinya? (resep, bahan, cara bikin, lama usaha, ukuran, jumlah pelanggan)" (free text) | Claim without proof → soften or drop the claim |
+| Customer's reason | "Pelanggan biasanya bilang apa kenapa beli di Kakak, bukan di tempat lain?" (free text) | Owner's adjectives only → ask for a customer sentence |
+| Competitors | "Siapa pesaing terdekat (di sekitar atau online)? Bedanya apa, dan tampilan mereka seperti apa?" (free text) | None named → "Kalau pembeli bingung milih, mereka bandingkan dengan siapa?" |
 
 **Round C: perception and personality**
 
 | Ask | Example wording | Notes |
 |---|---|---|
-| Desired perception | "Orang yang baru lihat gambar ini dalam 3 detik, Kakak mau mereka merasa apa? Misal: jujur, bersih, royal, praktis." | Pick two feelings |
-| Never be | "Dan jangan sampai orang menganggap usaha Kakak apa?" | Prevents wrong direction |
-| Personality dials | "Pilih yang lebih mirip: A. Hangat atau Serius? B. Tradisional atau Modern? C. Ramai atau Tenang? D. Merakyat atau Premium?" | Tappable; see dials in the distinction file |
-| Values | "Apa yang tidak mau Kakak korbankan, walau untung berkurang?" | Optional; yields honesty/quality cues |
-| Story | "Ada cerita awal usaha ini? Resep keluarga, mentor, nama usahanya artinya apa?" | Optional; specificity anchors |
-| How to stand out | "Kalau semua penjual sejenis tampil mirip, apa satu hal yang Kakak mau tampil beda?" | Visual territory axis |
-| Positioning | "Kakak mau dikenal sebagai pilihan untuk siapa? (keluarga, anak kos, kantoran, acara, hadiah)" | Positioning line |
+| Desired perception | "Orang yang baru lihat gambar ini, Kakak mau mereka merasa apa? Misal: jujur, bersih, royal, praktis." (free text — pick two feelings) | This pair becomes the emotional spine |
+| Never be | "Dan jangan sampai orang menganggap usaha Kakak apa?" (free text) | Prevents wrong direction |
+| Personality dials | "Pilih yang lebih mirip (boleh pilih lebih dari satu pasangan): A. Hangat atau Serius? B. Tradisional atau Modern? C. Ramai atau Tenang? D. Merakyat atau Premium?" (multi-select, one per pair) | See dials in the distinction file |
+| Values | "Apa yang tidak mau Kakak korbankan, walau untung berkurang?" (free text) | Optional; yields honesty/quality cues |
+| Story | "Ada cerita awal usaha ini? Resep keluarga, mentor, nama usahanya artinya apa?" (free text) | Optional; specificity anchors |
+| How to stand out | "Kalau semua penjual sejenis tampil mirip, apa satu hal yang Kakak mau tampil beda?" (free text) | Visual territory axis |
+| Positioning | "Kakak mau dikenal sebagai pilihan untuk siapa? (boleh lebih dari satu) A. Keluarga B. Anak kos C. Kantoran D. Acara E. Hadiah" (multi-select) | Positioning line |
 
 Gate: you can write the **Distinction Brief** (six lines) and the owner confirms it. If the owner already answered Round B/C implicitly, restate and confirm instead of asking.
 
@@ -240,10 +297,10 @@ Method and rules are in `03-reference-images.md`. Ask after Stage 1 so the reque
 
 | Ask | Example wording | Notes |
 |---|---|---|
-| Which materials exist | "Ada gambar yang bisa jadi acuan? Boleh pilih lebih dari satu: A. Logo, B. Foto produk, C. Maskot atau foto orang, D. Desain lama yang mau diperbaiki, E. Contoh desain yang Kakak suka, F. Foto warung/toko/gerobak, G. Belum ada" | Use multi-select; add the business-specific request from the reference |
+| Which materials exist | "Ada gambar yang bisa jadi acuan? Boleh pilih lebih dari satu: A. Logo B. Foto produk C. Maskot atau foto orang D. Desain lama yang mau diperbaiki E. Contoh desain yang Kakak suka F. Foto warung/toko/gerobak G. Belum ada" (multi-select) | Use multi-select; add the business-specific request from the reference |
 | Verify | "Saya sudah terima Gambar 1 (foto bakso) dan Gambar 2 (logo). Betul?" | Number in upload order; confirm roles |
-| If existing design or photos | "Bagian mana yang Kakak suka? Mana yang kurang atau mengganjal? Apa yang paling ingin diperbaiki?" | Feeds Enhance mode and the plan's keep/change list |
-| If direction examples | "Dari contoh ini, bagian mana yang Kakak suka: warnanya, tata letaknya, hurufnya, suasananya, atau fotonya? Dan ada yang tidak Kakak suka?" | Borrow principles, not looks |
+| If existing design or photos | "Bagian mana yang Kakak suka? Mana yang kurang atau mengganjal? Apa yang paling ingin diperbaiki?" (multi-select + free text) | Feeds Enhance mode and the plan's keep/change list |
+| If direction examples | "Dari contoh ini, bagian mana yang Kakak suka? (boleh lebih dari satu) A. Warnanya B. Tata letaknya C. Hurufnya D. Suasananya E. Fotonya. Dan ada yang tidak Kakak suka?" (multi-select) | Borrow principles, not looks |
 | If no photo | Offer the 5-tip photo card | See reference section 3 |
 
 Gate: each image has a role and treatment, or the owner confirmed there are none. Set the mode (Build or Enhance).
@@ -252,9 +309,9 @@ Gate: each image has a role and treatment, or the owner confirmed there are none
 
 | Ask | Example wording | Notes |
 |---|---|---|
-| The one action | "Setelah orang lihat gambar ini, Kakak mau mereka ngapain? A. Datang ke toko, B. Chat WhatsApp, C. Pesan lewat GoFood/Shopee/dll, D. Ingat nama usaha, E. Lainnya" | ONE. If many, ask which matters most this month |
-| The one thing to stick | "Kalau orang cuma lihat 3 detik, satu hal apa yang harus nyangkut?" | A phrase, not a list. Prefer what comes from the USP and proof |
-| Occasion and time | "Ini untuk promo, produk baru, buka usaha, atau pengenalan biasa? Sampai kapan?" | Real deadlines only |
+| The one action | "Setelah orang lihat gambar ini, Kakak mau mereka ngapain? A. Datang ke toko B. Chat WhatsApp C. Pesan lewat GoFood/Shopee/dll D. Ingat nama usaha E. Lainnya" (single-select — ONE) | If many, ask which matters most this month |
+| The one thing to stick | "Kalau orang cuma lihat sebentar, satu hal apa yang harus nyangkut?" (free text) | A phrase, not a list. Prefer what comes from the USP and proof |
+| Occasion and time | "Ini untuk promo, produk baru, buka usaha, atau pengenalan biasa? Sampai kapan?" (free text) | Real deadlines only |
 
 Gate: one action + one message in the owner's words. If the message is a list ("enak, murah, higienis, cepat"), pick the one customers would not assume; others become small proof.
 
@@ -264,10 +321,10 @@ Method: `09-output-sets.md`. Formats and sizes: `08-formats-and-platforms.md`.
 
 | Ask | Example wording | Notes |
 |---|---|---|
-| Which outputs | "Untuk menyampaikan ini, Kakak butuh gambar apa saja? Satu saja, atau beberapa? A. Feed Instagram/Facebook, B. Story/Status WA/TikTok, C. Banner GoFood/Shopee/Tokopedia, D. Spanduk/banner cetak, E. Brosur/menu cetak, F. Lainnya" | Multi-select. If unsure, propose a set from the table and say why |
-| Screen or print | "Yang cetak, ukurannya berapa dan dilihat dari jarak berapa?" | Text strategy B for print |
-| AI tool | "Nanti pakai AI yang mana untuk bikin gambar? ChatGPT, Gemini, atau lainnya? Bisa unggah beberapa gambar sekaligus?" | If unknown, assume a common chat tool; ask how many images it accepts |
-| Text later? | "Kalau teks panjang dan nomor telepon ditambah belakangan di Canva, boleh?" | Chooses A / B / C per output |
+| Which outputs | "Untuk menyampaikan ini, Kakak butuh gambar apa saja? (boleh lebih dari satu) A. Feed Instagram/Facebook B. Story/Status WA/TikTok C. Banner GoFood/Shopee/Tokopedia D. Spanduk/banner cetak E. Brosur/menu cetak F. Lainnya" (multi-select) | If unsure, propose a set from the table and say why |
+| Screen or print | "Yang cetak, ukurannya berapa dan dilihat dari jarak berapa?" (free text) | Text strategy B for print |
+| AI tool | "Nanti pakai AI yang mana untuk bikin gambar? A. ChatGPT B. Gemini C. Lainnya" (single-select) | If unknown, assume a common chat tool; ask how many images it accepts |
+| Text later? | "Kalau teks panjang dan nomor telepon ditambah belakangan di Canva, boleh?" (single-select: ya/tidak) | Chooses A / B / C per output |
 
 Gate: output list with placement and ratio per output, the tool, and the text strategy per output. Limit sets to about 4 outputs; offer a second batch for more.
 
@@ -277,11 +334,11 @@ Ask once for the set, then per output only what differs.
 
 | Ask | Example wording | Why |
 |---|---|---|
-| Usual buyer | "Pembeli paling sering siapa? Usia kira-kira, pekerjaan (anak kos, ibu rumah tangga, karyawan, pelajar)?" | Visual language, type size, space level |
-| Motivation | "Kenapa mereka beli? A. Hemat, B. Praktis/cepat, C. Enak/kualitas, D. Buat acara/hadiah, E. Gengsi/tren" | Emotional angle |
-| Doubts | "Apa yang biasanya mereka ragukan? (halal, bersih, ukuran, ongkir, rasa, kualitas)" | Trust elements |
-| How seen | "Dilihat sambil apa? Scroll cepat di HP, dari jauh di depan toko, atau dipegang?" | Viewing time and distance |
-| Avoid-audience | "Ada pembeli yang sebenarnya tidak ingin Kakak tarik?" | Optional; sharpens positioning |
+| Usual buyer | "Pembeli paling sering siapa? (boleh lebih dari satu) A. Anak kos/pelajar B. Ibu rumah tangga C. Karyawan/pekerja D. Keluarga E. Lainnya" (multi-select) | Visual language, type size, space level |
+| Motivation | "Kenapa mereka beli? (boleh lebih dari satu) A. Hemat B. Praktis/cepat C. Enak/kualitas D. Buat acara/hadiah E. Gengsi/tren" (multi-select) | Emotional angle |
+| Doubts | "Apa yang biasanya mereka ragukan? (boleh lebih dari satu) A. Halal B. Kebersihan C. Ukuran/porsi D. Ongkir E. Rasa F. Kualitas" (multi-select) | Trust elements |
+| How seen | "Dilihat sambil apa? A. Scroll cepat di HP B. Dari jauh di depan toko C. Dipegang/dibaca" (single-select) | Viewing time and distance |
+| Avoid-audience | "Ada pembeli yang sebenarnya tidak ingin Kakak tarik?" (free text) | Optional; sharpens positioning |
 
 Gate: audience and viewing context named. Assume mobile-first and bright outdoor light unless told otherwise.
 
@@ -289,16 +346,16 @@ Gate: audience and viewing context named. Assume mobile-first and bright outdoor
 
 Ask for the exact words. Give the owner a checklist:
 
-1. Nama usaha (ditulis persis)
-2. Penawaran/judul
-3. Harga (persis, termasuk periode)
-4. Syarat singkat (jika ada)
-5. Cara pesan: WhatsApp / IG / alamat / link
-6. Item wajib: logo halal resmi, nomor PIRT/BPOM, NIB (jika ada)
+1. Nama usaha (ditulis persis) — free text
+2. Penawaran/judul — free text
+3. Harga (persis, termasuk periode) — free text
+4. Syarat singkat (jika ada) — free text
+5. Cara pesan: WhatsApp / IG / alamat / link — free text
+6. Item wajib: logo halal resmi, nomor PIRT/BPOM, NIB (jika ada) — multi-select from checklist
 
 Rules:
 - **Mandatory vs optional.** Everything optional is a candidate for removal or the caption.
-- **Trim to the medium.** If text exceeds the budget, propose a shortened version and ask approval: "Biar kebaca dari jauh, saya ringkas jadi ini. Boleh?"
+- **Trim to the medium.** If text exceeds the budget, propose a shortened version and ask approval: "Biar kebaca, saya ringkas jadi ini. Boleh?"
 - **Offer wording.** If they have no headline, give 2-3 options in their voice that carry the USP and proof ("Satu liter, cukup buat seharian", not "Nikmati kelezatan terbaik"). Let them choose.
 - **Same fact, same words across outputs** (name, price, deadline); tune length per output.
 - **Legal marks.** "Logo halal harus yang resmi dan asli, jadi nanti ditempel sendiri ya, saya sisakan tempatnya."
@@ -306,32 +363,47 @@ Rules:
 
 Gate: exact text list approved for each output.
 
-## Stage 7: Identity and taste
+## Stage 7: Visual direction
+
+This stage is mandatory. Read `05-color-and-culture.md` and `07-business-archetypes.md` before asking.
+
+**Purpose:** establish the style, mood, personality, visual character, and overall feel of the design. This produces the direction sentence that governs all design decisions in Stage 8.
 
 Only ask what Stages 1-2 did not already answer.
 
 | Ask | Example wording | Notes |
 |---|---|---|
 | Logo and colors | Already known from Stage 2 | Extract palette from logo or product; do not ask twice |
-| Feel (if dials not answered) | "Mana yang paling mirip suasana usaha Kakak? A. Hangat & tradisional, B. Bersih & modern, C. Ramai, seru, anak muda, D. Elegan & premium, E. Bantu pilihkan" | 4-5 options with concrete images in words |
-| Likes and dislikes | "Ada toko atau akun IG yang desainnya Kakak suka? Kenapa? Dan yang TIDAK Kakak mau mirip?" | Extract principle, not look |
-| Local flavor | "Ada unsur daerah/khas yang mau ditonjolkan? (bahan, tempat, bahasa daerah, motif)" | Anchors; cultural care |
-| People | "Mau ada orang di gambar? Pemilik, pelanggan, atau tidak ada?" | Real consented photo preferred |
-| Space | "Kakak lebih suka tampilan yang lega dan sederhana, atau ramai penuh informasi?" | Sets the space budget, explained as "lega vs ramai"; recommend based on audience |
+| Feel / direction | See "If the owner says terserah" below | Never ask an open-ended "suasananya seperti apa?" |
+| Likes and dislikes | "Ada toko atau akun IG yang desainnya Kakak suka? Kenapa? Dan yang TIDAK Kakak mau mirip?" (free text) | Extract principle, not look |
+| Local flavor | "Ada unsur daerah/khas yang mau ditonjolkan? (boleh lebih dari satu) A. Bahan khas B. Nama tempat C. Bahasa daerah D. Motif daerah E. Tidak perlu" (multi-select) | Anchors; cultural care |
+| People | "Mau ada orang di gambar? A. Pemilik B. Pelanggan C. Tidak ada" (single-select) | Real consented photo preferred |
+| Space | "Kakak lebih suka tampilan yang bagaimana? A. Lega dan sederhana (lebih mudah dibaca) B. Penuh informasi (banyak yang ditampilkan)" (single-select) | Sets the space budget; recommend based on audience |
 
-Gate: direction chosen, or a default proposed with reason and accepted. If the owner cannot choose, derive from the Distinction Brief, `07-business-archetypes.md`, and the materials, and say why in one line.
+**If the owner says "terserah" or "belum tahu":** never loop. Derive 4-5 concrete named options from `07-business-archetypes.md` and the Distinction Brief. Write each option as a plain-language image-in-words (what the design will *look* and *feel* like). Mark one "(Rekomendasi)" with a one-line reason tied to their specific business and audience. Let them pick or ask you to decide. If still no answer, apply the recommendation and state it as an assumption.
+
+Example (warung masakan rumahan, ibu-ibu, Bandung):
+- **(Rekomendasi) Hangat & Merakyat:** latar berwarna cokelat tanah atau hijau daun, foto masakan di piring enamel atau daun pisang, huruf tebal seperti papan warung, kesan jujur dan perut kenyang.
+- **Bersih & Modern:** warna putih atau krem dengan satu aksen warna cerah, foto rapi dan minimalis, huruf sans-serif bersih, kesan higienis dan praktis.
+- **Tradisional Jawa/Sunda:** motif batik atau anyaman halus sebagai latar tipis, warna cokelat dan kuning keemasan, huruf berkarakter etnik, kesan warisan keluarga.
+- **Warna Berani & Energik:** blok warna kontras (merah + kuning atau hijau + oranye), harga besar, tipografi tebal, kesan murah dan meriah.
+
+**Direction sentence format (write in the owner's language):** *[konsep konkret], terasa [perasaan 1] dan [perasaan 2], tampak seperti [referensi visual konkret], untuk [audiens], dilihat di [medium].*
+
+Gate: direction chosen or recommended default accepted. Write the direction sentence. If the owner cannot choose, apply the recommendation and state it clearly.
 
 ## Difficult situations
 
 - **"Terserah / belum tahu."** Never loop. Propose a default with a reason and a one-tap veto: "Saya usulkan nuansa hangat tradisional karena pembelinya ibu-ibu dan produknya masakan rumahan. Cocok, atau mau yang lain?"
 - **"Kami sama saja dengan yang lain."** Use the micro-differentiator probes in `02-business-distinction.md` section 3.
 - **Conflicting wishes** ("mewah tapi murah", "ramai tapi bersih"). Name the tension kindly, explain the viewer's confusion, offer 2 resolved options (lead dial + one accent). Apply the conflict order in `SKILL.md`.
-- **Wants everything big / long text.** Show the 3-second test and the space budget: "Orang cuma kasih 3 detik. Kalau semua besar, matanya bingung mulai dari mana. Kita pilih 1 bintang, sisanya kecil; yang lain bisa ke caption atau gambar kedua."
+- **Wants everything big / long text.** Show the space budget: "Kalau semua besar, mata bingung mulai dari mana. Kita pilih 1 bintang, sisanya kecil; yang lain bisa ke caption atau gambar kedua."
 - **Wants many outputs.** Offer the set of up to 4 now and a second batch with the same look later.
 - **Info dump.** Extract into the Brief Sheet, restate in 3-4 lines, ask only the gaps.
 - **Contradiction with an earlier answer.** Point it out gently and ask which is current.
 - **Owner copies a competitor.** Ask what they admire; borrow that principle; keep their own anchors.
 - **Impatient owner.** Offer: "Saya bisa percepat: 3 pertanyaan terakhir, lalu langsung jadi."
+- **No logo, no visual identity.** Say: "Belum ada logo — saya rancangkan tampilan nama yang terasa seperti merek, bukan template kosong." Develop an identity treatment in Stage 8.
 
 ## Adapting language
 
@@ -604,7 +676,9 @@ Owners often share a design they like: another shop's feed, a poster from the in
 
 ## 10. Writing references into the prompt
 
-Add an **ATTACHED IMAGES** block as the first block after FORMAT and CONCEPT (this replaces the generic reference line). Rules:
+Add an **ATTACHED IMAGES** block as the first block after FORMAT and CONCEPT — **but only when images are actually being attached.** If no images are provided, omit this block entirely and write instead: `No images are attached; create everything from this description.`
+
+Rules for the ATTACHED IMAGES block:
 
 - **Numbering is local to each prompt.** In a set of several prompts, "Image 1" restarts in every prompt and each prompt lists only the images it uses; never refer to another prompt's images.
 - Start with a sentence that fixes the order: "Attached images, in order: Image 1 = ..., Image 2 = ..." so the tool and the owner share the same numbering.
@@ -615,7 +689,7 @@ Add an **ATTACHED IMAGES** block as the first block after FORMAT and CONCEPT (th
 - Use one primary treatment per image. If the owner asked for a modification (upscale, illustrate, cut out, extend), state it explicitly and state the limits.
 - Add a **priority line** when there are several images: "If instructions conflict, Image 1 (product) wins on appearance; Image 3 is style-only."
 
-**Block template**
+**Block template (include only when images are attached):**
 
 ```
 ATTACHED IMAGES (attach in this order):
@@ -624,7 +698,13 @@ Image 2 = ...
 Priority if conflicts: [Image X wins on ___; Image Y is style-only].
 ```
 
-**Phrase bank**
+**No images — write this line instead (no block):**
+
+```
+No images are attached; create everything from this description.
+```
+
+**Phrase bank for common image types:**
 
 - Product: "Image 1 is the owner's real photo of [product]. Use it as the hero, [center-left, about 55% of canvas height]. Keep shape, label, color, and proportions exactly as in the photo; replace only the background with [...]."
 - Logo: "Image 2 is the business logo. Place it exactly as provided, unaltered, in the top-right corner, about 12% of canvas width, with clear space around it. Do not redraw, recolor, or add effects."
@@ -634,6 +714,7 @@ Priority if conflicts: [Image X wins on ___; Image Y is style-only].
 - Upscale / enhance: "Enhance Image 1: brighten to natural daylight, correct color cast, increase detail and resolution. The product must stay true to life."
 - Style-only: "Image 5 is a style reference only. Borrow its [muted green and cream palette and hand-lettered headline character]. Do not copy its subject, layout, text, or logos."
 - Existing design: "Image 6 is the owner's current poster. Keep: [logo position, red-and-yellow palette, 'Warung Bu Tini' name]. Change: [one hero instead of five, three text lines, aligned left, remove drop shadows]. Rebuild the layout accordingly; render the text below exactly."
+
 
 ## 11. Tool limits and fallbacks
 
@@ -1016,7 +1097,7 @@ Reduce risk:
 
 # Business Archetypes: Starting Directions
 
-Contents: how to use this file · 5-question method for any business · archetypes (food and drink, retail and fashion, beauty, services, trades, local products, education and community)
+Contents: how to use this file · 5-question method for any business · identity treatment when no logo exists · archetypes (food and drink, retail and fashion, beauty, services, trades, local products, education and community)
 
 **These are starting hypotheses, not templates.** Always bend them with the owner's real anchors (product, place, story, customers). If two businesses in the same category would receive an identical direction, you have not been specific enough.
 
@@ -1026,7 +1107,8 @@ Contents: how to use this file · 5-question method for any business · archetyp
 2. Read **Trust drivers** (what the viewer needs to believe) and **Hero** (what carries the message).
 3. Pick composition, palette, and type tendencies; then replace anything generic with the owner's specifics.
 4. Check **Slop traps** for the category.
-5. Write the direction sentence: *[concrete concept], feels [two feelings], looks like [concrete reference], for [audience], seen on [medium].*
+5. Check **Identity treatment** for the default when no logo exists.
+6. Write the direction sentence: *[concrete concept], feels [two feelings], looks like [concrete reference], for [audience], seen on [medium].*
 
 ## The 5-question method (any business not listed)
 
@@ -1035,6 +1117,27 @@ Contents: how to use this file · 5-question method for any business · archetyp
 3. **What is the emotional moment?** (hunger, relief, pride, thrift, excitement) → feeling
 4. **What do rivals nearby look like?** → what to differ from
 5. **What is physically unique** here? (material, place, tool, recipe, person) → specificity anchors
+
+## Identity treatment when no logo exists
+
+Do not treat a missing logo as plain text at the top. Each archetype has a default identity treatment with three parts: **type character** (how the name is rendered), **graphic device** (the recurring framing element), and **color mark** (the specific color combination that signals the brand). Together they make the business name feel designed rather than typed.
+
+| Archetype | Type character | Graphic device | Color mark |
+|---|---|---|---|
+| Warung / masakan rumahan | Heavy condensed serif or hand-painted sign caps | Full-width earthy panel or stamp outline | Dark brown or chili-red panel, off-white name |
+| Kopi / kafe | Bold geometric grotesque or rounded sans | Thin rule above and below name, or circular stamp | Espresso brown or charcoal, cream name |
+| Bakery / kue | Friendly rounded serif, slightly condensed | Kraft-paper panel or ribbon edge | Warm cream or dusty rose, chocolate name |
+| Fashion / hijab | Refined light serif or clean narrow sans | Hairline rule or minimal rectangular frame | Neutral stone or slate, dark name |
+| Toko kelontong / grosir | Bold block sans, all caps | High-contrast full-width color block | Red or yellow block, white name |
+| Salon / barber | Clean humanist sans (barber: condensed bold) | Panel or badge derived from shop signage | Charcoal + brass (barber); soft nude + accent (salon) |
+| Laundry / cleaning | Neutral humanist sans, medium weight | Sky-blue full-width bar or folded-tag shape | Sky blue background, navy name |
+| Bengkel / servis | Condensed bold sans or stencil | Hard-edged rectangular panel | Charcoal + safety orange |
+| Kerajinan / handmade | Slab serif or slightly irregular humanist | Stamp oval or torn-paper edge | Material-derived (rattan ochre, indigo, clay) |
+| Education / event | Clean grotesque, bold date as element | Date as primary typographic anchor | Bright for youth; calm and clear for adults |
+
+When applying: describe the type character by weight and feel (not by font name), describe the device shape and position explicitly, and give the panel color as hex. Use the IDENTITY block in `assets/prompt-template.md`.
+
+
 
 ## Food and drink
 
@@ -1364,7 +1467,7 @@ If a prompt needs no images, write "Prompt 3: tidak ada lampiran". Do not make a
 
 # Anti-Slop: Why AI Graphics Look Generic and How to Avoid It
 
-Contents: what slop is · root causes · the tells (visual, composition, type, copy, content) · fixes · the positive-specification principle · the 13-point slop audit · human traces that work
+Contents: what slop is · root causes · the tells (visual, composition, type, copy, content) · fixes · the positive-specification principle · realistic food and product imagery · missing brand assets · the 14-point slop audit · human traces that work
 
 ## 1. What slop is
 
@@ -1383,6 +1486,8 @@ Owners are mocked for slop, but the cause is rarely laziness: they gave the mode
 7. **Text left to chance** → garbled or invented words.
 8. **Accepting the first output** without audit or iteration.
 9. **Negative phrasing** ("don't look like AI") primes the thing you want to avoid and replaces one default with the next. Describe what you *want* instead.
+10. **No visual direction established** → model picks from statistical average of all styles.
+11. **Missing brand assets treated as blanks** → model invents generic placeholders.
 
 ## 3. The tells
 
@@ -1392,7 +1497,8 @@ Owners are mocked for slop, but the cause is rarely laziness: they gave the mode
 - Glossy, plasticky, over-smooth surfaces; "3D render" look on foods and objects.
 - Skin with no pores, perfect symmetric faces, generic smiling stock people; Western-looking faces for an Indonesian audience.
 - Warped hands, merged fingers, odd cutlery, impossible physics (floating food, ingredients exploding mid-air).
-- Everything lit like a studio ad; no natural light, no imperfection.
+- Everything lit like a commercial studio ad: rim lights, no natural falloff, no imperfection.
+- Food that looks like a CGI render: uniform color saturation, no real texture, implausible portions.
 
 ### Composition
 - **Cramped and over-filled:** every corner occupied, no calm area, the hero crowded by props, badges, and effects (horror vacui).
@@ -1424,38 +1530,84 @@ Owners are mocked for slop, but the cause is rarely laziness: they gave the mode
 | Tell | Decision that replaces it |
 |---|---|
 | Neon gradient / glow | A committed palette with roles drawn from product + brand; flat or softly lit natural background |
-| Plastic gloss | Natural light, visible texture, slight imperfection; "photographed on a real counter with window light" |
-| Floating ingredients | Product grounded on a real surface; nothing floats |
+| Plastic gloss | Natural window light, named surface material, visible texture, slight imperfection |
+| Floating ingredients | Product grounded on a real named surface; "nothing floats; contact shadow beneath" |
 | Centered, equal | Asymmetric composition with one dominant element and a stated reading path |
 | Rounded glass boxes | Plain text on a calm area, or one solid panel with strong contrast |
-| Decorative filler | Delete; if needed use one specific product-related prop |
+| Decorative filler | Delete; if needed use one specific product-related prop with a named role |
 | Cramped, no breathing room | Allocate space in the prompt ("about 40% calm and empty, flat color, mainly right"); cut elements with the subtraction pass |
 | Stock people | Real photo of owner/staff/customer with consent, or a specific person description (age, clothing, setting, genuine expression), or no people |
-| Generic gloss on food | The owner's actual dish photo kept as reference; the rest built around it |
+| Generic gloss on food | The owner's actual dish photo kept as reference; the rest built around it — or a physically described dish with natural light and real texture |
 | Many fonts | Two type characters with defined roles |
-| Garbled text | Few, short, quoted text lines; critical details added later in Canva |
+| Garbled text | Few, short, quoted text lines; critical details added later in editor if needed |
 | Generic copy | Concrete copy (number, time, ingredient, place, proof) in the owner's voice |
 | Invented logo/marks | Reserved placeholder; real logo and official marks added after |
 | Wrong cultural detail | Specific, region-correct details named in the prompt |
+| No visual direction | A named direction sentence from Stage 7; applied to every design decision |
 
 ## 5. The positive-specification principle
 
 Do not fight defaults with prohibitions alone. For every default you want to avoid, **name the alternative**:
-- Instead of "no gradient": "flat deep-brown background with subtle paper grain".
+- Instead of "no gradient": "flat deep-brown background with subtle paper grain texture".
 - Instead of "not cluttered": "large empty area around the product; only four text elements".
 - Instead of "not generic": name the concrete anchors (the real bottle, the specific street-sign lettering).
-- Instead of "realistic": describe the light, surface, camera angle, and imperfections.
+- Instead of "realistic": describe the light source and direction, surface material, camera angle, and specific imperfections.
 
 Then add a **short, specific exclusion line** (max 5-6 items) for the failure modes that matter in this brief ("no floating ingredients, no glow effects, no extra text, no decorative sparkles, no stock-style smiling people").
 
 Also avoid "quality" buzzwords that push models toward the generic polished look: "ultra-detailed", "8k", "masterpiece", "stunning", "award-winning", "hyper-realistic", "trending on...".
 
-## 6. The 13-point slop audit
+## 6. Realistic food and product photography (without a reference photo)
+
+When no reference photo exists, the prompt must work harder to prevent the model from defaulting to glossy, plastic-looking CGI food. Describe physical reality:
+
+**Light:**
+- Name the source, direction, and quality: "morning light from a north-facing window, diffused through a white curtain, soft shadows falling toward the right". Never: "beautiful lighting", "professional lighting", "well-lit".
+- Avoid implying studio lighting: no "rim light", no "product lighting", no implied 3-point setup.
+- Allow for slight natural variation: "warm golden cast from late-afternoon sun".
+
+**Surface and setting:**
+- Name the actual material: "worn dark-teak counter with visible grain and faint water stain", "pale cement tabletop with matte finish and fine aggregate", "terracotta floor tile with visible grout lines". Never: "beautiful background", "elegant surface".
+- The surface should anchor the product physically — it is a floor or counter, not a void.
+
+**Camera angle and distance:**
+- Give a specific angle: "looking slightly downward at about 20°, close enough that the bowl fills 55% of the frame". Never: "appetizing angle", "flattering angle".
+
+**Food and product texture:**
+- Describe texture with physical specificity: "meatball with visible sear marks, glossy bone-broth surface with a thin orange oil film and faint wisp of steam, sliced green onion lying flat in the liquid". Never: "perfectly plated", "gorgeous", "mouthwatering".
+- Portion size and proportions must be physically plausible: name the vessel type and approximate size; never "enormous" or "overflowing".
+
+**Imperfection signals realism:**
+- Include one or two specific small imperfections: a condensation drop on a bottle, a slightly uneven dusting of topping, a chipped edge on a plate, a smear of sauce on the rim. These make the image read as real, not rendered.
+
+**What to avoid in the prompt:**
+- "excessive gloss on food surfaces"
+- "ingredients floating or erupting from the dish"
+- "exaggerated or impossible portion size"
+- "studio-style background or lighting"
+- "plastic or ceramic-looking surface on food"
+- "fake depth-of-field blur that erases background context"
+
+## 7. Missing brand assets: do more than a text label
+
+When the owner has no logo, no brand colors, and no visual identity:
+
+**Do not:** place the business name as plain text at the top and call it done. That looks like a template with a name typed in.
+
+**Do:** develop a visual identity treatment that is specific to the business and the direction:
+- Choose a **named type character** (e.g. "heavy condensed slab-serif caps with slight stamp-ink texture") and a specific color from the palette. This becomes the business name treatment.
+- Design a **graphic device** — a full-width panel at the top, a stamp shape, a rule, a motif drawn from the product or place. Name it in the prompt.
+- Specify how the name and device appear together: position, size, color, background.
+- The result should look like a deliberate brand decision, not a placeholder.
+
+Same principle for other missing assets: if there is no product photo, choose a clear illustrated or described direction. If there is no color palette, derive one from the product, the region, and the archetype. Never leave obvious gaps in the design; fill them with specific decisions.
+
+## 8. The 14-point slop audit
 
 Use on the plan, the prompt, and the generated image:
 
 1. Is there **one** clear hero and a visible reading order?
-2. Does it pass the **squint test** and the **3-second test**?
+2. Does it pass the **squint test** (blur your eyes: one dominant shape, one headline block, one end point)?
 3. Is there **a concept** (an idea) beyond a style?
 4. Are there at least **two ownable anchors** from this business?
 5. Is every element **earning its place** (inclusion test)?
@@ -1467,14 +1619,15 @@ Use on the plan, the prompt, and the generated image:
 11. Is there **room to breathe** (calm space allocated, margins, gaps between groups) or deliberate density that is strictly grouped, with nothing decorative left after the subtraction pass?
 12. Would this design **look wrong for a different business**? (The swap test: if it fits anyone, it fits no one.)
 13. Does it express the business's **USP and perceived character**, not just its category?
+14. Is the **visual direction explicit** — does the design have a named style, mood, and personality that came from Stage 7, not from model defaults?
 
-Fewer than 11 passes → revise before delivering.
+Fewer than 12 passes → revise before delivering.
 
-## 7. Human traces that work (use only if they fit the brand)
+## 9. Human traces that work (use only if they fit the brand)
 
 - Real photos from the owner's phone, lightly cleaned, as the hero.
 - Hand-painted or sign-lettering style from the owner's own neighborhood.
-- Tactile materials: kraft paper, banana leaf, enamel plate, woven rattan, stamped labels.
+- Tactile materials: kraft paper, banana leaf, enamel plate, woven rattan, stamped labels, terracotta tile.
 - Slight asymmetry and deliberate, readable imperfection.
 - A voice: copy that sounds like the owner talking to a regular customer.
 - A recurring graphic device that becomes the brand's signature.
@@ -1488,11 +1641,18 @@ Fewer than 11 passes → revise before delivering.
 
 # Prompt Assembly (Stage 9)
 
-Contents: what a prompt must do · the template · block rules · text strategy · phrasing rules · length and tool notes · contradiction check · example A (feed post with images) · example B (spanduk background) · assembling a set
+Contents: what a prompt must do · the template · block rules · text strategy · phrasing rules · length and tool notes · contradiction check · example A (feed post with images) · example B (spanduk background, no images) · example C (feed post with no images, identity treatment) · assembling a set
 
 ## 1. What a prompt must do
 
-A prompt is a compressed design brief for a model that cannot ask questions. It carries the **format**, the **idea**, the **attached images and what to do with each**, the **hero**, the **layout, space, and reading path**, the **exact text with ranks**, the **Visual System**, the **truth constraints**, and a **short exclusion line**. Nothing else. Every sentence must change the picture.
+A prompt is a **complete, final design brief** for a model that cannot ask questions. It produces the finished design with zero manual post-editing of essential elements. It carries the **format**, the **concept**, the **attached images and what to do with each** (or nothing if there are none), the **hero**, the **layout, space, and reading path**, the **exact text with ranks**, the **Visual System**, the **truth constraints**, and a **short exclusion line**. Nothing else.
+
+Every sentence must change the picture. A sentence that explains the reasoning, describes the design process, or re-states a viewing context without translating it into a design decision does not belong in the prompt.
+
+**Viewing context → design decisions:** Never paste viewing-context or use-case statements directly into the prompt. Instead, translate them:
+- "Viewed from 10 m on a motorbike" → "headline in heavy condensed type at 28% of canvas height, maximum 5 words, high value-contrast on flat single-color background."
+- "Must read in 3 seconds" → "three text elements only, headline at the largest scale, no more than 8 words total, calm empty area isolating the hero."
+- "Seen on a phone while scrolling" → "single dominant element at 55% of canvas height, headline in two short lines above it, strong silhouette contrast."
 
 **Every prompt is fully standalone.** It works if pasted alone into a fresh chat: no "same as before", no reference to another prompt, no dependence on a generated result. When there are several outputs, each prompt repeats the shared Visual System verbatim (see `09-output-sets.md`).
 
@@ -1501,17 +1661,20 @@ A prompt is a compressed design brief for a model that cannot ask questions. It 
 Two layers: **output blocks** (differ per output) and the **VISUAL SYSTEM block** (identical in every prompt of a set). Fill each block with decisions, not adjectives; omit a block only if it truly does not apply.
 
 ```
-FORMAT: [material], [aspect ratio and pixels], for [platform]. Viewed [how/where/how long].
+FORMAT: [material], [aspect ratio and pixels], for [platform].
 
 CONCEPT: "[campaign idea, same words in every prompt of a set]". [Two feelings]. For [audience]. This output's job: [hook / inform / act].
 
+[ATTACHED IMAGES block — include ONLY if images are being attached:]
 ATTACHED IMAGES (attach in this order):
 Image 1 = [what it is, as visible]. Role: [...]. Treatment: [...]. Placement: [...]. Size: [...]. Keep unchanged: [...]. May change: [...].
 Image 2 = ...
 Priority if conflicts: [...].
-(If none: "No images are attached; create everything from this description.")
 
-HERO VISUAL: [specific subject, or "Image 1"], [angle/distance], [surface/setting], [light], [one or two ownable details].
+[If no images are attached, write instead:]
+No images are attached; create everything from this description.
+
+HERO VISUAL: [specific subject, or "Image 1"], [angle/distance], [surface/setting], [light source and quality], [texture and material detail], [one or two ownable details].
 
 COMPOSITION: [zones with positions and percentages]. [Alignment spine]. SPACE: about [N]% of the canvas stays calm and empty ([flat color], no texture or detail), mainly [where]; nothing floats in it; no decorative elements. Margins about [6-8]%. Eye path: [A -> B -> C -> D].
 
@@ -1521,38 +1684,44 @@ TEXT (render exactly as written, in [language], no additional words):
 [Clean empty zone for text added later, if strategy B or C. Reserved empty square for official marks, if needed.]
 
 VISUAL SYSTEM (identical in every prompt of this set):
-Palette: [dominant ~60% name+hex]; [support ~30%]; [accent ~10%, used only for ___]. Type: [headline character]; [support character]; [case/weight]. Style and material: [photo/illustration], [texture, finish, light]. Image treatment: [how real images are cleaned, cropped, grounded]. Device: [one recurring graphic device, or none]. Space level: [calm / moderate / dense-but-grouped].
+Palette: [dominant ~60% name+hex]; [support ~30%]; [accent ~10%, used only for ___]. Type: [headline character]; [support character]; [case/weight]. Style and material: [photo/illustration], [texture, finish, light quality]. Image treatment: [how real images are cleaned, cropped, grounded]. Device: [one recurring graphic device, or none]. Space level: [calm / moderate / dense-but-grouped].
 
 KEEP / AVOID: Keep [truth constraints]. Avoid [4-6 specific failure modes for this brief].
 ```
 
 ## 3. Block rules
 
-**FORMAT.** State the ratio explicitly. Include the viewing context because it changes density ("viewed on a phone in a fast scroll"). For stories: "keep all text inside the central 70% of the height".
+**FORMAT.** State the ratio explicitly. Do not include a viewing-context sentence here — translate it into design decisions in HERO VISUAL, COMPOSITION, and TEXT instead.
 
-**CONCEPT.** The campaign idea, in the same words in every prompt of the set, plus the output's job. It comes from the Distinction Brief (USP and proof, desired perception).
+**CONCEPT.** The campaign idea, in the same words in every prompt of the set, plus the output's job. It comes from the Distinction Brief (USP and proof, desired perception). This is a *design concept*, not a process note.
 
-**ATTACHED IMAGES.** The most error-prone block; follow `03-reference-images.md` section 10 exactly: fixed order, one primary treatment per image, placement as zone and margin, size as percent of canvas, keep-unchanged and may-change, and an explicit statement of any requested modification (enhance, upscale, cut out, illustrate, extend, restyle, revise). Numbering is local to this prompt. Use "Image 1" the same way in HERO, COMPOSITION, and TEXT blocks.
+**ATTACHED IMAGES — critical rules:**
+- **Omit this block entirely** when no images are attached. Do not write the header, do not write "no images attached" inside the block. Instead, write a single line after CONCEPT: `No images are attached; create everything from this description.`
+- Include the block only when the owner is literally attaching image files to the AI prompt.
+- Follow `03-reference-images.md` section 10 exactly: fixed order, one primary treatment per image, placement as zone and margin, size as percent of canvas, keep-unchanged and may-change, and an explicit statement of any requested modification (enhance, upscale, cut out, illustrate, extend, restyle, revise). Numbering is local to this prompt.
+- Use "Image 1" the same way in HERO, COMPOSITION, and TEXT blocks.
 
-**HERO VISUAL.** Name the real thing. Not "a delicious dish" but "a bowl of bakso with a tennis-ball-sized tendon meatball in clear broth on a worn wooden cart counter, side window light, a little real steam". If a photo is attached, say to keep it.
+**HERO VISUAL.** Name the real thing with physical specificity. Not "a delicious dish" but "a bowl of bakso with a golf-ball-sized beef meatball in a clear bone broth on a worn wooden cart counter, late-afternoon window light from the left, a thin curl of steam above the broth, visible grain in the bowl glaze." If a photo is attached, say to keep it. Push toward credible commercial photography: real surfaces, natural light, believable proportions, visible texture, slight physical imperfection. Explicitly avoid studio-ad aesthetics.
 
 **COMPOSITION and SPACE.** Zones with proportions ("headline in the top 25%, product 50% of height left of center, price lower third, CTA strip bottom 10%"). Choose symmetrical or asymmetrical on purpose. Give the **space instruction** with a percentage and where it sits; this is the single most effective line against cramped, decorated output. End with the eye path.
 
-**TEXT.** One line per element with role, rank, character, color, and position. Quote exact text; instruct "render exactly as written". Three to six elements. Unrelated instructions never go inside quotation marks.
+**TEXT.** One line per element with role, rank, character, color, and position. Quote exact text; instruct "render exactly as written". Three to six elements. Unrelated instructions never go inside quotation marks. If strategy B or C, describe the clean zone for later text.
 
 **VISUAL SYSTEM.** Compact (about 60-80 words). Palette with roles and hex, type character, style and material, image treatment, device, space level, voice. For a single-output job it is still written, so the prompt stays self-contained and the owner can reuse it.
 
-**KEEP / AVOID.** "Keep" = truth constraints. "Avoid" = a short list of concrete failure modes: "floating ingredients, glow effects, gradient backgrounds, decorative sparkles, extra or invented text, stock-style smiling people, crowded corners".
+**KEEP / AVOID.** "Keep" = truth constraints. "Avoid" = a short list of concrete failure modes: "floating ingredients, glow effects, gradient backgrounds, decorative sparkles, extra or invented text, stock-style smiling people, crowded corners."
 
 ## 4. Text strategy
 
 | Strategy | When | Prompt approach |
 |---|---|---|
-| **A: in-image text** | Tool renders text well; short headline, offer, price, CTA; screen only | Quote each line; "render exactly as written, no additional words" |
-| **B: clean text zones** | Print, spanduk, menus, long info, phone numbers, legal marks, text-heavy redesigns | "Leave a clean, calm, empty [position] area, about [size], for text added later. Do not render any text, letters, numbers, or logos." |
-| **C: hybrid** | Default for screen posts with contact info | Headline and price in-image; "leave a clean strip at the bottom 12% for contact details added later; no other text" |
+| **A: in-image text** | Tool renders text well; short headline, offer, price, CTA; screen only; **default for simple screen promos** | Quote each line; "render exactly as written, no additional words" |
+| **B: clean text zones** | Print, spanduk, menus, long info, phone numbers, addresses, legal marks, text-heavy redesigns | "Leave a clean, calm, empty [position] area, about [size], for text added later. Do not render any text, letters, numbers, or logos." |
+| **C: hybrid** | Screen posts with contact info that the owner wants to add themselves | Headline and price in-image; "leave a clean strip at the bottom 12% for contact details added later; no other text" |
 
 Rules for A and C: quote exactly, keep lines short and large, specify the language, say what not to add ("no taglines, no extra words, no watermarks"), and tell the owner to proofread after generation.
+
+**Do not choose B or C to avoid the effort of specifying text.** If the content is short and the tool renders text reasonably, use A and produce the finished design.
 
 ## 5. Phrasing rules
 
@@ -1566,14 +1735,28 @@ Rules for A and C: quote exactly, keep lines short and large, specify the langua
 8. **Allocate space explicitly**; do not rely on the model to leave room.
 9. **Instructions in English, on-image text in the owner's language and spelling.**
 10. **Do not name model versions** or other products as style ("like Midjourney").
+11. **No meta-commentary.** Do not explain why a decision was made, describe the design process, or write sentences that are useful only to a human reader. Every sentence must change what the model generates.
+12. **No viewing-context sentences.** "Viewed from the sidewalk at 3–8 m" tells the model nothing useful. Translate into: type scale, element count, contrast level, space allocation.
 
-## 6. Length and tool notes
+## 6. Realistic food and product imagery
+
+When the prompt must generate food or product imagery without a reference photo, describe it to push toward credible commercial photography:
+
+- **Light:** name the source and direction ("soft morning light from a north-facing window, diffused through white curtain, shadows falling left"). Never "professional studio lighting" or "beautifully lit".
+- **Surface:** real, named material ("worn dark-teak wood counter with visible grain and a water ring stain"; "pale stone table with matte finish"). Never "beautiful background".
+- **Angle:** specific camera angle and distance ("looking slightly down at 25°, close enough that the bowl fills 55% of the frame"). Never "appetizing angle".
+- **Texture and detail:** visible food texture that is physically plausible ("glossy broth surface with a thin orange oil film, meatball with visible sear marks, chopped green onion lying flat in the broth"). Never "perfectly plated", "gorgeous garnish".
+- **Proportions:** realistic, not exaggerated ("a standard 18 cm bowl, meatball at about 4 cm diameter"). Never "enormous", "overflowing".
+- **Imperfection is realism:** a condensation drop on a bottle, a small chip on a plate, a slightly uneven sprinkle. These details signal a real photo.
+- **Avoid explicitly:** "excessive gloss, exaggerated portion size, ingredients floating mid-air or erupting from the dish, plastic-looking surfaces, extreme depth-of-field blur, generic stock-food aesthetics."
+
+## 7. Length and tool notes
 
 - Aim for **200-450 words per prompt**, up to about 550 when three or more images are attached; shorter for simple briefs. The Visual System (60-90 words) and the image block are most of the length and are intentional. If you pass these limits you are probably describing decoration or repeating yourself: cut.
 - Tools differ in text accuracy, image-input support, number of images accepted, and respect for aspect ratio. Ask which tool; when unsure choose C for screen and B for print; if the tool ignores ratio, set it in the interface or crop and keep content inside the safe area.
 - Let the owner change **one thing at a time** when iterating (`12-review-and-iteration.md`).
 
-## 7. Contradiction check
+## 8. Contradiction check
 
 - Any sentence asking for both "minimal" and "rich detail"?
 - More than one "largest" element? More than one accent color?
@@ -1582,70 +1765,112 @@ Rules for A and C: quote exactly, keep lines short and large, specify the langua
 - Anything the model cannot do reliably (small text, QR, logos, official marks)?
 - An exclusion that forbids something the composition requires?
 - Any reference to another prompt, or any image numbering that does not match the attachment list?
+- Any viewing-context statement that was not converted into a design decision?
+- Any meta-commentary sentence that does not change the picture?
+- Is the ATTACHED IMAGES block present when there are no images?
+- Does the prompt leave any essential element (text, pricing, CTA, branding) unspecified when strategy A was chosen?
 
-## 8. Example A: feed post with attached images (strategy C)
+## 9. Example A: feed post with attached images (strategy A)
 
-Brief: "Kopi Mbak Rini", Bekasi, 1-litre milk coffee; buyers: anak kos and office workers 20-35; action: order via WhatsApp; message: "satu botol cukup seharian"; offer Rp 55.000/botol, beli 2 Rp 100.000, until Sunday; owner has a bottle photo and a logo; feel: warm, modern; no pastels.
+Brief: "Kopi Mbak Rini", Bekasi, 1-litre milk coffee; buyers: anak kos and office workers 20-35; action: order via WhatsApp; message: "satu botol cukup seharian"; offer Rp 55.000/botol, beli 2 Rp 100.000, until Sunday; bottle photo and logo available; direction: warm, confident, merakyat.
 
 ```
-FORMAT: Instagram feed promo post, vertical 4:5 (1080x1350 px). Viewed on a phone during a fast scroll; must read in 3 seconds.
+FORMAT: Instagram feed promo post, vertical 4:5 (1080×1350 px).
 
-CONCEPT: "Satu botol, cukup seharian." Confident and friendly, honest and a little playful. For students and office workers who want a good coffee that lasts the day. This output's job: hook and offer.
+CONCEPT: "Satu botol, cukup seharian." Confident and unpretentious. For students and office workers who want honest daily coffee. This output's job: hook and offer.
 
 ATTACHED IMAGES (attach in this order):
-Image 1 = the owner's real photo of a 1-litre milk-coffee bottle with a kraft label. Role: hero. Treatment: keep exactly, with the background replaced. Placement: left of center, standing on a plain wooden counter. Size: about 55% of canvas height. Keep unchanged: bottle shape, kraft label, cap, liquid color. May change: background, light direction to match the scene.
-Image 2 = the business logo (dark brown on transparent). Role: brand mark. Treatment: place unaltered. Placement: top-left corner, about 10% of canvas width, with clear space. Keep unchanged: everything.
-Priority if conflicts: Image 1 wins on product appearance; Image 2 must never be redrawn.
+Image 1 = owner's real photo of a 1-litre milk-coffee bottle with a kraft paper label. Role: hero. Treatment: keep exactly; replace background with flat deep coffee-brown. Placement: left of center, bottle base resting on a plain wooden counter. Size: about 55% of canvas height. Keep unchanged: bottle shape, kraft label design, cap color, liquid color. May change: background, light direction softened to match the scene.
+Image 2 = business logo, dark brown on transparent background. Role: brand mark. Treatment: place unaltered. Placement: top-left corner, about 10% of canvas width, with clear space on all sides. Keep unchanged: everything.
+Priority if conflicts: Image 1 wins on product appearance; Image 2 must never be redrawn or recolored.
 
-HERO VISUAL: Image 1, slightly low angle, on a wooden stall counter, soft window-light feel.
+HERO VISUAL: Image 1. Bottle standing upright, slightly low angle looking up at 10°, on a worn dark-teak counter with visible grain. Window light from the left, soft and warm, casting a faint shadow rightward. No reflections on the label.
 
-COMPOSITION: Asymmetric. Headline in the top 28%, left-aligned under the logo. Price block in the lower third under the bottle edge. Narrow call-to-action strip across the bottom 10%. SPACE: about 40% of the canvas stays calm and empty (flat deep brown), mainly the right side; nothing floats in it; no decorative elements. Margins about 6%. Eye path: headline -> bottle -> price -> WhatsApp line.
+COMPOSITION: Asymmetric. Headline stacked left-aligned under the logo in the top 28%. Price block in the lower-left third, below the bottle base. WhatsApp call-to-action strip across the bottom 10%. SPACE: about 40% of canvas stays calm and empty (flat deep coffee-brown, #3B2418, no texture), mainly the right half; nothing floats there; no decorative elements. Margins 6%. Eye path: headline → bottle → price block → WhatsApp strip.
 
 TEXT (render exactly as written, in Indonesian, no additional words):
-1. Headline "SATU BOTOL, CUKUP SEHARIAN" - largest, two lines, off-white (#F6EFE6).
-2. Price "Rp 55.000" - second largest, chili-orange (#E4572E); small beside it "beli 2 jadi Rp 100.000" in off-white.
-3. Deadline "sampai Minggu" - small, off-white, near the price.
-4. Call to action "Pesan lewat WhatsApp" - clean strip at the bottom, off-white on deep brown. Leave the phone number out; it will be added later.
-No other text, taglines, or logos.
+1. Headline "SATU BOTOL, CUKUP SEHARIAN" — largest, two lines, heavy condensed caps, off-white (#F6EFE6), top-left under logo.
+2. Price "Rp 55.000" — second largest, chili-orange (#E4572E); beside it in smaller off-white "beli 2 jadi Rp 100.000".
+3. Deadline "s.d. Minggu ini" — small, off-white, immediately below the price.
+4. CTA strip "Pesan lewat WhatsApp" — clean bottom strip, off-white text on deep brown, same width as canvas.
+No other text, taglines, decorative words, or watermarks.
 
 VISUAL SYSTEM (identical in every prompt of this set):
-Palette: deep coffee brown (#3B2418) dominant ~60%; warm off-white (#F6EFE6) ~30%; chili-orange (#E4572E) ~10%, used only for prices. Type: heavy condensed sign-painter capitals for headline and price; clean humanist sans for support text. Style and material: photographic product on a flat painted brown wall with fine paper grain, matte, natural light. Image treatment: real product photos kept exactly, grounded on a surface with a soft contact shadow. Device: none. Space level: calm.
+Palette: deep coffee-brown (#3B2418) dominant ~60%; warm off-white (#F6EFE6) ~30%; chili-orange (#E4572E) ~10%, used only for prices. Type: heavy condensed sign-painter capitals for headline and price; clean humanist sans for support text; no scripts. Style and material: photographic product on flat painted dark-brown surface, matte finish, natural window light with slight warm cast. Image treatment: real product photos kept exactly, placed on surface with a soft grounded contact shadow, no glow. Device: none. Space level: calm.
 
-KEEP / AVOID: Keep the bottle exactly as photographed and the logo untouched. Avoid floating coffee beans or splashes, glow effects, gradient backgrounds, decorative sparkles, rounded glass boxes behind text, stock-style smiling people, crowded corners.
+KEEP / AVOID: Keep bottle shape, label, and logo exactly as photographed. Avoid floating coffee beans or liquid splashes, glow effects, gradient backgrounds, decorative sparkles, rounded glass panels behind text, extra invented text, stock smiling people.
 ```
 
-Lampiran: 1. Foto botol (hero). 2. Logo (pojok kiri atas). Cara: attach both in this order and paste the prompt.
+Lampiran: 1. Foto botol (hero, kiri tengah). 2. Logo (pojok kiri atas). Cara: unggah keduanya dalam urutan ini, lalu tempel prompt di kolom yang sama dan kirim bersamaan.
 
-## 9. Example B: spanduk background (strategy B, no images)
+## 10. Example B: spanduk background (strategy B, no images attached)
 
-Brief: "Laundry Bersih Kilat", Depok; students and workers; message "selesai besok"; action: call or WhatsApp; spanduk 3 m x 1 m on a roadside shop front, seen from a motorbike; price Rp 6.000/kg.
+Brief: "Laundry Bersih Kilat", Depok; students and workers; message "selesai besok"; action: call or WhatsApp; spanduk 3 m × 1 m on roadside shop front; price Rp 6.000/kg; direction: clean, reliable, sky-blue.
 
 ```
-FORMAT: Wide horizontal banner background, 3:1 (3000x1000 px), for a roadside shop banner viewed from 10-20 m by motorbike riders. Clear and bold.
+FORMAT: Wide horizontal banner background, 3:1 (3000×1000 px), for a printed roadside shop banner.
 
-CONCEPT: "Selesai besok." Clean, reliable, fast. For students and workers with no time. This output's job: hook and act.
+CONCEPT: "Selesai besok." Clean and reliable. For students and workers with no time to wait. This output's job: hook and act.
 
-ATTACHED IMAGES: No images are attached; create everything from this description.
+No images are attached; create everything from this description.
 
-HERO VISUAL: On the right third, a neat stack of fresh folded clothes in white and sky-blue with one hand-tied paper tag in sunny yellow, on a plain table. Soft daylight, crisp edges, matte, photographic look.
+HERO VISUAL: Right third of the banner. A neat stack of three freshly folded garments — a white cotton shirt, a sky-blue towel, a cream linen shirt — resting on a plain white laminate table. One hand-tied paper tag in sunny yellow tucked under the top fold. Overhead natural daylight, slightly diffused, crisp shadow beneath the stack. Fabric creases and weave texture visible. No extra props.
 
-COMPOSITION: Asymmetric. SPACE: the left two-thirds, about 65% of the canvas, stays one completely empty, flat sky-blue area (#BFE3F2) reserved for text added later; render no text, letters, numbers, logos, or phone numbers anywhere. The clothes stack sits right of center at about 60% of the height, resting on a thin navy band (#14284B) along the bottom 12%. Margins about 5%. Eye path: empty text area -> clothes stack -> navy band.
+COMPOSITION: Asymmetric. Right third holds the clothes stack, grounded on the table. The left two-thirds is a single flat sky-blue area (#BFE3F2) reserved entirely for text added later. A narrow navy band (#14284B) runs along the full bottom 8%. SPACE: left two-thirds completely empty, flat sky-blue, no texture or detail; nothing floats in it; render no text, letters, numbers, logos, or symbols anywhere in this zone. The clothes stack occupies about 60% of canvas height on the right. Margins 5%. Eye path: empty text area → clothes stack → navy band.
+
+TEXT: Do not render any text, letters, numbers, or logos anywhere. Strategy B — all text to be added in an editor.
 
 VISUAL SYSTEM (identical in every prompt of this set):
-Palette: sky blue (#BFE3F2) dominant ~65%; white and soft cream ~20%; navy (#14284B) ~10%; sunny yellow (#FFC83D) ~5%, used only for the paper tag. Type: bold neutral sans (added later). Style and material: real-photo feel on clean flat color, matte. Image treatment: objects grounded on a surface, crisp edges. Device: none. Space level: calm.
+Palette: sky-blue (#BFE3F2) dominant ~65%; white and soft cream ~20%; navy (#14284B) ~10%; sunny yellow (#FFC83D) ~5%, used only for the paper tag. Type: bold neutral humanist sans, added later in editor. Style and material: real-photo feel, matte, clean flat background. Image treatment: objects grounded on a surface with crisp edges and a soft grounded shadow. Device: navy bottom band. Space level: calm.
 
-KEEP / AVOID: Keep the left two-thirds empty and flat. Avoid any text or symbols, washing machines, floating bubbles, sparkles, decorative patterns, stock families.
+KEEP / AVOID: Keep left two-thirds entirely flat and empty with no detail. Avoid any text or symbols, washing machines, floating bubbles, sparkles, decorative wave patterns, steam, stock families, soap-foam effects.
 ```
 
-Then tell the owner to add three pieces of text in large navy letters in Canva or at the printer: the name, "SELESAI BESOK", and the price with phone number.
+Lampiran: Tidak ada lampiran.
 
-## 10. Assembling a set
+Cara pakai: Tambahkan teks di Canva atau di percetakan — nama usaha, "SELESAI BESOK", harga per kg, dan nomor telepon — dalam huruf navy tebal yang besar di area biru kiri.
+
+## 11. Example C: feed post, no reference images, with identity treatment (strategy A)
+
+Brief: "Sambal Mbah Sari", Yogyakarta, hand-ground sambal in jars, sold via WhatsApp; buyers: urban adults 25-45; message: "diulek pagi ini, dikirim hari ini"; action: order via WhatsApp; price Rp 25.000/jar; no logo, no photos; direction: handmade warmth, honest, artisanal, traditional Java.
+
+```
+FORMAT: Instagram feed post, square 1:1 (1080×1080 px).
+
+CONCEPT: "Diulek pagi ini, dikirim hari ini." Handmade and honest. For urban adults who want real food, not factory product. This output's job: hook and order.
+
+No images are attached; create everything from this description.
+
+HERO VISUAL: A small squat glass jar (about 8 cm tall, 7 cm diameter) filled with dark-red chunky sambal bawang, lid sealed with a square of brown kraft paper tied with natural twine. The jar sits on a worn terracotta tile surface, a traditional batu cobek (stone mortar) partially visible and softly out of focus to the left. Morning side-light from a window, warm and slightly golden, casting a short shadow to the right. The sambal texture visible through the glass — chunky, with visible whole chilli seeds and shallot slivers. No garnish, no extra props.
+
+IDENTITY: Business name "SAMBAL MBAH SARI" rendered in heavy slab-serif capitals, warm off-white (#FAF0E6), stamped-ink look with very slight texture, centered at the top of the image inside a narrow dark-brown rectangular panel spanning the full width at 12% of canvas height. Below the name, in small caps humanist sans: "Yogyakarta — diulek sejak 1987".
+
+COMPOSITION: Symmetric. The jar is centered, occupying about 50% of canvas height, resting on the terracotta surface in the lower 55% of the image. The identity panel sits at the top. Price block sits below the jar. CTA strip at the bottom 10%. SPACE: about 35% of canvas stays calm — the terracotta surface areas flanking the jar and the dark-brown background above; nothing decorative floats there. Margins 6%. Eye path: name panel → jar → price → WhatsApp strip.
+
+TEXT (render exactly as written, in Indonesian, no additional words):
+1. Business name "SAMBAL MBAH SARI" — largest, slab-serif capitals, off-white (#FAF0E6), centered in dark-brown top panel.
+2. Tagline "Yogyakarta — diulek sejak 1987" — small caps, off-white, centered directly below the name in the same panel.
+3. Price "Rp 25.000 / toples" — second largest, warm yellow (#D4A017), centered below the jar.
+4. Headline "Diulek pagi ini, dikirim hari ini." — medium, off-white, centered below the price.
+5. CTA strip "Pesan via WhatsApp" — bottom strip, off-white on dark brown (#2C1A0E).
+No other text, taglines, decorative words, or watermarks.
+
+VISUAL SYSTEM (identical in every prompt of this set):
+Palette: dark brown (#2C1A0E) dominant ~55%; warm terracotta (#B5522A) ~25%; warm off-white (#FAF0E6) ~15%; golden yellow (#D4A017) ~5%, used only for price. Type: heavy slab-serif caps for business name and headline; small caps humanist sans for supporting text; no scripts. Style and material: photographic still life on real terracotta tile, warm morning window light, matte surfaces, slight visible texture on jar label and background tile. Image treatment: all objects grounded on a surface with a natural contact shadow, no glow or studio effects. Device: full-width dark-brown panel as brand mark at top. Space level: calm.
+
+KEEP / AVOID: Keep the jar proportions realistic (squat, small) and the sambal texture visibly chunky. Avoid glossy jar surfaces, neon-red sambal color, floating chillies or garlic, bokeh-heavy backgrounds that erase the terracotta texture, extra decorative elements, invented certifications or ribbons.
+```
+
+Lampiran: Tidak ada lampiran.
+
+## 12. Assembling a set
 
 1. Write the **Visual System block once** and copy it word for word into every prompt.
 2. Write the **CONCEPT** campaign line once; add each output's job.
-3. For each output write its own FORMAT, ATTACHED IMAGES (local numbering), HERO crop, COMPOSITION and SPACE, TEXT, KEEP/AVOID.
+3. For each output write its own FORMAT, (ATTACHED IMAGES or "No images" line), HERO crop, IDENTITY treatment if no logo, COMPOSITION and SPACE, TEXT, KEEP/AVOID.
 4. Check: any "same as", "previous", "above", or cross-prompt image reference? Remove it.
-5. Run the self-check in `SKILL.md`, then give each prompt its **Lampiran** list (`03-reference-images.md` section 12). A full worked set is in `examples/01-warung-bakso-sesi-lengkap.md`.
+5. Check: is there an ATTACHED IMAGES block in a prompt with no images? Remove it and add the "No images are attached" line.
+6. Run the self-check in `SKILL.md`, then give each prompt its **Lampiran** list (`03-reference-images.md` section 12). A full worked set is in `examples/01-warung-bakso-sesi-lengkap.md`.
 
 
 
@@ -1796,20 +2021,28 @@ Unknown [S] fields become stated defaults under "Asumsi saya" in the plan.
 For each output: name, headline/offer, price (format), conditions, how to order, legal marks (placeholders), must appear / optional.
 Same facts, same words across outputs.
 
-## 7. Identity and taste (Stage 7)
-- Logo and colors:            Feel:
-- Likes / dislikes:           Local flavor and motifs (named, region-correct):
-- People in image:            Space preference (lega / ramai) and audience-based budget:
+## 7. Visual direction (Stage 7)
+- Direction options offered (if owner unsure):
+- Direction chosen or recommended:
+- Direction sentence: [concrete concept], feels [__ and __], looks like [__], for [audience], seen on [medium].
+- Likes / dislikes (from references or named shops):
+- Local flavor and motifs (named, region-correct):
+- People in image:
+- Space preference (lega / ramai) and audience-based budget:
+- Personality dials (confirmed from Stage 1 or asked here):
 
 ## 8. Design plan (Stage 8)
-- Direction sentence: [concrete concept], feels [__ and __], looks like [__], for [audience], seen on [medium].
+- Direction sentence (confirm from Stage 7):
 - Swap test passed? (Y/N, what was sharpened):
+- **Logo status:** has logo / no logo. If no logo → identity treatment: [type character], [device], [color mark].
 - **Visual System (written once, copied verbatim into every prompt):** palette with roles and hex; type character; style and material; image treatment; device; space level; voice.
 - Subtraction pass: elements removed / merged / moved to caption / shrunk:
 - Per output: hero, primary/secondary/action, reading path, calm-space %, composition zones, element count.
 - Material use per image (treatment, placement, size):
+- Text strategy per output (A / B / C) and reason:
 - Asumsi saya:
 - Conflicts resolved and how:
+
 
 
 
@@ -1820,42 +2053,75 @@ Same facts, same words across outputs.
 # Prompt Skeleton (one per output)
 
 Copy for each output. Fill every block with decisions, not adjectives. The VISUAL SYSTEM block is written once and pasted word for word into every prompt of the set. Each prompt must work alone: no "same as", no mention of other prompts, image numbers local to this prompt.
+
 Target length 200-450 words (up to about 550 with three or more images). Instructions in English; on-image text in the owner's language.
 
+Every sentence must change what the image model produces. No meta-commentary, no process notes, no viewing-context statements that have not been translated into design decisions.
+
 ```
-FORMAT: [material], [aspect ratio and pixels], for [platform]. Viewed [how/where/how long].
+FORMAT: [material], [aspect ratio and pixels], for [platform].
 
 CONCEPT: "[campaign idea, same words in every prompt]". [Feeling 1] and [feeling 2]. For [audience]. This output's job: [hook / inform / act].
 
+[INCLUDE this block ONLY when images are being attached:]
 ATTACHED IMAGES (attach in this order):
 Image 1 = [what it is, as visible]. Role: [hero / logo / mascot / person / base design / style reference]. Treatment: [keep exactly / cut out and place / clean up / enhance and upscale / illustrate / extend canvas / style-only / revise]. Placement: [zone, anchor, margin]. Size: [about N% of canvas height or width]. Keep unchanged: [...]. May change: [...].
 Image 2 = ...
 Priority if conflicts: [...].
-(or) No images are attached; create everything from this description.
 
-HERO VISUAL: [specific subject or "Image 1"], [angle], [surface/setting], [light], [one or two ownable details].
+[OMIT the ATTACHED IMAGES block entirely when there are no images. Write this single line instead:]
+No images are attached; create everything from this description.
 
-COMPOSITION: [zones with positions and percentages]. [Alignment spine]. SPACE: about [N]% of the canvas stays calm and empty ([flat color], no texture or detail), mainly [where]; nothing floats in it; no decorative elements. Margins about [6-8]%. Eye path: [A -> B -> C -> D].
+HERO VISUAL: [specific subject or "Image 1"], [angle and distance], [surface material and named imperfections], [light source, direction, and quality], [texture and physical detail], [one or two ownable specifics].
+
+COMPOSITION: [zones with positions and percentages]. [Alignment spine — symmetrical or asymmetrical, chosen on purpose]. SPACE: about [N]% of the canvas stays calm and empty ([flat color or quiet surface], no texture or detail), mainly [where]; nothing floats in it; no decorative elements. Margins about [6-8]%. Eye path: [A -> B -> C -> D].
+
+[If no logo — add IDENTITY block:]
+IDENTITY: Business name "[name]" rendered as [specific type character — e.g. heavy condensed slab-serif caps], [color], [treatment — e.g. inside a full-width panel, stamped-ink look with slight texture], at [position and size]. Below it: "[tagline or subline]" in [smaller type character], [color].
 
 TEXT (render exactly as written, in [language], no additional words):
 1. [role] "[exact text]" - [size rank], [type character], [case], [color], [position]
 2. ...
-[Clean empty zone for text added later (strategy B/C). Reserved empty square for official marks.]
+[Clean empty zone for text added later (strategy B/C only). Reserved empty square for official marks.]
 
 VISUAL SYSTEM (identical in every prompt of this set):
-Palette: [dominant ~60% name+hex]; [support ~30%]; [accent ~10%, used only for ___]. Type: [headline character]; [support character]; [case/weight]. Style and material: [photo/illustration], [texture, finish, light]. Image treatment: [...]. Device: [one recurring device, or none]. Space level: [calm / moderate / dense-but-grouped].
+Palette: [dominant ~60% name+hex]; [support ~30%]; [accent ~10%, used only for ___]. Type: [headline character]; [support character]; [case/weight]. Style and material: [photo/illustration], [named surface texture, finish, light quality]. Image treatment: [how real images are cleaned, cropped, grounded — or if none: how the scene is described]. Device: [one recurring graphic device, or none]. Space level: [calm / moderate / dense-but-grouped].
 
-KEEP / AVOID: Keep [truth constraints]. Avoid [4-6 specific failure modes].
+KEEP / AVOID: Keep [truth constraints]. Avoid [4-6 specific failure modes for this brief — e.g. floating ingredients, glow effects, gradient backgrounds, decorative sparkles, extra invented text, glossy plastic surfaces, stock smiling people].
 ```
+
+---
 
 ## Lampiran (give under each prompt)
 
 ```
-Prompt N ([name, ratio]): lampirkan [n] gambar, urutannya harus sama:
-1. [file/description] - [role]
-2. ...
-(or) Prompt N: tidak ada lampiran
+Prompt N ([name, ratio]):
+- Lampirkan [n] gambar, urutannya harus sama:
+  1. [file/description] — [role]
+  2. ...
+- Atau: Tidak ada lampiran.
 ```
 
-## Set check
-Visual System block identical in all prompts · no cross-prompt references · local image numbering · one hero and one action per output · calm-space line present · exact text quoted and consistent across outputs · no logos, QR codes, or official marks to be rendered by the model.
+---
+
+## Checklist before sending
+
+**Prompt-level:**
+- [ ] Fully standalone — works pasted alone into a fresh chat
+- [ ] No "same as", "previous", or cross-prompt references
+- [ ] Image numbers local to this prompt only
+- [ ] One hero and one action
+- [ ] Calm-space line present with percentage and location
+- [ ] Exact text quoted, correct, same facts as other prompts
+- [ ] ATTACHED IMAGES block present only if images are being attached — omitted entirely otherwise
+- [ ] No meta-commentary or process explanations
+- [ ] Viewing context translated into design decisions, not pasted as-is
+- [ ] No official marks, QR codes, or logos assigned to the model
+- [ ] If strategy A chosen: all essential elements (text, branding, pricing, CTA) are fully specified
+- [ ] If no logo: IDENTITY block present with named type character, color, and device
+
+**Set-level:**
+- [ ] Visual System block word-for-word identical in all prompts
+- [ ] Concept line identical in all prompts
+- [ ] Same facts (name, price, deadline) across all prompts
+- [ ] No prompt depends on another

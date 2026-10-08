@@ -148,7 +148,9 @@ Owners often share a design they like: another shop's feed, a poster from the in
 
 ## 10. Writing references into the prompt
 
-Add an **ATTACHED IMAGES** block as the first block after FORMAT and CONCEPT (this replaces the generic reference line). Rules:
+Add an **ATTACHED IMAGES** block as the first block after FORMAT and CONCEPT — **but only when images are actually being attached.** If no images are provided, omit this block entirely and write instead: `No images are attached; create everything from this description.`
+
+Rules for the ATTACHED IMAGES block:
 
 - **Numbering is local to each prompt.** In a set of several prompts, "Image 1" restarts in every prompt and each prompt lists only the images it uses; never refer to another prompt's images.
 - Start with a sentence that fixes the order: "Attached images, in order: Image 1 = ..., Image 2 = ..." so the tool and the owner share the same numbering.
@@ -159,7 +161,7 @@ Add an **ATTACHED IMAGES** block as the first block after FORMAT and CONCEPT (th
 - Use one primary treatment per image. If the owner asked for a modification (upscale, illustrate, cut out, extend), state it explicitly and state the limits.
 - Add a **priority line** when there are several images: "If instructions conflict, Image 1 (product) wins on appearance; Image 3 is style-only."
 
-**Block template**
+**Block template (include only when images are attached):**
 
 ```
 ATTACHED IMAGES (attach in this order):
@@ -168,7 +170,13 @@ Image 2 = ...
 Priority if conflicts: [Image X wins on ___; Image Y is style-only].
 ```
 
-**Phrase bank**
+**No images — write this line instead (no block):**
+
+```
+No images are attached; create everything from this description.
+```
+
+**Phrase bank for common image types:**
 
 - Product: "Image 1 is the owner's real photo of [product]. Use it as the hero, [center-left, about 55% of canvas height]. Keep shape, label, color, and proportions exactly as in the photo; replace only the background with [...]."
 - Logo: "Image 2 is the business logo. Place it exactly as provided, unaltered, in the top-right corner, about 12% of canvas width, with clear space around it. Do not redraw, recolor, or add effects."
@@ -178,6 +186,7 @@ Priority if conflicts: [Image X wins on ___; Image Y is style-only].
 - Upscale / enhance: "Enhance Image 1: brighten to natural daylight, correct color cast, increase detail and resolution. The product must stay true to life."
 - Style-only: "Image 5 is a style reference only. Borrow its [muted green and cream palette and hand-lettered headline character]. Do not copy its subject, layout, text, or logos."
 - Existing design: "Image 6 is the owner's current poster. Keep: [logo position, red-and-yellow palette, 'Warung Bu Tini' name]. Change: [one hero instead of five, three text lines, aligned left, remove drop shadows]. Rebuild the layout accordingly; render the text below exactly."
+
 
 ## 11. Tool limits and fallbacks
 

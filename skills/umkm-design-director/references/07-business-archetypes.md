@@ -1,6 +1,6 @@
 # Business Archetypes: Starting Directions
 
-Contents: how to use this file · 5-question method for any business · archetypes (food and drink, retail and fashion, beauty, services, trades, local products, education and community)
+Contents: how to use this file · 5-question method for any business · identity treatment when no logo exists · archetypes (food and drink, retail and fashion, beauty, services, trades, local products, education and community)
 
 **These are starting hypotheses, not templates.** Always bend them with the owner's real anchors (product, place, story, customers). If two businesses in the same category would receive an identical direction, you have not been specific enough.
 
@@ -10,7 +10,8 @@ Contents: how to use this file · 5-question method for any business · archetyp
 2. Read **Trust drivers** (what the viewer needs to believe) and **Hero** (what carries the message).
 3. Pick composition, palette, and type tendencies; then replace anything generic with the owner's specifics.
 4. Check **Slop traps** for the category.
-5. Write the direction sentence: *[concrete concept], feels [two feelings], looks like [concrete reference], for [audience], seen on [medium].*
+5. Check **Identity treatment** for the default when no logo exists.
+6. Write the direction sentence: *[concrete concept], feels [two feelings], looks like [concrete reference], for [audience], seen on [medium].*
 
 ## The 5-question method (any business not listed)
 
@@ -19,6 +20,27 @@ Contents: how to use this file · 5-question method for any business · archetyp
 3. **What is the emotional moment?** (hunger, relief, pride, thrift, excitement) → feeling
 4. **What do rivals nearby look like?** → what to differ from
 5. **What is physically unique** here? (material, place, tool, recipe, person) → specificity anchors
+
+## Identity treatment when no logo exists
+
+Do not treat a missing logo as plain text at the top. Each archetype has a default identity treatment with three parts: **type character** (how the name is rendered), **graphic device** (the recurring framing element), and **color mark** (the specific color combination that signals the brand). Together they make the business name feel designed rather than typed.
+
+| Archetype | Type character | Graphic device | Color mark |
+|---|---|---|---|
+| Warung / masakan rumahan | Heavy condensed serif or hand-painted sign caps | Full-width earthy panel or stamp outline | Dark brown or chili-red panel, off-white name |
+| Kopi / kafe | Bold geometric grotesque or rounded sans | Thin rule above and below name, or circular stamp | Espresso brown or charcoal, cream name |
+| Bakery / kue | Friendly rounded serif, slightly condensed | Kraft-paper panel or ribbon edge | Warm cream or dusty rose, chocolate name |
+| Fashion / hijab | Refined light serif or clean narrow sans | Hairline rule or minimal rectangular frame | Neutral stone or slate, dark name |
+| Toko kelontong / grosir | Bold block sans, all caps | High-contrast full-width color block | Red or yellow block, white name |
+| Salon / barber | Clean humanist sans (barber: condensed bold) | Panel or badge derived from shop signage | Charcoal + brass (barber); soft nude + accent (salon) |
+| Laundry / cleaning | Neutral humanist sans, medium weight | Sky-blue full-width bar or folded-tag shape | Sky blue background, navy name |
+| Bengkel / servis | Condensed bold sans or stencil | Hard-edged rectangular panel | Charcoal + safety orange |
+| Kerajinan / handmade | Slab serif or slightly irregular humanist | Stamp oval or torn-paper edge | Material-derived (rattan ochre, indigo, clay) |
+| Education / event | Clean grotesque, bold date as element | Date as primary typographic anchor | Bright for youth; calm and clear for adults |
+
+When applying: describe the type character by weight and feel (not by font name), describe the device shape and position explicitly, and give the panel color as hex. Use the IDENTITY block in `assets/prompt-template.md`.
+
+
 
 ## Food and drink
 

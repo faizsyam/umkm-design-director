@@ -42,17 +42,25 @@ Unknown [S] fields become stated defaults under "Asumsi saya" in the plan.
 For each output: name, headline/offer, price (format), conditions, how to order, legal marks (placeholders), must appear / optional.
 Same facts, same words across outputs.
 
-## 7. Identity and taste (Stage 7)
-- Logo and colors:            Feel:
-- Likes / dislikes:           Local flavor and motifs (named, region-correct):
-- People in image:            Space preference (lega / ramai) and audience-based budget:
+## 7. Visual direction (Stage 7)
+- Direction options offered (if owner unsure):
+- Direction chosen or recommended:
+- Direction sentence: [concrete concept], feels [__ and __], looks like [__], for [audience], seen on [medium].
+- Likes / dislikes (from references or named shops):
+- Local flavor and motifs (named, region-correct):
+- People in image:
+- Space preference (lega / ramai) and audience-based budget:
+- Personality dials (confirmed from Stage 1 or asked here):
 
 ## 8. Design plan (Stage 8)
-- Direction sentence: [concrete concept], feels [__ and __], looks like [__], for [audience], seen on [medium].
+- Direction sentence (confirm from Stage 7):
 - Swap test passed? (Y/N, what was sharpened):
+- **Logo status:** has logo / no logo. If no logo → identity treatment: [type character], [device], [color mark].
 - **Visual System (written once, copied verbatim into every prompt):** palette with roles and hex; type character; style and material; image treatment; device; space level; voice.
 - Subtraction pass: elements removed / merged / moved to caption / shrunk:
 - Per output: hero, primary/secondary/action, reading path, calm-space %, composition zones, element count.
 - Material use per image (treatment, placement, size):
+- Text strategy per output (A / B / C) and reason:
 - Asumsi saya:
 - Conflicts resolved and how:
+
