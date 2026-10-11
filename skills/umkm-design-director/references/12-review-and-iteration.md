@@ -31,7 +31,7 @@ Report in plain language: "3 hal sudah bagus, 2 hal perlu diperbaiki: ..." and g
 |---|---|---|
 | Hero looks different from the real product | No reference or weak "keep exactly" | Re-run with the product photo as reference and the keep-exactly sentence; or composite the real photo in an editor |
 | Misspelled or garbled text | Too much/small text, unreliable tool | Reduce to fewer, larger lines; or switch to strategy B and add text in an editor |
-| Everything the same size | Missing size ranks | State "headline largest at 30% canvas height, price second at 15%, everything else at 8% or smaller" |
+| Everything the same size | Missing size ranks | State the hierarchy clearly: "headline dominates — the single largest element; price is the second thing the eye lands on; everything else is clearly smaller and supporting" |
 | Cluttered with decoration | No exclusion line or vague style | Add specific exclusion list; add "large calm empty area around the hero, about 40% of canvas" |
 | Plastic or glossy look | Defaults for lighting/material | Specify "matte, natural window light, visible texture, slight imperfection on surface" |
 | Text unreadable in the physical piece | Type too small for viewing distance | Increase headline to 28–35% canvas height; reduce total text to fewer, larger elements |
@@ -40,7 +40,7 @@ Report in plain language: "3 hal sudah bagus, 2 hal perlu diperbaiki: ..." and g
 | Too much information for a roadside piece | Content not filtered for viewing duration | Reduce to 3–5 words maximum; move secondary information to a separate flyer |
 | Text unreadable on image | Busy background or low contrast | Specify a flat solid panel or calm zone with strong light-on-dark contrast |
 | Generic centered layout | Composition not specified | Specify asymmetry with zones and eye path |
-| Crowded, every corner filled | Space not allocated | Add "about 40% of the canvas calm and empty, flat color, mainly [where]; no decorative elements" and remove one element |
+| Crowded, every corner filled | Space not allocated | Add "generous calm space around the hero — the emptiness signals confidence; only the essential elements, nothing decorative" and remove one element |
 | Attached image ignored or altered | Role, treatment, or keep-unchanged unclear | Restate the ATTACHED IMAGES block: order, role, "keep exactly", placement and size |
 | Colors off-brand or neon | Colors not given | Give hex values and roles for all three palette positions |
 
@@ -69,7 +69,7 @@ A good workflow: AI makes the **background and mood**; the owner adds **exact te
 - [ ] Tidak ada klaim yang tidak bisa dibuktikan ("terlaris", "nomor 1", testimoni)
 - [ ] Tulisan terbaca di layar HP kecil dan di bawah sinar matahari
 - [ ] Foto orang: sudah izin
-- [ ] Format sesuai platform (story tidak terpotong, feed tidak terpotong)
+- [ ] Format sesuai ukuran cetak (tidak terpotong, bleed cukup jika perlu)
 - [ ] Caption berisi detail tambahan (alamat lengkap, syarat, jam buka)
 
 ## 7. Reviewing a set of outputs

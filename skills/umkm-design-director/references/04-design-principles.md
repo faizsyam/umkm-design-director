@@ -69,7 +69,7 @@ For a typical single-message print piece (spanduk, promo poster): no more than 5
 **Subtraction pass — do this always before finalizing.**
 List every planned element. For each: try removing it. If the communication is not weakened, remove it. Try merging it with another element. Try moving it to the second panel or caption. Try shrinking it. Prefer removing over shrinking.
 
-**In the prompt:** state space as a specific instruction: "About 45% of the canvas stays calm and empty (flat deep brown, no texture), mainly in the left third. Nothing floats in that area. No decorative elements."
+**In creative direction:** Communicate space as intent — what it means for the design and why. "Generous space around the hero signals confidence — the message is strong enough to stand alone, with no decoration needed to fill the silence." The image model allocates space to serve that intent.
 
 ---
 

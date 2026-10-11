@@ -220,6 +220,7 @@ When the prompt must generate food or product imagery without a reference photo,
 ## 9. Contradiction check
 
 - Creative Direction Summary completed before this prompt was written?
+- Does the CREATIVE DIRECTION reflect the emotional brief from Stage 4 — the causal chain from desired perception to visual element?
 - Any sentence asking for both "minimal" and "rich detail"?
 - Does the CONTENT block list what actually needs to appear, or just what seemed comprehensive?
 - Does the CREATIVE DIRECTION trace back to the actual business, or is it generic style language?

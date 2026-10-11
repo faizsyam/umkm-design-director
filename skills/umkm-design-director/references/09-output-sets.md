@@ -38,22 +38,25 @@ Record in the Brief Sheet:
 
 Decide **once** (Stage 8), then write it identically into every prompt. Keep it to the items that make a family recognizable:
 
-- **Palette with roles** (dominant, support, accent, hex values) and where the accent is used
 - **Type character** for headline and support, case, weight
-- **Style and material** (photo or illustration, texture, finish, light)
+- **Style and material** (photo or illustration, texture, finish, light quality)
+- **Image treatment** (how real images are cleaned, cropped, grounded)
 - **Graphic device** (one recurring element: a stripe, label shape, stamp, border, lettering style), or none
-- **Space level** (how calm, how many elements, margin) and the **alignment spine** logic
-- **Photo or image treatment** (how real images are cleaned, cropped, grounded)
+- **Space level** (how calm, how many elements, margin)
+
+Color direction and palette belong in the CREATIVE DIRECTION block of each prompt — they are part of the business-derived creative world, not the shared consistency block. The VISUAL SYSTEM block carries only the elements that create family recognition across different formats. Because color is expressed through the shared concept and CREATIVE DIRECTION language, it stays consistent without being a copied hex list.
+
 - **Voice** of the copy (register, sentence length): used when writing the text in Stage 6, not repeated in the image prompts
 
 ## 4. What varies per output
 
 **Fixed across all outputs (Visual System — must be identical):**
-- Palette hex values and assigned roles
 - Type character (headline weight/personality, support character)
-- Graphic device (if any) and its color
+- Graphic device (if any) and its overall character
 - Image treatment (surface material, light quality, photo style)
 - Brand/identity treatment (logo placement rules, or identity treatment spec)
+
+Note: color direction and palette belong in each prompt's CREATIVE DIRECTION block — they are part of the business-derived creative world that stays consistent through the shared concept, not through copying hex values into a system block. The CREATIVE DIRECTION in each prompt should describe the same color world using consistent language.
 
 **Adapts per output (driven by format + viewing context — must change):**
 - Space level (roadside spanduk: 40-60% calm; flyer: 20-35%)

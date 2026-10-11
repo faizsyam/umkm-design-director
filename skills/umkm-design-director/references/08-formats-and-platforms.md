@@ -137,10 +137,10 @@ The following are working guidelines based on physical letter height. In practic
 - One phone number (large) is the limit for contact
 - No body text, no supporting text — it will not be read
 
-**Translate distance into prompt instructions (never leave this to the model):**
-- "Headline at 30% of canvas height in heavy condensed caps"
-- "Maximum 5 words total across all text elements"
-- "No text element smaller than 12% of canvas height"
+**Translate distance into design character (never leave this to the model):**
+- "A composition that communicates one bold idea — readable at a glance from distance, with maximum contrast and nothing competing for attention"
+- "Spare and immediate — headline dominates, maximum five words total, nothing secondary visible"
+- "The scale and contrast level of a piece designed to register in two seconds from a moving vehicle"
 
 ---
 

@@ -309,7 +309,7 @@ Missing Should fields become stated assumptions ("Asumsi saya") in the plan.
 
 ## Visual concept development (Stage 7 in detail)
 
-Stage 7 is mandatory. Read `references/13-design-thinking.md` Section 3 before this stage.
+Stage 7 is mandatory. Read `references/13-design-thinking.md` Sections 4 and 5 before this stage.
 
 A visual concept is the organizing idea. It answers: *What visual idea can communicate this specific business, to this specific audience, for this specific objective, in this specific physical environment?*
 
@@ -412,7 +412,7 @@ State A, B, or C explicitly with a reason in the plan and in the prompt. Do not 
 
 ## Deliver (keep it compact)
 
-1. **Rencana desain bersama:** concept, desired perception, direction sentence, Visual System in plain words, how each material is used, identity treatment if no logo, assumptions. Include how physical context shaped the design character.
+1. **Rencana desain bersama:** concept, desired perception, emotional brief (one line), direction sentence, Visual System in plain words, how each material is used, identity treatment if no logo, assumptions. Include how physical context shaped the design character.
 2. **Daftar output:** one line each (name, ratio/size, job, text strategy, attachments).
 3. **Prompt 1, Prompt 2...** each in its own code block, headed with name, size, and medium, followed by its **Lampiran** list.
 4. **Cara pakai:** for each prompt, copy prompt, attach images in listed order, send together; proofread every character; check the physical piece at actual size if possible.
@@ -771,7 +771,7 @@ Apply the review checklist (`references/12-review-and-iteration.md`). Say what w
 1. Konfirmasi tidak ada material ("Tidak ada logo, tidak ada foto produk, tidak ada desain lama — benar?").
 2. Di Stage 8, kembangkan identity treatment dari archetype (`07-business-archetypes.md`).
 3. Tunjukkan treatment dalam bahasa plain sebelum melanjutkan: "Nama usaha Kakak akan tampil seperti ini: huruf tebal berkarakter cap/slab, di panel warna gelap, nama putih — ini yang bikin terasa merek, bukan templat kosong. Boleh lanjut dengan tampilan ini?"
-4. Minta persetujuan treatment sebelum lanjut ke Stage 10. Jangan masuk ke Visual Blueprint tanpa konfirmasi identity treatment.
+4. Minta persetujuan treatment sebelum lanjut ke Stage 10. Jangan masuk ke Creative Direction Summary tanpa konfirmasi identity treatment.
 5. Setiap prompt punya blok IDENTITY yang identik di semua output set.
 
 **Owner is impatient**
@@ -1212,7 +1212,7 @@ For a typical single-message print piece (spanduk, promo poster): no more than 5
 **Subtraction pass — do this always before finalizing.**
 List every planned element. For each: try removing it. If the communication is not weakened, remove it. Try merging it with another element. Try moving it to the second panel or caption. Try shrinking it. Prefer removing over shrinking.
 
-**In the prompt:** state space as a specific instruction: "About 45% of the canvas stays calm and empty (flat deep brown, no texture), mainly in the left third. Nothing floats in that area. No decorative elements."
+**In creative direction:** Communicate space as intent — what it means for the design and why. "Generous space around the hero signals confidence — the message is strong enough to stand alone, with no decoration needed to fill the silence." The image model allocates space to serve that intent.
 
 ---
 
@@ -1914,10 +1914,10 @@ The following are working guidelines based on physical letter height. In practic
 - One phone number (large) is the limit for contact
 - No body text, no supporting text — it will not be read
 
-**Translate distance into prompt instructions (never leave this to the model):**
-- "Headline at 30% of canvas height in heavy condensed caps"
-- "Maximum 5 words total across all text elements"
-- "No text element smaller than 12% of canvas height"
+**Translate distance into design character (never leave this to the model):**
+- "A composition that communicates one bold idea — readable at a glance from distance, with maximum contrast and nothing competing for attention"
+- "Spare and immediate — headline dominates, maximum five words total, nothing secondary visible"
+- "The scale and contrast level of a piece designed to register in two seconds from a moving vehicle"
 
 ---
 
@@ -2074,22 +2074,25 @@ Record in the Brief Sheet:
 
 Decide **once** (Stage 8), then write it identically into every prompt. Keep it to the items that make a family recognizable:
 
-- **Palette with roles** (dominant, support, accent, hex values) and where the accent is used
 - **Type character** for headline and support, case, weight
-- **Style and material** (photo or illustration, texture, finish, light)
+- **Style and material** (photo or illustration, texture, finish, light quality)
+- **Image treatment** (how real images are cleaned, cropped, grounded)
 - **Graphic device** (one recurring element: a stripe, label shape, stamp, border, lettering style), or none
-- **Space level** (how calm, how many elements, margin) and the **alignment spine** logic
-- **Photo or image treatment** (how real images are cleaned, cropped, grounded)
+- **Space level** (how calm, how many elements, margin)
+
+Color direction and palette belong in the CREATIVE DIRECTION block of each prompt — they are part of the business-derived creative world, not the shared consistency block. The VISUAL SYSTEM block carries only the elements that create family recognition across different formats. Because color is expressed through the shared concept and CREATIVE DIRECTION language, it stays consistent without being a copied hex list.
+
 - **Voice** of the copy (register, sentence length): used when writing the text in Stage 6, not repeated in the image prompts
 
 ## 4. What varies per output
 
 **Fixed across all outputs (Visual System — must be identical):**
-- Palette hex values and assigned roles
 - Type character (headline weight/personality, support character)
-- Graphic device (if any) and its color
+- Graphic device (if any) and its overall character
 - Image treatment (surface material, light quality, photo style)
 - Brand/identity treatment (logo placement rules, or identity treatment spec)
+
+Note: color direction and palette belong in each prompt's CREATIVE DIRECTION block — they are part of the business-derived creative world that stays consistent through the shared concept, not through copying hex values into a system block. The CREATIVE DIRECTION in each prompt should describe the same color world using consistent language.
 
 **Adapts per output (driven by format + viewing context — must change):**
 - Space level (roadside spanduk: 40-60% calm; flyer: 20-35%)
@@ -2586,6 +2589,7 @@ When the prompt must generate food or product imagery without a reference photo,
 ## 9. Contradiction check
 
 - Creative Direction Summary completed before this prompt was written?
+- Does the CREATIVE DIRECTION reflect the emotional brief from Stage 4 — the causal chain from desired perception to visual element?
 - Any sentence asking for both "minimal" and "rich detail"?
 - Does the CONTENT block list what actually needs to appear, or just what seemed comprehensive?
 - Does the CREATIVE DIRECTION trace back to the actual business, or is it generic style language?
@@ -2770,7 +2774,7 @@ Report in plain language: "3 hal sudah bagus, 2 hal perlu diperbaiki: ..." and g
 |---|---|---|
 | Hero looks different from the real product | No reference or weak "keep exactly" | Re-run with the product photo as reference and the keep-exactly sentence; or composite the real photo in an editor |
 | Misspelled or garbled text | Too much/small text, unreliable tool | Reduce to fewer, larger lines; or switch to strategy B and add text in an editor |
-| Everything the same size | Missing size ranks | State "headline largest at 30% canvas height, price second at 15%, everything else at 8% or smaller" |
+| Everything the same size | Missing size ranks | State the hierarchy clearly: "headline dominates — the single largest element; price is the second thing the eye lands on; everything else is clearly smaller and supporting" |
 | Cluttered with decoration | No exclusion line or vague style | Add specific exclusion list; add "large calm empty area around the hero, about 40% of canvas" |
 | Plastic or glossy look | Defaults for lighting/material | Specify "matte, natural window light, visible texture, slight imperfection on surface" |
 | Text unreadable in the physical piece | Type too small for viewing distance | Increase headline to 28–35% canvas height; reduce total text to fewer, larger elements |
@@ -2779,7 +2783,7 @@ Report in plain language: "3 hal sudah bagus, 2 hal perlu diperbaiki: ..." and g
 | Too much information for a roadside piece | Content not filtered for viewing duration | Reduce to 3–5 words maximum; move secondary information to a separate flyer |
 | Text unreadable on image | Busy background or low contrast | Specify a flat solid panel or calm zone with strong light-on-dark contrast |
 | Generic centered layout | Composition not specified | Specify asymmetry with zones and eye path |
-| Crowded, every corner filled | Space not allocated | Add "about 40% of the canvas calm and empty, flat color, mainly [where]; no decorative elements" and remove one element |
+| Crowded, every corner filled | Space not allocated | Add "generous calm space around the hero — the emptiness signals confidence; only the essential elements, nothing decorative" and remove one element |
 | Attached image ignored or altered | Role, treatment, or keep-unchanged unclear | Restate the ATTACHED IMAGES block: order, role, "keep exactly", placement and size |
 | Colors off-brand or neon | Colors not given | Give hex values and roles for all three palette positions |
 
@@ -2808,7 +2812,7 @@ A good workflow: AI makes the **background and mood**; the owner adds **exact te
 - [ ] Tidak ada klaim yang tidak bisa dibuktikan ("terlaris", "nomor 1", testimoni)
 - [ ] Tulisan terbaca di layar HP kecil dan di bawah sinar matahari
 - [ ] Foto orang: sudah izin
-- [ ] Format sesuai platform (story tidak terpotong, feed tidak terpotong)
+- [ ] Format sesuai ukuran cetak (tidak terpotong, bleed cukup jika perlu)
 - [ ] Caption berisi detail tambahan (alamat lengkap, syarat, jam buka)
 
 ## 7. Reviewing a set of outputs
@@ -3354,19 +3358,19 @@ Same facts, same words across outputs.
 **Visual System** (written once, copied verbatim into every prompt of a set):
 
 ```
-Palette: [dominant name+hex ~60%]; [support name+hex ~30%]; [accent name+hex ~10%, used only for ___].
 Type: [headline character — weight, personality, case]; [support character]; [size relationship].
 Style and material: [photo/illustration, texture, finish, light quality].
 Image treatment: [how real photos are handled — grounding, cleaning, cropping].
 Device: [one recurring graphic element, or none].
 Space level: [calm / moderate / dense-but-grouped].
 ```
+Color direction and palette: goes in Creative Direction (Section 10) — derived from concept, product, and audience. Not in this shared block.
 
 **Design decisions and their reasons:**
 | Decision | What | Why (concept / audience / context) |
 |---|---|---|
 | Primary | | |
-| Colors | | |
+| Color world | | |
 | Type | | |
 | Space level | | |
 | Composition | | |

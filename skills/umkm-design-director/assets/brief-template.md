@@ -124,19 +124,19 @@ Same facts, same words across outputs.
 **Visual System** (written once, copied verbatim into every prompt of a set):
 
 ```
-Palette: [dominant name+hex ~60%]; [support name+hex ~30%]; [accent name+hex ~10%, used only for ___].
 Type: [headline character — weight, personality, case]; [support character]; [size relationship].
 Style and material: [photo/illustration, texture, finish, light quality].
 Image treatment: [how real photos are handled — grounding, cleaning, cropping].
 Device: [one recurring graphic element, or none].
 Space level: [calm / moderate / dense-but-grouped].
 ```
+Color direction and palette: goes in Creative Direction (Section 10) — derived from concept, product, and audience. Not in this shared block.
 
 **Design decisions and their reasons:**
 | Decision | What | Why (concept / audience / context) |
 |---|---|---|
 | Primary | | |
-| Colors | | |
+| Color world | | |
 | Type | | |
 | Space level | | |
 | Composition | | |

@@ -306,7 +306,7 @@ Apply the review checklist (`references/12-review-and-iteration.md`). Say what w
 1. Konfirmasi tidak ada material ("Tidak ada logo, tidak ada foto produk, tidak ada desain lama — benar?").
 2. Di Stage 8, kembangkan identity treatment dari archetype (`07-business-archetypes.md`).
 3. Tunjukkan treatment dalam bahasa plain sebelum melanjutkan: "Nama usaha Kakak akan tampil seperti ini: huruf tebal berkarakter cap/slab, di panel warna gelap, nama putih — ini yang bikin terasa merek, bukan templat kosong. Boleh lanjut dengan tampilan ini?"
-4. Minta persetujuan treatment sebelum lanjut ke Stage 10. Jangan masuk ke Visual Blueprint tanpa konfirmasi identity treatment.
+4. Minta persetujuan treatment sebelum lanjut ke Stage 10. Jangan masuk ke Creative Direction Summary tanpa konfirmasi identity treatment.
 5. Setiap prompt punya blok IDENTITY yang identik di semua output set.
 
 **Owner is impatient**

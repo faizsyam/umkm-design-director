@@ -41,11 +41,13 @@ Contoh ini menunjukkan alur skill: menggali keunggulan usaha, menanyakan gambar 
 
 ## Rencana desain bersama
 
-- **Pesan:** "Bakso segede bola tenis": ukuran jadi bukti, bukan kata "enak".
-- **Kesan:** jujur dan royal, bukan murahan. Beda dari spanduk merah yang ramai: kita pakai ruang lega dan satu bintang.
-- **Sistem visual (sama di semua gambar):** biru gerobak (#1F4E8C) sebagai warna utama, krem (#F3E6CE) untuk tulisan, merah cabai (#D6452F) hanya untuk penawaran; huruf cat tangan ala papan warung; foto asli tidak diubah; satu label krem hanya di balik penawaran; ruang kosong sekitar 40%.
+- **Konsep:** "Bakso segede bola tenis" — ukuran jadi bukti, bukan kata "enak".
+- **Brief emosional:** Rasa jujur dan royal → mangkuk bakso nyata dan besar sebagai bintang → foto asli wajib, latar biru gerobak yang tenang, tidak ada dekorasi yang mengalihkan.
+- **Kesan:** jujur dan royal, bukan murahan. Beda dari pesaing yang merah, ramai, dan penuh tulisan: kita pakai ruang lega, biru gerobak yang khas, dan satu bintang yang jelas.
+- **Arah kreatif:** Biru gerobak Pak Darto yang khas — bukan biru generik laundry, tapi biru cat kayu yang sudah lama ada di Jl. Kemuning. Hangat dan langsung seperti warung yang sudah dipercaya bertahun-tahun.
+- **Sistem visual (sama di semua gambar):** Huruf cat tangan ala papan warung; foto asli tidak diubah; satu label krem hanya di balik penawaran; ruang tenang dan lega di sekitar bintang.
 - **Pemakaian gambar:** foto bakso = bintang (dibersihkan latarnya); foto gerobak = latar story; logo = ditempel apa adanya.
-- **Teks:** sebagian di dalam gambar (judul, penawaran, alamat); logo halal ditempel sendiri.
+- **Teks:** sebagian di dalam gambar (judul, penawaran, alamat); logo halal ditempel sendiri oleh Kakak.
 - **Asumsi saya:** foto bakso cukup tajam untuk dipakai langsung.
 
 ## Daftar output
@@ -58,77 +60,97 @@ Contoh ini menunjukkan alur skill: menggali keunggulan usaha, menanyakan gambar 
 ## Prompt 1: Feed Instagram (4:5)
 
 ```
-FORMAT: Instagram feed promo post, vertical 4:5 (1080x1350 px). Viewed on a phone during a fast scroll; must read in 3 seconds.
+FORMAT: Instagram feed promo post, vertical 4:5 (1080×1350 px).
 
-CONCEPT: "Bakso segede bola tenis." Warm, honest, proudly local. For families and factory workers in Klaten who want a filling lunch. This output's job: hook and offer.
+OBJECTIVE: Hook a family or factory worker mid-scroll and communicate the daily offer clearly enough that they tap to visit or order.
 
-ATTACHED IMAGES (attach in this order):
-Image 1 = the owner's real photo of a bowl of bakso urat with a tennis-ball-sized meatball in clear beef broth. Role: hero. Treatment: keep exactly; clean the background. Placement: slightly right of center on a worn wooden cart counter. Size: about 50% of canvas height. Keep unchanged: bowl, broth, meatballs, colors. May change: background.
-Image 2 = the business logo "Bakso Pak Darto". Role: brand mark. Treatment: place unaltered. Placement: top-right corner, about 14% of canvas width, with clear space. Keep unchanged: everything.
-Priority: Image 1 wins on food appearance; never redraw Image 2.
+CONCEPT: "Bakso segede bola tenis." Warm, honest, proudly local. For families and factory workers in Klaten who want a filling, trustworthy lunch.
 
-HERO VISUAL: Image 1, gentle high angle, a little real steam, soft side window light.
+CONTENT:
+- Headline: "BAKSO SEGEDE BOLA TENIS"
+- Offer: "Beli 2 porsi, GRATIS es teh"
+- Condition: "sampai akhir bulan"
+- Address: "Jl. Kemuning, Klaten — buka 10.00–21.00"
+- Hero: bowl of bakso urat with real meatball (Image 1)
+- Brand: business logo (Image 2), upper area
+- Reserved space: small empty area, lower-right corner, for official halal logo added by owner
+Render all text exactly as written, in Indonesian, no additional words.
 
-COMPOSITION: Asymmetric, left-aligned spine. Headline in the top 27%. Offer label in the middle band left of the bowl. Narrow address strip across the bottom 10%. SPACE: about 40% of the canvas stays calm and empty (flat cart-blue), mainly the upper right and the lower left; nothing floats in it; no decorative elements. Margins about 6%. Reserve a small empty square in the bottom-right corner (about 12% of width) for an official halal logo added later; render nothing in it. Eye path: headline -> bowl -> offer -> address.
+CREATIVE DIRECTION: A warm, confident promo built around one honest product and one striking proof — the meatball the size of a tennis ball. The overall feeling is jujur dan royal: the design of a neighborhood warung that has served the same street for years, direct and unpretentious. Deep cart-blue fills the field — not generic blue, but the specific blue of Pak Darto's wooden gerobak, worn and familiar. The real bowl stands as the quiet hero; the sign-painter headline carries the proof; a single cream label frames the offer. Generous breathing room around the bowl signals confidence. The design looks like something made by a person who knows their food is good and does not need to shout.
 
-TEXT (render exactly as written, in Indonesian, no additional words):
-1. Headline "BAKSO SEGEDE BOLA TENIS" - largest, three short lines, cream (#F3E6CE).
-2. Offer "Beli 2 porsi, GRATIS es teh" - second largest, chili-red on the cream label; small beneath: "sampai akhir bulan".
-3. Address strip "Jl. Kemuning, Klaten - buka 10.00-21.00" - small, cream on blue.
-No other text, taglines, or logos.
+DESIGN CHARACTER: The blue is Pak Darto's cart blue — the one thing on Jl. Kemuning that tells regulars "this is the bakso with the enormous meatball." The sign-painter headline, the cream label, and the real bowl together create a design that would look wrong for any other warung. The proof ("segede bola tenis") is the organizing idea — it cannot be borrowed by a competitor.
+
+HERO VISUAL: Image 1 — the owner's real photo of a bowl of bakso urat with a tennis-ball-sized meatball in clear bone broth. Keep the product exactly as photographed: bowl shape, broth color, meatball size, and visible urat texture unchanged. Place the bowl slightly right of center on a worn wooden cart counter, soft side window light from the left, a faint wisp of real steam above the broth. Replace the background with flat cart-blue (#1F4E8C). No reflections on the bowl. Grounded contact shadow beneath.
+
+LOGO / IDENTITY: Image 2 — business logo "Bakso Pak Darto." Place unaltered, upper area. Keep unchanged: everything. Never redraw or recolor.
 
 VISUAL SYSTEM (identical in every prompt of this set):
-Palette: cart-blue (#1F4E8C) dominant ~60%; warm cream (#F3E6CE) ~30%; chili-red (#D6452F) ~10%, used only for the offer. Type: hand-painted sign-painter capitals for headline and offer; sturdy humanist sans for support text. Style and material: real photos on a flat hand-painted blue wooden-cart wall with faint brush texture, matte, soft natural light. Image treatment: real product photos kept exactly, grounded on a surface, backgrounds cleaned or replaced only. Device: a plain cream painted label shape behind the offer only. Space level: calm.
+Type: heavy hand-painted sign-painter capitals for headline and offer; sturdy humanist sans for support text; no scripts. Style and material: real product photos on flat hand-painted blue wooden-cart surface, matte finish, soft natural window light with warm cast. Image treatment: real product photos kept exactly, grounded on surface with soft contact shadow, backgrounds cleaned or replaced only. Device: plain cream painted label shape behind the offer only. Space level: calm.
 
-KEEP / AVOID: Keep the bowl and logo exactly as provided. Avoid floating ingredients, glow, gradients, sparkles, extra text, stock-style people, crowded corners.
+ATTACHED IMAGES (attach in this order):
+Image 1 = owner's real photo of a bowl of bakso urat with a tennis-ball-sized meatball in clear beef broth. Role: hero. Treatment: keep exactly; clean the background; replace with flat cart-blue. Keep unchanged: bowl, broth, meatballs, colors. May change: background.
+Image 2 = business logo "Bakso Pak Darto". Role: brand mark. Treatment: place unaltered, upper area. Keep unchanged: everything.
+Priority if conflicts: Image 1 wins on food appearance; Image 2 must never be redrawn or recolored.
+
+EXCLUSIONS: Keep bowl, broth, meatballs, and logo exactly as provided. Avoid floating meatballs or splashing broth, glow effects, gradient backgrounds, decorative sparkles, extra invented text, stock smiling people, crowded corners, chili decorations scattered around the bowl.
 ```
 
 **Lampiran Prompt 1** (urutan harus sama):
 1. Foto bakso (hero)
-2. Logo Bakso Pak Darto (pojok kanan atas)
+2. Logo Bakso Pak Darto (area atas)
 
 ## Prompt 2: Story (9:16)
 
 ```
-FORMAT: Instagram and WhatsApp story, vertical 9:16 (1080x1920 px), viewed full-screen for 2-5 seconds. Keep all text and the logo inside the central 70% of the height.
+FORMAT: Instagram and WhatsApp story, vertical 9:16 (1080×1920 px).
 
-CONCEPT: "Bakso segede bola tenis." Warm, honest, proudly local. For families and factory workers in Klaten who want a filling lunch. This output's job: push the deadline and get people to come.
+OBJECTIVE: Push the deadline and make it easy for someone already interested to decide to visit — address and action clear at a glance.
 
-ATTACHED IMAGES (attach in this order):
-Image 1 = the owner's real photo of a bowl of bakso urat with a tennis-ball-sized meatball in clear beef broth. Role: hero. Treatment: keep exactly; cut out and place. Placement: centered in the lower middle, resting on the counter of Image 2. Size: about 38% of canvas height. Keep unchanged: bowl, broth, meatballs, colors. May change: background.
-Image 2 = the owner's photo of the blue wooden bakso cart. Role: setting. Treatment: clean up stray objects and other brands' signs; soften focus behind the bowl. Placement: upper two-thirds as a quiet backdrop, counter at the 62% height line. Keep unchanged: the cart's blue and wood.
-Image 3 = the business logo "Bakso Pak Darto". Role: brand mark. Treatment: place unaltered. Placement: top-left inside the safe area, about 18% of canvas width.
-Priority: Image 1 wins on food appearance; Image 2 is background only; never redraw Image 3.
+CONCEPT: "Bakso segede bola tenis." Warm, honest, proudly local. For families and factory workers in Klaten who want a filling, trustworthy lunch.
 
-HERO VISUAL: Image 1 on the cart counter from Image 2, soft side window light, a little real steam.
+CONTENT:
+- Headline: "SEGEDE BOLA TENIS"
+- Offer: "Beli 2 porsi, GRATIS es teh"
+- Condition: "sampai akhir bulan"
+- Address: "Mampir: Jl. Kemuning, Klaten"
+- Hero: bowl of bakso urat with real meatball (Image 1), resting on the cart counter from Image 2
+- Brand: business logo (Image 3), upper area inside safe zone
+- Reserved space: small empty area, lower-right inside safe zone, for official halal logo added by owner
+Render all text exactly as written, in Indonesian, no additional words. Keep all text and logo inside the central safe zone (avoid top and bottom 15% of the canvas).
 
-COMPOSITION: Vertical stack with a left-aligned spine. Headline in the upper third beside the logo, offer label under the bowl, address line near the lower safe limit. SPACE: about 40% of the canvas stays calm (the softened cart wall and flat blue), mainly the upper right; nothing floats in it; no decorative elements. Margins about 7%. Reserve a small empty square (about 12% of width) at the lower right inside the safe area for an official halal logo added later; render nothing in it. Eye path: headline -> bowl -> offer -> address.
+CREATIVE DIRECTION: A warm, direct vertical composition built around the promise and the proof. The dominant feeling is the same honest confidence as the feed — this is the same warung, the same cart, the same bowl — but the story format pushes the deadline forward and gives the viewer one clear action. The softened gerobak biru fills the upper half as a quiet, familiar backdrop; the bowl sits grounded on the actual cart counter; the headline and offer are the things that must register in two seconds. Generous calm space in the upper right keeps the design from feeling crowded. The overall character is warm and local — the feeling of walking past a familiar cart and deciding today is the day.
 
-TEXT (render exactly as written, in Indonesian, no additional words):
-1. Headline "SEGEDE BOLA TENIS" - largest, two lines, cream (#F3E6CE).
-2. Offer "Beli 2 porsi, GRATIS es teh" - second largest, chili-red on the cream label; small beneath: "sampai akhir bulan".
-3. Address line "Mampir: Jl. Kemuning, Klaten" - small, cream on blue.
-No other text, taglines, or logos.
+DESIGN CHARACTER: The blue wooden cart in the background is Pak Darto's specific cart — not a generic backdrop, but the actual place where this bakso is sold. The bowl on the counter, the sign-painter headline, and the cart-blue together make this design look wrong for any other warung. The proof and the deadline share the frame without competing because the design gives each one room to breathe.
+
+HERO VISUAL: Image 1 — the owner's real bowl of bakso urat with a tennis-ball-sized meatball, placed resting directly on the wooden counter surface of Image 2. Keep the product exactly as photographed: bowl shape, broth color, meatball size, urat texture unchanged. Soft side window light from the left, faint steam wisp above the broth, grounded contact shadow. Image 2 as setting: soften focus slightly behind the bowl; clean up any stray objects or other brands' signage; preserve the cart's blue paint and wood character.
+
+LOGO / IDENTITY: Image 3 — business logo "Bakso Pak Darto." Place unaltered, upper area inside the safe zone. Keep unchanged: everything. Never redraw or recolor.
 
 VISUAL SYSTEM (identical in every prompt of this set):
-Palette: cart-blue (#1F4E8C) dominant ~60%; warm cream (#F3E6CE) ~30%; chili-red (#D6452F) ~10%, used only for the offer. Type: hand-painted sign-painter capitals for headline and offer; sturdy humanist sans for support text. Style and material: real photos on a flat hand-painted blue wooden-cart wall with faint brush texture, matte, soft natural light. Image treatment: real product photos kept exactly, grounded on a surface, backgrounds cleaned or replaced only. Device: a plain cream painted label shape behind the offer only. Space level: calm.
+Type: heavy hand-painted sign-painter capitals for headline and offer; sturdy humanist sans for support text; no scripts. Style and material: real product photos on flat hand-painted blue wooden-cart surface, matte finish, soft natural window light with warm cast. Image treatment: real product photos kept exactly, grounded on surface with soft contact shadow, backgrounds cleaned or replaced only. Device: plain cream painted label shape behind the offer only. Space level: calm.
 
-KEEP / AVOID: Keep the bowl and logo exactly as provided. Avoid floating ingredients, glow, gradients, sparkles, extra text, stock-style people, crowded corners.
+ATTACHED IMAGES (attach in this order):
+Image 1 = owner's real photo of a bowl of bakso urat with a tennis-ball-sized meatball in clear beef broth. Role: hero. Treatment: keep exactly; place on the cart counter from Image 2. Keep unchanged: bowl, broth, meatballs, colors. May change: background.
+Image 2 = owner's photo of the blue wooden bakso cart. Role: setting. Treatment: clean up stray objects and other brands' signs; soften focus behind the bowl; preserve cart blue and wood character. Keep unchanged: the cart's color and structure.
+Image 3 = business logo "Bakso Pak Darto". Role: brand mark. Treatment: place unaltered, upper area inside safe zone. Keep unchanged: everything.
+Priority if conflicts: Image 1 wins on food appearance; Image 2 is background only; Image 3 must never be redrawn or recolored.
+
+EXCLUSIONS: Keep bowl, meatballs, broth, cart character, and logo exactly as provided. Avoid floating meatballs or splashing broth, glow effects, gradient sky backgrounds, decorative sparkles, extra invented text, stock smiling people, crowded corners, any decoration in the calm upper-right area.
 ```
 
 **Lampiran Prompt 2** (urutan harus sama):
 1. Foto bakso (hero)
 2. Foto gerobak biru (latar)
-3. Logo Bakso Pak Darto (kiri atas)
+3. Logo Bakso Pak Darto (area atas, dalam safe zone)
 
 ## Cara pakai
 1. Buka ChatGPT (chat baru untuk tiap prompt lebih rapi). **Salin Prompt 1, lampirkan gambar sesuai urutannya, lalu kirim bersamaan.** Ulangi untuk Prompt 2.
 2. Cek tulisan huruf demi huruf: "BAKSO SEGEDE BOLA TENIS", "GRATIS", alamat, jam buka.
-3. Tempel logo halal resmi di kotak kosong (Canva), lalu bandingkan kedua gambar berdampingan sebelum posting.
+3. Tempel logo halal resmi di area kosong (Canva), lalu bandingkan kedua gambar berdampingan sebelum posting.
 
 ## Kenapa ini tidak terlihat seperti AI pasaran
 - **Beda dari pesaing dengan sengaja:** pesaing ramai dan merah; ini lega dan biru dengan satu bintang.
-- **Dua jangkar spesifik:** ukuran "segede bola tenis" dan gerobak biru asli.
-- **Ruang dialokasikan:** 40% kosong dan datar, tanpa hiasan; hanya yang perlu yang tampil.
+- **Dua jangkar spesifik:** ukuran "segede bola tenis" dan gerobak biru asli Pak Darto.
+- **Ruang lega karena konsep, bukan pengukuran:** ruang tenang di sekitar mangkuk adalah bagian dari karakter desain — keyakinan bahwa pesan ini cukup kuat berdiri sendiri.
 - **Foto asli dipertahankan:** bakso tidak dikarang AI.
 - **Satu keluarga, dua prompt mandiri:** sistem visual ditulis persis sama di kedua prompt, dan tidak ada prompt yang merujuk prompt lain.

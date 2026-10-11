@@ -323,7 +323,7 @@ Missing Should fields become stated assumptions ("Asumsi saya") in the plan.
 
 ## Visual concept development (Stage 7 in detail)
 
-Stage 7 is mandatory. Read `references/13-design-thinking.md` Section 3 before this stage.
+Stage 7 is mandatory. Read `references/13-design-thinking.md` Sections 4 and 5 before this stage.
 
 A visual concept is the organizing idea. It answers: *What visual idea can communicate this specific business, to this specific audience, for this specific objective, in this specific physical environment?*
 
@@ -426,7 +426,7 @@ State A, B, or C explicitly with a reason in the plan and in the prompt. Do not 
 
 ## Deliver (keep it compact)
 
-1. **Rencana desain bersama:** concept, desired perception, direction sentence, Visual System in plain words, how each material is used, identity treatment if no logo, assumptions. Include how physical context shaped the design character.
+1. **Rencana desain bersama:** concept, desired perception, emotional brief (one line), direction sentence, Visual System in plain words, how each material is used, identity treatment if no logo, assumptions. Include how physical context shaped the design character.
 2. **Daftar output:** one line each (name, ratio/size, job, text strategy, attachments).
 3. **Prompt 1, Prompt 2...** each in its own code block, headed with name, size, and medium, followed by its **Lampiran** list.
 4. **Cara pakai:** for each prompt, copy prompt, attach images in listed order, send together; proofread every character; check the physical piece at actual size if possible.
