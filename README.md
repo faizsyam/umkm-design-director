@@ -1,125 +1,181 @@
 # UMKM Design Director
 
-**Panduan desain AI untuk pemilik UMKM: dari ngobrol sederhana sampai prompt gambar siap pakai yang tidak terlihat seperti "AI slop".**
-*A design-director conversation for small-business owners that ends in ready-to-use, standalone image prompts.*
+**Panduan desain AI untuk pemilik UMKM: dari ngobrol santai hingga prompt gambar cetak siap pakai dengan art direction profesional tanpa "AI slop".**
+*A professional art-direction framework and prompt system for small-business print marketing.*
 
 ---
 
 ## Mulai di sini: pakai lewat ChatGPT, Claude, atau Gemini
 
-Tidak perlu instal apa pun, tidak perlu paham teknologi atau desain. Kakak hanya butuh akun salah satu AI chat (ChatGPT, Claude, atau Gemini) dan satu file dari folder [`siap-pakai/`](siap-pakai/).
+Tidak perlu instal apa pun, tidak perlu paham istilah teknis desain atau teknologi. Anda hanya butuh akun salah satu AI chat (ChatGPT, Claude, atau Gemini) dan file dari folder [`siap-pakai/`](siap-pakai/).
 
-> **Catatan penting:** alur ini punya dua bagian. (1) **Wawancara dan penyusunan prompt**, bisa di ChatGPT, Claude, atau Gemini. (2) **Membuat gambar**, harus di AI yang bisa membuat gambar (misalnya ChatGPT atau Gemini). Beberapa AI chat, termasuk Claude, bisa membantu menyusun prompt tetapi belum tentu bisa membuat gambar; pilih alat gambar yang tersedia di akun Kakak. Fitur unggah file dan batasnya bisa berbeda di paket gratis dan berbayar.
+> **Catatan penting:** Alur ini terdiri dari dua bagian:
+> 1. **Wawancara & penyusunan art direction:** Berlangsung di ChatGPT, Claude, atau Gemini untuk merumuskan konsep, hierarki pesan, dan prompt.
+> 2. **Pembuatan gambar:** Dilakukan di AI yang memiliki fitur pembuat gambar (misalnya ChatGPT Plus/Team atau Gemini Advanced/Pro). Beberapa antarmuka chat (termasuk Claude standar) sangat cakap menyusun prompt tetapi belum terintegrasi pembuat gambar langsung; salin prompt hasil akhir ke model pembuat gambar pilihan Anda.
 
-### Cara 1 (paling mudah, tanpa setup)
+### Cara 1 (Paling mudah, tanpa instalasi)
 
-1. **Unduh** file [`siap-pakai/umkm-design-director-lengkap.md`](siap-pakai/umkm-design-director-lengkap.md) (buka file, pilih Download atau Raw, lalu simpan).
-2. **Buka chat baru** di ChatGPT, Claude, atau Gemini, lalu **unggah file itu** (ikon klip kertas atau tanda +).
+1. **Unduh** file [`siap-pakai/umkm-design-director-lengkap.md`](siap-pakai/umkm-design-director-lengkap.md) (buka file, pilih tombol **Download** atau **Raw**, lalu simpan ke komputer/HP).
+2. **Buka obrolan baru** di ChatGPT, Claude, atau Gemini, lalu **unggah file tersebut** (klik ikon klip kertas atau tanda `+`).
 3. **Kirim pesan pembuka ini** bersama file:
 
-   > Halo! Saya pemilik usaha dan ingin membuat desain promosi. Tolong ikuti panduan di file terlampir sepenuhnya: mulai dari tahap awal, tanya saya sedikit demi sedikit (maksimal 3 pertanyaan sekali jalan) dengan bahasa Indonesia yang sederhana. Di akhir, berikan prompt gambar siap pakai beserta daftar gambar yang harus saya lampirkan untuk tiap prompt.
+   > Halo! Saya pemilik usaha dan ingin membuat materi desain promosi cetak. Tolong ikuti panduan di file terlampir sepenuhnya: mulai dari Tahap 0, ajukan pertanyaan sedikit demi sedikit (maksimal 3 pertanyaan per giliran) menggunakan bahasa Indonesia yang sederhana dan mudah dipahami. Di akhir, berikan rencana desain, ringkasan arah kreatif, dan prompt gambar siap pakai beserta daftar lampiran gambarnya.
    >
-   > *(English: Hi! I own a small business and want a promotional design. Please follow the attached guide fully, asking me at most 3 simple questions at a time. At the end, give me ready-to-use image prompts and the list of images I must attach to each one.)*
+   > *(English: Hi! I own a small business and want to design physical promotional materials. Please follow the attached guide fully: start at Stage 0, ask me at most 3 simple questions at a time in plain language. At the end, deliver a shared design plan, creative direction summary, and ready-to-use standalone image prompts with attachment instructions.)*
 
-4. **Jawab pertanyaannya.** Siapkan foto produk asli, logo, atau desain lama (kalau ada); kirim kapan saja saat ditanya. Jawaban jujur dan konkret (angka, bahan, cerita) menghasilkan desain yang khas.
-5. **Terima hasilnya:** rencana desain, lalu **Prompt 1, Prompt 2, ...** (satu per jenis gambar, misalnya spanduk dan poster). Setiap prompt **berdiri sendiri** dan punya **daftar lampiran**.
-6. **Buat gambarnya:** buka AI pembuat gambar (chat baru), **salin satu prompt, lampirkan gambar sesuai urutan di daftar lampiran, lalu kirim bersamaan.** Ulangi untuk prompt berikutnya.
-7. **Cek tulisan huruf demi huruf** (nama, harga, tanggal, alamat), tempel logo halal resmi bila perlu, lalu posting. Boleh kembali ke chat awal untuk meminta tinjauan hasil.
+4. **Jawab pertanyaan secara bertahap.** Siapkan foto produk asli, logo, foto tempat usaha, atau contoh desain lama (bila ada). Jawaban yang jujur, konkret (bahan, resep, ukuran porsi, cerita usaha) akan menghasilkan desain yang berkarakter dan unik.
+5. **Terima hasil lengkap:** Rencana desain bersama, rumusan **Visual Thesis**, ringkasan arah kreatif, dan **Prompt 1, Prompt 2, ...** (satu prompt mandiri per materi fisik yang dibutuhkan). Setiap prompt berdiri sendiri dalam blok kode terpisah dan memiliki daftar lampiran lokal.
+6. **Buat gambarnya:** Buka obrolan baru di AI pembuat gambar Anda, **salin satu prompt utuh, lampirkan gambar sesuai urutan lampiran, lalu kirim bersamaan.** Ulangi langkah ini secara terpisah untuk prompt materi lainnya.
+7. **Periksa hasil:** Cek ejaan nama usaha, harga, tanggal, dan nomor kontak huruf demi huruf. Tempel logo sertifikasi resmi (Halal Indonesia/BPOM) dan QR code secara manual bila diwajibkan secara hukum.
 
-*Jika AI menolak file, lupa instruksi di tengah jalan, atau paket gratis membatasi ukuran file (file ini cukup besar, sekitar 145 KB), pakai Cara 2 atau Cara 3 di bawah.*
-
-### Cara 2 (setup sekali, dipakai berulang)
-
-Buat asisten khusus supaya Kakak tidak perlu mengunggah file setiap kali. Nama menu bisa berubah dan sebagian fitur butuh paket berbayar.
-
-| AI | Langkah |
-|---|---|
-| **ChatGPT** | Buat GPT atau Project baru. Isi kolom Instructions dengan isi [`umkm-design-director-ringkas.md`](siap-pakai/umkm-design-director-ringkas.md) (kurang dari 8.000 karakter), lalu unggah `umkm-design-director-lengkap.md` ke bagian Knowledge/Files. |
-| **Gemini** | Buat Gem baru. Instruksi = isi `umkm-design-director-ringkas.md`; unggah `umkm-design-director-lengkap.md` sebagai file pendukung. |
-| **Claude** | Buat Project: Instructions = isi `ringkas`, lalu tambahkan `lengkap` ke pengetahuan project. Atau unggah [`umkm-design-director.skill`](siap-pakai/umkm-design-director.skill) di Settings, Capabilities, Skills. |
-
-### Cara 3 (jika tidak bisa mengunggah file)
-
-Tempel seluruh isi `umkm-design-director-ringkas.md` sebagai pesan pertama, lalu tulis "Mulai". Kualitas sedikit di bawah Cara 1 karena panduannya lebih singkat.
-
-### Tips agar hasilnya paling bagus
-
-- **Siapkan bahan asli:** foto produk (cahaya jendela, latar polos), logo, foto gerobak/toko, desain lama. Foto asli membuat pembeli percaya dan hasilnya tidak terlihat seperti AI pasaran.
-- **Jawab dengan fakta khas:** apa yang bikin beda, buktinya, kata-kata pelanggan. Jawaban generik ("enak dan murah") menghasilkan desain generik.
-- **Satu pesan, satu aksi.** Lebih sedikit tulisan dan lebih banyak ruang kosong membuat desain lebih jelas.
-- **Beberapa jenis gambar sekaligus** (maksimal sekitar 4) akan dibuat satu keluarga: warna, huruf, dan gayanya konsisten.
-- **Karya akhir langsung jadi:** semua tulisan dirender utuh di dalam gambar tanpa perlu diedit lagi di Canva, kecuali jika Kakak secara khusus meminta template latar kosong. Tanda sertifikasi resmi (Halal/BPOM) dan QR code ditempel manual hanya bila diwajibkan secara hukum.
+*Jika AI menolak file atau paket gratis membatasi ukuran unggahan dokumen (file lengkap berukuran ~267 KB), gunakan Cara 2 atau Cara 3 di bawah.*
 
 ---
 
-## Apa yang membuat skill ini berbeda
+### Cara 2 (Setup sekali, dipakai berulang)
 
-Banyak UMKM memakai AI untuk poster lalu hasilnya terlihat sama: gradien neon, makanan mengilap seperti plastik, semua sudut penuh, tulisan salah ketik. Penyebabnya bukan malas, tetapi **tidak ada keputusan desain**: apa pun yang tidak ditentukan akan diisi AI dengan rata-rata internet. Skill ini bertindak seperti desainer yang duduk bersama pemilik usaha:
+Buat asisten khusus di akun Anda agar panduan tersimpan permanen dan tidak perlu diunggah ulang setiap sesi:
 
-1. **Memahami keunggulan usaha:** keunggulan, bukti, pesaing, kesan yang diinginkan, sifat usaha, dan apa yang tidak boleh terlihat.
-2. **Memakai bahan asli pemilik:** foto, logo, maskot, orang, desain lama. Setiap gambar diberi peran, perlakuan, posisi, dan ukuran di dalam prompt.
-3. **Menanyakan gambar apa saja yang dibutuhkan,** satu atau beberapa, dan membuatnya sebagai satu keluarga visual dengan **prompt mandiri per gambar**.
-4. **Mengutamakan ruang kosong yang disengaja** dan "secukupnya": ruang dialokasikan dulu, elemen yang tidak membantu pesan dibuang.
-5. **Jujur dan aman:** foto produk asli dipertahankan; tanda resmi (halal, PIRT) tidak dikarang AI; budaya dan izin foto orang diperhatikan.
-
-Contoh sesi lengkap: [`examples/01-warung-bakso-sesi-lengkap.md`](examples/01-warung-bakso-sesi-lengkap.md) (dua prompt mandiri dengan lampiran masing-masing). Contoh spanduk: [`examples/02-spanduk-laundry-ringkas.md`](examples/02-spanduk-laundry-ringkas.md).
-
-## Isi folder `siap-pakai/`
-
-| File | Untuk apa |
+| Layanan AI | Langkah Penyiapan |
 |---|---|
-| `umkm-design-director-lengkap.md` | Panduan lengkap, diunggah ke chat atau disimpan sebagai pengetahuan (Cara 1 dan 2) |
-| `umkm-design-director-ringkas.md` | Versi pendek untuk kolom instruksi GPT/Gem/Project atau ditempel langsung (Cara 2 dan 3) |
-| `umkm-design-director.skill` | Untuk pengguna Claude yang ingin mengunggah sebagai skill |
+| **ChatGPT** | Buat **Custom GPT** atau **Project** baru. Isi kolom **Instructions** dengan teks dari [`siap-pakai/umkm-design-director-ringkas.md`](siap-pakai/umkm-design-director-ringkas.md) (di bawah 8.000 karakter), lalu unggah [`siap-pakai/umkm-design-director-lengkap.md`](siap-pakai/umkm-design-director-lengkap.md) ke bagian **Knowledge / Files**. |
+| **Gemini** | Buat **Gem** baru. Masukkan isi `umkm-design-director-ringkas.md` ke kolom **Instructions**, lalu unggah `umkm-design-director-lengkap.md` sebagai file pendukung pengetahuan. |
+| **Claude** | Buat **Project**: Isi kolom **Project Instructions** dengan `umkm-design-director-ringkas.md`, dan tambahkan `umkm-design-director-lengkap.md` ke **Project Knowledge**. Untuk pengguna Claude dengan dukungan skill kustom, unggah langsung file [`siap-pakai/umkm-design-director.skill`](siap-pakai/umkm-design-director.skill) (~114 KB) di Settings $\to$ Capabilities $\to$ Skills. |
 
 ---
 
-## Untuk developer dan kontributor
+### Cara 3 (Jika tidak bisa mengunggah dokumen)
 
-Pengguna akhir tidak perlu bagian ini. Di bawah ini cara memasang skill ke agen yang mendukung format **Agent Skills**, struktur repositori, dan alat pengembangan.
+Salin seluruh isi [`siap-pakai/umkm-design-director-ringkas.md`](siap-pakai/umkm-design-director-ringkas.md) langsung ke dalam kotak obrolan sebagai pesan pertama Anda, lalu tambahkan tulisan *"Mulai"* di baris terakhir. AI akan langsung menyapa Anda dan memulai sesi wawancara.
 
-| Alat | Cara |
+---
+
+## Tips Agar Desain Tampil Maksimal
+
+- **Gunakan foto produk asli:** Foto dengan pencahayaan alami jendela dan latar belakang bersih selalu lebih dipercaya pembeli daripada gambar tiruan AI. Sistem akan menjaga foto produk Anda tanpa distorsi.
+- **Berikan detail konkret (Anchors):** Ceritakan bahan baku asli (mis. "gula aren organik Cilacap", "daun pandan suji segar"), resep keluarga, atau alat khas (piring seng blirik, kuali tanah liat). Detail ini akan diubah sistem menjadi tekstur fisik nyata di gambar.
+- **Satu pesan, satu hero visual:** Jangan penuhi materi promosi dengan puluhan teks kecil. Ruang tenang (35–50%) membuat pesan utama terbaca seketika (1–2 detik dari jalan raya).
+- **Karya akhir langsung jadi (Final Integrated Artwork):** Seluruh tulisan, nama usaha, harga, dan penawaran dirender langsung ke dalam gambar secara utuh oleh AI. Anda tidak perlu menyisakan kotak kosong untuk repot mendesain ulang di Canva, kecuali jika secara khusus meminta template latar belakang.
+
+---
+
+## Mengapa Framework Ini Berbeda?
+
+Banyak desain promosi UMKM berbasis AI terlihat generik dan murahan: efek kilau plastik 3D berlebihan, makanan tampak seperti lilin mainan, tata letak simetris kaku di tengah, dan gradien neon ungu/oranye. Masalah utamanya adalah **ketiadaan keputusan art direction**: model AI akan mengambil rata-rata internet jika tidak diarahkan dengan parameter visual yang presisi.
+
+Skill ini dirancang layaknya seorang **Art Director & Visual Strategist Senior**:
+
+1. **Uji Tukar Visual (Visual Swap Test):** Setiap konsep harus lolos pengujian: *"Jika nama usaha ini diganti dengan nama pesaing terdekatnya, apakah desainnya masih masuk akal?"* Jika ya, desain dianggap terlalu generik dan wajib diperkuat dengan jangkar khas usaha Anda.
+2. **Spesifikasi Optik Positif vs Larangan Negatif:** Model AI tidak memahami adjektiva mood abstrak (*"terasa hangat"*, *"percaya diri"*). Framework ini mendiktekan parameter optik konkret: tradisi visual (Plakatstil Jerman, litografi komersial 1950-an, Swiss Modernism, vernakular warung Jawa/Sumatera), teknik medium (gouache tebal, woodcut, linocut, fotografi still life bernuansa studio), perlakuan tepi bentuk, dan material substrat cetak nyata (terpal vinyl flexi, kertas karton daur ulang berpori, kertas dluwang).
+3. **Formulasi Visual Thesis:** Arah visual dibangun dari sintesis formal:
+   $$\text{Visual Thesis} = \text{Tradisi Visual} + \text{Teknik Medium} + \text{Bahasa Bentuk \& Tepi} + \text{Substrat Material} + \text{Anatomi Tipografi}$$
+   Menghindari pencocokan klise kategori (bakso tidak harus merah dan berasap; roti tidak harus krim pastel dan tulisan sambung).
+4. **Perhitungan Konteks Fisik Cetak & Tipografi Anatomi:** Disesuaikan dengan jarak pandang fisik nyata (skala tinggi huruf 2,5 cm per 3 meter jarak pandang), kecepatan penonton (1–2 detik pengendara motor vs 15–30 detik menu meja), dan kontras nilai ekstrem di bawah terik matahari tropis.
+5. **Prompt Bersih dan Mandiri (Zero Cross-Prompt Dependencies):** Prompts untuk beberapa materi sekaligus (mis. spanduk + poster) berbagi satu blok Sistem Visual yang identik demi konsistensi merek, namun masing-masing prompt 100% mandiri tanpa ketergantungan frasa rancu seperti *"same as previous prompt"*.
+
+Contoh sesi lengkap: [`examples/01-warung-bakso-sesi-lengkap.md`](examples/01-warung-bakso-sesi-lengkap.md) (dua prompt mandiri terpadu).  
+Contoh spanduk ringkas: [`examples/02-spanduk-laundry-ringkas.md`](examples/02-spanduk-laundry-ringkas.md).
+
+---
+
+## Isi Folder `siap-pakai/`
+
+| File | Ukuran | Kegunaan |
+|---|---|---|
+| [`umkm-design-director-lengkap.md`](siap-pakai/umkm-design-director-lengkap.md) | ~267 KB | Panduan lengkap untuk diunggah ke ChatGPT, Claude, atau Gemini (Cara 1 & 2). |
+| [`umkm-design-director-ringkas.md`](siap-pakai/umkm-design-director-ringkas.md) | 7.879 kar. | Versi ringkas padat instruksi untuk kolom Custom GPT / Gem / Claude Project (< 8.000 karakter). |
+| [`umkm-design-director.skill`](siap-pakai/umkm-design-director.skill) | ~114 KB | Paket zip skill terstandar untuk diimpor ke Claude Skills atau runtime Agent Skills. |
+
+---
+
+## Untuk Pengembang dan Kontributor
+
+Framework ini dibangun di atas spesifikasi terbuka [Agent Skills](https://agentskills.io) dengan prinsip *progressive disclosure* (instruksi inti di `SKILL.md` dimuat terlebih dahulu, sedangkan modul referensi di `references/` dibaca saat tahap terkait aktif).
+
+### Pemasangan di Coding Agent & Lingkungan CLI
+
+| Alat / Runtime | Cara Pemasangan |
 |---|---|
-| Claude Code | Salin `skills/umkm-design-director/` ke `~/.claude/skills/` (pribadi) atau `.claude/skills/` (proyek). |
-| Agen lain berformat Agent Skills (mis. Codex, Cursor, Gemini CLI, Copilot) | Salin folder skill ke folder skills agen tersebut; lihat daftar klien di <https://agentskills.io>. Pemasang komunitas seperti `openskills` ada; cek kompatibilitas terbaru. |
-| Bangun ulang file siap pakai | `python scripts/bundle.py` membuat ulang `siap-pakai/umkm-design-director-lengkap.md`. |
-| Validasi | `python scripts/validate.py` memeriksa frontmatter, tautan, panjang versi ringkas, dan konsistensi contoh (prompt mandiri, sistem visual identik). |
+| **Claude Code** | Salin folder `skills/umkm-design-director/` ke `~/.claude/skills/` (global) atau `.claude/skills/` (proyek). |
+| **Antigravity / Gemini CLI / Cursor / Codex** | Pastikan folder `skills/umkm-design-director` berada di direktori skills agen Anda. |
+| **Build & Bundling** | Jalankan `python scripts/bundle.py` untuk mengompilasi ulang `siap-pakai/umkm-design-director-lengkap.md` dan `siap-pakai/umkm-design-director.skill`. |
+| **Validasi Otomatis** | Jalankan `python scripts/validate.py` untuk memastikan batas baris `SKILL.md` ($\le 500$), batas karakter versi ringkas ($< 8.000$), validitas tautan referensi, serta integritas Sistem Visual pada contoh. |
+
+### Struktur Repositori
 
 ```
 umkm-design-director/
-├── README.md
-├── siap-pakai/                       # file untuk pengguna akhir (chat umum)
+├── README.md                                 # Panduan penggunaan dan dokumentasi proyek
+├── CONTRIBUTING.md                           # Panduan kontribusi dan aturan pengujian
+├── siap-pakai/                               # Distribusi siap pakai untuk pengguna umum
+│   ├── umkm-design-director-lengkap.md       # Bundel markdown tunggal lengkap (~267 KB)
+│   ├── umkm-design-director-ringkas.md       # Versi ringkas instruksi chat (7.879 karakter)
+│   └── umkm-design-director.skill            # Arsip terkompresi zip Agent Skill (~114 KB)
 ├── skills/umkm-design-director/
-│   ├── SKILL.md                      # alur 8 tahap desain (+ ulasan), aturan keputusan, format penyerahan
-│   ├── references/
-│   │   ├── 01-interview-guide.md         # bank pertanyaan, istilah awam, kasus sulit
-│   │   ├── 02-business-distinction.md    # USP, bukti, pesaing, kesan, sifat, uji tukar
-│   │   ├── 03-reference-images.md        # bahan gambar: minta, analisis, perlakuan, mode Perbaiki
-│   │   ├── 04-design-principles.md       # persepsi, ruang kosong, hierarki, psikologi
-│   │   ├── 05-color-and-culture.md       # warna, audiens, konteks budaya Indonesia
-│   │   ├── 06-typography.md              # huruf, batas teks, harga, risiko salah ketik
-│   │   ├── 07-business-archetypes.md     # arah awal dan bahan yang diminta per jenis usaha
-│   │   ├── 08-formats-and-platforms.md   # ukuran, safe zone, cetak, kepadatan
-│   │   ├── 09-output-sets.md             # beberapa output, sistem visual bersama, prompt mandiri
-│   │   ├── 10-anti-slop.md               # tanda-tanda AI slop, perbaikan, audit
-│   │   ├── 11-prompt-assembly.md         # template prompt, karya akhir lengkap, contoh
-│   │   ├── 12-review-and-iteration.md    # tinjauan hasil, uji kesetiaan, uji set, perbaikan
-│   │   ├── 13-design-thinking.md         # penalaran desainer, simulasi penonton, Creative Direction Summary
-│   │   ├── 14-visual-language.md         # basis pengetahuan tradisi visual, estetika, karakter emosional & budaya
-│   │   └── 15-creative-direction-framework.md # penalaran multidimensi, seleksi arah kreatif, anti-generik
-│   └── assets/                       # brief-template.md, prompt-template.md
-├── examples/                         # sesi contoh
-├── evals/evals.json                  # prompt uji dan kriteria penilaian
-├── scripts/                          # validate.py, bundle.py
-└── docs/RESEARCH-NOTES.md            # dasar keputusan struktur dan anti-slop
+│   ├── SKILL.md                              # Pipeline 8 tahap desain, aturan keputusan, dan self-check
+│   ├── references/                           # Modul pengetahuan art direction mendalam
+│   │   ├── 01-interview-guide.md             # Wawancara adaptif (maks 3 tanya), terjemahan istilah, Stage 5
+│   │   ├── 02-business-distinction.md        # Peta distingsi usaha, jangkar fisik, wilayah pesaing, uji tukar
+│   │   ├── 03-reference-images.md            # Audit aset asli, perlakuan foto napak, mode Build vs Enhance
+│   │   ├── 04-design-principles.md           # Tata visual formal Gestalt, hierarki L1-L4, alokasi ruang tenang
+│   │   ├── 05-color-and-culture.md           # Palet peran 60-30-10, psikologi warna, konteks budaya Nusantara
+│   │   ├── 06-typography.md                  # Anatomi huruf (Grotesque, Slab, Didone), skala jarak pandang fisik
+│   │   ├── 07-business-archetypes.md         # 10 arketipe UMKM, penggerak kepercayaan, jebakan slop, identitas
+│   │   ├── 08-formats-and-platforms.md       # Spesifikasi cetak fisik (spanduk, poster, menu, flyer, label)
+│   │   ├── 09-output-sets.md                 # Manajemen multi-output serangkai, Sistem Visual identik
+│   │   ├── 10-anti-slop.md                   # Mekanika kegagalan AI slop, spesifikasi optik positif material
+│   │   ├── 11-prompt-assembly.md             # Aturan art-direction-first, struktur 10 blok kanonik, 3 contoh
+│   │   ├── 12-review-and-iteration.md        # Checklist 12 poin tinjauan, aturan satu perubahan per iterasi
+│   │   ├── 13-design-thinking.md             # Penalaran desainer, simulasi 3 tahap pandang, ringkasan arah kreatif
+│   │   ├── 14-visual-language.md             # Taksonomi visual, 11 tradisi cetak dunia, 5 vernakular Nusantara
+│   │   └── 15-creative-direction-framework.md # 10 dimensi desain, sintesis Visual Thesis, uji wilayah visual
+│   └── assets/
+│       ├── brief-template.md                 # Lembar kerja pelacak keputusan desain tahap 1–6
+│       └── prompt-template.md                # Kerangka kanonik prompt fisik print dan checklist pra-kirim
+├── examples/                                 # Contoh sesi lengkap dan spanduk ringkas
+├── evals/                                    # 14 skenario uji evaluasi (evals.json)
+├── scripts/                                  # validate.py dan bundle.py
+└── docs/RESEARCH-NOTES.md                    # Catatan riset arsitektur skill dan prinsip anti-slop
 ```
 
-Struktur mengikuti konvensi Agent Skills: satu folder per skill, `SKILL.md` dengan frontmatter `name` dan `description`, dan `references/` dibaca hanya saat dibutuhkan (progressive disclosure).
+### Pengujian & Status Evaluasi
 
-**Status:** versi 1.2.0. Prompt uji ada di `evals/evals.json`; skill belum diuji secara terkontrol dengan pemilik UMKM sungguhan. Masukan sangat diharapkan (`CONTRIBUTING.md`). Lisensi MIT.
+Suite evaluasi di [`evals/evals.json`](evals/evals.json) memverifikasi 14 skenario nyata:
+- Respon bahasa Indonesia yang hangat tanpa jargon teknis (Eval 1)
+- Ekstraksi informasi mandiri dan rencana ringkas (Eval 2)
+- Penanganan cetak jarak jauh dalam bahasa Inggris (Eval 3)
+- Penolakan pembuatan sertifikasi Halal / QR code ilegal oleh AI (Eval 4)
+- Resolusi keinginan kontradiktif "mewah tapi murah" (Eval 5)
+- Konsistensi multi-output mandiri dengan Sistem Visual identik (Eval 6)
+- Penggalian diferensiasi mendalam toko kue (Eval 7)
+- Disiplin ruang kosong dan pemangkasan dekorasi berlebih (Eval 8)
+- Mode Enhance untuk diagnosis santun materi lama (Eval 9)
+- Penanganan pembuka chat AI umum (Eval 10)
+- Art direction spesifik toko roti Bu Tatik Surabaya (Eval 11)
+- Diferensiasi dua kedai kopi: kaki lima Bekasi vs specialty roastery Jaksel (Eval 12)
+- Seleksi bahasa visual kriya anyaman pandan Sukarara Lombok (Eval 13)
+- Resolusi multidimensi salon warisan Jawa Malang menyambut Lebaran (Eval 14)
+
+Semua skenario telah diaudit dan divalidasi dengan kode keluar 0 pada `scripts/validate.py`.
 
 ---
 
-## English summary
+## English Summary
 
-**Use it in ChatGPT, Claude, or Gemini, no install needed.** Download `siap-pakai/umkm-design-director-lengkap.md`, start a new chat, upload it, and send the starter message above. The assistant interviews you (max 3 questions per turn) about your business, what makes it different, your reference images, which graphics you need, your audience, exact text, and taste. It then delivers a shared design plan and **one fully standalone image prompt per output**, each with its own list of images to attach. Copy a prompt, attach its images in the stated order, and send them together in an image-generating AI (for example ChatGPT or Gemini; some chat assistants cannot generate images). For a reusable assistant, put `umkm-design-director-ringkas.md` in the instructions of a custom GPT/Gem/Project and upload the full file as knowledge. Developers can install `skills/umkm-design-director/` in any Agent Skills-compatible agent and validate with `python scripts/validate.py`.
+**UMKM Design Director is a professional art-direction framework and prompt system for small-business physical print marketing.**
+
+Small businesses often end up with generic "AI-slop" graphics (plastic food renders, floating elements, neon gradients, and illegible text) because image models default to generic internet averages when prompts rely on vague literary mood descriptions (*"cozy vibes"*, *"domestic satisfaction"*).
+
+This skill acts as an experienced Art Director:
+1. **Guided Adaptive Interview:** Conducts a friendly, structured inquiry (max 3 questions per turn) in plain language, deriving distinction, physical viewing constraints (distance, speed, substrate), and message hierarchy.
+2. **Visual Thesis Formulation:** Builds a concrete artistic thesis:
+   $$\text{Visual Thesis} = \text{Visual Lineage} + \text{Image-Making Technique} + \text{Form Language/Edges} + \text{Material Substrate} + \text{Typographic Anatomy}$$
+   drawing from 11 print traditions (Plakatstil, Mid-century lithography, Swiss Modernism, Linocut, Woodblock) and authentic Indonesian vernacular lineages.
+3. **Physical Distance Scaling:** Calculates type sizes based on real-world optics (2.5 cm letter height per 3 meters distance) and ensures extreme value contrast for tropical outdoor sunlight.
+4. **Final Integrated Artwork Default:** Renders all typography, headlines, prices, and branding directly in the image with anatomical classification directives, avoiding empty placeholder text boxes.
+5. **Standalone Production-Ready Prompts:** Delivers completely self-contained prompts per format, each with its own local attachment instructions and a shared, word-for-word identical Visual System block.
+
+**How to use:**
+- **No install:** Download [`siap-pakai/umkm-design-director-lengkap.md`](siap-pakai/umkm-design-director-lengkap.md) (~267 KB), upload to ChatGPT, Claude, or Gemini, and start chatting.
+- **Custom Assistant:** Paste [`siap-pakai/umkm-design-director-ringkas.md`](siap-pakai/umkm-design-director-ringkas.md) (7,879 chars) into custom GPT/Gem/Project instructions and upload the full file as knowledge.
+- **Claude Skills / CLI Agents:** Upload [`siap-pakai/umkm-design-director.skill`](siap-pakai/umkm-design-director.skill) (~114 KB) or copy `skills/umkm-design-director/` into your Agent Skills directory. Run `python scripts/validate.py` to verify.
