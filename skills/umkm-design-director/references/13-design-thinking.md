@@ -1,29 +1,29 @@
 # 13 — Professional Design Thinking (Stages 3–7)
 
-Contents: what separates design thinking from prompt assembly · Stage 3: audience as real people · Stage 3: physical context as primary constraint · Stage 5: developing a visual concept & the Visual Thesis · Stage 5: visual direction from concept · Stages 4 & 6: hierarchy, viewer simulation, and subtraction · physical design checklist · Stage 7: the Creative Direction Summary & translation into prompt directives
+Contents: what separates design thinking from prompt assembly · Stage 3: audience as real people & 0.5s category legibility · Stage 3: physical context & print substrate realities · Stage 5: strategic concept divergence (2–3 territories) & the Visual Thesis · Stage 5: visual direction from concept · Stages 4 & 6: hierarchy, viewer simulation, and subtraction pass · Stage 7: the Creative Direction Summary & translation into prompt directives
 
 ---
 
 ## 1. What Separates Design Thinking from Prompt Assembly
 
-A prompt assembler gathers facts and attributes and strings them together: "poster, warm colors, bold font, food photo, business name, price." This produces statistically average output — the image model fills every unspecified gap with its training defaults (plastic sheen, generic gradients, floating objects, cluttered corners).
+A prompt assembler gathers facts and adjectives and strings them together: "poster, warm colors, bold font, food photo, business name, price." This produces statistically average output — the image model fills every unspecified gap with its training defaults (plastic sheen, generic gradients, floating objects, cluttered corners).
 
 A graphic designer and art director reasons backwards from the communication objective and the physical world:
 1. **Why does this physical piece exist?** What single action must the viewer take?
 2. **Under what physical conditions is it encountered?** Distance, duration, speed, sunlight, ambient visual noise.
-3. **What is the organizing visual idea (concept)?** Not descriptive adjectives, but an authentic visual logic.
-4. **What is the Visual Thesis?** What visual lineage, rendering medium, formal language, material substrate, and typographic voice govern this piece?
-5. **How does each element behave within that language?** Typography, hero visual, graphic devices, color fields, and margins.
-
-The result is a design that belongs exclusively to this business, communicating to this specific audience, in this specific physical environment.
+3. **Can the viewer recognize the business category in 0.5 seconds?** Category cues must land before reading begins.
+4. **What are the strategic concept alternatives?** Explore 2–3 divergent territories with distinct trade-offs before locking in a thesis.
+5. **What is the Visual Thesis?** What visual lineage, rendering medium, formal language, material substrate, and typographic voice govern this piece?
+6. **How does each element behave within that language?** Typography, hero visual, graphic devices, color fields, and margins.
 
 ---
 
-## 2. Stage 3 in Depth: The Audience as Real People
+## 2. Stage 3 in Depth: The Audience as Real People & The 0.5-Second Category Test
 
-"Target market" is a dangerous abstraction. Design for the abstraction and you design for no one. Treat the audience as living human beings:
+"Target market" is a dangerous abstraction. Treat the audience as living human beings in physical space:
 
 - **What they are doing when encountering the piece:** A person on a motorbike at 40 km/h is catching 1.5-second glimpses. A seated diner is comparing options for 30 seconds. A pedestrian is deciding whether to step into a shopfront.
+- **The 0.5-Second Category Legibility Rule:** Before a passing driver decodes a unique selling proposition, their brain must categorize the visual: *"Ini makanan / Ini minuman / Ini laundry / Ini bengkel."* If the design is so abstract or avant-garde that the category is unrecognizable, it fails commercially. Distinctiveness must live *inside* instant category recognition.
 - **What visual language signals trust and value to them:** For working-class parents buying dinner, a large visible price and an honest earthenware bowl photo signal trust more than minimalist European white space. For urban design students, asymmetric layout and typographic restraint signal quality.
 - **What they doubt:** A new business must overcome unfamiliarity. A food stall must overcome hygiene or halal doubts. An artisanal product must justify a higher price. Design those doubts out through visual honesty, visible ingredients, and authentic textures.
 
@@ -36,9 +36,9 @@ The result is a design that belongs exclusively to this business, communicating 
 
 ---
 
-## 3. Stage 3 (cont.): Physical Context as Primary Design Constraint
+## 3. Stage 3 (cont.): Physical Context & Print Substrate Realities
 
-Physical context is not background trivia; it is the master constraint dictating the graphic's form:
+Physical context is the master constraint dictating the graphic's form:
 
 1. **Viewing Distance & Scale:** Capital letter height must scale at roughly 2.5 cm per 3 meters of reading distance. Outdoor roadside banners require an additional 50–100% size boost to overcome vehicle motion.
 2. **Viewing Duration & Information Budget:**
@@ -47,44 +47,63 @@ Physical context is not background trivia; it is the master constraint dictating
    - 15–60 seconds: Structured three-level hierarchy with grouped details.
 3. **Tropical Sunlight & Ink Reproduction:**
    - Direct tropical sunlight bleaches low-contrast graphics. Outdoor prints require **extreme value contrast** (deep darks against brilliant lights, not merely different hues).
-   - Matte finishes prevent blinding outdoor glare. Saturated primary or deeply roasted backgrounds hold up against weathering.
-4. **Ambient Visual Noise:** A banner on a busy Indonesian arterial road competes with cables, traffic, banners, and street carts. Complexity cancels out; bold reductive silhouettes cut through the chaos.
+   - Matte finishes prevent blinding outdoor glare.
+4. **Print Substrate Constraints (Flex Vinyl vs. Fine Art Paper):**
+   - Outdoor flex banners printed on large-format solvent/eco-solvent inkjet printers have limited dot resolution and ink-spread tendencies. Avoid ultra-thin hairline serifs or subtle 2% tints that blur or fill in; specify robust, sturdy letterforms and flat vector-like color planes.
+   - Leave clear margins for physical finishing (mata ayam eyelets and welded seam hems) — keep critical copy at least 5–8 cm away from outer banner perimeters.
 
 ---
 
-## 4. Stage 5 in Depth: Developing a Visual Concept & The Visual Thesis
+## 4. Stage 5 in Depth: Strategic Concept Divergence & The Visual Thesis
 
-A concept is the organizing idea. It is not a style or a mood. It is an **idea with structural logic** that could only belong to this business.
+A concept is the organizing visual idea. It is not descriptive adjectives like "modern and clean."
 
-### Concept vs. Style: The Critical Distinction
-- **Style (Fails alone):** "Modern, clean, bold, warm, premium." These are vague adjectives. They provide zero structural direction. Feeding them to an image model yields the statistical average of all corporate templates.
-- **Concept (Organizing Idea):** "Satu botol kopi yang cukup seharian" — visualized as the smallness of a single honest bottle contrasted with the monumental scale of the daily promise.
-- **Visual Thesis (Art Direction Grammar):** How that concept is realized in formal visual language:
-  > *German Plakatstil object-poster tradition executed with mid-century screenprinted coffee packaging aesthetics: a singular, high-contrast bottle silhouette on a flat roasted-coffee field (#2A1810), framed by massive sign-painter condensed capitals (#F5E6D3), with active negative space signaling confidence and daily value.*
+### The Strategic Concept Divergence Requirement
 
-### The Concept & Visual Thesis Development Process
-1. **Identify the Emotional Truth:** What authentic experience does the business offer? (e.g. dawn-made freshness, neighborhood permanence, unpretentious abundance).
-2. **Discover the Visual Metaphor:** What physical form embodies that truth? (e.g. a monolithic single bottle against empty space, the coarse texture of a volcanic stone mortar, a crisp neat stack of folded cotton).
-3. **Synthesize the Visual Thesis:**
-   - Select the primary visual lineage (`references/14-visual-language.md` Part 1 or 3).
-   - Select the image-making technique and medium (screenprint, gouache, linocut, editorial photography).
-   - Establish the form language, line character, and edge definitions (reductive geometric vs. chiseled relief vs. sign-painter brushwork).
-   - Define the color palette (60% field, 30% support, 10% accent) and material substrate (kraft tooth, weathered tin, matte tarpaulin).
-   - Direct the typographic anatomy (weight, classification, terminal cuts, tracking).
-4. **Apply the Visual Swap Test:** If you remove the business name, would this visual thesis look natural for a generic competitor? If yes, it is too generic; infuse more business-specific anchors.
+**Never jump directly to a single predetermined concept.** From the verified Distinction Brief, the art director must formulate **2 to 3 genuinely distinct conceptual territories**, each offering a different strategic angle, aesthetic lineage, and commercial trade-off:
+
+```
+                  ┌─────────────────────────────────────────┐
+                  │       VERIFIED DISTINCTION BRIEF        │
+                  └────────────────────┬────────────────────┘
+                                       │
+        ┌──────────────────────────────┼──────────────────────────────┐
+        ▼                              ▼                              ▼
+┌───────────────┐              ┌───────────────┐              ┌───────────────┐
+│ TERRITORY A:  │              │ TERRITORY B:  │              │ TERRITORY C:  │
+│ Abundance &   │              │ Heirloom Craft│              │ Modern Urban  │
+│ Street Urgency│              │ & Provenance  │              │ Restraint     │
+├───────────────┤              ├───────────────┤              ├───────────────┤
+│ Plakatstil    │              │ Mid-Century   │              │ Swiss Modern  │
+│ massive hero; │              │ litho / wood; │              │ grid; clean   │
+│ bold enamel.  │              │ warm nostalgia│              │ sans; airy.   │
+├───────────────┤              ├───────────────┤              ├───────────────┤
+│ Trade-off:    │              │ Trade-off:    │              │ Trade-off:    │
+│ Instant glance│              │ Deep trust &  │              │ Fresh & chic, │
+│ impact, less  │              │ authenticity, │              │ less cozy /   │
+│ heritage feel.│              │ less street-  │              │ traditional.  │
+│               │              │ urgent.       │              │               │
+└───────┬───────┘              └───────┬───────┘              └───────┬───────┘
+        │                              │                              │
+        └──────────────────────────────┼──────────────────────────────┘
+                                       ▼
+                   Client Chooses / Validates Recommendation
+                                       ▼
+                         FORMULATE VISUAL THESIS
+```
+
+Present these options in plain language to the owner with a clear recommendation. Once chosen:
+
+### Synthesize the Formal Visual Thesis
+$$\begin{aligned}
+\text{Visual Thesis} = & \text{ [Primary Visual Lineage]} + \text{ [Image-Making Technique / Medium]} \\
+& + \text{ [Form Language \& Edge Character]} + \text{ [Material Substrate \& Finish]} \\
+& + \text{ [Typographic Voice]} + \text{ [Spatial / Compositional Balance]}
+\end{aligned}$$
 
 ---
 
-## 5. Stage 5 (cont.): Visual Direction from Concept
-
-Translate the Visual Thesis into concrete visual systems:
-- **Color Roles:** Commit to specific hex codes and physical meanings. Dominant field (60%), secondary structure (30%), singular focal accent (10%). Reserve the accent strictly for the primary hero or price.
-- **Typographic System:** Limit to at most two type personalities (e.g., heavy display condensed grotesque + neutral humanist sans). Direct letterform anatomy (flat terminals, open aperture, stroke contrast).
-- **Substrates & Surfaces:** Name real physical materials (kraft paper fibers, weathered teak wood, matte tarpaulin flex).
-
----
-
-## 6. Stages 4 & 6: Hierarchy, Viewer Simulation, and Subtraction
+## 5. Stages 4 & 6: Hierarchy, Viewer Simulation, and Subtraction Pass
 
 ### Strict Hierarchy Ranking (Level 1–4)
 1. **Level 1 (Primary — 1 only):** The single hero visual and core headline that deliver the objective.
@@ -99,15 +118,15 @@ If the answer is no, delete it. Unearned decoration (floating sparkles, random g
 
 ### The Viewer Simulation
 Mentally rehearse the physical encounter:
-- *0–2 seconds (First Glance):* Does the silhouette and primary headline land instantly?
+- *0–2 seconds (First Glance):* Does category recognition and the primary headline land instantly?
 - *3–5 seconds (Approach):* Is the supporting offer or price immediately clear?
 - *Up Close / Reading:* Are the contact details and proof points sharp and legible?
 
 ---
 
-## 7. Stage 7 in Depth: The Creative Direction Summary
+## 6. Stage 7 in Depth: The Creative Direction Summary
 
-Before composing any prompt, the designer must synthesize all design decisions into a **Creative Direction Summary**. This brief bridges upstream strategy and downstream prompt writing:
+Before composing any prompt, synthesize all design decisions into a **Creative Direction Summary**. This brief bridges upstream strategy and downstream prompt writing:
 
 1. **What is being made & for what job:** Physical print medium, exact dimensions, and the primary communication task.
 2. **Who it is speaking to & physical context:** The audience posture, viewing distance, speed, and environmental conditions.
@@ -117,7 +136,7 @@ Before composing any prompt, the designer must synthesize all design decisions i
 
 ---
 
-## 8. Translating Design Thinking into Prompt Directives
+## 7. Translating Design Thinking into Prompt Directives
 
 The prompt communicates the *consequences* of design thinking, not the reasoning process itself:
 
@@ -130,7 +149,3 @@ The prompt communicates the *consequences* of design thinking, not the reasoning
 | **Hierarchy & Focus** | "The offer is most important, price is second" | "Asymmetric typographic hierarchy: headline at 3x the scale of supporting copy; singular warm-ochre accent reserved strictly for the promotional price" |
 | **Material & Surface** | "Looks warm and authentic" | "Medium-format editorial still life: authentic unbleached kraft paper texture, worn dark-teak wooden counter with visible wood grain, soft directional raking window light" |
 | **Honest Specificity** | "Looks like a real traditional warung" | "Authentic volcanic stone cobek mortar softly out of focus in background, chunky chili seed texture visible through glass jar, unbleached twine lid seal" |
-
----
-
-*End of Reference 13 — Professional Design Thinking.*

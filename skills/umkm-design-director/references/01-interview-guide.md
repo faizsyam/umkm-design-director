@@ -1,6 +1,6 @@
 # Interview Guide: Adaptive, Concept-Driven Questioning (All Stages)
 
-Contents: principles of intelligent questioning · question types · jargon translations · Stage 0 Open · the six core understanding needs · the adaptive inquiry flow · materials and assets · physical context and communication · content inventory · concept and visual direction · difficult situations · adapting language
+Contents: principles of intelligent questioning · question types · jargon translations · Stage 0 Open · the six core understanding needs & 4C probes · the adaptive inquiry flow · epistemic grounding (facts vs inferences vs assumptions) · materials and assets · physical context and communication · content inventory · Stage 5 concept divergence and visual direction · difficult situations · adapting language
 
 Stages 6–9 (visual system, creative direction summary, prompts, review and iteration) are described in `SKILL.md` and the other references.
 
@@ -8,32 +8,26 @@ Stages 6–9 (visual system, creative direction summary, prompts, review and ite
 
 ## Principles of intelligent questioning
 
-**1. Questions must drive design decisions, not collect information.**
-Before asking anything, ask yourself: if the answer were different, would the design change? If not, do not ask.
+**1. Questions must drive design decisions, not collect trivia.**
+Before asking anything, ask yourself: if the answer were different, would the visual hierarchy, layout, color, typography, or hero visual change? If not, do not ask.
 
-**2. Infer first, ask about gaps.**
-If the owner says "es teh jumbo Rp 3.000 di depan SMP," you know the product, price tier, audience, and viewing context. Confirm in one line; do not re-ask what they told you.
+**2. Probe for true distinction — never accept category clichés.**
+When an owner says "kuahnya enak" or "harga murah", do not accept it as a differentiator. 90% of competitors claim the same thing. Probe deeper with the 4C framework: commonality, concrete evidence, customer buying driver, and competitor contrast.
 
-**3. Start with the highest-impact questions.**
-The question that most changes the design comes first. For physical print, this is usually: what is the physical piece and where will it be placed? This determines the entire design strategy before anything aesthetic is decided.
+**3. Distinguish facts from inferences and assumptions.**
+Acknowledge what the owner stated (`[FAKTA]`). State your design deductions (`[INFERENSI]`). Explicitly label your working hypotheses (`[ASUMSI]`) so the owner can confirm or veto them. Never treat your own assumptions as client truth.
 
-**4. Adapt based on what you learn.**
-A rich answer can eliminate several follow-up questions. A vague answer earns one follow-up, not an interrogation. After each answer, assess what design decisions it enables, then ask only about the remaining genuine gaps.
+**4. Start with high-impact physical realities.**
+For physical print, format, mounting, viewing distance, and duration dictate the entire information budget before anything aesthetic is chosen. Roadside banners at 50 km/h demand 3–5 words; handheld menus allow multi-level reading.
 
-**5. Offer concrete options, not blank canvases.**
-Owners cannot answer "what style do you like?" well. They can answer "which of these three approaches fits your business better?" Offer named, described options. Make a recommendation and explain why.
+**5. Pace the conversation (at most 3 questions per turn).**
+Never dump a long questionnaire. Guide with 2–4 purposeful rounds of at most 3 focused questions. Prefer concrete choices and tappable options; always allow "belum tahu / bantu pilihkan."
 
-**6. Translate between ordinary language and professional design thinking.**
-Never ask about "visual hierarchy" or "concept." Instead: "kalau orang lihat ini cuma 2 detik dari pinggir jalan, satu hal apa yang harus mereka tangkap?"
+**6. Translate between ordinary speech and design thinking.**
+Never use raw design jargon ("visual hierarchy", "negative space", "visual thesis"). Translate into sensory physical realities: "kalau orang melintas cuma 2 detik dari jalan, satu hal apa yang harus langsung nyangkut di kepala mereka?"
 
-**7. Confirm understanding by reflecting back.**
-After each stage, reflect in one sentence: "Jadi intinya: bakso ini dikenal karena kuahnya yang beda, dan orang yang lewat depan warung harus langsung tahu itu." The owner hears their business sharpening.
-
-**8. At most 3 questions per turn.**
-Never dump all questions at once. Pace the conversation. The owner should feel guided, not interrogated.
-
-**9. Guide toward a decision, not just toward information.**
-Your job is not to collect data and let the owner design. Your job is to gather enough to make informed decisions, then make them — with the owner's approval or correction.
+**7. Offer genuine strategic alternatives, not variations of one idea.**
+At Stage 5, present 2–3 genuinely distinct conceptual territories with clear commercial trade-offs. Recommend one with a business-driven rationale, but give the owner real agency.
 
 ---
 
@@ -41,11 +35,9 @@ Your job is not to collect data and let the owner design. Your job is to gather 
 
 | Use | When | Examples |
 |---|---|---|
-| **Single-select** | Only one answer is correct | Which action matters most? What is the primary physical format? Price tier? |
-| **Multi-select** | Several can apply simultaneously | Which materials do you have? What do buyers doubt? Which outputs do you need? |
-| **Free text** | Precision matters or the owner must describe something in their own words | Exact business name, exact price, the story behind the business, what customers actually say |
-
-Never use multi-select when only one answer is possible. Never force single-select when several answers are reasonable.
+| **Single-select** | Only one answer is correct | Which action matters most? Primary physical format? Price tier relative to rivals? |
+| **Multi-select** | Several can apply simultaneously | Which physical assets exist? What do buyers doubt? Which outputs do you need? |
+| **Free text** | Precision matters or owner's voice is needed | Exact business name, exact price, customer feedback quotes, origin story |
 
 ---
 
@@ -56,269 +48,166 @@ Never use multi-select when only one answer is possible. Never force single-sele
 | Visual hierarchy | tulisan/gambar mana yang dilihat duluan | what gets seen first |
 | Focal point / hero | bintangnya gambar, yang paling menonjol | the dominant element |
 | Call to action | ajakannya: "chat WA sekarang", "datang ke sini" | what you want them to do |
-| Target audience | pembeli yang paling sering | your usual customers |
+| Target audience | pembeli yang paling sering datang | your usual customers |
 | USP / differentiation | yang bikin Kakak beda dari yang lain | what makes you different |
 | Visual concept | ide visual utama — gambaran besar desainnya | the organizing visual idea |
 | Composition | tata letak — bagian mana isi apa | where things go |
-| Whitespace | ruang kosong yang sengaja dibiarkan supaya nyaman dilihat | intentional breathing room |
+| Whitespace | ruang tenang yang sengaja dibiarkan lega | intentional breathing room |
 | Contrast | perbedaan terang-gelap yang bikin jelas | light-dark difference for legibility |
-| Typography | karakter huruf — tebal, tipis, tegak, bulat | type personality |
-| Visual direction | suasana dan tampilan keseluruhan — kesan yang mau diciptakan | the overall look and feeling |
-| Viewing distance | jarak saat orang biasanya melihat ini | how far away the viewer typically is |
-| Print-ready | siap cetak | file is ready to send to the printer |
-| Bleed | sisa tepi supaya gak putih setelah dipotong | edge extension for cutting |
-| Final artwork | karya final lengkap dengan tulisan | complete finished image with in-image text, no post-edits |
+| Typography | karakter huruf — tebal, klasik, santai, tegas | type personality |
+| Visual direction | suasana dan tampilan keseluruhan | the overall look and feeling |
+| Viewing distance | jarak saat orang biasanya melihat ini | how far away the viewer is |
+| Final artwork | karya final lengkap dengan tulisan terpadu | complete finished image with in-image text |
 
 ---
 
 ## Stage 0: Open
 
-Introduce yourself and set expectations. In the owner's language:
+Introduce yourself, anchor in physical print, and set expectations:
 
-"Halo Kak! Saya bantu rancang desain cetak yang benar-benar sesuai usaha Kakak. Caranya: saya tanya beberapa hal tentang usaha dan materialnya, lalu saya siapkan panduan lengkap untuk AI pembuat gambar — beserta daftar foto yang perlu dilampirkan. Biasanya butuh 4–5 pertanyaan sebelum promptnya siap — lebih cepat dari bikin sendiri, dan hasilnya lebih cocok usaha Kakak. Kita mulai: usaha Kakak jual apa, dan materi cetak apa yang dibutuhkan?"
+"Halo Kak! Saya bantu rancang desain promosi cetak yang benar-benar pas dengan usaha Kakak. Prosesnya kita lakukan bertahap: kita gali keunikan usaha dan konteks tempat pasangnya, lalu saya siapkan pilihan konsep visual yang tepat sasaran sampai prompt gambar siap pakai untuk AI. Kita mulai: usaha Kakak jual apa, dan materi cetak apa yang dibutuhkan (misalnya spanduk jalan raya, poster kasir, menu, atau flyer)?"
 
-This opening immediately anchors on physical print materials and sets realistic expectations for the process length.
-
-If the owner has not specified what they need, ask: "Materi cetak apa yang Kakak butuhkan? Misalnya: spanduk, menu, brosur, poster, stiker, atau lainnya?"
+If the owner has not specified their format, clarify: "Materi ini nantinya akan jadi apa dan dipasang di mana?"
 
 ---
 
----
+## The Six Core Understanding Needs & The 4C Probes
 
-## The Six Core Understanding Needs
+The system does not follow a mechanical checklist. It must achieve rigorous understanding across six core areas before generating creative directions:
 
-The system does NOT follow a fixed questionnaire or a rigid template. Instead, it must understand six core areas sufficiently well to make sound design decisions. How you gather this depends entirely on what the user has already shared.
-
-| Understanding Need | What the designer must understand | High-impact design decision it unlocks | If missing or vague |
-|---|---|---|---|
-| **1. Business Offering & Authenticity** | Who sells what, at what price tier, and what makes it genuinely different (USP + concrete proof, recipe, process, origin). | Hero subject, copy claims, specificity anchors, avoiding category clichés. | Ask: "Apa yang bikin produk Kakak beda dari yang lain, dan apa buktinya?" |
-| **2. Physical Context & Viewing Reality** | Medium (spanduk, poster, menu, etc.), dimensions, distance (meters), duration (2s, 10s, reading), environment (sun, indoor). | Information density budget, minimum type scale, value contrast, layout complexity. | Ask: "Materi ini akan jadi apa dan dipasang di mana? Kira-kira orang lihat dari jarak berapa?" |
-| **3. Audience & Perception Boundary** | Real audience (who they are, what they care about or doubt) + desired feeling at first glance + what it must NEVER look like. | Visual tone, color temperature, trust signals (halal, hygiene, scale), emotional spine. | Ask: "Orang yang lihat harus merasa apa, dan jangan sampai dianggap apa?" |
-| **4. Primary Job & Core Message** | The ONE primary communication job (hook passersby, communicate offer, build trust) + the single takeaway that must stick. | Visual hierarchy (what leads vs. supports), hero prominence, call to action. | Ask: "Satu hal paling penting yang harus langsung dipahami orang apa?" |
-| **5. Exact Text Content** | Exact business name, headline/offer, price, essential conditions, contact/location. | Text strategy (A vs. B/C), typographic layout, word budget adherence. | Ask for exact wording; if user has no headline, propose 2–3 options based on USP. |
-| **6. Real Assets & Materials** | Real product photos, logo file, old design (Enhance mode), or confirmed absence of assets. | Image roles & treatments in prompt, or need for identity treatment when no logo exists. | Ask: "Ada foto produk asli atau logo yang bisa dilampirkan?" |
+| # | Understanding Need | What the designer must uncover | High-impact decision unlocked | The Probing Question & 4C Check |
+|---|---|---|---|---|
+| 1 | **Business Distinction & 4C Check** | Genuine differentiator + concrete proof + customer buying driver + competitor contrast | Hero visual, copy claim, specificity anchors, avoiding category clichés | "Apa yang bikin produk Kakak beda dari pedagang lain di sekitar? Apa buktinya yang bisa dilihat langsung?" *(Apply 4C probes if generic)* |
+| 2 | **Physical Context & Viewing Optics** | Medium, dimensions, distance (meters), speed, duration (2s vs 30s), ambient light | Information budget (word count limit), minimum type scale, value contrast | "Dipasang di mana dan kira-kira orang lihat dari jarak berapa? Sambil melintas atau duduk?" |
+| 3 | **Audience & Buyer Doubts** | Real people, their daily posture, price perception, and specific purchase doubts | Visual tone, trust signals (halal, hygiene, portion), emotional spine | "Pembeli paling sering siapa? Ada hal yang biasanya mereka ragukan sebelum beli (misal porsi, halal, kebersihan)?" |
+| 4 | **Primary Objective & Message** | Single communication job + ranked hierarchy (L1 hero to L4 detail) | Compositional dominance, call to action placement | "Kalau orang cuma punya waktu 2–3 detik, satu pesan utama apa yang wajib langsung paham?" |
+| 5 | **Exact On-Image Content** | Exact business name, headline/offer, price, contact, essential conditions | In-image typographic layout, word budget enforcement | "Nama usaha persisnya apa? Teks penawaran dan harga yang mau dicantumkan apa saja?" |
+| 6 | **Physical Assets & Materials** | Real product photo, logo, storefront photo, old design, or confirmed absence | Asset treatment (isolate/ground), identity treatment if no logo | "Ada foto produk asli atau logo yang bisa dilampirkan supaya hasilnya khas usaha Kakak?" |
 
 ---
 
 ## The Adaptive Inquiry Flow
 
-### Step 1: Triage the user's opening message
-Every conversation starts from what the user gave you:
-- **Case A: Rich opening brief (e.g. user provides business, price, audience, platform, offer, photo).**
-  Extract all answers immediately into the working brief. Acknowledge and restate in 2–3 lines. Do NOT ask about what is already answered. Ask only about 1–2 genuine high-impact gaps (e.g. physical dimensions or exact headline).
-- **Case B: Vague or minimal opening (e.g. "buatin poster promo buat warung bakso saya dong").**
-  Acknowledge warmly. Ask at most 3 core foundation questions: (1) what is sold & what makes it different/best seller, (2) format/where it will be placed, and (3) available photos/logo.
+### Step 1: Triage the user's input
+- **Case A: Rich brief provided (e.g. business, price, audience, offer, photo).**
+  Extract all facts into the working brief with `[FAKTA]`. Restate in 2–3 lines. Do NOT re-ask answered items. Probe only the 4C verification or physical viewing gap.
+- **Case B: Minimal or vague opening (e.g. "buatin poster bakso").**
+  Acknowledge warmly. Ask at most 3 foundation questions: (1) what is sold and what makes it special/best seller, (2) physical format & placement, (3) available photos/logo.
 - **Case C: Existing design shared (Enhance mode).**
-  Acknowledge what is working first. Ask: what parts to keep, what is missing or frustrating, and whether the text content stays the same.
+  Acknowledge what is working first. Ask what must be kept, what is frustrating/missing, and whether text content changes.
 
-### Step 2: Adaptive follow-up principles
-- **Never ask what can be inferred or reasonably decided:** If an owner sells "es teh jumbo 3rb di depan sekolah", do not ask if the price tier is budget. State it under "Asumsi saya" in the plan.
-- **Ladder vague answers once, then propose:** If they say "makanannya enak", follow up once: "Enaknya yang gimana Kak? Ada bumbu rahasia, porsi royal, atau cara masak khusus?" If still vague, propose a concrete differentiator based on category archetype.
-- **Help users with concrete contrasts:** Never ask "What design aesthetic do you prefer?" Instead: "Tampilannya lebih cocok yang mana: A. Hangat dan tradisional ala warung rumahan, atau B. Bersih dan modern ala kedai kekinian?"
-- **Honor user delegation ("terserah / bantu pilihkan"):** If the user says "terserah", do not repeat the question. Make an expert recommendation with a one-sentence rationale tied to their context.
-- **Stop asking as soon as you have enough:** You do NOT need 100% of all fields before proposing a direction. Once the core needs (offering, difference, medium, objective, text) are clear, transition immediately to the design plan.
+### Step 2: Probing with the 4C Framework
+When an owner gives a common answer (*"bakso kami enak dan murah"* or *"kopi kami berkualitas"*), do not accept it as a differentiator:
+1. **Challenge Commonality:** "Kalau warung bakso / kafe lain di sekitar situ, bukankah mereka juga bilang enak dan murah? Kira-kira apa satu hal yang cuma ada di tempat Kakak?"
+2. **Seek Tangible Evidence:** "Ada proses masak, resep keluarga, atau bahan khusus yang bikin beda? Misalnya direbus berapa jam, atau pakai potongan daging apa?"
+3. **Uncover Customer Buying Drivers:** "Pelanggan setia yang sering balik biasanya paling suka apa? Bagian mana yang paling sering mereka puji?"
+4. **Identify Competitor Reality:** "Spanduk atau papan nama pesaing paling dekat warnanya apa dan tampilannya gimana? Biar desain Kakak nggak kembar sama mereka."
+
+### Step 3: Transparent Epistemic Summary
+Before moving to concepts, reflect the brief back to the owner:
+- **`[Fakta Usaha]`**: What the owner verified (product, price, hours, proof).
+- **`[Inferensi Desain]`**: Design implications (viewing duration, word budget, color contrast).
+- **`[Asumsi Saya]`**: Explicit working hypotheses: "Saya asumsikan pembeli utama adalah [X] dan kita fokus ke [Y] — cocok, atau ada yang mau dikoreksi?"
 
 ---
 
 ## Materials & Asset Audit (Stage 2)
 
-Ask about materials early so the design concept is built around real assets:
+Ask about materials early so the design concept is built around real truth:
 "Ada gambar yang bisa jadi acuan supaya hasilnya benar-benar khas usaha Kakak?
-A. Foto produk asli (makanan, barang, kemasan)
+A. Foto produk asli (makanan, kemasan, barang)
 B. Logo usaha
-C. Foto toko / warung / gerobak
+C. Foto warung / toko / gerobak
 D. Desain lama yang mau diperbaiki
 E. Belum ada foto atau logo"
 
-- **Foto produk asli ada:** Selalu jadikan bintang utama (hero). Berikan instruksi perlakuan (pertahankan produk, bersihkan latar, grounded shadow).
-- **Tidak ada foto produk:** Jangan buat visual fotorealistik palsu yang menipu pembeli. Pilih arah visual stilasi/ilustrasi yang jujur atau minta foto dari HP pemilik.
-- **Tidak ada logo:** Jangan gunakan font polos biasa. Rancang **identity treatment** (karakter huruf khusus, panel/device pembingkai, warna merek) di Stage 6.
-
-
----
-
-## Stages 3–4: Physical context, audience, communication objective, and hierarchy
-
-These stages can often be combined into one or two efficient turns. The order below reflects priority — ask the highest-impact questions first.
-
-### Physical format and context (highest priority for print)
-
-This question determines the entire design strategy. Ask before anything aesthetic.
-
-"Desain ini akan jadi apa dan dipasang di mana?" Then offer specific options if needed:
-- "Spanduk depan toko/jalan (berapa meter?)"
-- "X-banner atau roll-up di dalam ruangan?"
-- "Brosur atau flyer yang dibagikan?"
-- "Menu makan di tempat?"
-- "Label atau stiker kemasan?"
-- "Poster di dinding atau papan pengumuman?"
-
-If they describe a physical placement: "Orang biasanya lihat dari jarak berapa? Dan sedang ngapain — melintas, berdiri, atau duduk membaca?"
-
-This information is translated directly into design parameters (type size, element count, contrast).
-
-### Communication objective
-
-"Setelah orang lihat ini, Kakak mau mereka ngapain?
-A. Datang ke toko/warung
-B. Chat atau telepon langsung
-C. Pesan lewat GoFood / ojek online
-D. Ingat dan kenali nama usaha
-E. Baca dan pahami daftar menu / produk" (single-select — ONE)
-
-If they want everything: "Yang paling penting satu bulan ini, mana satu yang diprioritaskan?"
-
-### The one message
-
-"Kalau orang cuma lihat ini sebentar — dari jalan, dari pintu, sambil lewat — satu hal apa yang harus nyangkut di kepala mereka?" (free text)
-
-If the answer is a list, help them choose: "Dari semua ini, mana yang pesaing Kakak *tidak* bisa bilang dengan jujur? Itu yang paling kuat untuk ditampilkan."
-
-### Audience
-
-"Pembeli paling sering Kakak siapa?" (multi-select, give specific options relevant to their business)
-
-Then: "Mereka lihat ini sambil apa — sedang melintas, berdiri di depan toko, atau sedang duduk makan?" (single-select)
-
-This determines viewing duration and information budget.
-
-"Ada yang biasanya mereka ragukan sebelum beli?" (multi-select — halal, kebersihan, ukuran/porsi, harga, kualitas, keaslian produk, dll.)
-
-**Translate each doubt directly into a design requirement:**
-
-| Customer doubt | Design implication |
-|---|---|
-| Halal / keagamaan | Halal placeholder is mandatory in output list; cannot be omitted |
-| Kebersihan / higienitas | Real product photo required (no invented imagery); clean setting in hero spec |
-| Ukuran / porsi | Hero visual must show real scale with reference object; portion size stated in text |
-| Harga / value for money | Price is Level 1 or Level 2 element; price must be large and legible |
-| Kualitas produk | Real product photo required as attachment; material/texture must be visible in hero spec |
-| Keaslian / handmade | Maker's hands or process visible in hero; identity treatment emphasizes craft character |
-| Kredibilitas / baru buka | Proof anchor (years open, number of customers, origin story) becomes a text element |
-| Lokasi / kemudahan akses | Contact/location information elevated to Level 2 or Level 3; never omitted |
-
-Record the primary doubt and its design implication in the Brief Sheet. This feeds directly into Stage 4 hierarchy decisions.
-
-**Gate:** physical format, viewing context, one action, one message, audience and their viewing behavior, primary doubt and its design implication — all known.
+- **Foto produk asli ada:** Selalu jadikan bintang utama (hero). Berikan instruksi perlakuan (pertahankan produk asli, bersihkan latar, grounded contact shadow).
+- **Tidak ada foto produk:** Jangan buat visual fotorealistik tiruan yang menipu pembeli. Tentukan arah visual ilustrasi/stilasi yang jujur (woodcut, gouache, linocut, gambar etiket) atau sarankan foto dari HP dengan tips pencahayaan alami.
+- **Tidak ada logo:** Rancang **identity treatment** khusus (anatomi huruf bermakna, panel pembingkai, warna merek) di Stage 6 agar nama usaha tampil seperti merek.
 
 ---
 
-### Content inventory (exact words per output)
+## Stages 3–4: Physical Context, Audience & Message Hierarchy
 
-Ask for the exact words. Give the owner a checklist appropriate to the physical format:
+### Physical Format and Viewing Reality
+Ask before aesthetic choices:
+"Desain ini akan jadi apa dan dipasang di mana? Kira-kira orang lihat dari jarak berapa meter, dan sedang apa (lewat di motor, jalan kaki, atau duduk)?"
 
-For most physical pieces:
-1. Nama usaha (ditulis persis) — free text
-2. Judul/penawaran utama — free text
-3. Harga (format persis, misalnya "Rp 55.000/botol") — free text
-4. Syarat singkat jika ada — free text
-5. Cara menghubungi: nomor WA, alamat, atau petunjuk arah — free text
-6. Item wajib: logo halal resmi, PIRT/BPOM, NIB (akan ditempel sendiri, bukan dari AI) — multi-select
+Translate into physical budgets (`references/08-formats-and-platforms.md`):
+- **Jalan raya / melintas cepat (5–15 m, 1–2 detik):** Anggaran teks maksimal 3–5 kata. Kontras nilai ekstrem sinar matahari tropis. Skala tinggi huruf minimal 2.5 cm per 3 m jarak.
+- **Trotoar / pejalan kaki (2–5 m, 3–5 detik):** Anggaran teks 6–10 kata. Satu hero visual dominan + penawaran/harga jelas.
+- **Meja / dipegang tangan (0.3–1 m, 15–60 detik):** Menu/flyer terstruktur dengan grup informasi yang rapi.
 
-Rules:
-- **Mandatory vs optional.** Everything optional is a candidate for removal.
-- **Trim to the medium.** A roadside spanduk can carry 5–6 words. A flyer can carry 40–60. If content exceeds the budget, offer to shorten: "Biar kebaca dari jalan, saya ringkas jadi ini. Boleh?"
-- **Offer wording.** If they have no headline, give 2–3 options in their voice that carry the USP and proof. Not "Nikmati kelezatan terbaik." Something specific: "Kuah sapi, direbus 8 jam."
-- **Same fact, same words** across outputs.
-- **Phone numbers, addresses, exact dates:** rendered directly in the final artwork; control length strictly so the model renders them legibly. Post-editing is used only if the owner specifically requests to add them manually.
+### Customer Doubts → Design Requirements
+"Ada yang biasanya pembeli ragukan sebelum beli?"
+- *Halal / keagamaan* $\implies$ Ruang stempel halal resmi disediakan (ditempel manual kemudian).
+- *Kebersihan* $\implies$ Foto produk asli wajib bersih; latar belakang rapi dan terang natural.
+- *Porsi / kenyang* $\implies$ Hero visual menampilkan skala porsi nyata dalam mangkuk/wadah asli.
+- *Harga / mahal* $\implies$ Harga dijadikan elemen Level 2 yang sangat jelas dan mudah dibaca.
 
-**Gate:** For every text element marked Mandatory, exact wording confirmed in owner's own words. No placeholder invented by the system for mandatory content — if the owner has not confirmed it, ask rather than fill it in. Optional fields may be left blank or marked "tambah sendiri nanti".
+### Content Inventory & Subtraction Pass
+Kumpulkan teks persis: Nama usaha, judul/penawaran, harga, kontak/lokasi.
+Jalankan **subtraction pass**: hapus semua ornamen atau teks sampingan yang melebihi anggaran kata fisik.
 
 ---
 
-## Stage 5: Concept and visual direction
+## Stage 5: Strategic Concept Divergence & Visual Thesis
 
-Stage 5 is mandatory. Read `references/13-design-thinking.md` Section 4 & 5, `references/14-visual-language.md`, and `references/15-creative-direction-framework.md` (mandatory). Also consult `references/07-business-archetypes.md` and `references/05-color-and-culture.md`.
+Read `references/13-design-thinking.md`, `references/14-visual-language.md`, and `references/15-creative-direction-framework.md` (mandatory).
 
-**Purpose:** develop the visual concept — the organizing visual idea — and formulate the formal **Visual Thesis** before determining execution details.
+**Never impose a single predetermined concept.** Develop and present **2 to 3 genuinely distinct conceptual territories** rooted in the verified distinction, each representing a different strategic posture, aesthetic lineage, and commercial trade-off:
 
-Do not ask: "suasana dan gayanya seperti apa?" Owners cannot answer this well. Instead, derive the concept from what you already know and offer named options.
+### Format Presentasi Pilihan Konsep ke Pemilik Usaha:
 
-### What you already know by Stage 5
+```
+Saya siapkan 2 (atau 3) arah konsep visual yang berakar dari keunikan usaha Kakak:
 
-By this point you have:
-- The Distinction Brief (USP, proof, desired perception, anchors)
-- The physical format and viewing context
-- The audience picture
-- The one message
+1. Arah A: [Nama Konsep — misal: Keotentikan Resep & Kehangatan Tradisi]
+   - Ide visual: [Deskripsi wujud fisik yang dilihat penonton]
+   - Tradisi & Gaya: [misal: Litografi etiket klasik era 1950-an, warna hangat]
+   - Cocok untuk: [Target pembeli yang mencari rasa rumahan terpercaya]
+   - Kelebihan & Trade-off: [Sangat terpercaya dan bernostalgia, tapi terasa kurang santai untuk anak muda]
 
-The concept must serve all of these. Derive it, do not ask for it.
+2. Arah B: [Nama Konsep — misal: Abundansi Kaki Lima & Energi Jalanan]
+   - Ide visual: [Deskripsi wujud fisik — mangkuk tunggal raksasa, warna berani]
+   - Tradisi & Gaya: [misal: Plakatstil poster objek berpadu cat enamel jalanan]
+   - Cocok untuk: [Pengendara motor yang lapar dan butuh porsi kenyang cepat]
+   - Kelebihan & Trade-off: [Sangat menonjol dan terbaca cepat dari jauh, tapi nuansa sejarahnya berkurang]
 
-**If the owner has a clear visual direction:**
-Ask only what stages 1–2 did not answer. Confirm that the direction fits the Distinction Brief, the physical context, and the audience. Write the concept sentence and formulate the Visual Thesis.
+Rekomendasi saya: Arah [A/B], karena [alasan bisnis, audiens, dan konteks pasang].
+Kakak lebih sreg lanjut dengan Arah A atau Arah B?
+```
 
-**If the owner says "terserah" or "belum tahu":**
-1. Never ask an open-ended question about style.
-2. Derive 3–4 named concept options from the Distinction Brief, the archetype, the physical context, and competitive territory.
-3. Describe each as an image-in-words: what the physical piece will actually look like, from the viewer's perspective.
-4. Mark one "(Rekomendasi)" with a one-line reason tied to their specific business, audience, and viewing context.
-5. If they still cannot choose, apply the recommendation and state it as an assumption.
-
-### Optional visual questions (only ask what is not already known)
-
-| Ask | Example wording | Notes |
-|---|---|---|
-| Likes and dislikes | "Ada toko atau desain yang Kakak suka gayanya? Dan ada yang Kakak tidak mau mirip?" (free text) | Extract principle, not look |
-| Local flavor | "Ada unsur daerah yang mau ditonjolkan? A. Bahan khas B. Nama tempat C. Bahasa daerah D. Motif daerah E. Tidak perlu" (multi-select) | Use owner's own region only |
-| People in design | "Mau ada orang di gambar? A. Pemilik B. Pelanggan C. Tidak ada" (single-select) | Real consented photo preferred |
-| Space feel | "Tampilan lebih: A. Lega dan sederhana (mudah dibaca dari jauh) B. Padat dengan banyak informasi" (single-select) | Default: lega for roadside; padat only for menus/flyers |
-
-**Concept sentence format:**
-*[Ide visual konkret], terasa [perasaan 1] dan [perasaan 2], tampak seperti [referensi visual fisik], untuk [audiens], dilihat di [medium] dari [konteks/jarak].*
-
-**Visual Thesis Formulation (mandatory):**
-Synthesize the overarching artistic grammar before selecting colors or fonts (`references/15-creative-direction-framework.md`):
+Once the owner chooses or confirms a direction:
+Formulate the **Visual Thesis**:
 $$\text{Visual Thesis} = \text{Visual Lineage} + \text{Image-Making Technique} + \text{Form Language/Edges} + \text{Material Substrate} + \text{Typographic Anatomy}$$
 
-**Example for a warung bakso roadside spanduk:**
-- *Concept Sentence:* (Rekomendasi) Satu mangkuk di depan, ukuran besar: warna gelap seperti malam jalan kaki, mangkuk bakso nyata dan besar mengisi tengah, tulisan besar "BAKSO SAPI URAT — SELESAI MALAM" tiga baris padat, tidak ada dekorasi, tidak ada ornamen. Terasa jujur dan langsung. Untuk pekerja yang melintas malam. Dilihat dari kendaraan 6–10 meter.
-- *Visual Thesis:* Early 20th-century German Sachplakat (object poster) fused with Central Javanese vernacular hand-painted warung signage; flat gouache illustration with carved-woodcut contour lines; bold heavy geometry with crisp non-feathered silhouettes; weathered unbleached cotton banner texture with matte opaque mineral pigments; hand-cut condensed grotesque display lettering with square terminals and slight brush irregularities.
-
-**Gate:** Concept sentence approved and formal Visual Thesis formulated. Must pass the visual swap test (`references/15-creative-direction-framework.md` Section 3). Do not proceed to Stage 6 without this.
+*Gate:* Concept approved from divergent options and formal Visual Thesis synthesized; passes visual swap test.
 
 ---
 
 ## Difficult situations
 
 **"Terserah / belum tahu"**
-Never loop. Derive concept options from what you know. Propose a default with a reason and a one-tap veto: "Saya usulkan tampilan gelap dan langsung karena spanduk ini dilihat dari kendaraan malam hari, dan pesaing sekitar kebanyakan pakai warna terang. Cocok, atau mau yang lain?"
+Never loop. Present 2 distinct concept options clearly described, mark one as "(Rekomendasi)" with a business rationale, and state: "Kalau Kakak setuju, kita pakai rekomendasi ini agar materi cepat siap. Boleh?"
 
 **"Kami sama saja dengan yang lain"**
-Use the micro-differentiator probes in `references/02-business-distinction.md` Section 3.
+Use the micro-differentiator probes in `references/02-business-distinction.md` Section 4.
 
-**Conflicting wishes ("mewah tapi murah")**
-Name the tension, explain the viewer's confusion, offer 2 resolved options with a lead dial. Apply the conflict order in SKILL.md.
+**Conflicting wishes ("mewah tapi murah meriah")**
+Name the tension: "Kalau semua tulisan dibuat besar dan penuh hiasan, dari jalan malah susah dibaca dan terkesan murahan." Tawarkan solusi: hierarki tegas dengan satu hero besar dan harga yang jelas.
 
-**"Teksnya harus banyak" (for a roadside spanduk)**
-Show the physical reality: "Kalau tulisannya penuh, dari jalan tidak kebaca. Spanduk yang dibaca orang di kendaraan cuma punya 2–3 detik. Saya sarankan 1 pesan utama besar, 1 nomor WA besar — sisanya di brosur atau caption. Boleh?"
-
-**Info dump from owner**
-Extract into the Brief Sheet, restate in 3–4 lines, ask only about the remaining genuine gaps.
+**"Teksnya harus banyak" (pada spanduk jalan raya)**
+Jelaskan realitas fisik: "Pengendara motor cuma punya waktu 2 detik. Kalau kepenuhan, tidak ada satu pun yang terbaca. Kita pasang pesan terpenting dan nomor WA di spanduk, sisanya kita buatkan flyer atau caption. Setuju?"
 
 **Existing design shared (Enhance mode)**
-Apply the review checklist (`references/12-review-and-iteration.md`). Say what works, what the viewer experiences, and what to fix — kindly. Ask what to keep. Offer refine / restructure / rebuild.
-
-**"Owner wants to copy a competitor"**
-"Apa yang paling Kakak suka dari desain itu?" Extract the principle. Then check: is this visual convention a **category signal** (used by nearly all competitors — signals "this is a food/laundry/service business") or a **differentiator** (specific to that one competitor)?
-- If category signal → retaining the convention is fine; it aids recognition. Differ on one other axis (color, imagery approach, density). "Kita ambil sinyal kategorinya — biar langsung dikenali — tapi beda di [axis] supaya punya ciri sendiri."
-- If specific to one competitor → adopting it creates a clone problem; the business becomes invisible in that competitor's shadow. "Kalau kita pakai tampilan yang sama persis, susah dibedakan. Saya usulkan prinsip yang sama tapi dengan elemen khas usaha Kakak sendiri."
-
-**"Tidak ada logo, foto, atau identitas sama sekali"**
-1. Konfirmasi tidak ada material ("Tidak ada logo, tidak ada foto produk, tidak ada desain lama — benar?").
-2. Di Stage 5–6, kembangkan identity treatment dari archetype (`07-business-archetypes.md`).
-3. Tunjukkan treatment dalam bahasa plain sebelum melanjutkan: "Nama usaha Kakak akan tampil seperti ini: huruf tebal berkarakter cap/slab, di panel warna gelap, nama putih — ini yang bikin terasa merek, bukan templat kosong. Boleh lanjut dengan tampilan ini?"
-4. Minta persetujuan treatment sebelum lanjut ke Stage 7. Jangan masuk ke Creative Direction Summary tanpa konfirmasi identity treatment.
-5. Setiap prompt punya blok IDENTITY yang identik di semua output set.
-
-**Owner is impatient**
-"Saya bisa percepat: 2–3 pertanyaan lagi yang krusial, lalu langsung ke desain."
+Gunakan checklist ulasan (`references/12-review-and-iteration.md`). Puji bagian yang sudah bekerja, tunjukkan kendala keterbacaan, dan tawarkan tingkat perubahan: refine (perapihan halus), restructure (tata ulang hierarki), atau rebuild (bangun ulang segar).
 
 ---
 
 ## Adapting language
 
-- Mirror honorifics ("Kak", "Bu", "Pak", "Mas/Mbak"). Default to "Kakak" if unclear.
-- Short sentences; one idea per question; examples from their product's world.
-- If the user writes in English, run the whole flow in English. Ask which language the on-image text should use.
-- Regional business speech is welcome; avoid slang the user has not used.
-- Translate every design concept into physical, concrete language. Not "visual hierarchy" — "apa yang pertama dilihat orang dari 5 meter."
+- Gunakan panggilan sopan ("Kak", "Bu", "Pak", "Mas/Mbak").
+- Kalimat ringkas; satu ide per pertanyaan; gunakan perumpamaan dunia usaha mereka.
+- Jika pengguna berbahasa Inggris, jalankan seluruh proses dalam bahasa Inggris.
+- Terjemahkan setiap istilah desain ke dalam realitas fisik yang bisa dirasakan.

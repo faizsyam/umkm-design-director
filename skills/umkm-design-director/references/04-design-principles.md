@@ -12,6 +12,7 @@ Physical printed materials are not inspected like digital screens; they are enco
 - **The Eye Fixates on Contrast and Difference:** Visual attention is drawn automatically to the point of maximum contrast: dramatic scale contrast, high value (light/dark) difference, a saturated accent on a muted field, or a sharp silhouette isolated in calm space. That point of maximum difference must be your intended hero.
 - **Silhouette Reads Before Detail:** At physical distance (5–15 meters), individual letters are invisible; the eye perceives overall graphic mass, silhouette contour, and dominant color fields. The composition must succeed as an abstract silhouette before it can succeed as written copy.
 - **The Squint Test:** Blur your eyes until the design becomes abstract masses. You should see: (1) one dominant focal mass, (2) one clear headline group, (3) a quiet supporting base. If you see multiple competing blobs of equal weight, the hierarchy fails the physical test.
+- **The 0.5-Second Category Legibility Rule:** Before a passing viewer decodes a unique offer or headline, the brain must recognize the commercial category in under 500 milliseconds ("makanan / kopi / laundry / bengkel"). Distinctiveness must live *inside* instant category recognition. An overly abstract visual that obscures what is being sold fails commercially.
 - **Physical Print Has No Interactive Fallback:** On a screen, a confused user can pinch-to-zoom or scroll. In physical space, they keep moving. If the core message fails to land in the passing glance, the graphic has failed.
 
 ---

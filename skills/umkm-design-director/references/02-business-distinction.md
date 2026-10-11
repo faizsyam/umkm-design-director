@@ -1,116 +1,142 @@
-# Business Distinction (Stage 1)
+# Business Distinction & Commercial Grounding (Stage 1)
 
-Contents: why distinction comes first · what to learn (the Distinction Map) · how to dig · finding differences when "we are the same as everyone" · competitor visual territory · positioning and perception · personality dials → design parameters · the swap test · the Distinction Brief
+Contents: why distinction comes first · the Distinction Map · the 4C Distinction Verification Gate · epistemic tracking (facts vs inferences vs assumptions) · finding micro-differentiators when "we are the same" · competitor visual territory & open space · customer buying drivers vs owner pride · personality dials → design parameters · the visual swap test · the Distinction Brief output
 
-A graphic looks generic when the business behind it was never understood as *different*. Before any color or layout, establish what this business stands for, why customers choose it, and where it can stand out without losing credibility. Wording of the questions is in `01-interview-guide.md`; this file is the method for using the answers.
+A graphic looks generic when the business behind it was never understood as *different*. Before any color, typography, or layout is conceived, the art director must establish what this business stands for, why customers actually choose it over alternatives, and where it can claim uncontested visual territory without losing category credibility. Wording of questions is in `01-interview-guide.md`; this file provides the analytical method for evaluating and synthesizing the answers.
+
+---
 
 ## 1. The Distinction Map
 
-Collect these eight fields during Stage 1 (and from materials in Stage 2). You do not need every field, but you must be able to state the first four.
+Capture these eight strategic dimensions during Stage 1 (and refine from materials in Stage 2):
 
 | # | Field | What to capture | Feeds |
 |---|---|---|---|
-| 1 | **USP** | The one thing customers get here that they do not get elsewhere | Message, headline, hero |
-| 2 | **Proof** | A concrete, true fact behind the USP (size, recipe, years, process, numbers, real certification, owner's craft) | Trust element, specificity anchor |
-| 3 | **Reason customers choose** | In the customers' own words, not the owner's adjectives | Copy voice, emotional angle |
-| 4 | **Desired perception** | What a stranger should feel or conclude in 3 seconds ("jujur", "royal porsinya", "bersih dan cepat") | Direction sentence, feeling pair |
-| 5 | **Competitors and their look** | 2-3 nearby or online rivals; how they look, sound, price | Visual territory to avoid or claim |
-| 6 | **Positioning** | Where it sits: price tier, category role (family, student, premium, practical), advantages over rivals | Polish level, space level, tone |
-| 7 | **Personality and values** | 3 traits, what the owner refuses to compromise on, what the business must never look like | Style, type, imagery, copy tone |
-| 8 | **Story and ownable details** | Origin, place, people, ritual, tool, recipe, name meaning | Specificity anchors |
+| 1 | **Offering & Price Tier** | What is sold, to whom, where, and at what price point (relative to local market) | Context, format, audience posture |
+| 2 | **Claimed Differentiator** | The specific feature, recipe, service, or origin the owner claims makes them special | Candidate message / headline |
+| 3 | **Proof & Evidence** | Verifiable, visible facts (years, recipe, process, numbers, real craft, tools, ingredients) | Trust anchor, specificity anchor |
+| 4 | **Customer Buying Driver** | Why buyers *actually* part with money (in customer words, not owner adjectives) | Emotional spine, core message priority |
+| 5 | **Competitor Reality** | 2–3 immediate rivals nearby or online: how they look, what they claim, their pricing | Category cues to retain vs territory to claim |
+| 6 | **Desired Perception** | What a stranger concludes in 2–3 seconds (feeling pair: e.g. "jujur dan royal, bukan murahan") | Direction sentence, tone, polish level |
+| 7 | **Boundary ("Never Look Like")** | The specific perception the owner refuses to project | Exclusions, style boundaries |
+| 8 | **Ownable Specifics (Anchors)** | 2–3 physical, proprietary details (vessel, tool, ritual, origin, maker, place name) | Hero visual, textures, un-swappable forms |
 
-## 2. How to dig
+---
 
-- **Ladder the answer.** Owners start with features ("kuahnya enak"). Ask "enaknya yang gimana?" then "kenapa itu penting buat pembeli?" until you reach something concrete (what, how much, how made) and then an emotion or benefit (not shy about asking twice, never more than three times).
-- **Prefer customer words.** "Pelanggan biasanya bilang apa?" yields language that sounds true and is often more specific than the owner's own.
-- **Claim → proof.** Every claim in the design needs a proof the viewer can sense: a number, a visible detail, a process, a place. No proof → soften the claim or drop it.
-- **Ask what they refuse to be.** "Jangan sampai orang bilang usaha saya ___" prevents the wrong direction faster than any preference list.
-- **Ask what is missing.** In Enhance mode or when materials exist: what they like, dislike, feel is missing, and want to improve (see `03-reference-images.md`).
-- **Stop when enough.** Gate: USP + proof + desired perception + one "never look like" are known. Do not turn the conversation into an interrogation: 2-3 turns, at most 3 questions each, skip what the owner already answered.
+## 2. The 4C Distinction Verification Gate
 
-## 3. When "we are the same as everyone"
+Never accept an owner's first claim at face value. Most business owners state broad category features (*"makanan enak"*, *"harga terjangkau"*, *"pelayanan ramah"*) because they lack marketing vocabulary. The art director must pass every claimed differentiator through the **4C Gate**:
 
-Most small businesses are not unique in category, only in particulars. Probe these micro-differentiators:
+```
+[Claimed Differentiator]
+        ↓
+1. COMMONALITY CHECK:   Do competitors nearby make the exact same claim?
+        ↓ (If Yes → Category Expectation, not a differentiator; probe deeper)
+2. CREDIBILITY & PROOF: Is there visible, tangible, physical evidence?
+        ↓ (If No → Hollow boast; drop or find verifiable proof)
+3. CUSTOMER VALUE:      Does this actually drive the purchase decision?
+        ↓ (If No → Owner pride, but irrelevant to buyer; re-anchor on buyer driver)
+4. COMPETITOR CONTRAST: Does this claim clear an uncontested visual/commercial space?
+        ↓
+[Verified Strategic Differentiator]
+```
 
-| Probe | Examples |
-|---|---|
-| **Origin** | Family recipe, a mentor, a life change that started the business |
-| **Process** | Slow-simmered, hand-made, made-to-order, same-day, fermented, sun-dried |
-| **Ingredients/materials** | Local farm, specific variety, brand of material, nothing frozen |
-| **People** | The owner always present, a specific cook, a family tradition |
-| **Place** | Street, market, landmark, building, neighborhood nickname |
-| **Ritual/service detail** | Free refill, call before delivery, packaging by hand, handwritten notes |
-| **Size/portion/price structure** | Unusually large, fixed price, literan, bundle logic |
-| **Time** | Open late, early morning only, 24h, seasonal |
-| **Community** | Regulars, a school or factory nearby, named customers' orders |
-| **Name and voice** | The meaning of the name, the way the owner talks |
+### The 4 Questions of the 4C Gate:
+1. **Commonality Check (Biasa vs Khas):**
+   - *Probe:* "Kalau warung/toko sebelah ditanya hal yang sama, apakah mereka juga bilang kuah sapi / bahan segar / harga murah?"
+   - *Rule:* If 3 out of 5 competitors claim it, it is a *category expectation* (must-have to exist), NOT a differentiator. Retain it quietly, but find the true differentiator elsewhere.
+2. **Credibility & Concrete Evidence (Bukti Nyata):**
+   - *Probe:* "Apa buktinya yang bisa dilihat atau dirasakan langsung sama pembeli?"
+   - *Rule:* Every claim must anchor to a concrete physical fact: simmering duration (8 jam), specific meat cut (urat sengkel), exact origin (gula aren Cilacap), generational provenance (resep mertua 15 tahun), or tangible ritual (diulek dadakan di cobek batu). No proof $\implies$ soften claim or discard.
+3. **Customer Buying Driver (Alasan Memilih Sebenarnya):**
+   - *Probe:* "Waktu pembeli datang lagi dan lagi, apa yang paling sering mereka omongin atau puji?"
+   - *Rule:* Distinguish between *Owner's Pride* (what the owner loves about their process) and *Customer's Value* (why the customer spends hard-earned money). A baker may be proud of organic French yeast; customers may buy because it stays soft for 3 days in school lunchboxes. Design for the customer's buying driver.
+4. **Competitor Visual & Commercial Contrast (Ruang Berbeda):**
+   - *Probe:* "Spanduk dan papan nama pesaing paling dekat warnanya apa, tampilannya kayak gimana?"
+   - *Rule:* Find open visual territory (color family, density, imagery style) while retaining essential category signals so the business is immediately recognized.
 
-Choose one or two; they become the claim and the specificity anchors. A true small difference, shown concretely, beats a large generic one.
+---
 
-### Translating distinction anchors into visual materials
-Business anchors should not merely be mentioned in copy; they should determine the physical materials, tool marks, and textures directed in the prompt (`references/14-visual-language.md`):
-- **Origin / Heritage:** Heirloom recipe → antique offset lithography or carved woodcut relief, muted mineral patina, period-appropriate display lettering.
-- **Process / Fire:** Slow-simmered 8 hours → heavy cast-iron or earthenware vessel, dark charcoal and charred-wood textures, warm low-key directional lighting, grounded steam physics.
-- **Ingredients / Nature:** Local mountain coffee / fresh botanicals → raw jute fiber or unbleached kraft substrate, botanical engraving line character, deep forest and terra cotta pigment blocks.
-- **Craft / Tools:** Hand-carved or hand-woven → tactile grain relief, visible tool chattering or warp/weft fiber weave, natural workshop ambient lighting.
-- **Place / Community:** Coastal dock or mountain pass → weathered sea-salt or mountain fog tonal atmosphere, regional vernacular sign-painter letterforms.
+## 3. Epistemic Grounding: Tracking Facts, Inferences, Assumptions, and Gaps
 
-## 4. Competitor visual territory
+A professional designer never confuses what the client said with what the designer guessed. Throughout the brief and working notes, tag every data point explicitly:
 
-1. List what 2-3 rivals look like: dominant colors, imagery type (real photo vs. illustration vs. generic stock), type style, tone, density level, and composition conventions (centered vs. asymmetric, product-forward vs. text-heavy).
-2. Note what is **overused** in the category: the color family everyone uses, the imagery cliché (every warung bakso with red + steam, every kopi with brown beans on wood, every laundry with blue bubbles and white foam), the composition default, the type convention, the decoration pattern.
-3. Identify **open visual territory**: what color family, imagery approach, density level, or compositional style is NO competitor currently occupying — and could this business credibly claim it?
-4. Decide on **one or two axes to differ on**. The most effective axes are: color family (different hue territory), imagery approach (real vs. stylized), density level (ramai vs. tenang), type character (bold vs. refined). Do not differ on all axes — the business must still be recognizable as belonging to the category.
-5. Identify **category conventions to retain** — the visual cues that tell a viewer "this is a food business / laundry / clinic" before they read a word. Differ within those, not against them.
-6. Produce the visual territory statement: "Kategori ini umumnya [dominant convention]. Kami berbeda pada [specific axis]: [what we do instead]. Kami tetap mempertahankan [category convention] agar tetap dikenali."
+- **`[FAKTA]` (Verified Fact):** Directly stated and confirmed by the owner with concrete details (e.g. `[FAKTA] Harga Rp 18.000 / porsi, buka jam 17:00–23:00, lokasi depan gerbang pabrik`).
+- **`[INFERENSI]` (Designer's Logical Deduction):** Derived logically by the designer from physical constraints and validated context (e.g. `[INFERENSI] Dilihat pengendara motor 40 km/jam pada malam hari → butuh kontras nilai ekstrem kuning-terang di atas bidang gelap, teks maksimal 4 kata`).
+- **`[ASUMSI]` (Working Hypothesis):** An unconfirmed guess made to advance planning, stated explicitly to the owner for approval or veto (e.g. `[ASUMSI] Pembeli mayoritas adalah buruh pabrik yang mencari makan malam mengenyangkan setelah shift; jika salah, tolong koreksi`).
+- **`[GAP]` (Critical Unknown):** Crucial missing information that prevents a sound design decision; must be asked before proceeding (e.g. `[GAP] Belum diketahui apakah foto produk asli tersedia atau harus diarahkan secara ilustratif`).
 
-Differ only where it is **relevant and credible** to the audience. Being different for its own sake reads as odd, not distinctive.
+---
 
-## 5. Positioning and perception
+## 4. When "We Are the Same as Everyone Else" (Micro-Differentiators)
 
-Write the positioning in one line and confirm it with the owner:
+Most small businesses do not possess disruptive patents or celebrity chefs. Their uniqueness lies in **micro-differentiators** of everyday craft, place, and ritual:
 
-> Untuk **[pembeli]** yang **[kebutuhan]**, **[usaha]** adalah **[pilihan/kategori]** yang **[manfaat utama]** karena **[bukti]**.
-
-Then write the **perception target** as a feeling pair plus a "not": "Jujur dan royal, bukan murahan." This pair becomes the emotional spine of the direction sentence and the prompt's CONCEPT.
-
-## 6. Personality dials → design parameters
-
-Ask the owner to place the business on a few dials (pairs of words, tappable). Translate each setting into concrete choices; do not use the words "minimalist" or "playful" alone.
-
-| Dial | Leaning | Design parameters |
+| Micro-Differentiator Dimension | Concrete Probing Angle | Real UMKM Examples |
 |---|---|---|
-| **Hangat ↔ Serius** | Hangat | Warm color temperature, rounded shapes, natural light, hands and faces, friendly copy |
-| | Serius | Cooler or neutral palette, straight geometry, even light, restrained copy |
-| **Tradisional ↔ Modern** | Tradisional | Hand-lettered or slab type, paper or painted texture, local motifs from the owner's own region, familiar layouts |
-| | Modern | Clean grotesque type, flat color, asymmetry, fewer ornaments, more calm space |
-| **Ramai ↔ Tenang** | Ramai | Saturated color blocks, big scale contrast, energetic angles; still grouped and with breathing space |
-| | Tenang | Muted palette, generous space, few elements, quiet type |
-| **Merakyat ↔ Premium** | Merakyat | Visible price, honest photo, sturdy type, direct copy |
-| | Premium | More space, fewer words, restrained palette, refined type, price de-emphasized but clear |
-| **Ramah ↔ Profesional** | Ramah | Casual register, people and gestures, loose alignment |
-| | Profesional | Formal register, regular grid, symmetry where useful, proof elements |
-| **Buatan tangan ↔ Presisi** | Tangan | Visible texture, slight imperfection, hand lettering |
-| | Presisi | Clean edges, uniform spacing, even lighting |
+| **Origin & Provenance** | Siapa yang pertama buat resep ini? Dari kota atau keluarga mana? | Resep ibu mertua Surabaya sejak 2008; resep asli Solo |
+| **Physical Process & Fire** | Apa bagian memasak/membuat yang paling lama atau repot? | Direbus 8 jam di kuali tanah liat; disangrai manual tanpa minyak |
+| **Material & Raw Ingredient** | Bahan baku apa yang pantang diganti meski harga naik? | 100% gula aren murni Cilacap; santan peras segar kelapa tua |
+| **People & Dedication** | Siapa sosok yang selalu ada di balik kasir atau wajan? | Diracik sendiri oleh Bu Tatik; montir berpengalaman 25 tahun |
+| **Time & Availability** | Jam berapa buka? Kapan waktu paling segar dinikmati? | Hangat keluar oven jam 06:00 pagi; buka sampai jam 2 malam |
+| **Ritual & Service Detail** | Kebiasaan kecil apa yang pelanggan dapat di sini? | Es batu gratis nambah sepuasnya; tag baju tulisan tangan rapi |
+| **Portion & Generosity** | Seberapa besar porsinya dibanding standar sekitar? | Bakso urat jumbo isi penuh semangkuk; sambal ambil sendiri |
+| **Physical Place & Setting** | Di mana lokasinya? Apa ciri fisik tempat usahanya? | Gerobak biru kayu jati tua tepi jembatan; bawah pohon beringin |
 
-Resolve contradictions with the owner ("merakyat tapi premium"): choose the **lead** dial and let the other appear as one accent (e.g. merakyat price display + premium photography).
+Choose 1–2 micro-differentiators. A true, modest, concrete truth beats a grandiose, unprovable marketing claim every single time.
 
-## 7. The swap test
+---
 
-Before the plan is final, run: **"If I replaced this business's name with its nearest competitor's, would the design still make sense?"** If yes, the direction is generic. Add or sharpen a USP, a proof, or an anchor until the answer is no. Run the test again on the generated prompt (every sentence that would fit any competitor is a candidate to replace with a specific).
+## 5. Translating Business Anchors into Visual Materials & Tool Marks
 
-## 8. The Distinction Brief (output of Stage 1)
+Business anchors must not merely be written into headline text; they must dictate the physical materials, rendering medium, tool marks, and textures in the prompt (`references/14-visual-language.md`):
 
-Write seven lines, in the owner's language, and confirm briefly before moving on:
+- **Origin / Heritage (Heirloom Recipe):** $\implies$ Antique commercial lithography or relief woodcut, muted mineral patina, period-appropriate hand-cut Egyptian slab-serif or Didone display lettering.
+- **Process / Fire (Slow-simmered 8 hours):** $\implies$ Heavy cast-iron or earthenware vessel, dark charcoal and charred-wood textures, warm low-key directional lighting, natural grounded steam physics.
+- **Ingredients / Nature (Pure Botanical / Mountain Harvest):** $\implies$ Raw unbleached kraft paper or jute fiber substrate, fine botanical engraving line character, deep forest green and terra cotta pigment fields.
+- **Craft / Tools (Hand-carved / Hand-woven):** $\implies$ Tactile surface grain, visible tool marks, warp/weft fiber relief, honest workshop window daylight.
+- **Place / Street Vernacular (Roadside Warung Cart):** $\implies$ Painted enamel on teak wood, sign-painter casual lettering with subtle brush fringe, durable flex tarpaulin texture.
 
-1. **Usaha:** [who sells what to whom, where].
-2. **Beda karena:** [USP + proof].
-3. **Pembeli memilih karena:** [their words].
-4. **Kesan yang diinginkan:** [feeling pair], bukan [never-be].
-5a. **Posisi:** [price tier and role, e.g. "harga menengah, untuk keluarga kelas menengah, bukan premium"].
-5b. **Wilayah visual:** Pesaing kategori umumnya [dominant visual convention — color, imagery, density]. Kami berbeda pada [specific axis]. Kami tetap mempertahankan [category cue to retain].
-6. **Detail khas yang bisa dipakai:** [2-3 anchors — specific to this business, not the category].
+---
 
-**Why lines 5a and 5b are separate:** price positioning drives tone and polish level. Visual territory drives compositional and color decisions. Conflating them produces vague lines that satisfy neither.
+## 6. Competitor Visual Territory & Open Space Analysis
 
-This brief is the source for the message hierarchy (Stage 4), the visual concept and Visual Thesis (Stage 5), the creative direction summary (Stage 7), the specificity anchors, the visual territory constraint, and the CONCEPT line of every prompt in Stage 8. If line 5b cannot be completed — because the owner does not know the competitive landscape — make a hypothesis based on the category archetype in `07-business-archetypes.md` and state it as an assumption.
+1. **Map 2–3 Immediate Rivals:** Note their primary colors, imagery type (stock photo vs real photo vs clipart), typographic personality, and density.
+2. **Identify Category Clichés (Overused):**
+   - Warung Bakso: Red backgrounds + yellow bubble fonts + floating steam clouds.
+   - Kopi: Dark brown beans scattered on wooden planks + cursive script font.
+   - Laundry: Sky blue + floating bubbles + cartoon washing machine.
+   - Bakery: Pastel pink/cream + swirling ribbon script + powdered sugar explosion.
+3. **Identify Category Signals to Retain:** Visual cues that tell a viewer in 0.5 seconds what category this is (e.g., bowl and spoon for food, clear cup for iced drink, folded cloth for laundry). Retain these cues so recognition is instantaneous.
+4. **Claim Uncontested Open Territory:** Choose 1–2 axes to differ on:
+   - *Color axis:* Dark roasted espresso / navy field instead of generic red.
+   - *Imagery axis:* Singular, monumental Plakatstil hero silhouette instead of messy 10-item collage.
+   - *Typography axis:* Heavy sign-painter condensed grotesque instead of generic rounded sans.
+5. **Formulate the Visual Territory Statement:**
+   > *"Kategori ini umumnya [kebiasaan visual pesaing]. Kami berbeda pada [sumbu pembeda]: [pilihan kami]. Kami tetap mempertahankan [sinyal kategori wajib] agar langsung dikenali dalam 0.5 detik."*
+
+---
+
+## 7. The Visual Swap Test (Uji Tukar Visual)
+
+Before finalizing any Distinction Brief or design plan, execute the **Visual Swap Test**:
+> *"Kalau nama dan logo usaha ini diganti dengan nama pesaing terdekatnya di jalan yang sama, apakah desain dan pesan ini masih cocok untuk mereka?"*
+
+- If **YES:** The direction is too generic. It is built on category clichés, not this business's truth. Return to Section 4 and sharpen the micro-differentiators.
+- If **NO:** The direction is proprietary and ownable. Proceed to Stage 2 and Stage 3.
+
+---
+
+## 8. The Distinction Brief (Output of Stage 1)
+
+Synthesize the brief into seven structured lines with explicit epistemic tags:
+
+1. **Usaha `[FAKTA]`:** [Siapa menjual apa, kepada siapa, di mana, tier harga].
+2. **Beda karena `[FAKTA/BUKTI]`:** [USP yang lolos 4C Gate + bukti fisik/proses nyata].
+3. **Pembeli memilih karena `[FAKTA]`:** [Kata-kata asli pelanggan / alasan membeli nyata].
+4. **Kesan yang diinginkan `[INFERENSI]`:** [Pasangan rasa, misal "Jujur dan royal"], **bukan** [pantangan rasa].
+5. **Posisi & Pesaing `[FAKTA/INFERENSI]`:** [Tier harga]. Pesaing sekitar umumnya [kebiasaan visual]; kami mengklaim wilayah [wilayah visual terbuka]; tetap mempertahankan sinyal [sinyal kategori wajib].
+6. **Jangkar khas `[FAKTA]`:** [2–3 detail fisik/alat/bahan unik yang diterjemahkan ke visual].
+7. **Asumsi & Kebutuhan terbuka:** `[ASUMSI]` [Hipotesis kerja yang butuh konfirmasi]; `[GAP]` [Celah kritis jika ada].
+
+*Gate:* Distinction Brief synthesized, 4C Gate verified, epistemic status clearly tagged, and swap test passed.

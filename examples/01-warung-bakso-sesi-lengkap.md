@@ -1,61 +1,71 @@
 # Contoh sesi lengkap: Warung Bakso (dari permintaan samar sampai dua prompt mandiri)
 
-Contoh ini menunjukkan alur skill: menggali keunggulan usaha, menanyakan gambar acuan, menentukan beberapa output, lalu menghasilkan **satu prompt mandiri per output** dengan **daftar lampiran per prompt**.
-**U** = pemilik usaha, **S** = skill. Sesi dipadatkan; di sesi asli tiap giliran maksimal 3 pertanyaan.
+Contoh ini menunjukkan alur kerja profesional art director: penyelidikan adaptif dengan verifikasi 4C, pencatatan epistemik (fakta vs inferensi vs asumsi), audit aset asli, divergensi 2 konsep strategis dengan trade-off, dan penyusunan **dua prompt mandiri terpadu** dengan blok Sistem Visual identik.
+**U** = pemilik usaha, **S** = skill (art director).
 
 ---
 
 **U:** buatin poster promo buat warung bakso saya dong, yang bagus biar ga keliatan AI
 
-**S:** Siap, Kak! Saya tanya beberapa hal sederhana dulu supaya hasilnya benar-benar cocok untuk warung Kakak. Nggak perlu paham desain.
-1. Nama warungnya apa, di daerah mana, dan harganya kira-kira?
-2. Apa yang bikin bakso Kakak beda dari warung bakso lain? Kalau cuma boleh sebut satu.
-3. Pelanggan biasanya bilang apa, kenapa beli di Kakak?
+**S:** Siap, Kak! Saya bantu arahkan supaya hasilnya punya karakter visual kuat khas warung Kakak, bukan gambar AI pasaran. Saya mulai dengan 3 pertanyaan dasar:
+1. Nama warungnya apa, lokasinya di mana, dan harga per porsinya berapa?
+2. Apa yang membuat bakso Kakak beda dari warung bakso lain di sekitar situ?
+3. Format cetak atau media apa yang dibutuhkan saat ini?
 
-**U:** Bakso Pak Darto, Jl. Kemuning Klaten, 15rb. Bedanya bakso urat segede bola tenis. Pelanggan bilang "kenyang beneran, nggak pelit".
+**U:** Bakso Pak Darto, Jl. Kemuning Klaten, 15rb. Bedanya bakso urat segede bola tenis, kuah kaldu sapi bening direbus dari subuh. Butuh buat promo di feed dan story Instagram.
 
-**S:** Mantap, "segede bola tenis" itu bukti yang bisa dilihat. Tiga hal lagi supaya tampilannya pas:
-1. Apa buktinya selain ukuran? (kuah, bahan, cara bikin)
-2. Pesaing terdekat tampilannya seperti apa? (supaya kita bisa beda)
-3. Orang yang baru lihat, dalam 3 detik Kakak mau mereka merasa apa, dan jangan sampai dianggap apa?
+**S:** Menarik, "segede bola tenis" dan "kuah rebusan subuh" itu bukti konkret. Tapi sebelum kita kunci arah desainnya, saya ingin uji sebentar agar kita tidak terjebak klaim yang umum:
+1. Warung bakso lain di sepanjang Jl. Kemuning apakah juga mengklaim kuah sapi atau ukuran besar? Apa yang cuma warung Pak Darto yang punya?
+2. Pelanggan setia yang sering balik biasanya paling memuji apa — rasa kuahnya, kenyangnya, atau suasananya?
+3. Spanduk atau papan nama warung-warung bakso sekitar situ dominan warna apa dan gayanya seperti apa?
 
-**U:** Kuah kaldu sapi bening, direbus dari subuh. Pesaing banyak yang spanduk merah rame penuh tulisan. Mau kesannya jujur dan royal, jangan sampai kelihatan murahan.
+**U:** Di jalan sini kebanyakan spanduk merah menyala penuh foto mangkuk kecil-kecil sama tulisan kuning rame. Yang bikin beda, di sini pelanggan buruh pabrik dan keluarga bilang "paling kenyang beneran, uratnya kasar kerasa, kuahnya bening gurih nggak bikin enek". Tempat saya pakai gerobak kayu biru tua warisan bapak saya sejak 2004, mangkuknya keramik putih klasik.
 
-**S:** Jelas. Ringkasan saya: *Bakso Pak Darto, Klaten, beda karena bakso urat segede bola tenis dengan kuah bening direbus dari subuh; pembeli bilang "kenyang beneran, nggak pelit"; kesan: jujur dan royal, bukan murahan; beda dari pesaing yang merah, ramai, dan penuh tulisan.* Betul? Lalu, ada gambar acuan? Boleh pilih lebih dari satu: A. Logo, B. Foto bakso asli, C. Foto gerobak, D. Desain lama, E. Contoh desain yang disuka, F. Belum ada.
+**S:** Sangat tajam. Sekarang kita punya pembeda yang lolos uji: bukan sekadar enak, tapi **abundansi kenyang nyata dengan kuah bening gurih**, dibuktikan fisik dengan **bakso tenis dan gerobak kayu biru tua 2004**, di tengah kepungan pesaing spanduk merah ramai.
+Ada materi asli yang bisa dilampirkan?
+A. Foto produk asli, B. Logo warung, C. Foto gerobak/tempat, D. Desain lama, E. Belum ada.
 
-**U:** Betul. Ada logo, foto bakso, foto gerobak (3 gambar).
+**U:** Ada foto mangkuk bakso asli, foto gerobak biru tua, sama logo Bakso Pak Darto (3 file). Promonya: beli 2 porsi gratis es teh sampai akhir bulan.
 
-**S:** Saya terima Gambar 1 (foto bakso), Gambar 2 (foto gerobak biru), Gambar 3 (logo). Fotonya bagus; latar foto bakso saya minta dibersihkan tanpa mengubah baksonya. Posternya mau dipasang di mana, dan tujuannya apa? Ada promo?
+**S:** Saya catat: Gambar 1 (foto bakso mangkuk putih), Gambar 2 (gerobak biru tua), Gambar 3 (logo). Foto bakso kita jadikan bintang utama dengan bayangan napak nyata; foto gerobak jadi jangkar warna dan latar story.
 
-**U:** Promo beli 2 porsi gratis es teh sampai akhir bulan. Biar orang datang ke warung. Untuk Instagram, feed sama story.
+Untuk arah konsep visualnya, saya siapkan **2 alternatif konsep strategis** yang berakar dari keunikan Pak Darto:
 
-**S:** Berarti dua gambar: feed 4:5 (menarik dan menawarkan) dan story 9:16 (menekankan batas waktu dan ajakan datang). Pembelinya siapa, dan nanti pakai AI yang mana untuk bikin gambar?
+1. **Arah A (Rekomendasi) — Abundansi Visual & Seni Reklame Jalanan (Plakatstil + Vernakular Gerobak):**
+   - *Wujud:* Satu mangkuk bakso jumbo diisolasi megah di atas bidang biru cat kayu gerobak Pak Darto (#1F4E8C), huruf tebal cat kuas kuning (#FFD700), label krem polos (#FFFDD0). Bersih, berani, 45% ruang tenang.
+   - *Cocok untuk:* Pekerja pabrik dan pengendara lapar yang butuh bukti kenyang seketika dari kejauhan/saat scrolling.
+   - *Trade-off:* Sangat mencolok dan modern-percaya diri di antara pesaing merah, namun sedikit mengurangi nuansa nostalgia sejarah 20 tahun.
 
-**U:** Keluarga dan pekerja pabrik siang. Pakai ChatGPT, bisa unggah banyak gambar.
+2. **Arah B — Keotentikan Warisan & Dapur Subuh (Litografi Antik 1950-an):**
+   - *Wujud:* Ilustrasi bernuansa etiket litografi cetak batu dengan tekstur kayu jati, aksen uap kuah subuh, warna cokelat kaldu dan putih tulang, tipografi slab-serif stempel antik.
+   - *Cocok untuk:* Keluarga yang mencari nostalgia resep turun-temurun asli Klaten.
+   - *Trade-off:* Terasa sangat otentik dan hangat, tapi kurang memiliki daya tembak visual instan di media sosial dibanding Arah A.
 
-**S:** Terakhir: alamat dan jam buka berapa?
+Rekomendasi saya: **Arah A**, karena kontras nilai birunya langsung membedakan Pak Darto dari semua pesaing merah dan membuktikan ukuran bola tenis secara telak. Kakak lebih sreg Arah A atau B?
 
-**U:** Jl. Kemuning, Klaten, buka 10.00-21.00.
+**U:** Setuju banget Arah A! Birunya gerobak bapak saya emang khas banget, biar beda dari yang merah-merah.
 
 ---
 
 ## Rencana desain bersama
 
-- **Konsep:** "Bakso segede bola tenis" — ukuran jadi bukti konkret, bukan klaim rasa abstrak.
-- **Brief emosional:** Rasa jujur dan royal → mangkuk bakso nyata dan besar sebagai bintang tunggal → foto asli dipertahankan, latar biru gerobak yang tenang dan berwibawa, tanpa dekorasi artifisial.
-- **Kesan:** Jujur dan royal, bukan murahan. Beda dari pesaing yang merah, ramai, dan penuh tulisan: kita pakai ruang lega, biru gerobak khas, dan satu bintang visual yang dominan.
+- **Status Epistemik:**
+  - `[FAKTA]` Bakso Pak Darto Klaten, Rp 15.000/porsi, promo beli 2 gratis es teh s.d. akhir bulan, gerobak kayu biru tua asli sejak 2004, mangkuk keramik putih.
+  - `[INFERENSI]` Dilihat saat scrolling cepat di HP → butuh siluet mangkuk tunggal skala masif, kontras nilai tinggi biru gerobak vs kuning kadmium, 45% ruang tenang aktif.
+  - `[ASUMSI]` Foto bakso cukup tajam untuk diisolasi latarnya tanpa distorsi.
+- **Konsep:** "Bakso segede bola tenis" — ukuran dan gerobak biru sebagai bukti konkret, bukan klaim rasa abstrak.
+- **Brief emosional:** Rasa jujur dan royal $\implies$ mangkuk bakso asli berdiri kokoh tanpa manipulasi plastik.
 - **Arah kreatif (Visual Thesis):** *German Plakatstil object-poster tradition dipadukan dengan seni reklame warung tenda tradisional Indonesia.* Mangkuk bakso asli berdiri kokoh di atas bidang biru cat kayu gerobak Pak Darto (#1F4E8C), dipadukan huruf tebal cat kuas berpotongan rata warna kuning kadmium (#FFD700) dan label krem polos (#FFFDD0).
-- **Sistem visual (sama di semua gambar):** Huruf tebal cat tangan ala papan warung; foto asli tidak diubah; satu panel krem di balik penawaran; ruang tenang dan lega di sekitar bintang.
-- **Pemakaian gambar:** foto bakso = bintang (latar diisolasi ke biru gerobak); foto gerobak = latar story; logo = ditempel apa adanya.
-- **Teks:** Semua tulisan utama dirender langsung utuh di dalam gambar (karya akhir langsung jadi).
-- **Asumsi saya:** foto bakso cukup tajam untuk dipakai langsung.
+- **Sistem visual:** Huruf tebal cat tangan ala papan warung; foto asli tidak diubah; satu panel krem di balik penawaran; ruang tenang dan lega di sekitar bintang.
 
 ## Daftar output
 
 | Prompt | Output | Fungsi | Lampiran |
 |---|---|---|---|
-| 1 | Feed Instagram 4:5 | Menarik dan menawarkan | Foto bakso, logo |
-| 2 | Story 9:16 | Batas waktu dan ajakan datang | Foto bakso, foto gerobak, logo |
+| 1 | Feed Instagram 4:5 | Menarik dan menawarkan promo porsi | Foto bakso (G1), Logo (G2) |
+| 2 | Story Instagram/WA 9:16 | Menekankan batas waktu & ajakan mampir | Foto bakso (G1), Foto gerobak (G2), Logo (G3) |
+
+---
 
 ## Prompt 1: Feed Instagram (4:5)
 
@@ -97,6 +107,8 @@ EXCLUSIONS: Keep bowl, broth, meatballs, and logo exactly as provided. Avoid flo
 **Lampiran Prompt 1** (urutan harus sama):
 1. Foto bakso (hero)
 2. Logo Bakso Pak Darto (area atas)
+
+---
 
 ## Prompt 2: Story (9:16)
 
@@ -141,14 +153,17 @@ EXCLUSIONS: Keep bowl, meatballs, broth, cart character, and logo exactly as pro
 2. Foto gerobak biru (latar)
 3. Logo Bakso Pak Darto (area atas, dalam safe zone)
 
+---
+
 ## Cara pakai
 1. Buka ChatGPT (chat baru untuk tiap prompt lebih rapi). **Salin Prompt 1, lampirkan gambar sesuai urutannya, lalu kirim bersamaan.** Ulangi untuk Prompt 2.
 2. Cek tulisan huruf demi huruf: "BAKSO SEGEDE BOLA TENIS", "GRATIS", alamat, jam buka.
 3. Bandingkan kedua gambar berdampingan sebelum posting; seluruh gambar sudah lengkap dan siap pakai tanpa perlu diedit ulang.
 
 ## Kenapa ini tidak terlihat seperti AI pasaran
-- **Beda dari pesaing dengan sengaja:** Pesaing ramai dan merah; ini lega dan biru gerobak dengan satu bintang visual.
-- **Dua jangkar spesifik:** Ukuran "segede bola tenis" dan gerobak biru asli Pak Darto.
+- **Diferensiasi terverifikasi 4C:** Diuji terhadap pesaing merah sekitar; memilih mengklaim wilayah biru gerobak yang tenang dan berwibawa.
+- **Konsep divergen dipilih sadar:** Pemilik memilih Arah A (Plakatstil abundansi) dibanding Arah B (nostalgia litografi) karena trade-off komersialnya sesuai dengan pembeli pekerja pabrik.
+- **Dua jangkar spesifik:** Ukuran "segede bola tenis" dan gerobak biru asli Pak Darto sejak 2004.
 - **Ruang lega karena konsep, bukan pengukuran:** Ruang tenang di sekitar mangkuk adalah bagian dari karakter desain — keyakinan bahwa bukti ukuran cukup kuat berdiri sendiri.
 - **Foto asli dipertahankan:** Bakso asli tidak diganti dengan ilustrasi generik.
 - **Satu keluarga, dua prompt mandiri:** Sistem Visual ditulis persis sama di kedua prompt, dan tidak ada prompt yang merujuk prompt lain.

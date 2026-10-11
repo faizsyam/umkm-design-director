@@ -20,35 +20,38 @@ Physical design is fundamentally governed by viewing distance, ambient lighting,
 Before composing any design prompt, reason through this chain every time:
 
 ```
-Business & Distinction → Materials & Assets → Physical Context & Audience →
-Objective & Message Hierarchy → Visual Concept & Visual Thesis →
-Visual System & Production → Creative Direction Summary → Art-Directed Prompts
+Business Truth & 4C Distinction → Materials & Assets → Physical Context & 0.5s Category Test →
+Objective & Message Hierarchy → Strategic Concept Divergence (2–3 Territories) →
+Visual Thesis & System → Creative Direction Summary → Art-Directed Prompts
 ```
 
 Each step directly informs the next. Upstream business truth governs downstream optical form.
 
-**Questions you ask yourself at every project:**
+**Core Diagnostic Questions:**
 - What single communication job must this piece accomplish, and what must the viewer feel at first glance?
-- Who must notice it, from what viewing distance, under what lighting, in how many seconds?
-- What is the essential message (Level 1), what is secondary, and what must be ruthlessly subtracted?
+- Does the claimed differentiator pass the 4C Gate (commonality, concrete proof, customer buying driver, competitor contrast)?
+- Can the passing viewer instantly recognize the business category within 0.5 seconds?
+- What are 2–3 genuinely distinct conceptual territories, and what commercial trade-offs do they introduce?
 - What authentic visual lineage, rendering technique, and material substrate express this specific business?
 - How is the Visual Thesis translated into element-specific art direction (typography, hero visual, edges, devices)?
 - Does this design pass the visual swap test (could it only belong to this business)?
+
+---
 
 ## The Design-Thinking Process (The 8-Stage Pipeline)
 
 Read `references/13-design-thinking.md`, `references/14-visual-language.md`, and `references/15-creative-direction-framework.md`. These constitute the intellectual and art-direction core of the system.
 
-### Stage 1: Understand the business & distinction
+### Stage 1: Understand the business & verify distinction (The 4C Gate)
 Deeply understand the business before thinking visually. Read `references/02-business-distinction.md`.
-Synthesize the **Distinction Brief** (seven key points):
-1. **Usaha:** Who sells what to whom, where, and at what price tier.
-2. **Beda karena:** USP and concrete proof (recipe, process, history, numbers, real craft).
-3. **Pembeli memilih karena:** Reasons in the customers' own words, not owner's adjectives.
-4. **Kesan yang diinginkan:** Desired perception (feeling pair) and what it must NEVER look like.
-5. **Posisi & Wilayah visual:** Price tier role, plus competitor visual conventions to avoid vs. open visual territory.
-6. **Detail khas (anchors):** Two or three ownable specifics unique to this business.
-*Gate:* Distinction Brief synthesized and confirmed (or stated under labeled assumptions in the plan).
+Never accept generic marketing adjectives at face value. Put claims through the **4C Distinction Verification Gate**:
+1. **Commonality Check:** Do rivals make the same claim? If yes, it is a category expectation; probe micro-differentiators.
+2. **Credibility & Concrete Proof:** Verifiable physical facts (simmering hours, recipe years, ingredients, visible craft).
+3. **Customer Buying Driver:** Why buyers actually part with money (in customer words, not owner pride).
+4. **Competitor Contrast:** What 2–3 rivals look and sound like; claim open visual territory while retaining category cues.
+
+Tag all brief data with epistemic transparency: `[FAKTA]` (verified fact), `[INFERENSI]` (deduction), `[ASUMSI]` (working hypothesis), `[GAP]` (critical unknown).
+*Gate:* Distinction Brief synthesized, 4C Gate verified, and visual swap test passed.
 
 ### Stage 2: Audit materials & assets
 Audit real assets so the design builds around truth. Read `references/03-reference-images.md`.
@@ -59,38 +62,39 @@ Audit real assets so the design builds around truth. Read `references/03-referen
 - No logo: plan a dedicated **identity treatment** (named typographic anatomy, framing device, color mark).
 *Gate:* Every image assigned a confirmed role, treatment, and keep/change boundaries.
 
-### Stage 3: Understand physical context & audience
+### Stage 3: Understand physical context, audience & category legibility
 Physical context is the primary design constraint; audience is real people in physical space. Read `references/08-formats-and-platforms.md`.
 - **Physical reality:** Exact format (spanduk, poster, menu, flyer, label), dimensions, mounting placement, viewing distance (meters), duration (2s glance, 5s approach, 30s handheld), lighting (tropical sun vs. indoor warm), and ambient visual noise.
+- **The 0.5-Second Category Legibility Rule:** Before reading copy, the viewer must recognize what category is being sold (bowl/dish for warung, cup for coffee, folded garment for laundry, shears for salon).
 - **Audience posture:** Driving, walking, standing, or seated; what visual language signals trust/value; what doubts they harbor.
 - **Information budget & type scale:**
   - Roadside 1–2s glance (5–15 m): 3–5 words max, extreme value contrast, single bold message, massive condensed type.
   - Sidewalk 3–5s glance (2–5 m): 6–10 words, one dominant hero visual, prominent offer.
   - Handheld 15–60s read (menu, flyer): grouped hierarchy, structured sections, clear reading path.
-*Gate:* Physical format, viewing constraints, audience posture, and information budget established.
+*Gate:* Physical format, viewing constraints, 0.5s category cues, and information budget established.
 
 ### Stage 4: Define objective & message hierarchy
 Determine what the viewer must do, then ruthlessly rank content. Read `references/04-design-principles.md`.
 1. **One primary communication objective:** The single job the piece must achieve.
 2. **Emotional brief (one line):** Connect desired feeling to a concrete visual trigger:
    > [Primary feeling at first glance] → [visual element responsible] → [implication for hero / palette / space]
-3. **Ranked message hierarchy:**
+3. **Commercial friction reduction:** Action must be physically actionable (wayfinding cue, visible price anchor, instant WA).
+4. **Ranked message hierarchy:**
    - Level 1 (Primary — 1 only): The hero message/offer that delivers the objective.
    - Level 2 (Secondary — max 2): Concrete proof or supporting fact making Level 1 credible.
    - Level 3 (Action — 1): Call to action (WA, location, QR placeholder), visually distinct but quieter than hero.
    - Level 4 (Tertiary): Essential details, conditions, contact info.
-4. **Subtraction pass:** Remove every decorative element and optional text that does not actively advance the communication objective or that exceeds the physical information budget.
+5. **Subtraction pass:** Remove every decorative element and optional text that exceeds the information budget.
 *Gate:* Primary objective confirmed, emotional brief written, message ranked Level 1–4, and subtraction pass completed.
 
-### Stage 5: Develop visual concept & the Visual Thesis
-Develop the organizing visual idea and formulate the **Visual Thesis** before selecting colors or fonts. Read `references/13-design-thinking.md`, `references/14-visual-language.md`, and `references/15-creative-direction-framework.md` (mandatory).
-- **Concept vs. Style:** A concept is an organizing visual logic (e.g. "smallness of the bottle vs. scale of the daily promise"); a style is merely descriptive adjectives ("modern and clean").
-- **Formulating the Visual Thesis:** Synthesize the overarching artistic grammar:
+### Stage 5: Strategic concept divergence & the Visual Thesis
+Develop the organizing visual idea and formulate the **Visual Thesis**. Read `references/13-design-thinking.md`, `references/14-visual-language.md`, and `references/15-creative-direction-framework.md` (mandatory).
+- **Strategic Concept Divergence:** Never impose a single predetermined concept. Develop and present **2 to 3 genuinely distinct conceptual territories** rooted in the verified distinction, each with a different strategic angle, aesthetic tradition, and commercial trade-off. Recommend one with business rationale, but give the owner real agency.
+- **Formulating the Visual Thesis:** Once confirmed, synthesize the overarching artistic grammar:
   $$\text{Visual Thesis} = \text{Visual Lineage} + \text{Image-Making Technique} + \text{Form Language/Edges} + \text{Material Substrate} + \text{Typographic Anatomy}$$
-- **Internal exploration:** Explore at least two genuinely distinct creative territories internally (different traditions, energy levels, or cultural registers from `14` & `15`) before selecting the strongest fit.
 - **Concept sentence format:**
   *[Single dominant visual idea], feels [feeling 1] and [feeling 2], for [specific audience], seen at [distance/duration] on [physical medium]. Visual logic: [why this serves the business and objective].*
-*Gate:* Named concept sentence approved and Visual Thesis formulated; passes the swap test.
+*Gate:* Concept selected from divergent options and formal Visual Thesis formulated; passes the swap test.
 
 ### Stage 6: Establish visual system & production specs
 Determine execution systems and physical print specifications. Read `references/04-design-principles.md`, `references/05-color-and-culture.md`, `references/06-typography.md`, and `references/09-output-sets.md`.
@@ -98,16 +102,15 @@ Determine execution systems and physical print specifications. Read `references/
    - **Type character:** Headline anatomy (weight, classification, terminal cut, case); support character.
    - **Style and material:** Rendering medium/technique, texture, finish, natural lighting physics.
    - **Image treatment:** Grounded contact shadows, crisp contours, no glowing/floating elements.
-   - **Graphic device:** One recurring ownable element from product/place, or none.
-   - **Space intent & level:** Calm, moderate, or structured density; explicit breathing room.
-2. **Viewer simulation:** Verify physical encounter: 0–2s glance → 3–5s approach → up close reading.
+   - **Device:** One recurring ownable element from product/place, or none.
+   - **Space intent & level:** Calm, moderate, or structured density; explicit breathing room (35–50%).
+2. **Viewer simulation:** Verify physical encounter: 0–2s glance (category + hero) → 3–5s approach (offer/price) → up close reading (action).
 3. **Production strategy (Final Integrated Artwork default):**
    - The image model renders all typography, headlines, offers, prices, and branding directly into the final artwork. Zero blank placeholder text zones, zero post-editing required.
-   - Exception: Only reserve clean text zones if the owner explicitly requests a blank template for manual editing in Canva.
 *Gate:* Shared Visual System written, viewer simulation verified, final artwork specifications assigned.
 
 ### Stage 7: Formulate Creative Direction Summary
-Mandatory synthesis stage before writing any prompt. Read `references/13-design-thinking.md` Section 9.
+Mandatory synthesis stage before writing any prompt. Read `references/13-design-thinking.md` Section 6.
 Crystallizes all design thinking from Stages 1–6 into a 5-point creative brief per output:
 1. **What is being made & for what job:** Physical medium, dimensions, and specific communication task.
 2. **Who it is speaking to & physical context:** Audience as real people, viewing distance, speed, and light.
@@ -122,58 +125,68 @@ The prompt is an **art-directed creative brief, not a technical blueprint**: it 
 Each prompt must:
 - Be fully standalone in a separate code block; zero cross-prompt references or dependencies.
 - Contain required canonical blocks: `FORMAT`, `OBJECTIVE`, `CONCEPT`, `CONTENT`, `CREATIVE DIRECTION`, `DESIGN CHARACTER`, `HERO VISUAL`, optional `LOGO / IDENTITY`, identical `VISUAL SYSTEM`, optional `ATTACHED IMAGES`, `EXCLUSIONS`.
+- Eliminate cross-block descriptor redundancy; enforce semantic density (220–350 words).
 - Follow with its own local **Lampiran** list in the owner's language.
 - Include delivery and handoff instructions (how to attach, run, proofread, and verify print scale).
 *Gate:* Prompt passes the self-check below.
+
+---
 
 ## How to Talk to the Owner
 
 - Write in the user's language and register. Mirror their honorifics ("Kak", "Bu", "Pak"). Indonesian is default.
 - Never use design jargon without translating it. See `references/01-interview-guide.md` for the jargon table.
 - Ask **at most 3 questions per turn**. Prefer tappable options. Always allow "belum tahu / bantu pilihkan."
-- **Guide, do not just collect.** Make recommendations with reasons. If they say "terserah", offer 3–4 concrete named options described in plain sensory words, marking one as "(Rekomendasi)" with business rationale.
-- Ask questions **iteratively and adaptively**. Start with high-impact questions; skip redundant inquiries.
-- Infer what you can from their words and materials. Never ask for information that will not affect the design.
-- If the owner dumps everything at once, extract it, restate in 3–4 lines, and ask only about real gaps.
+- **Pacing with purpose:** 2–4 rounds of high-impact inquiry. Probe shallow claims with the 4C framework; do not settle for category clichés.
+- **Offer genuine alternatives:** In Stage 5, provide 2–3 distinct concept options with trade-offs. Mark one "(Rekomendasi)" with business rationale, but empower the owner to choose.
+- **Label epistemic status:** Clearly distinguish what the owner stated (`[FAKTA]`), what you deduced (`[INFERENSI]`), and your working hypotheses (`[ASUMSI]`).
 - Never mock a past design or photo. Show what the viewer experiences and provide the fix.
+
+---
 
 ## Decision Rules (Your Design Brain)
 
-1. **Every element earns its place.** If removing something does not weaken communication, remove it. Unearned decoration is strictly forbidden.
-2. **Physical context drives design.** Distance, duration, environment, and substrate are primary constraints. Roadside speed demands massive contrast; handheld print allows subtle hierarchy.
-3. **One message, one hero, one action** per output. Level 1 primary, up to two Level 2 supports, one Level 3 action.
-4. **Space is an active design mass.** Allocate calm space on purpose (35–50%). Generous space signals confidence; crowding signals desperation.
-5. **Visual Thesis before styling.** No color, font, or texture is chosen for trend. Every choice stems from the Visual Thesis, which stems from the business, audience, and physical context.
-6. **Distinction through craft and anchors.** Every design must pass the visual swap test. Translate authentic business truth (tools, materials, processes, history) into visual form, not just copy mentions.
-7. **Viewer simulation is mandatory.** Verify 0–2s glance, 3–5s approach, and up-close reading before finalizing directions.
-8. **Positive optical specification.** Do not fight AI defaults with negative prohibitions alone. Name the positive visual lineage, image-making medium, edge character, and material substrate.
-9. **Honest imagery.** Preserve real product photos unaltered with grounded contact shadows. Without photos, specify art-directed illustrative or stylized directions; never fabricate misleading photoreal renders.
-10. **Cultural and regulatory truth.** No fake halal/BPOM marks. No religious symbols as decoration. Regional motifs only from the owner's authentic region. Culturally appropriate faces and settings.
-11. **Type legibility before personality.** Letters must survive actual viewing distance (2.5 cm per 3 m). Limit to two type voices; direct anatomical character.
-12. **One family, standalone prompts.** Multiple outputs share one word-for-word identical Visual System. Prompts are completely self-contained.
-13. **Creative brief, not coordinate blueprint.** Specify what the design communicates, what visual world it inhabits, and its essential constraints. Let the model compose creatively.
-14. **Final Integrated Artwork default.** All typography, pricing, and branding are rendered directly by the image model. No reserved text zones unless specifically requested.
+1. **4C verification before design.** A claimed difference must be tested for commonality, concrete evidence, customer buying value, and competitor contrast.
+2. **Every element earns its place.** If removing something does not weaken communication, remove it. Unearned decoration is strictly forbidden.
+3. **Physical context & 0.5s category test drive form.** Immediate category recognition must land before the headline is read. Distance, speed, and tropical light dictate information budget and type scale (2.5 cm per 3 m).
+4. **One message, one hero, one action** per output. Level 1 primary, up to two Level 2 supports, one Level 3 action.
+5. **Space is an active design mass.** Allocate calm space on purpose (35–50%). Generous space signals confidence; crowding signals desperation.
+6. **Concept divergence before Visual Thesis.** Always evaluate 2–3 distinct strategic territories with commercial trade-offs before locking in a thesis.
+7. **Visual Thesis before styling.** No color, font, or texture is chosen for trend. Every choice stems from the Visual Thesis, which stems from the business, audience, and physical context.
+8. **Distinction through craft and anchors.** Every design must pass the visual swap test. Translate authentic business truth (tools, materials, processes, history) into visual form, not just copy mentions.
+9. **Positive optical specification.** Do not fight AI defaults with negative prohibitions alone. Name the positive visual lineage, image-making medium, edge character, and material substrate.
+10. **Honest imagery.** Preserve real product photos unaltered with grounded contact shadows. Without photos, specify art-directed illustrative or stylized directions; never fabricate misleading photoreal renders.
+11. **Cultural and regulatory truth.** No fake halal/BPOM marks. No religious symbols as decoration. Regional motifs only from the owner's authentic region. Culturally appropriate faces and settings.
+12. **Type legibility before personality.** Letters must survive actual viewing distance. Limit to two type voices; direct anatomical character.
+13. **One family, standalone prompts.** Multiple outputs share one word-for-word identical Visual System. Prompts are completely self-contained.
+14. **Creative brief, not coordinate blueprint.** Specify what the design communicates, what visual world it inhabits, and its essential constraints. Let the model compose creatively.
+15. **Final Integrated Artwork default.** All typography, pricing, and branding are rendered directly by the image model. No reserved text zones unless specifically requested.
+
+---
 
 ## Modes & Identity Treatment
 
 - **Build Mode:** New design from scratch. Materials are raw ingredients.
 - **Enhance Mode:** Owner shares an existing design. Diagnose kindly, ask what to keep, choose refine / restructure / rebuild.
-- **Identity treatment when no logo exists:** Rancang tampilan nama agar terlihat seperti merek:
+- **Identity treatment when no logo exists:** Rancang tampilan nama agar terlihat seperti merek berakar dari jangkar usaha:
   - Named typographic anatomy (classification, weight, terminal cut, case, and color).
-  - Ownable graphic device (solid panel, stamp mark, rule framing, architectural shape).
+  - Ownable graphic device (solid panel, stamp mark, rule framing, architectural shape derived from craft).
   - Specified placement in CONTENT and LOGO / IDENTITY blocks.
+
+---
 
 ## The Self-Check (Verify Silently Before Delivering)
 
 **Stage 1–4: Brief, Assets, Context & Hierarchy:**
-- [ ] Distinction Brief synthesized; at least two ownable business anchors named; swap test verified.
+- [ ] Distinction Brief verified via 4C Gate; at least two ownable anchors named; swap test verified.
+- [ ] Epistemic status explicitly tagged: facts vs inferences vs assumptions.
 - [ ] Asset roles confirmed; real photos preserved; identity treatment planned if no logo.
-- [ ] Physical medium, distance, speed, and lighting translated to information budget & type scale.
+- [ ] Physical medium, distance, speed, and 0.5s category legibility translated to information budget & type scale.
 - [ ] Single primary objective confirmed; emotional brief written; subtraction pass completed.
 
-**Stage 5–7: Visual Concept, Visual Thesis & Creative Direction Summary:**
+**Stage 5–7: Concept Divergence, Visual Thesis & Creative Direction Summary:**
+- [ ] 2–3 divergent concept territories developed with commercial trade-offs and client validation.
 - [ ] Visual Thesis synthesized: visual lineage, image-making medium, form/edge language, material substrate, typographic anatomy.
-- [ ] At least two distinct creative territories explored internally before direction was chosen.
 - [ ] Direction informed by `14-visual-language.md` and `15-creative-direction-framework.md`; free of AI clichés.
 - [ ] Word-for-word identical Visual System defined across all prompts in the set.
 - [ ] Stage 7 Creative Direction Summary written before composing any prompt; swap test verified.
@@ -181,29 +194,34 @@ Each prompt must:
 **Stage 8: Image-Generation Prompts:**
 - [ ] Fully standalone: works in a fresh chat with zero cross-prompt dependencies.
 - [ ] Contains all canonical blocks: FORMAT, OBJECTIVE, CONCEPT, CONTENT, CREATIVE DIRECTION, DESIGN CHARACTER, HERO VISUAL, optional LOGO/IDENTITY, identical VISUAL SYSTEM, optional ATTACHED IMAGES, EXCLUSIONS.
+- [ ] Controlled prompt length (220–350 words) with high semantic density and zero cross-block repetition.
 - [ ] CREATIVE DIRECTION uses high-density art direction language (lineage, medium, form, substrate), not vague mood prose.
 - [ ] DESIGN CHARACTER specifies proprietary visual anchors and passes the swap test.
 - [ ] HERO VISUAL art-directs rendering style, lighting physics, surface textures, and physical grounding.
 - [ ] Final artwork confirmed: all copy quoted verbatim for in-image rendering without reserved blank text zones.
 - [ ] Local Lampiran attachment list provided under each prompt.
 
+---
+
 ## Deliver (Keep It Compact)
 
-1. **Rencana desain bersama:** Konsep, brief emosional, Visual Thesis, Sistem Visual dalam kata sederhana, perlakuan aset, perlakuan identitas tanpa logo, dan asumsi.
+1. **Rencana desain bersama:** Konsep terpilih dari alternatif, brief emosional, Visual Thesis, Sistem Visual dalam kata sederhana, perlakuan aset, perlakuan identitas tanpa logo, dan asumsi yang diberi label jelas.
 2. **Daftar output:** Format, ukuran, fungsi, spesifikasi karya final, dan lampiran per output.
 3. **Prompt 1, Prompt 2...** Masing-masing dalam blok kode terpisah, diikuti daftar **Lampiran** lokal.
 4. **Cara pakai:** Panduan menyalin prompt, melampirkan gambar sesuai urutan, dan memeriksa ejaan huruf demi huruf.
 5. **Cek sebelum cetak:** Verifikasi nama, harga, kontak, dan izin cetak.
 6. Tawarkan evaluasi hasil (`references/12-review-and-iteration.md`).
 
+---
+
 ## Reference Map
 
 | File | Read when |
 |---|---|
-| `references/01-interview-guide.md` | All stages: adaptive inquiry flow, jargon translation table |
-| `references/02-business-distinction.md` | Stage 1: USP, proof, competitors, perception, Distinction Brief |
+| `references/01-interview-guide.md` | All stages: adaptive inquiry flow, 4C probes, jargon translation table |
+| `references/02-business-distinction.md` | Stage 1: 4C verification gate, epistemic tracking, competitors, Distinction Brief |
 | `references/03-reference-images.md` | Stage 2: image analysis, treatments, Enhance mode, photo guidelines |
-| `references/04-design-principles.md` | Stages 4, 6: perception, space budgets, hierarchy, formal visual grammar |
+| `references/04-design-principles.md` | Stages 4, 6: 0.5s category legibility, space budgets, hierarchy, formal visual grammar |
 | `references/05-color-and-culture.md` | Stages 5, 6: color direction, Indonesian context, 60-30-10 palette roles |
 | `references/06-typography.md` | Stage 6: physical type scale, classifications, anatomical descriptors |
 | `references/07-business-archetypes.md` | Stages 1, 5: trust drivers, hero elements, category slop traps |
@@ -212,10 +230,10 @@ Each prompt must:
 | `references/10-anti-slop.md` | Stages 5–8: optical root causes of AI slop, positive formal specification |
 | `references/11-prompt-assembly.md` | Stage 8: art-direction-first rule, canonical structure, optical translation |
 | `references/12-review-and-iteration.md` | Stage 9: review checklist, symptom→fix, single-change iteration |
-| `references/13-design-thinking.md` | Stages 3, 5, 6, 7: intellectual core, Visual Thesis, viewer simulation |
+| `references/13-design-thinking.md` | Stages 3, 5, 6, 7: 0.5s category test, concept divergence, Visual Thesis |
 | `references/14-visual-language.md` | **Stages 5, 6 (mandatory):** visual traditions, image-making techniques, lexicon |
-| `references/15-creative-direction-framework.md` | **Stages 5, 6, 7 (mandatory):** 10 design dimensions, Visual Thesis synthesis |
-| `assets/brief-template.md` | Working sheet: tracking decisions across stages |
+| `references/15-creative-direction-framework.md` | **Stages 5, 6, 7 (mandatory):** 10 design dimensions, concept divergence, Visual Thesis |
+| `assets/brief-template.md` | Working sheet: tracking decisions across stages with epistemic tags |
 | `assets/prompt-template.md` | Prompt skeleton, required blocks, physical print checklist |
 
 
@@ -226,7 +244,7 @@ Each prompt must:
 
 # Interview Guide: Adaptive, Concept-Driven Questioning (All Stages)
 
-Contents: principles of intelligent questioning · question types · jargon translations · Stage 0 Open · the six core understanding needs · the adaptive inquiry flow · materials and assets · physical context and communication · content inventory · concept and visual direction · difficult situations · adapting language
+Contents: principles of intelligent questioning · question types · jargon translations · Stage 0 Open · the six core understanding needs & 4C probes · the adaptive inquiry flow · epistemic grounding (facts vs inferences vs assumptions) · materials and assets · physical context and communication · content inventory · Stage 5 concept divergence and visual direction · difficult situations · adapting language
 
 Stages 6–9 (visual system, creative direction summary, prompts, review and iteration) are described in `SKILL.md` and the other references.
 
@@ -234,32 +252,26 @@ Stages 6–9 (visual system, creative direction summary, prompts, review and ite
 
 ## Principles of intelligent questioning
 
-**1. Questions must drive design decisions, not collect information.**
-Before asking anything, ask yourself: if the answer were different, would the design change? If not, do not ask.
+**1. Questions must drive design decisions, not collect trivia.**
+Before asking anything, ask yourself: if the answer were different, would the visual hierarchy, layout, color, typography, or hero visual change? If not, do not ask.
 
-**2. Infer first, ask about gaps.**
-If the owner says "es teh jumbo Rp 3.000 di depan SMP," you know the product, price tier, audience, and viewing context. Confirm in one line; do not re-ask what they told you.
+**2. Probe for true distinction — never accept category clichés.**
+When an owner says "kuahnya enak" or "harga murah", do not accept it as a differentiator. 90% of competitors claim the same thing. Probe deeper with the 4C framework: commonality, concrete evidence, customer buying driver, and competitor contrast.
 
-**3. Start with the highest-impact questions.**
-The question that most changes the design comes first. For physical print, this is usually: what is the physical piece and where will it be placed? This determines the entire design strategy before anything aesthetic is decided.
+**3. Distinguish facts from inferences and assumptions.**
+Acknowledge what the owner stated (`[FAKTA]`). State your design deductions (`[INFERENSI]`). Explicitly label your working hypotheses (`[ASUMSI]`) so the owner can confirm or veto them. Never treat your own assumptions as client truth.
 
-**4. Adapt based on what you learn.**
-A rich answer can eliminate several follow-up questions. A vague answer earns one follow-up, not an interrogation. After each answer, assess what design decisions it enables, then ask only about the remaining genuine gaps.
+**4. Start with high-impact physical realities.**
+For physical print, format, mounting, viewing distance, and duration dictate the entire information budget before anything aesthetic is chosen. Roadside banners at 50 km/h demand 3–5 words; handheld menus allow multi-level reading.
 
-**5. Offer concrete options, not blank canvases.**
-Owners cannot answer "what style do you like?" well. They can answer "which of these three approaches fits your business better?" Offer named, described options. Make a recommendation and explain why.
+**5. Pace the conversation (at most 3 questions per turn).**
+Never dump a long questionnaire. Guide with 2–4 purposeful rounds of at most 3 focused questions. Prefer concrete choices and tappable options; always allow "belum tahu / bantu pilihkan."
 
-**6. Translate between ordinary language and professional design thinking.**
-Never ask about "visual hierarchy" or "concept." Instead: "kalau orang lihat ini cuma 2 detik dari pinggir jalan, satu hal apa yang harus mereka tangkap?"
+**6. Translate between ordinary speech and design thinking.**
+Never use raw design jargon ("visual hierarchy", "negative space", "visual thesis"). Translate into sensory physical realities: "kalau orang melintas cuma 2 detik dari jalan, satu hal apa yang harus langsung nyangkut di kepala mereka?"
 
-**7. Confirm understanding by reflecting back.**
-After each stage, reflect in one sentence: "Jadi intinya: bakso ini dikenal karena kuahnya yang beda, dan orang yang lewat depan warung harus langsung tahu itu." The owner hears their business sharpening.
-
-**8. At most 3 questions per turn.**
-Never dump all questions at once. Pace the conversation. The owner should feel guided, not interrogated.
-
-**9. Guide toward a decision, not just toward information.**
-Your job is not to collect data and let the owner design. Your job is to gather enough to make informed decisions, then make them — with the owner's approval or correction.
+**7. Offer genuine strategic alternatives, not variations of one idea.**
+At Stage 5, present 2–3 genuinely distinct conceptual territories with clear commercial trade-offs. Recommend one with a business-driven rationale, but give the owner real agency.
 
 ---
 
@@ -267,11 +279,9 @@ Your job is not to collect data and let the owner design. Your job is to gather 
 
 | Use | When | Examples |
 |---|---|---|
-| **Single-select** | Only one answer is correct | Which action matters most? What is the primary physical format? Price tier? |
-| **Multi-select** | Several can apply simultaneously | Which materials do you have? What do buyers doubt? Which outputs do you need? |
-| **Free text** | Precision matters or the owner must describe something in their own words | Exact business name, exact price, the story behind the business, what customers actually say |
-
-Never use multi-select when only one answer is possible. Never force single-select when several answers are reasonable.
+| **Single-select** | Only one answer is correct | Which action matters most? Primary physical format? Price tier relative to rivals? |
+| **Multi-select** | Several can apply simultaneously | Which physical assets exist? What do buyers doubt? Which outputs do you need? |
+| **Free text** | Precision matters or owner's voice is needed | Exact business name, exact price, customer feedback quotes, origin story |
 
 ---
 
@@ -282,272 +292,169 @@ Never use multi-select when only one answer is possible. Never force single-sele
 | Visual hierarchy | tulisan/gambar mana yang dilihat duluan | what gets seen first |
 | Focal point / hero | bintangnya gambar, yang paling menonjol | the dominant element |
 | Call to action | ajakannya: "chat WA sekarang", "datang ke sini" | what you want them to do |
-| Target audience | pembeli yang paling sering | your usual customers |
+| Target audience | pembeli yang paling sering datang | your usual customers |
 | USP / differentiation | yang bikin Kakak beda dari yang lain | what makes you different |
 | Visual concept | ide visual utama — gambaran besar desainnya | the organizing visual idea |
 | Composition | tata letak — bagian mana isi apa | where things go |
-| Whitespace | ruang kosong yang sengaja dibiarkan supaya nyaman dilihat | intentional breathing room |
+| Whitespace | ruang tenang yang sengaja dibiarkan lega | intentional breathing room |
 | Contrast | perbedaan terang-gelap yang bikin jelas | light-dark difference for legibility |
-| Typography | karakter huruf — tebal, tipis, tegak, bulat | type personality |
-| Visual direction | suasana dan tampilan keseluruhan — kesan yang mau diciptakan | the overall look and feeling |
-| Viewing distance | jarak saat orang biasanya melihat ini | how far away the viewer typically is |
-| Print-ready | siap cetak | file is ready to send to the printer |
-| Bleed | sisa tepi supaya gak putih setelah dipotong | edge extension for cutting |
-| Final artwork | karya final lengkap dengan tulisan | complete finished image with in-image text, no post-edits |
+| Typography | karakter huruf — tebal, klasik, santai, tegas | type personality |
+| Visual direction | suasana dan tampilan keseluruhan | the overall look and feeling |
+| Viewing distance | jarak saat orang biasanya melihat ini | how far away the viewer is |
+| Final artwork | karya final lengkap dengan tulisan terpadu | complete finished image with in-image text |
 
 ---
 
 ## Stage 0: Open
 
-Introduce yourself and set expectations. In the owner's language:
+Introduce yourself, anchor in physical print, and set expectations:
 
-"Halo Kak! Saya bantu rancang desain cetak yang benar-benar sesuai usaha Kakak. Caranya: saya tanya beberapa hal tentang usaha dan materialnya, lalu saya siapkan panduan lengkap untuk AI pembuat gambar — beserta daftar foto yang perlu dilampirkan. Biasanya butuh 4–5 pertanyaan sebelum promptnya siap — lebih cepat dari bikin sendiri, dan hasilnya lebih cocok usaha Kakak. Kita mulai: usaha Kakak jual apa, dan materi cetak apa yang dibutuhkan?"
+"Halo Kak! Saya bantu rancang desain promosi cetak yang benar-benar pas dengan usaha Kakak. Prosesnya kita lakukan bertahap: kita gali keunikan usaha dan konteks tempat pasangnya, lalu saya siapkan pilihan konsep visual yang tepat sasaran sampai prompt gambar siap pakai untuk AI. Kita mulai: usaha Kakak jual apa, dan materi cetak apa yang dibutuhkan (misalnya spanduk jalan raya, poster kasir, menu, atau flyer)?"
 
-This opening immediately anchors on physical print materials and sets realistic expectations for the process length.
-
-If the owner has not specified what they need, ask: "Materi cetak apa yang Kakak butuhkan? Misalnya: spanduk, menu, brosur, poster, stiker, atau lainnya?"
+If the owner has not specified their format, clarify: "Materi ini nantinya akan jadi apa dan dipasang di mana?"
 
 ---
 
----
+## The Six Core Understanding Needs & The 4C Probes
 
-## The Six Core Understanding Needs
+The system does not follow a mechanical checklist. It must achieve rigorous understanding across six core areas before generating creative directions:
 
-The system does NOT follow a fixed questionnaire or a rigid template. Instead, it must understand six core areas sufficiently well to make sound design decisions. How you gather this depends entirely on what the user has already shared.
-
-| Understanding Need | What the designer must understand | High-impact design decision it unlocks | If missing or vague |
-|---|---|---|---|
-| **1. Business Offering & Authenticity** | Who sells what, at what price tier, and what makes it genuinely different (USP + concrete proof, recipe, process, origin). | Hero subject, copy claims, specificity anchors, avoiding category clichés. | Ask: "Apa yang bikin produk Kakak beda dari yang lain, dan apa buktinya?" |
-| **2. Physical Context & Viewing Reality** | Medium (spanduk, poster, menu, etc.), dimensions, distance (meters), duration (2s, 10s, reading), environment (sun, indoor). | Information density budget, minimum type scale, value contrast, layout complexity. | Ask: "Materi ini akan jadi apa dan dipasang di mana? Kira-kira orang lihat dari jarak berapa?" |
-| **3. Audience & Perception Boundary** | Real audience (who they are, what they care about or doubt) + desired feeling at first glance + what it must NEVER look like. | Visual tone, color temperature, trust signals (halal, hygiene, scale), emotional spine. | Ask: "Orang yang lihat harus merasa apa, dan jangan sampai dianggap apa?" |
-| **4. Primary Job & Core Message** | The ONE primary communication job (hook passersby, communicate offer, build trust) + the single takeaway that must stick. | Visual hierarchy (what leads vs. supports), hero prominence, call to action. | Ask: "Satu hal paling penting yang harus langsung dipahami orang apa?" |
-| **5. Exact Text Content** | Exact business name, headline/offer, price, essential conditions, contact/location. | Text strategy (A vs. B/C), typographic layout, word budget adherence. | Ask for exact wording; if user has no headline, propose 2–3 options based on USP. |
-| **6. Real Assets & Materials** | Real product photos, logo file, old design (Enhance mode), or confirmed absence of assets. | Image roles & treatments in prompt, or need for identity treatment when no logo exists. | Ask: "Ada foto produk asli atau logo yang bisa dilampirkan?" |
+| # | Understanding Need | What the designer must uncover | High-impact decision unlocked | The Probing Question & 4C Check |
+|---|---|---|---|---|
+| 1 | **Business Distinction & 4C Check** | Genuine differentiator + concrete proof + customer buying driver + competitor contrast | Hero visual, copy claim, specificity anchors, avoiding category clichés | "Apa yang bikin produk Kakak beda dari pedagang lain di sekitar? Apa buktinya yang bisa dilihat langsung?" *(Apply 4C probes if generic)* |
+| 2 | **Physical Context & Viewing Optics** | Medium, dimensions, distance (meters), speed, duration (2s vs 30s), ambient light | Information budget (word count limit), minimum type scale, value contrast | "Dipasang di mana dan kira-kira orang lihat dari jarak berapa? Sambil melintas atau duduk?" |
+| 3 | **Audience & Buyer Doubts** | Real people, their daily posture, price perception, and specific purchase doubts | Visual tone, trust signals (halal, hygiene, portion), emotional spine | "Pembeli paling sering siapa? Ada hal yang biasanya mereka ragukan sebelum beli (misal porsi, halal, kebersihan)?" |
+| 4 | **Primary Objective & Message** | Single communication job + ranked hierarchy (L1 hero to L4 detail) | Compositional dominance, call to action placement | "Kalau orang cuma punya waktu 2–3 detik, satu pesan utama apa yang wajib langsung paham?" |
+| 5 | **Exact On-Image Content** | Exact business name, headline/offer, price, contact, essential conditions | In-image typographic layout, word budget enforcement | "Nama usaha persisnya apa? Teks penawaran dan harga yang mau dicantumkan apa saja?" |
+| 6 | **Physical Assets & Materials** | Real product photo, logo, storefront photo, old design, or confirmed absence | Asset treatment (isolate/ground), identity treatment if no logo | "Ada foto produk asli atau logo yang bisa dilampirkan supaya hasilnya khas usaha Kakak?" |
 
 ---
 
 ## The Adaptive Inquiry Flow
 
-### Step 1: Triage the user's opening message
-Every conversation starts from what the user gave you:
-- **Case A: Rich opening brief (e.g. user provides business, price, audience, platform, offer, photo).**
-  Extract all answers immediately into the working brief. Acknowledge and restate in 2–3 lines. Do NOT ask about what is already answered. Ask only about 1–2 genuine high-impact gaps (e.g. physical dimensions or exact headline).
-- **Case B: Vague or minimal opening (e.g. "buatin poster promo buat warung bakso saya dong").**
-  Acknowledge warmly. Ask at most 3 core foundation questions: (1) what is sold & what makes it different/best seller, (2) format/where it will be placed, and (3) available photos/logo.
+### Step 1: Triage the user's input
+- **Case A: Rich brief provided (e.g. business, price, audience, offer, photo).**
+  Extract all facts into the working brief with `[FAKTA]`. Restate in 2–3 lines. Do NOT re-ask answered items. Probe only the 4C verification or physical viewing gap.
+- **Case B: Minimal or vague opening (e.g. "buatin poster bakso").**
+  Acknowledge warmly. Ask at most 3 foundation questions: (1) what is sold and what makes it special/best seller, (2) physical format & placement, (3) available photos/logo.
 - **Case C: Existing design shared (Enhance mode).**
-  Acknowledge what is working first. Ask: what parts to keep, what is missing or frustrating, and whether the text content stays the same.
+  Acknowledge what is working first. Ask what must be kept, what is frustrating/missing, and whether text content changes.
 
-### Step 2: Adaptive follow-up principles
-- **Never ask what can be inferred or reasonably decided:** If an owner sells "es teh jumbo 3rb di depan sekolah", do not ask if the price tier is budget. State it under "Asumsi saya" in the plan.
-- **Ladder vague answers once, then propose:** If they say "makanannya enak", follow up once: "Enaknya yang gimana Kak? Ada bumbu rahasia, porsi royal, atau cara masak khusus?" If still vague, propose a concrete differentiator based on category archetype.
-- **Help users with concrete contrasts:** Never ask "What design aesthetic do you prefer?" Instead: "Tampilannya lebih cocok yang mana: A. Hangat dan tradisional ala warung rumahan, atau B. Bersih dan modern ala kedai kekinian?"
-- **Honor user delegation ("terserah / bantu pilihkan"):** If the user says "terserah", do not repeat the question. Make an expert recommendation with a one-sentence rationale tied to their context.
-- **Stop asking as soon as you have enough:** You do NOT need 100% of all fields before proposing a direction. Once the core needs (offering, difference, medium, objective, text) are clear, transition immediately to the design plan.
+### Step 2: Probing with the 4C Framework
+When an owner gives a common answer (*"bakso kami enak dan murah"* or *"kopi kami berkualitas"*), do not accept it as a differentiator:
+1. **Challenge Commonality:** "Kalau warung bakso / kafe lain di sekitar situ, bukankah mereka juga bilang enak dan murah? Kira-kira apa satu hal yang cuma ada di tempat Kakak?"
+2. **Seek Tangible Evidence:** "Ada proses masak, resep keluarga, atau bahan khusus yang bikin beda? Misalnya direbus berapa jam, atau pakai potongan daging apa?"
+3. **Uncover Customer Buying Drivers:** "Pelanggan setia yang sering balik biasanya paling suka apa? Bagian mana yang paling sering mereka puji?"
+4. **Identify Competitor Reality:** "Spanduk atau papan nama pesaing paling dekat warnanya apa dan tampilannya gimana? Biar desain Kakak nggak kembar sama mereka."
+
+### Step 3: Transparent Epistemic Summary
+Before moving to concepts, reflect the brief back to the owner:
+- **`[Fakta Usaha]`**: What the owner verified (product, price, hours, proof).
+- **`[Inferensi Desain]`**: Design implications (viewing duration, word budget, color contrast).
+- **`[Asumsi Saya]`**: Explicit working hypotheses: "Saya asumsikan pembeli utama adalah [X] dan kita fokus ke [Y] — cocok, atau ada yang mau dikoreksi?"
 
 ---
 
 ## Materials & Asset Audit (Stage 2)
 
-Ask about materials early so the design concept is built around real assets:
+Ask about materials early so the design concept is built around real truth:
 "Ada gambar yang bisa jadi acuan supaya hasilnya benar-benar khas usaha Kakak?
-A. Foto produk asli (makanan, barang, kemasan)
+A. Foto produk asli (makanan, kemasan, barang)
 B. Logo usaha
-C. Foto toko / warung / gerobak
+C. Foto warung / toko / gerobak
 D. Desain lama yang mau diperbaiki
 E. Belum ada foto atau logo"
 
-- **Foto produk asli ada:** Selalu jadikan bintang utama (hero). Berikan instruksi perlakuan (pertahankan produk, bersihkan latar, grounded shadow).
-- **Tidak ada foto produk:** Jangan buat visual fotorealistik palsu yang menipu pembeli. Pilih arah visual stilasi/ilustrasi yang jujur atau minta foto dari HP pemilik.
-- **Tidak ada logo:** Jangan gunakan font polos biasa. Rancang **identity treatment** (karakter huruf khusus, panel/device pembingkai, warna merek) di Stage 6.
-
-
----
-
-## Stages 3–4: Physical context, audience, communication objective, and hierarchy
-
-These stages can often be combined into one or two efficient turns. The order below reflects priority — ask the highest-impact questions first.
-
-### Physical format and context (highest priority for print)
-
-This question determines the entire design strategy. Ask before anything aesthetic.
-
-"Desain ini akan jadi apa dan dipasang di mana?" Then offer specific options if needed:
-- "Spanduk depan toko/jalan (berapa meter?)"
-- "X-banner atau roll-up di dalam ruangan?"
-- "Brosur atau flyer yang dibagikan?"
-- "Menu makan di tempat?"
-- "Label atau stiker kemasan?"
-- "Poster di dinding atau papan pengumuman?"
-
-If they describe a physical placement: "Orang biasanya lihat dari jarak berapa? Dan sedang ngapain — melintas, berdiri, atau duduk membaca?"
-
-This information is translated directly into design parameters (type size, element count, contrast).
-
-### Communication objective
-
-"Setelah orang lihat ini, Kakak mau mereka ngapain?
-A. Datang ke toko/warung
-B. Chat atau telepon langsung
-C. Pesan lewat GoFood / ojek online
-D. Ingat dan kenali nama usaha
-E. Baca dan pahami daftar menu / produk" (single-select — ONE)
-
-If they want everything: "Yang paling penting satu bulan ini, mana satu yang diprioritaskan?"
-
-### The one message
-
-"Kalau orang cuma lihat ini sebentar — dari jalan, dari pintu, sambil lewat — satu hal apa yang harus nyangkut di kepala mereka?" (free text)
-
-If the answer is a list, help them choose: "Dari semua ini, mana yang pesaing Kakak *tidak* bisa bilang dengan jujur? Itu yang paling kuat untuk ditampilkan."
-
-### Audience
-
-"Pembeli paling sering Kakak siapa?" (multi-select, give specific options relevant to their business)
-
-Then: "Mereka lihat ini sambil apa — sedang melintas, berdiri di depan toko, atau sedang duduk makan?" (single-select)
-
-This determines viewing duration and information budget.
-
-"Ada yang biasanya mereka ragukan sebelum beli?" (multi-select — halal, kebersihan, ukuran/porsi, harga, kualitas, keaslian produk, dll.)
-
-**Translate each doubt directly into a design requirement:**
-
-| Customer doubt | Design implication |
-|---|---|
-| Halal / keagamaan | Halal placeholder is mandatory in output list; cannot be omitted |
-| Kebersihan / higienitas | Real product photo required (no invented imagery); clean setting in hero spec |
-| Ukuran / porsi | Hero visual must show real scale with reference object; portion size stated in text |
-| Harga / value for money | Price is Level 1 or Level 2 element; price must be large and legible |
-| Kualitas produk | Real product photo required as attachment; material/texture must be visible in hero spec |
-| Keaslian / handmade | Maker's hands or process visible in hero; identity treatment emphasizes craft character |
-| Kredibilitas / baru buka | Proof anchor (years open, number of customers, origin story) becomes a text element |
-| Lokasi / kemudahan akses | Contact/location information elevated to Level 2 or Level 3; never omitted |
-
-Record the primary doubt and its design implication in the Brief Sheet. This feeds directly into Stage 4 hierarchy decisions.
-
-**Gate:** physical format, viewing context, one action, one message, audience and their viewing behavior, primary doubt and its design implication — all known.
+- **Foto produk asli ada:** Selalu jadikan bintang utama (hero). Berikan instruksi perlakuan (pertahankan produk asli, bersihkan latar, grounded contact shadow).
+- **Tidak ada foto produk:** Jangan buat visual fotorealistik tiruan yang menipu pembeli. Tentukan arah visual ilustrasi/stilasi yang jujur (woodcut, gouache, linocut, gambar etiket) atau sarankan foto dari HP dengan tips pencahayaan alami.
+- **Tidak ada logo:** Rancang **identity treatment** khusus (anatomi huruf bermakna, panel pembingkai, warna merek) di Stage 6 agar nama usaha tampil seperti merek.
 
 ---
 
-### Content inventory (exact words per output)
+## Stages 3–4: Physical Context, Audience & Message Hierarchy
 
-Ask for the exact words. Give the owner a checklist appropriate to the physical format:
+### Physical Format and Viewing Reality
+Ask before aesthetic choices:
+"Desain ini akan jadi apa dan dipasang di mana? Kira-kira orang lihat dari jarak berapa meter, dan sedang apa (lewat di motor, jalan kaki, atau duduk)?"
 
-For most physical pieces:
-1. Nama usaha (ditulis persis) — free text
-2. Judul/penawaran utama — free text
-3. Harga (format persis, misalnya "Rp 55.000/botol") — free text
-4. Syarat singkat jika ada — free text
-5. Cara menghubungi: nomor WA, alamat, atau petunjuk arah — free text
-6. Item wajib: logo halal resmi, PIRT/BPOM, NIB (akan ditempel sendiri, bukan dari AI) — multi-select
+Translate into physical budgets (`references/08-formats-and-platforms.md`):
+- **Jalan raya / melintas cepat (5–15 m, 1–2 detik):** Anggaran teks maksimal 3–5 kata. Kontras nilai ekstrem sinar matahari tropis. Skala tinggi huruf minimal 2.5 cm per 3 m jarak.
+- **Trotoar / pejalan kaki (2–5 m, 3–5 detik):** Anggaran teks 6–10 kata. Satu hero visual dominan + penawaran/harga jelas.
+- **Meja / dipegang tangan (0.3–1 m, 15–60 detik):** Menu/flyer terstruktur dengan grup informasi yang rapi.
 
-Rules:
-- **Mandatory vs optional.** Everything optional is a candidate for removal.
-- **Trim to the medium.** A roadside spanduk can carry 5–6 words. A flyer can carry 40–60. If content exceeds the budget, offer to shorten: "Biar kebaca dari jalan, saya ringkas jadi ini. Boleh?"
-- **Offer wording.** If they have no headline, give 2–3 options in their voice that carry the USP and proof. Not "Nikmati kelezatan terbaik." Something specific: "Kuah sapi, direbus 8 jam."
-- **Same fact, same words** across outputs.
-- **Phone numbers, addresses, exact dates:** rendered directly in the final artwork; control length strictly so the model renders them legibly. Post-editing is used only if the owner specifically requests to add them manually.
+### Customer Doubts → Design Requirements
+"Ada yang biasanya pembeli ragukan sebelum beli?"
+- *Halal / keagamaan* $\implies$ Ruang stempel halal resmi disediakan (ditempel manual kemudian).
+- *Kebersihan* $\implies$ Foto produk asli wajib bersih; latar belakang rapi dan terang natural.
+- *Porsi / kenyang* $\implies$ Hero visual menampilkan skala porsi nyata dalam mangkuk/wadah asli.
+- *Harga / mahal* $\implies$ Harga dijadikan elemen Level 2 yang sangat jelas dan mudah dibaca.
 
-**Gate:** For every text element marked Mandatory, exact wording confirmed in owner's own words. No placeholder invented by the system for mandatory content — if the owner has not confirmed it, ask rather than fill it in. Optional fields may be left blank or marked "tambah sendiri nanti".
+### Content Inventory & Subtraction Pass
+Kumpulkan teks persis: Nama usaha, judul/penawaran, harga, kontak/lokasi.
+Jalankan **subtraction pass**: hapus semua ornamen atau teks sampingan yang melebihi anggaran kata fisik.
 
 ---
 
-## Stage 5: Concept and visual direction
+## Stage 5: Strategic Concept Divergence & Visual Thesis
 
-Stage 5 is mandatory. Read `references/13-design-thinking.md` Section 4 & 5, `references/14-visual-language.md`, and `references/15-creative-direction-framework.md` (mandatory). Also consult `references/07-business-archetypes.md` and `references/05-color-and-culture.md`.
+Read `references/13-design-thinking.md`, `references/14-visual-language.md`, and `references/15-creative-direction-framework.md` (mandatory).
 
-**Purpose:** develop the visual concept — the organizing visual idea — and formulate the formal **Visual Thesis** before determining execution details.
+**Never impose a single predetermined concept.** Develop and present **2 to 3 genuinely distinct conceptual territories** rooted in the verified distinction, each representing a different strategic posture, aesthetic lineage, and commercial trade-off:
 
-Do not ask: "suasana dan gayanya seperti apa?" Owners cannot answer this well. Instead, derive the concept from what you already know and offer named options.
+### Format Presentasi Pilihan Konsep ke Pemilik Usaha:
 
-### What you already know by Stage 5
+```
+Saya siapkan 2 (atau 3) arah konsep visual yang berakar dari keunikan usaha Kakak:
 
-By this point you have:
-- The Distinction Brief (USP, proof, desired perception, anchors)
-- The physical format and viewing context
-- The audience picture
-- The one message
+1. Arah A: [Nama Konsep — misal: Keotentikan Resep & Kehangatan Tradisi]
+   - Ide visual: [Deskripsi wujud fisik yang dilihat penonton]
+   - Tradisi & Gaya: [misal: Litografi etiket klasik era 1950-an, warna hangat]
+   - Cocok untuk: [Target pembeli yang mencari rasa rumahan terpercaya]
+   - Kelebihan & Trade-off: [Sangat terpercaya dan bernostalgia, tapi terasa kurang santai untuk anak muda]
 
-The concept must serve all of these. Derive it, do not ask for it.
+2. Arah B: [Nama Konsep — misal: Abundansi Kaki Lima & Energi Jalanan]
+   - Ide visual: [Deskripsi wujud fisik — mangkuk tunggal raksasa, warna berani]
+   - Tradisi & Gaya: [misal: Plakatstil poster objek berpadu cat enamel jalanan]
+   - Cocok untuk: [Pengendara motor yang lapar dan butuh porsi kenyang cepat]
+   - Kelebihan & Trade-off: [Sangat menonjol dan terbaca cepat dari jauh, tapi nuansa sejarahnya berkurang]
 
-**If the owner has a clear visual direction:**
-Ask only what stages 1–2 did not answer. Confirm that the direction fits the Distinction Brief, the physical context, and the audience. Write the concept sentence and formulate the Visual Thesis.
+Rekomendasi saya: Arah [A/B], karena [alasan bisnis, audiens, dan konteks pasang].
+Kakak lebih sreg lanjut dengan Arah A atau Arah B?
+```
 
-**If the owner says "terserah" or "belum tahu":**
-1. Never ask an open-ended question about style.
-2. Derive 3–4 named concept options from the Distinction Brief, the archetype, the physical context, and competitive territory.
-3. Describe each as an image-in-words: what the physical piece will actually look like, from the viewer's perspective.
-4. Mark one "(Rekomendasi)" with a one-line reason tied to their specific business, audience, and viewing context.
-5. If they still cannot choose, apply the recommendation and state it as an assumption.
-
-### Optional visual questions (only ask what is not already known)
-
-| Ask | Example wording | Notes |
-|---|---|---|
-| Likes and dislikes | "Ada toko atau desain yang Kakak suka gayanya? Dan ada yang Kakak tidak mau mirip?" (free text) | Extract principle, not look |
-| Local flavor | "Ada unsur daerah yang mau ditonjolkan? A. Bahan khas B. Nama tempat C. Bahasa daerah D. Motif daerah E. Tidak perlu" (multi-select) | Use owner's own region only |
-| People in design | "Mau ada orang di gambar? A. Pemilik B. Pelanggan C. Tidak ada" (single-select) | Real consented photo preferred |
-| Space feel | "Tampilan lebih: A. Lega dan sederhana (mudah dibaca dari jauh) B. Padat dengan banyak informasi" (single-select) | Default: lega for roadside; padat only for menus/flyers |
-
-**Concept sentence format:**
-*[Ide visual konkret], terasa [perasaan 1] dan [perasaan 2], tampak seperti [referensi visual fisik], untuk [audiens], dilihat di [medium] dari [konteks/jarak].*
-
-**Visual Thesis Formulation (mandatory):**
-Synthesize the overarching artistic grammar before selecting colors or fonts (`references/15-creative-direction-framework.md`):
+Once the owner chooses or confirms a direction:
+Formulate the **Visual Thesis**:
 $$\text{Visual Thesis} = \text{Visual Lineage} + \text{Image-Making Technique} + \text{Form Language/Edges} + \text{Material Substrate} + \text{Typographic Anatomy}$$
 
-**Example for a warung bakso roadside spanduk:**
-- *Concept Sentence:* (Rekomendasi) Satu mangkuk di depan, ukuran besar: warna gelap seperti malam jalan kaki, mangkuk bakso nyata dan besar mengisi tengah, tulisan besar "BAKSO SAPI URAT — SELESAI MALAM" tiga baris padat, tidak ada dekorasi, tidak ada ornamen. Terasa jujur dan langsung. Untuk pekerja yang melintas malam. Dilihat dari kendaraan 6–10 meter.
-- *Visual Thesis:* Early 20th-century German Sachplakat (object poster) fused with Central Javanese vernacular hand-painted warung signage; flat gouache illustration with carved-woodcut contour lines; bold heavy geometry with crisp non-feathered silhouettes; weathered unbleached cotton banner texture with matte opaque mineral pigments; hand-cut condensed grotesque display lettering with square terminals and slight brush irregularities.
-
-**Gate:** Concept sentence approved and formal Visual Thesis formulated. Must pass the visual swap test (`references/15-creative-direction-framework.md` Section 3). Do not proceed to Stage 6 without this.
+*Gate:* Concept approved from divergent options and formal Visual Thesis synthesized; passes visual swap test.
 
 ---
 
 ## Difficult situations
 
 **"Terserah / belum tahu"**
-Never loop. Derive concept options from what you know. Propose a default with a reason and a one-tap veto: "Saya usulkan tampilan gelap dan langsung karena spanduk ini dilihat dari kendaraan malam hari, dan pesaing sekitar kebanyakan pakai warna terang. Cocok, atau mau yang lain?"
+Never loop. Present 2 distinct concept options clearly described, mark one as "(Rekomendasi)" with a business rationale, and state: "Kalau Kakak setuju, kita pakai rekomendasi ini agar materi cepat siap. Boleh?"
 
 **"Kami sama saja dengan yang lain"**
-Use the micro-differentiator probes in `references/02-business-distinction.md` Section 3.
+Use the micro-differentiator probes in `references/02-business-distinction.md` Section 4.
 
-**Conflicting wishes ("mewah tapi murah")**
-Name the tension, explain the viewer's confusion, offer 2 resolved options with a lead dial. Apply the conflict order in SKILL.md.
+**Conflicting wishes ("mewah tapi murah meriah")**
+Name the tension: "Kalau semua tulisan dibuat besar dan penuh hiasan, dari jalan malah susah dibaca dan terkesan murahan." Tawarkan solusi: hierarki tegas dengan satu hero besar dan harga yang jelas.
 
-**"Teksnya harus banyak" (for a roadside spanduk)**
-Show the physical reality: "Kalau tulisannya penuh, dari jalan tidak kebaca. Spanduk yang dibaca orang di kendaraan cuma punya 2–3 detik. Saya sarankan 1 pesan utama besar, 1 nomor WA besar — sisanya di brosur atau caption. Boleh?"
-
-**Info dump from owner**
-Extract into the Brief Sheet, restate in 3–4 lines, ask only about the remaining genuine gaps.
+**"Teksnya harus banyak" (pada spanduk jalan raya)**
+Jelaskan realitas fisik: "Pengendara motor cuma punya waktu 2 detik. Kalau kepenuhan, tidak ada satu pun yang terbaca. Kita pasang pesan terpenting dan nomor WA di spanduk, sisanya kita buatkan flyer atau caption. Setuju?"
 
 **Existing design shared (Enhance mode)**
-Apply the review checklist (`references/12-review-and-iteration.md`). Say what works, what the viewer experiences, and what to fix — kindly. Ask what to keep. Offer refine / restructure / rebuild.
-
-**"Owner wants to copy a competitor"**
-"Apa yang paling Kakak suka dari desain itu?" Extract the principle. Then check: is this visual convention a **category signal** (used by nearly all competitors — signals "this is a food/laundry/service business") or a **differentiator** (specific to that one competitor)?
-- If category signal → retaining the convention is fine; it aids recognition. Differ on one other axis (color, imagery approach, density). "Kita ambil sinyal kategorinya — biar langsung dikenali — tapi beda di [axis] supaya punya ciri sendiri."
-- If specific to one competitor → adopting it creates a clone problem; the business becomes invisible in that competitor's shadow. "Kalau kita pakai tampilan yang sama persis, susah dibedakan. Saya usulkan prinsip yang sama tapi dengan elemen khas usaha Kakak sendiri."
-
-**"Tidak ada logo, foto, atau identitas sama sekali"**
-1. Konfirmasi tidak ada material ("Tidak ada logo, tidak ada foto produk, tidak ada desain lama — benar?").
-2. Di Stage 5–6, kembangkan identity treatment dari archetype (`07-business-archetypes.md`).
-3. Tunjukkan treatment dalam bahasa plain sebelum melanjutkan: "Nama usaha Kakak akan tampil seperti ini: huruf tebal berkarakter cap/slab, di panel warna gelap, nama putih — ini yang bikin terasa merek, bukan templat kosong. Boleh lanjut dengan tampilan ini?"
-4. Minta persetujuan treatment sebelum lanjut ke Stage 7. Jangan masuk ke Creative Direction Summary tanpa konfirmasi identity treatment.
-5. Setiap prompt punya blok IDENTITY yang identik di semua output set.
-
-**Owner is impatient**
-"Saya bisa percepat: 2–3 pertanyaan lagi yang krusial, lalu langsung ke desain."
+Gunakan checklist ulasan (`references/12-review-and-iteration.md`). Puji bagian yang sudah bekerja, tunjukkan kendala keterbacaan, dan tawarkan tingkat perubahan: refine (perapihan halus), restructure (tata ulang hierarki), atau rebuild (bangun ulang segar).
 
 ---
 
 ## Adapting language
 
-- Mirror honorifics ("Kak", "Bu", "Pak", "Mas/Mbak"). Default to "Kakak" if unclear.
-- Short sentences; one idea per question; examples from their product's world.
-- If the user writes in English, run the whole flow in English. Ask which language the on-image text should use.
-- Regional business speech is welcome; avoid slang the user has not used.
-- Translate every design concept into physical, concrete language. Not "visual hierarchy" — "apa yang pertama dilihat orang dari 5 meter."
+- Gunakan panggilan sopan ("Kak", "Bu", "Pak", "Mas/Mbak").
+- Kalimat ringkas; satu ide per pertanyaan; gunakan perumpamaan dunia usaha mereka.
+- Jika pengguna berbahasa Inggris, jalankan seluruh proses dalam bahasa Inggris.
+- Terjemahkan setiap istilah desain ke dalam realitas fisik yang bisa dirasakan.
 
 
 
@@ -555,122 +462,148 @@ Apply the review checklist (`references/12-review-and-iteration.md`). Say what w
 
 <!-- FILE: references/02-business-distinction.md -->
 
-# Business Distinction (Stage 1)
+# Business Distinction & Commercial Grounding (Stage 1)
 
-Contents: why distinction comes first · what to learn (the Distinction Map) · how to dig · finding differences when "we are the same as everyone" · competitor visual territory · positioning and perception · personality dials → design parameters · the swap test · the Distinction Brief
+Contents: why distinction comes first · the Distinction Map · the 4C Distinction Verification Gate · epistemic tracking (facts vs inferences vs assumptions) · finding micro-differentiators when "we are the same" · competitor visual territory & open space · customer buying drivers vs owner pride · personality dials → design parameters · the visual swap test · the Distinction Brief output
 
-A graphic looks generic when the business behind it was never understood as *different*. Before any color or layout, establish what this business stands for, why customers choose it, and where it can stand out without losing credibility. Wording of the questions is in `01-interview-guide.md`; this file is the method for using the answers.
+A graphic looks generic when the business behind it was never understood as *different*. Before any color, typography, or layout is conceived, the art director must establish what this business stands for, why customers actually choose it over alternatives, and where it can claim uncontested visual territory without losing category credibility. Wording of questions is in `01-interview-guide.md`; this file provides the analytical method for evaluating and synthesizing the answers.
+
+---
 
 ## 1. The Distinction Map
 
-Collect these eight fields during Stage 1 (and from materials in Stage 2). You do not need every field, but you must be able to state the first four.
+Capture these eight strategic dimensions during Stage 1 (and refine from materials in Stage 2):
 
 | # | Field | What to capture | Feeds |
 |---|---|---|---|
-| 1 | **USP** | The one thing customers get here that they do not get elsewhere | Message, headline, hero |
-| 2 | **Proof** | A concrete, true fact behind the USP (size, recipe, years, process, numbers, real certification, owner's craft) | Trust element, specificity anchor |
-| 3 | **Reason customers choose** | In the customers' own words, not the owner's adjectives | Copy voice, emotional angle |
-| 4 | **Desired perception** | What a stranger should feel or conclude in 3 seconds ("jujur", "royal porsinya", "bersih dan cepat") | Direction sentence, feeling pair |
-| 5 | **Competitors and their look** | 2-3 nearby or online rivals; how they look, sound, price | Visual territory to avoid or claim |
-| 6 | **Positioning** | Where it sits: price tier, category role (family, student, premium, practical), advantages over rivals | Polish level, space level, tone |
-| 7 | **Personality and values** | 3 traits, what the owner refuses to compromise on, what the business must never look like | Style, type, imagery, copy tone |
-| 8 | **Story and ownable details** | Origin, place, people, ritual, tool, recipe, name meaning | Specificity anchors |
+| 1 | **Offering & Price Tier** | What is sold, to whom, where, and at what price point (relative to local market) | Context, format, audience posture |
+| 2 | **Claimed Differentiator** | The specific feature, recipe, service, or origin the owner claims makes them special | Candidate message / headline |
+| 3 | **Proof & Evidence** | Verifiable, visible facts (years, recipe, process, numbers, real craft, tools, ingredients) | Trust anchor, specificity anchor |
+| 4 | **Customer Buying Driver** | Why buyers *actually* part with money (in customer words, not owner adjectives) | Emotional spine, core message priority |
+| 5 | **Competitor Reality** | 2–3 immediate rivals nearby or online: how they look, what they claim, their pricing | Category cues to retain vs territory to claim |
+| 6 | **Desired Perception** | What a stranger concludes in 2–3 seconds (feeling pair: e.g. "jujur dan royal, bukan murahan") | Direction sentence, tone, polish level |
+| 7 | **Boundary ("Never Look Like")** | The specific perception the owner refuses to project | Exclusions, style boundaries |
+| 8 | **Ownable Specifics (Anchors)** | 2–3 physical, proprietary details (vessel, tool, ritual, origin, maker, place name) | Hero visual, textures, un-swappable forms |
 
-## 2. How to dig
+---
 
-- **Ladder the answer.** Owners start with features ("kuahnya enak"). Ask "enaknya yang gimana?" then "kenapa itu penting buat pembeli?" until you reach something concrete (what, how much, how made) and then an emotion or benefit (not shy about asking twice, never more than three times).
-- **Prefer customer words.** "Pelanggan biasanya bilang apa?" yields language that sounds true and is often more specific than the owner's own.
-- **Claim → proof.** Every claim in the design needs a proof the viewer can sense: a number, a visible detail, a process, a place. No proof → soften the claim or drop it.
-- **Ask what they refuse to be.** "Jangan sampai orang bilang usaha saya ___" prevents the wrong direction faster than any preference list.
-- **Ask what is missing.** In Enhance mode or when materials exist: what they like, dislike, feel is missing, and want to improve (see `03-reference-images.md`).
-- **Stop when enough.** Gate: USP + proof + desired perception + one "never look like" are known. Do not turn the conversation into an interrogation: 2-3 turns, at most 3 questions each, skip what the owner already answered.
+## 2. The 4C Distinction Verification Gate
 
-## 3. When "we are the same as everyone"
+Never accept an owner's first claim at face value. Most business owners state broad category features (*"makanan enak"*, *"harga terjangkau"*, *"pelayanan ramah"*) because they lack marketing vocabulary. The art director must pass every claimed differentiator through the **4C Gate**:
 
-Most small businesses are not unique in category, only in particulars. Probe these micro-differentiators:
+```
+[Claimed Differentiator]
+        ↓
+1. COMMONALITY CHECK:   Do competitors nearby make the exact same claim?
+        ↓ (If Yes → Category Expectation, not a differentiator; probe deeper)
+2. CREDIBILITY & PROOF: Is there visible, tangible, physical evidence?
+        ↓ (If No → Hollow boast; drop or find verifiable proof)
+3. CUSTOMER VALUE:      Does this actually drive the purchase decision?
+        ↓ (If No → Owner pride, but irrelevant to buyer; re-anchor on buyer driver)
+4. COMPETITOR CONTRAST: Does this claim clear an uncontested visual/commercial space?
+        ↓
+[Verified Strategic Differentiator]
+```
 
-| Probe | Examples |
-|---|---|
-| **Origin** | Family recipe, a mentor, a life change that started the business |
-| **Process** | Slow-simmered, hand-made, made-to-order, same-day, fermented, sun-dried |
-| **Ingredients/materials** | Local farm, specific variety, brand of material, nothing frozen |
-| **People** | The owner always present, a specific cook, a family tradition |
-| **Place** | Street, market, landmark, building, neighborhood nickname |
-| **Ritual/service detail** | Free refill, call before delivery, packaging by hand, handwritten notes |
-| **Size/portion/price structure** | Unusually large, fixed price, literan, bundle logic |
-| **Time** | Open late, early morning only, 24h, seasonal |
-| **Community** | Regulars, a school or factory nearby, named customers' orders |
-| **Name and voice** | The meaning of the name, the way the owner talks |
+### The 4 Questions of the 4C Gate:
+1. **Commonality Check (Biasa vs Khas):**
+   - *Probe:* "Kalau warung/toko sebelah ditanya hal yang sama, apakah mereka juga bilang kuah sapi / bahan segar / harga murah?"
+   - *Rule:* If 3 out of 5 competitors claim it, it is a *category expectation* (must-have to exist), NOT a differentiator. Retain it quietly, but find the true differentiator elsewhere.
+2. **Credibility & Concrete Evidence (Bukti Nyata):**
+   - *Probe:* "Apa buktinya yang bisa dilihat atau dirasakan langsung sama pembeli?"
+   - *Rule:* Every claim must anchor to a concrete physical fact: simmering duration (8 jam), specific meat cut (urat sengkel), exact origin (gula aren Cilacap), generational provenance (resep mertua 15 tahun), or tangible ritual (diulek dadakan di cobek batu). No proof $\implies$ soften claim or discard.
+3. **Customer Buying Driver (Alasan Memilih Sebenarnya):**
+   - *Probe:* "Waktu pembeli datang lagi dan lagi, apa yang paling sering mereka omongin atau puji?"
+   - *Rule:* Distinguish between *Owner's Pride* (what the owner loves about their process) and *Customer's Value* (why the customer spends hard-earned money). A baker may be proud of organic French yeast; customers may buy because it stays soft for 3 days in school lunchboxes. Design for the customer's buying driver.
+4. **Competitor Visual & Commercial Contrast (Ruang Berbeda):**
+   - *Probe:* "Spanduk dan papan nama pesaing paling dekat warnanya apa, tampilannya kayak gimana?"
+   - *Rule:* Find open visual territory (color family, density, imagery style) while retaining essential category signals so the business is immediately recognized.
 
-Choose one or two; they become the claim and the specificity anchors. A true small difference, shown concretely, beats a large generic one.
+---
 
-### Translating distinction anchors into visual materials
-Business anchors should not merely be mentioned in copy; they should determine the physical materials, tool marks, and textures directed in the prompt (`references/14-visual-language.md`):
-- **Origin / Heritage:** Heirloom recipe → antique offset lithography or carved woodcut relief, muted mineral patina, period-appropriate display lettering.
-- **Process / Fire:** Slow-simmered 8 hours → heavy cast-iron or earthenware vessel, dark charcoal and charred-wood textures, warm low-key directional lighting, grounded steam physics.
-- **Ingredients / Nature:** Local mountain coffee / fresh botanicals → raw jute fiber or unbleached kraft substrate, botanical engraving line character, deep forest and terra cotta pigment blocks.
-- **Craft / Tools:** Hand-carved or hand-woven → tactile grain relief, visible tool chattering or warp/weft fiber weave, natural workshop ambient lighting.
-- **Place / Community:** Coastal dock or mountain pass → weathered sea-salt or mountain fog tonal atmosphere, regional vernacular sign-painter letterforms.
+## 3. Epistemic Grounding: Tracking Facts, Inferences, Assumptions, and Gaps
 
-## 4. Competitor visual territory
+A professional designer never confuses what the client said with what the designer guessed. Throughout the brief and working notes, tag every data point explicitly:
 
-1. List what 2-3 rivals look like: dominant colors, imagery type (real photo vs. illustration vs. generic stock), type style, tone, density level, and composition conventions (centered vs. asymmetric, product-forward vs. text-heavy).
-2. Note what is **overused** in the category: the color family everyone uses, the imagery cliché (every warung bakso with red + steam, every kopi with brown beans on wood, every laundry with blue bubbles and white foam), the composition default, the type convention, the decoration pattern.
-3. Identify **open visual territory**: what color family, imagery approach, density level, or compositional style is NO competitor currently occupying — and could this business credibly claim it?
-4. Decide on **one or two axes to differ on**. The most effective axes are: color family (different hue territory), imagery approach (real vs. stylized), density level (ramai vs. tenang), type character (bold vs. refined). Do not differ on all axes — the business must still be recognizable as belonging to the category.
-5. Identify **category conventions to retain** — the visual cues that tell a viewer "this is a food business / laundry / clinic" before they read a word. Differ within those, not against them.
-6. Produce the visual territory statement: "Kategori ini umumnya [dominant convention]. Kami berbeda pada [specific axis]: [what we do instead]. Kami tetap mempertahankan [category convention] agar tetap dikenali."
+- **`[FAKTA]` (Verified Fact):** Directly stated and confirmed by the owner with concrete details (e.g. `[FAKTA] Harga Rp 18.000 / porsi, buka jam 17:00–23:00, lokasi depan gerbang pabrik`).
+- **`[INFERENSI]` (Designer's Logical Deduction):** Derived logically by the designer from physical constraints and validated context (e.g. `[INFERENSI] Dilihat pengendara motor 40 km/jam pada malam hari → butuh kontras nilai ekstrem kuning-terang di atas bidang gelap, teks maksimal 4 kata`).
+- **`[ASUMSI]` (Working Hypothesis):** An unconfirmed guess made to advance planning, stated explicitly to the owner for approval or veto (e.g. `[ASUMSI] Pembeli mayoritas adalah buruh pabrik yang mencari makan malam mengenyangkan setelah shift; jika salah, tolong koreksi`).
+- **`[GAP]` (Critical Unknown):** Crucial missing information that prevents a sound design decision; must be asked before proceeding (e.g. `[GAP] Belum diketahui apakah foto produk asli tersedia atau harus diarahkan secara ilustratif`).
 
-Differ only where it is **relevant and credible** to the audience. Being different for its own sake reads as odd, not distinctive.
+---
 
-## 5. Positioning and perception
+## 4. When "We Are the Same as Everyone Else" (Micro-Differentiators)
 
-Write the positioning in one line and confirm it with the owner:
+Most small businesses do not possess disruptive patents or celebrity chefs. Their uniqueness lies in **micro-differentiators** of everyday craft, place, and ritual:
 
-> Untuk **[pembeli]** yang **[kebutuhan]**, **[usaha]** adalah **[pilihan/kategori]** yang **[manfaat utama]** karena **[bukti]**.
-
-Then write the **perception target** as a feeling pair plus a "not": "Jujur dan royal, bukan murahan." This pair becomes the emotional spine of the direction sentence and the prompt's CONCEPT.
-
-## 6. Personality dials → design parameters
-
-Ask the owner to place the business on a few dials (pairs of words, tappable). Translate each setting into concrete choices; do not use the words "minimalist" or "playful" alone.
-
-| Dial | Leaning | Design parameters |
+| Micro-Differentiator Dimension | Concrete Probing Angle | Real UMKM Examples |
 |---|---|---|
-| **Hangat ↔ Serius** | Hangat | Warm color temperature, rounded shapes, natural light, hands and faces, friendly copy |
-| | Serius | Cooler or neutral palette, straight geometry, even light, restrained copy |
-| **Tradisional ↔ Modern** | Tradisional | Hand-lettered or slab type, paper or painted texture, local motifs from the owner's own region, familiar layouts |
-| | Modern | Clean grotesque type, flat color, asymmetry, fewer ornaments, more calm space |
-| **Ramai ↔ Tenang** | Ramai | Saturated color blocks, big scale contrast, energetic angles; still grouped and with breathing space |
-| | Tenang | Muted palette, generous space, few elements, quiet type |
-| **Merakyat ↔ Premium** | Merakyat | Visible price, honest photo, sturdy type, direct copy |
-| | Premium | More space, fewer words, restrained palette, refined type, price de-emphasized but clear |
-| **Ramah ↔ Profesional** | Ramah | Casual register, people and gestures, loose alignment |
-| | Profesional | Formal register, regular grid, symmetry where useful, proof elements |
-| **Buatan tangan ↔ Presisi** | Tangan | Visible texture, slight imperfection, hand lettering |
-| | Presisi | Clean edges, uniform spacing, even lighting |
+| **Origin & Provenance** | Siapa yang pertama buat resep ini? Dari kota atau keluarga mana? | Resep ibu mertua Surabaya sejak 2008; resep asli Solo |
+| **Physical Process & Fire** | Apa bagian memasak/membuat yang paling lama atau repot? | Direbus 8 jam di kuali tanah liat; disangrai manual tanpa minyak |
+| **Material & Raw Ingredient** | Bahan baku apa yang pantang diganti meski harga naik? | 100% gula aren murni Cilacap; santan peras segar kelapa tua |
+| **People & Dedication** | Siapa sosok yang selalu ada di balik kasir atau wajan? | Diracik sendiri oleh Bu Tatik; montir berpengalaman 25 tahun |
+| **Time & Availability** | Jam berapa buka? Kapan waktu paling segar dinikmati? | Hangat keluar oven jam 06:00 pagi; buka sampai jam 2 malam |
+| **Ritual & Service Detail** | Kebiasaan kecil apa yang pelanggan dapat di sini? | Es batu gratis nambah sepuasnya; tag baju tulisan tangan rapi |
+| **Portion & Generosity** | Seberapa besar porsinya dibanding standar sekitar? | Bakso urat jumbo isi penuh semangkuk; sambal ambil sendiri |
+| **Physical Place & Setting** | Di mana lokasinya? Apa ciri fisik tempat usahanya? | Gerobak biru kayu jati tua tepi jembatan; bawah pohon beringin |
 
-Resolve contradictions with the owner ("merakyat tapi premium"): choose the **lead** dial and let the other appear as one accent (e.g. merakyat price display + premium photography).
+Choose 1–2 micro-differentiators. A true, modest, concrete truth beats a grandiose, unprovable marketing claim every single time.
 
-## 7. The swap test
+---
 
-Before the plan is final, run: **"If I replaced this business's name with its nearest competitor's, would the design still make sense?"** If yes, the direction is generic. Add or sharpen a USP, a proof, or an anchor until the answer is no. Run the test again on the generated prompt (every sentence that would fit any competitor is a candidate to replace with a specific).
+## 5. Translating Business Anchors into Visual Materials & Tool Marks
 
-## 8. The Distinction Brief (output of Stage 1)
+Business anchors must not merely be written into headline text; they must dictate the physical materials, rendering medium, tool marks, and textures in the prompt (`references/14-visual-language.md`):
 
-Write seven lines, in the owner's language, and confirm briefly before moving on:
+- **Origin / Heritage (Heirloom Recipe):** $\implies$ Antique commercial lithography or relief woodcut, muted mineral patina, period-appropriate hand-cut Egyptian slab-serif or Didone display lettering.
+- **Process / Fire (Slow-simmered 8 hours):** $\implies$ Heavy cast-iron or earthenware vessel, dark charcoal and charred-wood textures, warm low-key directional lighting, natural grounded steam physics.
+- **Ingredients / Nature (Pure Botanical / Mountain Harvest):** $\implies$ Raw unbleached kraft paper or jute fiber substrate, fine botanical engraving line character, deep forest green and terra cotta pigment fields.
+- **Craft / Tools (Hand-carved / Hand-woven):** $\implies$ Tactile surface grain, visible tool marks, warp/weft fiber relief, honest workshop window daylight.
+- **Place / Street Vernacular (Roadside Warung Cart):** $\implies$ Painted enamel on teak wood, sign-painter casual lettering with subtle brush fringe, durable flex tarpaulin texture.
 
-1. **Usaha:** [who sells what to whom, where].
-2. **Beda karena:** [USP + proof].
-3. **Pembeli memilih karena:** [their words].
-4. **Kesan yang diinginkan:** [feeling pair], bukan [never-be].
-5a. **Posisi:** [price tier and role, e.g. "harga menengah, untuk keluarga kelas menengah, bukan premium"].
-5b. **Wilayah visual:** Pesaing kategori umumnya [dominant visual convention — color, imagery, density]. Kami berbeda pada [specific axis]. Kami tetap mempertahankan [category cue to retain].
-6. **Detail khas yang bisa dipakai:** [2-3 anchors — specific to this business, not the category].
+---
 
-**Why lines 5a and 5b are separate:** price positioning drives tone and polish level. Visual territory drives compositional and color decisions. Conflating them produces vague lines that satisfy neither.
+## 6. Competitor Visual Territory & Open Space Analysis
 
-This brief is the source for the message hierarchy (Stage 4), the visual concept and Visual Thesis (Stage 5), the creative direction summary (Stage 7), the specificity anchors, the visual territory constraint, and the CONCEPT line of every prompt in Stage 8. If line 5b cannot be completed — because the owner does not know the competitive landscape — make a hypothesis based on the category archetype in `07-business-archetypes.md` and state it as an assumption.
+1. **Map 2–3 Immediate Rivals:** Note their primary colors, imagery type (stock photo vs real photo vs clipart), typographic personality, and density.
+2. **Identify Category Clichés (Overused):**
+   - Warung Bakso: Red backgrounds + yellow bubble fonts + floating steam clouds.
+   - Kopi: Dark brown beans scattered on wooden planks + cursive script font.
+   - Laundry: Sky blue + floating bubbles + cartoon washing machine.
+   - Bakery: Pastel pink/cream + swirling ribbon script + powdered sugar explosion.
+3. **Identify Category Signals to Retain:** Visual cues that tell a viewer in 0.5 seconds what category this is (e.g., bowl and spoon for food, clear cup for iced drink, folded cloth for laundry). Retain these cues so recognition is instantaneous.
+4. **Claim Uncontested Open Territory:** Choose 1–2 axes to differ on:
+   - *Color axis:* Dark roasted espresso / navy field instead of generic red.
+   - *Imagery axis:* Singular, monumental Plakatstil hero silhouette instead of messy 10-item collage.
+   - *Typography axis:* Heavy sign-painter condensed grotesque instead of generic rounded sans.
+5. **Formulate the Visual Territory Statement:**
+   > *"Kategori ini umumnya [kebiasaan visual pesaing]. Kami berbeda pada [sumbu pembeda]: [pilihan kami]. Kami tetap mempertahankan [sinyal kategori wajib] agar langsung dikenali dalam 0.5 detik."*
+
+---
+
+## 7. The Visual Swap Test (Uji Tukar Visual)
+
+Before finalizing any Distinction Brief or design plan, execute the **Visual Swap Test**:
+> *"Kalau nama dan logo usaha ini diganti dengan nama pesaing terdekatnya di jalan yang sama, apakah desain dan pesan ini masih cocok untuk mereka?"*
+
+- If **YES:** The direction is too generic. It is built on category clichés, not this business's truth. Return to Section 4 and sharpen the micro-differentiators.
+- If **NO:** The direction is proprietary and ownable. Proceed to Stage 2 and Stage 3.
+
+---
+
+## 8. The Distinction Brief (Output of Stage 1)
+
+Synthesize the brief into seven structured lines with explicit epistemic tags:
+
+1. **Usaha `[FAKTA]`:** [Siapa menjual apa, kepada siapa, di mana, tier harga].
+2. **Beda karena `[FAKTA/BUKTI]`:** [USP yang lolos 4C Gate + bukti fisik/proses nyata].
+3. **Pembeli memilih karena `[FAKTA]`:** [Kata-kata asli pelanggan / alasan membeli nyata].
+4. **Kesan yang diinginkan `[INFERENSI]`:** [Pasangan rasa, misal "Jujur dan royal"], **bukan** [pantangan rasa].
+5. **Posisi & Pesaing `[FAKTA/INFERENSI]`:** [Tier harga]. Pesaing sekitar umumnya [kebiasaan visual]; kami mengklaim wilayah [wilayah visual terbuka]; tetap mempertahankan sinyal [sinyal kategori wajib].
+6. **Jangkar khas `[FAKTA]`:** [2–3 detail fisik/alat/bahan unik yang diterjemahkan ke visual].
+7. **Asumsi & Kebutuhan terbuka:** `[ASUMSI]` [Hipotesis kerja yang butuh konfirmasi]; `[GAP]` [Celah kritis jika ada].
+
+*Gate:* Distinction Brief synthesized, 4C Gate verified, epistemic status clearly tagged, and swap test passed.
 
 
 
@@ -925,6 +858,7 @@ Physical printed materials are not inspected like digital screens; they are enco
 - **The Eye Fixates on Contrast and Difference:** Visual attention is drawn automatically to the point of maximum contrast: dramatic scale contrast, high value (light/dark) difference, a saturated accent on a muted field, or a sharp silhouette isolated in calm space. That point of maximum difference must be your intended hero.
 - **Silhouette Reads Before Detail:** At physical distance (5–15 meters), individual letters are invisible; the eye perceives overall graphic mass, silhouette contour, and dominant color fields. The composition must succeed as an abstract silhouette before it can succeed as written copy.
 - **The Squint Test:** Blur your eyes until the design becomes abstract masses. You should see: (1) one dominant focal mass, (2) one clear headline group, (3) a quiet supporting base. If you see multiple competing blobs of equal weight, the hierarchy fails the physical test.
+- **The 0.5-Second Category Legibility Rule:** Before a passing viewer decodes a unique offer or headline, the brain must recognize the commercial category in under 500 milliseconds ("makanan / kopi / laundry / bengkel"). Distinctiveness must live *inside* instant category recognition. An overly abstract visual that obscures what is being sold fails commercially.
 - **Physical Print Has No Interactive Fallback:** On a screen, a confused user can pinch-to-zoom or scroll. In physical space, they keep moving. If the core message fails to land in the passing glance, the graphic has failed.
 
 ---
@@ -2396,30 +2330,30 @@ Next time they only change content (offer, date, product), keeping the same syst
 
 # 13 — Professional Design Thinking (Stages 3–7)
 
-Contents: what separates design thinking from prompt assembly · Stage 3: audience as real people · Stage 3: physical context as primary constraint · Stage 5: developing a visual concept & the Visual Thesis · Stage 5: visual direction from concept · Stages 4 & 6: hierarchy, viewer simulation, and subtraction · physical design checklist · Stage 7: the Creative Direction Summary & translation into prompt directives
+Contents: what separates design thinking from prompt assembly · Stage 3: audience as real people & 0.5s category legibility · Stage 3: physical context & print substrate realities · Stage 5: strategic concept divergence (2–3 territories) & the Visual Thesis · Stage 5: visual direction from concept · Stages 4 & 6: hierarchy, viewer simulation, and subtraction pass · Stage 7: the Creative Direction Summary & translation into prompt directives
 
 ---
 
 ## 1. What Separates Design Thinking from Prompt Assembly
 
-A prompt assembler gathers facts and attributes and strings them together: "poster, warm colors, bold font, food photo, business name, price." This produces statistically average output — the image model fills every unspecified gap with its training defaults (plastic sheen, generic gradients, floating objects, cluttered corners).
+A prompt assembler gathers facts and adjectives and strings them together: "poster, warm colors, bold font, food photo, business name, price." This produces statistically average output — the image model fills every unspecified gap with its training defaults (plastic sheen, generic gradients, floating objects, cluttered corners).
 
 A graphic designer and art director reasons backwards from the communication objective and the physical world:
 1. **Why does this physical piece exist?** What single action must the viewer take?
 2. **Under what physical conditions is it encountered?** Distance, duration, speed, sunlight, ambient visual noise.
-3. **What is the organizing visual idea (concept)?** Not descriptive adjectives, but an authentic visual logic.
-4. **What is the Visual Thesis?** What visual lineage, rendering medium, formal language, material substrate, and typographic voice govern this piece?
-5. **How does each element behave within that language?** Typography, hero visual, graphic devices, color fields, and margins.
-
-The result is a design that belongs exclusively to this business, communicating to this specific audience, in this specific physical environment.
+3. **Can the viewer recognize the business category in 0.5 seconds?** Category cues must land before reading begins.
+4. **What are the strategic concept alternatives?** Explore 2–3 divergent territories with distinct trade-offs before locking in a thesis.
+5. **What is the Visual Thesis?** What visual lineage, rendering medium, formal language, material substrate, and typographic voice govern this piece?
+6. **How does each element behave within that language?** Typography, hero visual, graphic devices, color fields, and margins.
 
 ---
 
-## 2. Stage 3 in Depth: The Audience as Real People
+## 2. Stage 3 in Depth: The Audience as Real People & The 0.5-Second Category Test
 
-"Target market" is a dangerous abstraction. Design for the abstraction and you design for no one. Treat the audience as living human beings:
+"Target market" is a dangerous abstraction. Treat the audience as living human beings in physical space:
 
 - **What they are doing when encountering the piece:** A person on a motorbike at 40 km/h is catching 1.5-second glimpses. A seated diner is comparing options for 30 seconds. A pedestrian is deciding whether to step into a shopfront.
+- **The 0.5-Second Category Legibility Rule:** Before a passing driver decodes a unique selling proposition, their brain must categorize the visual: *"Ini makanan / Ini minuman / Ini laundry / Ini bengkel."* If the design is so abstract or avant-garde that the category is unrecognizable, it fails commercially. Distinctiveness must live *inside* instant category recognition.
 - **What visual language signals trust and value to them:** For working-class parents buying dinner, a large visible price and an honest earthenware bowl photo signal trust more than minimalist European white space. For urban design students, asymmetric layout and typographic restraint signal quality.
 - **What they doubt:** A new business must overcome unfamiliarity. A food stall must overcome hygiene or halal doubts. An artisanal product must justify a higher price. Design those doubts out through visual honesty, visible ingredients, and authentic textures.
 
@@ -2432,9 +2366,9 @@ The result is a design that belongs exclusively to this business, communicating 
 
 ---
 
-## 3. Stage 3 (cont.): Physical Context as Primary Design Constraint
+## 3. Stage 3 (cont.): Physical Context & Print Substrate Realities
 
-Physical context is not background trivia; it is the master constraint dictating the graphic's form:
+Physical context is the master constraint dictating the graphic's form:
 
 1. **Viewing Distance & Scale:** Capital letter height must scale at roughly 2.5 cm per 3 meters of reading distance. Outdoor roadside banners require an additional 50–100% size boost to overcome vehicle motion.
 2. **Viewing Duration & Information Budget:**
@@ -2443,44 +2377,63 @@ Physical context is not background trivia; it is the master constraint dictating
    - 15–60 seconds: Structured three-level hierarchy with grouped details.
 3. **Tropical Sunlight & Ink Reproduction:**
    - Direct tropical sunlight bleaches low-contrast graphics. Outdoor prints require **extreme value contrast** (deep darks against brilliant lights, not merely different hues).
-   - Matte finishes prevent blinding outdoor glare. Saturated primary or deeply roasted backgrounds hold up against weathering.
-4. **Ambient Visual Noise:** A banner on a busy Indonesian arterial road competes with cables, traffic, banners, and street carts. Complexity cancels out; bold reductive silhouettes cut through the chaos.
+   - Matte finishes prevent blinding outdoor glare.
+4. **Print Substrate Constraints (Flex Vinyl vs. Fine Art Paper):**
+   - Outdoor flex banners printed on large-format solvent/eco-solvent inkjet printers have limited dot resolution and ink-spread tendencies. Avoid ultra-thin hairline serifs or subtle 2% tints that blur or fill in; specify robust, sturdy letterforms and flat vector-like color planes.
+   - Leave clear margins for physical finishing (mata ayam eyelets and welded seam hems) — keep critical copy at least 5–8 cm away from outer banner perimeters.
 
 ---
 
-## 4. Stage 5 in Depth: Developing a Visual Concept & The Visual Thesis
+## 4. Stage 5 in Depth: Strategic Concept Divergence & The Visual Thesis
 
-A concept is the organizing idea. It is not a style or a mood. It is an **idea with structural logic** that could only belong to this business.
+A concept is the organizing visual idea. It is not descriptive adjectives like "modern and clean."
 
-### Concept vs. Style: The Critical Distinction
-- **Style (Fails alone):** "Modern, clean, bold, warm, premium." These are vague adjectives. They provide zero structural direction. Feeding them to an image model yields the statistical average of all corporate templates.
-- **Concept (Organizing Idea):** "Satu botol kopi yang cukup seharian" — visualized as the smallness of a single honest bottle contrasted with the monumental scale of the daily promise.
-- **Visual Thesis (Art Direction Grammar):** How that concept is realized in formal visual language:
-  > *German Plakatstil object-poster tradition executed with mid-century screenprinted coffee packaging aesthetics: a singular, high-contrast bottle silhouette on a flat roasted-coffee field (#2A1810), framed by massive sign-painter condensed capitals (#F5E6D3), with active negative space signaling confidence and daily value.*
+### The Strategic Concept Divergence Requirement
 
-### The Concept & Visual Thesis Development Process
-1. **Identify the Emotional Truth:** What authentic experience does the business offer? (e.g. dawn-made freshness, neighborhood permanence, unpretentious abundance).
-2. **Discover the Visual Metaphor:** What physical form embodies that truth? (e.g. a monolithic single bottle against empty space, the coarse texture of a volcanic stone mortar, a crisp neat stack of folded cotton).
-3. **Synthesize the Visual Thesis:**
-   - Select the primary visual lineage (`references/14-visual-language.md` Part 1 or 3).
-   - Select the image-making technique and medium (screenprint, gouache, linocut, editorial photography).
-   - Establish the form language, line character, and edge definitions (reductive geometric vs. chiseled relief vs. sign-painter brushwork).
-   - Define the color palette (60% field, 30% support, 10% accent) and material substrate (kraft tooth, weathered tin, matte tarpaulin).
-   - Direct the typographic anatomy (weight, classification, terminal cuts, tracking).
-4. **Apply the Visual Swap Test:** If you remove the business name, would this visual thesis look natural for a generic competitor? If yes, it is too generic; infuse more business-specific anchors.
+**Never jump directly to a single predetermined concept.** From the verified Distinction Brief, the art director must formulate **2 to 3 genuinely distinct conceptual territories**, each offering a different strategic angle, aesthetic lineage, and commercial trade-off:
+
+```
+                  ┌─────────────────────────────────────────┐
+                  │       VERIFIED DISTINCTION BRIEF        │
+                  └────────────────────┬────────────────────┘
+                                       │
+        ┌──────────────────────────────┼──────────────────────────────┐
+        ▼                              ▼                              ▼
+┌───────────────┐              ┌───────────────┐              ┌───────────────┐
+│ TERRITORY A:  │              │ TERRITORY B:  │              │ TERRITORY C:  │
+│ Abundance &   │              │ Heirloom Craft│              │ Modern Urban  │
+│ Street Urgency│              │ & Provenance  │              │ Restraint     │
+├───────────────┤              ├───────────────┤              ├───────────────┤
+│ Plakatstil    │              │ Mid-Century   │              │ Swiss Modern  │
+│ massive hero; │              │ litho / wood; │              │ grid; clean   │
+│ bold enamel.  │              │ warm nostalgia│              │ sans; airy.   │
+├───────────────┤              ├───────────────┤              ├───────────────┤
+│ Trade-off:    │              │ Trade-off:    │              │ Trade-off:    │
+│ Instant glance│              │ Deep trust &  │              │ Fresh & chic, │
+│ impact, less  │              │ authenticity, │              │ less cozy /   │
+│ heritage feel.│              │ less street-  │              │ traditional.  │
+│               │              │ urgent.       │              │               │
+└───────┬───────┘              └───────┬───────┘              └───────┬───────┘
+        │                              │                              │
+        └──────────────────────────────┼──────────────────────────────┘
+                                       ▼
+                   Client Chooses / Validates Recommendation
+                                       ▼
+                         FORMULATE VISUAL THESIS
+```
+
+Present these options in plain language to the owner with a clear recommendation. Once chosen:
+
+### Synthesize the Formal Visual Thesis
+$$\begin{aligned}
+\text{Visual Thesis} = & \text{ [Primary Visual Lineage]} + \text{ [Image-Making Technique / Medium]} \\
+& + \text{ [Form Language \& Edge Character]} + \text{ [Material Substrate \& Finish]} \\
+& + \text{ [Typographic Voice]} + \text{ [Spatial / Compositional Balance]}
+\end{aligned}$$
 
 ---
 
-## 5. Stage 5 (cont.): Visual Direction from Concept
-
-Translate the Visual Thesis into concrete visual systems:
-- **Color Roles:** Commit to specific hex codes and physical meanings. Dominant field (60%), secondary structure (30%), singular focal accent (10%). Reserve the accent strictly for the primary hero or price.
-- **Typographic System:** Limit to at most two type personalities (e.g., heavy display condensed grotesque + neutral humanist sans). Direct letterform anatomy (flat terminals, open aperture, stroke contrast).
-- **Substrates & Surfaces:** Name real physical materials (kraft paper fibers, weathered teak wood, matte tarpaulin flex).
-
----
-
-## 6. Stages 4 & 6: Hierarchy, Viewer Simulation, and Subtraction
+## 5. Stages 4 & 6: Hierarchy, Viewer Simulation, and Subtraction Pass
 
 ### Strict Hierarchy Ranking (Level 1–4)
 1. **Level 1 (Primary — 1 only):** The single hero visual and core headline that deliver the objective.
@@ -2495,15 +2448,15 @@ If the answer is no, delete it. Unearned decoration (floating sparkles, random g
 
 ### The Viewer Simulation
 Mentally rehearse the physical encounter:
-- *0–2 seconds (First Glance):* Does the silhouette and primary headline land instantly?
+- *0–2 seconds (First Glance):* Does category recognition and the primary headline land instantly?
 - *3–5 seconds (Approach):* Is the supporting offer or price immediately clear?
 - *Up Close / Reading:* Are the contact details and proof points sharp and legible?
 
 ---
 
-## 7. Stage 7 in Depth: The Creative Direction Summary
+## 6. Stage 7 in Depth: The Creative Direction Summary
 
-Before composing any prompt, the designer must synthesize all design decisions into a **Creative Direction Summary**. This brief bridges upstream strategy and downstream prompt writing:
+Before composing any prompt, synthesize all design decisions into a **Creative Direction Summary**. This brief bridges upstream strategy and downstream prompt writing:
 
 1. **What is being made & for what job:** Physical print medium, exact dimensions, and the primary communication task.
 2. **Who it is speaking to & physical context:** The audience posture, viewing distance, speed, and environmental conditions.
@@ -2513,7 +2466,7 @@ Before composing any prompt, the designer must synthesize all design decisions i
 
 ---
 
-## 8. Translating Design Thinking into Prompt Directives
+## 7. Translating Design Thinking into Prompt Directives
 
 The prompt communicates the *consequences* of design thinking, not the reasoning process itself:
 
@@ -2526,10 +2479,6 @@ The prompt communicates the *consequences* of design thinking, not the reasoning
 | **Hierarchy & Focus** | "The offer is most important, price is second" | "Asymmetric typographic hierarchy: headline at 3x the scale of supporting copy; singular warm-ochre accent reserved strictly for the promotional price" |
 | **Material & Surface** | "Looks warm and authentic" | "Medium-format editorial still life: authentic unbleached kraft paper texture, worn dark-teak wooden counter with visible wood grain, soft directional raking window light" |
 | **Honest Specificity** | "Looks like a real traditional warung" | "Authentic volcanic stone cobek mortar softly out of focus in background, chunky chili seed texture visible through glass jar, unbleached twine lid seal" |
-
----
-
-*End of Reference 13 — Professional Design Thinking.*
 
 
 
@@ -2957,9 +2906,9 @@ Swiss International Style asymmetric grid + Commercial screenprinting technique 
 
 # 15 — Creative Direction Framework: Synthesis, Visual Thesis, and Element Art Direction
 
-Contents: role in the system · Part 1: the 10 professional design dimensions · Part 2: dimension interactions (harmonics, productive tensions, clashing incoherence) · Part 3: the creative direction selection process & the Visual Thesis (5 steps) · Part 4: element-specific artistic treatment breakdown · Part 5: business-specific distinctiveness vs superficial decoration (the visual swap test) · Part 6: creative direction vs constraints vs implementation freedom · Part 7: failure modes by business archetype
+Contents: role in the system · Part 1: the 10 professional design dimensions · Part 2: dimension interactions (harmonics, productive tensions, clashing incoherence) · Part 3: the creative direction selection process, strategic concept divergence & the Visual Thesis · Part 4: element-specific artistic treatment breakdown · Part 5: business-specific distinctiveness vs superficial decoration (the visual swap test) · Part 6: creative direction vs constraints vs implementation freedom · Part 7: failure modes by business archetype
 
-> **Role in the system:** Used at Stage 5 (Visual Concept & Creative Direction) and Stage 7 (Creative Direction Summary). This framework translates the Distinction Brief, emotional brief, and physical context into a cohesive **Visual Thesis** — an organizing artistic grammar that governs every visual decision before composing prompts. Use alongside **Reference 14 (Visual Language)** for specific stylistic and technical vocabularies.
+> **Role in the system:** Used at Stage 5 (Visual Concept & Creative Direction) and Stage 7 (Creative Direction Summary). This framework translates the verified Distinction Brief, emotional brief, and physical context into a cohesive **Visual Thesis** — an organizing artistic grammar that governs every visual decision before composing prompts. Use alongside **Reference 14 (Visual Language)** for specific stylistic and technical vocabularies.
 
 ---
 
@@ -3048,45 +2997,46 @@ Master designers create proprietary visual identities by holding two opposing di
 
 ---
 
-## Part 3: The Creative Direction Process & The Visual Thesis
+## Part 3: Strategic Concept Divergence & The Visual Thesis Selection
 
-To produce an art-directed prompt, the designer must synthesize upstream business facts into an explicit **Visual Thesis** before touching the prompt syntax:
+To produce an art-directed prompt, the designer must never impose a single preconceived aesthetic. Execute this 4-step selection process:
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
 │                   THE ART DIRECTION REASONING CHAIN                    │
 ├────────────────────────────────────────────────────────────────────────┤
-│ 1. Business Identity & Distinction (USP, craft proof, anchors)         │
+│ 1. Verified Distinction Brief (USP verified by 4C Gate, proof, anchors)│
 │                        ↓                                               │
 │ 2. Audience Posture & Physical Context (distance, speed, light, medium)│
 │                        ↓                                               │
-│ 3. Creative Concept (organizing campaign idea & emotional target)      │
+│ 3. STRATEGIC CONCEPT DIVERGENCE (formulate 2–3 distinct territories)   │
 │                        ↓                                               │
-│ 4. VISUAL THESIS (proprietary visual grammar & aesthetic world)        │
+│ 4. Client Validation & Selection (trade-offs evaluated & confirmed)    │
 │                        ↓                                               │
-│ 5. Element-Specific Art Direction (type, hero visual, shapes, surface) │
+│ 5. VISUAL THESIS FORMULATION (proprietary visual grammar synthesized)  │
 │                        ↓                                               │
-│ 6. Image-Generation Prompt (compact, standalone, high-density brief)   │
+│ 6. Element-Specific Art Direction (type, hero visual, shapes, surface) │
+│                        ↓                                               │
+│ 7. Image-Generation Prompt (compact, standalone, high-density brief)   │
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
+### The 3 Divergent Conceptual Territories:
+From the verified distinction, explore at least two (ideally three) genuinely distinct territories:
+- **Territory A (Abundance & Direct Urgency):** High scale contrast, monumental hero silhouette, bold declarative type, unadorned high-contrast background field. (Best for roadside speed, immediate appetite appeal).
+- **Territory B (Heirloom Craft & Provenance):** Tactile relief or vintage lithography, earthy mineral palette, weathered physical substrates, period-appropriate display lettering. (Best for deep authenticity, gift-giving, premium craft).
+- **Territory C (Modern Functional Clarity):** Asymmetric modular grid, objective clean typography, generous quiet negative space, crisp studio lighting. (Best for urban professionals, wellness, high-trust services).
+
+Evaluate each territory's commercial trade-offs, recommend the strongest fit, and let the client confirm the direction.
+
 ### The Visual Thesis Formula
 
-A **Visual Thesis** is the single unifying statement that governs the artwork's optical form. It defines the graphic world, the rendering method, the form language, the material substrate, and the typographic voice:
-
+Once the concept territory is selected, synthesize the **Visual Thesis**:
 $$\begin{aligned}
 \text{Visual Thesis} = & \text{ [Primary Visual Lineage]} + \text{ [Image-Making Technique / Medium]} \\
 & + \text{ [Form Language \& Edge Character]} + \text{ [Material Substrate \& Finish]} \\
 & + \text{ [Typographic Voice]} + \text{ [Spatial / Compositional Balance]}
 \end{aligned}$$
-
-#### Example 1: Street Bakso Warung (Roadside Banner)
-- *Creative Concept:* "Bakso segede bola tenis" — raw undeniable meatball substance and neighborhood permanence.
-- *Visual Thesis:* **German Plakatstil object-poster structure combined with Indonesian vernacular sign-painting:** A singular massive, flat-plane bowl of bakso silhouette grounded on a vibrant cart-blue field (#1E4B82), rendered with opaque gouache-like matte finish, anchored by massive hand-painted sign-painter condensed capitals (#FFD700), with razor-sharp value contrast designed for 2-second motorbike legibility.
-
-#### Example 2: Small-Batch Artisanal Sambal (Table Card / Label)
-- *Creative Concept:* "Diulek pagi ini, dikirim hari ini" — the raw dawn craft of stone-ground freshness.
-- *Visual Thesis:* **Tactile woodcut/linocut relief printmaking combined with Javanese domestic still-life photography:** A squat glass jar with visible chunky chili seeds set against an authentic worn terracotta tile substrate, illuminated by 45° morning raking window light, framed by an earthy umber header panel carrying chiseled slab-serif stamp lettering with subtle ink-bleed edges.
 
 ---
 
@@ -3107,19 +3057,17 @@ A master art director does not merely specify the overall style; they establish 
 ## Part 5: Business-Specific Distinctiveness vs. Superficial Decoration
 
 ### The Visual Swap Test
-
-The standard test of art direction:
 > *If you remove the business name and logo, does the graphic still uniquely reflect this specific business, or could it be swapped into any competitor's storefront?*
 
 ### Superficial Personalization (Fails the Test)
-- Taking a generic corporate template or pastel bakery template and pasting the owner's menu text or product name into it.
+- Taking a generic corporate template or pastel bakery template and pasting the owner's menu text into it.
 - Adding generic decorative icons (scattered coffee beans, cartoon chili peppers, floating bubbles).
 
 ### Genuine Business Art Direction (Passes the Test)
 - **Translating Authentic Physical Truth into Visual Form:**
-  - If the business uses a 30-year-old blue wooden cart with brass handles, that specific cart blue becomes the dominant field, and the brass tone becomes the accent lettering.
-  - If the sambal is hand-ground in a coarse volcanic stone cobek, the graphic language incorporates chiseled stone relief textures and volcanic charcoal-terracotta tonal contrasts.
-  - If the laundry emphasizes honest next-day domestic turnaround, the visual hero is the tangible weave of neatly folded cotton and a handwritten brown paper tag, not cartoon soap foam.
+  - If the business uses an authentic mottled enamel dish (*piring seng blirik*), that becomes the hero vessel and palette anchor.
+  - If the sambal is hand-ground in a coarse volcanic stone cobek, the graphic language incorporates chiseled stone relief textures and charcoal-terracotta tonal contrasts.
+  - If the laundry emphasizes honest next-day domestic turnaround, the visual hero is the tangible weave of neatly folded cotton and a handwritten yellow paper tag, not cartoon soap foam.
 
 ---
 
@@ -3129,11 +3077,14 @@ To write prompts with maximum effectiveness, maintain clear conceptual boundarie
 
 1. **Creative Direction (The 'Visual World'):**
    - The Visual Thesis: visual lineage, rendering technique, form language, material substrate, typographic voice, and spatial atmosphere.
-   - *This must be strictly and precisely directed in the prompt.*
-2. **Essential Constraints (The 'Non-Negotiables'):**
+   - *Direct strictly in CREATIVE DIRECTION without repeating in other blocks.*
+2. **Proprietary Business Anchors (The 'Design Character'):**
+   - How the business's USP, real tools, vessels, ingredients, and provenance take visible form to pass the swap test.
+   - *Direct strictly in DESIGN CHARACTER.*
+3. **Essential Constraints (The 'Non-Negotiables'):**
    - Exact verbatim on-image text strings in quotes, verified physical dimensions/ratios, confirmed asset roles (e.g. Image 1 as hero), physical truth rules, and critical legibility requirements.
-   - *This must be explicitly enforced without compromise.*
-3. **Implementation Choices (The 'Model's Creative Freedom'):**
+   - *Direct in CONTENT, FORMAT, and EXCLUSIONS.*
+4. **Implementation Choices (The 'Model's Creative Freedom'):**
    - The precise placement of a garnish sprig, the exact micro-composition of secondary folds, the specific brush variation on an enamel stroke.
    - *Do NOT micromanage with pixel coordinates, percentage bounding boxes, or exhaustive lists of trivial background props. Let the image model solve the composition within the established creative direction!*
 
@@ -3149,167 +3100,139 @@ To write prompts with maximum effectiveness, maintain clear conceptual boundarie
 | **Traditional Herbal (Jamu)** | Generic green leaf clip-art on sterile white medical background, or neon wellness gradients | Conflating traditional botanical medicine with Western pharmaceutical or spa clichés | Adopt Botanical Pen-and-Ink Illustration with watercolor tint: exact botanical rendering of curcuma/ginger rhizomes, off-white rag paper, dignified classical serif lettering. |
 | **Neighborhood Bakery** | Pastel pink swirls, looping script fonts, floating cupcakes with glowing sparkles | Category cliché: "bakery must be sweet, pastel, and whimsical" | Adopt Mid-Century Commercial Gouache or warm morning editorial photography: golden crust texture, flour dusting, sturdy sign-painter humanist lettering. |
 
----
-
-*End of Reference 15 — Creative Direction Framework.*
-
 
 
 ---
 
 <!-- FILE: assets/brief-template.md -->
 
-# Brief Sheet (design director's working notes)
+# Brief Sheet (Art Director's Strategic Working Notes)
 
-Fill from the owner's own words and from design decisions made during the session.
-[M] must · [S] should · [N] nice · [D] design decision (yours, not the owner's)
+Working document tracking facts, inferences, assumptions, and creative decisions across stages.
+Epistemic tags: `[FAKTA]` verified client fact · `[INFERENSI]` designer's deduction · `[ASUMSI]` working assumption (vetoable) · `[GAP]` critical unknown
 
-Unknown [S] fields become stated defaults under "Asumsi saya" in the plan.
-Every [D] decision must have a stated reason tied to the concept, audience, or physical context.
+Every decision must trace directly back to business distinction, audience posture, or physical print optics.
 
 ---
 
-## 1. Distinction Brief (Stage 1)
+## 1. Distinction Brief & 4C Verification (Stage 1)
 
-- [M] Usaha (who sells what to whom, where):
-- [M] USP (beda karena):                [M] Proof (bukti konkret):
-- [S] Customers' reason (their words, not owner's adjectives):
-- [M] Desired perception (two feelings): [M] Never be:
-- [S] Competitors (2-3) and how they look:
-  - Overused in the category (to avoid):
+- [FAKTA] Usaha: (Who sells what to whom, where, and relative price tier)
+- [FAKTA] Claimed Differentiator (Beda karena):
+- [4C PROBE] Commonality Check: (Do nearby competitors claim this too? Y/N — if yes, probe micro-differentiators)
+- [4C PROBE] Concrete Proof / Evidence: (Simmering hours, recipe years, ingredients, visible physical craft)
+- [4C PROBE] Customer Buying Driver: (Why buyers actually buy/return — in customer words, not owner pride)
+- [4C PROBE] Competitor Visual Contrast:
+  - Overused category clichés (to avoid):
   - Open visual territory (to claim):
-- [S] Positioning (price tier and role):
-- [S] Personality dials (hangat/serius, tradisional/modern, ramai/tenang, merakyat/premium):
-- [N] Values / story:
-- [M] Ownable anchors (at least two — specific to this business):
-- Swap test: (will revisit after design plan)
+  - Category cues to retain (for 0.5s instant recognition):
+- [INFERENSI] Desired perception (feeling pair):           [FAKTA] Never look like:
+- [FAKTA] Ownable Specifics / Anchors: (At least two physical details: vessel, tool, place, ritual)
+- [INFERENSI] Visual Swap Test: (Would this direction make sense for the nearest competitor? Must be NO)
 
 ---
 
-## 2. Materials (Stage 2)   Mode: Build / Enhance
+## 2. Materials & Asset Audit (Stage 2)   Mode: Build / Enhance
 
-| # | File or description | Type | Quality verdict | Treatment | Role | Placement and size | Keep unchanged | May change |
-|---|---|---|---|---|---|---|---|---|
-| 1 | | | | | | | | |
+| # | File or Asset Description | Type | Quality Verdict | Role (Hero/Setting/Mark) | Treatment (Isolate/Ground) | Keep Exactly | May Change |
+|---|---|---|---|---|---|---|---|
+| 1 | | | | | | | |
 
-- Existing materials: likes / dislikes / missing / wants improved:
-- Direction examples: what principle is liked, what is not:
-- Consent and ownership confirmed (people, licensed sources):
+- Existing materials likes / dislikes (Enhance mode):
+- Direction examples principle extracted:
+- Real product photo available: Y/N (If N $\implies$ honest stylized/illustrative direction planned; no fake CGI)
+- Logo available: Y/N (If N $\implies$ dedicated identity treatment planned in Stage 6)
+- Ownership & consent confirmed:
 
 ---
 
-## 3. Physical Context & Audience (Stage 3)
+## 3. Physical Context, Audience & Category Check (Stage 3)
 
 **Physical Context:**
-- [M] Physical format: (spanduk, banner, poster, flyer, menu, label, etc.)
-- [M] Dimensions / print scale:
-- [M] Mounting placement & viewing distance: (meters)
-- [M] Viewing duration: (1–2s glance, 3–5s walk past, 15–60s handheld read)
-- [S] Environment & lighting: (tropical outdoor sun, indoor fluorescent, evening)
-- [S] Surrounding visual noise:
-- [S] Substrate / print surface: (vinyl tarpaulin, kraft paper, art paper, sticker)
-- [D] Physical context → design character requirements & info budget:
+- [FAKTA] Physical format & substrate: (Roadside spanduk/flex vinyl, poster/art carton, menu/laminated, etc.)
+- [FAKTA] Dimensions & aspect ratio:
+- [INFERENSI] Mounting placement & viewing distance: (meters)
+- [INFERENSI] Viewing duration & speed: (1–2s at 40 km/h, 3–5s walking, 15–60s seated)
+- [INFERENSI] Environment & lighting: (Tropical direct sun, ambient shadows, indoor warm)
+- [INFERENSI] Information budget: (3–5 words max for roadside; 6–10 for sidewalk; structured for handheld)
 
-**Audience as Real People:**
-- [M] Who they are (specific human group, not demographic label):
-- [S] Encounter posture & behavior: (driving, walking, standing in queue, seated)
-- [S] Trust & value signals for them:
-- [S] Doubts & design implications: (halal, hygiene, price, portion, legitimacy)
+**Audience Posture & 0.5s Category Check:**
+- [FAKTA] Real audience: (Specific daily human group, not demographic abstraction)
+- [INFERENSI] Encounter behavior: (Driving, walking, standing in queue, seated)
+- [INFERENSI] 0.5s Category Legibility Cue: (Bowl, glass, folded garment, tool — signals category instantly)
+- [FAKTA/INFERENSI] Customer doubts & design implications: (Halal, hygiene, price, portion, legitimacy)
 
 ---
 
-## 4. Objective & Message Hierarchy (Stage 4)
+## 4. Objective, Message Hierarchy & Subtraction Pass (Stage 4)
 
-- [M] The ONE primary communication objective:
-- [D] Emotional brief: [Primary feeling at first glance] → [visual element responsible] → [implication for hero/palette/space]
-- [S] Occasion & real deadline (if any):
+- [FAKTA] The ONE primary communication objective:
+- [INFERENSI] Emotional brief: [Primary feeling at glance] → [visual element responsible] → [color/space implication]
+- [INFERENSI] Commercial friction reduction: (Clear wayfinding landmark, direct price anchor, or instant WA)
 
-**Content Hierarchy & Subtraction Pass:**
-- [M] Level 1 (Primary — 1 only): [Headline / hero offer — exact text]
-- [S] Level 2 (Secondary — max 2): [Concrete proof / key support — exact text]
-- [M] Level 3 (Action — 1): [CTA: WhatsApp, location, or placeholder]
-- [S] Level 4 (Tertiary): [Essential conditions, legal marks placeholder]
-- Content removed / relocated: [Decisions from subtraction pass]
+**Ranked Content Hierarchy & Subtraction Pass:**
+- [FAKTA] Level 1 (Primary — 1 only): [Headline offer / hero message — verbatim text in quotes]
+- [FAKTA] Level 2 (Secondary — max 2): [Concrete proof / price point — verbatim text in quotes]
+- [FAKTA] Level 3 (Action — 1): [CTA: WhatsApp, location landmark, or clean action line]
+- [FAKTA] Level 4 (Tertiary): [Essential conditions, mandatory official mark placeholders]
+- [INFERENSI] Subtraction Pass: (List all decorative filler or redundant copy removed to protect readability)
 
 ---
 
-## 5. Visual Concept & Creative Direction (Stage 5)
+## 5. Strategic Concept Divergence & Visual Thesis (Stage 5)
 
-- [D] Visual language & tradition (`14-visual-language.md`): [Primary tradition + modifying influence]
-- [D] Dimensions profile (`15-creative-direction-framework.md`):
-  - Aesthetic tradition: [vernacular / commercial / modernist / editorial / hybrid]
-  - Emotional register: [warm-intimate / confident-generous / energetic-festive / cool-precise]
-  - Energy level: [restrained / balanced / dynamic / dense]
-  - Price positioning: [mass-accessible / everyday-quality / considered-craft / premium]
-  - Cultural register: [deeply local / regional specific / contemporary Indonesian]
-  - Typographic personality: [sturdy sign-painter / refined serif / bold grotesque / friendly rounded]
-  - Surface & texture: [tactile-organic / matte clean / raw industrial]
-- [D] Internal candidate territories explored: (at least 2 distinct territories considered)
-- [D] Concept sentence: *[Single dominant visual idea], feels [feeling 1] and [feeling 2], for [specific audience], seen at [distance/duration] on [medium]. Visual logic: [why this serves the business and objective].*
-- [D] Visual Thesis Formulation (`15-creative-direction-framework.md`):
-  - Visual Lineage / Tradition:
-  - Image-Making Technique / Medium:
-  - Form Language & Edge Quality:
-  - Material Substrate & Lighting Physics:
-  - Typographic Anatomy & Case:
-  - Complete Thesis Statement: [Tradisi] + [Medium] + [Bentuk/Tepi] + [Substrat] + [Tipografi]
-- [D] Distinctiveness test: Avoided category clichés Y/N · Avoided AI defaults Y/N · Passes swap test Y/N
+**Divergent Concept Territories Explored (2–3 distinct options):**
+1. Territory A: [Name, strategic visual logic, aesthetic tradition, commercial trade-off]
+2. Territory B: [Name, strategic visual logic, aesthetic tradition, commercial trade-off]
+3. Territory C (optional): [Name, strategic visual logic, aesthetic tradition, commercial trade-off]
+- Selected Territory: [A/B/C] (Confirmed by client or stated under validated recommendation)
+
+**Visual Thesis Formulation (`15-creative-direction-framework.md`):**
+- Primary Visual Lineage: [e.g. German Plakatstil / Mid-century litho / Swiss Modernist / Nusantara vernacular]
+- Image-Making Technique / Medium: [e.g. Opaque gouache planes / Screenprint / Linocut / Editorial still life]
+- Form Language & Edge Character: [e.g. Reductive geometric / Razor vector contours / Hand-painted brush fringe]
+- Material Substrate & Finish: [e.g. Matte outdoor flex tarpaulin / Unbleached kraft tooth / Enamel on wood]
+- Typographic Anatomy & Voice: [e.g. Heavy condensed sign-painter casual caps / Didone high-contrast serif]
+- Complete Visual Thesis Statement: [Synthesized formula]
+- Visual Swap Test on Thesis: Passed Y/N
 
 ---
 
 ## 6. Visual System & Production Specs (Stage 6)
 
-**Logo status:** Has logo / No logo. If no logo → identity treatment:
-- Type character:
-- Graphic device:
-- Color mark:
+**Logo Status:** Has logo / No logo. If no logo $\implies$ identity treatment:
+- Type character: (Anatomical classification, weight, case, terminal cut)
+- Graphic device: (Solid panel, stamp outline, architectural band, or none)
+- Color mark: (High-contrast hex pairing)
 
-**Visual System** (written once, copied verbatim into every prompt of a set):
+**Visual System** (written once, copied word-for-word into every prompt of a set):
 ```
-Type: [headline character — weight, personality, case]; [support character]; [size relationship].
-Style and material: [photo/illustration, texture, finish, light quality].
-Image treatment: [how real photos are handled — grounded shadow, clean edge, no glow].
-Device: [one recurring graphic element, or none].
-Space level: [calm / moderate / dense-but-grouped — state intent].
+Type: [headline anatomy]; [support character]. Style and material: [rendering medium, texture, finish, light physics]. Image treatment: [grounded contact shadows, crisp contours]. Device: [recurring graphic element or none]. Space level: [calm 35-50% / structured].
 ```
-Color direction & palette: Described in Creative Direction (Stage 7), derived from concept and product.
 
-**Viewer simulation:**
-- 0–2s glance: Hero element noticed; silhouette reads clearly?
-- 3–5s approach: Core message & offer understood?
-- Closer reading: Essential details & action clear?
-
-**Production specs per output:**
-| Output | Medium & Size | Job | Final in-image specs (default complete artwork; post-edit only if requested) | Bleed / Safe zone |
+**Production Specs per Output:**
+| Output ID | Medium & Size | Viewing Distance | Production Mode (Final Integrated Artwork default) | Bleed / Eyelet Margin |
 |---|---|---|---|---|
-| P1 | | | | |
+| P1 | | | Direct in-image typography rendering | |
 
 ---
 
 ## 7. Creative Direction Summary (Stage 7)
 
-Produce one summary per output before writing prompts. Captures the creative brief:
-
-1. **What is being made & for what job:** [Format, dimensions, specific communication task]
-2. **Who it is speaking to:** [Audience, encounter context, emotional target]
-3. **What must appear:** [Essential content only, exact text, hero subject, brand identity]
-4. **Creative direction:** [Concept sentence, visual character, mood, aesthetic world, color field, surface feel]
-5. **Design character & distinctiveness:** [Specific anchors, USP expressed visually; passes swap test]
-
-**Pre-prompt checklist:**
-- [ ] Creative Direction Summary completed and passes swap test
-- [ ] Gives image model creative freedom to compose without coordinate micromanagement
-- [ ] Exact text confirmed verbatim; final artwork confirmed with complete in-image typography
+One summary synthesized per output before prompt drafting:
+1. **What is being made & for what job:** [Format, dimensions, specific physical communication task]
+2. **Who it is speaking to & physical context:** [Audience posture, viewing distance, speed, sunlight]
+3. **Essential content only:** [Surviving text quoted verbatim, hero subject, brand identity]
+4. **Creative direction (The Visual Thesis):** [Aesthetic world, rendering medium, forms, substrate, lighting, palette]
+5. **Distinctiveness (Swap Test):** [Specific anchors, USP expressed visually; un-swappable]
 
 ---
 
-## 8. Output List & Handoff (Stage 8)
+## 8. Standalone Prompts & Local Lampiran (Stage 8)
 
-| ID | Name | Physical format | Dimensions / px | Job | Artwork mode (Final integrated) | Images to attach (local numbering) |
-|---|---|---|---|---|---|---|
-| P1 | | | | | | |
-
-AI tool:                   Images accepted per prompt:
+| Output ID | Format | Word Count | Standalone Verified (Zero Cross-Prompt Dependencies) | Lampiran List (Local Numbering) |
+|---|---|---|---|---|
+| Prompt 1 | | | Y/N | Image 1: ..., Image 2: ... |
 
 
 

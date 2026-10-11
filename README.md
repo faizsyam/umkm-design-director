@@ -61,17 +61,18 @@ Salin seluruh isi [`siap-pakai/umkm-design-director-ringkas.md`](siap-pakai/umkm
 
 ## Mengapa Framework Ini Berbeda?
 
-Banyak desain promosi UMKM berbasis AI terlihat generik dan murahan: efek kilau plastik 3D berlebihan, makanan tampak seperti lilin mainan, tata letak simetris kaku di tengah, dan gradien neon ungu/oranye. Masalah utamanya adalah **ketiadaan keputusan art direction**: model AI akan mengambil rata-rata internet jika tidak diarahkan dengan parameter visual yang presisi.
+Banyak desain promosi UMKM berbasis AI terlihat generik dan murahan: efek kilau plastik 3D berlebihan, makanan tampak seperti lilin mainan, tata letak simetris kaku di tengah, dan gradien neon ungu/oranye. Masalah utamanya adalah **ketiadaan keputusan art direction dan konvergensi wawancara yang terburu-buru**: model AI akan mengambil rata-rata internet jika tidak diarahkan dengan parameter visual yang presisi.
 
 Skill ini dirancang layaknya seorang **Art Director & Visual Strategist Senior**:
 
-1. **Uji Tukar Visual (Visual Swap Test):** Setiap konsep harus lolos pengujian: *"Jika nama usaha ini diganti dengan nama pesaing terdekatnya, apakah desainnya masih masuk akal?"* Jika ya, desain dianggap terlalu generik dan wajib diperkuat dengan jangkar khas usaha Anda.
-2. **Spesifikasi Optik Positif vs Larangan Negatif:** Model AI tidak memahami adjektiva mood abstrak (*"terasa hangat"*, *"percaya diri"*). Framework ini mendiktekan parameter optik konkret: tradisi visual (Plakatstil Jerman, litografi komersial 1950-an, Swiss Modernism, vernakular warung Jawa/Sumatera), teknik medium (gouache tebal, woodcut, linocut, fotografi still life bernuansa studio), perlakuan tepi bentuk, dan material substrat cetak nyata (terpal vinyl flexi, kertas karton daur ulang berpori, kertas dluwang).
-3. **Formulasi Visual Thesis:** Arah visual dibangun dari sintesis formal:
+1. **Gerbang Verifikasi 4C & Pelacakan Epistemik:** Menguji klaim keunggulan bisnis dengan 4 saringan kritis (*Commonality, Credibility, Customer Value, Competitors*) dan memisahkan secara transparan status informasi (`[FAKTA]`, `[INFERENSI]`, `[ASUMSI]`, `[GAP]`). Mencegah asumsi sepihak yang menjebak desain ke dalam klise kategori.
+2. **Uji Tukar Visual (Visual Swap Test) & Legibilitas Kategori 0.5 Detik:** Setiap konsep harus lolos pengujian: *"Jika nama usaha ini diganti dengan nama pesaing terdekatnya, apakah desainnya masih masuk akal?"* Sekaligus memastikan dalam 0.5 detik audiens jalan raya langsung tahu apa yang dijual sebelum mengapresiasi keunikannya.
+3. **Eksplorasi Konsep Divergen (Stage 5 Concept Divergence):** Mengembangkan 2–3 wilayah konsep visual yang benar-benar berbeda dengan trade-off komersial nyata (misal: *Wilayah A: Abundance & Street Urgency* vs *Wilayah B: Heirloom Craft & Provenance*), memberi pemilik pilihan strategis yang berdasar.
+4. **Formulasi Visual Thesis & Bahasa Optik Positif:** Arah visual dibangun dari sintesis formal:
    $$\text{Visual Thesis} = \text{Tradisi Visual} + \text{Teknik Medium} + \text{Bahasa Bentuk \& Tepi} + \text{Substrat Material} + \text{Anatomi Tipografi}$$
-   Menghindari pencocokan klise kategori (bakso tidak harus merah dan berasap; roti tidak harus krim pastel dan tulisan sambung).
-4. **Perhitungan Konteks Fisik Cetak & Tipografi Anatomi:** Disesuaikan dengan jarak pandang fisik nyata (skala tinggi huruf 2,5 cm per 3 meter jarak pandang), kecepatan penonton (1–2 detik pengendara motor vs 15–30 detik menu meja), dan kontras nilai ekstrem di bawah terik matahari tropis.
-5. **Prompt Bersih dan Mandiri (Zero Cross-Prompt Dependencies):** Prompts untuk beberapa materi sekaligus (mis. spanduk + poster) berbagi satu blok Sistem Visual yang identik demi konsistensi merek, namun masing-masing prompt 100% mandiri tanpa ketergantungan frasa rancu seperti *"same as previous prompt"*.
+   Menghindari pencocokan klise kategori dan adjektiva generik dengan merujuk 11 tradisi cetak dunia dan 5 vernakular Nusantara otentik.
+5. **Perhitungan Konteks Fisik Cetak & Tipografi Anatomi:** Disesuaikan dengan jarak pandang fisik nyata (skala tinggi huruf 2,5 cm per 3 meter jarak pandang), kecepatan penonton (1–2 detik pengendara motor vs 15–30 detik menu meja), dan kontras nilai ekstrem di bawah terik matahari tropis serta keterbatasan cetak pelarut vinyl flexi.
+6. **Prompt Bersih, Mandiri, dan Bebas Redundansi (Non-Overlapping Blocks):** Membagi tanggung jawab prompt secara tegas (`CREATIVE DIRECTION` untuk dunia visual, `DESIGN CHARACTER` untuk keunikan bisnis, `HERO VISUAL` untuk subjek dominan, dan `VISUAL SYSTEM` yang identik di semua output) tanpa duplikasi token atau ketergantungan silang rancu seperti *"same as previous prompt"*.
 
 Contoh sesi lengkap: [`examples/01-warung-bakso-sesi-lengkap.md`](examples/01-warung-bakso-sesi-lengkap.md) (dua prompt mandiri terpadu).  
 Contoh spanduk ringkas: [`examples/02-spanduk-laundry-ringkas.md`](examples/02-spanduk-laundry-ringkas.md).
@@ -82,9 +83,9 @@ Contoh spanduk ringkas: [`examples/02-spanduk-laundry-ringkas.md`](examples/02-s
 
 | File | Ukuran | Kegunaan |
 |---|---|---|
-| [`umkm-design-director-lengkap.md`](siap-pakai/umkm-design-director-lengkap.md) | ~267 KB | Panduan lengkap untuk diunggah ke ChatGPT, Claude, atau Gemini (Cara 1 & 2). |
-| [`umkm-design-director-ringkas.md`](siap-pakai/umkm-design-director-ringkas.md) | 7.879 kar. | Versi ringkas padat instruksi untuk kolom Custom GPT / Gem / Claude Project (< 8.000 karakter). |
-| [`umkm-design-director.skill`](siap-pakai/umkm-design-director.skill) | ~114 KB | Paket zip skill terstandar untuk diimpor ke Claude Skills atau runtime Agent Skills. |
+| [`umkm-design-director-lengkap.md`](siap-pakai/umkm-design-director-lengkap.md) | ~262 KB | Panduan lengkap untuk diunggah ke ChatGPT, Claude, atau Gemini (Cara 1 & 2). |
+| [`umkm-design-director-ringkas.md`](siap-pakai/umkm-design-director-ringkas.md) | 7.950 kar. | Versi ringkas padat instruksi untuk kolom Custom GPT / Gem / Claude Project (< 8.000 karakter). |
+| [`umkm-design-director.skill`](siap-pakai/umkm-design-director.skill) | ~113 KB | Paket zip skill terstandar untuk diimpor ke Claude Skills atau runtime Agent Skills. |
 
 ---
 
@@ -164,18 +165,20 @@ Semua skenario telah diaudit dan divalidasi dengan kode keluar 0 pada `scripts/v
 
 **UMKM Design Director is a professional art-direction framework and prompt system for small-business physical print marketing.**
 
-Small businesses often end up with generic "AI-slop" graphics (plastic food renders, floating elements, neon gradients, and illegible text) because image models default to generic internet averages when prompts rely on vague literary mood descriptions (*"cozy vibes"*, *"domestic satisfaction"*).
+Small businesses often end up with generic "AI-slop" graphics (plastic food renders, floating elements, neon gradients, and illegible text) because image models default to generic internet averages when prompts rely on vague literary mood descriptions (*"cozy vibes"*, *"domestic satisfaction"*) and premature interview convergence on unverified claims.
 
 This skill acts as an experienced Art Director:
-1. **Guided Adaptive Interview:** Conducts a friendly, structured inquiry (max 3 questions per turn) in plain language, deriving distinction, physical viewing constraints (distance, speed, substrate), and message hierarchy.
-2. **Visual Thesis Formulation:** Builds a concrete artistic thesis:
+1. **4C Distinction Verification & Epistemic Tracking:** Probes owner claims across Commonality, Credibility, Customer Value, and Competitors, maintaining clear epistemic boundaries (`[FAKTA]`, `[INFERENSI]`, `[ASUMSI]`, `[GAP]`) to uncover authentic physical micro-differentiators.
+2. **0.5-Second Category Legibility & Swap Test:** Ensures instant roadside category recognition before distinctive styling, backed by the visual swap test to eliminate interchangeable designs.
+3. **Strategic Concept Divergence (Stage 5):** Explores 2–3 divergent visual territories with concrete commercial trade-offs before locking in the Visual Thesis.
+4. **Visual Thesis Formulation:** Builds a concrete artistic thesis:
    $$\text{Visual Thesis} = \text{Visual Lineage} + \text{Image-Making Technique} + \text{Form Language/Edges} + \text{Material Substrate} + \text{Typographic Anatomy}$$
    drawing from 11 print traditions (Plakatstil, Mid-century lithography, Swiss Modernism, Linocut, Woodblock) and authentic Indonesian vernacular lineages.
-3. **Physical Distance Scaling:** Calculates type sizes based on real-world optics (2.5 cm letter height per 3 meters distance) and ensures extreme value contrast for tropical outdoor sunlight.
-4. **Final Integrated Artwork Default:** Renders all typography, headlines, prices, and branding directly in the image with anatomical classification directives, avoiding empty placeholder text boxes.
-5. **Standalone Production-Ready Prompts:** Delivers completely self-contained prompts per format, each with its own local attachment instructions and a shared, word-for-word identical Visual System block.
+5. **Physical Print Optics & Substrate Realities:** Calculates type sizes based on real-world optics (2.5 cm letter height per 3 meters distance) and ensures extreme value contrast for tropical outdoor sunlight and solvent ink print characteristics.
+6. **Final Integrated Artwork Default:** Renders all typography, headlines, prices, and branding directly in the image with anatomical classification directives, avoiding empty placeholder text boxes.
+7. **Standalone Production-Ready Prompts:** Delivers completely self-contained prompts per format with non-overlapping block responsibilities, each with its own local attachment instructions and a shared, word-for-word identical Visual System block.
 
 **How to use:**
-- **No install:** Download [`siap-pakai/umkm-design-director-lengkap.md`](siap-pakai/umkm-design-director-lengkap.md) (~267 KB), upload to ChatGPT, Claude, or Gemini, and start chatting.
-- **Custom Assistant:** Paste [`siap-pakai/umkm-design-director-ringkas.md`](siap-pakai/umkm-design-director-ringkas.md) (7,879 chars) into custom GPT/Gem/Project instructions and upload the full file as knowledge.
-- **Claude Skills / CLI Agents:** Upload [`siap-pakai/umkm-design-director.skill`](siap-pakai/umkm-design-director.skill) (~114 KB) or copy `skills/umkm-design-director/` into your Agent Skills directory. Run `python scripts/validate.py` to verify.
+- **No install:** Download [`siap-pakai/umkm-design-director-lengkap.md`](siap-pakai/umkm-design-director-lengkap.md) (~262 KB), upload to ChatGPT, Claude, or Gemini, and start chatting.
+- **Custom Assistant:** Paste [`siap-pakai/umkm-design-director-ringkas.md`](siap-pakai/umkm-design-director-ringkas.md) (7,950 chars) into custom GPT/Gem/Project instructions and upload the full file as knowledge.
+- **Claude Skills / CLI Agents:** Upload [`siap-pakai/umkm-design-director.skill`](siap-pakai/umkm-design-director.skill) (~113 KB) or copy `skills/umkm-design-director/` into your Agent Skills directory. Run `python scripts/validate.py` to verify.
