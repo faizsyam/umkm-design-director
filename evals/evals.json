@@ -134,6 +134,56 @@
         "Asks at most 3 questions, the first about the business",
         "Does not mention the file's internal structure, stages numbers, or developer tooling"
       ]
+    },
+    {
+      "id": 11,
+      "name": "distinctive-direction-bakery",
+      "prompt": "Saya punya toko kue di Surabaya namanya Brownies Bu Tatik. Udah 15 tahun, resep dari ibu mertua, ciri khasnya brownies pandan dengan tekstur fudgy, dibeli buat oleh-oleh dan arisan. Pembeli kebanyakan ibu-ibu 35-50 tahun. Mau bikin poster A3 di kasir.",
+      "expected_output": "Does not default to the generic bakery aesthetic (cream tones, script font, product on white background with flour). Develops a creative direction specific to this business — the 15-year family recipe, the pandan character, the oleh-oleh context, the Surabaya setting — and can describe a visual world that would be wrong for a generic bakery.",
+      "assertions": [
+        "Does not describe the design as 'warm cream tones with script headline' or equivalent generic bakery aesthetic without strong business-specific justification",
+        "References at least two specific business anchors (15-year recipe, pandan character, family origin, oleh-oleh use, Surabaya context, or arisan buyer behavior) in the concept or direction",
+        "The concept sentence describes an idea traceable to this specific business, not the bakery category in general",
+        "The proposed direction would look wrong for a competitor without significant changes"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "same-category-different-directions",
+      "prompt": "Saya punya dua klien dengan usaha kopi: (1) Es Kopi Bang Jago di Bekasi, harga Rp 12.000, pembeli anak sekolah dan ojol, jualan di kaki lima gerobak. (2) Kopium Specialty di Jakarta Selatan, harga Rp 55.000-75.000, pembeli profesional muda, di kedai dengan interior minimal. Bisakah saya lihat arah desain berbeda untuk keduanya?",
+      "expected_output": "Proposes genuinely different creative directions for the two businesses — not just different colors or fonts, but different visual worlds, different energy levels, different typographic characters, and different treatments of the product. The directions should be incompatible with each other.",
+      "assertions": [
+        "Proposes two directions that differ across at least three design dimensions (e.g. energy level, decorative intensity, typographic personality, perceived pricing)",
+        "Does not give both businesses a 'modern coffee' aesthetic with only color differences",
+        "The direction for Es Kopi Bang Jago reflects its kaki lima context, price point, and young street audience",
+        "The direction for Kopium Specialty reflects its premium positioning, minimal interior character, and professional audience",
+        "Neither direction is a generic coffee aesthetic — both are traceable to the specific business identity"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "visual-language-selection",
+      "prompt": "Saya jual kerajinan tangan anyaman pandan dari Lombok, dibuat oleh pengrajin ibu-ibu kampung, dijual ke toko souvenir dan online ke pembeli urban. Bikin promo kartu A5 untuk toko souvenir.",
+      "expected_output": "Develops a creative direction that engages meaningfully with the visual traditions available — Indonesian craft aesthetic, regional identity, handmade character, premium craft positioning — rather than defaulting to a generic 'ethnic craft' template (brown kraft, floral border, generic batik pattern).",
+      "assertions": [
+        "Does not describe the direction as generic 'ethnic' or 'traditional Indonesian' without specifics about the pandan weaving tradition, the Lombok origin, or the makers",
+        "References the specific material character (pandan weave, natural tones, handmade texture) in the concept or visual direction",
+        "Makes a deliberate choice about the cultural register — whether to emphasize the Lombok regional identity, the craft process, the urban premium quality, or a specific combination",
+        "The direction is distinguishable from a generic souvenir design or a generic 'handmade craft' aesthetic"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "creative-direction-multidimensional",
+      "prompt": "Usaha saya: salon premium untuk perempuan dewasa di Malang, nama Salon Endah, sudah 20 tahun, dikenal karena tradisional Jawa (lulur, facial herbal), tapi interior sudah diperbarui jadi modern-bersih. Mau bikin brosur untuk perawatan paket spesial Lebaran.",
+      "expected_output": "Navigates the tension between traditional Javanese heritage and contemporary clean interior, and finds a coherent creative direction that uses both — not one or the other — as a distinctive combination. Recognizes the Lebaran seasonal context. Does not default to generic Ramadan/Lebaran aesthetic (green + gold glitter).",
+      "assertions": [
+        "Identifies the tension between traditional Javanese character and modern-clean interior and proposes a resolution rather than ignoring one side",
+        "Does not default to generic Lebaran palette (glitter green and gold) without connecting it to the specific business identity",
+        "The proposed creative direction uses the Javanese herbal tradition as a specific visual language (named ingredients, ritual character, texture) rather than generic 'ethnic' decoration",
+        "The direction acknowledges both the 20-year heritage and the contemporary positioning, and explains how the combination serves the audience",
+        "The concept is specific enough that it would look wrong if applied to a generic salon or a generic Lebaran promotion"
+      ]
     }
   ]
 }

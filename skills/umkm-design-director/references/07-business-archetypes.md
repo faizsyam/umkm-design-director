@@ -1,17 +1,19 @@
 # Business Archetypes: Starting Directions
 
-Contents: how to use this file · 5-question method for any business · identity treatment when no logo exists · archetypes (food and drink, retail and fashion, beauty, services, trades, local products, education and community)
+Contents: how to use this file · important warning about archetype-to-style mapping · 5-question method for any business · identity treatment when no logo exists · archetypes (food and drink, retail and fashion, beauty, services, trades, local products, education and community)
 
-**These are starting hypotheses, not templates.** Always bend them with the owner's real anchors (product, place, story, customers). If two businesses in the same category would receive an identical direction, you have not been specific enough.
+**These are starting hypotheses, not templates.** They identify trust drivers, hero elements, and common slop patterns for each business type. The creative direction itself must come from the specific business — its product, people, place, story, and audience — not from the category.
 
 ## How to use
 
-1. Find the closest archetype.
-2. Read **Trust drivers** (what the viewer needs to believe) and **Hero** (what carries the message).
-3. Pick composition, palette, and type tendencies; then replace anything generic with the owner's specifics.
-4. Check **Slop traps** for the category.
-5. Check **Identity treatment** for the default when no logo exists.
+1. Find the closest archetype to understand what the audience needs to believe and what typically carries the message.
+2. Use **Trust drivers** and **Hero** to set information priorities.
+3. Read **Slop traps** to understand what makes this category's designs predictable.
+4. Now diverge: consult `references/14-visual-language.md` (visual traditions and their characteristics) and `references/15-creative-direction-framework.md` (multi-dimensional creative direction selection). Use the archetype's typical palette and type tendencies only as a starting hypothesis — not as the direction itself.
+5. Replace any generic element with the owner's actual specifics (real product character, place, people, process, story).
 6. Write the direction sentence: *[concrete concept], feels [two feelings], looks like [concrete reference], for [audience], seen on [medium].*
+
+**Critical warning:** Do not map business category → visual style directly. A warung does not automatically get hand-painted sign aesthetics, a bakery does not automatically get warm cream tones and script, and a laundry does not automatically get sky blue. These are the category conventions — exactly what makes designs look generic. The right visual direction comes from the specific business, audience, and competitive territory, explored through the creative direction framework.
 
 ## The 5-question method (any business not listed)
 
@@ -24,6 +26,8 @@ Contents: how to use this file · 5-question method for any business · identity
 ## Identity treatment when no logo exists
 
 Do not treat a missing logo as plain text at the top. Each archetype has a default identity treatment with three parts: **type character** (how the name is rendered), **graphic device** (the recurring framing element), and **color mark** (the specific color combination that signals the brand). Together they make the business name feel designed rather than typed.
+
+These defaults are starting points. After reading `references/14-visual-language.md`, consider whether the specific business identity suggests a different typographic tradition, surface treatment, or graphic device than the archetype default. A contemporary Javanese herbal producer may use a slab-stamp with terracotta better than a generic kraft-paper panel. A premium barber in a college town may use a clean editorial sans better than charcoal-and-brass.
 
 | Archetype | Type character | Graphic device | Color mark |
 |---|---|---|---|

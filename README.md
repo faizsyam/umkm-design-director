@@ -103,7 +103,10 @@ umkm-design-director/
 │   │   ├── 09-output-sets.md             # beberapa output, sistem visual bersama, prompt mandiri
 │   │   ├── 10-anti-slop.md               # tanda-tanda AI slop, perbaikan, audit
 │   │   ├── 11-prompt-assembly.md         # template prompt, strategi teks, contoh
-│   │   └── 12-review-and-iteration.md    # tinjauan hasil, uji kesetiaan, uji set, perbaikan
+│   │   ├── 12-review-and-iteration.md    # tinjauan hasil, uji kesetiaan, uji set, perbaikan
+│   │   ├── 13-design-thinking.md         # penalaran desainer, simulasi penonton, Creative Direction Summary
+│   │   ├── 14-visual-language.md         # basis pengetahuan tradisi visual, estetika, karakter emosional & budaya
+│   │   └── 15-creative-direction-framework.md # penalaran multidimensi, seleksi arah kreatif, anti-generik
 │   └── assets/                       # brief-template.md, prompt-template.md
 ├── examples/                         # sesi contoh
 ├── evals/evals.json                  # prompt uji dan kriteria penilaian

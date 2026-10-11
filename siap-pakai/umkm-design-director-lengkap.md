@@ -145,23 +145,28 @@ Do not jump from information-gathering to choosing colors. First develop a **con
 
 Read `references/13-design-thinking.md` Stage 7 section for the concept-development method.
 
+**Before developing the concept, read `references/14-visual-language.md`** for the vocabulary of visual traditions and their emotional, cultural, and communicative characteristics. Then read `references/15-creative-direction-framework.md` to understand how to reason across multiple design dimensions and select a direction that is coherent and distinctive.
+
 The concept answers: *What visual idea can communicate this business, message, audience, and objective most effectively?*
 
 A concept is not a style. "Modern, clean, and colorful" is a style description. A concept has an idea — a specific, ownable visual thought that could only belong to this business.
+
+**Internally explore at least two genuinely different creative territories** before selecting one. Different traditions, different energy levels, different cultural registers — not just color variations. Select the direction that best fits this specific business, audience, and physical context. Do not expose this exploration to the owner unless they ask for alternatives.
 
 Test any concept candidate against:
 - Does it come from the actual business (its product, story, place, people)?
 - Does it serve the communication objective?
 - Does it suit the audience's visual language?
 - Would it look wrong if used for a competitor?
+- Does it risk being generic — relying on category convention or AI aesthetic defaults?
 
-Gate: A named concept exists. Direction sentence written and accepted.
+Gate: A named concept exists. Direction sentence written and accepted. Swap test passed on the concept itself.
 
 ### Stage 8: Establish the visual direction
 
 Only after the concept is established: determine visual execution.
 
-Read `references/04-design-principles.md`, `references/05-color-and-culture.md`, `references/06-typography.md`, `references/07-business-archetypes.md`.
+Read `references/04-design-principles.md`, `references/05-color-and-culture.md`, `references/06-typography.md`, `references/07-business-archetypes.md`, and `references/15-creative-direction-framework.md` (Part 1 design dimensions).
 
 Determine in this order:
 1. **Color direction** — derived from brand, product, audience, and concept. Not chosen for taste.
@@ -309,20 +314,21 @@ Missing Should fields become stated assumptions ("Asumsi saya") in the plan.
 
 ## Visual concept development (Stage 7 in detail)
 
-Stage 7 is mandatory. Read `references/13-design-thinking.md` Sections 4 and 5 before this stage.
+Stage 7 is mandatory. Read `references/13-design-thinking.md` Sections 4 and 5 before this stage. Read `references/14-visual-language.md` (visual traditions and their characteristics) and `references/15-creative-direction-framework.md` (multi-dimensional reasoning) before developing the concept. These are not optional — they are the knowledge base that prevents the design from defaulting to category conventions or AI aesthetics.
 
 A visual concept is the organizing idea. It answers: *What visual idea can communicate this specific business, to this specific audience, for this specific objective, in this specific physical environment?*
 
-**If the owner knows their direction:** confirm it fits the Distinction Brief and the physical context. Write the concept sentence.
+**If the owner knows their direction:** confirm it fits the Distinction Brief and the physical context. Check that it is not simply a category convention (use `references/14-visual-language.md` and `references/15-creative-direction-framework.md` Part 4 to assess). Write the concept sentence.
 
 **If the owner says "terserah" or "belum tahu":**
-1. Do not ask an open-ended question. Derive 3-4 concrete named options from `references/07-business-archetypes.md`, the Distinction Brief, the audience, and the physical context.
-2. Describe each as a plain-language image-in-words: what the physical piece will look like and feel like.
-3. Mark one "(Rekomendasi)" with a one-line reason tied to their specific business, audience, and viewing context.
-4. If they still cannot choose, apply the recommendation and state it clearly.
-5. Never loop.
+1. Do not ask an open-ended question. Derive 3-4 concrete named options from the Distinction Brief, the audience, the physical context, and the visual traditions in `references/14-visual-language.md`.
+2. The options must be **genuinely different** — different visual traditions, different energy levels, or different cultural registers. Do not offer variations of the same direction.
+3. Describe each as a plain-language image-in-words: what the physical piece will look like and feel like.
+4. Mark one "(Rekomendasi)" with a one-line reason tied to their specific business, audience, and viewing context.
+5. If they still cannot choose, apply the recommendation and state it clearly.
+6. Never loop.
 
-**Concept sentence format:** *[Single dominant visual idea — what occupies the primary zone and what it communicates], feels [feeling 1] dan [feeling 2], for [specific audience], seen at [distance/duration] on [physical medium]. Visual logic: [one sentence — why this composition serves the concept and the business].*
+**Concept sentence format:** *[Single dominant visual idea — what occupies the primary zone and what it communicates], feels [feeling 1] dan [feeling 2], for [specific audience], seen at [distance/duration] on [physical medium]. Visual logic: [one sentence — why this concept serves the business and the communication objective].*
 
 This sentence becomes the test for every subsequent design decision.
 
@@ -370,6 +376,14 @@ State A, B, or C explicitly with a reason in the plan and in the prompt. Do not 
 - [ ] Subtraction pass complete — nothing decorative without a purpose
 - [ ] Viewer simulation complete ("2 seconds from distance → closer → reading")
 - [ ] Space character decided and expressible in one sentence
+
+**Creative direction distinctiveness:**
+- [ ] At least two genuinely different creative territories were considered internally before the direction was selected
+- [ ] The selected direction does not rely on category conventions (e.g. "bakery = cream + script", "laundry = sky blue", "warung = hand-painted sign")
+- [ ] The selected direction does not rely on AI aesthetic defaults (gradient fills, plastic gloss, centered symmetry, generic commercial photography)
+- [ ] The visual tradition(s) chosen were informed by `references/14-visual-language.md` — not selected by default
+- [ ] The combination of design dimensions forms a coherent identity, not a random mix of fashionable attributes
+- [ ] The distinctiveness test passes: a skilled designer shown this creative direction (without the name) could identify which business it belongs to
 
 **Hierarchy and composition:**
 - [ ] One hero per output
@@ -437,6 +451,10 @@ State A, B, or C explicitly with a reason in the plan and in the prompt. Do not 
 - Do not treat a missing logo as a gap; develop an identity treatment instead.
 - Do not add design rationale, reasoning, or process explanation inside the final prompt.
 - Do not instruct the owner to add content to intentionally empty areas unless text strategy B or C was explicitly chosen.
+- Do not map business category directly to visual style (warung → hand-painted sign; bakery → cream and script; laundry → sky blue). Category tells you what to communicate; the specific business tells you how to communicate it.
+- Do not develop a concept or creative direction without first reading `references/14-visual-language.md` and `references/15-creative-direction-framework.md`. These are mandatory at Stage 7.
+- Do not offer concept options that are merely color or font variations of the same direction. Options must differ in visual tradition, energy level, or cultural register.
+- Do not describe a creative direction using only vague adjectives ("modern," "premium," "eye-catching," "professional"). Replace each adjective with a specific sensory or emotional description derived from the business.
 
 ## Reference map
 
@@ -448,13 +466,15 @@ State A, B, or C explicitly with a reason in the plan and in the prompt. Do not 
 | `references/04-design-principles.md` | Stages 8-9: perception, space, hierarchy, psychology, composition |
 | `references/05-color-and-culture.md` | Stages 7-8: color direction, Indonesian context, audience |
 | `references/06-typography.md` | Stages 8-11: physical type scale, viewing distance, legibility |
-| `references/07-business-archetypes.md` | Stages 2, 7, 8: starting concepts, materials, slop traps |
+| `references/07-business-archetypes.md` | Stages 2, 7, 8: trust drivers, hero elements, slop traps by category |
 | `references/08-formats-and-platforms.md` | Stages 5-11: physical formats, viewing context, print constraints |
 | `references/09-output-sets.md` | Stages 4, 8, 11: multiple outputs, shared Visual System |
 | `references/10-anti-slop.md` | Stages 8-12: slop causes, specificity, realistic imagery |
 | `references/11-prompt-assembly.md` | Stage 12: creative-direction-first rule, template, text strategy, examples |
 | `references/12-review-and-iteration.md` | Stage 13: review, fidelity checks, fixes |
 | `references/13-design-thinking.md` | Stages 6-10: professional design reasoning, concept development, viewer simulation, Creative Direction Summary |
+| `references/14-visual-language.md` | **Stage 7 (mandatory):** visual traditions, aesthetic profiles, emotional character, cultural associations, communication strengths and risks — the knowledge base for informed creative direction selection |
+| `references/15-creative-direction-framework.md` | **Stages 7-8 (mandatory):** multi-dimensional design reasoning, creative direction selection process, combination profiles, distinctiveness as a design objective, failure modes by category |
 | `assets/brief-template.md` | Working sheet: track all decisions and their reasons |
 
 
@@ -1603,18 +1623,20 @@ Reduce risk:
 
 # Business Archetypes: Starting Directions
 
-Contents: how to use this file · 5-question method for any business · identity treatment when no logo exists · archetypes (food and drink, retail and fashion, beauty, services, trades, local products, education and community)
+Contents: how to use this file · important warning about archetype-to-style mapping · 5-question method for any business · identity treatment when no logo exists · archetypes (food and drink, retail and fashion, beauty, services, trades, local products, education and community)
 
-**These are starting hypotheses, not templates.** Always bend them with the owner's real anchors (product, place, story, customers). If two businesses in the same category would receive an identical direction, you have not been specific enough.
+**These are starting hypotheses, not templates.** They identify trust drivers, hero elements, and common slop patterns for each business type. The creative direction itself must come from the specific business — its product, people, place, story, and audience — not from the category.
 
 ## How to use
 
-1. Find the closest archetype.
-2. Read **Trust drivers** (what the viewer needs to believe) and **Hero** (what carries the message).
-3. Pick composition, palette, and type tendencies; then replace anything generic with the owner's specifics.
-4. Check **Slop traps** for the category.
-5. Check **Identity treatment** for the default when no logo exists.
+1. Find the closest archetype to understand what the audience needs to believe and what typically carries the message.
+2. Use **Trust drivers** and **Hero** to set information priorities.
+3. Read **Slop traps** to understand what makes this category's designs predictable.
+4. Now diverge: consult `references/14-visual-language.md` (visual traditions and their characteristics) and `references/15-creative-direction-framework.md` (multi-dimensional creative direction selection). Use the archetype's typical palette and type tendencies only as a starting hypothesis — not as the direction itself.
+5. Replace any generic element with the owner's actual specifics (real product character, place, people, process, story).
 6. Write the direction sentence: *[concrete concept], feels [two feelings], looks like [concrete reference], for [audience], seen on [medium].*
+
+**Critical warning:** Do not map business category → visual style directly. A warung does not automatically get hand-painted sign aesthetics, a bakery does not automatically get warm cream tones and script, and a laundry does not automatically get sky blue. These are the category conventions — exactly what makes designs look generic. The right visual direction comes from the specific business, audience, and competitive territory, explored through the creative direction framework.
 
 ## The 5-question method (any business not listed)
 
@@ -1627,6 +1649,8 @@ Contents: how to use this file · 5-question method for any business · identity
 ## Identity treatment when no logo exists
 
 Do not treat a missing logo as plain text at the top. Each archetype has a default identity treatment with three parts: **type character** (how the name is rendered), **graphic device** (the recurring framing element), and **color mark** (the specific color combination that signals the brand). Together they make the business name feel designed rather than typed.
+
+These defaults are starting points. After reading `references/14-visual-language.md`, consider whether the specific business identity suggests a different typographic tradition, surface treatment, or graphic device than the archetype default. A contemporary Javanese herbal producer may use a slab-stamp with terracotta better than a generic kraft-paper panel. A premium barber in a college town may use a clean editorial sans better than charcoal-and-brass.
 
 | Archetype | Type character | Graphic device | Color mark |
 |---|---|---|---|
@@ -2949,6 +2973,12 @@ Physical context translates into the *character* of the design, not into technic
 
 A concept is the organizing idea. It is not a style. It is not a mood. It is an **idea that has logic** — a specific visual thought that could only belong to this business, communicating to this audience, in this context.
 
+### Before starting: build a visual vocabulary for this specific brief
+
+Read `references/14-visual-language.md` to understand what visual traditions, aesthetics, and design languages are available — each with their emotional character, cultural associations, communication strengths, and limitations. Read `references/15-creative-direction-framework.md` to understand how to reason across multiple design dimensions simultaneously and select a direction that is coherent and distinctive.
+
+These files are not a style menu. They provide vocabulary and reasoning tools for exploring genuinely different creative territories — not for matching business category to style template.
+
 ### Concept vs style: a critical distinction
 
 **Style:** "Modern, clean, bold, warm, professional."
@@ -2975,16 +3005,26 @@ What is the real thing this design is communicating? Not "discount promo" but wh
 **Step 2: Find the visual metaphor.**
 What physical or visual idea captures that emotional truth? Not a color or font — a *visual idea*. "A single confident object against space." "The texture of something made by hand." "The clarity of something with nothing to hide." "The energy of something that moves fast."
 
-**Step 3: Test against the business.**
+Consult `references/14-visual-language.md` here — which visual traditions carry this emotional quality? Are there traditions from the owner's cultural context that would make this feel more specific and rooted? Are there unexpected but coherent combinations that could make this design genuinely distinctive?
+
+**Step 3: Explore at least two genuinely different territories internally.**
+Before committing to a direction, consider whether a different visual tradition, energy level, or cultural register could serve the concept equally well or better. Refer to `references/15-creative-direction-framework.md` Part 2 for combination profiles. The goal is not to generate options for the owner — it is to ensure the selected direction is the best fit, not just the most obvious one.
+
+A different territory does not mean a radically different style for its own sake. It means: if the obvious direction is "warm vintage bakery," what would a contemporary editorial approach do with the same emotional truth? Which serves this specific audience and physical context better?
+
+**Step 4: Test against the business.**
 Does this idea come from something true about this business? The product, the process, the location, the person, the history? If the concept could be given to any business in the category, it is not a concept yet.
 
-**Step 4: Test against the audience.**
+**Step 5: Test against the audience.**
 Does this visual idea speak the language this audience recognizes? Does it signal the right things (trust, value, quality, energy, authenticity) to the specific people who will see it?
 
-**Step 5: Test against the physical context.**
+**Step 6: Test against the physical context.**
 Does this concept survive the viewing conditions? A subtle, text-heavy concept may fail on a roadside spanduk. An energetic, maximalist concept may feel wrong for a quiet premium package.
 
-**Step 6: Write the concept sentence.**
+**Step 7: Check for generic failure modes.**
+Consult `references/15-creative-direction-framework.md` Parts 4 and 5. Does this direction rely on category conventions, AI aesthetic defaults, or fashionable but irrelevant visual effects? If so, either use an unexpected but coherent combination, or add specificity anchors that make the direction belong only to this business.
+
+**Step 8: Write the concept sentence.**
 *[Concrete visual idea], feels [feeling 1] and [feeling 2], looks like [one concrete physical reference], for [audience], seen on [physical medium] from [viewing context].*
 
 This sentence becomes the test for every subsequent design decision.
@@ -2996,10 +3036,11 @@ Do not ask "what style do you like?" Most small-business owners cannot answer th
 Instead: derive the most likely concept from:
 1. The business archetype and its audience (`references/07-business-archetypes.md`)
 2. The Distinction Brief — the USP, proof, and desired perception
-3. The physical context — where and how the piece will be seen
-4. What competitors in this space are doing (and therefore what territory is open)
+3. The visual tradition and emotional character that fits the specific business (`references/14-visual-language.md`)
+4. The physical context — where and how the piece will be seen
+5. What competitors in this space are doing (and therefore what territory is open)
 
-Offer 3-4 named options, each with a one-sentence description of what the physical piece will actually look like. Mark one as recommended with a specific reason tied to their business.
+Offer 3-4 named options, each with a one-sentence description of what the physical piece will actually look like. Mark one as recommended with a specific reason tied to their business. The options should be genuinely different from one another — different visual traditions, energy levels, or cultural registers — not just color variations.
 
 ---
 
@@ -3230,6 +3271,1027 @@ If not, strengthen the distinctive character before writing the prompt.
 
 ---
 
+<!-- FILE: references/14-visual-language.md -->
+
+# 14 — Visual Language Reference
+
+Contents: how to use this reference · Part 1: print and commercial traditions (vernacular, mid-century, Swiss, constructivism, Art Nouveau, Art Deco, retro Americana, 80s-90s, Bauhaus, brutalist, maximalist) · Part 2: contemporary aesthetics (flat, neobrutalism, editorial, risograph, zine/DIY, hand-drawn, linocut, botanical) · Part 3: Indonesian and regional visual traditions (wayang, batik, ikat, regional ornament, vernacular print, urban culture, batik-modern fusion) · Part 4: tone and mood registers · quick decision matrix
+
+> **When to use this file:** Stage 7–8 (Creative Direction). You have already defined the business, USP, audience, and communication objective. Now choose a creative direction with full awareness of what each visual language communicates, risks, and enables.
+
+This is a working vocabulary of visual design traditions and aesthetics relevant to Indonesian small-business print. Use it to make deliberate, distinctive creative choices — not to produce generic AI output.
+
+---
+
+## How to Use This Reference
+
+1. **Read for fit, not familiarity.** Choose a direction that serves the business's specific identity and audience, not the one that feels easiest to produce.
+2. **Layer selectively.** Most strong designs draw from more than one tradition. Identify a primary language and one or two modifying influences.
+3. **Name your choice explicitly.** When drafting a concept, state: *"This draws from [tradition A], modified by [influence B], to communicate [specific impression] to [specific audience]."*
+4. **Resist the defaults.** Generic AI aesthetics tend to drift toward clean flat design or safe retro-warm. Name this pull and choose consciously.
+
+---
+
+## Part 1 — Print and Commercial Traditions
+
+### 1.1 Vernacular / Folk Commercial Print
+
+**Visual language:** Uneven hand-painted letterforms, saturated colors that may clash, layered information with no enforced hierarchy, crude borders, hand-drawn icons, visible brushwork or spray marks. High information density. Typography is expressive and improvised, not systematic.
+
+**Emotional character:** Alive, unfiltered, immediate, energetic, local. Communicates presence and directness rather than refinement.
+
+**Brand signal:** Authenticity, affordability, deep rootedness in a community. Can read as informal, approachable, or scrappy depending on execution.
+
+**Cultural associations:** Indonesian warung boards, pasar stalls, angkot rear-window lettering, street food signage, roadside tukang. Also global: Mexican mercado graphics, Indian truck art, Bangladeshi rickshaw painting. These are high-context local traditions — they read differently to insiders and outsiders.
+
+**Communication strengths:** Street food stalls, local warungs, community markets, goods-and-services businesses that are genuinely embedded in a neighborhood. Works especially well when authenticity is the core value proposition.
+
+**Limitations and risks:** Difficult to control legibility at distance. Can undermine trust for businesses that need to signal hygiene, professionalism, or safety (food packaging, medical adjacent, financial services). Poorly executed "fake vernacular" reads as condescending or nostalgic rather than genuine.
+
+**Adaptation note:** Borrow specific visual details — paint texture, color intensity, hand-drawn border motifs — rather than mimicking the whole aesthetic. Combine with clean typography for legibility while keeping the handmade warmth.
+
+---
+
+### 1.2 Mid-Century Commercial Illustration (1940s–1970s)
+
+**Visual language:** Limited flat color palettes, expressive editorial illustration, confident gestural line work, offset-printing artifacts (slight misregistration, halftone dots), bold simplified shapes. Typography tends to be display-heavy with strong contrast between headline and body.
+
+**Emotional character:** Optimistic, confident, nostalgic warmth without irony. Feels crafted and deliberate.
+
+**Brand signal:** Heritage, craftsmanship, trustworthiness with character. Suggests a business with a story and a point of view.
+
+**Cultural associations:** Indonesian reference point: era of early republic advertising (Tempo Doeloe), old Dutch-colonial era packaging, 1950s–60s food and tobacco brands. Global: American diner graphics, European poster design, early airline and tourism promotion.
+
+**Communication strengths:** Cafes, bakeries, artisanal food producers, heritage brands, restaurants with a storytelling identity. Excellent for packaging and menus.
+
+**Limitations and risks:** Requires genuine illustration skill or a specific visual library — poorly executed versions look cheap rather than vintage. Can read as ironic or hipster-nostalgic rather than sincere. Overused in independent coffee shop category globally.
+
+**Adaptation note:** Use the color-limiting principle and bold shape language without requiring period-accurate illustration. Pair with a modern typeface to prevent it from feeling like costume.
+
+---
+
+### 1.3 Swiss / International Style and Its Descendants
+
+**Visual language:** Strict grid, generous white space, sans-serif type set with mathematical precision, photography over illustration, diagonal or asymmetric layouts organized by invisible structure. Information hierarchy is rigorous and unambiguous.
+
+**Emotional character:** Calm, authoritative, clear, neutral. Communicates order and competence.
+
+**Brand signal:** Professionalism, seriousness, reliability, modernity. Can signal premium positioning when the white space is generous enough.
+
+**Cultural associations:** Global corporate communication, European design institutions, contemporary brand design in major cities. Less culturally embedded in Indonesian vernacular — may feel foreign or cold in informal retail contexts but entirely appropriate in professional-service or urban upmarket settings.
+
+**Communication strengths:** Professional services (consulting, legal, healthcare adjacent), modern retail in urban malls, B2B-facing businesses, premium food or lifestyle brands targeting educated urban audiences (Jakarta, Surabaya, Bandung middle-upper).
+
+**Limitations and risks:** Can feel sterile, distant, or exclusionary in community-facing contexts. In small-business print without generous production quality, the "expensive whitespace" can just look empty. Risk of genericness — many businesses use this without distinctive enough elements to differentiate.
+
+**Adaptation note:** Use grid discipline and type hierarchy principles as a structural backbone. Add warmth through texture, illustration, or a carefully chosen accent color rather than breaking the grid.
+
+---
+
+### 1.4 Constructivism and Grid-Based Geometric Design
+
+**Visual language:** Strong diagonal compositions, bold geometric forms (rectangles, triangles, circles used as structural elements), limited palette (often red/black/white or similarly stark), large type treated as visual mass, high contrast.
+
+**Emotional character:** Urgent, bold, declarative. Communicates conviction and force.
+
+**Brand signal:** Radicalism, confidence, directness. Can signal an independent or counter-cultural identity, or simply bold energy.
+
+**Cultural associations:** Russian constructivism, early Soviet graphic design, 1920s–30s political posters. Contemporary reinterpretations in music, fashion, and independent publishing. Not a culturally embedded tradition in Indonesia but visually impactful.
+
+**Communication strengths:** Events and promotions that need urgency (sales, grand openings, launches), streetwear or youth fashion brands, food brands targeting young urban audiences who identify with alternative culture.
+
+**Limitations and risks:** Politically loaded in some contexts (the Soviet association, even if distant, exists). Can feel aggressive or inaccessible. Very high contrast and density can cause legibility issues in small formats.
+
+**Adaptation note:** Use the diagonal energy and bold geometric blocking without the ideological palette if that association is unwanted. Combine with Indonesian motifs as structural elements for a culturally grounded version.
+
+---
+
+### 1.5 Art Nouveau and Organic Decorative Traditions
+
+**Visual language:** Flowing curvilinear forms, organic lines derived from plants and natural forms, intricate surface decoration, integration of type and image (letterforms shaped by or embedded in illustration), muted but jewel-like color ranges, elaborate borders and frames.
+
+**Emotional character:** Sensuous, refined, abundant, somewhat romantic or theatrical.
+
+**Brand signal:** Artistry, luxury with organic warmth, femininity (in conventional association), craft and beauty.
+
+**Cultural associations:** European fin-de-siècle design (Mucha, Toulouse-Lautrec), early 20th-century packaging. Has visual kinship with some Indonesian ornamental traditions — the curvilinear quality of Javanese cloud motifs (mega mendung adjacent), Balinese decorative carving, and certain batik patterns share a vocabulary of flowing organic form.
+
+**Communication strengths:** Beauty products, wellness, herbal or jamu brands, floristry, artisanal food with craft identity, spa and personal-care businesses. Particularly well-suited to female-skewing audiences in the 25–45 age range.
+
+**Limitations and risks:** Can feel overwrought, dated (late-90s spa aesthetic), or generically feminine if not executed with real intention. Intricate detail is difficult to reproduce well on low-resolution or low-budget print. Risk of kitsch if not handled with discipline.
+
+**Adaptation note:** Use the principle of integrating type and organic form rather than copying historical styles. Pair with clean, modern typographic choices to prevent the decorative from overwhelming.
+
+---
+
+### 1.6 Art Deco and Geometric Luxury
+
+**Visual language:** Symmetrical compositions, stepped and radiating geometric forms, strong verticals, gold and metallic color references, elegant condensed typefaces, sharp geometric ornament (chevrons, fans, sunburst rays), high contrast between dark fields and light or metallic accents.
+
+**Emotional character:** Glamorous, celebratory, aspirational, opulent, ordered.
+
+**Brand signal:** Luxury, occasion, premium, formality. Suggests a business that takes itself seriously and caters to aspiration.
+
+**Cultural associations:** 1920s–30s American and European luxury design, Parisian department stores, ocean liner and hotel graphics, contemporary luxury brand revival (hotels, spirits, fine dining). In Indonesia: found in upscale hotel signage and event decoration vocabulary.
+
+**Communication strengths:** Premium catering, formal events, wedding vendors, upscale restaurants, beauty services targeting aspirational middle-class audiences, boutique hotels or guesthouses wanting to signal premium positioning.
+
+**Limitations and risks:** Very commonly used in wedding and event markets — risk of genericness in those sectors. Difficult to achieve at low print quality (metallic effects require foil or special printing). Can feel theatrical or out-of-place in everyday retail.
+
+**Adaptation note:** Use the geometric ornamental logic and bilateral symmetry as structural tools. Limit actual gold/metallic references to one or two accent elements. Combine with Indonesian ornamental geometry for a locally grounded take.
+
+---
+
+### 1.7 Retro / Vintage Americana and Its Contemporary Reinterpretations
+
+**Visual language:** Badge and shield compositions, aged textures (paper grain, ink wear, faded edges), rope and banner motifs, sans-serif and slab-serif display type, limited earthy color palettes, rough edges and stamp-like marks.
+
+**Emotional character:** Nostalgic, hearty, reliable, confident, honest. Communicates unpretentious quality.
+
+**Brand signal:** Heritage, craft, authenticity, durability. The "Made with care" signal.
+
+**Cultural associations:** American craft food, diner culture, workwear and outdoor brands, contemporary artisan food producers globally. Has been heavily adopted by the international specialty coffee and craft beer industry.
+
+**Communication strengths:** Local food producers, coffee shops, BBQ or grilled meat restaurants, leather or handcraft goods sellers, casual-dining restaurants with a "honest food" identity.
+
+**Limitations and risks:** Extremely oversaturated globally and increasingly in Indonesian urban food markets. Easy to produce formula outputs (shield + slab serif + aged texture = instant badge logo). Can feel culturally foreign to non-urban Indonesian audiences. Authenticity is its currency — when applied to a business that is not actually a craft/heritage operation, it can feel cynical.
+
+**Adaptation note:** If using this language, push past the formula. Identify one genuinely specific detail about the business to anchor the design (a real year, a place name, a specific product) and make that the focal point rather than generic craft signifiers.
+
+---
+
+### 1.8 1980s–90s Commercial Aesthetic and Nostalgic Revival
+
+**Visual language:** Graduated (ombre) color fills, neon or acid colors against dark grounds, pixel-adjacent forms, chrome type effects, loose and expressive layouts without strict grids, bold outlined letterforms, tropical or retro-future motifs.
+
+**Emotional character:** Playful, energetic, ironic-nostalgic, fun. Carries pop-cultural warmth for those who remember the era.
+
+**Brand signal:** Youth appeal, playfulness, irreverence, contemporary awareness. Signals a brand that is "in on it."
+
+**Cultural associations:** VHS and cassette tape packaging, early computer graphics, Indonesian pop culture (kaset pita era, Iwan Fals, early Indomie packaging generations), global Y2K revival now active in youth fashion and food branding.
+
+**Communication strengths:** Youth-facing food and beverage brands, event flyers, streetwear, music-adjacent products, casual snack packaging, social-media-driven businesses where ironic nostalgia is valued.
+
+**Limitations and risks:** Trend-dependent — dates quickly when the nostalgia cycle moves on. Can feel tryhard or ironic in contexts requiring sincerity. Alienating to older audiences who do not share the nostalgic frame. Very widely used in Indonesian youth-market food branding currently (2023–2025 window).
+
+**Adaptation note:** Use specific visual codes from a defined sub-era rather than generic "retro" — the more specific the reference, the more genuine the result. Combine with flat, clean layout to prevent visual chaos.
+
+---
+
+### 1.9 Bauhaus Functional Design
+
+**Visual language:** Primary colors used structurally (not decoratively), geometric elemental forms (circle, square, triangle as building blocks), strong horizontal and vertical axis, type as visual element, no ornament that does not serve a function, industrial material references.
+
+**Emotional character:** Rational, clean, confident, idealistic. Communicates purposefulness.
+
+**Brand signal:** Design awareness, simplicity, functionality, modern intelligence.
+
+**Communication strengths:** Design-adjacent businesses, modern craft, architecture or interiors, education-related products, premium everyday goods targeting design-literate urban consumers.
+
+**Limitations and risks:** Highly abstract — may not communicate warmth or approachability. Risk of coming across as cold or conceptual in community-facing retail contexts. Requires genuine design skill to execute well; amateur attempts often produce incoherent geometry rather than functional clarity.
+
+**Adaptation note:** Use primary-color blocking and geometric reduction as compositional principles without requiring strict Bauhaus reference. Works well combined with warm texture or hand-drawn details to humanize.
+
+---
+
+### 1.10 Brutalist Graphic Design
+
+**Visual language:** Raw, unpolished surface quality, clashing typefaces, broken grid or deliberately awkward layout, exposed structure, stark contrast, unconventional material references, unapologetically dense or sparse composition.
+
+**Emotional character:** Confrontational, honest, anti-pretentious, urgent, uncompromising.
+
+**Brand signal:** Radicalism, intellectual independence, anti-establishment positioning, confidence in non-conformity.
+
+**Communication strengths:** Independent record shops, underground event promotion, artist collectives, experimental food or retail concepts, zine and publishing projects, brands that specifically seek a counter-cultural positioning.
+
+**Limitations and risks:** Very high legibility risk in printed outdoor signage contexts. Alienating to general audiences. In small-business contexts, can read as incomplete or unprofessional rather than intentional. Requires clear context signals (audience who "gets it") to succeed.
+
+**Adaptation note:** Borrow the anti-decorative honesty and rawness — visible structure, no unnecessary polish — without the full confrontational register. Works best in small-format print (flyers, stickers, menu cards) for audiences with design awareness.
+
+---
+
+### 1.11 Maximalist / Eclectic Print Design
+
+**Visual language:** High density, many competing visual elements, pattern-on-pattern, multiple typefaces used intentionally, layered textures and images, rich and varied color, deliberate visual abundance.
+
+**Emotional character:** Festive, celebratory, generous, overwhelming in a joyful way, inclusive.
+
+**Brand signal:** Abundance, energy, personality, anti-minimal confidence.
+
+**Cultural associations:** Indian festival design, Mexican Día de los Muertos visual culture, Indonesian keramaian (the festive crowding of wayang or kuda lumping event banners), street market celebration graphics.
+
+**Communication strengths:** Festival and celebration contexts, markets and fairs, food businesses with strong personality, event promotion, cultural events. Naturally at home in Indonesian pasar and perayaan contexts.
+
+**Limitations and risks:** Legibility requires careful hierarchy control beneath the apparent chaos — without that, it reads as noise. Difficult to produce a version that is intentional rather than accidental. Easy to confuse genuine maximalism with poor design discipline.
+
+**Adaptation note:** Establish one organizing principle beneath the abundance — a strong color logic, a grid that the elements overflow from, a repeated motif — so the complexity feels intentional. Maximalism works when the designer clearly chose it.
+
+---
+
+> **Section 1 — Selection guide:**
+> - For **trust and professionalism**: Swiss, Bauhaus, Art Deco.
+> - For **warmth and authenticity**: Vernacular, Mid-century, Retro Americana.
+> - For **energy and urgency**: Constructivist, 80s–90s, Maximalist.
+> - For **beauty and craft**: Art Nouveau, Mid-century illustration.
+> - **Combination principle:** Choose one primary structural language (grid logic, compositional approach) and one tonal modifier (texture, color feeling, ornamental style). Avoid mixing two primary structural languages.
+> - **Common failure modes:** Pastiche without specificity (generic vintage); complexity without hierarchy (unintentional maximalism); Swiss white space without production quality to support it.
+
+---
+
+## Part 2 — Contemporary and Digital-Native Aesthetics
+
+### 2.1 Flat Design and Geometric Simplicity
+
+**Visual language:** No gradients or drop shadows (in pure form), solid color fills, simple geometric icon forms, clean edges, strong silhouettes, limited palette, high legibility at any scale.
+
+**Emotional character:** Modern, clear, friendly, efficient.
+
+**Brand signal:** Modernity, accessibility, tech-awareness, cleanliness.
+
+**Strengths:** Versatile across print and digital. Works well for menus, price boards, simple banners. Scales well to large outdoor formats. Easy to produce consistently.
+
+**Risks:** Overused as default AI output. Without distinctive color or illustration style, produces generic results. Lacks warmth or character — difficult to communicate craft, heritage, or emotion.
+
+**Adaptation note:** Flat design works best as a structural container. Add character through a distinctive color logic, custom illustration style, or typographic personality. Do not use flat design as a creative choice in itself — only as a vehicle for something more specific.
+
+---
+
+### 2.2 Neobrutalism in Graphic Design
+
+**Visual language:** Thick black borders/outlines on elements, bold flat color fills (often primary or highly saturated), strong shadows (solid color, offset), chunky type, high contrast, deliberately simple and confrontational.
+
+**Emotional character:** Bold, direct, confident, slightly irreverent, modern.
+
+**Brand signal:** Confidence, youth energy, design-literacy, anti-corporate attitude.
+
+**Strengths:** High visibility outdoors. Works well for promotions, event banners, youth-facing signage. Distinctive without requiring illustration skill.
+
+**Risks:** Becoming a trend aesthetic that will date. Can feel aggressive rather than inviting for certain audiences and product categories. Requires careful color selection — wrong palette makes it look cheap rather than bold.
+
+**Adaptation note:** Works well for Indonesian urban youth market food and beverage, especially coffee shops and casual dining aiming for a contemporary independent identity.
+
+---
+
+### 2.3 Clean Editorial / Magazine-Style Design
+
+**Visual language:** Generous white space, high-quality photography as primary visual element, restrained type with careful hierarchy, one or two accent colors, strong axis alignment, occasional pull-quotes or typographic emphasis.
+
+**Emotional character:** Aspirational, calm, curated, premium.
+
+**Brand signal:** Quality, sophistication, editorial sensibility, premium positioning.
+
+**Strengths:** Premium menus, packaging inserts, brochures for upscale businesses. Communicates quality without shouting.
+
+**Risks:** Requires genuinely good photography to work — poor photography in an editorial layout looks worse than it would in a busier composition. Can feel cold or distant for community-facing businesses. Print reproduction quality must be high enough to support the white-space approach.
+
+**Adaptation note:** Reserve for contexts where print quality can be controlled (offset menus, premium packaging, folded brochures) rather than flex-printed banners or digital print spanduk.
+
+---
+
+### 2.4 Risograph / Two-Color Print Aesthetic
+
+**Visual language:** Deliberate color limitations (typically two or three spot colors), visible halftone dot patterns, slight misregistration as a feature, grainy texture, warm paper-stock color references, limited tonal range.
+
+**Emotional character:** Warm, handcrafted, indie, intimate, slightly lo-fi.
+
+**Brand signal:** Independent creative identity, craft, small-batch sincerity, art-world adjacency.
+
+**Strengths:** Independent coffee, bookshops, art events, small creative studios, markets. Works well as a simulated aesthetic in digital design that references print craft even when not actually Risograph printed.
+
+**Risks:** The "Riso look" has become a signifier for a specific creative subculture — may feel insider or niche to general audiences. When simulated digitally rather than actually printed, requires careful execution to feel genuine rather than costume.
+
+**Adaptation note:** Use the color-limitation principle (design as if you only have two or three colors) as a creative constraint regardless of actual printing method. This produces discipline and visual coherence.
+
+---
+
+### 2.5 Zine / DIY / Lo-Fi Print Aesthetic
+
+**Visual language:** Cut-and-paste collage quality, photocopier artifacts, mixed media textures, hand-written annotations, irregular layout, visible tape or correction fluid references, xerox grain.
+
+**Emotional character:** Urgent, personal, anti-institutional, raw, sincere.
+
+**Brand signal:** Authenticity, independence, community belonging, subcultural credibility.
+
+**Strengths:** Underground events, small independent publications, activist or community organizations, highly niche youth-market brands.
+
+**Risks:** Very limited applicability in commercial UMKM contexts. Can signal poverty rather than aesthetic choice to audiences unfamiliar with the tradition. Legibility is often compromised.
+
+**Adaptation note:** Extract the principle of personal directness — design that feels like it came from a real person — and apply it through warmer, less raw means (hand-drawn type, personal photography, written-voice copy integration).
+
+---
+
+### 2.6 Hand-Drawn Illustration Style
+
+**Visual language:** Visible pencil, pen, or brush marks, intentional line variation, organic forms that are not geometrically perfect, hand-lettered elements, warmth and slight imprecision as features.
+
+**Emotional character:** Personal, warm, creative, approachable, gentle.
+
+**Brand signal:** Craft, care, creativity, individuality, small-batch.
+
+**Strengths:** Food packaging (especially artisanal, organic, home-made), children's products, personal services (tutoring, counseling, creative classes), menus and cafe signage. Strong performance in Indonesian pasar oleh-oleh packaging.
+
+**Risks:** Requires actual illustration skill or appropriate sourcing. Generic clip-art illustration at this register often looks cheap. Over-cute versions can undermine credibility for adult premium audiences.
+
+**Adaptation note:** Commission or carefully curate illustration with a specific visual character rather than using generic stock illustration. Even a single distinctive hand-drawn element can anchor a layout.
+
+---
+
+### 2.7 Linocut / Woodblock Print Aesthetic
+
+**Visual language:** Bold, simplified forms, strong ink-on-paper contrast, deliberate grain and texture from the relief surface, limited tonal range (mostly positive/negative), expressive mark-making within simplified shapes.
+
+**Emotional character:** Artisanal, strong, rooted, serious craft.
+
+**Brand signal:** Handmade authenticity, cultural depth, craft heritage, environmental values (associated with traditional methods).
+
+**Strengths:** Artisanal food, craft goods, coffee, traditional crafts businesses, environmental or ethical positioning. Works very well in Indonesian context given rich tradition of printmaking in Yogyakarta and craft markets.
+
+**Risks:** Strong aesthetic — difficult to combine without it dominating. Requires the product to genuinely warrant the craft signal; otherwise reads as costume.
+
+**Adaptation note:** Digitally simulated linocut works well for large-format printing. Key is maintaining the bold simplification of form — do not use this language with complex gradients or fine detail.
+
+---
+
+### 2.8 Botanical and Nature Illustration
+
+**Visual language:** Detailed or semi-detailed representation of plants, leaves, flowers, fruits; often combined with clean white or light backgrounds; sometimes scientific-illustration precision, sometimes painterly looseness.
+
+**Emotional character:** Fresh, natural, calm, wholesome, sensory.
+
+**Brand signal:** Natural ingredients, health, care, freshness, sustainability.
+
+**Strengths:** Herbal products, jamu, tea, fresh produce, organic food, skincare, wellness services. Extremely relevant to Indonesian context given botanical richness and jamu culture.
+
+**Risks:** Oversaturated in the wellness and herbal market globally and increasingly in Indonesia. Generic green-leaf-on-white packaging is a cliché. The specific plant illustrated should be the actual hero ingredient or product — not generic greenery.
+
+**Adaptation note:** Specificity is everything here. Illustrate the actual plant associated with the product, in a style that reflects the brand's character (scientific precision = clinical trust; loose watercolor = warmth; bold linocut = craft). Avoid generic botanical clip-art.
+
+---
+
+> **Section 2 — Selection guide:**
+> - For **urban contemporary audiences**: Flat/Neobrutalism, Clean editorial.
+> - For **craft and indie identity**: Risograph, Linocut, Hand-drawn.
+> - For **natural and wellness products**: Botanical illustration, Hand-drawn.
+> - **Combination principle:** Pair a contemporary structural approach (flat, editorial) with a tactile texture influence (Riso grain, paper stock simulation) for warmth without losing clarity.
+> - **Common failure modes:** Using flat design without a distinctive visual personality (produces generic AI output); using lo-fi aesthetics without a genuine DIY or craft context to support them; botanical illustration with non-specific plants.
+
+---
+
+## Part 3 — Indonesian and Regional Visual Traditions
+
+> [!IMPORTANT]
+> Specificity is required when working with Indonesian regional traditions. "Indonesian feel" achieved through random ornament mixing is a slop pattern — it is both aesthetically weak and potentially disrespectful. Identify which specific tradition is relevant to the business's cultural context, geography, or values, and use it precisely.
+
+### 3.1 Wayang Visual Language
+
+**Visual language:** Highly stylized figural forms with elongated profiles, intricate surface detailing within bold outlines, flat color fills bounded by strong outline, bilateral ornamental structures, specific motif vocabulary (kayon/gunungan as central organizing form, flora/fauna as framing elements).
+
+**Emotional character:** Mythic, ceremonial, sophisticated, culturally grounded.
+
+**Brand signal:** Javanese cultural heritage, depth and history, prestige through cultural rootedness.
+
+**Cultural associations:** Central Javanese (Yogyakarta, Solo) performance tradition. Recognized nationally as Indonesian cultural heritage but primarily embedded in Javanese cultural identity. Has been used in tourism, formal event branding, and government cultural communication. The gunungan (tree of life) form is widely recognized and usable; full wayang figure representations carry stronger cultural expectations.
+
+**Communication strengths:** Heritage tourism, cultural products, Javanese wedding vendors, craft businesses rooted in Central Java, cultural institutions. Works as a design reference when the business genuinely has Javanese cultural identity.
+
+**Limitations:** Applying wayang aesthetics to non-Javanese businesses, or businesses without cultural connection to the tradition, can read as superficial appropriation or tourist-kitsch. The visual complexity is high — reproduction quality must support fine linework.
+
+**Adaptation note:** The gunungan silhouette, the bilateral structure, and the principle of intricate ornament within bold forms can be used as compositional organizing tools. Consult the actual visual vocabulary carefully — do not approximate.
+
+---
+
+### 3.2 Batik Visual Language
+
+**Visual language:** Repeat-pattern structures (many regional varieties: geometric, floral, figural, abstract), fine-line detail in traditional execution, specific color palettes associated with regional traditions (Yogyakarta: sogan deep brown/indigo; Pekalongan: bright multicolor; Cirebon: mega mendung cloud forms in blue/turquoise gradients). Wax-resist texture quality in authentic work.
+
+**Emotional character:** Cultural depth, elegance, refinement, celebration, or daily warmth depending on the specific motif and context of use.
+
+**Brand signal:** Indonesian cultural identity, craft heritage, occasion and ceremony.
+
+**Cultural and contextual associations (critical nuance):**
+- Batik is UNESCO-recognized as Indonesian cultural heritage, but it is a family of traditions, not a single aesthetic.
+- Specific motifs carry specific cultural weight: royal Yogyakarta motifs (parang, kawung) have ceremonial significance; coastal batik (Pekalongan, Cirebon) is more exuberant and commercial. Using royal motifs decoratively in casual commercial contexts may be considered inappropriate by culturally aware audiences.
+- "Generic batik background" as a design shortcut is a recognized slop pattern — it signals lack of design thought.
+- Mega mendung (Cirebon) is among the most visually distinctive and widely recognized individual batik motifs; its cloud-billow form and gradient color layering have strong design identity.
+
+**Communication strengths:** Cultural tourism, craft textile businesses, batik retailers, Javanese/Sundanese wedding vendors, government and formal institutional communication, premium Indonesian fashion accessories.
+
+**Limitations:** Do not use batik as generic decoration. Do not mix motifs from different regional traditions without intent. For businesses with no cultural connection to a specific batik tradition, consider whether another aesthetic serves better.
+
+**Adaptation note:** When using batik reference, identify the specific regional tradition relevant to the business context. Use the structural logic of the specific motif (repeat unit, line weight, color relationship) rather than sampling existing patterns. State clearly in the design brief which tradition is being referenced and why.
+
+---
+
+### 3.3 Ikat and Woven Textile Patterns
+
+**Visual language:** Geometric, often diamond-shaped or stepped repeat patterns, pixel-like resolution (derived from warp/weft structure), limited but bold color ranges, strong directional flow along the warp axis.
+
+**Emotional character:** Grounded, ceremonial in specific contexts, earthy and strong.
+
+**Brand signal:** Regional cultural identity, textile craft, traditional values.
+
+**Cultural associations:** Highly region-specific. NTT (Sumba ikat is internationally recognized and prestigious), Kalimantan, Sulawesi, Bali each have distinct woven traditions. Sumba hinggi has a specific prestige identity in global craft markets.
+
+**Communication strengths:** Craft textile businesses, regional food products that want to signal local identity, tourism-facing products from ikat-producing regions.
+
+**Adaptation note:** Geometric reduction of ikat's stepped, diamond-based repeat logic can serve as a pattern module in packaging or border design when the business has a genuine regional connection.
+
+---
+
+### 3.4 Dayak, Toraja, Batak, Minang, Javanese, Sundanese Ornamental Traditions
+
+**Brief profiles:**
+
+- **Dayak (Kalimantan):** Flowing, spiraling fern/tendril motifs (aso dog-dragon); bold in color; associated with protection and identity; highly distinctive silhouette.
+- **Toraja (Sulawesi):** Geometric interlocking patterns; specific color palette (black, red, yellow, white); associated with ceremony and status; particularly strong in funeral and agricultural rite contexts.
+- **Batak (Sumatra):** Geometric bold patterns (gorga); specific colors (merah-hitam-putih); strong masculine energy; associated with traditional architecture.
+- **Minangkabau (West Sumatra):** Curvilinear plant-based patterns; buffalo-horn architectural references; associated with wisdom traditions and matrilineal cultural identity.
+- **Sundanese:** More naturalistic flora, bamboo references; softer ornamental quality than Javanese; associated with West Java identity.
+- **Javanese:** Wide range from refined court ornament to robust folk forms; already detailed under wayang and batik sections.
+
+**Critical principle:** Use only when the business has a direct geographic, cultural, or product connection to that specific tradition. A Toraja coffee producer using toraja geometric motifs = deeply appropriate. A Jakarta general merchant using Dayak aso motifs as decoration = appropriation.
+
+---
+
+### 3.5 Indonesian Vernacular Commercial Print
+
+**Visual language:** Hand-painted enamel sign aesthetics (bold outlines, flat color, high contrast, product illustration); kopitiam-era shop fascia lettering (Chinese-Indonesian script combinations, decorative outlined type); angkot and truck decoration (mirrored sticker compositions, gradient airbrushing, layered patterns and text); warung board painting (bright saturated fields, hand-lettered menus).
+
+**Emotional character:** Alive, local, direct, communal, full of personality.
+
+**Brand signal:** Deep local rootedness, informal community warmth, honest commerce, unpretentious.
+
+**Cultural associations:** Shared urban and peri-urban Indonesian visual landscape. Enamel sign aesthetics reference early-to-mid 20th century commercial print (Bintang beer, Coca-Cola enamel, Indomie signage). These are familiar, reassuring, and widely legible visual references for Indonesian audiences of all demographics.
+
+**Communication strengths:** Warungs, small food stalls, neighborhood services, local grocery, angkringan, and any business that genuinely lives within a community rather than above it. Extremely high cultural resonance for mass-market audiences.
+
+**Adaptation note:** The enamel sign principle — bold outline, flat color, product illustration at the center — is a strong structural approach for spanduk and banner design. Can be updated with cleaner type while retaining the bold visual logic.
+
+---
+
+### 3.6 Contemporary Indonesian Urban Visual Culture
+
+**Sub-traditions:**
+
+- **Jakarta street art and graffiti:** Letter-based muralism, wildstyle, large-scale character work; color-intense; associated with youth culture and urban expression.
+- **Bandung indie/underground:** Strong illustration culture, band poster design, zine aesthetic, independent music merchandise; internationally connected; sophisticated design literacy; associated with West Java youth creative class.
+- **Yogyakarta craft and art scene:** Printmaking (linocut, silkscreen), batik-contemporary fusion, artist-designed objects; slower, more contemplative; associated with craft institutions and art education.
+
+**Brand signal:** Each sub-tradition signals membership in a specific cultural community. Use only when the business's identity genuinely connects to that scene.
+
+**Strengths:** Youth-facing brands in major cities, creative service businesses, independent food and beverage in creative districts.
+
+**Risks:** Adopting urban street-art aesthetics for a business without community connection reads as trend-chasing. The Bandung indie aesthetic is culturally specific — it resonates deeply within that scene and more weakly outside it.
+
+---
+
+### 3.7 Batik-Modern Fusion
+
+**Visual language:** Contemporary Indonesian designers (IKAT Indonesia, Torang Sitorus, Biyan, and others) work by extracting the structural and color logic of specific traditional motifs, simplifying or reinterpreting them, and combining with modern layout, typography, and production. Results are recognizably contemporary while carrying cultural depth.
+
+**Emotional character:** Proud, modern, culturally sophisticated, confident.
+
+**Brand signal:** Indonesian modernity — neither nostalgic nor culturally absent. Signals a business that knows where it comes from and has a contemporary perspective.
+
+**Communication strengths:** Mid-to-premium Indonesian food and lifestyle brands, cultural tourism, export-facing Indonesian craft, modern fashion or accessories with cultural identity.
+
+**Adaptation note:** The key is genuine transformation, not surface decoration. Extract one or two structural principles from the source tradition (a specific repeat logic, a color relationship, a line quality) and let those principles inform contemporary layout and composition decisions. The result should be visually coherent and culturally legible, not a collage of traditional motifs on a modern template.
+
+---
+
+> **Section 3 — Selection guide:**
+> - **Only use a specific regional tradition if there is a genuine connection** (geography, product, cultural identity of the owner or audience).
+> - For businesses with national or urban Indonesian identity without specific regional anchoring: Indonesian vernacular commercial print, batik-modern fusion (if cultural sophistication is a value), or contemporary urban aesthetics are more appropriate than specific regional ornament.
+> - **Common failure modes:** Random batik-as-background decoration; mixing Javanese, Balinese, and Sumatran motifs in a single design without logic; using regional ornament for businesses with no connection to that region; "Indonesian enough" designs that reference everything and commit to nothing.
+
+---
+
+## Part 4 — Tone and Mood Registers
+
+These are not style categories but *feeling dimensions* that cut across all the visual traditions above. Every design has a position on these axes — making the choice explicit produces more coherent work.
+
+### 4.1 Warm and Intimate vs. Cool and Clinical
+
+**Warm/intimate signals:** Rounded forms, hand-made textures, off-white or cream grounds, earthy or warm-spectrum color, visible craft marks, personal photography, soft contrast.
+
+**Cool/clinical signals:** Sharp geometry, white or neutral grounds, high contrast, precise type, photography with controlled neutral lighting, no visible texture.
+
+**When warm works:** Food, personal services, community retail, wellness, children's products, local and neighborhood businesses.
+
+**When cool works:** Medical or health-adjacent, financial services, professional services, premium modern products where clinical signals quality control.
+
+**Risk:** Inappropriate coolness feels distant or cold; inappropriate warmth feels amateurish or sentimental.
+
+---
+
+### 4.2 Energetic and Bold vs. Restrained and Quiet
+
+**Energetic/bold signals:** High contrast, large type, saturated color, active diagonal composition, many visual elements, bold scale relationships.
+
+**Restrained/quiet signals:** Low contrast, generous space, careful hierarchy with subtle differentiation, muted color, stable horizontal composition.
+
+**When energetic works:** Promotions, events, food and beverage, street-facing signage that competes for attention, youth audiences.
+
+**When restrained works:** Premium products, professional services, brands that communicate confidence through understatement, audiences who read restraint as sophistication.
+
+**Risk:** Forced energy reads as desperation; unearned restraint reads as emptiness.
+
+---
+
+### 4.3 Playful and Approachable vs. Serious and Authoritative
+
+**Playful signals:** Rounded or expressive type, illustration, unexpected color combinations, humor in copy integration, informal layout.
+
+**Serious signals:** Formal symmetric structure, restrained type, photography over illustration, conservative color palette.
+
+**When playful works:** Children's products, casual food, entertainment, anything that should feel low-stakes and fun.
+
+**When serious works:** Legal, financial, medical-adjacent, educational, formal occasion services, any context where trust is the primary signal.
+
+---
+
+### 4.4 Nostalgic and Familiar vs. Contemporary and Novel
+
+**Nostalgic signals:** Aged texture, period-specific type or illustration styles, warm color temperature, references to recognizable historical visual codes.
+
+**Contemporary signals:** Current typographic trends, clean layouts without historical reference, design-literate visual choices that signal awareness of now.
+
+**When nostalgic works:** Heritage brands, businesses with genuine history, categories where comfort and trust matter more than novelty (traditional food, local service businesses, family-run operations).
+
+**When contemporary works:** New businesses entering competitive markets, youth audiences, businesses whose USP is innovation or freshness.
+
+**Risk:** Nostalgic without genuine connection to heritage reads as decoration; contemporary without substance reads as trendy.
+
+---
+
+### 4.5 Artisanal and Handmade vs. Industrial and Precise
+
+**Artisanal signals:** Visible hand-work, slight irregularities, tactile texture references, warm materials.
+
+**Industrial/precise signals:** Perfect geometry, consistent weight, mechanical repetition, sharp edges.
+
+**When artisanal works:** Small-batch food production, craft goods, handmade or locally made products, premium products where human-made is the point.
+
+**When industrial works:** Mass-market products where consistency is the quality signal, technology-adjacent products, B2B contexts.
+
+---
+
+### 4.6 Luxurious and Exclusive vs. Democratic and Accessible
+
+**Luxury signals:** Generous space, restraint, high-quality material references, understatement, dark grounds with light accents, slim elegant type.
+
+**Democratic signals:** Bold direct communication, inclusive color, approachable type, visible value proposition.
+
+**When luxury works:** Premium food or drink, high-end personal services, boutique retail, aspirational products for middle-upper audiences.
+
+**When democratic works:** Mass-market food, neighborhood services, price-driven promotions, community-facing businesses.
+
+**Risk:** Luxury signals on genuinely affordable products create dissonance; democratic signals on genuinely premium products undermine the price point.
+
+---
+
+> **Section 4 — How to use:**
+> Before choosing a visual tradition, locate the design on each of these six axes. Then select the tradition that is structurally capable of expressing that combination of tones. Example: A neighborhood bakery targeting family audiences with a warmth-led identity → Warm + Energetic (not overwhelming) + Playful + Nostalgic-familiar + Artisanal + Democratic. That profile points toward mid-century commercial illustration or vernacular print, with hand-drawn elements and warm earthy palette — not toward Swiss editorial or Art Deco.
+
+---
+
+## Quick Decision Matrix
+
+| Business type | Primary tradition candidates | Avoid |
+|---|---|---|
+| Street food / warung | Vernacular print, Mid-century, Maximalist | Swiss editorial, Art Deco |
+| Artisan food producer | Mid-century, Linocut, Hand-drawn, Risograph | Generic flat design |
+| Premium cafe | Clean editorial, Neobrutalism (youth), Art Deco (upscale) | Retro Americana (oversaturated) |
+| Jamu / herbal product | Botanical illustration, Art Nouveau, Batik-modern | Generic flat design |
+| Batik or craft textile | Batik-modern fusion, Vernacular enamel sign, Linocut | Random ornamental mix |
+| Wedding vendor | Art Deco, Botanical, Batik-modern (Javanese), Mid-century | Brutalist, Lo-fi |
+| Youth F&B brand | Neobrutalism, 80s–90s revival, Constructivist | Art Nouveau, Art Deco |
+| Professional service | Swiss International, Clean editorial, Bauhaus | Vernacular, Maximalist |
+| Cultural tourism | Regional tradition (specific), Indonesian vernacular | Generic "Indonesian feel" |
+| Children's product | Hand-drawn illustration, Flat design (playful) | Brutalist, Constructivist |
+
+---
+
+*End of Reference 14 — Visual Language.*
+
+
+
+---
+
+<!-- FILE: references/15-creative-direction-framework.md -->
+
+# 15 — Creative Direction Framework
+
+Contents: Part 1: the 10 design dimensions · Part 2: how dimensions interact (aligned, tensions, combinations, 8 combination profiles) · Part 3: creative direction selection process (5 steps) · Part 4: distinctiveness as a design objective (recognizing generic directions, sources of distinctiveness, the test) · Part 5: failure modes by business type
+
+> **Role in the system:** This framework is used at Stage 7, after the Distinction Brief, emotional brief, message hierarchy, and physical context are established. It provides a structured method for reasoning across multiple design dimensions simultaneously and selecting a creative direction that is genuinely fit for purpose — not merely plausible or visually fashionable. Use it alongside **Reference 14 (Visual Language Knowledge Base)** for vocabulary of specific traditions, and **Reference 13 (Design Thinking)** for the Creative Direction Summary format.
+
+---
+
+## Part 1: The Design Dimensions
+
+A creative direction is not a style label. It is a set of coordinated positions across multiple design dimensions that together produce a coherent visual character. Each dimension below has a spectrum; the design must hold a clear position on each. The positions are not independent — they interact, reinforce, and constrain each other, which is the subject of Part 2.
+
+---
+
+### 1. Aesthetic Tradition and Visual Lineage
+
+**What it is:** The broader design world this work inhabits — its historical and cultural reference points, its visual ancestors.
+
+**Spectrum:** Folk and vernacular craft tradition → established commercial categories (bakery, apothecary, sport) → modernist grid-based design → contemporary editorial or art direction → experimental or conceptual.
+
+**Key positions:**
+- **Vernacular / craft-rooted:** Hand-made feel, local signage traditions, imperfect and warm. Examples: warung hand-lettered banners, batik-derived pattern systems, the look of a family-run toko built over decades.
+- **Commercial category convention:** The established visual grammar of an industry — what a kategori *looks like* by default. A kue shop that looks like all kue shops. Functional, but invisible.
+- **Modernist structured:** Grid discipline, functional typography, deliberate restraint. Draws on mid-century Swiss typographic tradition or its contemporary descendants.
+- **Editorial / art-directed:** Image-led, conceptual framing, deliberate tension between elements. More common in fashion and boutique food.
+- **Vernacular-contemporary hybrid:** The most generative territory for UMKM — takes genuine local visual heritage and applies deliberate design thinking, producing something that is both authentic and considered.
+
+**Connection to Reference 14:** The visual language knowledge base provides detailed vocabulary for Indonesian vernacular traditions, regional decorative systems, and specific typographic lineages. Use it to ground choices in real traditions rather than approximations.
+
+---
+
+### 2. Emotional Register and Atmosphere
+
+**What it is:** The feeling the viewer should have within the first two seconds of encountering the material. Not the message — the atmosphere.
+
+**Spectrum:** Warm and intimate → confident and generous → energetic and celebratory → cool and precise → austere and serious.
+
+**Key positions:**
+- **Warm and intimate:** Invites, reassures, feels personal. Appropriate for foods associated with home, for local service businesses where trust is primary.
+- **Confident and generous:** Projects quality without exclusivity; the feeling of abundance or expertise offered openly. Appropriate for market stalls, food vendors, community-serving retail.
+- **Energetic and celebratory:** Festive, high-stimulation, movement. Appropriate for promotions, street-food settings, youth-oriented products.
+- **Cool and precise:** Clean, composed, controlled. Appropriate for beauty services, health and wellness, premium positioning.
+- **Austere and serious:** Rare in UMKM contexts; appropriate for professional services (legal, accounting, educational) where gravitas matters.
+
+**Design interaction:** Emotional register should be set before typographic or color decisions — it functions as a filter on those choices. A warm register rules out cold blues and ultra-light sans-serif; a cool register rules out script headlines and high-saturation warm palettes.
+
+---
+
+### 3. Energy Level
+
+**What it is:** The visual weight, pace, and intensity of the design — how much visual activity is happening at once.
+
+**Spectrum:** Quiet, still, minimal → measured and composed → active and dynamic → dense and abundant → overwhelming.
+
+**Key positions:**
+- **Quiet / restrained:** Few elements, generous space, low visual noise. The design asks the viewer to pause and look carefully.
+- **Measured:** A clear hierarchy produces momentum without clutter. Most professional print hits this register.
+- **Active / dynamic:** Diagonal compositions, contrasting scales, bold type treatments. Common in promotions, food menus, product packaging.
+- **Dense / abundant:** Maximalist layering; visual richness communicates abundance, generosity, variety. Common in traditional pasar aesthetics, festive print, some regional craft.
+
+**Design interaction:** Energy level is directly coupled to decorative intensity (Dimension 9) and typographic weight (Dimension 6). High energy almost always requires bold, high-contrast typography. A quiet design with heavy ornament creates incoherence.
+
+---
+
+### 4. Perceived Price Positioning and Sophistication
+
+**What it is:** The socio-economic and cultural register the design signals — not the actual price, but the *perceived level* of investment, care, and quality.
+
+**Spectrum:** Mass market and accessible → everyday quality → considered quality → premium → luxury.
+
+**Key positions:**
+- **Mass market / accessible:** High legibility, direct communication, warm palette, dense information. Prioritizes efficiency over refinement.
+- **Everyday quality:** Honest and competent. Not aspirational, but trustworthy. The design of a reliable neighborhood business.
+- **Considered quality:** Deliberate aesthetic choices signal that the maker cares. This is the most achievable premium register for UMKM without losing warmth.
+- **Premium:** Restraint, space, refined materials, precision typography. Risk of feeling cold or foreign if not handled with local character.
+
+**Design interaction:** Perceived price positioning is strongly signaled by the amount of space in the layout (more space = more premium), typographic precision, and image quality. It also interacts with cultural register (Dimension 5) — a purely international premium aesthetic may alienate a local audience even when the product warrants it.
+
+---
+
+### 5. Cultural Register and Local Identity
+
+**What it is:** The degree to which the design signals Indonesian identity, regional specificity, international orientation, or contemporary cosmopolitan culture.
+
+**Spectrum:** Regional vernacular → broadly Indonesian → cosmopolitan Indonesian → international / genre-global.
+
+**Key positions:**
+- **Regional vernacular:** Specific to a province, city, or community — Javanese, Sundanese, Batak, Manado, etc. Signals deep local authenticity.
+- **Broadly Indonesian:** Uses visual references recognizable across the archipelago — without strong regional specificity. Appropriate for national distribution or multi-ethnic local markets.
+- **Cosmopolitan Indonesian:** Contemporary, urban, design-literate. Indonesian identity expressed through restraint and visual intelligence rather than explicit cultural markers.
+- **International / genre-global:** No explicit Indonesian markers; the design follows international visual conventions for its category. Can feel foreign or disconnected from place unless anchored by business-specific specificity.
+
+**Design interaction:** Cultural register must be calibrated against the target audience's own cultural orientation. A Bandung café serving design students may read a regional vernacular aesthetic as kitsch; a kue shop in a community pasar will read an international minimal aesthetic as cold and unfamiliar. Reference 14 provides specific detail on Indonesian visual traditions and regional graphic vocabularies.
+
+---
+
+### 6. Typographic Personality
+
+**What it is:** The character, weight, construction, and voice of the display typeface(s) — how the text feels as visual form, not just as language.
+
+**Spectrum:** Delicate and refined → warm and humanist → structured and confident → bold and assertive → expressive and charged.
+
+**Key positions:**
+- **Delicate / refined:** Light weight, high contrast serifs or thin geometrics. Signals sophistication and precision.
+- **Warm / humanist:** Rounded forms, medium weight, legible and approachable. Works across wide registers.
+- **Structured / confident:** Strong geometric or transitional serif; commands attention without aggression.
+- **Bold / assertive:** Heavy weight, high visual presence. Communicates directness, value, energy.
+- **Expressive / charged:** Script, vernacular lettering, display with pronounced personality. Carries strong emotional and cultural signals; requires more precise calibration.
+
+**Design interaction:** Typographic personality should match emotional register and aesthetic tradition. A vernacular script in a cool, structured layout creates deliberate tension that can work well (see distinctiveness section); the same script in a dense, decorative layout simply adds noise.
+
+---
+
+### 7. Image and Illustration Approach
+
+**What it is:** Whether and how visual images appear — photography, illustration, graphic, abstract, or typographic-only.
+
+**Key positions:**
+- **Product photography, direct:** The product or service shown clearly. The default. Only effective if the photography is genuinely good — poor product photography is one of the most common UMKM design failures.
+- **Context / atmosphere photography:** Shows environment, preparation, use — creates emotional narrative rather than simple product display.
+- **Illustration, specific:** Drawn imagery created for or from this specific business — owner portrait, product character, place illustration. Highly effective for distinctiveness.
+- **Graphic / abstract:** Strong geometric or organic visual forms, patterns, textures. Avoids photography limitations; demands confident typographic support.
+- **Typographic only:** Pure text-as-design. Requires real typographic skill but can be highly distinctive and cost-effective.
+
+**Design interaction:** The image approach must be consistent with aesthetic tradition and decorative intensity. Folk illustration fits vernacular tradition; clean vector graphic fits modernist or contemporary approaches; context photography fits editorial or artisan aesthetics.
+
+---
+
+### 8. Texture, Material Quality, and Surface Feel
+
+**What it is:** The tactile reference that the design evokes — even on a flat printed surface, design choices create the perception of material quality, surface type, and craft level.
+
+**Key positions:**
+- **Raw and rough:** Uncoated stock, visible grain, inkjet bleeding, hand-made feel. Signals craft and honesty.
+- **Smooth and clean:** Flat color, crisp edges, coated stock feel. Signals precision and modernity.
+- **Warm and textured:** Paper texture, aged tones, organic edges. Signals warmth, history, care.
+- **Metallic and crisp:** Glossy or foil-adjacent surface references. Signals premium, occasion.
+
+**Design interaction:** Surface feel is reinforced by color palette (muted, earthy tones suggest texture; saturated clean colors suggest smooth surfaces), by the level of ornament, and by the image approach. Inconsistency here — rough texture references in an otherwise sleek design — creates cognitive dissonance.
+
+---
+
+### 9. Decorative Intensity and Ornament
+
+**What it is:** The density and elaborateness of decorative elements — borders, patterns, motifs, flourishes, supplementary marks.
+
+**Spectrum:** Bare and structural (zero ornament, form follows function) → minimal accent → considered decoration → richly ornamented → maximalist.
+
+**Key positions:**
+- **Bare / structural:** Ornament is absent; visual interest comes entirely from layout, type, and composition. Requires high skill to avoid coldness.
+- **Minimal accent:** One deliberate decorative moment — a single rule, a mark, a subtle pattern — that adds character without adding noise.
+- **Considered decoration:** Pattern, border, or motif used systematically and with restraint. The decorative element earns its place.
+- **Rich ornament:** Dense pattern, elaborate border systems, layered decorative frames. Works when the aesthetic tradition supports it (regional craft, festive occasion, traditional food).
+
+**Design interaction:** Decorative intensity must match aesthetic tradition and energy level. High ornament in a modernist layout is incoherent. Bare structure in a vernacular-traditional context can feel culturally misaligned. The most powerful UMKM designs often sit at *considered decoration* — one strong decorative system applied with discipline.
+
+---
+
+### 10. Degree of Familiarity vs. Novelty
+
+**What it is:** How much the design draws on recognized conventions versus introduces unexpected combinations.
+
+**Spectrum:** Pure convention (category-standard) → familiar with one departure → balanced hybrid → convention-subverting → fully unexpected.
+
+**Key positions:**
+- **Pure convention:** The design reads immediately as a member of its category. Maximum legibility, zero distinctiveness.
+- **Familiar with one departure:** Largely conventional but one element breaks the expected pattern — a different color, an unexpected typeface, an unusual scale relationship. This is the most reliable path to distinctiveness without risk.
+- **Convention-subverting:** Multiple elements depart from category norms. Higher risk; requires strong concept to hold together.
+
+> [!IMPORTANT]
+> Familiarity is not a failure. The goal is not novelty — it is *the right degree of novelty for this audience and context*. A local warung customer needs enough familiarity to trust the business instantly. Excessive novelty can signal foreign, expensive, or untrustworthy.
+
+---
+
+## Part 2: How Dimensions Interact
+
+### Dimensions that typically move together
+
+| If this is high/strong… | These tend to follow |
+|---|---|
+| Energy level (active/dense) | Bold typographic weight, saturated color, high decorative intensity |
+| Premium positioning | Restrained energy, generous space, refined type, minimal ornament |
+| Vernacular tradition | Warm emotional register, higher decorative intensity, familiar-leaning familiarity |
+| Cool/precise atmosphere | Low decorative intensity, structured type, smooth surface feel |
+| Regional specificity | Vernacular tradition, considered decoration, familiar-leaning |
+
+### Productive tensions
+
+Some of the most distinctive design directions come from deliberately pushing two dimensions in opposite directions. These tensions require resolution — a conceptual logic that explains why the combination works.
+
+- **Premium positioning + warm vernacular type:** Elevated craft authenticity. Signals that quality comes from cultural rootedness, not international import. Works for artisan food, specialty local products.
+- **High energy + deliberate structural restraint:** A bold but edited design — few elements, but each one at maximum intensity. Works for promotions or street food where legibility at distance matters.
+- **Bare structure + rich cultural reference:** A single motif or pattern element from a rich tradition, placed in a clean modernist layout. The contrast gives the cultural element maximum presence.
+- **Homemade warmth + editorial precision:** A small business designed with the layout discipline of a magazine. Signals that the maker takes their work seriously without losing approachability.
+
+### Dangerous combinations that produce incoherence
+
+- **Delicate script + dense layout + many colors:** The script becomes unreadable; the warmth it was meant to create collapses into noise.
+- **Premium positioning + clip-art or generic stock imagery:** The surface signals luxury; the image signals budget. The contradiction reads as dishonesty.
+- **Regional vernacular tradition + international modernist grid, without conceptual bridge:** Two visual worlds sitting side by side, neither strengthening the other.
+- **High decorative intensity + high information density:** Both compete for attention; neither wins.
+- **Cool/precise atmosphere + warm vernacular type:** Possible with deliberate tension; dangerous without it.
+
+---
+
+### Combination Profiles
+
+The following profiles are not templates — they are maps of coherent creative territories. Each represents a distinct combination of positions across dimensions.
+
+| Profile | Aesthetic Tradition | Emotional Register | Energy | Price Position | Cultural Register | Type | Ornament | UMKM Example | Best For |
+|---|---|---|---|---|---|---|---|---|---|
+| **Confident Street Vernacular** | Commercial vernacular | Generous, energetic | Active | Accessible | Broadly Indonesian | Bold, assertive, hand-drawn influence | Considered decoration | A mie ayam stall with a hand-lettered logo system, high-contrast yellow and black, and a bold ownership over the street signage format | Street food, pasar stalls, working-class daily food |
+| **Quiet Artisan Premium** | Modernist / craft hybrid | Cool, considered | Restrained | Considered quality | Cosmopolitan Indonesian | Structured serif, medium weight | Bare with one material accent | A keripik singkong brand using matte kraft-feel packaging, a clean serif, and one line-drawn illustration of the specific cassava variety used | Specialty local food products, gifting, farmer's market |
+| **Warm Community Everyday** | Commercial category | Warm, intimate | Measured | Everyday quality | Broadly Indonesian | Humanist sans or rounded | Minimal accent | A neighborhood laundry service with a consistent warm orange system, friendly rounded type, and a single icon — not a logo system, just a recognizable mark | Service businesses, trusted neighborhood staples |
+| **Bold Democratic Abundance** | Commercial vernacular, festive | Celebratory | Dense | Mass market | Broadly Indonesian | Bold display, multiple weights | Rich ornament | A catering menu for hajatan with layered color frames, multiple typefaces used with hierarchical discipline, and food photography at full bleed | Hajatan catering, bulk food ordering, festive occasions |
+| **Elevated Regional Craft** | Regional vernacular + contemporary | Warm, proud | Measured | Considered quality | Regional vernacular | Considered display with traditional reference | Deliberate cultural ornament | A Palembang pempek brand using a patterned system derived from songket geometry, a confident primary color drawn from regional textile tradition, and a serif that has structural confidence | Regional specialty food, cultural tourism products, craft goods |
+| **Editorial Local** | Editorial / contemporary | Cool, curious | Quiet–measured | Premium | Cosmopolitan Indonesian | High-contrast serif, editorial weight | Minimal | A Bandung independent coffee brand using full-bleed photography of the farm, a strong editorial headline, and no decorative system — the concept carries the design | Design-literate urban audiences, specialty coffee, independent fashion |
+| **Playful Craft Illustration** | Illustrative / folk-adjacent | Warm, joyful | Active | Accessible–everyday quality | Broadly Indonesian | Display with personality, medium weight | Illustration-led | A children's snack brand with a single illustrated character drawn from the product form, a warm but not saccharine palette, and bold legible type | Children's food, gift snacks, family-oriented occasions |
+| **Spare Professional** | Modernist | Precise, trustworthy | Quiet | Everyday quality–considered quality | Cosmopolitan Indonesian | Structured sans, high legibility | None | A home service business (AC service, renovation) with a clean two-color system, structured sans-serif hierarchy, and a simple geometric mark | Professional services, home services, health and wellness |
+
+---
+
+## Part 3: The Creative Direction Selection Process
+
+### Step 1: Identify the Non-Negotiables
+
+From the Distinction Brief and emotional brief, extract:
+
+- **The one thing this design must communicate** (the USP or the proof point that makes the business trustworthy)
+- **The emotional response it must produce** (the desired perception from the emotional brief)
+- **What would break the owner's trust** (aesthetic register that feels false, foreign, or incompatible with the business reality)
+- **Physical constraints** (format, viewing distance, production method — from the physical context)
+
+These are hard constraints. Any creative direction that violates them is invalid, regardless of how aesthetically interesting it is.
+
+---
+
+### Step 2: Explore Genuinely Different Territories
+
+Generate three internal direction candidates. Each must:
+
+- Satisfy all non-negotiables
+- Occupy a **meaningfully different position** on at least three design dimensions
+- Not be variations on the same visual idea
+
+A useful forcing mechanism: require that the three candidates differ on at least two of the following: aesthetic tradition, energy level, decorative intensity, cultural register, image approach.
+
+> [!NOTE]
+> This exploration is internal. The AI does not present multiple options to the owner — it selects the best direction and presents that. The purpose of generating three candidates is to prevent the first plausible idea from becoming the default.
+
+---
+
+### Step 3: Evaluate Against the Specific Context
+
+For each candidate, apply these filters:
+
+1. **Audience fit:** Does this direction use the visual language that signals trust, quality, and value to *this specific audience* — not a general audience?
+2. **Medium fit:** Does this direction work at the actual viewing distance, format, and production quality available?
+3. **Competitive differentiation:** Does this direction stand out from competitors without abandoning category credibility?
+4. **Emotional brief alignment:** Does this direction reliably produce the desired perception from the emotional brief?
+5. **Distinctiveness potential:** Does this direction have room for specificity anchors — elements that could only belong to this business?
+6. **Generic risk:** Does this direction rely on category conventions, AI aesthetic defaults, or fashionable effects that would make it interchangeable with any other business in the category?
+
+Eliminate any candidate that fails filters 1, 2, or 3. From the remaining, select the one that scores highest on filters 4, 5, and 6 together.
+
+---
+
+### Step 4: Select and Refine
+
+Once the strongest candidate is selected:
+
+- **Identify internal tensions.** Does the direction try to be too many things? Which dimensions are in productive tension, and which are simply incoherent?
+- **Remove dimensions that don't serve the concept.** A direction is stronger when it commits fully to fewer ideas.
+- **Sharpen business specificity.** What detail — a product characteristic, the owner's personality, the location's character, a material or process — can be translated into a visual specificity anchor?
+- **Name the two most important visual qualities.** The creative direction should be reducible to a two-quality description that no other business in the category could claim: not "warm and premium" (generic), but "raw material clarity with quiet regional pride" or "the confident density of a trusted pasar institution."
+
+---
+
+### Step 5: Translate to the Creative Direction Summary
+
+The Creative Direction Summary (as described in Reference 13) should now be written with:
+
+- A **visual character statement** in the language of visual qualities, not style labels
+- Clear positions on the most decisive dimensions
+- Any productive tensions that will define the visual voice
+- The **specificity anchors** that make this direction belong to this business
+- **What this direction rules out** — equally important as what it includes
+
+---
+
+## Part 4: Distinctiveness as a Design Objective
+
+### Recognizing Generic Directions
+
+A direction is generic when it could be removed from one business and placed on any competitor without creating inconsistency. Warning signs:
+
+- **Category conventions applied uncritically:** "This is a bakery, so the palette is cream and warm brown, and the headline is in a script font." The direction describes the category, not the business.
+- **AI aesthetic defaults:** Centered symmetric layouts with gradient fills, gradient text, symmetrical product photography with blurred backgrounds, decorative frames without structural purpose. These represent the statistical mean of training data, not a considered design direction.
+- **Fashionable but irrelevant effects:** Risograph texture, grain overlays, brutalist grid used because they are current — not because they serve the specific business or audience.
+- **Vague descriptors:** "Warm, modern, and professional." These three words could be applied to every business in every category. They contain no design information.
+- **Over-referenced combinations:** Script headline + kraft texture + plant motif + muted green palette. This combination has been used at such scale that it now signals "any artisan small business" rather than any specific one.
+
+---
+
+### Sources of Genuine Distinctiveness
+
+Distinctiveness does not come from novelty. It comes from specificity — from design decisions that are derived from the actual character of this business, this product, this place, or this owner.
+
+**Business-derived visual language:**
+- The product's own visual character (color, texture, form, material) translated into the design system
+- The place where the business operates — its light, its architecture, its neighborhood character
+- The owner's personality, expressed through tone of voice and visual energy
+- The production process or material — the grain of a wood surface, the pattern of a hand-folded wrapper, the texture of a specific ingredient
+
+**Unexpected but coherent combinations:**
+- A premium positioning delivered through vernacular lettering — elevating the craft tradition rather than abandoning it
+- A street-food energy channeled through structural restraint — making the directness feel intentional, not accidental
+- A regional visual tradition applied with modernist typographic discipline
+
+**Restraint as distinctiveness:**
+- In a category full of dense, high-stimulation print, a composed and minimal design is distinctive by contrast
+- The decision to use one color, one typeface, and one image — executed with complete commitment — can be more ownable than ten design elements
+
+**Specificity anchors:**
+- A single illustration derived from the owner's specific product (not a generic version of the product category)
+- A color drawn from the product itself or its place of origin, not a palette-generator default
+- A typographic choice rooted in a specific cultural or historical reference that connects genuinely to the business
+
+**Local character used specifically, not generically:**
+- A batik-derived pattern system created from the specific motif of the region where the business is located, not a generic "Indonesian pattern"
+- The vernacular lettering style specific to the city's market signage tradition, observed and translated — not approximated
+
+---
+
+### The Distinctiveness Test
+
+After selecting a creative direction, ask:
+
+> *Would a skilled designer, shown this creative direction — the visual character statement, the key visual qualities, the specificity anchors — be able to identify which business it belongs to, even without seeing the name?*
+
+If the answer is no, the direction is not yet specific enough. Return to Step 4 and sharpen the specificity anchors. A direction that could belong to any bakery is not a direction — it is a category description.
+
+---
+
+## Part 5: Common Failure Modes by Business Type
+
+### Food and Drink (Makanan & Minuman)
+
+**Bakery / Kue:**
+- *Generic failure:* Cream and warm brown palette, script headline, product photo on white background with flour dusting or powdered sugar scatter. The design communicates "bakery" but nothing about which bakery.
+- *Alternative territory A:* Structured editorial approach — bold geometric display type, single strong product photograph with deliberately non-white background, high contrast. The kue treated as a designed object, not a home product.
+- *Alternative territory B:* Illustration-led, derived from the specific product character — a hand-drawn translation of the owner's signature item used as the primary visual element, with supporting type that has warmth without being generic script.
+
+**Minuman (Beverages / Milk Tea / Coffee):**
+- *Generic failure:* Gradient background, centered product shot, trendy rounded sans-serif, pastel palette. Interchangeable across hundreds of competitors.
+- *Alternative territory:* Bold, flat color with a graphic or typographic-led system that uses one strong color drawn from the drink's actual visual character — the brown of the coffee, the specific green of the matcha — applied with discipline.
+
+**Warung / Street Food:**
+- *Generic failure:* Cluttered layout, many colors, small unreadable text, generic food photography. The design signals low investment without the warmth of genuine vernacular.
+- *Alternative territory:* Embrace the vernacular tradition deliberately — a hand-lettered system that is genuinely designed (not approximated), bold hierarchy, a color system that owns its street context with confidence.
+
+---
+
+### Retail and Fashion (Toko & Butik)
+
+**Local Fashion / Clothing:**
+- *Generic failure:* Minimal white background, thin sans-serif, model photography in generic studio setup. Indistinguishable from any other small fashion brand.
+- *Alternative territory:* A design system built around a single strong visual idea derived from the clothing's construction, material, or origin — the texture of the fabric, the specific silhouette of the signature piece.
+
+**General Retail / Toko:**
+- *Generic failure:* Price-led design with no visual identity — every material is a price list in Arial.
+- *Alternative territory:* Build a consistent identity around one visual element (a color, a mark, a typographic style) applied consistently across all price-list materials. The identity system does not require elaborate design — it requires consistency.
+
+---
+
+### Services (Jasa)
+
+**Home Services (Laundry, AC, Renovation):**
+- *Generic failure:* Blue or yellow + white palette, generic service icon, name in bold sans-serif. Communicates "service" but no trust markers.
+- *Alternative territory:* Build on proof — a single statement about how long the business has operated, the number of satisfied customers, or the specific guarantee offered, made visually central. The design communicates the claim, not the category.
+
+**Beauty Services (Salon, Eyelash, Skincare):**
+- *Generic failure:* Rose gold or millennial pink, thin sans-serif, marble texture background, generic beauty stock photography.
+- *Alternative territory A:* A stark, confident system using a single unexpected color (deep terracotta, specific olive, true black) with a strong display typeface — the aesthetic of precision over softness.
+- *Alternative territory B:* An illustration-led identity using a line-drawing style derived from the specific beauty service offered — not generic beauty iconography but the specific tool, gesture, or result that defines this service.
+
+---
+
+### Local Products (Produk Lokal)
+
+**Regional Specialty Products (Keripik, Jamu, Batik-adjacent goods):**
+- *Generic failure:* Generic "ethnic" pattern as background, Javanese or Balinese motif applied without connection to the specific product origin, warm brown palette. Signals "Indonesian craft product" without signaling *this* product.
+- *Alternative territory:* Deep research into the specific regional visual tradition the product belongs to — not decorative approximation but genuine engagement with a specific motif, color system, or craft tradition, then applied with design discipline. The result signals a specific place, not a generic category.
+
+**Health / Herbal Products (Jamu, Wellness):**
+- *Generic failure:* Green + gold palette, leaf motif, serif font, vague claims about "alami" with generic nature photography.
+- *Alternative territory:* Foreground the specific ingredient or process — a bold, close-up illustration or photograph of the specific root, bark, or flower that defines the product, with a direct, confident headline about what it does.
+
+---
+
+### Cross-Category Reminder
+
+The failure modes above share a common structure: **the design communicates the category instead of the business.** The solution is always the same — derive the visual direction from what is specific to this business, and apply it with consistency and commitment.
+
+---
+
+*This framework is used in conjunction with Reference 13 (Design Thinking and Concept Development) and Reference 14 (Visual Language Knowledge Base). The Creative Direction Summary produced by this process feeds directly into Stage 8 (Layout and Composition) and Stage 9 (Typography Application).*
+
+
+
+---
+
 <!-- FILE: assets/brief-template.md -->
 
 # Brief Sheet (design director's working notes)
@@ -3334,14 +4396,26 @@ Same facts, same words across outputs.
 
 ---
 
-## 8. Visual concept (Stage 7)
+## 8. Visual concept & Creative Direction (Stage 7)
 
+- [D] Visual language & tradition (`14-visual-language.md`): [primary tradition + modifying influence, if any]
+- [D] Dimensions profile (`15-creative-direction-framework.md`):
+  - Aesthetic tradition: [vernacular / commercial / modernist / editorial / hybrid]
+  - Emotional register: [warm-intimate / confident-generous / energetic-festive / cool-precise]
+  - Energy level: [restrained / balanced / dynamic / explosive]
+  - Price positioning: [mass-accessible / premium-craft / exclusive]
+  - Cultural register: [deeply local / regional specific / contemporary Indonesian / neutral]
+  - Typographic personality: [sturdy sign-painter / refined serif / bold grotesque / friendly rounded]
+  - Surface & texture: [tactile-organic / matte clean / raw industrial]
+- [D] Candidate territories explored internally: (2-3 distinct territories considered before selection)
 - [D] Concept sentence: *[Single dominant visual idea — what occupies the primary zone and what it communicates], feels [feeling 1] and [feeling 2], for [specific audience], seen at [distance/duration] on [medium]. Visual logic: [why this serves the concept and business].*
 - [D] Concept logic (why this idea, derived from what facts about this business):
-- [D] Concept test: does this concept pass the swap test? Could it only belong to this business?
-- Options offered (if owner unsure): 3-4 named options with descriptions
+- [D] Distinctiveness test:
+  - Avoided category conventions: (e.g. avoided cream+script for bakery, avoided sky blue for laundry)
+  - Avoided generic AI defaults: (no glowing gradients, plastic gloss, centered symmetry)
+  - Passes swap test? Could it only belong to this business? Y/N
+- Options offered (if owner unsure): 3-4 named options from genuinely different traditions with descriptions
 - Direction chosen (or stated as recommendation):
-- Likes / dislikes (from references):
 - Local flavor and region-specific anchors:
 - People in design: Y/N, who, treatment:
 - Space preference and audience-based budget:
@@ -3504,35 +4578,40 @@ Target length 200-450 words (up to about 550 with three or more images). Instruc
 Every sentence must change what the image model produces. No meta-commentary, no process notes, no viewing-context statements that have not been translated into design decisions.
 
 ```
-FORMAT: [physical material and production purpose — e.g. "Printed roadside spanduk, 3×1 m, vinyl tarpaulin"], [aspect ratio and pixels — e.g. "3:1 (3000×1000 px)"].
+FORMAT: [physical medium, e.g. "Printed roadside banner, 3×1 m, vinyl tarpaulin"], [aspect ratio and px, e.g. "3:1 (3000×1000 px)"].
 
-CONCEPT: "[campaign idea, same words in every prompt — derived from Distinction Brief]". [Feeling 1] and [feeling 2]. For [specific audience]. This output's job: [hook / inform / act].
+OBJECTIVE: [one sentence — what this specific output must accomplish for the viewer].
 
-[INCLUDE this block ONLY when images are being attached:]
+CONCEPT: "[campaign idea, same words in every prompt of a set — derived from Distinction Brief]". [Feeling 1] and [feeling 2]. For [specific audience].
+
+CONTENT:
+- [Primary message / headline — exact text quoted verbatim]
+- [Key supporting text — exact text quoted verbatim]
+- [Product or service]
+- [Brand identity — logo or identity treatment]
+- [Any important visual elements or motifs]
+[If text strategy B or C: "Text zone reserved: [description of clean area]. Owner adds [what] there."]
+[If official marks needed: "Reserved space for [mark type]."]
+
+CREATIVE DIRECTION: [The visual concept, personality, mood, aesthetic world, emotional character, and overall feeling the design should project. Derived from the business and informed by 14-visual-language.md and 15-creative-direction-framework.md — not generic style language. 3-6 sentences.]
+
+DESIGN CHARACTER: [What makes this design specifically belong to this business — the ownable visual idea, USP expressed visually, specificity anchors, and what would distinguish it from a competitor using the same format. 2-4 sentences.]
+
+HERO VISUAL: [What the dominant visual element is. Physically specific — not "a dish" but the real thing with its real character. If a photo is attached, say to use it exactly. If generated, describe what it should look like: subject, lighting quality, surface, material feel, angle, texture, what makes it honest and specific rather than generic.]
+
+[If no logo — add LOGO / IDENTITY block:]
+LOGO / IDENTITY: Business name "[name]" rendered in [specific type character — weight, personality, feel, case], [color], [device / treatment — e.g. inside a full-width panel, stamp mark, etc.].
+
+VISUAL SYSTEM (identical in every prompt of this set):
+Type: [headline character — weight, personality, case]; [support character]. Style and material: [photo/illustration, texture, finish, light quality]. Image treatment: [how real photos are handled]. Device: [one recurring graphic element, or none]. Space level: [calm / moderate / dense-but-grouped].
+
+[ATTACHED IMAGES — include ONLY if images are being attached. Omit this block entirely when there are none:]
 ATTACHED IMAGES (attach in this order):
-Image 1 = [what it is, as visible]. Role: [hero / logo / mascot / person / base design / style reference]. Treatment: [keep exactly / cut out and place / clean up / enhance and upscale / illustrate / extend canvas / style-only / revise]. Placement: [zone, anchor, margin]. Size: [about N% of canvas height or width]. Keep unchanged: [...]. May change: [...].
+Image 1 = [what it is]. Role: [hero / brand mark / style reference]. Treatment: [keep exactly / clean up / integrate]. Keep unchanged: [...]. May change: [...].
 Image 2 = ...
 Priority if conflicts: [...].
 
-[OMIT the ATTACHED IMAGES block entirely when there are no images. Write this single line instead:]
-No images are attached; create everything from this description.
-
-HERO VISUAL: [specific subject or "Image 1"], [angle and distance], [surface material and named imperfections], [light source, direction, and quality], [texture and physical detail], [one or two ownable specifics].
-
-COMPOSITION: [zones with positions and percentages]. [Alignment spine — symmetrical or asymmetrical, chosen on purpose]. SPACE: about [N]% of the canvas stays calm and empty ([flat color or quiet surface], no texture or detail), mainly [where]; nothing floats in it; no decorative elements. Margins about [6-8]%. Eye path: [A -> B -> C -> D].
-
-[If no logo — add IDENTITY block:]
-IDENTITY: Business name "[name]" rendered as [specific type character — e.g. heavy condensed slab-serif caps], [color], [treatment — e.g. inside a full-width panel, stamped-ink look with slight texture], at [position and size]. Below it: "[tagline or subline]" in [smaller type character], [color].
-
-TEXT (render exactly as written, in [language], no additional words):
-1. [role] "[exact text]" - [size rank], [type character], [case], [color], [position]
-2. ...
-[Clean empty zone for text added later (strategy B/C only). Reserved empty square for official marks.]
-
-VISUAL SYSTEM (identical in every prompt of this set):
-Palette: [dominant ~60% name+hex]; [support ~30%]; [accent ~10%, used only for ___]. Type: [headline character]; [support character]; [case/weight]. Style and material: [photo/illustration], [named surface texture, finish, light quality]. Image treatment: [how real images are cleaned, cropped, grounded — or if none: how the scene is described]. Device: [one recurring graphic device, or none]. Space level: [calm / moderate / dense-but-grouped].
-
-KEEP / AVOID: Keep [truth constraints]. Avoid [4-6 specific failure modes for this brief — e.g. floating ingredients, glow effects, gradient backgrounds, decorative sparkles, extra invented text, glossy plastic surfaces, stock smiling people].
+EXCLUSIONS: Keep [truth constraints]. Avoid [4-8 specific failure modes for this brief — concrete, not generic].
 ```
 
 ---
@@ -3552,18 +4631,24 @@ Prompt N ([name, ratio]):
 ## Checklist before sending
 
 **Prompt-level:**
+- [ ] Creative Direction Summary existed before writing this prompt
 - [ ] Fully standalone — works pasted alone into a fresh chat
 - [ ] No "same as", "previous", or cross-prompt references
-- [ ] Image numbers local to this prompt only
-- [ ] One hero and one action
-- [ ] Calm-space line present with percentage and location
-- [ ] Exact text quoted, correct, same facts as other prompts
+- [ ] FORMAT block present with physical medium and aspect ratio
+- [ ] OBJECTIVE block present with specific viewer communication task
+- [ ] CONCEPT block present and identical across set
+- [ ] CONTENT block lists what must appear, with exact quoted text
+- [ ] CREATIVE DIRECTION block describes visual world, mood, personality — business-derived, not generic adjectives
+- [ ] DESIGN CHARACTER block specifies what makes this design belong specifically to this business (swap test passed)
+- [ ] HERO VISUAL described with physical specificity (subject, lighting, surface, texture, honesty)
+- [ ] If no logo: LOGO / IDENTITY block present with named type character, color, and device
+- [ ] VISUAL SYSTEM block word-for-word identical in all prompts of the set
 - [ ] ATTACHED IMAGES block present only if images are being attached — omitted entirely otherwise
-- [ ] No meta-commentary or process explanations
-- [ ] Viewing context translated into design decisions, not pasted as-is
-- [ ] No official marks, QR codes, or logos assigned to the model
-- [ ] If strategy A chosen: all essential elements (text, branding, pricing, CTA) are fully specified
-- [ ] If no logo: IDENTITY block present with named type character, color, and device
+- [ ] EXCLUSIONS block has 4-8 specific prohibitions for this brief
+- [ ] No meta-commentary, process explanations, or layout coordinate micromanagement
+- [ ] Viewing context translated into design character, not pasted as-is
+- [ ] No official marks, QR codes, or logos assigned to the model to draw
+- [ ] Text strategy (A/B/C) properly applied (exact text quoted for A; reserved clean zone described for B/C)
 
 **Set-level:**
 - [ ] Visual System block word-for-word identical in all prompts
@@ -3572,9 +4657,7 @@ Prompt N ([name, ratio]):
 - [ ] No prompt depends on another
 
 **Physical print specific:**
-- [ ] Headline type size specified as % of canvas height (not in points — model works in proportions)
-- [ ] Element count within the budget for the viewing duration (roadside = max 3–4 elements; hand-held = up to 5–6)
+- [ ] Physical medium and viewing conditions reflected in design character (scale, contrast, simplicity level)
 - [ ] High value contrast specified for outdoor pieces
-- [ ] No text element smaller than the legibility threshold for the intended viewing distance
-- [ ] Text strategy B confirmed for: spanduk, menu, phone numbers, addresses, legal marks, menus
-- [ ] Production note added to plan (AI output to be upscaled; text/logo added in Canva or printer software)
+- [ ] Text strategy B confirmed for large-format, menus, phone numbers, addresses, legal marks
+- [ ] Production note added to plan (text/logo added in Canva or printer software where appropriate)

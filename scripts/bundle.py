@@ -26,5 +26,18 @@ for sub in ("references", "assets"):
     for f in sorted((skill_dir / sub).glob("*.md")):
         parts.append(f"\n\n---\n\n<!-- FILE: {sub}/{f.name} -->\n\n" + f.read_text(encoding="utf-8"))
 
+import zipfile
+
 out.write_text("\n".join(parts), encoding="utf-8")
 print(f"Wrote {out} ({out.stat().st_size // 1024} KB)")
+
+# Also build the .skill bundle zip if default destination was used
+if len(sys.argv) <= 1:
+    skill_zip = root / "siap-pakai" / "umkm-design-director.skill"
+    with zipfile.ZipFile(skill_zip, "w", zipfile.ZIP_DEFLATED) as z:
+        for file in sorted(skill_dir.rglob("*")):
+            if file.is_file():
+                arcname = f"umkm-design-director/{file.relative_to(skill_dir).as_posix()}"
+                z.write(file, arcname)
+    print(f"Wrote {skill_zip} ({skill_zip.stat().st_size // 1024} KB)")
+

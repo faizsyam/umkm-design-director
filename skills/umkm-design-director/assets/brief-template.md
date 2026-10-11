@@ -100,14 +100,26 @@ Same facts, same words across outputs.
 
 ---
 
-## 8. Visual concept (Stage 7)
+## 8. Visual concept & Creative Direction (Stage 7)
 
+- [D] Visual language & tradition (`14-visual-language.md`): [primary tradition + modifying influence, if any]
+- [D] Dimensions profile (`15-creative-direction-framework.md`):
+  - Aesthetic tradition: [vernacular / commercial / modernist / editorial / hybrid]
+  - Emotional register: [warm-intimate / confident-generous / energetic-festive / cool-precise]
+  - Energy level: [restrained / balanced / dynamic / explosive]
+  - Price positioning: [mass-accessible / premium-craft / exclusive]
+  - Cultural register: [deeply local / regional specific / contemporary Indonesian / neutral]
+  - Typographic personality: [sturdy sign-painter / refined serif / bold grotesque / friendly rounded]
+  - Surface & texture: [tactile-organic / matte clean / raw industrial]
+- [D] Candidate territories explored internally: (2-3 distinct territories considered before selection)
 - [D] Concept sentence: *[Single dominant visual idea — what occupies the primary zone and what it communicates], feels [feeling 1] and [feeling 2], for [specific audience], seen at [distance/duration] on [medium]. Visual logic: [why this serves the concept and business].*
 - [D] Concept logic (why this idea, derived from what facts about this business):
-- [D] Concept test: does this concept pass the swap test? Could it only belong to this business?
-- Options offered (if owner unsure): 3-4 named options with descriptions
+- [D] Distinctiveness test:
+  - Avoided category conventions: (e.g. avoided cream+script for bakery, avoided sky blue for laundry)
+  - Avoided generic AI defaults: (no glowing gradients, plastic gloss, centered symmetry)
+  - Passes swap test? Could it only belong to this business? Y/N
+- Options offered (if owner unsure): 3-4 named options from genuinely different traditions with descriptions
 - Direction chosen (or stated as recommendation):
-- Likes / dislikes (from references):
 - Local flavor and region-specific anchors:
 - People in design: Y/N, who, treatment:
 - Space preference and audience-based budget:

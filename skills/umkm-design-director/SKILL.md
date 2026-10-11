@@ -159,23 +159,28 @@ Do not jump from information-gathering to choosing colors. First develop a **con
 
 Read `references/13-design-thinking.md` Stage 7 section for the concept-development method.
 
+**Before developing the concept, read `references/14-visual-language.md`** for the vocabulary of visual traditions and their emotional, cultural, and communicative characteristics. Then read `references/15-creative-direction-framework.md` to understand how to reason across multiple design dimensions and select a direction that is coherent and distinctive.
+
 The concept answers: *What visual idea can communicate this business, message, audience, and objective most effectively?*
 
 A concept is not a style. "Modern, clean, and colorful" is a style description. A concept has an idea — a specific, ownable visual thought that could only belong to this business.
+
+**Internally explore at least two genuinely different creative territories** before selecting one. Different traditions, different energy levels, different cultural registers — not just color variations. Select the direction that best fits this specific business, audience, and physical context. Do not expose this exploration to the owner unless they ask for alternatives.
 
 Test any concept candidate against:
 - Does it come from the actual business (its product, story, place, people)?
 - Does it serve the communication objective?
 - Does it suit the audience's visual language?
 - Would it look wrong if used for a competitor?
+- Does it risk being generic — relying on category convention or AI aesthetic defaults?
 
-Gate: A named concept exists. Direction sentence written and accepted.
+Gate: A named concept exists. Direction sentence written and accepted. Swap test passed on the concept itself.
 
 ### Stage 8: Establish the visual direction
 
 Only after the concept is established: determine visual execution.
 
-Read `references/04-design-principles.md`, `references/05-color-and-culture.md`, `references/06-typography.md`, `references/07-business-archetypes.md`.
+Read `references/04-design-principles.md`, `references/05-color-and-culture.md`, `references/06-typography.md`, `references/07-business-archetypes.md`, and `references/15-creative-direction-framework.md` (Part 1 design dimensions).
 
 Determine in this order:
 1. **Color direction** — derived from brand, product, audience, and concept. Not chosen for taste.
@@ -323,20 +328,21 @@ Missing Should fields become stated assumptions ("Asumsi saya") in the plan.
 
 ## Visual concept development (Stage 7 in detail)
 
-Stage 7 is mandatory. Read `references/13-design-thinking.md` Sections 4 and 5 before this stage.
+Stage 7 is mandatory. Read `references/13-design-thinking.md` Sections 4 and 5 before this stage. Read `references/14-visual-language.md` (visual traditions and their characteristics) and `references/15-creative-direction-framework.md` (multi-dimensional reasoning) before developing the concept. These are not optional — they are the knowledge base that prevents the design from defaulting to category conventions or AI aesthetics.
 
 A visual concept is the organizing idea. It answers: *What visual idea can communicate this specific business, to this specific audience, for this specific objective, in this specific physical environment?*
 
-**If the owner knows their direction:** confirm it fits the Distinction Brief and the physical context. Write the concept sentence.
+**If the owner knows their direction:** confirm it fits the Distinction Brief and the physical context. Check that it is not simply a category convention (use `references/14-visual-language.md` and `references/15-creative-direction-framework.md` Part 4 to assess). Write the concept sentence.
 
 **If the owner says "terserah" or "belum tahu":**
-1. Do not ask an open-ended question. Derive 3-4 concrete named options from `references/07-business-archetypes.md`, the Distinction Brief, the audience, and the physical context.
-2. Describe each as a plain-language image-in-words: what the physical piece will look like and feel like.
-3. Mark one "(Rekomendasi)" with a one-line reason tied to their specific business, audience, and viewing context.
-4. If they still cannot choose, apply the recommendation and state it clearly.
-5. Never loop.
+1. Do not ask an open-ended question. Derive 3-4 concrete named options from the Distinction Brief, the audience, the physical context, and the visual traditions in `references/14-visual-language.md`.
+2. The options must be **genuinely different** — different visual traditions, different energy levels, or different cultural registers. Do not offer variations of the same direction.
+3. Describe each as a plain-language image-in-words: what the physical piece will look like and feel like.
+4. Mark one "(Rekomendasi)" with a one-line reason tied to their specific business, audience, and viewing context.
+5. If they still cannot choose, apply the recommendation and state it clearly.
+6. Never loop.
 
-**Concept sentence format:** *[Single dominant visual idea — what occupies the primary zone and what it communicates], feels [feeling 1] dan [feeling 2], for [specific audience], seen at [distance/duration] on [physical medium]. Visual logic: [one sentence — why this composition serves the concept and the business].*
+**Concept sentence format:** *[Single dominant visual idea — what occupies the primary zone and what it communicates], feels [feeling 1] dan [feeling 2], for [specific audience], seen at [distance/duration] on [physical medium]. Visual logic: [one sentence — why this concept serves the business and the communication objective].*
 
 This sentence becomes the test for every subsequent design decision.
 
@@ -384,6 +390,14 @@ State A, B, or C explicitly with a reason in the plan and in the prompt. Do not 
 - [ ] Subtraction pass complete — nothing decorative without a purpose
 - [ ] Viewer simulation complete ("2 seconds from distance → closer → reading")
 - [ ] Space character decided and expressible in one sentence
+
+**Creative direction distinctiveness:**
+- [ ] At least two genuinely different creative territories were considered internally before the direction was selected
+- [ ] The selected direction does not rely on category conventions (e.g. "bakery = cream + script", "laundry = sky blue", "warung = hand-painted sign")
+- [ ] The selected direction does not rely on AI aesthetic defaults (gradient fills, plastic gloss, centered symmetry, generic commercial photography)
+- [ ] The visual tradition(s) chosen were informed by `references/14-visual-language.md` — not selected by default
+- [ ] The combination of design dimensions forms a coherent identity, not a random mix of fashionable attributes
+- [ ] The distinctiveness test passes: a skilled designer shown this creative direction (without the name) could identify which business it belongs to
 
 **Hierarchy and composition:**
 - [ ] One hero per output
@@ -451,6 +465,10 @@ State A, B, or C explicitly with a reason in the plan and in the prompt. Do not 
 - Do not treat a missing logo as a gap; develop an identity treatment instead.
 - Do not add design rationale, reasoning, or process explanation inside the final prompt.
 - Do not instruct the owner to add content to intentionally empty areas unless text strategy B or C was explicitly chosen.
+- Do not map business category directly to visual style (warung → hand-painted sign; bakery → cream and script; laundry → sky blue). Category tells you what to communicate; the specific business tells you how to communicate it.
+- Do not develop a concept or creative direction without first reading `references/14-visual-language.md` and `references/15-creative-direction-framework.md`. These are mandatory at Stage 7.
+- Do not offer concept options that are merely color or font variations of the same direction. Options must differ in visual tradition, energy level, or cultural register.
+- Do not describe a creative direction using only vague adjectives ("modern," "premium," "eye-catching," "professional"). Replace each adjective with a specific sensory or emotional description derived from the business.
 
 ## Reference map
 
@@ -462,11 +480,13 @@ State A, B, or C explicitly with a reason in the plan and in the prompt. Do not 
 | `references/04-design-principles.md` | Stages 8-9: perception, space, hierarchy, psychology, composition |
 | `references/05-color-and-culture.md` | Stages 7-8: color direction, Indonesian context, audience |
 | `references/06-typography.md` | Stages 8-11: physical type scale, viewing distance, legibility |
-| `references/07-business-archetypes.md` | Stages 2, 7, 8: starting concepts, materials, slop traps |
+| `references/07-business-archetypes.md` | Stages 2, 7, 8: trust drivers, hero elements, slop traps by category |
 | `references/08-formats-and-platforms.md` | Stages 5-11: physical formats, viewing context, print constraints |
 | `references/09-output-sets.md` | Stages 4, 8, 11: multiple outputs, shared Visual System |
 | `references/10-anti-slop.md` | Stages 8-12: slop causes, specificity, realistic imagery |
 | `references/11-prompt-assembly.md` | Stage 12: creative-direction-first rule, template, text strategy, examples |
 | `references/12-review-and-iteration.md` | Stage 13: review, fidelity checks, fixes |
 | `references/13-design-thinking.md` | Stages 6-10: professional design reasoning, concept development, viewer simulation, Creative Direction Summary |
+| `references/14-visual-language.md` | **Stage 7 (mandatory):** visual traditions, aesthetic profiles, emotional character, cultural associations, communication strengths and risks — the knowledge base for informed creative direction selection |
+| `references/15-creative-direction-framework.md` | **Stages 7-8 (mandatory):** multi-dimensional design reasoning, creative direction selection process, combination profiles, distinctiveness as a design objective, failure modes by category |
 | `assets/brief-template.md` | Working sheet: track all decisions and their reasons |

@@ -108,6 +108,12 @@ Physical context translates into the *character* of the design, not into technic
 
 A concept is the organizing idea. It is not a style. It is not a mood. It is an **idea that has logic** — a specific visual thought that could only belong to this business, communicating to this audience, in this context.
 
+### Before starting: build a visual vocabulary for this specific brief
+
+Read `references/14-visual-language.md` to understand what visual traditions, aesthetics, and design languages are available — each with their emotional character, cultural associations, communication strengths, and limitations. Read `references/15-creative-direction-framework.md` to understand how to reason across multiple design dimensions simultaneously and select a direction that is coherent and distinctive.
+
+These files are not a style menu. They provide vocabulary and reasoning tools for exploring genuinely different creative territories — not for matching business category to style template.
+
 ### Concept vs style: a critical distinction
 
 **Style:** "Modern, clean, bold, warm, professional."
@@ -134,16 +140,26 @@ What is the real thing this design is communicating? Not "discount promo" but wh
 **Step 2: Find the visual metaphor.**
 What physical or visual idea captures that emotional truth? Not a color or font — a *visual idea*. "A single confident object against space." "The texture of something made by hand." "The clarity of something with nothing to hide." "The energy of something that moves fast."
 
-**Step 3: Test against the business.**
+Consult `references/14-visual-language.md` here — which visual traditions carry this emotional quality? Are there traditions from the owner's cultural context that would make this feel more specific and rooted? Are there unexpected but coherent combinations that could make this design genuinely distinctive?
+
+**Step 3: Explore at least two genuinely different territories internally.**
+Before committing to a direction, consider whether a different visual tradition, energy level, or cultural register could serve the concept equally well or better. Refer to `references/15-creative-direction-framework.md` Part 2 for combination profiles. The goal is not to generate options for the owner — it is to ensure the selected direction is the best fit, not just the most obvious one.
+
+A different territory does not mean a radically different style for its own sake. It means: if the obvious direction is "warm vintage bakery," what would a contemporary editorial approach do with the same emotional truth? Which serves this specific audience and physical context better?
+
+**Step 4: Test against the business.**
 Does this idea come from something true about this business? The product, the process, the location, the person, the history? If the concept could be given to any business in the category, it is not a concept yet.
 
-**Step 4: Test against the audience.**
+**Step 5: Test against the audience.**
 Does this visual idea speak the language this audience recognizes? Does it signal the right things (trust, value, quality, energy, authenticity) to the specific people who will see it?
 
-**Step 5: Test against the physical context.**
+**Step 6: Test against the physical context.**
 Does this concept survive the viewing conditions? A subtle, text-heavy concept may fail on a roadside spanduk. An energetic, maximalist concept may feel wrong for a quiet premium package.
 
-**Step 6: Write the concept sentence.**
+**Step 7: Check for generic failure modes.**
+Consult `references/15-creative-direction-framework.md` Parts 4 and 5. Does this direction rely on category conventions, AI aesthetic defaults, or fashionable but irrelevant visual effects? If so, either use an unexpected but coherent combination, or add specificity anchors that make the direction belong only to this business.
+
+**Step 8: Write the concept sentence.**
 *[Concrete visual idea], feels [feeling 1] and [feeling 2], looks like [one concrete physical reference], for [audience], seen on [physical medium] from [viewing context].*
 
 This sentence becomes the test for every subsequent design decision.
@@ -155,10 +171,11 @@ Do not ask "what style do you like?" Most small-business owners cannot answer th
 Instead: derive the most likely concept from:
 1. The business archetype and its audience (`references/07-business-archetypes.md`)
 2. The Distinction Brief — the USP, proof, and desired perception
-3. The physical context — where and how the piece will be seen
-4. What competitors in this space are doing (and therefore what territory is open)
+3. The visual tradition and emotional character that fits the specific business (`references/14-visual-language.md`)
+4. The physical context — where and how the piece will be seen
+5. What competitors in this space are doing (and therefore what territory is open)
 
-Offer 3-4 named options, each with a one-sentence description of what the physical piece will actually look like. Mark one as recommended with a specific reason tied to their business.
+Offer 3-4 named options, each with a one-sentence description of what the physical piece will actually look like. Mark one as recommended with a specific reason tied to their business. The options should be genuinely different from one another — different visual traditions, energy levels, or cultural registers — not just color variations.
 
 ---
 
