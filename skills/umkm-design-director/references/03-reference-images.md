@@ -59,7 +59,7 @@ If photos are truly not possible, continue without them but use a stylized, clea
 - **Check that each image is actually visible in the conversation.** A message that says "ini fotonya" does not mean a file arrived. If you cannot see it, ask to send again.
 - **Number images in upload order** ("Gambar 1, Gambar 2...") and confirm the numbering and roles with the owner in one line: "Gambar 1 saya pakai sebagai bintang, Gambar 2 logo. Betul?" These numbers will be used in the prompt, so the owner must attach in the same order.
 - **Ownership and consent check** (section 14), phrased lightly.
-- **Late arrivals are fine.** Images may arrive at any stage. Analyze, update the Brief Sheet, and revisit only the decisions they affect (palette, hero, composition, text strategy). Tell the owner what changed and why.
+- **Late arrivals are fine.** Images may arrive at any stage. Analyze, update the Brief Sheet, and revisit only the decisions they affect (palette, hero, composition, layout hierarchy). Tell the owner what changed and why.
 - **Too many images.** Keep only those with a clear job; recommend at most 3-5 attachments and explain that every image must earn its place (inclusion test).
 
 ## 5. Analyzing each image
@@ -117,7 +117,7 @@ Run this adaptation pass in Stage 6 before establishing the visual system, once 
 | Mascot style | Set type character and graphic devices to match (round mascot → friendly rounded type) |
 | Existing design strengths | Preserve what customers already recognize (logo, color, one signature device) |
 | Storefront photo | Setting, sign lettering style, palette, specificity anchors |
-| Quality limits | Treatment plan, text zone strategy, print resolution advice |
+| Quality limits | Treatment plan, typography and layout adaptation, print resolution advice |
 | Target ratio vs photo ratio | Crop, extend canvas, or choose another hero crop |
 
 Write the result in the plan in one or two lines per material ("Gambar 1: bintang, dibersihkan latarnya, dibiarkan apa adanya. Gambar 2: logo, sudut atas dengan ruang aman").
@@ -132,7 +132,7 @@ Triggered when the owner shares a current poster, banner, menu, or post to impro
    - **Refine:** same layout and look; fix hierarchy, spacing, readability, remove clutter, correct text.
    - **Restructure:** keep assets, message, and brand cues; new layout and hierarchy.
    - **Rebuild:** new concept; keep only logo, product, and mandatory content.
-4. **Treat text carefully.** Image models editing an image often alter or garble text. For text-heavy designs, extract all text, confirm it with the owner, and either rebuild with new layout (quoting the text in the prompt) or fix text in an editor (strategy B/C). Never promise "edit in place" for dense text.
+4. **Treat text carefully.** Image models editing an image often alter or garble text. For text-heavy designs, extract all text, confirm it with the owner, and rebuild with clean hierarchy quoting the verbatim text in the prompt for complete final artwork. If the owner specifically requests a blank background template or if the tool repeatedly fails dense text, provide an editor fallback upon their request. Never promise "edit in place" for dense text.
 5. **State a keep/change contract in the prompt** (section 10, example 5) and give the owner a one-line "what changed and why" for the plan.
 6. **Shortcut the interview.** Questions about audience, goal, and content still matter, but start from what the design already says and ask only what is missing or contradictory.
 
@@ -192,9 +192,9 @@ No images are attached; create everything from this description.
 
 Ask which AI tool the owner will use and whether it accepts several images. Adapt:
 - **Accepts uploads and edits (common):** use the blocks above; attach in listed order; keep to the tool's limit by dropping the lowest-priority images.
-- **Accepts one image only:** make the product the one attachment; add the logo and any text afterwards in an editor; describe style references in words.
-- **No image input:** describe the product exactly and generate only a background with a clean zone; composite the real photo and logo in an editor (text strategy B).
-- **The tool alters the product, logo, or text:** use cutout-and-composite; keep the AI's job to the background and mood.
+- **Accepts one image only:** make the product the one attachment; describe style references in words; integrate text directly into the prompt for final artwork.
+- **No image input:** describe the product and business exactly in the prompt, rendering the complete final artwork in one generation. If the owner explicitly requests manual compositing, only then reserve a clean zone for post-editing.
+- **The tool alters the product, logo, or text:** try simplifying the prompt to fewer elements; if issues persist or if the owner prefers, suggest cutout-and-composite in an external editor as a fallback.
 - Always tell the owner how to verify fidelity after generation (review file, fidelity check).
 
 ## 12. Handoff checklist (always give it with each prompt)

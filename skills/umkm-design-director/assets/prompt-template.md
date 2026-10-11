@@ -19,8 +19,7 @@ CONTENT:
 - [Product or service]
 - [Brand identity — logo or identity treatment]
 - [Any important visual elements or motifs]
-[If text strategy B or C: "Text zone reserved: [description of clean area]. Owner adds [what] there."]
-[If official marks needed: "Reserved space for [mark type]."]
+- [All copy and graphic elements rendered directly into final artwork — no blank reserved text zones]
 
 CREATIVE DIRECTION: [The visual concept, personality, mood, aesthetic world, emotional character, and overall feeling the design should project. Derived from the business and informed by 14-visual-language.md and 15-creative-direction-framework.md — not generic style language. 3-6 sentences.]
 
@@ -76,8 +75,8 @@ Prompt N ([name, ratio]):
 - [ ] EXCLUSIONS block has 4-8 specific prohibitions for this brief
 - [ ] No meta-commentary, process explanations, or layout coordinate micromanagement
 - [ ] Viewing context translated into design character, not pasted as-is
-- [ ] No official marks, QR codes, or logos assigned to the model to draw
-- [ ] Text strategy (A/B/C) properly applied (exact text quoted for A; reserved clean zone described for B/C)
+- [ ] No fake regulatory certificates or functional QR codes invented; graphic badges kept clean
+- [ ] Final artwork confirmed: all text quoted verbatim for complete in-image rendering without reserved text zones (unless user specifically requested a blank template)
 
 **Set-level:**
 - [ ] Visual System block word-for-word identical in all prompts
@@ -88,5 +87,5 @@ Prompt N ([name, ratio]):
 **Physical print specific:**
 - [ ] Physical medium and viewing conditions reflected in design character (scale, contrast, simplicity level)
 - [ ] High value contrast specified for outdoor pieces
-- [ ] Text strategy B confirmed for large-format, menus, phone numbers, addresses, legal marks
-- [ ] Production note added to plan (text/logo added in Canva or printer software where appropriate)
+- [ ] Final artwork verified: complete in-image typography and layout; no post-edits required
+- [ ] Typographic scale verified for physical viewing distance

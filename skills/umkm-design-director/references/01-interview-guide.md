@@ -67,7 +67,7 @@ Never use multi-select when only one answer is possible. Never force single-sele
 | Viewing distance | jarak saat orang biasanya melihat ini | how far away the viewer typically is |
 | Print-ready | siap cetak | file is ready to send to the printer |
 | Bleed | sisa tepi supaya gak putih setelah dipotong | edge extension for cutting |
-| Text strategy B | teks ditambah sendiri di Canva atau percetakan | add text yourself after AI generates the background |
+| Final artwork | karya final lengkap dengan tulisan | complete finished image with in-image text, no post-edits |
 
 ---
 
@@ -220,7 +220,7 @@ Rules:
 - **Trim to the medium.** A roadside spanduk can carry 5–6 words. A flyer can carry 40–60. If content exceeds the budget, offer to shorten: "Biar kebaca dari jalan, saya ringkas jadi ini. Boleh?"
 - **Offer wording.** If they have no headline, give 2–3 options in their voice that carry the USP and proof. Not "Nikmati kelezatan terbaik." Something specific: "Kuah sapi, direbus 8 jam."
 - **Same fact, same words** across outputs.
-- **Phone numbers, addresses, exact dates:** always added manually after AI generation (text strategy B or C for print).
+- **Phone numbers, addresses, exact dates:** rendered directly in the final artwork; control length strictly so the model renders them legibly. Post-editing is used only if the owner specifically requests to add them manually.
 
 **Gate:** For every text element marked Mandatory, exact wording confirmed in owner's own words. No placeholder invented by the system for mandatory content — if the owner has not confirmed it, ask rather than fill it in. Optional fields may be left blank or marked "tambah sendiri nanti".
 

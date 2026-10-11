@@ -74,7 +74,7 @@ Local lettering is a rich anchor: hand-painted warung boards, angkot and truck l
 - Use one consistent format everywhere: `Rp 55.000` or `55rb`; do not mix. Prefer large number, small unit.
 - Show the comparison when it helps: old price struck through smaller, new price large, savings stated once ("hemat Rp 10.000").
 - Limit price points on a promo to what viewers can compare in a glance (1-3). Menus use aligned right-hand price columns, not scattered prices.
-- Phone/WhatsApp numbers: grouped in readable blocks (0812-3456-7890), large enough, high contrast, placed at the end of the reading path. Prefer adding them manually after generation (text strategy B/C).
+- Phone/WhatsApp numbers: grouped in readable blocks (0812-3456-7890), large enough, high contrast, placed at the end of the reading path.
 - Dates: use unambiguous format ("s/d Minggu, 12 Okt" or "12-14 Oktober").
 
 ## 6. Indonesian-specific notes
@@ -88,9 +88,9 @@ Local lettering is a rich anchor: hand-painted warung boards, angkot and truck l
 
 ## 7. Text on photos and backgrounds
 
-- Reserve a **text zone** in the composition: a calm area (sky, wall, tabletop, blurred background) of ~25-40% of the canvas, or a solid panel.
-- If the background is busy, add a panel or tonal overlay and say so in the prompt.
-- Keep a margin (about 5-8% of canvas) so text does not touch edges or platform UI.
+- Provide a **calm typographic area** in the composition: a calm surface (sky, wall, tabletop, or flat panel) where the rendered text sits with maximum legibility and contrast.
+- If the background is busy, specify a solid panel or tonal overlay in the prompt.
+- Keep a margin (about 5-8% of canvas) so text does not touch edges.
 - Do not wrap text around complex silhouettes.
 - Never put text over faces or the product's key detail.
 
@@ -99,9 +99,9 @@ Local lettering is a rich anchor: hand-painted warung boards, angkot and truck l
 Image models can still misspell, merge letters, or invent extra words, especially with long text, small text, numbers, and non-English words.
 
 Reduce risk:
-1. Put exact text in quotes in the prompt and add: "render this text exactly as written, no additional words".
+1. Put exact text in quotes in the prompt and add: "render this text exactly as written, in Indonesian, no additional words".
 2. Limit the number of text elements (aim for 3-5).
 3. Keep each line short; large sizes render more accurately.
-4. Put phone numbers, addresses, URLs, QR codes, legal marks, and fine print outside the AI image (strategy B/C).
+4. Keep secondary text and contact details concise and bold; only leave content for manual editing if the user explicitly requested a blank template.
 5. Always proofread character by character after generation: name, price, dates, number, spelling.
-6. If one word is wrong, regenerate with a one-change prompt or fix it in Canva rather than accepting an error.
+6. If one word is wrong, regenerate with a targeted one-change prompt rather than accepting an error.

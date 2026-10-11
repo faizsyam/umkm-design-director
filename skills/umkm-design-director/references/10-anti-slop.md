@@ -69,7 +69,7 @@ Knowing *why* a tell exists is more useful than just recognizing it.
 
 | Tell | Root cause | Fix |
 |---|---|---|
-| Garbled, doubled, or invented words | Too much text, too small, or unreliable tool | Fewer, larger, quoted text lines; critical details added in editor (text strategy B) |
+| Garbled, doubled, or invented words | Too much text, too small, or unreliable tool | Fewer, larger, quoted text lines for clean in-image rendering; editor fallback only on explicit request |
 | Three or more font styles | Default when no type system specified | Two type characters maximum, each with a defined role |
 | Low-contrast text over busy imagery | Background not planned as a text surface | Specify a flat panel or calm zone for all text in the composition |
 | Chrome, gradient, or glow effects on text | "Premium" text treatment default | Specify plain high-contrast text; name the failure to exclude |
@@ -98,9 +98,9 @@ Knowing *why* a tell exists is more useful than just recognizing it.
 | Generic stock people | Real photo with consent, or specific description (age, clothing, setting, genuine expression), or no people — stated in HERO VISUAL |
 | Generic food gloss | Honest, credible imagery described with surface, light direction, texture, realistic proportions — the character of the product, not the look of advertising |
 | Many fonts | Two type characters with defined personalities, each traceable to the concept |
-| Garbled text | Short, quoted lines in CONTENT block; critical details reserved for editor (text strategy B) |
+| Garbled text | Short, quoted lines in CONTENT block; tight word budget for complete in-image generation |
 | Generic copy | Concrete copy from USP and proof: specific number, ingredient, time, place, or process — stated in CONTENT |
-| Invented logo / marks | Reserved placeholder; owner adds real logo and official marks after generation |
+| Invented logo / marks | Attach real logo via reference or render brand name in clean type; never invent fake certification badges |
 | Wrong cultural details | Named, specific, region-correct details from the owner's own context |
 | No visual direction | Concept sentence from Stage 7 carried into CREATIVE DIRECTION and DESIGN CHARACTER blocks |
 

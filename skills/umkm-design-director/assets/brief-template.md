@@ -112,9 +112,9 @@ Color direction & palette: Described in Creative Direction (Stage 7), derived fr
 - Closer reading: Essential details & action clear?
 
 **Production specs per output:**
-| Output | Medium & Size | Job | Text strategy (A/B/C) & Reason | Bleed / Safe zone | Official marks placeholder |
-|---|---|---|---|---|---|
-| P1 | | | | | |
+| Output | Medium & Size | Job | Final in-image specs (default complete artwork; post-edit only if requested) | Bleed / Safe zone |
+|---|---|---|---|---|
+| P1 | | | | |
 
 ---
 
@@ -131,13 +131,13 @@ Produce one summary per output before writing prompts. Captures the creative bri
 **Pre-prompt checklist:**
 - [ ] Creative Direction Summary completed and passes swap test
 - [ ] Gives image model creative freedom to compose without coordinate micromanagement
-- [ ] Exact text confirmed verbatim; text strategy assigned with reason
+- [ ] Exact text confirmed verbatim; final artwork confirmed with complete in-image typography
 
 ---
 
 ## 8. Output List & Handoff (Stage 8)
 
-| ID | Name | Physical format | Dimensions / px | Job | Text strategy | Images to attach (local numbering) |
+| ID | Name | Physical format | Dimensions / px | Job | Artwork mode (Final integrated) | Images to attach (local numbering) |
 |---|---|---|---|---|---|---|
 | P1 | | | | | | |
 

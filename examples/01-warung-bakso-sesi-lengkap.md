@@ -33,7 +33,7 @@ Contoh ini menunjukkan alur skill: menggali keunggulan usaha, menanyakan gambar 
 
 **U:** Keluarga dan pekerja pabrik siang. Pakai ChatGPT, bisa unggah banyak gambar.
 
-**S:** Terakhir: alamat dan jam buka berapa? Logo halal harus yang resmi, jadi nanti Kakak tempel sendiri; saya sisakan kotaknya.
+**S:** Terakhir: alamat dan jam buka berapa?
 
 **U:** Jl. Kemuning, Klaten, buka 10.00-21.00.
 
@@ -47,7 +47,7 @@ Contoh ini menunjukkan alur skill: menggali keunggulan usaha, menanyakan gambar 
 - **Arah kreatif:** Biru gerobak Pak Darto yang khas — bukan biru generik laundry, tapi biru cat kayu yang sudah lama ada di Jl. Kemuning. Hangat dan langsung seperti warung yang sudah dipercaya bertahun-tahun.
 - **Sistem visual (sama di semua gambar):** Huruf cat tangan ala papan warung; foto asli tidak diubah; satu label krem hanya di balik penawaran; ruang tenang dan lega di sekitar bintang.
 - **Pemakaian gambar:** foto bakso = bintang (dibersihkan latarnya); foto gerobak = latar story; logo = ditempel apa adanya.
-- **Teks:** sebagian di dalam gambar (judul, penawaran, alamat); logo halal ditempel sendiri oleh Kakak.
+- **Teks:** Semua tulisan utama (judul, penawaran, alamat, jam buka) dirender langsung utuh di dalam gambar (karya akhir langsung jadi).
 - **Asumsi saya:** foto bakso cukup tajam untuk dipakai langsung.
 
 ## Daftar output
@@ -73,7 +73,6 @@ CONTENT:
 - Address: "Jl. Kemuning, Klaten — buka 10.00–21.00"
 - Hero: bowl of bakso urat with real meatball (Image 1)
 - Brand: business logo (Image 2), upper area
-- Reserved space: small empty area, lower-right corner, for official halal logo added by owner
 Render all text exactly as written, in Indonesian, no additional words.
 
 CREATIVE DIRECTION: A warm, confident promo built around one honest product and one striking proof — the meatball the size of a tennis ball. The overall feeling is jujur dan royal: the design of a neighborhood warung that has served the same street for years, direct and unpretentious. Deep cart-blue fills the field — not generic blue, but the specific blue of Pak Darto's wooden gerobak, worn and familiar. The real bowl stands as the quiet hero; the sign-painter headline carries the proof; a single cream label frames the offer. Generous breathing room around the bowl signals confidence. The design looks like something made by a person who knows their food is good and does not need to shout.
@@ -115,7 +114,6 @@ CONTENT:
 - Address: "Mampir: Jl. Kemuning, Klaten"
 - Hero: bowl of bakso urat with real meatball (Image 1), resting on the cart counter from Image 2
 - Brand: business logo (Image 3), upper area inside safe zone
-- Reserved space: small empty area, lower-right inside safe zone, for official halal logo added by owner
 Render all text exactly as written, in Indonesian, no additional words. Keep all text and logo inside the central safe zone (avoid top and bottom 15% of the canvas).
 
 CREATIVE DIRECTION: A warm, direct vertical composition built around the promise and the proof. The dominant feeling is the same honest confidence as the feed — this is the same warung, the same cart, the same bowl — but the story format pushes the deadline forward and gives the viewer one clear action. The softened gerobak biru fills the upper half as a quiet, familiar backdrop; the bowl sits grounded on the actual cart counter; the headline and offer are the things that must register in two seconds. Generous calm space in the upper right keeps the design from feeling crowded. The overall character is warm and local — the feeling of walking past a familiar cart and deciding today is the day.
@@ -146,7 +144,7 @@ EXCLUSIONS: Keep bowl, meatballs, broth, cart character, and logo exactly as pro
 ## Cara pakai
 1. Buka ChatGPT (chat baru untuk tiap prompt lebih rapi). **Salin Prompt 1, lampirkan gambar sesuai urutannya, lalu kirim bersamaan.** Ulangi untuk Prompt 2.
 2. Cek tulisan huruf demi huruf: "BAKSO SEGEDE BOLA TENIS", "GRATIS", alamat, jam buka.
-3. Tempel logo halal resmi di area kosong (Canva), lalu bandingkan kedua gambar berdampingan sebelum posting.
+3. Bandingkan kedua gambar berdampingan sebelum posting; seluruh gambar sudah lengkap dan siap pakai tanpa perlu diedit ulang.
 
 ## Kenapa ini tidak terlihat seperti AI pasaran
 - **Beda dari pesaing dengan sengaja:** pesaing ramai dan merah; ini lega dan biru dengan satu bintang.

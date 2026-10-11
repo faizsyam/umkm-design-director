@@ -26,8 +26,7 @@ A design that looks beautiful on a screen can fail completely when printed at ac
 - Viewing angle: often horizontal and slightly upward if hung high
 - Material: vinyl tarpaulin (terpal), matte preferred for sun
 - Text budget: **3–6 words maximum** for roadside; 6–10 words for sidewalk-facing; one phone number
-- Text strategy: **B** (text zones, add text in printer or Canva)
-- Production: deliver as background art; add text and logo in printer software at actual size
+- Production: Complete in-image artwork (no post-edits, no blank text zones reserved; all typography rendered directly)
 
 **Billboard-scale (gedung, jalan utama)**
 - Similar to roadside spanduk, but at even greater distance
@@ -37,7 +36,7 @@ A design that looks beautiful on a screen can fail completely when printed at ac
 - Dimensions: 2×2 m, 2×3 m, 3×4 m (custom)
 - Viewed from 1–3 m, photos taken in front
 - Text budget: name and logo large; supporting text minimal
-- Text strategy: B or hybrid
+- Production: Complete in-image artwork
 
 ---
 
@@ -187,7 +186,7 @@ These are things the designer understands internally and applies to the design d
 - Bleed: 3 mm extension beyond the trim edge (prevents white edges after cutting)
 - Safe margin: 5–8 mm inward from trim edge (prevent important content from being cut)
 - In AI-generated images, these zones are conceptual — the design must have clear margins built in
-- For print production, the owner adds the real file bleed in Canva or the printer's software
+- Keep clear margins inside the canvas so edge trimming at print does not cut into typography or key elements
 
 **Color mode:**
 - Screen: RGB
@@ -197,8 +196,9 @@ These are things the designer understands internally and applies to the design d
 - If color accuracy is critical (brand logo colors), request a proof from the printer
 
 **Text in print:**
-- For any piece with exact phone numbers, addresses, legal marks, prices, or long text: use text strategy B (add text separately in an editor), never rely on AI to render these correctly
-- For large printed type (headline only, few words): AI-generated text can work if proofread carefully
+- Default to complete in-image generation: all headlines, offers, prices, and key contact details are rendered directly into the final artwork
+- Control text volume strictly via Stage 4 hierarchy (fewer, larger words) so the model renders sharp, legible lettering
+- Only use reserved clean zones for manual post-editing if the owner explicitly requests to add text themselves
 
 ---
 
@@ -229,7 +229,7 @@ These are things the designer understands internally and applies to the design d
 **For AI image generation:**
 - Generate at the highest resolution the tool supports
 - Use an aspect ratio that matches the intended physical piece (3:1 for a wide spanduk, 1:√2 for A-series portrait)
-- Note in the plan that the AI output will need to be upscaled and adjusted in Canva or printer software for final production
+- Deliver finished artwork ready for direct printing (upscaled to print resolution if required by the printer)
 
 ---
 
@@ -246,7 +246,8 @@ These are things the designer understands internally and applies to the design d
 - [ ] Contrast checked: does it read in bright light?
 - [ ] Type legible at the intended viewing distance
 
-**The good workflow:**
-1. Use AI to generate the visual background, hero imagery, and overall composition
-2. Add all exact text, logo, official marks, and QR codes in Canva or printer software
-3. Export at the correct resolution and format for the printer
+**The final artwork workflow:**
+1. Use AI to generate the complete, final artwork with all typography, hero imagery, and composition integrated directly
+2. Proofread generated lettering character by character
+3. Send directly to print (or upscale for large-format banner specifications)
+*(Manual post-editing in Canva or print software is only used if the owner specifically requested a blank template).*

@@ -48,7 +48,7 @@ Tempel seluruh isi `umkm-design-director-ringkas.md` sebagai pesan pertama, lalu
 - **Jawab dengan fakta khas:** apa yang bikin beda, buktinya, kata-kata pelanggan. Jawaban generik ("enak dan murah") menghasilkan desain generik.
 - **Satu pesan, satu aksi.** Lebih sedikit tulisan dan lebih banyak ruang kosong membuat desain lebih jelas.
 - **Beberapa jenis gambar sekaligus** (maksimal sekitar 4) akan dibuat satu keluarga: warna, huruf, dan gayanya konsisten.
-- **Jangan minta AI membuat logo halal, QR code, atau logo.** Tempel yang asli sendiri; skill menyisakan tempatnya.
+- **Karya akhir langsung jadi:** semua tulisan dirender utuh di dalam gambar tanpa perlu diedit lagi di Canva, kecuali jika Kakak secara khusus meminta template latar kosong. Tanda sertifikasi resmi (Halal/BPOM) dan QR code ditempel manual hanya bila diwajibkan secara hukum.
 
 ---
 
@@ -97,12 +97,12 @@ umkm-design-director/
 │   │   ├── 03-reference-images.md        # bahan gambar: minta, analisis, perlakuan, mode Perbaiki
 │   │   ├── 04-design-principles.md       # persepsi, ruang kosong, hierarki, psikologi
 │   │   ├── 05-color-and-culture.md       # warna, audiens, konteks budaya Indonesia
-│   │   ├── 06-typography-and-lettering.md # huruf, batas teks, harga, risiko salah ketik
+│   │   ├── 06-typography.md              # huruf, batas teks, harga, risiko salah ketik
 │   │   ├── 07-business-archetypes.md     # arah awal dan bahan yang diminta per jenis usaha
 │   │   ├── 08-formats-and-platforms.md   # ukuran, safe zone, cetak, kepadatan
 │   │   ├── 09-output-sets.md             # beberapa output, sistem visual bersama, prompt mandiri
 │   │   ├── 10-anti-slop.md               # tanda-tanda AI slop, perbaikan, audit
-│   │   ├── 11-prompt-assembly.md         # template prompt, strategi teks, contoh
+│   │   ├── 11-prompt-assembly.md         # template prompt, karya akhir lengkap, contoh
 │   │   ├── 12-review-and-iteration.md    # tinjauan hasil, uji kesetiaan, uji set, perbaikan
 │   │   ├── 13-design-thinking.md         # penalaran desainer, simulasi penonton, Creative Direction Summary
 │   │   ├── 14-visual-language.md         # basis pengetahuan tradisi visual, estetika, karakter emosional & budaya

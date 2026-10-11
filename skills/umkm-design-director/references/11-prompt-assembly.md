@@ -1,6 +1,6 @@
 # Prompt Assembly (Stage 8)
 
-Contents: the creative-direction-first rule · what a prompt must do · the prompt structure · block rules · text strategy · phrasing rules · semantic density · length · contradiction check · example A (poster with images) · example B (spanduk background, no images) · example C (table card, no reference images, identity treatment) · assembling a set
+Contents: the creative-direction-first rule · what a prompt must do · the prompt structure · block rules · final artwork rule · phrasing rules · semantic density · length · contradiction check · example A (poster with images) · example B (roadside spanduk, no images, final artwork) · example C (table card, no reference images, identity treatment) · assembling a set
 
 ## 0. The creative-direction-first rule
 
@@ -35,8 +35,8 @@ The prompt must not:
 - Prescribe pixel positions, exact canvas percentages, or coordinate-level layout instructions
 - Enumerate every minor visual component
 - Contain design rationale, reasoning, or process explanation
-- Include post-processing instructions or "add text later" notes outside the text strategy declaration
-- Leave intentional empty areas for the owner to fill in — unless text strategy B or C was explicitly chosen
+- Include post-processing instructions or "add text later" notes unless the user specifically asked for post-editing
+- Leave intentional empty areas or preserved text zones for the owner to fill in — the generated image must be complete, final artwork
 
 **Every sentence must change what the model generates.** A sentence that explains the reasoning, describes the design process, or states a viewing context without translating it into a design character requirement does not belong in the prompt.
 
@@ -61,13 +61,12 @@ OBJECTIVE: [one sentence — what this specific output must accomplish for the v
 CONCEPT: "[campaign idea — same words in every prompt of a set]". [Two feelings]. For [audience].
 
 CONTENT:
-- [Primary message/headline — exact text]
-- [Key supporting text — exact text]
+- [Primary message/headline — exact text quoted verbatim]
+- [Key supporting text — exact text quoted verbatim]
 - [Product or service]
 - [Brand identity — logo or name treatment]
 - [Any important visual elements or motifs]
-[If text strategy B or C: "Text zone reserved: [description of the clean area]. Owner adds [what] there."]
-[If official marks needed: "Reserved space for [mark type]."]
+- [All copy and graphic elements rendered directly into final artwork — no blank reserved text zones]
 
 CREATIVE DIRECTION: [The visual concept, personality, mood, aesthetic world, emotional character, and overall feeling the design should project. Derived from the business — not generic style language. This is where the design's distinctive identity lives. 3-6 sentences.]
 
@@ -108,7 +107,7 @@ EXCLUSIONS: Keep [truth constraints]. Avoid [4-8 specific failure modes for this
 
 **CONCEPT.** The campaign idea in the same words in every prompt of the set, plus the two feelings and the audience. It comes from the Distinction Brief (USP, desired perception). This is a design concept — an organizing idea — not an aesthetic direction.
 
-**CONTENT.** List what must visibly appear in the image, in order of importance. Primary message first, then supporting content, then brand identity, then any important visual motifs. Quote exact text. Do not enumerate minor decorative details here — only content the design must communicate. If text strategy B or C applies, state what zone is reserved and what the owner will add there.
+**CONTENT.** List what must visibly appear in the image, in order of importance. Primary message first, then supporting content, then brand identity, then any important visual motifs. Quote exact verbatim text to be rendered directly in the image. Do not enumerate minor decorative details here — only content the design must communicate. All text must be fully rendered in the final artwork (only reserve an empty zone if the owner specifically requested a template for manual editing).
 
 **CREATIVE DIRECTION.** This is the heart of the prompt. Describe the visual concept, personality, mood, emotional character, aesthetic world, and overall feeling. Be specific and business-derived — not generic. Express the design's visual logic: why this character fits this business and this audience. Include:
 - The overall visual impression and emotional register
@@ -131,17 +130,13 @@ Avoid: "eye-catching," "professional," "beautiful," "stunning," "modern and clea
 
 ---
 
-## 4. Text strategy
+## 4. Final artwork rule (complete in-image generation)
 
-| Strategy | When | Prompt approach |
-|---|---|---|
-| **A: in-image text** | Tool renders text well; short headline, offer, price, CTA; **default for simple promos** | Quote each line in CONTENT; "render exactly as written, no additional words" |
-| **B: clean text zones** | Print, spanduk, menus, long info, phone numbers, addresses, legal marks, text-heavy redesigns | State in CONTENT: "Text zone reserved: [description]. Owner adds [what] there." |
-| **C: hybrid** | Posts with contact info the owner wants to add themselves | Headline and price in CONTENT; state the reserved strip |
+The standard requirement for all output is **Final Integrated Artwork**: every generated image must be complete, final, and ready for use/print without requiring any post-edits.
 
-Rules for A and C: quote text exactly, keep lines short and large, specify the language, say what not to add ("no taglines, no extra words, no watermarks"), and tell the owner to proofread after generation.
-
-**Do not choose B or C to avoid the effort of specifying content.** If the content is short and the tool renders text reasonably, use A and produce the finished design.
+- **Default (Final Artwork):** All typography (headline, offer, price, CTA, contact details, identity treatment) is rendered directly by the image model. The output must NOT contain any preserved text zones or blank areas reserved for later editing. Quote each line in the CONTENT block and specify "render all text exactly as written, in Indonesian, no additional words".
+- **Exception (Post-edits only on explicit request):** Reserving clean text zones or generating background-only templates for external editing (e.g. Canva or print software) is strictly prohibited UNLESS the user specifically and explicitly asks to add text themselves or requests a blank template.
+- **Legibility safeguard:** Control text volume strictly via Stage 4 hierarchy. Keep on-image text concise, punchy, and quoted verbatim to ensure sharp, legible lettering in the generated image.
 
 ---
 
@@ -201,17 +196,17 @@ When the prompt must generate food or product imagery without a reference photo,
 
 | Tool | Image attachments | Text accuracy | Aspect ratio | Best for |
 |---|---|---|---|---|
-| ChatGPT / DALL-E 3 | Yes, multiple | Good | Set in interface | Strategy A with attached photos and logo |
-| Midjourney (v6+) | Limited (one image, Vary Reference) | Poor | `--ar` flag | Strategy B backgrounds; no in-image text |
+| ChatGPT / DALL-E 3 | Yes, multiple | Good | Set in interface | Complete final artwork with attached photos/logo |
+| Midjourney (v6+) | Limited (one image, Vary Reference) | Moderate | `--ar` flag | Stylized hero & bold short headlines |
 | Adobe Firefly | Yes | Good | Set in interface | Print-safe outputs; CMYK-aware colors |
-| Ideogram (v2+) | Yes | Excellent | Set in interface | Strategy A when text accuracy is critical |
-| Canva AI (Magic Media) | Yes | Good | Auto from template | Strategy C hybrid; integrates with Canva editor |
-| Leonardo AI | Yes | Moderate | Set in interface | Hero imagery; strategy B |
+| Ideogram (v2+) | Yes | Excellent | Set in interface | Complete final artwork with sharp lettering |
+| Canva AI (Magic Media) | Yes | Good | Auto from template | Fast layout generation |
+| Leonardo AI | Yes | Moderate | Set in interface | Atmospheric product & hero visuals |
 
 **Rules by tool:**
-- If the tool does not support image attachments → use Strategy B or C; describe the product entirely in HERO VISUAL.
-- If the tool has poor text accuracy → use Strategy B for all print pieces.
-- If unsure → default to Strategy B for large-format print and menus, Strategy A for short-text posters/flyers.
+- Always default to Final Artwork (complete in-image generation): all copy and typography rendered directly in the image.
+- If the tool does not support image attachments, describe the product entirely in the HERO VISUAL block.
+- Only provide a template/background without text if the user explicitly asks to add text themselves.
 
 **One-change iteration:** let the owner change one major thing per round (`12-review-and-iteration.md`).
 
@@ -231,11 +226,11 @@ When the prompt must generate food or product imagery without a reference photo,
 - Any reference to another prompt, or any image numbering that does not match the attachment list?
 - Any meta-commentary sentence that does not change the picture?
 - Is the ATTACHED IMAGES block present when there are no images?
-- Does the prompt leave any essential content unspecified when strategy A was chosen?
+- Does the prompt leave any essential content unspecified for complete in-image rendering?
 
 ---
 
-## 10. Example A: counter poster with attached images (strategy A)
+## 10. Example A: counter poster with attached images (final integrated artwork)
 
 Brief: "Kopi Mbak Rini", Bekasi, 1-litre milk coffee; buyers: anak kos and office workers 20-35; action: order via WhatsApp; message: "satu botol cukup seharian"; offer Rp 55.000/botol, beli 2 Rp 100.000, until Sunday; bottle photo and logo available; direction: warm, confident, merakyat.
 
@@ -279,44 +274,47 @@ Lampiran: 1. Foto botol (hero). 2. Logo (pojok kiri atas). Cara: unggah keduanya
 
 ---
 
-## 11. Example B: spanduk background (strategy B, no images attached)
+## 11. Example B: roadside spanduk, no reference images (final integrated artwork)
 
-Brief: "Laundry Bersih Kilat", Depok; students and workers; message "selesai besok"; action: call or WhatsApp; spanduk 3 m × 1 m on roadside shop front; price Rp 6.000/kg; direction: clean, reliable, sky-blue.
+Brief: "Laundry Bersih Kilat", Depok; students and workers; message "SELESAI BESOK"; action: call or WhatsApp; spanduk 3 m × 1 m on roadside shop front; price Rp 6.000/kg; direction: clean, reliable, sky-blue. Complete final artwork with zero post-edits.
 
 **Creative Direction Summary (produced before writing the prompt):**
-Concept: "Beres sebelum besok — the domestic relief of done." The design should communicate clean reliability in one strong visual read — a neat stack of fresh laundry on the right, a generous flat text zone on the left for the owner to add the message in bold type. The sky-blue field signals cleanliness and openness. The feeling is calm and dependable: a service that works without drama. Specificity: a real folded clothes stack (not soap or machines), a paper tag in a warm accent, the promise itself as the organizing visual idea.
+Concept: "Beres sebelum besok — the domestic relief of done." The design communicates clean reliability in one massive visual read for passing street traffic — bold, crisp typography on the left declaring the promise and pricing, anchored by a neat stack of fresh laundry on the right. The sky-blue field signals cleanliness and openness. The feeling is calm, orderly, and dependable: a neighborhood service that works without drama. Specificity: real folded fabric texture (no generic soap or machines), a paper tag in a warm accent, the promise and price integrated cleanly into a finished banner composition.
 
 ```
 FORMAT: Printed roadside shop banner, 3×1 m vinyl tarpaulin. 3:1 aspect ratio (3000×1000 px).
 
-OBJECTIVE: Provide a clean, flat visual background for the owner to complete with business name, "SELESAI BESOK", price per kg, and phone number in large bold type.
+OBJECTIVE: Catch the eye of passing motorbike riders and pedestrians within 2 seconds, communicating speed and honest pricing so they stop or contact immediately.
 
 CONCEPT: "Selesai besok." Clean and reliable. For students and workers who need their laundry done without waiting.
 
 CONTENT:
-Text zone reserved: left two-thirds of the canvas, completely flat sky-blue (#BFE3F2), no detail or texture. Owner adds: business name, "SELESAI BESOK", price per kg, and phone number in large navy bold type.
-Visual content: folded laundry stack, right third only.
-No text, letters, numbers, symbols, or logos anywhere in the generated image.
+- Business name: "LAUNDRY BERSIH KILAT" in clean, sturdy humanist sans
+- Headline: "SELESAI BESOK" in massive, bold navy condensed lettering
+- Price: "Rp 6.000 / kg" prominent and legible
+- Contact: "WA 0812-3456-7890" in clear, bold numerals
+- Visual content: folded laundry stack on the right
+Render all text exactly as written, in Indonesian, with crisp edges and high value contrast against the sky-blue field. No extra words, no watermarks.
 
-CREATIVE DIRECTION: A clean, confident composition built around the promise of done. The feeling is orderly and calm — the domestic satisfaction of finding your laundry ready before you expected it. The sky-blue left field is the text canvas: flat, open, uncluttered, designed to carry the owner's message in maximum legibility. The folded clothes on the right are the proof — real fabric texture, a handwritten tag, no soap or machines. A narrow navy band at the base grounds the whole piece and adds structure without decoration.
+CREATIVE DIRECTION: A clean, confident composition built around the promise of done. The feeling is orderly and calm — the domestic satisfaction of finding your laundry ready before you expected it. The sky-blue background is open, luminous, and uncluttered, carrying the bold navy headline with maximum roadside legibility. The folded clothes on the right provide tangible proof — real fabric texture, a warm yellow tag, no floating bubbles or cartoon machines. A narrow navy band at the base grounds the entire piece and gives it structure.
 
-DESIGN CHARACTER: The visual language of a trustworthy local service — clear, clean, and practical. The folded stack with a hand-tied tag signals care and craft; the open blue field signals confidence and clarity. This is not a laundry generic: the combination of the domestic warmth of the stack and the pure openness of the text zone creates a piece that works as a real neighborhood banner, not a template.
+DESIGN CHARACTER: The visual language of a trustworthy local institution — clear, clean, and practical. The folded stack with a hand-tied tag signals domestic care; the large, direct typography signals speed and honest rates. This is not a laundry template: the combination of domestic warmth and decisive typographic clarity creates a banner that belongs exclusively to a hardworking neighborhood shop.
 
-HERO VISUAL: Right third of the banner only. A neat stack of three freshly folded garments — a white cotton shirt on top, a sky-blue towel in the middle, a cream linen shirt at the base — resting directly on a plain white laminate surface. One hand-tied paper tag in sunny yellow (#FFC83D) tucked under the top fold. Overhead natural daylight, slightly diffused, crisp grounded shadow beneath. Fabric texture and weave visible on each garment. No extra props, no hangers, no soap, no machines.
+HERO VISUAL: Right third of the banner. A neat stack of three freshly folded garments — a crisp white cotton shirt on top, a sky-blue towel in the middle, a cream linen shirt at the base — resting on a plain white surface. One hand-tied paper tag in sunny yellow (#FFC83D) tucked under the top fold. Overhead natural daylight, slightly diffused, crisp grounded shadow beneath. Fabric weave and texture clearly visible. No hangers, no soap, no foam, no cartoon washing machines.
 
 VISUAL SYSTEM (identical in every prompt of this set):
-Type: bold neutral humanist sans, to be added later in editor. Style and material: real-photo feel, matte surfaces, clean flat background. Image treatment: objects grounded on surface with crisp edges and a soft grounded shadow, no glow. Device: navy bottom band. Space level: calm.
+Type: heavy condensed navy caps for headline; neutral humanist sans for business name and price. Style and material: real-photo feel, matte surfaces, clean sky-blue field. Image treatment: objects grounded on surface with crisp edges and a soft grounded shadow, no glow. Device: navy bottom band. Space level: calm.
 
-EXCLUSIONS: Keep left two-thirds entirely flat sky-blue with zero detail. Avoid any text or symbols anywhere on the canvas, washing machines, floating soap bubbles, sparkles, decorative wave patterns, steam effects, stock families, foam splashes, any decoration in the text zone.
+EXCLUSIONS: Keep fabric texture realistic and type sharp and fully legible. Avoid washing machines, floating soap bubbles, sparkles, decorative wave patterns, steam effects, stock smiling families, foam splashes, neon gradients, illegible script type.
 ```
 
 Lampiran: Tidak ada lampiran.
 
-Cara pakai: Tambahkan teks di Canva atau di percetakan — nama usaha, "SELESAI BESOK", harga per kg, dan nomor telepon — dalam huruf navy tebal yang besar di area biru kiri.
+Cara pakai: Buka AI pembuat gambar, tempel prompt, lalu buat gambarnya. Hasil gambar sudah lengkap dengan tulisan, siap langsung dicetak tanpa perlu diedit lagi.
 
 ---
 
-## 12. Example C: table card / promotional flyer, no reference images, with identity treatment (strategy A)
+## 12. Example C: table card / promotional flyer, no reference images, with identity treatment (final integrated artwork)
 
 Brief: "Sambal Mbah Sari", Yogyakarta, hand-ground sambal in jars, sold via WhatsApp; buyers: urban adults 25-45; message: "diulek pagi ini, dikirim hari ini"; action: order via WhatsApp; price Rp 25.000/jar; no logo, no photos; direction: handmade warmth, honest, artisanal, traditional Java.
 

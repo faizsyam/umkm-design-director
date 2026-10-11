@@ -1,6 +1,6 @@
 # Review and Iteration (Stage 9)
 
-Contents: when to use · the 12-point review · symptom → prompt fix · one-change rule · when to leave AI and finish in an editor · pre-publish checklist · reviewing a set · reuse
+Contents: when to use · the 12-point review · symptom → prompt fix · one-change rule · editor fallback (on request/failure) · pre-publish checklist · reviewing a set · reuse
 
 ## 1. When to use
 
@@ -21,7 +21,7 @@ Check in this order (functional first, aesthetic last). Items 10-11 apply whenev
 9. **Brand fit and distinction:** Would it look wrong for a different business (swap test)? Are the USP and the anchors visible?
 10. **Space and restraint:** Is there a calm area, clear margins, and gaps between groups? Anything decorative without purpose?
 11. **Fidelity to attached images:** product, logo, mascot, person match the originals; existing design improved as agreed.
-12. **Physical production readiness:** Correct ratio; text strategy appropriate for the medium; type at a scale that works at the intended viewing distance; outdoor pieces have sufficient value contrast; production note given to owner.
+12. **Physical production readiness:** Correct ratio; text fully rendered and legible for the medium; type at a scale that works at the intended viewing distance; outdoor pieces have sufficient value contrast; production note given to owner.
 
 Report in plain language: "3 hal sudah bagus, 2 hal perlu diperbaiki: ..." and give the fixes.
 
@@ -30,7 +30,7 @@ Report in plain language: "3 hal sudah bagus, 2 hal perlu diperbaiki: ..." and g
 | What you see | Likely cause | One-change fix to the prompt |
 |---|---|---|
 | Hero looks different from the real product | No reference or weak "keep exactly" | Re-run with the product photo as reference and the keep-exactly sentence; or composite the real photo in an editor |
-| Misspelled or garbled text | Too much/small text, unreliable tool | Reduce to fewer, larger lines; or switch to strategy B and add text in an editor |
+| Misspelled or garbled text | Too much/small text, unreliable tool | Reduce word count, make headline larger, and use verbatim quoted text; if owner specifically requests or after repeated model failures, offer manual editor fallback |
 | Everything the same size | Missing size ranks | State the hierarchy clearly: "headline dominates — the single largest element; price is the second thing the eye lands on; everything else is clearly smaller and supporting" |
 | Cluttered with decoration | No exclusion line or vague style | Add specific exclusion list; add "large calm empty area around the hero, about 40% of canvas" |
 | Plastic or glossy look | Defaults for lighting/material | Specify "matte, natural window light, visible texture, slight imperfection on surface" |
@@ -48,18 +48,18 @@ Report in plain language: "3 hal sudah bagus, 2 hal perlu diperbaiki: ..." and g
 
 Change **one major thing per iteration** (e.g. only the text zone, or only the light, or only the composition). Changing everything at once makes it impossible to learn what worked and often reintroduces earlier problems. When the tool supports in-conversation editing, phrase the fix as an edit: "Keep everything the same, but make the headline larger and move the price below the bottle."
 
-Stop after 3-5 rounds on the same problem. If it persists, change tactics (switch text strategy, composite in an editor, simplify the brief).
+Stop after 3-5 rounds on the same problem. If it persists, change tactics (simplify text to fewer words, simplify prompt, or offer editor composite if the owner prefers).
 
-## 5. When to leave the AI and finish in an editor
+## 5. Fallback: finishing in an external editor (on user request or repeated failure)
 
-Use Canva or a similar editor when:
-- Text must be exact and large (spanduk, menu, phone numbers, addresses).
-- The product must be the real product (composite the real photo).
-- Logo, halal/PIRT/BPOM marks, QR codes are needed.
-- Several posts need identical layout and type.
-- Print requires proper bleed and resolution.
+The default standard is **complete in-image artwork generated directly by AI**. Do not recommend post-editing in Canva or image editors unless:
+1. The owner explicitly asks for an editable template or blank background to add text themselves.
+2. The AI tool repeatedly fails (after 3–4 iterations) on dense contact details or intricate certification marks.
+3. Official regulatory marks (Halal Indonesia, BPOM, PIRT, barcodes/QR codes) require strict vector/pixel precision.
 
-A good workflow: AI makes the **background and mood**; the owner adds **exact text, logo, and official marks** on top.
+In that fallback workflow (only when requested/needed):
+- AI generates the background and visual scene with an open area.
+- The owner adds exact fine text, logo, or official marks in Canva or a graphic editor.
 
 ## 6. Pre-publish checklist (give to the owner)
 
