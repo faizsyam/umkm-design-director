@@ -1,239 +1,139 @@
-# Design Principles: Perception, Hierarchy, Space, and Physical Communication
+# 04 — Design Principles: Perception, Hierarchy, Space, and Formal Visual Grammar
 
-Contents: how viewers perceive physical objects in real space · space as a design tool · visual hierarchy and composition · Gestalt grouping · contrast, alignment, balance, rhythm · cognitive load · psychology of trust, desire, urgency · decoration vs communication · making design feel specific · from principle to prompt instruction
-
-These are principles from perception research, behavioral science, and decades of print design practice — not rules. Use them as working defaults and let the real audience and physical context override them when they conflict.
+Contents: how viewers perceive physical design in real space · space as active design mass · visual hierarchy and ranking · Gestalt grouping & perceptual laws · formal design grammar (shape vocabulary, line character, edge treatment) · contrast, alignment, balance, rhythm · cognitive load & Hick's Law · psychology of trust, desire, and perceived value · decoration vs communication · translating principles into art-directed prompt directives
 
 ---
 
-## 1. How viewers actually perceive physical design
+## 1. How Viewers Actually Perceive Physical Design
 
-Physical printed materials are not seen the way screens are seen. People do not examine them — they encounter them.
+Physical printed materials are not inspected like digital screens; they are encountered in motion and physical space.
 
-**People sample, they do not study.**
-A banner is glimpsed in peripheral vision before it is consciously noticed. A flyer is glanced at before the receiver decides whether to read it. A menu is scanned for a reason to choose, not read linearly. The first job of any physical design is to be noticed and understood in the time it actually gets — which is almost always shorter than the designer imagines.
-
-**The eye is pulled by difference.**
-In a visual field, the eye moves toward what is most different from its surroundings: high contrast, large scale, saturated color, movement (or implied movement), faces and eyes, a sharp edge against calm space. The first fixation lands on the most different element. Make sure that element is your intended hero.
-
-**At physical distance, silhouette reads before detail.**
-From five meters, a viewer sees shapes and masses — the overall weight of the composition, the dominant color, the size of the headline block. Individual words are not readable. The design must work as a silhouette before it works as a message.
-
-**Squint test for physical design.**
-Blur your eyes until the design becomes abstract. You should see: (1) one dominant shape or mass, (2) one headline block, (3) a clear end point. If you see five blobs of equal weight, the hierarchy fails the physical test.
-
-**Physical print has no fallback.**
-On a screen, a confused viewer can scroll back or zoom in. In physical space, they keep moving. The design has one opportunity. If the primary message does not land in the available time, the design has failed its primary job.
-
-**Faces and gaze direct attention.**
-Viewers tend to look where a depicted person is looking or pointing. Use gaze and gesture toward the offer, the product, or the contact information — never toward empty space or off the edge of the piece.
-
-**Reading paths in Indonesian-language print.**
-In left-to-right scripts, the scan typically starts top-left and moves down-right. Horizontal banners often read left-to-right with the most important element in the dominant center zone. Vertical formats read top-to-bottom. Place the primary element at the natural entry point and the call to action at the natural exit point.
+- **People Sample, They Do Not Study:** A roadside banner is glimpsed peripherally at 40 km/h for 1.5 seconds. A flyer is judged in 3 seconds before deciding whether to read or discard. A menu is scanned for an anchor to choose, not read sequentially. The first job of physical design is to be recognized and understood in the actual seconds available.
+- **The Eye Fixates on Contrast and Difference:** Visual attention is drawn automatically to the point of maximum contrast: dramatic scale contrast, high value (light/dark) difference, a saturated accent on a muted field, or a sharp silhouette isolated in calm space. That point of maximum difference must be your intended hero.
+- **Silhouette Reads Before Detail:** At physical distance (5–15 meters), individual letters are invisible; the eye perceives overall graphic mass, silhouette contour, and dominant color fields. The composition must succeed as an abstract silhouette before it can succeed as written copy.
+- **The Squint Test:** Blur your eyes until the design becomes abstract masses. You should see: (1) one dominant focal mass, (2) one clear headline group, (3) a quiet supporting base. If you see multiple competing blobs of equal weight, the hierarchy fails the physical test.
+- **Physical Print Has No Interactive Fallback:** On a screen, a confused user can pinch-to-zoom or scroll. In physical space, they keep moving. If the core message fails to land in the passing glance, the graphic has failed.
 
 ---
 
-## 2. Space is a design element — not what is left over
+## 2. Space is an Active Design Element — Not Empty Leftover
 
-**What space does in physical design.**
-Empty space isolates the hero (creates hierarchy by giving it visual silence around it). Separates groups (proximity). Carries the eye along the reading path. Rests the viewer (reduces cognitive load). Improves legibility by separating text from competing visual information. Signals confidence — a design that breathes says the message is strong enough to stand alone.
+- **Active Negative Space:** Generous unprinted space (35–50% of canvas) isolates the hero, creates visual silence around the headline, rests the viewer's eye, and communicates unhurried commercial confidence. A design packed corner-to-corner signals panic and budget desperation.
+- **Why AI Models Crowd the Canvas:** Generative models correlate pixel density with image quality. Unless calm space and breathing room are explicitly commanded in the prompt, the model fills voids with decorative clutter, floating particles, and random props. Space must be positively commanded.
+- **Calm Space Must Be Low-Information:** A functional calm area is flat or low-detail (a solid color field, an unadorned tabletop, or an untextured painted wall). Text set inside calm space reads with maximum optical legibility.
+- **Space Budgets by Physical Medium:**
+  - Roadside spanduk (passing traffic): 45–60% calm breathing room around the headline and hero.
+  - Storefront banner (pedestrians): 35–50% calm space.
+  - Counter poster / table card: 30–45% calm space.
+  - Folded flyer / brochure: 25–35% margin and inter-group breathing space.
+  - Full-service menu: 20–30% disciplined whitespace separating distinct category groups.
 
-**Why AI-generated designs are typically cramped.**
-Image models are trained on massive datasets where "more detail" is correlated with "higher quality." They fill empty areas with decoration, props, effects, and extra text. Unless space is explicitly allocated in the prompt, the model spends it. Space must be instructed, not assumed.
+---
 
-**Functional restraint, not minimalism as a style.**
-Removing things that do not serve communication is not the same as making something minimal. A market stall spanduk with three big words and a big price can be the right design for that business and that viewer. A spare premium label with one word and generous space can be right for another. The test for every element: if I remove this, does the communication weaken? If not, remove it. Required information — price, offer, contact, legal marks — always stays. What earns its removal is decoration, redundancy, and information the viewer will not use in the available time.
+## 3. Strict Hierarchy Ranking: What Earns Visual Dominance
 
-**Calm space is low-information space.**
-A usable empty area is flat and low-detail (flat color, very soft gradient of one tone, quiet surface) so that text placed in it reads clearly and the hero can contrast against it. Texture, glow, and particles in the empty zone are not space — they are visual noise that competes with the message.
+Hierarchy must be determined upstream of aesthetic styling. Every element must be ranked into one of four tiers:
 
-**Space budget (physical print starting points — adjust to audience and viewing context):**
+1. **Level 1 (Primary Hero — 1 only):** The single element that delivers the communication objective. For a promotional banner: the headline offer or price. For a signature dish poster: the hero product visual. Never make headline, product, and brand name equally large.
+2. **Level 2 (Secondary Support — max 2):** Concrete proof or pricing that makes Level 1 credible (e.g. "Rp 6.000 / kg" or "100% Daging Sapi Asli").
+3. **Level 3 (Action Anchor — 1):** The call to action (WhatsApp number, address, opening hours) anchored cleanly at the end of the reading path.
+4. **Level 4 (Tertiary Details):** Essential conditions, dates, or mandatory legal marks in quiet, compact type.
 
-| Physical context | Calm space guidance | Notes |
+**Tools of Visual Dominance (Ranked by Power):**
+$$\text{Scale Contrast} > \text{Value Separation} > \text{Isolation in Space} > \text{Color Saturation} > \text{Typographic Weight}$$
+
+---
+
+## 4. Gestalt Principles in Physical Print
+
+- **Proximity:** Elements placed close together are perceived as a unified conceptual unit. Place prices directly adjacent to their corresponding dishes. Separate unrelated categories with space, not heavy dividing boxes.
+- **Similarity:** Elements sharing identical color, scale, or typographic weight are read as fulfilling identical functional roles. Keep all prices in one consistent typeface and accent color; keep all supporting descriptions in another.
+- **Figure-Ground Contrast:** The subject must separate cleanly from the background. High value contrast (dark on light or light on dark) and crisp edge definition achieve this. Busy photographic backgrounds behind text destroy figure-ground and render copy illegible.
+- **Continuity & Alignment:** The eye follows structural axes and linear alignments. Maintain a single consistent alignment spine (flush-left rag-right in Indonesian print) to create an effortless reading path.
+- **Common Region & Enclosure:** Use solid rectangular panels or background bands to group complex information chunks. Reserve decorative badge frames for a single highlight; multiple framed boxes cancel each other out.
+
+---
+
+## 5. Formal Design Grammar: Shape, Line, Edge, and Surface
+
+World-class art direction requires a precise formal design vocabulary:
+
+### Shape Vocabulary
+- **Reductive Geometric:** Circles, squares, and clean rectilinear wedges. Communicates modern functional discipline, objective clarity, and industrial efficiency.
+- **Organic & Curvilinear:** Flowing botanical contours, undulating silhouettes, and calligraphic curves. Communicates handmade warmth, culinary naturalness, and personal care.
+- **Vernacular Architectural:** Scalloped valances, pill-shaped enamel badges, chamfered corner cuts, and ribbon panels. Communicates local commercial rootedness and street authenticity.
+
+### Line Character
+- **Monoline Uniform:** Consistent unmodulated line weight. Clean, technical, contemporary.
+- **Chiseled & Modulated:** Variable stroke stress with thick-and-thin transitions, chiseled relief cuts, or brush calligraphic swell. Communicates craftsmanship and historical depth.
+- **Structural Dividing Rules:** Hairline (0.5–1 pt) rules used sparingly to separate information groups without adding visual weight.
+
+### Edge Definition & Perimeter Behavior
+- **Razor Vector Contours:** Sharp, crisp, laser-cut boundaries between shapes and ground. Essential for outdoor signage legibility.
+- **Hand-Painted Enamel Brush Fringe:** Microscopic, natural brush-stroke irregularities along letter edges, signaling human handiwork.
+- **Deckled / Fibrous Edge:** Soft organic paper fiber transitions, signaling artisanal handmade paper stock.
+- **Ink-Spread Bleed:** Subtle ink absorption into porous paper fibers, softening sharp contours with vintage warmth.
+
+---
+
+## 6. Contrast, Balance, Rhythm, and Proportion
+
+- **Value Contrast over Hue Contrast:** Hue contrast alone (e.g. red text on green background) fails in direct sunlight and for colorblind viewers. High value contrast (lightness vs darkness) does 90% of legibility work.
+- **Asymmetric Balance vs. Bilateral Symmetry:**
+  - *Asymmetrical Balance:* Dynamic, energetic, modern. An off-center hero visual balanced by disciplined typographic blocks across an invisible focal axis. Ideal for food, retail, and promotional banners.
+  - *Bilateral Symmetry:* Monumental, stable, dignified, ceremonial. Centered axis ideal for heritage emblems, formal certificates, and luxury packaging.
+- **Rhythmic Scale Progression:** Establish a clear scale beat: Headline (massive) → Subhead (medium) → Body/Action (compact). A dramatic scale ratio of **3:1 or 4:1** between primary and secondary copy is mandatory for physical scale legibility.
+
+---
+
+## 7. Cognitive Load & Hick's Law
+
+- **Working Memory Limit (The Rule of Four):** A viewer can hold at most four distinct information chunks simultaneously. Graphic pieces with more than four competing elements induce cognitive friction; passing viewers look away.
+- **Hick's Law:** Decision time increases logarithmically with the number of choices. Present one singular call to action, one clear price offer, and one phone number. Never offer five competing contact channels on an outdoor banner.
+- **The Grouping Remedy:** Chunk complex information into visually separated clusters. A menu with 24 items grouped into 3 distinct bordered categories is processed as 3 chunks, whereas 24 unorganized lines create total chaos.
+
+---
+
+## 8. Psychology of Trust, Desire, and Perceived Value
+
+- **Legibility Equals Trust:** Clear, high-contrast, perfectly spelled text signals that the business is competent, respectful, and established. Warped letters or messy layouts immediately trigger suspicion.
+- **Sensory Desire in Food Design:** True appetite appeal comes from specific, honest physical cues: authentic steam wisps, visible meatball tendon texture, golden chili oil droplets, natural crispy batter flakes, and grounded earthenware vessels. Generic glossy CGI food creates suspicion.
+- **Signaling Value vs. Affordability:**
+  - *Accessible Everyday Value:* Large high-contrast price numerals, saturated warm fields, bold sign-painter type, direct honest copy.
+  - *Considered Artisanal Quality:* Uncoated kraft paper textures, woodcut relief marks, muted earthy palettes, generous calm space, tactile ingredient visibility.
+  - *Premium Luxury:* Deep dark fields (midnight navy, charcoal) with crisp champagne or metallic accents, refined transitional serifs, extensive unprinted space (50%+).
+
+---
+
+## 9. Decoration vs. Communication: The Subtraction Pass
+
+Every mark on a graphic is either **communicating meaning** or **unearned decoration**.
+
+### The Three-Question Test:
+1. *If this element were removed, would the viewer lose essential understanding, trust, or direction?*
+2. *Does this visual detail belong uniquely to this specific business?*
+3. *Does this element fight the hero for visual attention?*
+
+If an element fails these questions, eliminate it.
+
+### Common Decorative AI Slop Suspects:
+Floating sparkles, lens flare bursts, random geometric confetti, decorative floral swirls on commercial services, coffee beans floating in mid-air, soap bubbles flying around laundry machines, generic 3D glossy badge ribbons.
+
+**The Replacement Principle:** Never replace decorative emptiness with another generic decoration. Replace it with **active calm space** or an **authentic business-specific anchor** (a real cooking vessel, the owner's blue cart, authentic ingredient texture, a real workshop tool).
+
+---
+
+## 10. Translating Formal Principles into Prompt Directives
+
+| Design Principle | Weak / Descriptive Phrasing (Fails) | Professional Art-Directed Prompt Phrasing (Succeeds) |
 |---|---|---|
-| Roadside spanduk / jalan raya | 40–60% around the primary message | Distance and speed require extreme air around the hero |
-| Storefront spanduk (foot traffic) | 35–50% | Fewer distractions; slightly more information possible |
-| X-banner / roll-up | 30–45% | Viewed up close; still needs clear zones |
-| Poster (wall, papan) | 25–40% | Reading distance; clear visual zones required |
-| Flyer / brosur (hand-held) | 20–35% | Groups separated by generous inter-group space |
-| Menu / price list | 15–25% between groups | Dense is allowed; grouping must be strict and margins clear |
-| Label / sticker | Tight but legible margins | Mandatory legal content always fits; design secondary |
-| Premium gift packaging | 45–60% | Space signals value; few words, one great image |
-
-**Margins and gaps.**
-Outer margin: approximately 6–8% of the shorter dimension for most print pieces (more for pieces viewed up close; less tight for large-format viewed from distance). Gap between groups: visibly larger (about double) than gap within a group. The hero should have clear space around it — crowding the hero is the most common cause of a weak visual focal point.
-
-**Element budget.**
-For a typical single-message print piece (spanduk, promo poster): no more than 5 visible elements besides the background — hero, headline, offer or price, business name or logo, action or contact. Decorative elements: zero by default. One only if it is a genuine specificity anchor (a real product prop, a lettering style that belongs to the business).
-
-**Subtraction pass — do this always before finalizing.**
-List every planned element. For each: try removing it. If the communication is not weakened, remove it. Try merging it with another element. Try moving it to the second panel or caption. Try shrinking it. Prefer removing over shrinking.
-
-**In creative direction:** Communicate space as intent — what it means for the design and why. "Generous space around the hero signals confidence — the message is strong enough to stand alone, with no decoration needed to fill the silence." The image model allocates space to serve that intent.
+| **Hierarchy & Dominance** | "The headline is really big and important" | "Asymmetric typographic hierarchy: headline rendered at 3.5x scale ratio in heavy condensed grotesque display capitals, dominating the upper composition with unmistakable authority" |
+| **Active Negative Space** | "Make it clean with lots of empty space" | "Generous unprinted negative space (approximately 45% of canvas) surrounding the hero product, allowing the solid dark-coffee field (#2A1810) to function as active, confident visual mass" |
+| **Figure-Ground Contrast** | "High contrast colors" | "Extreme value contrast: bone-white lettering (#FAF0E6) and warm cadmium yellow accents (#FFD700) set against a flat, opaque midnight-navy field (#0F2444); engineered for instant outdoor sunlight legibility" |
+| **Shape & Edge Language** | "Geometric style" | "Reductive rectilinear form language: crisp 90-degree vector cuts, unbordered color blocks, and solid architectural base band; zero airbrushed gradients, zero curved bevels" |
+| **Tactile Texture** | "Looks textured and vintage" | "Uncoated fibrous kraft paper substrate with visible wood pulp tooth and matte ink absorption, paired with chiseled woodblock stamp lettering showing subtle organic ink-bleed edges" |
+| **Honest Specificity** | "Show a delicious meal" | "Artisanal food still life: earthenware bowl with visible shredded beef tendon and golden oil droplets on broth, resting on a worn dark-teak wooden surface with satin grain, 45-degree directional window light" |
 
 ---
 
-## 3. Visual hierarchy: what earns emphasis
-
-Decide hierarchy before deciding aesthetics. Rank every element:
-
-1. **Primary (1 only):** the one thing that delivers the message. For a price-led promo: the price or offer. For a product-led piece: the product. For a name-recognition piece: the name. Never all three equally.
-2. **Secondary (max 2):** what makes the primary credible or complete. The proof, the supporting fact, the business name.
-3. **Action (1):** the call to action. Visually distinct but quieter than primary.
-4. **Tertiary:** details, contact, legal notes, fine print. Small, grouped, calm.
-
-**How to create rank (strongest first):**
-Scale > contrast (value/darkness difference) > isolation (space around element) > position > color saturation > weight > shape
-
-Use three of these tools on the primary and one on the rest. This creates clear visual order. If an element needs five effects to be noticed, it is probably not the right primary — something is fighting it.
-
-**How to choose the primary:**
-- Price-led promo → the offer (price or discount) is primary; product is secondary
-- New or unfamiliar product → the product image is primary; name is secondary
-- Trust-sensitive service (laundry, repair) → the promise or proof is primary; contact is the action
-- Brand awareness or opening → the name and one signature visual, minimal text
-
----
-
-## 4. Gestalt: how the brain groups visual information
-
-These principles operate automatically in the viewer's perception. Use them or fight them with effort.
-
-- **Proximity:** things close together are read as related. Put price next to the item it prices. Separate unrelated groups with space, not boxes.
-- **Similarity:** same color, size, or style = same role. Keep all prices in one style. All labels in another. Consistency looks intentional.
-- **Figure-ground:** the subject must separate clearly from the background. Value contrast, edge, and depth achieve this. Busy backgrounds behind text destroy figure-ground and make text invisible.
-- **Continuity:** the eye follows lines, edges, and alignments. Use these to lead from headline to product to CTA.
-- **Common region:** a panel or shape groups content. But over-boxing every item adds noise. Use a panel only when it genuinely improves legibility or grouping — not as decoration.
-- **Enclosure for emphasis:** one highlighted badge or panel works. Five badges cancel each other out.
-
----
-
-## 5. Contrast, alignment, balance, rhythm, and scale
-
-**Contrast.**
-Value contrast (light vs dark) does most of the legibility and hierarchy work — especially in outdoor print. Hue contrast alone (red vs green) is insufficient for outdoor sun or colorblind viewers. Every text element must have strong value contrast against its background.
-
-Types of contrast: size, value (light/dark), color temperature, weight, shape, texture, and emptiness. Use multiple types on the primary element.
-
-**Alignment.**
-Pick one alignment spine and apply it consistently. Left edge is easiest to read in Indonesian (left-to-right script). Mixed alignments are a top signal of amateur design and AI default output. Centered text works for very short, formal, or symmetrical pieces — not for dense information.
-
-**Balance.**
-Symmetrical = stable, formal, trustworthy, calm. Appropriate for services, religious contexts, ceremonial materials, formal businesses.
-Asymmetrical = dynamic, modern, energetic. Appropriate for food promos, youth-facing businesses, retail energy.
-Choose on purpose. "Centered because default" produces generic output.
-
-**Rhythm.**
-A clear beat of large / medium / small, and of space / content creates visual movement and makes the reading path feel natural. Equal spacing and equal sizes feel static and uninviting.
-
-**Scale and proportion.**
-Dramatic scale difference (a very large product image, smaller text beside it) creates drama and hierarchy. Timid scale difference feels indecisive. In physical print, aim for roughly 3:1 or more between primary and secondary text sizes — at physical scale this is often the minimum that reads as clear hierarchy.
-
----
-
-## 6. Cognitive load and information density
-
-**Working memory is limited.**
-A viewer holds approximately four distinct pieces of information comfortably. A print piece with more than four elements competing for attention creates cognitive overload — the viewer gives up and moves on.
-
-**Hick's Law in physical design.**
-More choices slow decision-making. One call to action is better than three. One phone number beats five contact options. One price offer beats a complicated tiered structure on a roadside spanduk.
-
-**Grouping reduces cognitive load.**
-Group related information, then give each group clear visual separation. A viewer processes a grouped chunk as one unit, not as N separate items. Menu categories are classic grouping — six categories of eight items is easier than forty-eight items in one list.
-
-**Density follows the medium and the viewing duration.**
-Passing traffic: a few words is the maximum. A held flyer: 40–90 words grouped in clear zones is appropriate. A menu being read at a table: full information with clear structure is correct. Match information density to the actual time the viewer has.
-
-**Remove, then relocate, then shrink.**
-Never solve density by shrinking everything uniformly. This makes everything unreadable. Instead: first delete the unnecessary; then relocate to a secondary surface (caption, back of flyer, second sign); then reduce size if the element truly earns its place at a smaller scale.
-
----
-
-## 7. Psychology of trust, desire, urgency, and perceived value
-
-**Legibility is credibility.**
-What is easy to read feels more trustworthy. A design that requires effort to read signals that the business does not care about the customer's time. Typos, warped text, and garbled fonts destroy trust faster than almost anything else.
-
-**Aesthetic-usability effect.**
-A tidy, coherent design is judged to work better, even before the viewer reads a word. A careful presentation signals a careful business.
-
-**Trust signals for small businesses in Indonesia:**
-- A real photo of the real product (not AI-polished, not fabricated)
-- The owner's face or hands (with consent) — signals a real person is accountable
-- A real location cue (neighborhood name, known landmark nearby)
-- Concrete proof ("sudah 300+ pelanggan" — only if true)
-- Official marks placed correctly (halal, PIRT — from official sources)
-- Consistent appearance across multiple touchpoints
-
-**Desire is triggered by specific sensory cues.**
-For food: steam, visible texture, cut-open interiors showing contents, realistic cooking context, the sense of "I can have this now." Generic commercial gloss does not trigger desire — it triggers suspicion. Real imperfection signals real food.
-
-**Perceived value:**
-More space, fewer words, and a calmer palette signal premium. A large visible price, a dense offer, and bold saturated color signal affordability. Match the design to the audience's price expectation — a design too far above or below their world signals "not for me."
-
-**Urgency and scarcity work only when real.**
-"Sampai Minggu ini" and "sisa 20 porsi" work when true. Fake countdown clocks and generic burst stickers ("SPECIAL OFFER!!") are routinely ignored — viewers have learned.
-
-**Von Restorff (isolation) effect.**
-The single different item in a visual field is remembered. Reserve your accent color and your largest scale for the one thing that matters most. Use the accent nowhere else.
-
-**Reading order creates memory.**
-First and last items in a sequence are remembered best. Lead with the hero. End with the call to action.
-
----
-
-## 8. Decoration vs communication
-
-Every element is either **carrying meaning** or **decoration**. Decoration is not forbidden — unearned decoration is.
-
-Test each element:
-1. If I removed it, would the viewer lose understanding, trust, desire, or direction?
-2. Does it belong to *this* business specifically (product, place, story, person)?
-3. Does it compete with the hero for attention?
-
-Remove if: no / would fit any business / competes with hero.
-
-**Common decoration suspects in AI-generated print:**
-Sparkles, floating particles, lens flares, generic icons, gradient orbs, ornamental frames, stock props unrelated to the product, decorative patterns without connection to the business, random geometric shapes, coffee beans scattered on every coffee design, soap bubbles on every laundry design, flowers on every restaurant design.
-
-**The replacement test:**
-Replace every generic decorative element with one of: the real product, a physical detail of the business, a material from the place, a visual reference from the business's story or process. If nothing specific can replace it, remove it.
-
----
-
-## 9. Making design feel intentional, specific, and human
-
-**Commit to one clear idea.**
-A concept, not a collection of attributes. "Satu botol cukup seharian." "Beres sebelum tidur." "Resep sama sejak 1987." An idea organizes every element. Without an idea, every element competes.
-
-**Use ownable specifics (specificity anchors).**
-The real product in its real vessel. The owner's hands at work. A local landmark. A neighborhood phrase. A signature ingredient. The actual storefront or gerobak. These elements cannot be interchanged with another business's design.
-
-**Leave a human trace.**
-Natural light and slight imperfection in photographs. Paper grain or material texture where it fits the concept. Hand-lettered or sign-painter type. Slight asymmetry. Real surfaces — banana leaf, terracotta tile, worn wood, kraft paper. These signals read as genuine rather than algorithmically assembled.
-
-**Restraint reads as confidence.**
-Fewer colors, fewer fonts, fewer effects, and more decisive scale choices produce a design that looks like someone made a decision. "More" rarely reads as "better" — it reads as "not sure."
-
-**Consistency across pieces.**
-The same palette, the same type character, the same layout logic across multiple print materials creates recognition. Recognition turns a one-off business into a brand. Recommend it.
-
----
-
-## 10. From principle to creative direction
-
-Design reasoning becomes creative direction for the image model. The goal is to communicate design intent — not to specify implementation. The image model determines the best composition; the designer's job is to make the creative direction clear, specific, and business-derived.
-
-| Decision | How it appears in the creative direction |
-|---|---|
-| Hierarchy | State what dominates and what recedes: "The offer commands immediate attention; the product is the visual anchor; everything else supports without competing" |
-| Viewing distance | Express as design character: "A composition that reads in two seconds from across the street — bold, high-contrast, and immediate" |
-| Contrast | State the character: "Deep warm field, high-contrast text — the kind of clarity that survives tropical sun and visual noise" |
-| Balance | State the spatial feeling: "An asymmetric composition where the product commands one side and the message has room to breathe on the other" |
-| Space | State the intent: "Generous space around the hero — the emptiness is part of the confidence, not something to fill" |
-| Specificity | Concrete subject in HERO VISUAL: "a bowl of bakso soup in a chipped enamel bowl on a worn wooden cart counter, evening window light from the left" |
-| Density | State the information character: "Spare and immediate — the essential offer, nothing more; the design trusts the message" |
-| Emotional tone | Specific sensory direction: "Warm, direct, honest — the character of a neighborhood business that has been serving the same street for years" |
-| Print context | State as design character requirement: "The physical scale and outdoor environment demand a design that is bold and simple enough to register at a glance" |
-| Concept | The organizing idea from Stage 7, restated as the design's visual logic: "A single confident product against generous space — the product's presence is the design" |
+*End of Reference 04 — Design Principles.*

@@ -85,6 +85,13 @@ Every [D] decision must have a stated reason tied to the concept, audience, or p
   - Surface & texture: [tactile-organic / matte clean / raw industrial]
 - [D] Internal candidate territories explored: (at least 2 distinct territories considered)
 - [D] Concept sentence: *[Single dominant visual idea], feels [feeling 1] and [feeling 2], for [specific audience], seen at [distance/duration] on [medium]. Visual logic: [why this serves the business and objective].*
+- [D] Visual Thesis Formulation (`15-creative-direction-framework.md`):
+  - Visual Lineage / Tradition:
+  - Image-Making Technique / Medium:
+  - Form Language & Edge Quality:
+  - Material Substrate & Lighting Physics:
+  - Typographic Anatomy & Case:
+  - Complete Thesis Statement: [Tradisi] + [Medium] + [Bentuk/Tepi] + [Substrat] + [Tipografi]
 - [D] Distinctiveness test: Avoided category clichés Y/N · Avoided AI defaults Y/N · Passes swap test Y/N
 
 ---

@@ -1,365 +1,323 @@
-# Prompt Assembly (Stage 8)
+# 11 — Prompt Assembly: Professional Art Direction in Standalone Image Prompts
 
-Contents: the creative-direction-first rule · what a prompt must do · the prompt structure · block rules · final artwork rule · phrasing rules · semantic density · length · contradiction check · example A (poster with images) · example B (roadside spanduk, no images, final artwork) · example C (table card, no reference images, identity treatment) · assembling a set
-
-## 0. The creative-direction-first rule
-
-**Never write a prompt directly from a concept or design strategy.**
-
-Before the first word of a prompt is written, the Creative Direction Summary must exist (see `13-design-thinking.md` Section 9 / Stage 7). The summary is the complete crystallization of all design thinking — what is being made, who it is for, what must appear, what the design should feel and communicate, and what makes it specific to this business.
-
-The prompt is a translation of that direction into a brief the image model can execute. If the creative direction is vague, the prompt will be vague. If the creative direction is strong and distinctive, the prompt will be strong and distinctive.
-
-**The test:** before writing a prompt, ask: "Does a Creative Direction Summary exist for this design — a clear statement of what it must communicate, who it is for, what should appear, and what visual character it should have?" If not, produce it first.
-
-**What strong creative direction catches that a direct prompt misses:**
-- Generic style adjectives with no organizing concept
-- Content listed without priority — no sense of what dominates
-- Business-specific identity missing — could belong to any business in the category
-- Physical context not reflected in the design character
-- Audience's visual language not considered
+Contents: the art-direction-first rule · what a prompt must do · the canonical prompt structure · block rules & visual language standards · final artwork rule · phrasing & optical translation rules · semantic density & high-information language · realistic food & product imagery · length & tool notes · contradiction check · Example A (poster with images) · Example B (roadside spanduk, no images) · Example C (table card, identity treatment) · assembling a set
 
 ---
 
-## 1. What a prompt must do
+## 0. The Art-Direction-First Rule
 
-A prompt is a **complete creative brief** for a model that cannot ask questions. It must give the model a clear, specific, and distinctive understanding of:
+**Never write a prompt directly from business attributes or literary mood descriptions.**
 
-- **What** is being created and what it is meant to accomplish
-- **Who** it belongs to and who it is communicating with
-- **What** must visibly appear (content, product, text, brand identity)
-- **What** the overall creative direction, visual character, and emotional tone should be
-- **What** makes this design belong specifically to this business
+Before composing a single prompt line, the **Creative Direction Summary** (Stage 7) and its **Visual Thesis** must exist. The summary is not a poetic narrative about feelings; it is an expert art director's brief defining:
+- The visual tradition and historical lineage
+- The image-making technique and graphic medium
+- The formal form language, line character, and edge definitions
+- The typographic anatomy and lettering voice
+- The material substrate, ink finish, and surface physics
+- The business-specific anchors that make the design un-swappable
 
-The prompt must not:
-- Prescribe pixel positions, exact canvas percentages, or coordinate-level layout instructions
-- Enumerate every minor visual component
-- Contain design rationale, reasoning, or process explanation
-- Include post-processing instructions or "add text later" notes unless the user specifically asked for post-editing
-- Leave intentional empty areas or preserved text zones for the owner to fill in — the generated image must be complete, final artwork
+An image model cannot render abstract psychological sentiments like *"domestic satisfaction," "quiet confidence,"* or *"honest pride."* When fed literary mood prose, it defaults to generic commercial CGI, airbrushed plastic textures, and floating decorative clutter.
 
-**Every sentence must change what the model generates.** A sentence that explains the reasoning, describes the design process, or states a viewing context without translating it into a design character requirement does not belong in the prompt.
-
-**Viewing context → design character:** Never paste viewing-context statements directly into the prompt. Instead, translate them into what kind of design they require:
-- "Viewed from 10 m on a motorbike" → "A design that communicates one bold idea — readable at a glance from a distance, with maximum contrast and nothing competing for attention"
-- "Must read in 3 seconds" → "Spare and immediate — one dominant message, one supporting element, generous space around the essential content"
-- "Held in hand for 30 seconds" → "A design with layered information that rewards a closer read — clear hierarchy from the most important to the supporting details"
-
-**Every prompt is fully standalone.** It works if pasted alone into a fresh chat: no "same as before", no reference to another prompt, no dependence on a generated result.
+**The Test:** Before writing a prompt, ask: *"Does this brief specify the exact artistic tradition, rendering technique, form language, material substrate, and typographic anatomy needed for the image model to build a cohesive, distinctive graphic?"* If not, define the Visual Thesis first.
 
 ---
 
-## 2. The prompt structure
+## 1. What a Prompt Must Do
 
-The prompt is organized to give the model its most important orientation first — what is being made and why — then what must appear, then how it should feel and what makes it distinctive. This order ensures the model has the design's purpose and character before it starts solving the composition.
+A prompt is a **complete, standalone art-direction brief** for a master image-maker that cannot ask clarifying questions. It must communicate:
+
+1. **What is being created:** Physical print medium, format, aspect ratio, and viewing objective.
+2. **Who it belongs to and addresses:** The specific business and audience posture.
+3. **What must visibly appear:** Essential content only, with all on-image copy quoted verbatim for direct in-image rendering.
+4. **The Visual World & Art Direction:** The overarching artistic lineage, image-making medium, formal shape/edge language, palette relationships, and spatial atmosphere.
+5. **The Proprietary Design Character:** The business's authentic truth, craft, and physical reality translated into un-swappable visual forms.
+6. **Element-Specific Treatments:** The exact rendering, lighting, texture, and edge behavior of typography, hero subjects, and graphic devices.
+
+### What the Prompt Must NOT Do:
+- Micromanage layout with pixel coordinates, bounding box percentages, or rigid layout coordinates.
+- List dozens of trivial background props or decorative filler.
+- Include design rationale, reasoning steps, or meta-commentary ("we chose this because...").
+- Paste raw viewing-context sentences without translating them into optical design requirements.
+- Leave empty placeholder zones for external post-editing (unless explicitly requested by the owner).
+
+**The Rule of Creative Freedom:** Specify the visual language, the rendering craft, and the non-negotiable content with maximum precision. Then allow the image model the creative freedom to discover the most effective composition.
+
+---
+
+## 2. The Canonical Prompt Structure
+
+Every prompt follows this canonical order to give the image model its core orientation first, followed by content, art direction, element treatments, and constraints:
 
 ```
-FORMAT: [physical medium, e.g. "Printed roadside banner, 3×1 m, vinyl tarpaulin"], [aspect ratio and px].
+FORMAT: [Physical medium, e.g. "Printed roadside banner, 3×1 m, vinyl tarpaulin"], [aspect ratio and px, e.g. "3:1 (3000×1000 px)"].
 
-OBJECTIVE: [one sentence — what this specific output must accomplish for the viewer].
+OBJECTIVE: [One sentence — concrete communication task for the physical viewer].
 
-CONCEPT: "[campaign idea — same words in every prompt of a set]". [Two feelings]. For [audience].
+CONCEPT: "[Campaign idea — identical across prompts in a set]". [Feeling 1] and [feeling 2]. For [specific audience].
 
 CONTENT:
-- [Primary message/headline — exact text quoted verbatim]
+- [Primary message / headline — exact text quoted verbatim]
 - [Key supporting text — exact text quoted verbatim]
 - [Product or service]
-- [Brand identity — logo or name treatment]
+- [Brand identity — logo or identity treatment]
 - [Any important visual elements or motifs]
-- [All copy and graphic elements rendered directly into final artwork — no blank reserved text zones]
+Render all copy and graphic elements directly into final integrated artwork. No blank reserved text zones.
 
-CREATIVE DIRECTION: [The visual concept, personality, mood, aesthetic world, emotional character, and overall feeling the design should project. Derived from the business — not generic style language. This is where the design's distinctive identity lives. 3-6 sentences.]
+CREATIVE DIRECTION: [The overarching art direction, visual tradition, rendering medium, formal shape and line language, material expression, and spatial atmosphere. High semantic density, professional design terminology. 3–5 sentences.]
 
-DESIGN CHARACTER: [What makes this design specifically belong to this business — the ownable visual idea, USP expressed visually, specificity anchors, and what would distinguish it from a competitor using the same format. 2-4 sentences.]
+DESIGN CHARACTER: [The proprietary visual thesis and business-specific anchors — how the business's USP, craft, materials, and physical reality are manifested in visual form. Swap-test passed. 2–3 sentences.]
 
-HERO VISUAL: [What the dominant visual element is. Physically specific — not "a dish" but the real thing with its real character. If a photo is attached, say to use it exactly. If generated, describe what it should look like: subject, lighting quality, surface, material feel, angle, what makes it honest and specific rather than generic.]
+HERO VISUAL: [The dominant visual element. Art-directed rendering method, stylization level, lighting physics, surface textures, edge quality, and physical grounding. If attached photo, specify exact preservation.]
+
+[LOGO / IDENTITY — include if no logo file exists:]
+LOGO / IDENTITY: Business name "[name]" rendered in [specific typographic anatomy: classification, optical weight, stroke stress, terminal cut, case], [color], [framing device or panel].
 
 VISUAL SYSTEM (identical in every prompt of this set):
-Type: [headline character — weight, personality, case]; [support character]. Style and material: [photo/illustration, texture, finish, light quality]. Image treatment: [how real photos are handled]. Device: [one recurring graphic element, or none]. Space level: [calm / moderate / dense-but-grouped].
+Type: [headline anatomy — weight, classification, terminal character, case]; [support character]. Style and material: [rendering medium, texture, finish, light physics]. Image treatment: [how photos/illustrations are grounded]. Device: [recurring graphic framing element, or none]. Space level: [calm / moderate / structured density].
 
-[ATTACHED IMAGES — include ONLY if images are being attached. Omit this block entirely when there are none:]
+[ATTACHED IMAGES — include ONLY if images are attached to this prompt; omit entirely otherwise:]
 ATTACHED IMAGES (attach in this order):
-Image 1 = [what it is]. Role: [...]. Treatment: [...]. Keep unchanged: [...]. May change: [...].
-Image 2 = ...
+Image 1 = [what it is]. Role: [hero / setting / brand mark]. Treatment: [keep exactly / clean up / integrate]. Keep unchanged: [...]. May change: [...].
+Priority if conflicts: [...].
 
-EXCLUSIONS: Keep [truth constraints]. Avoid [4-8 specific failure modes for this brief — concrete, not generic].
+EXCLUSIONS: Keep [truth constraints]. Avoid [4–8 concrete failure modes for this specific brief].
 ```
 
-**Why this order:**
-- FORMAT → the model knows the physical medium and aspect ratio first
-- OBJECTIVE → purpose is established before any creative decision
-- CONCEPT → the organizing idea before content and style
-- CONTENT → what must appear in the image, in priority order
-- CREATIVE DIRECTION → the visual world and character the design inhabits
-- DESIGN CHARACTER → the business-specific identity that makes the design distinctive
-- HERO VISUAL → the dominant element with physical specificity
-- VISUAL SYSTEM → shared consistency block, identical across all prompts in a set
-- ATTACHED IMAGES → asset declarations with use instructions
-- EXCLUSIONS → specific prohibitions against the most likely failure modes
+---
+
+## 3. Block Rules & Visual Language Standards
+
+- **FORMAT:** State the physical print medium and production substrate explicitly ("Printed roadside banner, 3×1 m, vinyl tarpaulin," "Printed counter poster, A4 portrait, 250 gsm matte art carton"). State the pixel dimensions and aspect ratio.
+- **OBJECTIVE:** Single concrete communication task: *"Deliver instant offer recognition to passing motorbike traffic within two seconds,"* or *"Convince a seated diner to order the house specialty."*
+- **CONCEPT:** The organizing campaign idea, identical in every prompt of a set.
+- **CONTENT:** Ranked content elements with all text quoted verbatim. Instruct: *"Render all text exactly as written, in Indonesian, no additional words."*
+- **CREATIVE DIRECTION:** The core **Art Direction & Visual Language** block. Must identify:
+  1. Primary visual lineage (e.g., Plakatstil object-poster, Swiss International Style, Mid-Century offset lithography, Indonesian vernacular commercial sign).
+  2. Image-making technique / medium (e.g., flat-plane gouache illustration, spot-color screenprint, medium-format editorial still life).
+  3. Form language and edges (e.g., reductive geometric silhouettes, razor-sharp vector contours, hand-painted enamel brush fringe).
+  4. Palette relationships and value contrast (e.g., saturated cobalt field #1E4B82 with high-contrast cadmium yellow lettering #FFD700).
+  5. Spatial atmosphere (e.g., active negative space, asymmetric tension, uncluttered breathing room).
+- **DESIGN CHARACTER:** The **Proprietary Visual Thesis & Business Anchors**. Explain how the business's real craft, tools, ingredients, or physical architecture are translated into visible graphic elements. This ensures the graphic passes the visual swap test.
+- **HERO VISUAL:** Art-direct the hero subject's physical and optical rendering:
+  - Subject with physical specificity (proportions, vessel, ingredient details).
+  - Lighting physics: source, direction (e.g., 45° directional window raking light), quality (soft diffused vs. sharp directional), and authentic grounded contact shadow with penumbra falloff.
+  - Surface texture: authentic micro-details (flour dusting, condensation drops, fabric weave, wood grain, slight natural imperfections).
+  - Edge relationship: hard graphic contour, photographic depth falloff, or ink-bleed transition.
+- **VISUAL SYSTEM:** The binding visual identity block (~40–60 words). Must be copied word-for-word into every prompt of a multi-output set.
+- **ATTACHED IMAGES:** Include ONLY when image files are attached. Omit entirely when there are none. For each image, define Role, Treatment, Keep Unchanged, May Change, and Conflict Priority.
+- **EXCLUSIONS:** Specific prohibitions against the most likely failure modes for this brief. Always include positive truth constraints ("Keep real dish proportions and authentic wood texture") followed by concrete negatives ("Avoid 3D glossy plastic food, floating ingredients, neon gradients, lens flares, decorative sparkles, invented badges").
 
 ---
 
-## 3. Block rules
+## 4. Final Artwork Rule (Complete In-Image Generation)
 
-**FORMAT.** State the physical medium and production context explicitly: "Printed roadside banner, 3×1 m, vinyl tarpaulin." State the aspect ratio for generation: "3:1 (3000×1000 px)."
-
-**OBJECTIVE.** One sentence — what this specific output must accomplish. Not the campaign concept (that is CONCEPT), but the specific communication task: "Attract passing motorbike traffic and communicate the daily-use offer in under two seconds." "Convince a standing customer to order the hero product." "Introduce the business name and one differentiator to pedestrians."
-
-**CONCEPT.** The campaign idea in the same words in every prompt of the set, plus the two feelings and the audience. It comes from the Distinction Brief (USP, desired perception). This is a design concept — an organizing idea — not an aesthetic direction.
-
-**CONTENT.** List what must visibly appear in the image, in order of importance. Primary message first, then supporting content, then brand identity, then any important visual motifs. Quote exact verbatim text to be rendered directly in the image. Do not enumerate minor decorative details here — only content the design must communicate. All text must be fully rendered in the final artwork (only reserve an empty zone if the owner specifically requested a template for manual editing).
-
-**CREATIVE DIRECTION.** This is the heart of the prompt. Describe the visual concept, personality, mood, emotional character, aesthetic world, and overall feeling. Be specific and business-derived — not generic. Express the design's visual logic: why this character fits this business and this audience. Include:
-- The overall visual impression and emotional register
-- The color world and what it communicates (not just hex values — what the colors *mean* in context)
-- The typographic personality and what it signals
-- The spatial feeling (spacious, energetic, restrained, warm, bold, quiet)
-- What the design should feel like to the viewer encountering it in real physical space
-
-Avoid: "eye-catching," "professional," "beautiful," "stunning," "modern and clean" alone. These words add nothing. Replace with specific sensory and emotional language derived from the business.
-
-**DESIGN CHARACTER.** State what makes this design belong to this specific business. Name the ownable elements — the USP expressed visually, the specificity anchors, the visual idea that could only come from this business's real identity. This is the swap-test answer: why a competitor's name could not be dropped in without the design looking wrong.
-
-**HERO VISUAL.** Name the real thing with physical specificity. Not "a delicious dish" but "a 20 cm earthenware bowl of mie ayam with golden broth, visible slices of chicken on top, chopped spring onion lying flat in the broth, on a worn rattan placemat, soft morning window light from the left, slight steam curl above the bowl." Push toward honest, credible imagery: real surfaces, natural light, believable proportions, visible texture, slight physical imperfection. If a photo is attached, say to use it exactly.
-
-**VISUAL SYSTEM.** Compact shared identity block (~40-60 words). Contains: type characters (headline + support), style and material (photo/illustration, texture, finish, light quality), image treatment (how real photos are handled), graphic device (one element or none), space level. Identical word-for-word in every prompt of a set.
-
-**ATTACHED IMAGES.** Include only when image files are literally being attached to the AI prompt. Omit entirely when there are none — no placeholder, no "no images" note. For each attached image: what it is, its role, its treatment, what to keep unchanged, what may change, and any conflict priority.
-
-**EXCLUSIONS.** "Keep" = truth constraints (what must not be invented or altered). "Avoid" = specific failure modes for this brief — concrete, not generic. "Floating ingredients, glow effects, gradient backgrounds, decorative sparkles, extra invented text, stock-style smiling people, crowded corners" beats "avoid AI slop." Write 4-8 exclusions. More than 8 usually means the creative direction is not strong enough.
+Every generated prompt must produce **Final Integrated Artwork**: complete, finished, and ready to print with zero external post-editing:
+- All typography (headlines, offers, prices, brand identity, contact numbers) must be fully rendered in the image by the generative model.
+- Leaving blank placeholder zones or template boxes for manual editing in Canva or Photoshop is strictly forbidden UNLESS the user explicitly requests a blank template.
+- Safeguard legibility by enforcing Stage 4 hierarchy: keep on-image copy concise, punchy, and quoted verbatim in capital letters where appropriate.
 
 ---
 
-## 4. Final artwork rule (complete in-image generation)
+## 5. Phrasing & Optical Translation Rules
 
-The standard requirement for all output is **Final Integrated Artwork**: every generated image must be complete, final, and ready for use/print without requiring any post-edits.
-
-- **Default (Final Artwork):** All typography (headline, offer, price, CTA, contact details, identity treatment) is rendered directly by the image model. The output must NOT contain any preserved text zones or blank areas reserved for later editing. Quote each line in the CONTENT block and specify "render all text exactly as written, in Indonesian, no additional words".
-- **Exception (Post-edits only on explicit request):** Reserving clean text zones or generating background-only templates for external editing (e.g. Canva or print software) is strictly prohibited UNLESS the user specifically and explicitly asks to add text themselves or requests a blank template.
-- **Legibility safeguard:** Control text volume strictly via Stage 4 hierarchy. Keep on-image text concise, punchy, and quoted verbatim to ensure sharp, legible lettering in the generated image.
-
----
-
-## 5. Phrasing rules
-
-1. **Meaning over mechanics.** Describe what the design should communicate and feel like — not where to place each pixel.
-2. **Specific over generic.** "Deep coffee-brown warmth that signals honest neighborhood craft" beats "dark brown background."
-3. **Business-derived over style-adjective.** Every direction should trace back to the real business, real audience, or real product.
-4. **One idea per sentence.**
-5. **No stacked contradictions** ("minimal yet rich", "luxurious but cheap-looking").
-6. **No quality buzzwords** ("ultra-detailed", "8k", "masterpiece", "stunning", "hyper-realistic").
-7. **Positive first, negatives last, and few.**
-8. **Name the single most important content element early** (the hero and what it communicates).
-9. **Instructions in English, on-image text in the owner's language and spelling.**
-10. **Do not name model versions** or other products as style ("like Midjourney").
-11. **No meta-commentary.** Do not explain why a decision was made or describe the design process.
-12. **No viewing-context sentences.** "Viewed from the sidewalk at 3–8 m" tells the model nothing useful. Translate into design character: what kind of visual presence, what level of simplicity, what reading speed.
+1. **Optical directives over literary storytelling:** Translate narrative sentiments into optical and material facts.
+   - *Weak:* "Feels like a cozy family business where you feel welcomed."
+   - *Professional:* "Indonesian vernacular commercial sign tradition: flat warm-ochre painted wooden surface, heavy hand-lettered sign-painter casual capitals in cream enamel, soft 45-degree directional window illumination."
+2. **Translate viewing context into design character:**
+   - *Weak:* "Viewed from a motorbike at 40 km/h."
+   - *Professional:* "Plakatstil poster tradition: extreme value contrast, massive condensed grotesque capitals, singular bold hero silhouette against an unadorned solid color field, zero decorative clutter."
+3. **High semantic density:** Every sentence must alter what the model generates. Eliminate redundant adjectives, meta-commentary, and process justifications.
+4. **One language for instructions, owner's language for copy:** Prompt instructions in English for optimal model adherence; quoted on-image text in the owner's language and exact spelling.
 
 ---
 
-## 6. Semantic density
+## 6. Semantic Density & High-Information Language
 
-Every sentence in the prompt should carry useful meaning about:
+Maximize **useful artistic specificity per word**:
 
-**subject + business + audience + message + content + visual character + emotional direction + distinctive identity.**
+$$\text{Density Score} = \frac{\text{Artistic Decisions (Lineage, Medium, Form, Typography, Substrate, Physics)}}{\text{Total Word Count}}$$
 
 Remove:
-- Repetition of the same idea in different words
-- Generic adjectives that could apply to any design ("eye-catching," "professional," "modern")
-- Explanations of reasoning ("because the viewer is passing quickly, we need...")
-- Redundant constraints (stating the same prohibition twice)
-- Observations about what the design "should" do that are already implied by the creative direction
-
-Every sentence should add something the model would not know from the rest of the prompt.
+- Empty filler ("stunning," "eye-catching," "masterpiece," "ultra-detailed," "beautiful").
+- Redundant repetitions ("clean and uncluttered, with nothing messy, very neat").
+- Unenforceable coordinates ("in the upper 34% of the canvas, 12 pixels from the left").
+- Process storytelling ("because the customer has little time, we decided to...").
 
 ---
 
-## 7. Realistic food and product imagery
+## 7. Realistic Food & Product Imagery
 
-When the prompt must generate food or product imagery without a reference photo, describe it to push toward honest, credible commercial photography:
-
-- **Light:** name the source and direction ("soft morning light from a north-facing window, diffused through white curtain, shadows falling left"). Never "professional studio lighting" or "beautifully lit."
-- **Surface:** real, named material ("worn dark-teak wood counter with visible grain and a water ring stain"). Never "beautiful background."
-- **Angle:** specific camera angle ("looking slightly down at 25°, close enough that the bowl fills most of the frame"). Never "appetizing angle."
-- **Texture:** visible and physically plausible ("glossy broth surface with a thin orange oil film, visible sear marks on the meatball, chopped green onion lying flat"). Never "perfectly plated."
-- **Proportions:** realistic, not exaggerated ("a standard 18 cm bowl"). Never "enormous," "overflowing."
-- **Imperfection is realism:** a condensation drop, a small chip, a slightly uneven sprinkle. These signal a real photo.
-- **Avoid explicitly:** "excessive gloss, exaggerated portion size, ingredients floating mid-air or erupting from the dish, plastic-looking surfaces, extreme depth-of-field blur, generic stock-food aesthetics."
+When generating food or product visuals without reference photos, specify realistic physical parameters:
+- **Lighting Physics:** Name source, angle, and diffusion: *"Directional raking morning sunlight from the left at 45°, soft diffused window falloff, casting a grounded contact shadow with soft penumbra to the right."*
+- **Material Substrate & Surface:** Real, named physical materials: *"Resting on a worn teak wood table surface with subtle longitudinal wood grain and satin finish,"* not *"nice rustic background."*
+- **Tactile Micro-Details:** Visible ingredient reality: *"Visible flecks of chopped celery, golden fat droplets on the broth surface, authentic beef tendon grain, steam wisp curling naturally,"* not *"delicious steaming soup."*
+- **Physical Imperfection:** Slight natural asymmetry, irregular cut vegetables, an authentic drizzle bead. Imperfection signals human reality; absolute symmetry signals AI synthetic plastic.
 
 ---
 
-## 8. Length and tool notes
+## 8. Length & Tool Notes
 
-**Length:** Aim for 200–400 words per prompt. The CREATIVE DIRECTION and DESIGN CHARACTER blocks replace the former explicit zone-specification blocks — they are denser in meaning and shorter in word count. If you pass 450 words, check whether you are repeating yourself or over-specifying: cut.
-
-**AI tool selection** (ask in Stage 0: "Kakak biasanya pakai AI apa?"):
-
-| Tool | Image attachments | Text accuracy | Aspect ratio | Best for |
-|---|---|---|---|---|
-| ChatGPT / DALL-E 3 | Yes, multiple | Good | Set in interface | Complete final artwork with attached photos/logo |
-| Midjourney (v6+) | Limited (one image, Vary Reference) | Moderate | `--ar` flag | Stylized hero & bold short headlines |
-| Adobe Firefly | Yes | Good | Set in interface | Print-safe outputs; CMYK-aware colors |
-| Ideogram (v2+) | Yes | Excellent | Set in interface | Complete final artwork with sharp lettering |
-| Canva AI (Magic Media) | Yes | Good | Auto from template | Fast layout generation |
-| Leonardo AI | Yes | Moderate | Set in interface | Atmospheric product & hero visuals |
-
-**Rules by tool:**
-- Always default to Final Artwork (complete in-image generation): all copy and typography rendered directly in the image.
-- If the tool does not support image attachments, describe the product entirely in the HERO VISUAL block.
-- Only provide a template/background without text if the user explicitly asks to add text themselves.
-
-**One-change iteration:** let the owner change one major thing per round (`12-review-and-iteration.md`).
+- **Length:** 220–420 words per prompt. High information density enables complete art direction within a compact footprint.
+- **Midjourney v6+:** Add `--ar [ratio]` flag at the end of the prompt.
+- **Ideogram v2+ / DALL-E 3 / Imagen / Flux:** Set aspect ratio in the UI.
 
 ---
 
-## 9. Contradiction check
+## 9. Contradiction Check
 
-- Creative Direction Summary completed before this prompt was written?
-- Does the CREATIVE DIRECTION reflect the emotional brief from Stage 4 — the causal chain from desired perception to visual element?
-- Any sentence asking for both "minimal" and "rich detail"?
-- Does the CONTENT block list what actually needs to appear, or just what seemed comprehensive?
-- Does the CREATIVE DIRECTION trace back to the actual business, or is it generic style language?
-- Does the DESIGN CHARACTER pass the swap test — would the design look wrong for a different business?
-- Style (illustration) in conflict with the hero (real photo)?
-- Anything the model cannot do reliably (small text, QR, logos, official marks)?
-- An exclusion that forbids something the creative direction requires?
-- Any reference to another prompt, or any image numbering that does not match the attachment list?
-- Any meta-commentary sentence that does not change the picture?
-- Is the ATTACHED IMAGES block present when there are no images?
-- Does the prompt leave any essential content unspecified for complete in-image rendering?
+Before delivering a prompt, verify:
+- [ ] Creative Direction Summary existed before writing the prompt.
+- [ ] CREATIVE DIRECTION specifies visual lineage, image-making medium, form language, and material substrate.
+- [ ] DESIGN CHARACTER specifies proprietary visual anchors and passes the visual swap test.
+- [ ] HERO VISUAL directs rendering style, lighting physics, and edge quality.
+- [ ] VISUAL SYSTEM is word-for-word identical across all prompts of the set.
+- [ ] No literary mood sentences without optical translation.
+- [ ] No coordinates or pixel micromanagement.
+- [ ] No empty reserved text zones (Final Integrated Artwork confirmed).
+- [ ] ATTACHED IMAGES block omitted when no images are attached.
 
 ---
 
-## 10. Example A: counter poster with attached images (final integrated artwork)
+## 10. Example A: Counter Poster with Attached Images (Final Integrated Artwork)
 
-Brief: "Kopi Mbak Rini", Bekasi, 1-litre milk coffee; buyers: anak kos and office workers 20-35; action: order via WhatsApp; message: "satu botol cukup seharian"; offer Rp 55.000/botol, beli 2 Rp 100.000, until Sunday; bottle photo and logo available; direction: warm, confident, merakyat.
+**Brief:** "Kopi Mbak Rini", Bekasi; 1-litre milk coffee; audience: college students and office workers 20–35; objective: counter poster driving WhatsApp orders; message: "SATU BOTOL, CUKUP SEHARIAN"; offer: Rp 55.000/botol, beli 2 Rp 100.000, until Sunday; attached assets: bottle photo (Image 1), logo (Image 2).
 
-**Creative Direction Summary (produced before writing the prompt):**
-Concept: "One confident bottle against generous space — the smallness of the product vs. the scale of the daily promise." The design should feel like an honest neighborhood product that quietly delivers on a big promise — warm, direct, nothing to hide. Deep coffee-brown warmth as the field, the real bottle as the single hero, the offer as the second thing the eye lands on. The character is sign-painter confidence, not polished commercial. Specificity: the real kraft-paper bottle label, the daily-use positioning, the merakyat warmth.
+**Creative Direction Summary:**
+- *What & Medium:* A4 portrait counter poster (210×297 mm) on 260 gsm matte art carton.
+- *Objective:* Convert counter visitors into daily-bottle buyers within 5 seconds.
+- *Visual Thesis:* **German Plakatstil object-poster structure combined with mid-century screenprinted coffee packaging aesthetic:** A singular monumental cold-brew bottle silhouette grounded on an unadorned, deep roasted-coffee field (#2A1810), framed by massive sign-painter condensed capitals (#F5E6D3), with active negative space signaling confidence and daily value.
+- *Specificity Anchors:* Authentic kraft-paper bottle label, the daily volume promise ("cukup seharian"), worn teak counter contact.
 
 ```
-FORMAT: Printed counter promotional poster, A4 portrait (210×297 mm, 2480×3508 px at 300 dpi).
+FORMAT: Printed counter promotional poster, A4 portrait (210×297 mm, 2480×3508 px at 300 dpi), matte art carton finish.
 
-OBJECTIVE: Catch the eye of a customer standing at the counter and communicate the daily-use offer clearly enough that they buy or order.
+OBJECTIVE: Catch the eye of a standing counter patron and communicate the daily-use value proposition clearly enough that they order immediately.
 
-CONCEPT: "Satu botol, cukup seharian." Confident and unpretentious. For students and office workers who want honest daily coffee.
+CONCEPT: "Satu botol, cukup seharian." Confident, unpretentious daily fuel. For students and office workers needing honest sustenance.
 
 CONTENT:
 - Headline: "SATU BOTOL, CUKUP SEHARIAN"
-- Price: "Rp 55.000" with bundle "beli 2 jadi Rp 100.000"
-- Deadline: "s.d. Minggu ini"
-- CTA: "Pesan lewat WhatsApp"
+- Price: "Rp 55.000" with bundle callout "beli 2 jadi Rp 100.000"
+- Condition: "s.d. Minggu ini"
+- Action: "Pesan lewat WhatsApp"
 - Hero: 1-litre milk-coffee bottle (Image 1)
-- Brand: business logo (Image 2), upper area
-Render all text exactly as written, in Indonesian, no additional words.
+- Brand mark: business logo (Image 2), upper placement
+Render all copy exactly as written, in Indonesian, integrated directly into final artwork. No blank text zones.
 
-CREATIVE DIRECTION: A warm, direct promotional composition built around one honest product and one generous promise. The dominant feeling is confident and merakyat — the design of a neighborhood product that does not need to shout because the daily value speaks for itself. Deep coffee-brown warmth fills the field; the bottle stands as the quiet hero; the headline carries the promise in bold sign-painter caps. Generous breathing room around the bottle signals confidence. The overall character is honest and direct — warm without being casual, simple without being empty.
+CREATIVE DIRECTION: German Plakatstil object-poster lineage executed with a screenprinted commercial poster aesthetic. The composition is built around a singular dominant product silhouette commanding an unadorned, deep roasted coffee-brown field (#2A1810). Flat matte ink finish with subtle tooth; zero digital gradients, zero artificial glows. Heavy condensed sign-painter display capitals with flat-cut terminals in warm cream (#F5E6D3) anchor the headline with bold graphic mass. Generous unprinted negative space (approximately 45% of canvas) surrounds the bottle, creating powerful visual focus and communicating unhurried artisanal confidence.
 
-DESIGN CHARACTER: The warmth of a kopitiam counter that has served the same neighborhood for years — the kraft-paper label, the sign-painter headline, and the deep-brown field all signal a real product with a real story behind it. The daily-use promise ("cukup seharian") is the organizing idea that makes this specific to Kopi Mbak Rini, not just a coffee promo.
+DESIGN CHARACTER: The visual language of a proud neighborhood coffee roastery — anchored by the authentic kraft-paper bottle label, the sturdy sign-painter typography, and the deep coffee-field contrast. The scale relationship between the quiet upright bottle and the bold daily promise ("cukup seharian") belongs exclusively to Kopi Mbak Rini, distinguishing it from generic commercial cafe advertising.
 
-HERO VISUAL: Image 1 — the 1-litre milk-coffee bottle with kraft paper label. Keep the product exactly as photographed: bottle shape, label design, cap color, liquid color unchanged. Place standing upright at a slightly low angle, on a worn dark-teak counter surface with visible wood grain. Window light from the left, soft and warm, casting a faint shadow. No reflections on the label. Replace background with flat deep coffee-brown (#3B2418).
+HERO VISUAL: Image 1 — the 1-litre milk-coffee bottle with kraft paper label. Keep the product exactly as photographed: bottle silhouette, label graphics, cap color, and liquid tone unaltered. Ground upright on a worn dark-teak wooden counter surface with visible grain and satin finish. Directional raking morning window light from the left at 45°, casting a soft grounded contact shadow with penumbra falloff to the right. Seamless planar transition into the solid coffee-brown background field.
 
 VISUAL SYSTEM (identical in every prompt of this set):
-Type: heavy condensed sign-painter caps for headline; clean humanist sans for support text; no scripts. Style and material: photographic product on flat painted dark-brown surface, matte finish, natural window light with slight warm cast. Image treatment: real product photos kept exactly, placed on surface with a soft grounded contact shadow, no glow. Device: none. Space level: calm.
+Type: heavy condensed sign-painter capitals with flat-cut terminals for headline; clean humanist sans for supporting text; no scripts. Style and material: photographic product on flat opaque dark-brown field, matte ink finish, natural directional window light. Image treatment: real product photos preserved exactly, grounded with soft contact shadows, no halo or glow. Device: solid warm-ochre accent bar under price. Space level: calm.
 
 ATTACHED IMAGES (attach in this order):
-Image 1 = owner's real photo of a 1-litre milk-coffee bottle with a kraft paper label. Role: hero. Treatment: keep exactly; replace background with flat deep coffee-brown. Keep unchanged: bottle shape, kraft label design, cap color, liquid color. May change: background, light direction softened to match scene.
-Image 2 = business logo. Role: brand mark. Treatment: place unaltered, upper area. Keep unchanged: everything.
-Priority if conflicts: Image 1 wins on product appearance; Image 2 must never be redrawn or recolored.
+Image 1 = owner's photo of a 1-litre milk-coffee bottle with kraft paper label. Role: hero. Treatment: keep product exactly; isolate onto solid coffee-brown background. Keep unchanged: bottle shape, label, cap, liquid color. May change: background, lighting balanced to directional window light.
+Image 2 = business logo. Role: brand mark. Treatment: place unaltered in upper area. Keep unchanged: everything.
+Priority if conflicts: Image 1 governs product appearance; Image 2 must never be recolored or redrawn.
 
-EXCLUSIONS: Keep bottle shape, label, and logo exactly as photographed. Avoid floating coffee beans or liquid splashes, glow effects, gradient backgrounds, decorative sparkles, rounded glass panels behind text, extra invented text, stock smiling people, busy patterned backgrounds.
+EXCLUSIONS: Keep bottle silhouette, label graphics, and logo exactly as provided. Avoid floating coffee beans, liquid splash crowns, neon gradients, lens flares, decorative sparkles, glass-morphism panels behind text, stock smiling people, crowded decorative borders.
 ```
 
-Lampiran: 1. Foto botol (hero). 2. Logo (pojok kiri atas). Cara: unggah keduanya dalam urutan ini, lalu tempel prompt di kolom yang sama dan kirim bersamaan.
+**Lampiran:** 1. Foto botol (hero). 2. Logo (area atas). Cara: Unggah kedua gambar dalam urutan ini, tempel prompt, kirim bersamaan.
 
 ---
 
-## 11. Example B: roadside spanduk, no reference images (final integrated artwork)
+## 11. Example B: Roadside Spanduk, No Reference Images (Final Integrated Artwork)
 
-Brief: "Laundry Bersih Kilat", Depok; students and workers; message "SELESAI BESOK"; action: call or WhatsApp; spanduk 3 m × 1 m on roadside shop front; price Rp 6.000/kg; direction: clean, reliable, sky-blue. Complete final artwork with zero post-edits.
+**Brief:** "Laundry Bersih Kilat", Depok; roadside shop front; audience: college students and busy workers passing on motorbikes; message: "SELESAI BESOK"; pricing: "Rp 6.000 / kg"; spanduk 3×1 m vinyl tarpaulin; no photos available; direction: clean, reliable, high-speed roadside legibility.
 
-**Creative Direction Summary (produced before writing the prompt):**
-Concept: "Beres sebelum besok — the domestic relief of done." The design communicates clean reliability in one massive visual read for passing street traffic — bold, crisp typography on the left declaring the promise and pricing, anchored by a neat stack of fresh laundry on the right. The sky-blue field signals cleanliness and openness. The feeling is calm, orderly, and dependable: a neighborhood service that works without drama. Specificity: real folded fabric texture (no generic soap or machines), a paper tag in a warm accent, the promise and price integrated cleanly into a finished banner composition.
+**Creative Direction Summary:**
+- *What & Medium:* Roadside shop banner, 3×1 m vinyl tarpaulin, 3:1 aspect ratio (3000×1000 px).
+- *Objective:* Register speed promise and pricing to moving motorbike riders in under 2 seconds.
+- *Visual Thesis:* **Swiss International Style asymmetric grid meets commercial screenprint poster tradition:** Razor-sharp planar vector blocking, massive navy condensed grotesque typography (#0F2444) set against an unadorned luminous sky-blue field (#E6F3FA), anchored by a hyper-crisp still-life rendering of folded cotton laundry on the right, grounded by an ultramarine structural base band.
+- *Specificity Anchors:* Tangible cotton fabric weave, hand-tied kraft paper tag in warm cadmium yellow (#FFC83D), decisive non-decorative clarity.
 
 ```
-FORMAT: Printed roadside shop banner, 3×1 m vinyl tarpaulin. 3:1 aspect ratio (3000×1000 px).
+FORMAT: Printed roadside shop banner, 3×1 m vinyl tarpaulin, 3:1 aspect ratio (3000×1000 px), outdoor matte flex finish.
 
-OBJECTIVE: Catch the eye of passing motorbike riders and pedestrians within 2 seconds, communicating speed and honest pricing so they stop or contact immediately.
+OBJECTIVE: Catch the attention of passing motorbike riders within 2 seconds, delivering instantaneous recognition of next-day turnaround and honest pricing.
 
-CONCEPT: "Selesai besok." Clean and reliable. For students and workers who need their laundry done without waiting.
+CONCEPT: "Selesai besok." Crisp domestic reliability. For students and workers who need laundry solved without drama.
 
 CONTENT:
-- Business name: "LAUNDRY BERSIH KILAT" in clean, sturdy humanist sans
-- Headline: "SELESAI BESOK" in massive, bold navy condensed lettering
-- Price: "Rp 6.000 / kg" prominent and legible
-- Contact: "WA 0812-3456-7890" in clear, bold numerals
-- Visual content: folded laundry stack on the right
-Render all text exactly as written, in Indonesian, with crisp edges and high value contrast against the sky-blue field. No extra words, no watermarks.
+- Business name: "LAUNDRY BERSIH KILAT" in sturdy humanist sans capitals
+- Headline: "SELESAI BESOK" in massive condensed grotesque display capitals
+- Price: "Rp 6.000 / kg" prominent and bold
+- Contact: "WA 0812-3456-7890" in high-contrast numerals
+- Visual content: crisp stack of folded garments on the right
+Render all copy exactly as written, in Indonesian, integrated directly into the artwork with sharp edge boundaries. No blank text zones.
 
-CREATIVE DIRECTION: A clean, confident composition built around the promise of done. The feeling is orderly and calm — the domestic satisfaction of finding your laundry ready before you expected it. The sky-blue background is open, luminous, and uncluttered, carrying the bold navy headline with maximum roadside legibility. The folded clothes on the right provide tangible proof — real fabric texture, a warm yellow tag, no floating bubbles or cartoon machines. A narrow navy band at the base grounds the entire piece and gives it structure.
+CREATIVE DIRECTION: Swiss International Style grid discipline combined with a flat-plane screenprinted commercial poster aesthetic. The composition is built on powerful asymmetric balance: the left two-thirds is a calm, luminous sky-blue field (#E6F3FA) carrying high-contrast navy display typography; the right third is anchored by a sharp, tactile still-life of neatly folded garments. Extreme value contrast engineered for tropical sunlight legibility. Razor-sharp contour edges, zero airbrushed gradients, zero digital glows. A solid deep ultramarine band (#0F2444) at the bottom edge provides architectural grounding for the contact details.
 
-DESIGN CHARACTER: The visual language of a trustworthy local institution — clear, clean, and practical. The folded stack with a hand-tied tag signals domestic care; the large, direct typography signals speed and honest rates. This is not a laundry template: the combination of domestic warmth and decisive typographic clarity creates a banner that belongs exclusively to a hardworking neighborhood shop.
+DESIGN CHARACTER: The visual authority of a disciplined, trustworthy neighborhood institution. By replacing generic laundry clichés with the tactile reality of perfectly ironed cotton weave and a hand-tied yellow paper ticket, the design conveys authentic domestic care and prompt delivery. Impossible to confuse with generic clip-art laundry templates.
 
-HERO VISUAL: Right third of the banner. A neat stack of three freshly folded garments — a crisp white cotton shirt on top, a sky-blue towel in the middle, a cream linen shirt at the base — resting on a plain white surface. One hand-tied paper tag in sunny yellow (#FFC83D) tucked under the top fold. Overhead natural daylight, slightly diffused, crisp grounded shadow beneath. Fabric weave and texture clearly visible. No hangers, no soap, no foam, no cartoon washing machines.
+HERO VISUAL: Right third of the canvas. A precise, rectilinear stack of three freshly ironed garments: a crisp white oxford cotton shirt on top with collar neatly pressed, a sky-blue woven towel in the center, and a cream linen shirt at the base. One rectangular paper laundry tag in warm cadmium yellow (#FFC83D) tucked neatly under the top collar fold. Diffused overhead daylight, casting a crisp, grounded contact shadow directly beneath. Tactile fabric weave clearly visible; sharp outline silhouette against the blue field.
 
 VISUAL SYSTEM (identical in every prompt of this set):
-Type: heavy condensed navy caps for headline; neutral humanist sans for business name and price. Style and material: real-photo feel, matte surfaces, clean sky-blue field. Image treatment: objects grounded on surface with crisp edges and a soft grounded shadow, no glow. Device: navy bottom band. Space level: calm.
+Type: massive condensed grotesque display capitals for headline; neutral humanist sans for business name and price. Style and material: flat vector screenprint aesthetic combined with tactile realistic fabric still life, matte tarpaulin surface. Image treatment: objects grounded on surface with crisp contact shadows, no floating elements. Device: solid ultramarine base band. Space level: calm.
 
-EXCLUSIONS: Keep fabric texture realistic and type sharp and fully legible. Avoid washing machines, floating soap bubbles, sparkles, decorative wave patterns, steam effects, stock smiling families, foam splashes, neon gradients, illegible script type.
+EXCLUSIONS: Keep fabric weave realistic, shirt collar crisp, and typography razor-sharp. Avoid cartoon washing machines, floating soap bubbles, foam splashes, water droplets, sparkles, steam swirls, neon cyan gradients, stock smiling families, curved script fonts.
 ```
 
-Lampiran: Tidak ada lampiran.
-
-Cara pakai: Buka AI pembuat gambar, tempel prompt, lalu buat gambarnya. Hasil gambar sudah lengkap dengan tulisan, siap langsung dicetak tanpa perlu diedit lagi.
+**Lampiran:** Tidak ada lampiran. Cara: Salin prompt ke AI pembuat gambar, hasil langsung dicetak tanpa edit tambahan.
 
 ---
 
-## 12. Example C: table card / promotional flyer, no reference images, with identity treatment (final integrated artwork)
+## 12. Example C: Table Card / Flyer, No Images, Identity Treatment (Final Integrated Artwork)
 
-Brief: "Sambal Mbah Sari", Yogyakarta, hand-ground sambal in jars, sold via WhatsApp; buyers: urban adults 25-45; message: "diulek pagi ini, dikirim hari ini"; action: order via WhatsApp; price Rp 25.000/jar; no logo, no photos; direction: handmade warmth, honest, artisanal, traditional Java.
+**Brief:** "Sambal Mbah Sari", Yogyakarta; artisanal hand-ground sambal bawang in glass jars; audience: food enthusiasts 25–45 seeking authentic culinary heritage; message: "DIULEK PAGI INI, DIKIRIM HARI INI"; price: Rp 25.000 / toples; provenance: "Yogyakarta — sejak 1987"; no logo, no photos; direction: authentic Javanese culinary craft, handmade warmth, honest stone-mortar process.
 
-**Creative Direction Summary (produced before writing the prompt):**
-Concept: "A jar that arrived this morning — the texture of something made before dawn." The design is organized around one small honest jar of sambal and the freshness promise that makes it specific. The visual character is Javanese domestic authenticity: terracotta surfaces, morning side-light, the stone mortar softly present in the background. A full-width dark-brown panel carries the identity in slab-serif stamp caps — this is a brand name, not a label. Spacious and warm; the jar earns its space by being the real thing. Specificity: hand-ground texture visible through the glass, the cobek mortar, the kraft paper tie, the "since 1987" proof.
+**Creative Direction Summary:**
+- *What & Medium:* Table card / promotional flyer, A5 portrait (148×210 mm, 1748×2480 px at 300 dpi).
+- *Objective:* Engage a seated diner or counter customer, establishing dawn-made freshness and generational authenticity.
+- *Visual Thesis:* **Tactile woodcut/relief printmaking combined with Javanese domestic editorial still-life photography:** A squat glass jar filled with chunky stone-ground sambal resting on weathered terracotta tile under 45° warm morning raking light, anchored at the top by a woodcut-inspired dark umber identity panel (#2C1A0E) with stamped Egyptian slab-serif lettering (#FAF0E6).
+- *Specificity Anchors:* Visible whole chili seeds and shallot shreds, traditional volcanic stone cobek softly out of focus, kraft-paper twine seal, "sejak 1987" provenance.
 
 ```
-FORMAT: Printed table card / promotional flyer, A5 portrait (148×210 mm, 1748×2480 px at 300 dpi).
+FORMAT: Printed table card / promotional flyer, A5 portrait (148×210 mm, 1748×2480 px at 300 dpi), 260 gsm uncoated textured cardstock.
 
-OBJECTIVE: Catch the attention of a patron seated at a table or cashier and communicate the freshness and handmade authenticity of the product clearly enough that they order.
+OBJECTIVE: Engage a seated patron or counter visitor and communicate the raw handmade freshness of dawn-ground sambal so they order via WhatsApp.
 
-CONCEPT: "Diulek pagi ini, dikirim hari ini." Handmade and honest. For urban adults who want real food, not factory product.
+CONCEPT: "Diulek pagi ini, dikirim hari ini." Authentic handmade culinary craft. For urban adults seeking real heritage food over factory condiment sauces.
 
 CONTENT:
-- Business name: "SAMBAL MBAH SARI" (in identity panel, top)
+- Business name: "SAMBAL MBAH SARI" (in top identity panel)
 - Provenance: "Yogyakarta — diulek sejak 1987"
+- Headline: "DIULEK PAGI INI, DIKIRIM HARI INI"
 - Price: "Rp 25.000 / toples"
-- Freshness promise: "Diulek pagi ini, dikirim hari ini."
-- CTA: "Pesan via WhatsApp"
-- Hero: small glass jar of dark-red chunky sambal bawang
-Render all text exactly as written, in Indonesian, no additional words.
+- Action: "Pesan via WhatsApp"
+- Hero: small glass jar of chunky dark-red sambal bawang
+Render all text exactly as written, in Indonesian, integrated directly into the final artwork. No blank text zones.
 
-CREATIVE DIRECTION: A still-life composition that feels like a photograph taken on a Yogyakarta kitchen counter at seven in the morning — before the day's orders have gone out. Warm morning side-light from a window catches the terracotta tile surface and the glass of the jar. The overall feeling is quiet, genuine, and slightly unhurried — this is food made by a real person with a real stone mortar, not produced at scale. The dark-brown identity panel at the top grounds the piece with the authority of a shopfront sign. The palette is earthy and warm: terracotta tile, dark brown, off-white text, a single touch of golden yellow on the price. Spacious around the jar — the empty space is part of the confidence.
+CREATIVE DIRECTION: Javanese domestic culinary still-life tradition combined with tactile woodcut relief printmaking. The visual world evokes a quiet Yogyakarta home kitchen at dawn: warm, unhurried, and authentic. The upper canvas is anchored by a solid deep-umber header panel (#2C1A0E) functioning as an authoritative shop sign; the lower canvas opens into a warm still-life set on aged terracotta tile. Palette of rich burnt umber, raw terracotta, off-white bone, and vibrant deep-crimson sambal. Earthy, non-glossy matte surfaces with tactile paper tooth. Generous breathing room around the jar creates unforced dignity.
 
-DESIGN CHARACTER: The Javanese domestic authenticity of a home producer whose sambal has been made the same way since 1987 — the chunky texture visible through the glass, the kraft paper lid tie, the batu cobek partially visible in the background, the slab-serif stamp identity. These elements together could only belong to Sambal Mbah Sari: a neighborhood producer with a real process, a real origin, and a real promise.
+DESIGN CHARACTER: The undeniable authenticity of a generational home producer whose recipe has remained unchanged since 1987. Anchored by the chunky, hand-crushed texture visible through the jar glass, the kraft paper lid tied with coarse jute twine, the traditional volcanic stone cobek softly present in the background, and the stamped slab-serif typography. This design belongs uniquely to Sambal Mbah Sari and cannot be swapped into factory commercial food packaging.
 
-HERO VISUAL: A small squat glass jar, about 8 cm tall and 7 cm diameter, filled with dark-red chunky sambal bawang. Lid sealed with a square of brown kraft paper tied with natural twine. The jar sits on a worn terracotta tile surface. A traditional batu cobek (stone mortar) partially visible and softly out of focus beside it. Morning side-light from a window, warm and slightly golden, short shadow falling to the right. Sambal texture visible through the glass — chunky, with visible whole chilli seeds and shallot slivers. No garnish, no extra props, no decorative chillies or garlic outside the jar.
+HERO VISUAL: Center of the lower composition. A squat cylindrical glass jar (approx. 8 cm tall, 7 cm diameter) filled with coarse, hand-ground sambal bawang in rich crimson oil. Texture visibly chunky with split chili seeds, golden shallot shreds, and crushed bird's eye chilies. The metal lid is covered with a square of unbleached kraft paper bound with natural jute twine. The jar sits firmly on a weathered terracotta tile surface with natural clay texture. A traditional Javanese volcanic stone mortar (batu cobek) rests softly out of focus in the left background. Warm 45-degree morning raking window light from the left, casting a natural contact shadow to the right. No stray decorative vegetables or fake props.
 
-LOGO / IDENTITY: No logo file. Business name "SAMBAL MBAH SARI" rendered in heavy slab-serif capitals, warm off-white (#FAF0E6), with a stamped-ink texture, inside a full-width dark-brown rectangular panel (#2C1A0E) at the top of the canvas. Below the name in the same panel: "Yogyakarta — diulek sejak 1987" in small caps humanist sans, off-white, smaller. This panel is the brand mark — render exactly as described, do not reinterpret.
+LOGO / IDENTITY: No logo file. Business name "SAMBAL MBAH SARI" rendered in heavy Egyptian slab-serif capitals with a stamped woodblock ink texture, warm bone off-white (#FAF0E6), set inside a full-width dark-umber rectangular panel (#2C1A0E) across the top. Below the name in the same panel: "Yogyakarta — diulek sejak 1987" in small-caps humanist sans, bone white, smaller scale. This panel functions as the permanent brand mark.
 
 VISUAL SYSTEM (identical in every prompt of this set):
-Type: heavy slab-serif caps for business name; small caps humanist sans for supporting text; no scripts. Style and material: photographic still life on real terracotta tile, warm morning window light, matte surfaces, slight visible texture. Image treatment: all objects grounded on surface with a natural contact shadow, no glow or studio effects. Device: full-width dark-brown panel as brand mark at top. Space level: calm.
+Type: heavy stamped Egyptian slab-serif caps for brand mark; sturdy condensed humanist sans for headline; clean small-caps for support. Style and material: photographic editorial still life on real terracotta tile, warm morning window raking light, matte non-glare finish. Image treatment: all objects physically grounded with authentic contact shadows, no floating elements. Device: full-width dark-umber woodcut identity panel at top. Space level: calm.
 
-EXCLUSIONS: Keep jar proportions realistic (squat, small) and sambal texture visibly chunky. Avoid glossy jar surfaces, neon-red sambal color, floating chillies or garlic outside the jar, heavy bokeh that erases the terracotta tile texture, invented certifications or award ribbons, extra decorative Javanese motifs not requested, generic "artisan" props (twine bundles, dried herbs scattered around).
+EXCLUSIONS: Keep jar proportions squat and sambal texture visibly chunky. Avoid glossy plastic jar surfaces, neon-red translucent chili paste, floating garlic or chilies outside the jar, excessive depth blur that erases the clay tile, fake gold ribbons, invented certification logos, generic stock artisan props (loose dried herbs, scattered peppercorns).
 ```
 
-Lampiran: Tidak ada lampiran.
+**Lampiran:** Tidak ada lampiran. Cara: Salin prompt ke AI pembuat gambar, hasil siap langsung dicetak tanpa edit tambahan.
 
 ---
 
-## 13. Assembling a set
+## 13. Assembling a Set
 
-1. Write the **Visual System block once** and copy it word for word into every prompt.
-2. Write the **CONCEPT** campaign line once; it is the same in every prompt.
-3. For each output write its own: FORMAT, OBJECTIVE, CONTENT, CREATIVE DIRECTION, DESIGN CHARACTER, HERO VISUAL, (LOGO/IDENTITY if needed), (ATTACHED IMAGES if applicable), EXCLUSIONS.
-4. Check: any "same as", "previous", "above", or cross-prompt image reference? Remove it.
-5. Check: is there an ATTACHED IMAGES block in a prompt with no images? Remove it.
-6. Run the self-check in `SKILL.md`, then give each prompt its **Lampiran** list. A full worked set is in `examples/01-warung-bakso-sesi-lengkap.md`.
+1. **Establish the Visual Thesis once:** Write the **VISUAL SYSTEM** block and copy it word-for-word into every prompt.
+2. **Campaign Concept:** Keep the **CONCEPT** line identical across the entire set.
+3. **Per-Output Customization:** Write output-specific FORMAT, OBJECTIVE, CONTENT, CREATIVE DIRECTION, DESIGN CHARACTER, HERO VISUAL, (LOGO/IDENTITY if applicable), and EXCLUSIONS.
+4. **Self-Audit:** Verify that no prompt references another prompt ("same as prompt 1" is strictly prohibited). Each prompt must function in total isolation.
+5. **Attach Local Lampiran:** Every prompt concludes with its own local attachment instructions.
+
+---
+
+*End of Reference 11 — Prompt Assembly.*

@@ -1,107 +1,130 @@
-# Typography, Text, and Readability for Physical Print
+# 06 — Typography, Lettering, and Readability for Physical Print
 
-Contents: why type decides trust · physical print viewing distance · describing type to an image model · type character by feeling · limits and hierarchy · prices and numbers · Indonesian-specific notes · text on photos · text risk and proofreading
+Contents: why type decides trust in physical print · physical print viewing distance & scale · anatomical & stylistic type classifications · describing letterforms to an image model · typographic contrast & hierarchy · prices, numbers, and currency formatting · Indonesian language typographic nuances · text on backgrounds & calm zones · proofreading & in-image rendering safeguards
 
-## 1. Why type decides trust in physical print
+---
 
-Text is where most small-business designs fail first — especially in physical print: too much of it, too many styles, too small for the viewing distance, too low contrast for outdoor light, or misspelled. Legibility is credibility. A viewer forgives a plain layout; they do not forgive a price they cannot read or a word that is spelled wrong.
+## 1. Why Typography Decides Trust in Physical Print
 
-Typography has three jobs in physical print: **be read at the actual viewing distance and lighting conditions** (legibility), **rank information** (hierarchy), and **carry personality** (voice). Always satisfy the first two before the third.
+Text is where small-business physical graphics fail first and most visibly: illegible at viewing distance, overcrowded, low contrast against bleached sunlight, or misspelled. 
 
-## 1a. Physical print: viewing distance and minimum type size
+Legibility is credibility. A viewer forgives a plain layout; they never forgive an unreadable price or a garbled headline.
 
-The most critical and most overlooked constraint in physical print typography. Type that looks fine on a screen can be completely unreadable at actual physical scale and distance.
+Typography in physical print has three sequential obligations:
+1. **Be read under actual physical conditions:** Distance, angle, lighting, and viewing duration (legibility).
+2. **Organize information:** Make reading effortless through unmistakable scale and weight contrast (hierarchy).
+3. **Embody the brand voice:** Carry authentic character and cultural resonance (voice & art direction).
 
-**The working rule:** approximately 2.5 cm of capital letter height per 3 meters of comfortable reading distance. For roadside viewing from moving vehicles, add 50–100%.
+Always satisfy legibility and hierarchy before indulging in personality.
 
-| Viewing distance | Min capital letter height | Design implication |
-|---|---|---|
-| 0.3–0.5 m (hand-held flyer, menu) | 3–5 mm | Full text possible; hierarchy through size/weight |
-| 0.5–1.5 m (close stand, window) | 5–12 mm | Supporting text readable; clear headline |
-| 1.5–5 m (poster, indoor sign) | 12–50 mm | Body text minimal; headline dominant |
-| 5–10 m (storefront, sidewalk) | 50–100 mm | 5–8 words maximum; headline only |
-| 10–20 m (roadside, passing vehicles) | 100–200 mm | 3–5 words; extreme contrast; single message |
-| 20+ m (highway, fast traffic) | 200 mm+ | One word or symbol; otherwise unreadable |
+---
 
-**Translating distance to prompt instructions:**
-- "Headline at 30% of canvas height in heavy condensed caps"
-- "Maximum 4 words across the entire design"
-- "No text element smaller than 10% of canvas height"
+## 2. Physical Print: Viewing Distance and Minimum Type Scale
 
-For outdoor print in tropical sun: increase minimums by 30–50%. Bright sun washes out low-contrast text.
+The primary failure mode in print typography is designing for the computer screen rather than the physical environment. Letterforms must be sized for actual physical viewing distance:
 
+**The Working Rule:** Approximately 2.5 cm of capital letter height per 3 meters of comfortable reading distance. For outdoor roadside signage viewed from moving motorbikes or cars, add 50–100% to compensate for speed, vibration, and peripheral distraction.
 
-
-## 2. Describing type to an image model
-
-Models respond better to a description of letter *character* than to a font name they may not reproduce. Describe: weight, width, contrast, shape, finish, case, spacing, and role.
-
-Good: `heavy condensed sans-serif capitals with slightly rounded corners, tight but even spacing, hand-painted sign look`
-Weak: `nice bold font`, `modern font`, `font like Montserrat` (names are optional, never the only instruction)
-
-Template per text element: **text · role · size rank · weight/character · case · color · position · alignment**.
-
-## 3. Type character by feeling
-
-| Feeling | Type character | Suits | Avoid |
+| Physical Viewing Distance | Typical Medium & Posture | Min Capital Height | Typographic Strategy & Word Budget |
 |---|---|---|---|
-| Friendly, casual, youthful | Rounded or soft sans, medium-heavy, generous spacing | Drinks, snacks, kids, student audience | Hairline weights |
-| Urgent, street-smart, bargain | Condensed bold grotesque or sign-painter capitals | Promos, markets, bengkel, price boards | Delicate scripts |
-| Warm, traditional, homemade | Hand-lettered or brush-sign style for the headline only; sturdy slab or humanist sans for support | Warung, masakan rumahan, jajanan pasar | Too many ornamental flourishes |
-| Premium, calm, refined | High-contrast serif or a light, wide sans; lots of space; small caps for labels | Gifts, hampers, craft, salon | Heavy drop shadows, glitter |
-| Clean, competent, trustworthy | Neutral geometric or humanist sans, regular/semibold, ample spacing | Laundry, clinic, services, tech | Novelty display faces |
-| Craft, authentic | Slab serif, typewriter, stamp-like, hand-drawn labels | Handmade goods, coffee, artisan food | Perfectly sterile spacing |
-| Playful, handwritten | Script or marker for 1-2 words max | Accents, greetings | Using it for prices, addresses, or paragraphs |
+| **0.3–0.5 m** | Handheld flyer, table menu, product label | 3–5 mm (8–14 pt body) | Full text possible; multi-tiered hierarchy; scannable sections; up to 60 words |
+| **0.5–1.5 m** | Counter display, table card, window poster | 5–15 mm (24–48 pt headline) | Clear dominant headline; supporting price/proof point; 15–25 words max |
+| **1.5–5 m** | Storefront poster, indoor X-banner | 15–50 mm (60–120 pt headline) | Bold headline dominance; secondary subhead; 8–15 words max |
+| **5–10 m** | Storefront fascia, sidewalk banner | 50–100 mm | Massive headline; 1 visible price/action; 5–8 words max |
+| **10–20 m** | Roadside spanduk (passing motorbikes) | 100–200 mm+ | 3–5 words maximum; massive condensed display capitals; extreme value contrast |
+| **20+ m** | Highway billboard, overhead gantry | 250 mm+ | 1–3 words only; single iconic silhouette |
 
-Local lettering is a rich anchor: hand-painted warung boards, angkot and truck lettering, market price signs, enamel-sign styles, kopitiam-era shop signs. Naming one specific local lettering tradition makes a design look rooted rather than templated.
+*Tropical Sunlight Factor:* Direct tropical sun bleaches value contrast. For outdoor banners, increase minimum letter height by 30% and ensure extreme dark-on-light or light-on-dark value separation.
 
-## 4. Limits and hierarchy
+---
 
-- **At most two type characters** (e.g. one display, one text) plus weight variations. Three or more reads as chaos and as AI.
-- **Size ratio:** headline at least ~3x the size of supporting text; primary-to-secondary difference should be obvious at a glance.
-- **Case:** ALL CAPS for short headlines (under ~4 words) only; sentence case for anything longer; never long sentences in capitals.
-- **Alignment:** one spine, usually left-aligned. Centered short text is fine for formal or symmetrical designs; centered paragraphs are hard to read.
-- **Line length and breaks:** break lines by meaning ("Beli 2 / hemat 10rb"), not just by width. Keep lines short.
-- **Spacing:** tight but even for display; open for small text; avoid wide-tracked lowercase.
-- **Contrast and placement:** text goes on calm areas or panels; never across busy detail.
-- **Word budgets** (headline + support, excluding contact): roadside spanduk 3–5 words; storefront spanduk 5–8 words; X-banner 8–15 words; poster A3/A2 20–50 words; flyer 30–90 with grouping; menu as needed in 3–6 grouped categories; label: name + 2–3 facts only.
-- **Minimum sizes:** phone-viewed text should remain readable when the image is about 360 px wide (can you still read the smallest line?). If not, it is too small or too long.
-- **Viewing distance rule of thumb:** roughly 2.5 cm of letter height per 3 m of reading distance for comfortable reading of signs; passing motorbikes and cars need considerably larger and fewer words.
+## 3. Anatomical & Stylistic Type Classifications
 
-## 5. Prices and numbers
+Image models reproduce typography with vastly greater precision when directed using established anatomical and stylistic terminology rather than font brand names:
 
-- A price is often the second most important element. Give it its own size, weight, and the accent color.
-- Use one consistent format everywhere: `Rp 55.000` or `55rb`; do not mix. Prefer large number, small unit.
-- Show the comparison when it helps: old price struck through smaller, new price large, savings stated once ("hemat Rp 10.000").
-- Limit price points on a promo to what viewers can compare in a glance (1-3). Menus use aligned right-hand price columns, not scattered prices.
-- Phone/WhatsApp numbers: grouped in readable blocks (0812-3456-7890), large enough, high contrast, placed at the end of the reading path.
-- Dates: use unambiguous format ("s/d Minggu, 12 Okt" or "12-14 Oktober").
+| Classification | Anatomical Characteristics | Voice & Cultural Associations | Best Suited For |
+|---|---|---|---|
+| **Heavy Condensed Grotesque** | Flat-cut terminals, tight tracking, uniform stroke weight, tall x-height, compact width | Industrial, urgent, authoritative, bold commercial punch | Roadside spanduk headlines, street-food offers, high-impact retail banners |
+| **Humanist Sans-Serif** | Open apertures, subtle stroke modulation, organic humanist proportions, comfortable counters | Approachable, clear, warm, trustworthy, democratic | Supporting copy, addresses, service business branding, menus |
+| **Geometric Sans-Serif** | Circular bowls, sharp 90° and 45° apexes, strict mathematical construction, monoline | Modern, architectural, objective, clean, progressive | Contemporary retail, youth-facing brands, tech services, modern laundry |
+| **Egyptian Slab-Serif** | Heavy square block serifs, sturdy unbracketed slabs, minimal stroke contrast | Sturdy, time-tested, dependable, artisanal, mechanical | Handcrafted food labels, workshop signage, coffee roasters, price callouts |
+| **Didone / High-Contrast Modern Serif** | Extreme contrast between thick verticals and hairline horizontals, unbracketed ball or hairline serifs | Luxurious, refined, formal, elegant, editorial | Upscale bakery, boutique wedding stationery, luxury hampers, cosmetic packaging |
+| **Transitional / Old Style Serif** | Moderate stroke contrast, diagonal stress, bracketed serifs, organic warmth | Dignified, permanent, literate, trustworthy, authentic | Heritage institutions, formal menus, traditional Jamu branding |
+| **Sign-Painter Casuals / Brush Enamel** | Flared brush terminals, gestural stroke stress, hand-painted enamel character | Energetic, local, welcoming, authentic human touch | Indonesian warung banners, pasar stall signage, street food heroes |
+| **Chiseled Relief / Woodblock** | Angular gouge terminations, slight organic asymmetries, stamped ink texture | Raw, artisanal, small-batch, grounded, traditional | Stone-ground sambal, artisan coffee, traditional craft labels |
 
-## 6. Indonesian-specific notes
+---
 
-- Indonesian words are often longer than English; plan widths. A 3-word English headline can become 4-5 Indonesian words.
-- Use the audience's register: "Pesan sekarang" (neutral), "Yuk pesan!" (casual), "Segera hubungi kami" (formal). Match the owner's voice.
-- Avoid generic ad filler ("Nikmati kelezatan terbaik", "Kualitas terbaik harga terjangkau"): specific beats generic every time. See the copy section of the anti-slop file.
-- Regional language phrases add flavor but only if the owner uses them naturally.
-- Watch for abbreviations that vary: "rb", "k", "ribu"; be consistent.
-- Diacritics are rare in Indonesian, which helps rendering; but long compound words and "ng/ny" clusters still get misspelled, so proofread.
+## 4. Describing Letterforms to an Image Model
 
-## 7. Text on photos and backgrounds
+To direct typography in an image prompt, describe **eight anatomical and material attributes**:
+$$\text{Text Element} = \text{Verbatim String} + \text{Role} + \text{Classification} + \text{Weight} + \text{Terminal/Anatomy} + \text{Case} + \text{Color/Finish} + \text{Surface/Substrate Interaction}$$
 
-- Provide a **calm typographic area** in the composition: a calm surface (sky, wall, tabletop, or flat panel) where the rendered text sits with maximum legibility and contrast.
-- If the background is busy, specify a solid panel or tonal overlay in the prompt.
-- Keep a margin (about 5-8% of canvas) so text does not touch edges.
-- Do not wrap text around complex silhouettes.
-- Never put text over faces or the product's key detail.
+### Weak vs. Masterclass Art-Directed Phrasing
 
-## 8. Text risk and proofreading
+- **Weak:** *"Bold modern yellow font for the headline"*
+- **Masterclass:** *"Headline 'SEGEDE BOLA TENIS' rendered in massive heavy condensed sign-painter capitals with flat-cut terminals, tight optical tracking, painted in warm cadmium yellow enamel (#FFD700) with subtle hand-painted brush fringe on a flat cobalt ground"*
 
-Image models can still misspell, merge letters, or invent extra words, especially with long text, small text, numbers, and non-English words.
+- **Weak:** *"Nice vintage font for the logo"*
+- **Masterclass:** *"Business name 'SAMBAL MBAH SARI' in heavy Egyptian slab-serif capitals with a stamped woodblock ink texture, warm bone off-white (#FAF0E6), set inside a dark-umber panel"*
 
-Reduce risk:
-1. Put exact text in quotes in the prompt and add: "render this text exactly as written, in Indonesian, no additional words".
-2. Limit the number of text elements (aim for 3-5).
-3. Keep each line short; large sizes render more accurately.
-4. Keep secondary text and contact details concise and bold; only leave content for manual editing if the user explicitly requested a blank template.
-5. Always proofread character by character after generation: name, price, dates, number, spelling.
-6. If one word is wrong, regenerate with a targeted one-change prompt rather than accepting an error.
+- **Weak:** *"Clean font for the contact number"*
+- **Masterclass:** *"Contact 'WA 0812-3456-7890' set in high-contrast neutral neo-grotesque bold numerals, clean open counters, rendered crisply in deep navy (#0F2444) on a luminous white base strip"*
+
+---
+
+## 5. Typographic Contrast, Scale & Hierarchy
+
+1. **The Two-Voice Rule:** Use at most **two typographic personalities** per graphic piece (e.g., one expressive display headline + one neutral humanist sans for support). More than two personalities creates chaotic amateur clutter.
+2. **Dramatic Scale Ratio:** In physical print, the headline must be at least **3x to 4x the optical size** of supporting copy. Timid scale steps (e.g. 1.5x) fail to create an immediate focal entry point.
+3. **Case Discipline:**
+   - **ALL CAPS:** Strictly for short headlines (under 5 words), price callouts, acronyms, and single-line brand headers.
+   - **Sentence Case:** Mandatory for sentences longer than 5 words, addresses, descriptions, and disclaimers.
+   - *Never set long paragraphs or multi-line copy in all caps — legibility collapses.*
+4. **Alignment Spine:** Commit to a single alignment spine (typically left-aligned in Indonesian print). Centered typography is reserved exclusively for symmetrical ceremonial graphics or short 2-line badges.
+5. **Calm Typographic Zone:** All rendered text must sit on a calm, low-information background (a solid color field, a flat architectural panel, or an untextured sky/counter area). Text placed across photographic edges or busy ingredient textures is instantly destroyed.
+
+---
+
+## 6. Prices, Numbers, and Currency Formatting
+
+A price is frequently the Level 2 secondary hero in commercial UMKM design:
+- **Format Consistency:** Always use standard Indonesian formatting: `Rp 55.000` or `Rp 6.000 / kg`. Never mix formats (e.g., `55k` and `Rp 55.000` on the same piece).
+- **Scale Contrast:** Set the numerals significantly larger than the currency symbol (`Rp` small, `55.000` massive).
+- **Accent Color Privilege:** Assign the singular accent color (e.g. golden yellow or signal orange) directly to the promotional price.
+- **WhatsApp Phone Numbers:** Format with clear grouping for instant scanning: `WA 0812-3456-7890`.
+
+---
+
+## 7. Indonesian Language Typographic Nuances
+
+- **Word Length & Line Breaks:** Indonesian compound words and affixes are often substantially longer than English (e.g. *"Membersihkan"* vs *"Clean"*; *"Memuaskan"* vs *"Great"*). Break lines strictly by grammatical meaning, never by arbitrary column width:
+  - *Correct:*
+    `Beli 2 Porsi`
+    `GRATIS Es Teh`
+  - *Incorrect:*
+    `Beli 2 Porsi GRATIS`
+    `Es Teh`
+- **Register & Tone:** Mirror the owner's customer relationship:
+  - Casual & friendly: *"Yuk pesan lewat WA!"*
+  - Direct & commercial: *"Pesan sekarang via WhatsApp"*
+  - Formal & polite: *"Silakan hubungi kami di..."*
+- **Avoid Vague Category Superlatives:** Prohibit generic filler ("Nikmati kelezatan terbaik," "Kualitas bintang lima harga terjangkau"). Replace with concrete numbers, hours, or ingredients ("Dimasak 8 jam," "100% Daging Sapi").
+
+---
+
+## 8. In-Image Rendering Safeguards & Proofreading
+
+Image models can misspell or duplicate letters if given excessive text:
+1. **Verbatim Quoting:** Always place exact on-image text strings in quotation marks and add: *"Render all copy exactly as written, in Indonesian, with crisp edges and zero spelling errors."*
+2. **Text Budget Cap:** Roadside spanduk: 3–6 words max. Counter poster: 10–20 words max.
+3. **Character-by-Character Proofread:** Verify upon generation:
+   - Business name spelling
+   - Price numbers and currency symbol
+   - Phone and WhatsApp digits
+   - Date ranges
+   - Official certification text (ensure no hallucinated fake permit numbers)
+
+---
+
+*End of Reference 06 — Typography, Lettering, and Readability.*

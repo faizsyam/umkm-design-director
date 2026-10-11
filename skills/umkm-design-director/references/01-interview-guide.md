@@ -2,7 +2,7 @@
 
 Contents: principles of intelligent questioning · question types · jargon translations · Stage 0 Open · the six core understanding needs · the adaptive inquiry flow · materials and assets · physical context and communication · content inventory · concept and visual direction · difficult situations · adapting language
 
-Stages 6–9 (visual system, creative direction summary, prompts, review) are described in `SKILL.md` and the other references.
+Stages 6–9 (visual system, creative direction summary, prompts, review and iteration) are described in `SKILL.md` and the other references.
 
 ---
 
@@ -228,9 +228,9 @@ Rules:
 
 ## Stage 5: Concept and visual direction
 
-Stage 5 is mandatory. Read `references/13-design-thinking.md` Section 3 before asking anything here. Read `references/07-business-archetypes.md` and `references/05-color-and-culture.md`.
+Stage 5 is mandatory. Read `references/13-design-thinking.md` Section 4 & 5, `references/14-visual-language.md`, and `references/15-creative-direction-framework.md` (mandatory). Also consult `references/07-business-archetypes.md` and `references/05-color-and-culture.md`.
 
-**Purpose:** develop the visual concept — the organizing visual idea — and then determine the visual execution.
+**Purpose:** develop the visual concept — the organizing visual idea — and formulate the formal **Visual Thesis** before determining execution details.
 
 Do not ask: "suasana dan gayanya seperti apa?" Owners cannot answer this well. Instead, derive the concept from what you already know and offer named options.
 
@@ -245,7 +245,7 @@ By this point you have:
 The concept must serve all of these. Derive it, do not ask for it.
 
 **If the owner has a clear visual direction:**
-Ask only what stages 1–2 did not answer. Confirm that the direction fits the Distinction Brief, the physical context, and the audience. Write the concept sentence.
+Ask only what stages 1–2 did not answer. Confirm that the direction fits the Distinction Brief, the physical context, and the audience. Write the concept sentence and formulate the Visual Thesis.
 
 **If the owner says "terserah" or "belum tahu":**
 1. Never ask an open-ended question about style.
@@ -266,10 +266,15 @@ Ask only what stages 1–2 did not answer. Confirm that the direction fits the D
 **Concept sentence format:**
 *[Ide visual konkret], terasa [perasaan 1] dan [perasaan 2], tampak seperti [referensi visual fisik], untuk [audiens], dilihat di [medium] dari [konteks/jarak].*
 
-**Example for a warung bakso roadside spanduk:**
-*(Rekomendasi) Satu mangkuk di depan, ukuran besar:* warna gelap seperti malam jalan kaki, mangkuk bakso nyata dan besar mengisi tengah, tulisan besar "BAKSO SAPI URAT — SELESAI MALAM" tiga baris padat, tidak ada dekorasi, tidak ada ornamen. Terasa jujur dan langsung. Untuk pekerja yang melintas malam. Dilihat dari kendaraan 6–10 meter.
+**Visual Thesis Formulation (mandatory):**
+Synthesize the overarching artistic grammar before selecting colors or fonts (`references/15-creative-direction-framework.md`):
+$$\text{Visual Thesis} = \text{Visual Lineage} + \text{Image-Making Technique} + \text{Form Language/Edges} + \text{Material Substrate} + \text{Typographic Anatomy}$$
 
-**Gate:** concept sentence written and accepted (or stated as recommendation). Do not proceed to Stage 6 without this.
+**Example for a warung bakso roadside spanduk:**
+- *Concept Sentence:* (Rekomendasi) Satu mangkuk di depan, ukuran besar: warna gelap seperti malam jalan kaki, mangkuk bakso nyata dan besar mengisi tengah, tulisan besar "BAKSO SAPI URAT — SELESAI MALAM" tiga baris padat, tidak ada dekorasi, tidak ada ornamen. Terasa jujur dan langsung. Untuk pekerja yang melintas malam. Dilihat dari kendaraan 6–10 meter.
+- *Visual Thesis:* Early 20th-century German Sachplakat (object poster) fused with Central Javanese vernacular hand-painted warung signage; flat gouache illustration with carved-woodcut contour lines; bold heavy geometry with crisp non-feathered silhouettes; weathered unbleached cotton banner texture with matte opaque mineral pigments; hand-cut condensed grotesque display lettering with square terminals and slight brush irregularities.
+
+**Gate:** Concept sentence approved and formal Visual Thesis formulated. Must pass the visual swap test (`references/15-creative-direction-framework.md` Section 3). Do not proceed to Stage 6 without this.
 
 ---
 

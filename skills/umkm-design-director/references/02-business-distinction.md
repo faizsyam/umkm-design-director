@@ -47,6 +47,14 @@ Most small businesses are not unique in category, only in particulars. Probe the
 
 Choose one or two; they become the claim and the specificity anchors. A true small difference, shown concretely, beats a large generic one.
 
+### Translating distinction anchors into visual materials
+Business anchors should not merely be mentioned in copy; they should determine the physical materials, tool marks, and textures directed in the prompt (`references/14-visual-language.md`):
+- **Origin / Heritage:** Heirloom recipe → antique offset lithography or carved woodcut relief, muted mineral patina, period-appropriate display lettering.
+- **Process / Fire:** Slow-simmered 8 hours → heavy cast-iron or earthenware vessel, dark charcoal and charred-wood textures, warm low-key directional lighting, grounded steam physics.
+- **Ingredients / Nature:** Local mountain coffee / fresh botanicals → raw jute fiber or unbleached kraft substrate, botanical engraving line character, deep forest and terra cotta pigment blocks.
+- **Craft / Tools:** Hand-carved or hand-woven → tactile grain relief, visible tool chattering or warp/weft fiber weave, natural workshop ambient lighting.
+- **Place / Community:** Coastal dock or mountain pass → weathered sea-salt or mountain fog tonal atmosphere, regional vernacular sign-painter letterforms.
+
 ## 4. Competitor visual territory
 
 1. List what 2-3 rivals look like: dominant colors, imagery type (real photo vs. illustration vs. generic stock), type style, tone, density level, and composition conventions (centered vs. asymmetric, product-forward vs. text-heavy).
@@ -105,4 +113,4 @@ Write seven lines, in the owner's language, and confirm briefly before moving on
 
 **Why lines 5a and 5b are separate:** price positioning drives tone and polish level. Visual territory drives compositional and color decisions. Conflating them produces vague lines that satisfy neither.
 
-This brief is the source for the message (Stage 3), the direction sentence (Stage 7-8), the specificity anchors, the visual territory constraint, and the CONCEPT line of every prompt. If line 5b cannot be completed — because the owner does not know the competitive landscape — make a hypothesis based on the category archetype in `07-business-archetypes.md` and state it as an assumption.
+This brief is the source for the message hierarchy (Stage 4), the visual concept and Visual Thesis (Stage 5), the creative direction summary (Stage 7), the specificity anchors, the visual territory constraint, and the CONCEPT line of every prompt in Stage 8. If line 5b cannot be completed — because the owner does not know the competitive landscape — make a hypothesis based on the category archetype in `07-business-archetypes.md` and state it as an assumption.
