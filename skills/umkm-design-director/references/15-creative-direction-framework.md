@@ -2,7 +2,7 @@
 
 Contents: Part 1: the 10 design dimensions · Part 2: how dimensions interact (aligned, tensions, combinations, illustrative profiles) · Part 3: creative direction selection process (5 steps) · Part 4: distinctiveness as a design objective (generic warnings, sources of distinctiveness, visual metaphor, substrates, specificity vs decoration, the test) · Part 5: failure modes by business type
 
-> **Role in the system:** This framework is used at Stage 7, after the Distinction Brief, emotional brief, message hierarchy, and physical context are established. It provides a structured method for reasoning across multiple design dimensions simultaneously and selecting a creative direction that is genuinely fit for purpose — not merely plausible or visually fashionable. Use it alongside **Reference 14 (Visual Language Knowledge Base)** for vocabulary of specific traditions, and **Reference 13 (Design Thinking)** for the Creative Direction Summary format.
+> **Role in the system:** This framework is used at Stage 5, after the Distinction Brief, emotional brief, message hierarchy, and physical context are established. It provides a structured method for reasoning across multiple design dimensions simultaneously and selecting a creative direction that is genuinely fit for purpose — not merely plausible or visually fashionable. Use it alongside **Reference 14 (Visual Language Knowledge Base)** for vocabulary of specific traditions, and **Reference 13 (Design Thinking)** for the Creative Direction Summary format.
 
 ---
 

@@ -1,4 +1,4 @@
-# Reference Images and Existing Materials (Stage 2, then used in Stages 7, 8, 9, 10)
+# Reference Images and Existing Materials (Stage 2, then used in Stages 5, 6, 7, 8)
 
 Contents: why references matter · material types and their jobs · asking for the right materials per business · receiving and verifying · analyzing each image · treatments · how materials change the design decisions · multiple images · enhance-existing-design mode · visual-direction examples · writing references into the prompt · tool limits and fallbacks · handoff checklist · consent and ownership
 
@@ -104,7 +104,7 @@ Never insult a photo. Say what to do: "Fotonya sudah bagus, cuma latar belakangn
 
 ## 7. How materials change the design decisions
 
-Run this adaptation pass in Stage 8 before writing the plan, once for the shared Visual System and once per output:
+Run this adaptation pass in Stage 6 before establishing the visual system, once for the shared Visual System and once per output:
 
 | Material fact | Decision it drives |
 |---|---|
@@ -120,7 +120,7 @@ Run this adaptation pass in Stage 8 before writing the plan, once for the shared
 | Quality limits | Treatment plan, text zone strategy, print resolution advice |
 | Target ratio vs photo ratio | Crop, extend canvas, or choose another hero crop |
 
-Write the result in the plan in one or two lines per material ("Gambar 1: bintang, dibersihkan latarnya, dibiarkan apa adanya. Gambar 2: logo, kanan atas, 12% lebar").
+Write the result in the plan in one or two lines per material ("Gambar 1: bintang, dibersihkan latarnya, dibiarkan apa adanya. Gambar 2: logo, sudut atas dengan ruang aman").
 
 ## 8. Enhance-existing-design mode
 
@@ -154,10 +154,10 @@ Rules for the ATTACHED IMAGES block:
 
 - **Numbering is local to each prompt.** In a set of several prompts, "Image 1" restarts in every prompt and each prompt lists only the images it uses; never refer to another prompt's images.
 - Start with a sentence that fixes the order: "Attached images, in order: Image 1 = ..., Image 2 = ..." so the tool and the owner share the same numbering.
-- For each image specify: **what it is**, **role**, **treatment**, **placement**, **size**, **keep unchanged**, **may change**, and **priority** when images conflict.
+- For each image specify: **what it is**, **role**, **treatment**, **placement zone**, **relative prominence**, **keep unchanged**, **may change**, and **priority** when images conflict.
 - Describe each image only by what is truly visible in it; never contradict it ("bottle with kraft label", not a guess).
-- Use the same names (Image 1, Image 2) in HERO VISUAL, COMPOSITION, and TEXT blocks, so the model connects placement and size to the right image.
-- Give placement in zones and size in percentages of canvas height or width, plus alignment and margin.
+- Use the same names (Image 1, Image 2) in HERO VISUAL, COMPOSITION, and TEXT blocks, so the model connects placement and prominence to the right image.
+- Describe placement by visual zone (e.g. hero area, header zone, lower anchor) and relative prominence rather than rigid coordinate percentages, allowing the model natural compositional flexibility.
 - Use one primary treatment per image. If the owner asked for a modification (upscale, illustrate, cut out, extend), state it explicitly and state the limits.
 - Add a **priority line** when there are several images: "If instructions conflict, Image 1 (product) wins on appearance; Image 3 is style-only."
 
@@ -165,7 +165,7 @@ Rules for the ATTACHED IMAGES block:
 
 ```
 ATTACHED IMAGES (attach in this order):
-Image 1 = [what it is, as visible]. Role: [hero / logo / mascot / person / base design / style reference]. Treatment: [keep exactly / cut out and place / clean up / enhance / illustrate / extend / style-only]. Placement: [zone, anchor, margin]. Size: [about N% of canvas height/width]. Keep unchanged: [shape, label, colors, face...]. May change: [background, lighting, crop...].
+Image 1 = [what it is, as visible]. Role: [hero / logo / mascot / person / base design / style reference]. Treatment: [keep exactly / cut out and place / clean up / enhance / illustrate / extend / style-only]. Placement: [visual zone, prominence]. Keep unchanged: [shape, label, colors, face...]. May change: [background, lighting, crop...].
 Image 2 = ...
 Priority if conflicts: [Image X wins on ___; Image Y is style-only].
 ```
@@ -178,14 +178,14 @@ No images are attached; create everything from this description.
 
 **Phrase bank for common image types:**
 
-- Product: "Image 1 is the owner's real photo of [product]. Use it as the hero, [center-left, about 55% of canvas height]. Keep shape, label, color, and proportions exactly as in the photo; replace only the background with [...]."
-- Logo: "Image 2 is the business logo. Place it exactly as provided, unaltered, in the top-right corner, about 12% of canvas width, with clear space around it. Do not redraw, recolor, or add effects."
-- Mascot: "Image 3 is the brand mascot. Keep its design, colors, and proportions identical. Place it at the lower right, about 30% of canvas height, facing the product, in a [pose] pose."
-- Person: "Image 4 is a photo of the owner (used with consent). Keep the face and features exactly as in the photo. Place the person [right third], looking toward the headline, about 70% of canvas height, cropped at the waist."
+- Product: "Image 1 is the owner's real photo of [product]. Use it as the dominant hero element in the composition. Keep shape, label, color, and proportions exactly as in the photo; replace only the background with [...]."
+- Logo: "Image 2 is the business logo. Place it cleanly and unaltered in the header corner with clear space around it. Do not redraw, recolor, or add effects."
+- Mascot: "Image 3 is the brand mascot. Keep its design, colors, and proportions identical. Position it as a supporting character facing the product in a [pose] pose."
+- Person: "Image 4 is a photo of the owner (used with consent). Keep the face and features exactly as in the photo. Feature the person prominently in the layout, looking toward the headline, cropped at the waist."
 - Illustrate: "Redraw the dish from Image 1 as a hand-drawn illustration in [warm gouache style], keeping its recognizable components (pieces, colors, vessel) and proportions."
 - Upscale / enhance: "Enhance Image 1: brighten to natural daylight, correct color cast, increase detail and resolution. The product must stay true to life."
 - Style-only: "Image 5 is a style reference only. Borrow its [muted green and cream palette and hand-lettered headline character]. Do not copy its subject, layout, text, or logos."
-- Existing design: "Image 6 is the owner's current poster. Keep: [logo position, red-and-yellow palette, 'Warung Bu Tini' name]. Change: [one hero instead of five, three text lines, aligned left, remove drop shadows]. Rebuild the layout accordingly; render the text below exactly."
+- Existing design: "Image 6 is the owner's current poster. Keep: [logo placement, red-and-yellow palette, 'Warung Bu Tini' name]. Change: [one hero instead of five, three text lines, left-aligned, remove drop shadows]. Rebuild the layout accordingly; render the text below exactly."
 
 
 ## 11. Tool limits and fallbacks
@@ -202,10 +202,10 @@ Ask which AI tool the owner will use and whether it accepts several images. Adap
 Under **each prompt**, give its own **Lampiran** list in the owner's language, in the same order the prompt names the images:
 
 ```
-Prompt 1 (Feed 4:5): lampirkan 2 gambar, urutannya harus sama:
+Prompt 1 (Spanduk 3x1 m): lampirkan 2 gambar, urutannya harus sama:
 1. [Gambar 1: nama/deskripsi file] - [peran]
 2. [Gambar 2: ...] - [peran]
-Prompt 2 (Story 9:16): lampirkan 1 gambar:
+Prompt 2 (Poster A3): lampirkan 1 gambar:
 1. [Gambar 1: ...] - [peran]
 Cara: buka [alat AI], unggah gambar sesuai urutan, tempel prompt di kolom yang sama, lalu kirim bersamaan.
 ```

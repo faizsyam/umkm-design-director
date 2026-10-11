@@ -1,4 +1,4 @@
-# Review and Iteration (Stage 13)
+# Review and Iteration (Stage 9)
 
 Contents: when to use · the 12-point review · symptom → prompt fix · one-change rule · when to leave AI and finish in an editor · pre-publish checklist · reviewing a set · reuse
 
@@ -67,10 +67,10 @@ A good workflow: AI makes the **background and mood**; the owner adds **exact te
 - [ ] Produk di gambar sama dengan produk asli
 - [ ] Logo halal/PIRT/BPOM resmi (jika perlu) sudah ditempel dengan benar
 - [ ] Tidak ada klaim yang tidak bisa dibuktikan ("terlaris", "nomor 1", testimoni)
-- [ ] Tulisan terbaca di layar HP kecil dan di bawah sinar matahari
+- [ ] Tulisan terbaca dari jarak pandang yang dituju dan di bawah pencahayaan lokasi
 - [ ] Foto orang: sudah izin
 - [ ] Format sesuai ukuran cetak (tidak terpotong, bleed cukup jika perlu)
-- [ ] Caption berisi detail tambahan (alamat lengkap, syarat, jam buka)
+- [ ] Detail tambahan (alamat lengkap, syarat, jam buka) sudah dialokasikan ke media yang tepat (misal flyer/brosur pendukung jika spanduk dibuat ringkas)
 
 ## 7. Reviewing a set of outputs
 
@@ -88,4 +88,4 @@ After a good result, help the owner save:
 - the **style note** (palette with roles, type character, layout skeleton, device, photographic style),
 - the **text list** with changeable parts marked.
 
-Next time they only change content (offer, date, product), keeping the same system so their posts look like one recognizable brand.
+Next time they only change content (offer, date, product), keeping the same system so their print materials look like one recognizable brand.

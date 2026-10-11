@@ -1,12 +1,12 @@
-# Prompt Assembly (Stage 12)
+# Prompt Assembly (Stage 8)
 
-Contents: the creative-direction-first rule · what a prompt must do · the prompt structure · block rules · text strategy · phrasing rules · semantic density · length · contradiction check · example A (feed post with images) · example B (spanduk background, no images) · example C (feed post, no reference images, identity treatment) · assembling a set
+Contents: the creative-direction-first rule · what a prompt must do · the prompt structure · block rules · text strategy · phrasing rules · semantic density · length · contradiction check · example A (poster with images) · example B (spanduk background, no images) · example C (table card, no reference images, identity treatment) · assembling a set
 
 ## 0. The creative-direction-first rule
 
 **Never write a prompt directly from a concept or design strategy.**
 
-Before the first word of a prompt is written, the Creative Direction Summary must exist (see `13-design-thinking.md` Section 9). The summary is the complete crystallization of all design thinking — what is being made, who it is for, what must appear, what the design should feel and communicate, and what makes it specific to this business.
+Before the first word of a prompt is written, the Creative Direction Summary must exist (see `13-design-thinking.md` Section 9 / Stage 7). The summary is the complete crystallization of all design thinking — what is being made, who it is for, what must appear, what the design should feel and communicate, and what makes it specific to this business.
 
 The prompt is a translation of that direction into a brief the image model can execute. If the creative direction is vague, the prompt will be vague. If the creative direction is strong and distinctive, the prompt will be strong and distinctive.
 
@@ -211,7 +211,7 @@ When the prompt must generate food or product imagery without a reference photo,
 **Rules by tool:**
 - If the tool does not support image attachments → use Strategy B or C; describe the product entirely in HERO VISUAL.
 - If the tool has poor text accuracy → use Strategy B for all print pieces.
-- If unsure → default to Strategy B for anything printed, Strategy A for social-only short content.
+- If unsure → default to Strategy B for large-format print and menus, Strategy A for short-text posters/flyers.
 
 **One-change iteration:** let the owner change one major thing per round (`12-review-and-iteration.md`).
 
@@ -235,7 +235,7 @@ When the prompt must generate food or product imagery without a reference photo,
 
 ---
 
-## 10. Example A: feed post with attached images (strategy A)
+## 10. Example A: counter poster with attached images (strategy A)
 
 Brief: "Kopi Mbak Rini", Bekasi, 1-litre milk coffee; buyers: anak kos and office workers 20-35; action: order via WhatsApp; message: "satu botol cukup seharian"; offer Rp 55.000/botol, beli 2 Rp 100.000, until Sunday; bottle photo and logo available; direction: warm, confident, merakyat.
 
@@ -243,9 +243,9 @@ Brief: "Kopi Mbak Rini", Bekasi, 1-litre milk coffee; buyers: anak kos and offic
 Concept: "One confident bottle against generous space — the smallness of the product vs. the scale of the daily promise." The design should feel like an honest neighborhood product that quietly delivers on a big promise — warm, direct, nothing to hide. Deep coffee-brown warmth as the field, the real bottle as the single hero, the offer as the second thing the eye lands on. The character is sign-painter confidence, not polished commercial. Specificity: the real kraft-paper bottle label, the daily-use positioning, the merakyat warmth.
 
 ```
-FORMAT: Instagram feed promo post, vertical 4:5 (1080×1350 px).
+FORMAT: Printed counter promotional poster, A4 portrait (210×297 mm, 2480×3508 px at 300 dpi).
 
-OBJECTIVE: Hook a student or office worker mid-scroll and communicate the daily-use offer clearly enough that they tap to order.
+OBJECTIVE: Catch the eye of a customer standing at the counter and communicate the daily-use offer clearly enough that they buy or order.
 
 CONCEPT: "Satu botol, cukup seharian." Confident and unpretentious. For students and office workers who want honest daily coffee.
 
@@ -316,7 +316,7 @@ Cara pakai: Tambahkan teks di Canva atau di percetakan — nama usaha, "SELESAI 
 
 ---
 
-## 12. Example C: feed post, no reference images, with identity treatment (strategy A)
+## 12. Example C: table card / promotional flyer, no reference images, with identity treatment (strategy A)
 
 Brief: "Sambal Mbah Sari", Yogyakarta, hand-ground sambal in jars, sold via WhatsApp; buyers: urban adults 25-45; message: "diulek pagi ini, dikirim hari ini"; action: order via WhatsApp; price Rp 25.000/jar; no logo, no photos; direction: handmade warmth, honest, artisanal, traditional Java.
 
@@ -324,9 +324,9 @@ Brief: "Sambal Mbah Sari", Yogyakarta, hand-ground sambal in jars, sold via What
 Concept: "A jar that arrived this morning — the texture of something made before dawn." The design is organized around one small honest jar of sambal and the freshness promise that makes it specific. The visual character is Javanese domestic authenticity: terracotta surfaces, morning side-light, the stone mortar softly present in the background. A full-width dark-brown panel carries the identity in slab-serif stamp caps — this is a brand name, not a label. Spacious and warm; the jar earns its space by being the real thing. Specificity: hand-ground texture visible through the glass, the cobek mortar, the kraft paper tie, the "since 1987" proof.
 
 ```
-FORMAT: Instagram feed post, square 1:1 (1080×1080 px).
+FORMAT: Printed table card / promotional flyer, A5 portrait (148×210 mm, 1748×2480 px at 300 dpi).
 
-OBJECTIVE: Hook an urban adult mid-scroll and communicate the freshness and handmade authenticity of the product clearly enough that they message to order.
+OBJECTIVE: Catch the attention of a patron seated at a table or cashier and communicate the freshness and handmade authenticity of the product clearly enough that they order.
 
 CONCEPT: "Diulek pagi ini, dikirim hari ini." Handmade and honest. For urban adults who want real food, not factory product.
 

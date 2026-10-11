@@ -37,231 +37,107 @@ Every [D] decision must have a stated reason tied to the concept, audience, or p
 
 ---
 
-## 3. Audience as real people (Stage 3)
+## 3. Physical Context & Audience (Stage 3)
 
-- [M] Who they are (specific, not demographic label):
-- [S] What they are doing when they encounter this design:
-- [S] What they care about / what motivates them:
-- [S] What signals trust / quality / value / authenticity to them:
-- [S] What they may doubt or misunderstand:
-- [S] Their decision-making behavior in this situation:
-- [S] Visual language they are accustomed to (what they see in similar businesses):
-- [D] Audience implications for design (derive from above):
+**Physical Context:**
+- [M] Physical format: (spanduk, banner, poster, flyer, menu, label, etc.)
+- [M] Dimensions / print scale:
+- [M] Mounting placement & viewing distance: (meters)
+- [M] Viewing duration: (1–2s glance, 3–5s walk past, 15–60s handheld read)
+- [S] Environment & lighting: (tropical outdoor sun, indoor fluorescent, evening)
+- [S] Surrounding visual noise:
+- [S] Substrate / print surface: (vinyl tarpaulin, kraft paper, art paper, sticker)
+- [D] Physical context → design character requirements & info budget:
+
+**Audience as Real People:**
+- [M] Who they are (specific human group, not demographic label):
+- [S] Encounter posture & behavior: (driving, walking, standing in queue, seated)
+- [S] Trust & value signals for them:
+- [S] Doubts & design implications: (halal, hygiene, price, portion, legitimacy)
 
 ---
 
-## 4. Communication objective (Stage 4)
+## 4. Objective & Message Hierarchy (Stage 4)
 
 - [M] The ONE primary communication objective:
-  (Options: attract passing attention · communicate an offer · establish trust · introduce a product · direct physically · explain what is offered · build name recognition)
-- [S] Secondary objectives (if any — must not compete with primary):
-- [N] Occasion and real deadline:
+- [D] Emotional brief: [Primary feeling at first glance] → [visual element responsible] → [implication for hero/palette/space]
+- [S] Occasion & real deadline (if any):
+
+**Content Hierarchy & Subtraction Pass:**
+- [M] Level 1 (Primary — 1 only): [Headline / hero offer — exact text]
+- [S] Level 2 (Secondary — max 2): [Concrete proof / key support — exact text]
+- [M] Level 3 (Action — 1): [CTA: WhatsApp, location, or placeholder]
+- [S] Level 4 (Tertiary): [Essential conditions, legal marks placeholder]
+- Content removed / relocated: [Decisions from subtraction pass]
 
 ---
 
-## 5. Message hierarchy (Stage 5)
+## 5. Visual Concept & Creative Direction (Stage 5)
 
-- [M] Primary message (one thing — the most critical communication):
-- [S] Secondary information (what makes primary credible or complete):
-- [S] Supporting details:
-- [M] Call to action:
-- Content removed / relocated: (decisions from subtraction thinking)
-
----
-
-## 6. Physical context (Stage 6)
-
-- [M] Physical format: (spanduk, X-banner, poster, flyer, menu, label, etc.)
-- [M] Dimensions or standard size:
-- [M] Placement: (where mounted/posted, viewing angle)
-- [M] Viewing distance: (estimated, in meters)
-- [M] Viewing duration: (1–2 s, 3–5 s, 10–30 s, reading-time)
-- [S] Environment: (outdoor sun, indoor, covered, evening)
-- [S] Surrounding visual noise:
-- [S] Material / print surface: (vinyl, coated paper, uncoated, etc.)
-- [D] Physical context → design decisions:
-  - Minimum type size:
-  - Contrast requirements:
-  - Maximum element count:
-  - Space allocation implication:
-  - Text strategy implication:
-
----
-
-## 7. Content per output (Stage 6, confirmed with owner)
-
-For each output: exact text, in approved form.
-
-| Output | Business name (exact) | Headline / offer (exact) | Price (exact format) | Conditions | Contact / action | Legal marks (placeholder) |
-|---|---|---|---|---|---|---|
-| P1 | | | | | | |
-
-Same facts, same words across outputs.
-
----
-
-## 8. Visual concept & Creative Direction (Stage 7)
-
-- [D] Visual language & tradition (`14-visual-language.md`): [primary tradition + modifying influence, if any]
+- [D] Visual language & tradition (`14-visual-language.md`): [Primary tradition + modifying influence]
 - [D] Dimensions profile (`15-creative-direction-framework.md`):
   - Aesthetic tradition: [vernacular / commercial / modernist / editorial / hybrid]
   - Emotional register: [warm-intimate / confident-generous / energetic-festive / cool-precise]
-  - Energy level: [restrained / balanced / dynamic / explosive]
-  - Price positioning: [mass-accessible / premium-craft / exclusive]
-  - Cultural register: [deeply local / regional specific / contemporary Indonesian / neutral]
+  - Energy level: [restrained / balanced / dynamic / dense]
+  - Price positioning: [mass-accessible / everyday-quality / considered-craft / premium]
+  - Cultural register: [deeply local / regional specific / contemporary Indonesian]
   - Typographic personality: [sturdy sign-painter / refined serif / bold grotesque / friendly rounded]
   - Surface & texture: [tactile-organic / matte clean / raw industrial]
-- [D] Candidate territories explored internally: (2-3 distinct territories considered before selection)
-- [D] Concept sentence: *[Single dominant visual idea — what occupies the primary zone and what it communicates], feels [feeling 1] and [feeling 2], for [specific audience], seen at [distance/duration] on [medium]. Visual logic: [why this serves the concept and business].*
-- [D] Concept logic (why this idea, derived from what facts about this business):
-- [D] Distinctiveness test:
-  - Avoided category conventions: (e.g. avoided cream+script for bakery, avoided sky blue for laundry)
-  - Avoided generic AI defaults: (no glowing gradients, plastic gloss, centered symmetry)
-  - Passes swap test? Could it only belong to this business? Y/N
-- Options offered (if owner unsure): 3-4 named options from genuinely different traditions with descriptions
-- Direction chosen (or stated as recommendation):
-- Local flavor and region-specific anchors:
-- People in design: Y/N, who, treatment:
-- Space preference and audience-based budget:
+- [D] Internal candidate territories explored: (at least 2 distinct territories considered)
+- [D] Concept sentence: *[Single dominant visual idea], feels [feeling 1] and [feeling 2], for [specific audience], seen at [distance/duration] on [medium]. Visual logic: [why this serves the business and objective].*
+- [D] Distinctiveness test: Avoided category clichés Y/N · Avoided AI defaults Y/N · Passes swap test Y/N
 
 ---
 
-## 9. Design plan (Stages 8-9)
+## 6. Visual System & Production Specs (Stage 6)
 
-**Logo status:** has logo / no logo. If no logo → identity treatment:
+**Logo status:** Has logo / No logo. If no logo → identity treatment:
 - Type character:
 - Graphic device:
 - Color mark:
 
 **Visual System** (written once, copied verbatim into every prompt of a set):
-
 ```
 Type: [headline character — weight, personality, case]; [support character]; [size relationship].
 Style and material: [photo/illustration, texture, finish, light quality].
-Image treatment: [how real photos are handled — grounding, cleaning, cropping].
+Image treatment: [how real photos are handled — grounded shadow, clean edge, no glow].
 Device: [one recurring graphic element, or none].
-Space level: [calm / moderate / dense-but-grouped].
+Space level: [calm / moderate / dense-but-grouped — state intent].
 ```
-Color direction and palette: goes in Creative Direction (Section 10) — derived from concept, product, and audience. Not in this shared block.
-
-**Design decisions and their reasons:**
-| Decision | What | Why (concept / audience / context) |
-|---|---|---|
-| Primary | | |
-| Color world | | |
-| Type | | |
-| Space level | | |
-| Composition | | |
-| Device | | |
-
-**Subtraction pass:**
-| Element | Decision | Reason |
-|---|---|---|
-| | Remove / Merge / Relocate / Shrink / Keep | |
-
-**Swap test result:** passed Y/N — what was sharpened:
-
-**Per output:**
-| Output | Hero | Primary / Secondary / Action | Reading path | Calm-space % and zone | Element count | Text strategy | Reason |
-|---|---|---|---|---|---|---|---|
-| P1 | | | | | | A/B/C | |
+Color direction & palette: Described in Creative Direction (Stage 7), derived from concept and product.
 
 **Viewer simulation:**
-- 2 seconds at [distance]: what does the viewer notice?
-- After that: what do they understand?
-- If they look closer: what pulls them in?
-- At the end: is the action obvious?
+- 0–2s glance: Hero element noticed; silhouette reads clearly?
+- 3–5s approach: Core message & offer understood?
+- Closer reading: Essential details & action clear?
 
-**Asumsi saya (stated defaults):**
-
----
-
-## 10. Creative Direction Summary (Stage 10)
-
-Produce one summary per output. Complete before writing any prompt.
-
-The Creative Direction Summary crystallizes all design thinking into a clear brief for the image model. It is not a spatial blueprint — it communicates what the design must feel like, what must appear, and what makes it specific to this business. The image model determines the composition.
-
-### Concept Trace
-
-- Concept sentence (from Section 8):
-- Hero decision traces to: [which element of the concept / business fact]
-- Dominant color character traces to: [concept / product / audience / context reason]
-- Space character traces to: [concept / viewing context / audience reason]
-- Type character traces to: [concept / personality dial / audience reason]
-- Any decision NOT traceable to the concept: state the reason (business constraint, physical constraint, legal requirement)
-
-### What is being made and what is it for?
-
-- Physical format:
-- Business it belongs to:
-- Specific communication job:
-
-### Who is it speaking to?
-
-- Audience (specific, not demographic label):
-- Their context when they encounter this design:
-- What they need to feel or understand:
-- What visual language resonates with them:
-
-### What must appear?
-
-List only essential content — what would survive the subtraction pass:
-
-| Element | Exact text or description | Priority |
-|---|---|---|
-| Primary message | | L1 |
-| Supporting content | | L2 |
-| Product / service | | |
-| Brand identity | | |
-| Important visual motifs | | |
-
-Elements removed and why:
-
-Logo status: has logo / no logo.
-If no logo → identity treatment (type character, graphic device, color mark):
-
-Text strategy: A / B / C — reason:
-
-### Creative direction
-
-[The visual concept, personality, mood, emotional character, aesthetic world, and overall feeling. Business-derived. 3-6 sentences. Must trace back to the concept sentence, the audience's visual language, and the physical context.]
-
-### Design character
-
-[What makes this design belong specifically to this business — the ownable visual idea, USP expressed visually, specificity anchors. If the business name were removed, what remains that distinguishes this from a generic template?]
-
-### Hero visual
-
-- Subject (physically specific — not "a dish" but the real thing):
-- Lighting: source, direction, quality:
-- Surface and setting:
-- What makes it honest and specific (not generic commercial):
-- Prohibited: what it must not look like:
-- If photo attached: keep / modify instructions:
-
-### Swap test
-
-Run before writing the prompt:
-- [ ] Remove the business name from the Creative Direction Summary. Does enough business-specific information remain to distinguish it from a generic template?
-- [ ] Is there at least one visual element in the creative direction that could only belong to this business?
-- [ ] Does the concept trace back to a real fact about this business — not a category convention?
-
-### Pre-prompt check
-
-- [ ] Concept sentence is specific to this business, not generic style language
-- [ ] Creative direction communicates a visual world, not just adjectives
-- [ ] All essential content identified and exact text confirmed
-- [ ] Text strategy decided with reason
-- [ ] Hero visual described with physical specificity
-- [ ] Swap test passed
-- [ ] Viewer simulation complete — design character matches what the viewing conditions demand
+**Production specs per output:**
+| Output | Medium & Size | Job | Text strategy (A/B/C) & Reason | Bleed / Safe zone | Official marks placeholder |
+|---|---|---|---|---|---|
+| P1 | | | | | |
 
 ---
 
-## 11. Output list
+## 7. Creative Direction Summary (Stage 7)
 
-| ID | Name | Physical format | Dimensions/ratio | Job | Text strategy | Images to attach (local numbering) |
+Produce one summary per output before writing prompts. Captures the creative brief:
+
+1. **What is being made & for what job:** [Format, dimensions, specific communication task]
+2. **Who it is speaking to:** [Audience, encounter context, emotional target]
+3. **What must appear:** [Essential content only, exact text, hero subject, brand identity]
+4. **Creative direction:** [Concept sentence, visual character, mood, aesthetic world, color field, surface feel]
+5. **Design character & distinctiveness:** [Specific anchors, USP expressed visually; passes swap test]
+
+**Pre-prompt checklist:**
+- [ ] Creative Direction Summary completed and passes swap test
+- [ ] Gives image model creative freedom to compose without coordinate micromanagement
+- [ ] Exact text confirmed verbatim; text strategy assigned with reason
+
+---
+
+## 8. Output List & Handoff (Stage 8)
+
+| ID | Name | Physical format | Dimensions / px | Job | Text strategy | Images to attach (local numbering) |
 |---|---|---|---|---|---|---|
 | P1 | | | | | | |
 

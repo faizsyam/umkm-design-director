@@ -2,7 +2,7 @@
 
 Contents: how to use this reference · Part 1: print and commercial traditions (vernacular, mid-century, Swiss, constructivism, Art Nouveau, Art Deco, retro Americana, 80s-90s, Bauhaus, brutalist, maximalist) · Part 2: contemporary aesthetics (flat, neobrutalism, editorial, risograph, zine/DIY, hand-drawn, linocut, botanical) · Part 3: Indonesian and regional visual traditions (wayang, batik, ikat, regional ornament, vernacular print, urban culture, batik-modern fusion) · Part 4: tone and mood registers · quick decision matrix
 
-> **When to use this file:** Stage 7–8 (Creative Direction). You have already defined the business, USP, audience, and communication objective. Now choose a creative direction with full awareness of what each visual language communicates, risks, and enables.
+> **When to use this file:** Stage 5 (Visual Concept & Creative Direction). You have already defined the business, USP, audience, and communication objective. Now choose a creative direction with full awareness of what each visual language communicates, risks, and enables.
 
 This is a working vocabulary of visual design traditions and aesthetics relevant to Indonesian small-business print. Use it to make deliberate, distinctive creative choices — not to produce generic AI output.
 

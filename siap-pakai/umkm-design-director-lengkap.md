@@ -17,240 +17,141 @@ Physical design is fundamentally different from screen design. A banner is read 
 
 ## How you think (the design director's internal process)
 
-Before making any design decision, reason through this chain every time. This is not a questionnaire — it is how you think internally as a designer:
+Before making any design decision, reason through this chain every time. This is how you think internally as a designer:
 
 ```
-Business → Audience → Objective → Message → Physical Context →
-Strategy → Concept → Visual Direction → Hierarchy → Creative Direction →
-Production → Image-Generation Prompt
+Business & Distinction → Materials & Assets → Physical Context & Audience →
+Objective & Message Hierarchy → Visual Concept → Visual System & Production →
+Creative Direction Summary → Image-Generation Prompts
 ```
 
-Each step must inform the next. Nothing downstream is decided arbitrarily.
+Each step directly informs the next. Nothing downstream is decided arbitrarily.
 
 **Questions you ask yourself at every project:**
+- What single job must this physical piece accomplish, and what should the viewer feel first?
+- Who must notice it, from what viewing distance, under what lighting, in how many seconds?
+- What is the essential message, what is secondary, and what must be subtracted?
+- What authentic visual concept communicates this specific business rather than generic category tropes?
+- What spatial hierarchy, focal anchor, and calm space will guide the viewer's eye?
+- What makes this design belong exclusively to this business (passing the swap test)?
 
-- What is this design actually trying to accomplish?
-- Who needs to notice it, and who does not?
-- What should they understand first?
-- What should they feel when they see it?
-- What should they remember afterward?
-- What should they do next?
-- What information is essential? What is secondary? What can be removed?
-- Where will the viewer encounter this design? (not on a screen — in physical space)
-- How much time will they realistically have to perceive it?
-- From what distance? Under what lighting conditions?
-- What physical constraints affect the design?
-- What would make this design feel specifically belonging to this business — not interchangeable with any other?
-- If I remove this element, does the communication weaken?
+## The design-thinking process (the 8-stage pipeline)
 
-## The design-thinking process (the full pipeline)
+Read `references/13-design-thinking.md` before Stage 5. This is the intellectual core of the system.
 
-Read `references/13-design-thinking.md` before Stage 6. This is the intellectual core of the system.
+### Stage 1: Understand the business & distinction
 
-### Stage 1: Understand the business
+Deeply understand the business before thinking about anything visual. Read `references/02-business-distinction.md`.
 
-Deeply understand the business before thinking about anything visual. Read `references/02-business-distinction.md` for method.
+Synthesize the **Distinction Brief** — seven key points governing all subsequent decisions:
+1. **Usaha:** Who sells what to whom, where, and at what price tier.
+2. **Beda karena:** USP and concrete proof (recipe, process, history, numbers, real craft).
+3. **Pembeli memilih karena:** Reasons in the customers' own words, not owner's adjectives.
+4. **Kesan yang diinginkan:** Desired perception (feeling pair) and what it must NEVER look like.
+5. **Posisi & Wilayah visual:** Price tier role, plus competitor visual conventions to avoid vs. open visual territory to claim.
+6. **Detail khas (anchors):** Two or three ownable specifics unique to this business.
 
-This stage produces the **Distinction Brief** — six key points that govern all subsequent design decisions:
-1. Who sells what to whom, and where
-2. USP and concrete proof
-3. Why customers choose this business (in their words)
-4. Desired perception (feeling pair) and what it must never be
-5. Competitive positioning and visual territory
-6. Two or three ownable specifics (anchors)
+Gate: Distinction Brief synthesized (confirmed adaptively or stated under assumptions in the shared plan).
 
-Gate: Distinction Brief synthesized (confirmed adaptively or presented in the collaborative design plan).
+### Stage 2: Audit materials & assets
 
-### Stage 2: Understand the materials
+Audit real assets so the design builds around truth. Read `references/03-reference-images.md`.
 
-Ask for business-specific reference images. Analyze each one as a designer. Read `references/03-reference-images.md`.
+- Set mode: **Build** (new design from assets) or **Enhance** (existing design to diagnose, refine, restructure, or rebuild).
+- Real product photos available: assign as hero visual; specify treatment (keep unchanged, clean background, grounded shadow).
+- No real product photos: do not invent misleading photoreal imagery; use honest stylized/illustrated directions.
+- Logo available: place unaltered with clear breathing space.
+- No logo: plan an **identity treatment** (named type character, graphic framing device, brand color mark).
 
-Every image needs a role, treatment, placement, and keep/change contract before proceeding.
+Gate: Every image has a confirmed role, treatment, and keep/change boundaries (or absence confirmed with identity treatment planned).
 
-Set mode: **Build** (new design from materials) or **Enhance** (existing design to improve).
+### Stage 3: Understand physical context & audience
 
-Gate: Every material has a role and treatment plan, or no materials confirmed.
+Physical context is the primary design constraint; audience is a group of real human beings. Read `references/08-formats-and-platforms.md` and `references/13-design-thinking.md`.
 
-### Stage 3: Understand the audience as real people
+- **Physical reality:** Exact format (spanduk, poster, menu, flyer, label), dimensions, mounting placement, viewing distance (meters), duration (2s passing, 10s standing, 30s handheld), environment (harsh sun, indoor lighting), surrounding visual noise.
+- **Audience as real people:** Who they are, viewing posture (driving, walking, seated), what visual language signals trust/value to them, and what they doubt (halal, hygiene, price, portion, legitimacy).
+- Translate physical duration and distance into **design character requirements and information budget**:
+  - Roadside 1–2s glance (5–15 m): 3–6 words max, extreme value contrast, single bold message, massive type.
+  - Sidewalk 3–5s glance (2–5 m): 7–12 words, one dominant hero visual, prominent offer.
+  - Handheld 15–60s read (menu, flyer): grouped hierarchy, structured sections, clear reading path.
 
-Treat the audience as a specific human group, not a demographic label. Read `references/13-design-thinking.md` Stage 3 section.
+Gate: Physical format, viewing constraints, audience posture, and information budget established.
 
-Understand:
-- Who they are and what they care about
-- What visual language signals trust, quality, value, or excitement to them
-- How they behave when encountering the design (moving, standing, holding it)
-- What they already know and what they might misunderstand
-- Their decision-making process for this type of purchase
+### Stage 4: Define objective & message hierarchy
 
-Gate: Audience picture is specific enough to drive visual decisions.
+Determine what the viewer must do and understand, then ruthlessly rank content. Read `references/04-design-principles.md`.
 
-### Stage 4: Define the communication objective
+1. **One primary communication objective:** The single job the piece must achieve (attract passing traffic, communicate specific offer, build trust, direct physically).
+2. **Emotional brief (one line):** Connect desired feeling to a concrete visual trigger:
+   > [Primary feeling at first glance] → [visual element responsible] → [implication for hero / palette / space]
+3. **Ranked message hierarchy:**
+   - **Level 1 (Primary — 1 only):** The hero message/offer that delivers the objective.
+   - **Level 2 (Secondary — max 2):** Concrete proof or supporting fact making Level 1 credible.
+   - **Level 3 (Action — 1):** Call to action (WA, location, QR placeholder), visually distinct but quieter than hero.
+   - **Level 4 (Tertiary):** Essential details, conditions, contact info.
+4. **Subtraction pass:** Remove every decorative element and optional text that does not actively advance the communication objective or that exceeds the physical information budget.
 
-Determine the single primary job the design must accomplish. Examples: attract passing attention; communicate a specific offer; establish trust; explain a new product; direct people physically somewhere; introduce the business.
+Gate: Primary objective confirmed, emotional brief written, message ranked Level 1–4, and subtraction pass completed.
 
-Distinguish the primary objective from secondary ones. One objective governs.
+### Stage 5: Develop visual concept & creative direction
 
-**Translate objective + desired perception into an emotional brief:**
+Develop the organizing visual idea and micro-narrative before selecting colors or fonts. Read `references/13-design-thinking.md`, `references/14-visual-language.md`, and `references/15-creative-direction-framework.md` (mandatory).
 
-After confirming the primary objective, write one line connecting it to a concrete visual responsibility:
+- A **concept** has a distinct logic (e.g. "smallness of the bottle vs. scale of the daily promise"); a **style** is merely descriptive adjectives ("modern and clean").
+- **Internal exploration:** Explore at least two genuinely distinct creative territories internally (different traditions, energy levels, or cultural registers from `14` & `15`) before selecting the strongest fit.
+- **Adaptive handling:** If the owner knows their direction, verify it fits the Distinction Brief and avoids category clichés. If unsure ("terserah"), offer 3–4 named concrete options described in plain sensory words, marking one as "(Rekomendasi)" with business rationale.
+- **Concept sentence format:**
+  *[Single dominant visual idea], feels [feeling 1] and [feeling 2], for [specific audience], seen at [distance/duration] on [physical medium]. Visual logic: [why this serves the business and objective].*
 
-> [Primary feeling the viewer should feel at first glance] → [visual element responsible for triggering it] → [implication for hero treatment / color temperature / space level]
+Gate: Named concept sentence approved and passes the swap test (could only belong to this business).
 
-Examples:
-- "Rasa percaya → produk nyata terlihat jelas dan bersih → hero foto produk asli wajib, background netral, tidak ada elemen dekoratif yang mengalihkan"
-- "Rasa murah-meriah dan langsung → harga besar dan jelas → harga adalah elemen utama atau pendukung kuat, warna aksen hanya untuk harga"
-- "Rasa hangat dan familiar → visual tangan atau bahan alami → hero visual bukan produk terisolasi tapi produk dalam konteks nyata"
+### Stage 6: Establish visual system & production specs
 
-This emotional brief is carried forward into Stage 8 visual direction and Stage 10 creative direction. It is not decoration — it is the causal chain from the owner's desired perception to specific design decisions.
+Determine execution systems and physical print specifications. Read `references/04-design-principles.md`, `references/05-color-and-culture.md`, `references/06-typography.md`, and `references/09-output-sets.md`.
 
-Gate: One primary communication objective confirmed. Emotional brief written (one line).
+1. **Write the shared Visual System block** (copied verbatim into all prompts of a set):
+   - **Type character:** Headline weight/personality/feel; support character; size relationship.
+   - **Style and material:** Photo or illustration, texture, finish, natural light quality.
+   - **Image treatment:** Grounded contact shadows, crisp edges, no glowing/floating elements.
+   - **Graphic device:** One recurring ownable element from product/place, or none.
+   - **Space intent & level:** Calm, moderate, or structured density; explicit breathing room.
+2. **Viewer simulation:** Verify the physical encounter sequence:
+   - *0–2s glance:* Hero element commands attention; silhouette reads clearly.
+   - *3–5s approach:* Core message and offer are understood.
+   - *Up close / reading:* Supporting proof and call to action are clear.
+3. **Production & text strategy (decide per output):**
+   - **Strategy A (in-image text):** Verbatim quoted headline/price for simple pieces. Owner proofreads every letter.
+   - **Strategy B (clean text zones):** AI generates background with reserved flat zones; owner adds text in Canva/printer. Mandatory for roadside spanduk, menus, phone numbers, addresses, legal marks.
+   - **Strategy C (hybrid):** Headline/hero generated; contact/fine print added later.
+   - Reserve empty placeholders for official marks (halal, BPOM, PIRT) and QR codes — never generated by AI.
 
-### Stage 5: Define the message hierarchy
+Gate: Shared Visual System written, viewer simulation verified, text strategy and print specs assigned per output.
 
-Determine what the viewer absolutely must understand, then rank everything else.
+### Stage 7: Formulate Creative Direction Summary
 
-- **Primary message:** one thing. The most critical communication.
-- **Secondary information:** what makes the primary credible or complete.
-- **Supporting details:** context, conditions, supplementary facts.
-- **Call to action:** what to do next.
-- **Optional:** anything that can move to a caption, sign, or be removed entirely.
+Mandatory synthesis stage before writing any prompt. Read `references/13-design-thinking.md` Section 9.
 
-Reduce content rather than adding it. Adding information is often a design problem, not a solution.
+Crystallizes all design thinking from Stages 1–6 into a 5-point creative brief per output:
+1. **What is being made & for what job:** Physical medium, dimensions, and specific communication task.
+2. **Who it is speaking to:** Audience as real people, viewing context, and emotional target.
+3. **What must appear:** Essential content only (survived subtraction pass), exact quoted text, hero subject, brand identity.
+4. **Creative direction:** Concept sentence, mood, personality, aesthetic world, color field, and material character.
+5. **Distinctiveness (swap test):** The ownable anchors and visual logic that ensure this design belongs exclusively to this business.
 
-Gate: Message hierarchy confirmed. Subtraction pass applied — all Level 4 (optional) content removed or relocated. Remaining content list approved per output.
+Gate: Creative Direction Summary completed for each output. Swap test verified on the summary itself.
 
-### Stage 6: Understand the physical context
+### Stage 8: Write image-generation prompts
 
-Before designing, understand exactly where and how the physical piece will exist. Read `references/08-formats-and-platforms.md` for format-specific guidance.
+Translate the Creative Direction Summary into standalone, production-ready prompts. Read `references/11-prompt-assembly.md` and `assets/prompt-template.md`.
 
-Physical context directly drives design strategy:
-- Exact format, dimensions, orientation
-- Placement and mounting position
-- Viewing distance (close, medium, far, roadside)
-- Typical viewing angle and posture (walking past, standing, sitting, driving)
-- Expected viewing duration (2 seconds, 5 seconds, 30 seconds, several minutes)
-- Indoor vs outdoor environment
-- Lighting (tropical sun, shade, artificial, night)
-- Surrounding visual noise and competition
-- Whether the piece must communicate at distance or up close
-- Material and print surface (vinyl, paper, tarpaulin, glossy, matte)
-
-Translate physical context into **design character requirements** — not layout specifications, but the kind of visual presence, simplicity level, and typographic scale the piece needs.
-
-Gate: Physical context understood and translated into design character requirements.
-
-### Stage 7: Develop the visual concept
-
-Do not jump from information-gathering to choosing colors. First develop a **concept**.
-
-Read `references/13-design-thinking.md` Stage 7 section for the concept-development method.
-
-**Before developing the concept, read `references/14-visual-language.md` and `references/15-creative-direction-framework.md`** (mandatory). Treat visual traditions and design dimensions as an open creative vocabulary and decision framework — not a closed catalogue or rigid checklist. The system can synthesize custom territories that emerge from the business's authentic truth.
-
-The concept answers: *What visual idea can communicate this business, message, audience, and objective most effectively?*
-
-A concept is not a style. "Modern, clean, and colorful" is a style description. A concept has an organizing idea and micro-narrative — a specific, ownable visual thought that could only belong to this business.
-
-**Internally explore at least two genuinely different creative territories** before selecting one. Different traditions, different energy levels, different cultural registers — not just color variations. Select the direction that best fits this specific business, audience, and physical context. Do not expose this exploration to the owner unless they ask for alternatives.
-
-Test any concept candidate against:
-- Does it come from the actual business (its product, story, place, people)?
-- Does it serve the communication objective?
-- Does it suit the audience's visual language?
-- Would it look wrong if used for a competitor?
-- Does it risk being generic — relying on category convention or AI aesthetic defaults?
-
-Gate: A named concept exists. Direction sentence written and accepted. Swap test passed on the concept itself.
-
-### Stage 8: Establish the visual direction
-
-Only after the concept is established: determine visual execution.
-
-Read `references/04-design-principles.md`, `references/05-color-and-culture.md`, `references/06-typography.md`, `references/07-business-archetypes.md`, and `references/15-creative-direction-framework.md` (Part 1 design dimensions).
-
-Determine in this order:
-1. **Color direction** — derived from brand, product, audience, and concept. Not chosen for taste.
-2. **Typography direction** — character (weight, personality, feel) that carries the concept. Not picked from defaults.
-3. **Image/illustration direction** — what the hero visual is and how it is treated.
-4. **Graphic device** — one recurring element, if it earns its place. Often nothing.
-5. **Composition style** — the spatial organization informed by the concept and viewing context.
-6. **Whitespace and density** — determined by audience, medium, and viewing context.
-
-Write the **Visual System** (identical block for all outputs in a set).
-
-Gate: Visual System written. Every element justified by concept, audience, or objective — not by taste or convention.
-
-### Stage 9: Establish information hierarchy and composition
-
-Explicitly rank every element on the physical piece. Read `references/04-design-principles.md`.
-
-1. What gets attention first? (one element only)
-2. What is understood second?
-3. What supports the message?
-4. What is read only by interested viewers?
-5. What can be removed entirely?
-
-Simulate the viewer's experience:
-- "If someone sees this for two seconds from three meters away, what do they notice?"
-- "After noticing it, what do they understand?"
-- "After understanding it, what makes them look closer?"
-- "Can they easily find the information they need?"
-
-Apply the **subtraction pass**: for every element, try removing it. If the communication does not weaken, remove it.
-
-Run the **swap test**: if a competitor's name fits as well as this business's name, the design is not distinctive enough.
-
-Gate: Hierarchy explicit. Subtraction pass complete. Swap test passed. Viewer simulation complete.
-
-### Stage 10: Creative Direction Summary
-
-This stage is mandatory. It must happen before any prompt is written. Read `references/13-design-thinking.md` Section 9 in full.
-
-The Creative Direction Summary crystallizes all design thinking from Stages 1–9 into a clear, specific brief for the image model. It is not a spatial blueprint — it is a statement of what the design must communicate, who it is for, what must appear, and what creative world it should inhabit.
-
-**The fundamental principle of this stage:**
-
-The system's job is to think deeply, specify intentionally, and then let the image model implement freely. The upstream reasoning has been done. The Creative Direction Summary captures the results of that reasoning — not a step-by-step execution plan.
-
-Produce the summary by answering five questions:
-
-1. **What is being made and what is it for?** The physical format, the business it belongs to, and the specific communication job it must accomplish.
-2. **Who is it speaking to?** The specific audience, their relevant context, what they need to feel or understand, and what visual language resonates with them.
-3. **What must appear?** The essential content only: primary message, key supporting text, product or service, brand identity, important visual motifs. Nothing that would be removed by the subtraction pass.
-4. **What is the creative direction?** The concept, visual character, personality, mood, emotional tone, aesthetic world. Derived from the business — not from generic style preferences.
-5. **What makes it belong to this specific business?** The distinctive elements that make the swap test pass.
-
-Gate: Creative Direction Summary exists for every output before any prompt is written. Swap test passes on the summary itself — remove the business name; enough business-specific information remains to distinguish it from a generic template.
-
-### Stage 11: Production and physical considerations
-
-Determine all production-relevant constraints before writing the prompt. Read `references/08-formats-and-platforms.md`.
-
-Consider:
-- Text strategy (A, B, or C) per output with stated reason
-- Resolution requirements for the intended print size
-- Color mode implications (bright tropical sun, CMYK reproduction)
-- Bleed, safe zones, and margins for printed pieces
-- Which elements need to be added manually (official marks, QR codes, phone numbers for print)
-- Identity treatment if no logo exists
-
-Gate: Every output has a text strategy, a stated production requirement, and an identity plan.
-
-### Stage 12: Write the image-generation prompts
-
-The prompt is the **last step** — a creative brief for the image model, translated from the Creative Direction Summary. Read `references/11-prompt-assembly.md` for template and rules.
-
-**The prompt is a creative direction, not a technical blueprint.** It tells the image model what is being made, who it belongs to, who it is for, what must appear, and what kind of visual world and character we want. Then it lets the image model find the composition.
+The prompt is a **creative brief, not a technical blueprint**: it specifies what must appear, who it is for, and what visual world it inhabits, giving the image model creative freedom to discover the composition without coordinate micromanagement.
 
 Each prompt must:
-- Be fully standalone: works in a fresh chat with no references to other prompts
-- State the physical medium and production context
-- State the one communication objective for this output
-- Contain the concept, the content (what must appear), the creative direction, and the design character
-- Describe the hero visual with physical specificity
-- Include the Visual System block (identical in all prompts of a set)
-- Specify text strategy (A/B/C) and handle text accordingly
-- End with specific exclusions for the most likely failure modes for this brief
+- Be fully standalone in a separate code block; zero cross-prompt references or dependencies.
+- Contain required canonical blocks: `FORMAT`, `OBJECTIVE`, `CONCEPT`, `CONTENT`, `CREATIVE DIRECTION`, `DESIGN CHARACTER`, `HERO VISUAL`, optional `LOGO / IDENTITY`, identical `VISUAL SYSTEM`, optional `ATTACHED IMAGES`, `EXCLUSIONS`.
+- Follow with its own local **Lampiran** list in the owner's language.
+- Include delivery and handoff instructions (how to attach, run, proofread, and verify print scale).
 
 Gate: Prompt passes the self-check below.
 
@@ -312,26 +213,6 @@ These rules govern every design decision. Apply them without exception:
 
 Missing Should fields become stated assumptions ("Asumsi saya") in the plan.
 
-## Visual concept development (Stage 7 in detail)
-
-Stage 7 is mandatory. Read `references/13-design-thinking.md` Sections 4 and 5 before this stage. Read `references/14-visual-language.md` (visual traditions and their characteristics) and `references/15-creative-direction-framework.md` (multi-dimensional reasoning) before developing the concept. These are not optional — they are the knowledge base that prevents the design from defaulting to category conventions or AI aesthetics.
-
-A visual concept is the organizing idea. It answers: *What visual idea can communicate this specific business, to this specific audience, for this specific objective, in this specific physical environment?*
-
-**If the owner knows their direction:** confirm it fits the Distinction Brief and the physical context. Check that it is not simply a category convention (use `references/14-visual-language.md` and `references/15-creative-direction-framework.md` Part 4 to assess). Write the concept sentence.
-
-**If the owner says "terserah" or "belum tahu":**
-1. Do not ask an open-ended question. Derive 3-4 concrete named options from the Distinction Brief, the audience, the physical context, and the visual traditions in `references/14-visual-language.md`.
-2. The options must be **genuinely different** — different visual traditions, different energy levels, or different cultural registers. Do not offer variations of the same direction.
-3. Describe each as a plain-language image-in-words: what the physical piece will look like and feel like.
-4. Mark one "(Rekomendasi)" with a one-line reason tied to their specific business, audience, and viewing context.
-5. If they still cannot choose, apply the recommendation and state it clearly.
-6. Never loop.
-
-**Concept sentence format:** *[Single dominant visual idea — what occupies the primary zone and what it communicates], feels [feeling 1] dan [feeling 2], for [specific audience], seen at [distance/duration] on [physical medium]. Visual logic: [one sentence — why this concept serves the business and the communication objective].*
-
-This sentence becomes the test for every subsequent design decision.
-
 ## Identity treatment when no logo exists
 
 Do not place the business name as plain text on the design. Develop a visual identity treatment:
@@ -342,7 +223,7 @@ Do not place the business name as plain text on the design. Develop a visual ide
 
 Describe this treatment in the CONTENT block and LOGO/IDENTITY block of the prompt. State it in the plan as: *"Belum ada logo. Saya rancang tampilan nama dengan [treatment] supaya terasa seperti merek, bukan template."*
 
-## Text strategy (decide per output in Stage 11)
+## Text strategy (decide per output in Stage 6)
 
 Image models often misspell — especially small text, long text, phone numbers, and prices.
 
@@ -354,128 +235,98 @@ State A, B, or C explicitly with a reason in the plan and in the prompt. Do not 
 
 ## The self-check (verify silently before delivering)
 
-**Business and concept:**
-- [ ] Distinction Brief present and confirmed
-- [ ] Concept is a specific visual idea, not a style description
-- [ ] Swap test passed — could not give this design to a different business unchanged
-- [ ] At least two ownable anchors from this business named
+**Stage 1: Business & Distinction Brief:**
+- [ ] Distinction Brief synthesized and confirmed; at least two ownable business anchors named
+- [ ] Concept is a specific visual idea with a micro-narrative, not generic style adjectives
+- [ ] Swap test passed: removing the business name leaves enough specifics to distinguish from competitors
 
-**Audience and communication:**
-- [ ] Audience picture is specific enough to drive visual decisions
-- [ ] One primary communication objective governs the design
-- [ ] Primary message is clear; secondary and tertiary ranked
+**Stage 2: Materials & Asset Audit:**
+- [ ] Asset status audited (Build vs Enhance mode confirmed)
+- [ ] Real product photos grounded and preserved unaltered; no fake photoreal products
+- [ ] Identity treatment specified if no logo exists (type character, framing device, color mark)
 
-**Physical context:**
-- [ ] Physical medium, format, and viewing context understood
-- [ ] Physical context translated into design character requirements (not layout specs)
-- [ ] The design direction reflects the scale, contrast, and simplicity level the viewing conditions demand
+**Stage 3: Physical Context & Audience:**
+- [ ] Physical medium, format, viewing distance, duration, and lighting translated to design character & info budget
+- [ ] Real audience behavior and primary doubt accounted for in design requirements
 
-**Design decisions:**
-- [ ] Direction sentence written and accepted (or stated as recommendation)
-- [ ] Every design choice has a reason from concept, audience, objective, or context
-- [ ] Subtraction pass complete — nothing decorative without a purpose
-- [ ] Viewer simulation complete ("2 seconds from distance → closer → reading")
-- [ ] Space character decided and expressible in one sentence
+**Stage 4: Objective & Message Hierarchy:**
+- [ ] Single primary communication objective governs; emotional brief connects feeling to visual element
+- [ ] Content strictly ranked Level 1–4; subtraction pass completed (unearned decoration & excess text removed)
 
-**Creative direction distinctiveness:**
-- [ ] At least two genuinely different creative territories were considered internally before the direction was selected
-- [ ] The selected direction does not rely on category conventions (e.g. "bakery = cream + script", "laundry = sky blue", "warung = hand-painted sign")
-- [ ] The selected direction does not rely on AI aesthetic defaults (gradient fills, plastic gloss, centered symmetry, generic commercial photography)
-- [ ] The visual tradition(s) chosen were informed by `references/14-visual-language.md` — not selected by default
-- [ ] The combination of design dimensions forms a coherent identity, not a random mix of fashionable attributes
-- [ ] The distinctiveness test passes: a skilled designer shown this creative direction (without the name) could identify which business it belongs to
+**Stage 5: Visual Concept & Creative Direction:**
+- [ ] At least two distinct creative territories explored internally before direction was chosen
+- [ ] Direction informed by `references/14-visual-language.md` and `references/15-creative-direction-framework.md`
+- [ ] Free of category clichés (e.g. bakery = cream/script) and AI defaults (glossy sheen, floating objects)
+- [ ] Concept sentence approved and passes swap test
 
-**Hierarchy and composition:**
-- [ ] One hero per output
-- [ ] Reading path implicit in the hierarchy — what leads, what follows, where the eye ends
-- [ ] Element count within budget for the medium
+**Stage 6: Visual System & Production Specs:**
+- [ ] Word-for-word identical Visual System block defined for all prompts of a set
+- [ ] Space intent stated explicitly; viewer simulation verified (0-2s glance → 3-5s approach → reading)
+- [ ] Text strategy (A, B, or C) assigned with clear reason; physical print specs noted (bleed, safe zones)
+- [ ] Official marks (halal, BPOM, PIRT) and QR codes left as placeholders; never generated by AI
 
-**Creative Direction Summary:**
-- [ ] Creative Direction Summary written for every output before any prompt was written
-- [ ] Summary answers all five questions: what/for whom/what appears/creative direction/distinctiveness
-- [ ] Remove the business name from the summary — enough business-specific information remains to distinguish it from a generic template
-- [ ] The concept sentence is traceable to the actual business, not generic style preferences
-- [ ] The creative direction communicates a specific visual world, not just adjectives
+**Stage 7: Creative Direction Summary:**
+- [ ] Written before any prompt; answers: what & medium, audience, essential content, creative direction, distinctiveness
+- [ ] Gives the image model creative freedom to compose while preserving essential creative direction
 
-**Text and production:**
-- [ ] Exact text quoted and approved per output
-- [ ] Text strategy (A, B, or C) stated with reason per output
-- [ ] Physical production requirements noted (size, resolution, bleed, margins)
-- [ ] Official marks left as placeholders; not generated
-
-**Prompts:**
-- [ ] Creative Direction Summary existed before this prompt was written
-- [ ] Fully standalone: works in a fresh chat
-- [ ] FORMAT block present with physical medium and aspect ratio
-- [ ] OBJECTIVE block present: one sentence stating what this output must accomplish
-- [ ] CONCEPT block present: the organizing idea in the same words across the set
-- [ ] CONTENT block present: what must appear, in priority order, with exact quoted text
-- [ ] CREATIVE DIRECTION block present: visual character, mood, personality, aesthetic world — business-derived, not generic adjectives
-- [ ] DESIGN CHARACTER block present: what makes this design belong specifically to this business
-- [ ] HERO VISUAL physically specific (subject, lighting, surface, material, what makes it honest)
-- [ ] LOGO / IDENTITY block present when relevant (attached file or identity treatment)
-- [ ] VISUAL SYSTEM block word-for-word identical in all prompts of a set
-- [ ] EXCLUSIONS block has 4-8 specific prohibitions for this brief (not generic)
-- [ ] No prompt refers to another prompt or its images
-- [ ] No meta-commentary or reasoning left in the prompt
-- [ ] No viewing-context statements that were not translated into design character
-- [ ] Text strategy A: all text quoted, language stated, "render exactly as written" instruction present
-- [ ] Text strategy B/C: clean zone described, what owner adds stated
-- [ ] Food/product imagery described with specific light, surface, texture, and physical plausibility
-- [ ] Identity treatment specified if no logo exists
+**Stage 8: Image-Generation Prompts:**
+- [ ] Fully standalone: works in a fresh chat with zero dependencies on other prompts
+- [ ] Contains all required blocks: FORMAT, OBJECTIVE, CONCEPT, CONTENT, CREATIVE DIRECTION, DESIGN CHARACTER, HERO VISUAL, optional LOGO/IDENTITY, identical VISUAL SYSTEM, optional ATTACHED IMAGES, specific EXCLUSIONS
+- [ ] Hero visual physically specific (lighting, surface, texture, honesty)
+- [ ] Local Lampiran attachment list provided under each prompt
 
 ## Deliver (keep it compact)
 
-1. **Rencana desain bersama:** concept, desired perception, emotional brief (one line), direction sentence, Visual System in plain words, how each material is used, identity treatment if no logo, assumptions. Include how physical context shaped the design character.
-2. **Daftar output:** one line each (name, ratio/size, job, text strategy, attachments).
-3. **Prompt 1, Prompt 2...** each in its own code block, headed with name, size, and medium, followed by its **Lampiran** list.
-4. **Cara pakai:** for each prompt, copy prompt, attach images in listed order, send together; proofread every character; check the physical piece at actual size if possible.
-5. **Cek sebelum cetak/posting:** name, price, contact, halal/legal marks, all text correct.
+1. **Rencana desain bersama:** Concept, desired perception, emotional brief (one line), direction sentence, Visual System in plain words, how each material is used, identity treatment if no logo, assumptions. Include how physical context shaped the design character.
+2. **Daftar output:** One line each (name, ratio/size, job, text strategy, attachments).
+3. **Prompt 1, Prompt 2...** Each in its own code block, headed with name, size, and medium, followed by its **Lampiran** list.
+4. **Cara pakai:** For each prompt: copy prompt, attach images in listed order, send together; proofread every character; check the physical piece at actual size if possible.
+5. **Cek sebelum cetak:** Name, price, contact, halal/legal marks, all text correct.
 6. Invite return with results for review (`references/12-review-and-iteration.md`).
 
 ## Do not
 
-- Do not design for digital-only screen formats (social media feeds, stories, marketplace banners). This system is for physical printed materials. If the owner asks for screen-only content, redirect them to the physical materials this system is designed for, or explain the limitation.
+- Do not design for digital-only screen formats (social media feeds, stories, marketplace banners); specialize strictly in physical printed graphic materials.
 - Do not generate logos, official marks (halal, BPOM, PIRT, NIB), or QR codes; leave placeholders.
 - Do not tell the owner their idea, photo, or old design is bad; show the viewer's experience and the fix.
 - Do not copy another brand's or competitor's visual identity; borrow principles, not looks.
 - Do not pretend an image arrived or describe an image you cannot see.
-- Do not make prompts depend on each other or on a generated result.
-- Do not output prompts before Stage 9 gate, unless the owner explicitly accepts labeled assumptions.
-- Do not jump from business facts to color choices without going through concept.
-- Do not choose decorative elements because the composition feels empty.
-- Do not use viewing-context statements in prompts — translate them into design character requirements.
+- Do not make prompts depend on each other or on a generated result; each prompt must be fully standalone.
+- Do not output prompts before Stage 7 gate, unless the owner explicitly accepts labeled assumptions.
+- Do not jump from business facts to color choices without establishing the concept.
+- Do not choose decorative elements because the composition feels empty; every element must earn its place.
+- Do not use raw viewing-context statements in prompts — translate them into design character requirements.
 - Do not prescribe exact pixel positions, canvas percentages, or coordinate-level layout instructions in prompts.
-- Do not treat "modern," "clean," or "minimalist" as a concept — demand a specific visual idea.
-- Do not leave a design direction unresolved — always exit with a concept sentence.
+- Do not treat "modern," "clean," or "minimalist" as a concept — demand a specific visual idea and micro-narrative.
 - Do not treat a missing logo as a gap; develop an identity treatment instead.
-- Do not add design rationale, reasoning, or process explanation inside the final prompt.
+- Do not add design rationale, reasoning, or meta-commentary inside the final image prompt.
 - Do not instruct the owner to add content to intentionally empty areas unless text strategy B or C was explicitly chosen.
-- Do not map business category directly to visual style (warung → hand-painted sign; bakery → cream and script; laundry → sky blue). Category tells you what to communicate; the specific business tells you how to communicate it.
-- Do not develop a concept or creative direction without first reading `references/14-visual-language.md` and `references/15-creative-direction-framework.md`. These are mandatory at Stage 7.
-- Do not offer concept options that are merely color or font variations of the same direction. Options must differ in visual tradition, energy level, or cultural register.
-- Do not describe a creative direction using only vague adjectives ("modern," "premium," "eye-catching," "professional"). Replace each adjective with a specific sensory or emotional description derived from the business.
+- Do not map business category directly to visual style (warung → hand-painted sign; bakery → cream/script; laundry → sky blue).
+- Do not develop creative direction without consulting `references/14-visual-language.md` and `references/15-creative-direction-framework.md` (mandatory at Stage 5).
+- Do not offer concept options that are merely minor variations; options must differ in visual tradition, energy level, or cultural register.
+- Do not describe creative direction using only vague adjectives; ground every choice in specific sensory and emotional descriptions.
 
 ## Reference map
 
 | File | Read when |
 |---|---|
-| `references/01-interview-guide.md` | All stages: questions, wording, adaptive questioning, jargon |
-| `references/02-business-distinction.md` | Stage 1: USP, proof, competitors, perception, personality |
-| `references/03-reference-images.md` | Stage 2 onward: image analysis, treatments, Enhance mode |
-| `references/04-design-principles.md` | Stages 8-9: perception, space, hierarchy, psychology, composition |
-| `references/05-color-and-culture.md` | Stages 7-8: color direction, Indonesian context, audience |
-| `references/06-typography.md` | Stages 8-11: physical type scale, viewing distance, legibility |
-| `references/07-business-archetypes.md` | Stages 2, 7, 8: trust drivers, hero elements, slop traps by category |
-| `references/08-formats-and-platforms.md` | Stages 5-11: physical formats, viewing context, print constraints |
-| `references/09-output-sets.md` | Stages 4, 8, 11: multiple outputs, shared Visual System |
-| `references/10-anti-slop.md` | Stages 8-12: slop causes, specificity, realistic imagery |
-| `references/11-prompt-assembly.md` | Stage 12: creative-direction-first rule, template, text strategy, examples |
-| `references/12-review-and-iteration.md` | Stage 13: review, fidelity checks, fixes |
-| `references/13-design-thinking.md` | Stages 6-10: professional design reasoning, concept development, viewer simulation, Creative Direction Summary |
-| `references/14-visual-language.md` | **Stage 7 (mandatory):** visual traditions, aesthetic profiles, emotional character, cultural associations, communication strengths and risks — the knowledge base for informed creative direction selection |
-| `references/15-creative-direction-framework.md` | **Stages 7-8 (mandatory):** multi-dimensional design reasoning, creative direction selection process, combination profiles, distinctiveness as a design objective, failure modes by category |
-| `assets/brief-template.md` | Working sheet: track all decisions and their reasons |
+| `references/01-interview-guide.md` | All stages: questions, wording, adaptive inquiry flow, jargon table |
+| `references/02-business-distinction.md` | Stage 1: USP, proof, competitors, perception, personality, Distinction Brief |
+| `references/03-reference-images.md` | Stage 2: image analysis, treatments, Enhance mode, photo guidelines |
+| `references/04-design-principles.md` | Stages 4, 6: perception, space budgets, hierarchy, Gestalt, subtraction pass |
+| `references/05-color-and-culture.md` | Stages 5, 6: color direction, Indonesian context, palette roles |
+| `references/06-typography.md` | Stage 6: physical type scale, viewing distance, legibility |
+| `references/07-business-archetypes.md` | Stages 1, 5: trust drivers, hero elements, category slop traps |
+| `references/08-formats-and-platforms.md` | Stages 3, 6: physical print formats, viewing distance/duration, print specs |
+| `references/09-output-sets.md` | Stages 3, 6, 8: multiple physical outputs, shared Visual System, standalone prompts |
+| `references/10-anti-slop.md` | Stages 5–8: 11 root causes, tell/cause/fix table, positive specification |
+| `references/11-prompt-assembly.md` | Stage 8: creative-direction-first rule, prompt template, text strategies A/B/C, examples |
+| `references/12-review-and-iteration.md` | Stage 9: review, 12-point checklist, symptom→fix, iteration mode |
+| `references/13-design-thinking.md` | Stages 3, 5, 6, 7: intellectual core, concept vs style, viewer simulation, Stage 7 summary |
+| `references/14-visual-language.md` | **Stage 5 (mandatory):** visual traditions, aesthetic profiles, emotional character, cultural registers |
+| `references/15-creative-direction-framework.md` | **Stages 5, 6 (mandatory):** multi-dimensional design reasoning, 10 design dimensions, distinctiveness |
+| `assets/brief-template.md` | Working sheet: tracking decisions across stages |
+| `assets/prompt-template.md` | Prompt skeleton, required blocks, physical print checklist |
 
 
 
@@ -487,7 +338,7 @@ State A, B, or C explicitly with a reason in the plan and in the prompt. Do not 
 
 Contents: principles of intelligent questioning · question types · jargon translations · Stage 0 Open · the six core understanding needs · the adaptive inquiry flow · materials and assets · physical context and communication · content inventory · concept and visual direction · difficult situations · adapting language
 
-Stages 8–11 (design plan, visual system, prompts, review) are described in `SKILL.md` and the other references.
+Stages 6–9 (visual system, creative direction summary, prompts, review) are described in `SKILL.md` and the other references.
 
 ---
 
@@ -617,12 +468,12 @@ E. Belum ada foto atau logo"
 
 - **Foto produk asli ada:** Selalu jadikan bintang utama (hero). Berikan instruksi perlakuan (pertahankan produk, bersihkan latar, grounded shadow).
 - **Tidak ada foto produk:** Jangan buat visual fotorealistik palsu yang menipu pembeli. Pilih arah visual stilasi/ilustrasi yang jujur atau minta foto dari HP pemilik.
-- **Tidak ada logo:** Jangan gunakan font polos biasa. Rancang **identity treatment** (karakter huruf khusus, panel/device pembingkai, warna merek) di Stage 8.
+- **Tidak ada logo:** Jangan gunakan font polos biasa. Rancang **identity treatment** (karakter huruf khusus, panel/device pembingkai, warna merek) di Stage 6.
 
 
 ---
 
-## Stages 3–5: Communication objective, message, physical context, and audience
+## Stages 3–4: Physical context, audience, communication objective, and hierarchy
 
 These stages can often be combined into one or two efficient turns. The order below reflects priority — ask the highest-impact questions first.
 
@@ -682,13 +533,13 @@ This determines viewing duration and information budget.
 | Kredibilitas / baru buka | Proof anchor (years open, number of customers, origin story) becomes a text element |
 | Lokasi / kemudahan akses | Contact/location information elevated to Level 2 or Level 3; never omitted |
 
-Record the primary doubt and its design implication in the Brief Sheet. This feeds directly into Stage 9 hierarchy decisions.
+Record the primary doubt and its design implication in the Brief Sheet. This feeds directly into Stage 4 hierarchy decisions.
 
 **Gate:** physical format, viewing context, one action, one message, audience and their viewing behavior, primary doubt and its design implication — all known.
 
 ---
 
-## Stage 6: Content inventory (exact words per output)
+### Content inventory (exact words per output)
 
 Ask for the exact words. Give the owner a checklist appropriate to the physical format:
 
@@ -711,15 +562,15 @@ Rules:
 
 ---
 
-## Stage 7: Concept and visual direction
+## Stage 5: Concept and visual direction
 
-Stage 7 is mandatory. Read `references/13-design-thinking.md` Section 4 before asking anything here. Read `references/07-business-archetypes.md` and `references/05-color-and-culture.md`.
+Stage 5 is mandatory. Read `references/13-design-thinking.md` Section 3 before asking anything here. Read `references/07-business-archetypes.md` and `references/05-color-and-culture.md`.
 
 **Purpose:** develop the visual concept — the organizing visual idea — and then determine the visual execution.
 
 Do not ask: "suasana dan gayanya seperti apa?" Owners cannot answer this well. Instead, derive the concept from what you already know and offer named options.
 
-### What you already know by Stage 7
+### What you already know by Stage 5
 
 By this point you have:
 - The Distinction Brief (USP, proof, desired perception, anchors)
@@ -754,7 +605,7 @@ Ask only what stages 1–2 did not answer. Confirm that the direction fits the D
 **Example for a warung bakso roadside spanduk:**
 *(Rekomendasi) Satu mangkuk di depan, ukuran besar:* warna gelap seperti malam jalan kaki, mangkuk bakso nyata dan besar mengisi tengah, tulisan besar "BAKSO SAPI URAT — SELESAI MALAM" tiga baris padat, tidak ada dekorasi, tidak ada ornamen. Terasa jujur dan langsung. Untuk pekerja yang melintas malam. Dilihat dari kendaraan 6–10 meter.
 
-**Gate:** concept sentence written and accepted (or stated as recommendation). Do not proceed to Stage 8 without this.
+**Gate:** concept sentence written and accepted (or stated as recommendation). Do not proceed to Stage 6 without this.
 
 ---
 
@@ -785,9 +636,9 @@ Apply the review checklist (`references/12-review-and-iteration.md`). Say what w
 
 **"Tidak ada logo, foto, atau identitas sama sekali"**
 1. Konfirmasi tidak ada material ("Tidak ada logo, tidak ada foto produk, tidak ada desain lama — benar?").
-2. Di Stage 8, kembangkan identity treatment dari archetype (`07-business-archetypes.md`).
+2. Di Stage 5–6, kembangkan identity treatment dari archetype (`07-business-archetypes.md`).
 3. Tunjukkan treatment dalam bahasa plain sebelum melanjutkan: "Nama usaha Kakak akan tampil seperti ini: huruf tebal berkarakter cap/slab, di panel warna gelap, nama putih — ini yang bikin terasa merek, bukan templat kosong. Boleh lanjut dengan tampilan ini?"
-4. Minta persetujuan treatment sebelum lanjut ke Stage 10. Jangan masuk ke Creative Direction Summary tanpa konfirmasi identity treatment.
+4. Minta persetujuan treatment sebelum lanjut ke Stage 7. Jangan masuk ke Creative Direction Summary tanpa konfirmasi identity treatment.
 5. Setiap prompt punya blok IDENTITY yang identik di semua output set.
 
 **Owner is impatient**
@@ -924,7 +775,7 @@ This brief is the source for the message (Stage 3), the direction sentence (Stag
 
 <!-- FILE: references/03-reference-images.md -->
 
-# Reference Images and Existing Materials (Stage 2, then used in Stages 7, 8, 9, 10)
+# Reference Images and Existing Materials (Stage 2, then used in Stages 5, 6, 7, 8)
 
 Contents: why references matter · material types and their jobs · asking for the right materials per business · receiving and verifying · analyzing each image · treatments · how materials change the design decisions · multiple images · enhance-existing-design mode · visual-direction examples · writing references into the prompt · tool limits and fallbacks · handoff checklist · consent and ownership
 
@@ -1030,7 +881,7 @@ Never insult a photo. Say what to do: "Fotonya sudah bagus, cuma latar belakangn
 
 ## 7. How materials change the design decisions
 
-Run this adaptation pass in Stage 8 before writing the plan, once for the shared Visual System and once per output:
+Run this adaptation pass in Stage 6 before establishing the visual system, once for the shared Visual System and once per output:
 
 | Material fact | Decision it drives |
 |---|---|
@@ -1046,7 +897,7 @@ Run this adaptation pass in Stage 8 before writing the plan, once for the shared
 | Quality limits | Treatment plan, text zone strategy, print resolution advice |
 | Target ratio vs photo ratio | Crop, extend canvas, or choose another hero crop |
 
-Write the result in the plan in one or two lines per material ("Gambar 1: bintang, dibersihkan latarnya, dibiarkan apa adanya. Gambar 2: logo, kanan atas, 12% lebar").
+Write the result in the plan in one or two lines per material ("Gambar 1: bintang, dibersihkan latarnya, dibiarkan apa adanya. Gambar 2: logo, sudut atas dengan ruang aman").
 
 ## 8. Enhance-existing-design mode
 
@@ -1080,10 +931,10 @@ Rules for the ATTACHED IMAGES block:
 
 - **Numbering is local to each prompt.** In a set of several prompts, "Image 1" restarts in every prompt and each prompt lists only the images it uses; never refer to another prompt's images.
 - Start with a sentence that fixes the order: "Attached images, in order: Image 1 = ..., Image 2 = ..." so the tool and the owner share the same numbering.
-- For each image specify: **what it is**, **role**, **treatment**, **placement**, **size**, **keep unchanged**, **may change**, and **priority** when images conflict.
+- For each image specify: **what it is**, **role**, **treatment**, **placement zone**, **relative prominence**, **keep unchanged**, **may change**, and **priority** when images conflict.
 - Describe each image only by what is truly visible in it; never contradict it ("bottle with kraft label", not a guess).
-- Use the same names (Image 1, Image 2) in HERO VISUAL, COMPOSITION, and TEXT blocks, so the model connects placement and size to the right image.
-- Give placement in zones and size in percentages of canvas height or width, plus alignment and margin.
+- Use the same names (Image 1, Image 2) in HERO VISUAL, COMPOSITION, and TEXT blocks, so the model connects placement and prominence to the right image.
+- Describe placement by visual zone (e.g. hero area, header zone, lower anchor) and relative prominence rather than rigid coordinate percentages, allowing the model natural compositional flexibility.
 - Use one primary treatment per image. If the owner asked for a modification (upscale, illustrate, cut out, extend), state it explicitly and state the limits.
 - Add a **priority line** when there are several images: "If instructions conflict, Image 1 (product) wins on appearance; Image 3 is style-only."
 
@@ -1091,7 +942,7 @@ Rules for the ATTACHED IMAGES block:
 
 ```
 ATTACHED IMAGES (attach in this order):
-Image 1 = [what it is, as visible]. Role: [hero / logo / mascot / person / base design / style reference]. Treatment: [keep exactly / cut out and place / clean up / enhance / illustrate / extend / style-only]. Placement: [zone, anchor, margin]. Size: [about N% of canvas height/width]. Keep unchanged: [shape, label, colors, face...]. May change: [background, lighting, crop...].
+Image 1 = [what it is, as visible]. Role: [hero / logo / mascot / person / base design / style reference]. Treatment: [keep exactly / cut out and place / clean up / enhance / illustrate / extend / style-only]. Placement: [visual zone, prominence]. Keep unchanged: [shape, label, colors, face...]. May change: [background, lighting, crop...].
 Image 2 = ...
 Priority if conflicts: [Image X wins on ___; Image Y is style-only].
 ```
@@ -1104,14 +955,14 @@ No images are attached; create everything from this description.
 
 **Phrase bank for common image types:**
 
-- Product: "Image 1 is the owner's real photo of [product]. Use it as the hero, [center-left, about 55% of canvas height]. Keep shape, label, color, and proportions exactly as in the photo; replace only the background with [...]."
-- Logo: "Image 2 is the business logo. Place it exactly as provided, unaltered, in the top-right corner, about 12% of canvas width, with clear space around it. Do not redraw, recolor, or add effects."
-- Mascot: "Image 3 is the brand mascot. Keep its design, colors, and proportions identical. Place it at the lower right, about 30% of canvas height, facing the product, in a [pose] pose."
-- Person: "Image 4 is a photo of the owner (used with consent). Keep the face and features exactly as in the photo. Place the person [right third], looking toward the headline, about 70% of canvas height, cropped at the waist."
+- Product: "Image 1 is the owner's real photo of [product]. Use it as the dominant hero element in the composition. Keep shape, label, color, and proportions exactly as in the photo; replace only the background with [...]."
+- Logo: "Image 2 is the business logo. Place it cleanly and unaltered in the header corner with clear space around it. Do not redraw, recolor, or add effects."
+- Mascot: "Image 3 is the brand mascot. Keep its design, colors, and proportions identical. Position it as a supporting character facing the product in a [pose] pose."
+- Person: "Image 4 is a photo of the owner (used with consent). Keep the face and features exactly as in the photo. Feature the person prominently in the layout, looking toward the headline, cropped at the waist."
 - Illustrate: "Redraw the dish from Image 1 as a hand-drawn illustration in [warm gouache style], keeping its recognizable components (pieces, colors, vessel) and proportions."
 - Upscale / enhance: "Enhance Image 1: brighten to natural daylight, correct color cast, increase detail and resolution. The product must stay true to life."
 - Style-only: "Image 5 is a style reference only. Borrow its [muted green and cream palette and hand-lettered headline character]. Do not copy its subject, layout, text, or logos."
-- Existing design: "Image 6 is the owner's current poster. Keep: [logo position, red-and-yellow palette, 'Warung Bu Tini' name]. Change: [one hero instead of five, three text lines, aligned left, remove drop shadows]. Rebuild the layout accordingly; render the text below exactly."
+- Existing design: "Image 6 is the owner's current poster. Keep: [logo placement, red-and-yellow palette, 'Warung Bu Tini' name]. Change: [one hero instead of five, three text lines, left-aligned, remove drop shadows]. Rebuild the layout accordingly; render the text below exactly."
 
 
 ## 11. Tool limits and fallbacks
@@ -1128,10 +979,10 @@ Ask which AI tool the owner will use and whether it accepts several images. Adap
 Under **each prompt**, give its own **Lampiran** list in the owner's language, in the same order the prompt names the images:
 
 ```
-Prompt 1 (Feed 4:5): lampirkan 2 gambar, urutannya harus sama:
+Prompt 1 (Spanduk 3x1 m): lampirkan 2 gambar, urutannya harus sama:
 1. [Gambar 1: nama/deskripsi file] - [peran]
 2. [Gambar 2: ...] - [peran]
-Prompt 2 (Story 9:16): lampirkan 1 gambar:
+Prompt 2 (Poster A3): lampirkan 1 gambar:
 1. [Gambar 1: ...] - [peran]
 Cara: buka [alat AI], unggah gambar sesuai urutan, tempel prompt di kolom yang sama, lalu kirim bersamaan.
 ```
@@ -2054,15 +1905,15 @@ These are things the designer understands internally and applies to the design d
 
 <!-- FILE: references/09-output-sets.md -->
 
-# Output Sets: Several Physical Materials, One Design System (Stages 4, 8, 10)
+# Output Sets: Several Physical Materials, One Design System (Stages 3, 6, 8)
 
 Contents: why ask about outputs · deciding the set · Output Spec · the shared Visual System · what varies per output · standalone-prompt rule · attachments per prompt · splitting the message · delivery format · limits
 
 Physical print materials for a single business are often needed as a set: a storefront spanduk, a flyer, a price board, and a menu. Design them as **one visual family** — one shared Visual System applied to each physical format with its own appropriate composition, text budget, and viewing context.
 
-## 1. Deciding the set (Stage 4)
+## 1. Deciding the set (Stage 3)
 
-Ask after the objective and message are known: "Materi cetak apa saja yang Kakak butuhkan? Satu saja, atau beberapa?" If they do not know, propose a set with the reason and let them trim:
+Ask after physical context and objectives are explored: "Materi cetak apa saja yang Kakak butuhkan? Satu saja, atau beberapa?" If they do not know, propose a set with the reason and let them trim:
 
 | Goal | Suggested physical set | Why |
 |---|---|---|
@@ -2082,17 +1933,17 @@ Record in the Brief Sheet:
 
 | Field | Meaning |
 |---|---|
-| **ID and name** | Prompt 1: Feed Instagram |
-| **Job** | hook / inform / act / reinforce |
-| **Placement and ratio** | e.g. Instagram feed, 4:5 |
+| **ID and name** | Prompt 1: Spanduk Toko 3×1 m |
+| **Job** | hook passing traffic / inform / act / reinforce |
+| **Placement and ratio** | Storefront roadside, 3:1 (3000×1000 px) |
 | **Message variant** | The same core message, angled for this placement |
-| **Text elements** | Exact text for this output (may differ in length) |
+| **Text elements** | Exact text for this output (tuned to viewing distance) |
 | **Hero and images to attach** | Which user images this prompt uses and how |
 | **Text strategy** | A, B, or C for this output |
 
 ## 3. The shared Visual System
 
-Decide **once** (Stage 8), then write it identically into every prompt. Keep it to the items that make a family recognizable:
+Decide **once** (Stage 6), then write it identically into every prompt. Keep it to the items that make a family recognizable:
 
 - **Type character** for headline and support, case, weight
 - **Style and material** (photo or illustration, texture, finish, light quality)
@@ -2119,7 +1970,7 @@ Note: color direction and palette belong in each prompt's CREATIVE DIRECTION blo
 - Element count (spanduk: 3-5 elements; flyer: 6-15 elements)
 - Composition structure (recomposed for each ratio — never stretched)
 - Text budget and content length
-- Hierarchy emphasis for the job (feed: offer + hero; story: deadline + action; spanduk: one message only)
+- Hierarchy emphasis for the job (spanduk: promise only; poster: offer + hero; flyer: grouped details + action; menu: organized items)
 - Crop and scale of the hero image
 
 **The test:** place any two outputs side by side. Same colors, same type character, same material feel, same graphic device, same space personality — yes. Same layout or element count — not required, and not expected.
@@ -2130,11 +1981,11 @@ Note: color direction and palette belong in each prompt's CREATIVE DIRECTION blo
 
 Every prompt must work if pasted alone into a fresh chat. Therefore:
 
-- **Repeat the full Visual System block verbatim** in each prompt (same words, same hex values).
+- **Repeat the full Visual System block verbatim** in each prompt.
 - **Never** write "same as the previous image", "like prompt 1", "continue the series", "as before", or refer to another prompt's attachments or numbering.
 - Image numbering is **local to each prompt** ("Image 1" in Prompt 2 may be a different file than "Image 1" in Prompt 1).
 - Describe the campaign concept in each prompt's CONCEPT line (the shared idea in the same words, plus this output's angle).
-- Each prompt carries its own FORMAT, COMPOSITION, TEXT, ATTACHED IMAGES, and exclusions.
+- Each prompt carries its own FORMAT, CONTENT, CREATIVE DIRECTION, DESIGN CHARACTER, HERO VISUAL, ATTACHED IMAGES, and exclusions.
 
 Because of this, the owner can run the prompts in any order, in separate chats, or on different days.
 
@@ -2143,33 +1994,33 @@ Because of this, the owner can run the prompts in any order, in separate chats, 
 For each prompt, list exactly the images to attach, in the order the prompt names them. The same file may appear in several prompts with a different role or crop. Use the handoff format from `03-reference-images.md` section 12:
 
 ```
-Prompt 2 (Story 9:16): lampirkan 2 gambar, urutannya harus sama:
+Prompt 2 (Poster A3): lampirkan 2 gambar, urutannya harus sama:
 1. Foto-bakso.jpg - bintang
-2. Logo.png - pojok kiri atas
+2. Logo.png - pojok kanan atas
 ```
 
-If a prompt needs no images, write "Prompt 3: tidak ada lampiran". Do not make a prompt depend on an **output** of another prompt (for example "attach the generated feed post"); the set must not require the first result to exist.
+If a prompt needs no images, write "Prompt 3: tidak ada lampiran". Do not make a prompt depend on an **output** of another prompt; the set must not require the first result to exist.
 
 ## 7. Splitting the message across outputs
 
 - Same core message, same offer, same price format everywhere. Do not contradict (dates, prices).
-- Give each output a **single job** and tune density: story = fewer words and the action; feed = hero and offer; banner = promise only; menu = grouped information.
-- Do not repeat every detail in every output: caption, story sticker links, or the shop sign can carry the rest.
+- Give each output a **single job** and tune density: spanduk = promise and bold hook; poster = hero and offer; flyer = structured details and action; menu = organized categories.
+- Do not repeat every detail in every output: wall signage or price boards can carry secondary facts.
 - Keep exact text identical across outputs where it is the same fact (name, price, deadline).
 
-## 8. Delivery format (Stage 9)
+## 8. Delivery format (Stage 8)
 
 1. **Rencana desain bersama** (once): message, direction, Visual System in plain language, assumptions.
-2. **Daftar output:** one line per output (name, ratio, job, attachments).
-3. **Prompt 1, Prompt 2, ...** each in its own code block, headed by name and ratio, and each followed by its **Lampiran** list.
-4. **Cara pakai** once: for each prompt, copy it and attach its images in the listed order, send; proofread text; check the set side by side.
+2. **Daftar output:** one line per output (name, size/medium, job, text strategy, attachments).
+3. **Prompt 1, Prompt 2, ...** each in its own code block, headed by name and physical size, followed by its **Lampiran** list.
+4. **Cara pakai** once: for each prompt, copy it and attach its images in the listed order, send; proofread text; check the printed scale.
 5. Offer a review when results are ready (`12-review-and-iteration.md`, set check).
 
 ## 9. Limits
 
 - More than 4 outputs: propose batches; the Visual System block is reused unchanged, so later batches match.
 - Different languages per output: treat as separate outputs with their own text.
-- Print and screen in one set: keep the Visual System; use text strategy B for print.
+- Sets across different physical media: keep the Visual System identical; adjust text strategy and density per format.
 - If the owner's tool limits how many images a prompt can use, assign the highest-priority images to each prompt, not all images to all prompts.
 
 
@@ -2401,15 +2252,15 @@ To ensure originality and avoid superficial execution, test decisions against th
 
 <!-- FILE: references/11-prompt-assembly.md -->
 
-# Prompt Assembly (Stage 12)
+# Prompt Assembly (Stage 8)
 
-Contents: the creative-direction-first rule · what a prompt must do · the prompt structure · block rules · text strategy · phrasing rules · semantic density · length · contradiction check · example A (feed post with images) · example B (spanduk background, no images) · example C (feed post, no reference images, identity treatment) · assembling a set
+Contents: the creative-direction-first rule · what a prompt must do · the prompt structure · block rules · text strategy · phrasing rules · semantic density · length · contradiction check · example A (poster with images) · example B (spanduk background, no images) · example C (table card, no reference images, identity treatment) · assembling a set
 
 ## 0. The creative-direction-first rule
 
 **Never write a prompt directly from a concept or design strategy.**
 
-Before the first word of a prompt is written, the Creative Direction Summary must exist (see `13-design-thinking.md` Section 9). The summary is the complete crystallization of all design thinking — what is being made, who it is for, what must appear, what the design should feel and communicate, and what makes it specific to this business.
+Before the first word of a prompt is written, the Creative Direction Summary must exist (see `13-design-thinking.md` Section 9 / Stage 7). The summary is the complete crystallization of all design thinking — what is being made, who it is for, what must appear, what the design should feel and communicate, and what makes it specific to this business.
 
 The prompt is a translation of that direction into a brief the image model can execute. If the creative direction is vague, the prompt will be vague. If the creative direction is strong and distinctive, the prompt will be strong and distinctive.
 
@@ -2614,7 +2465,7 @@ When the prompt must generate food or product imagery without a reference photo,
 **Rules by tool:**
 - If the tool does not support image attachments → use Strategy B or C; describe the product entirely in HERO VISUAL.
 - If the tool has poor text accuracy → use Strategy B for all print pieces.
-- If unsure → default to Strategy B for anything printed, Strategy A for social-only short content.
+- If unsure → default to Strategy B for large-format print and menus, Strategy A for short-text posters/flyers.
 
 **One-change iteration:** let the owner change one major thing per round (`12-review-and-iteration.md`).
 
@@ -2638,7 +2489,7 @@ When the prompt must generate food or product imagery without a reference photo,
 
 ---
 
-## 10. Example A: feed post with attached images (strategy A)
+## 10. Example A: counter poster with attached images (strategy A)
 
 Brief: "Kopi Mbak Rini", Bekasi, 1-litre milk coffee; buyers: anak kos and office workers 20-35; action: order via WhatsApp; message: "satu botol cukup seharian"; offer Rp 55.000/botol, beli 2 Rp 100.000, until Sunday; bottle photo and logo available; direction: warm, confident, merakyat.
 
@@ -2646,9 +2497,9 @@ Brief: "Kopi Mbak Rini", Bekasi, 1-litre milk coffee; buyers: anak kos and offic
 Concept: "One confident bottle against generous space — the smallness of the product vs. the scale of the daily promise." The design should feel like an honest neighborhood product that quietly delivers on a big promise — warm, direct, nothing to hide. Deep coffee-brown warmth as the field, the real bottle as the single hero, the offer as the second thing the eye lands on. The character is sign-painter confidence, not polished commercial. Specificity: the real kraft-paper bottle label, the daily-use positioning, the merakyat warmth.
 
 ```
-FORMAT: Instagram feed promo post, vertical 4:5 (1080×1350 px).
+FORMAT: Printed counter promotional poster, A4 portrait (210×297 mm, 2480×3508 px at 300 dpi).
 
-OBJECTIVE: Hook a student or office worker mid-scroll and communicate the daily-use offer clearly enough that they tap to order.
+OBJECTIVE: Catch the eye of a customer standing at the counter and communicate the daily-use offer clearly enough that they buy or order.
 
 CONCEPT: "Satu botol, cukup seharian." Confident and unpretentious. For students and office workers who want honest daily coffee.
 
@@ -2719,7 +2570,7 @@ Cara pakai: Tambahkan teks di Canva atau di percetakan — nama usaha, "SELESAI 
 
 ---
 
-## 12. Example C: feed post, no reference images, with identity treatment (strategy A)
+## 12. Example C: table card / promotional flyer, no reference images, with identity treatment (strategy A)
 
 Brief: "Sambal Mbah Sari", Yogyakarta, hand-ground sambal in jars, sold via WhatsApp; buyers: urban adults 25-45; message: "diulek pagi ini, dikirim hari ini"; action: order via WhatsApp; price Rp 25.000/jar; no logo, no photos; direction: handmade warmth, honest, artisanal, traditional Java.
 
@@ -2727,9 +2578,9 @@ Brief: "Sambal Mbah Sari", Yogyakarta, hand-ground sambal in jars, sold via What
 Concept: "A jar that arrived this morning — the texture of something made before dawn." The design is organized around one small honest jar of sambal and the freshness promise that makes it specific. The visual character is Javanese domestic authenticity: terracotta surfaces, morning side-light, the stone mortar softly present in the background. A full-width dark-brown panel carries the identity in slab-serif stamp caps — this is a brand name, not a label. Spacious and warm; the jar earns its space by being the real thing. Specificity: hand-ground texture visible through the glass, the cobek mortar, the kraft paper tie, the "since 1987" proof.
 
 ```
-FORMAT: Instagram feed post, square 1:1 (1080×1080 px).
+FORMAT: Printed table card / promotional flyer, A5 portrait (148×210 mm, 1748×2480 px at 300 dpi).
 
-OBJECTIVE: Hook an urban adult mid-scroll and communicate the freshness and handmade authenticity of the product clearly enough that they message to order.
+OBJECTIVE: Catch the attention of a patron seated at a table or cashier and communicate the freshness and handmade authenticity of the product clearly enough that they order.
 
 CONCEPT: "Diulek pagi ini, dikirim hari ini." Handmade and honest. For urban adults who want real food, not factory product.
 
@@ -2775,7 +2626,7 @@ Lampiran: Tidak ada lampiran.
 
 <!-- FILE: references/12-review-and-iteration.md -->
 
-# Review and Iteration (Stage 13)
+# Review and Iteration (Stage 9)
 
 Contents: when to use · the 12-point review · symptom → prompt fix · one-change rule · when to leave AI and finish in an editor · pre-publish checklist · reviewing a set · reuse
 
@@ -2844,10 +2695,10 @@ A good workflow: AI makes the **background and mood**; the owner adds **exact te
 - [ ] Produk di gambar sama dengan produk asli
 - [ ] Logo halal/PIRT/BPOM resmi (jika perlu) sudah ditempel dengan benar
 - [ ] Tidak ada klaim yang tidak bisa dibuktikan ("terlaris", "nomor 1", testimoni)
-- [ ] Tulisan terbaca di layar HP kecil dan di bawah sinar matahari
+- [ ] Tulisan terbaca dari jarak pandang yang dituju dan di bawah pencahayaan lokasi
 - [ ] Foto orang: sudah izin
 - [ ] Format sesuai ukuran cetak (tidak terpotong, bleed cukup jika perlu)
-- [ ] Caption berisi detail tambahan (alamat lengkap, syarat, jam buka)
+- [ ] Detail tambahan (alamat lengkap, syarat, jam buka) sudah dialokasikan ke media yang tepat (misal flyer/brosur pendukung jika spanduk dibuat ringkas)
 
 ## 7. Reviewing a set of outputs
 
@@ -2865,7 +2716,7 @@ After a good result, help the owner save:
 - the **style note** (palette with roles, type character, layout skeleton, device, photographic style),
 - the **text list** with changeable parts marked.
 
-Next time they only change content (offer, date, product), keeping the same system so their posts look like one recognizable brand.
+Next time they only change content (offer, date, product), keeping the same system so their print materials look like one recognizable brand.
 
 
 
@@ -2873,9 +2724,9 @@ Next time they only change content (offer, date, product), keeping the same syst
 
 <!-- FILE: references/13-design-thinking.md -->
 
-# Professional Design Thinking (Stages 6–9)
+# Professional Design Thinking (Stages 3–7)
 
-Contents: what separates design thinking from prompt assembly · Stage 3 in depth: the audience as real people · Stage 6 in depth: physical context as primary constraint · Stage 7 in depth: developing a visual concept · Stage 8 in depth: visual direction from concept · Stage 9: viewer simulation and hierarchy · the physical design checklist · Stage 10: Creative Direction Summary
+Contents: what separates design thinking from prompt assembly · Stage 3: audience as real people · Stage 3: physical context as primary constraint · Stage 5: developing a visual concept · Stage 5: visual direction from concept · Stages 4 & 6: hierarchy, viewer simulation, and subtraction · physical design checklist · prompt decisions · Stage 7: Creative Direction Summary
 
 ---
 
@@ -2924,7 +2775,7 @@ Are they browsing (comparing options)? Deciding quickly (impulse, passing by)? S
 
 ---
 
-## 3. Stage 6 in depth: physical context as primary design constraint
+## 3. Stage 3 (cont.): physical context as primary design constraint
 
 Physical context is not background information. It is the primary design constraint. Everything else is derived from it.
 
@@ -2979,7 +2830,7 @@ Physical context translates into the *character* of the design, not into technic
 
 ---
 
-## 4. Stage 7 in depth: developing a visual concept
+## 4. Stage 5 in depth: developing a visual concept
 
 A concept is the organizing idea. It is not a style. It is not a mood. It is an **idea that has logic** — a specific visual thought that could only belong to this business, communicating to this audience, in this context.
 
@@ -3054,7 +2905,7 @@ Offer 3-4 named options, each with a one-sentence description of what the physic
 
 ---
 
-## 5. Stage 8 in depth: visual direction from concept
+## 5. Stage 5 (cont.): visual direction from concept
 
 Visual direction is the execution of the concept. Every decision in this stage should be traceable back to the concept sentence.
 
@@ -3105,7 +2956,7 @@ A graphic device does not earn its place when:
 
 ---
 
-## 6. Stage 9: viewer simulation and hierarchy
+## 6. Stages 4 & 6: Hierarchy, viewer simulation, and subtraction
 
 Before finalizing the design direction, simulate the viewer's experience with the physical piece.
 
@@ -3150,7 +3001,7 @@ For every element planned in the design:
 
 1. **Try removing it.** Does the communication weaken? If no: remove it.
 2. **Try merging it** with another element. Does that work? If yes: merge.
-3. **Try moving it** to the caption, the second side, or the owner's verbal explanation. Does that work? If yes: move it.
+3. **Try moving it** to a secondary flyer, the back side, or the owner's verbal explanation. Does that work? If yes: move it.
 4. **Try shrinking it.** Is there a version of this element that earns its place at a smaller scale?
 
 Do this for text elements, decorative elements, and images alike. Prefer removing to shrinking.
@@ -3197,7 +3048,7 @@ Before finalizing the design direction and writing the prompt:
 
 ## 8. Translating thinking into prompt decisions
 
-The design thinking done in Stages 1–9 must reach the image model as creative direction, not as a technical blueprint.
+The design thinking done in Stages 1–7 must reach the image model as creative direction, not as a technical blueprint.
 
 The designer has done the expert work: understood the business, identified what makes it different, understood the audience and what visual language speaks to them, defined what the design must accomplish, decided what should dominate and what should recede, determined the concept, established the visual character, and confirmed that the direction passes the swap test and viewer simulation.
 
@@ -3218,9 +3069,9 @@ The prompt communicates what the design needs to feel like, what needs to appear
 
 ---
 
-## 9. Stage 10: Creative Direction Summary
+## 9. Stage 7 in depth: Creative Direction Summary
 
-After Stage 9 (hierarchy confirmed, viewer simulation complete, swap test passed), capture the complete creative direction before writing any prompt. This is the **Creative Direction Summary** — a compact statement that crystallizes all design thinking into a clear brief for the image model.
+After Stage 6 (visual system established, viewer simulation complete, swap test passed), capture the complete creative direction before writing any prompt. This is the **Creative Direction Summary** — a compact statement that crystallizes all design thinking into a clear brief for the image model.
 
 This stage is not about spatial specification. It is about articulating the design direction precisely enough that a skilled image model has a strong, specific creative north star — without being told where to place every pixel.
 
@@ -3257,7 +3108,7 @@ Write it compactly, as a brief. It does not need headers. It should read like a 
 
 It is not a layout blueprint. It does not specify which zone occupies what percentage of the canvas. It does not prescribe exact type sizes as canvas height percentages. It does not enumerate exact hex colors in context-free lists. It does not define a reading path with A → B → C coordinates. It does not specify exact spatial relationships between elements.
 
-The image model is capable of finding the right composition for a well-defined creative direction. The job of Stage 10 is to make the creative direction genuinely strong, specific, and distinctive — not to pre-solve the implementation.
+The image model is capable of finding the right composition for a well-defined creative direction. The job of Stage 7 is to make the creative direction genuinely strong, specific, and distinctive — not to pre-solve the implementation.
 
 ### The test
 
@@ -3287,7 +3138,7 @@ If not, strengthen the distinctive character before writing the prompt.
 
 Contents: how to use this reference · Part 1: print and commercial traditions (vernacular, mid-century, Swiss, constructivism, Art Nouveau, Art Deco, retro Americana, 80s-90s, Bauhaus, brutalist, maximalist) · Part 2: contemporary aesthetics (flat, neobrutalism, editorial, risograph, zine/DIY, hand-drawn, linocut, botanical) · Part 3: Indonesian and regional visual traditions (wayang, batik, ikat, regional ornament, vernacular print, urban culture, batik-modern fusion) · Part 4: tone and mood registers · quick decision matrix
 
-> **When to use this file:** Stage 7–8 (Creative Direction). You have already defined the business, USP, audience, and communication objective. Now choose a creative direction with full awareness of what each visual language communicates, risks, and enables.
+> **When to use this file:** Stage 5 (Visual Concept & Creative Direction). You have already defined the business, USP, audience, and communication objective. Now choose a creative direction with full awareness of what each visual language communicates, risks, and enables.
 
 This is a working vocabulary of visual design traditions and aesthetics relevant to Indonesian small-business print. Use it to make deliberate, distinctive creative choices — not to produce generic AI output.
 
@@ -3894,7 +3745,7 @@ These are not style categories but *feeling dimensions* that cut across all the 
 
 Contents: Part 1: the 10 design dimensions · Part 2: how dimensions interact (aligned, tensions, combinations, illustrative profiles) · Part 3: creative direction selection process (5 steps) · Part 4: distinctiveness as a design objective (generic warnings, sources of distinctiveness, visual metaphor, substrates, specificity vs decoration, the test) · Part 5: failure modes by business type
 
-> **Role in the system:** This framework is used at Stage 7, after the Distinction Brief, emotional brief, message hierarchy, and physical context are established. It provides a structured method for reasoning across multiple design dimensions simultaneously and selecting a creative direction that is genuinely fit for purpose — not merely plausible or visually fashionable. Use it alongside **Reference 14 (Visual Language Knowledge Base)** for vocabulary of specific traditions, and **Reference 13 (Design Thinking)** for the Creative Direction Summary format.
+> **Role in the system:** This framework is used at Stage 5, after the Distinction Brief, emotional brief, message hierarchy, and physical context are established. It provides a structured method for reasoning across multiple design dimensions simultaneously and selecting a creative direction that is genuinely fit for purpose — not merely plausible or visually fashionable. Use it alongside **Reference 14 (Visual Language Knowledge Base)** for vocabulary of specific traditions, and **Reference 13 (Design Thinking)** for the Creative Direction Summary format.
 
 ---
 
@@ -4364,231 +4215,107 @@ Every [D] decision must have a stated reason tied to the concept, audience, or p
 
 ---
 
-## 3. Audience as real people (Stage 3)
+## 3. Physical Context & Audience (Stage 3)
 
-- [M] Who they are (specific, not demographic label):
-- [S] What they are doing when they encounter this design:
-- [S] What they care about / what motivates them:
-- [S] What signals trust / quality / value / authenticity to them:
-- [S] What they may doubt or misunderstand:
-- [S] Their decision-making behavior in this situation:
-- [S] Visual language they are accustomed to (what they see in similar businesses):
-- [D] Audience implications for design (derive from above):
+**Physical Context:**
+- [M] Physical format: (spanduk, banner, poster, flyer, menu, label, etc.)
+- [M] Dimensions / print scale:
+- [M] Mounting placement & viewing distance: (meters)
+- [M] Viewing duration: (1–2s glance, 3–5s walk past, 15–60s handheld read)
+- [S] Environment & lighting: (tropical outdoor sun, indoor fluorescent, evening)
+- [S] Surrounding visual noise:
+- [S] Substrate / print surface: (vinyl tarpaulin, kraft paper, art paper, sticker)
+- [D] Physical context → design character requirements & info budget:
+
+**Audience as Real People:**
+- [M] Who they are (specific human group, not demographic label):
+- [S] Encounter posture & behavior: (driving, walking, standing in queue, seated)
+- [S] Trust & value signals for them:
+- [S] Doubts & design implications: (halal, hygiene, price, portion, legitimacy)
 
 ---
 
-## 4. Communication objective (Stage 4)
+## 4. Objective & Message Hierarchy (Stage 4)
 
 - [M] The ONE primary communication objective:
-  (Options: attract passing attention · communicate an offer · establish trust · introduce a product · direct physically · explain what is offered · build name recognition)
-- [S] Secondary objectives (if any — must not compete with primary):
-- [N] Occasion and real deadline:
+- [D] Emotional brief: [Primary feeling at first glance] → [visual element responsible] → [implication for hero/palette/space]
+- [S] Occasion & real deadline (if any):
+
+**Content Hierarchy & Subtraction Pass:**
+- [M] Level 1 (Primary — 1 only): [Headline / hero offer — exact text]
+- [S] Level 2 (Secondary — max 2): [Concrete proof / key support — exact text]
+- [M] Level 3 (Action — 1): [CTA: WhatsApp, location, or placeholder]
+- [S] Level 4 (Tertiary): [Essential conditions, legal marks placeholder]
+- Content removed / relocated: [Decisions from subtraction pass]
 
 ---
 
-## 5. Message hierarchy (Stage 5)
+## 5. Visual Concept & Creative Direction (Stage 5)
 
-- [M] Primary message (one thing — the most critical communication):
-- [S] Secondary information (what makes primary credible or complete):
-- [S] Supporting details:
-- [M] Call to action:
-- Content removed / relocated: (decisions from subtraction thinking)
-
----
-
-## 6. Physical context (Stage 6)
-
-- [M] Physical format: (spanduk, X-banner, poster, flyer, menu, label, etc.)
-- [M] Dimensions or standard size:
-- [M] Placement: (where mounted/posted, viewing angle)
-- [M] Viewing distance: (estimated, in meters)
-- [M] Viewing duration: (1–2 s, 3–5 s, 10–30 s, reading-time)
-- [S] Environment: (outdoor sun, indoor, covered, evening)
-- [S] Surrounding visual noise:
-- [S] Material / print surface: (vinyl, coated paper, uncoated, etc.)
-- [D] Physical context → design decisions:
-  - Minimum type size:
-  - Contrast requirements:
-  - Maximum element count:
-  - Space allocation implication:
-  - Text strategy implication:
-
----
-
-## 7. Content per output (Stage 6, confirmed with owner)
-
-For each output: exact text, in approved form.
-
-| Output | Business name (exact) | Headline / offer (exact) | Price (exact format) | Conditions | Contact / action | Legal marks (placeholder) |
-|---|---|---|---|---|---|---|
-| P1 | | | | | | |
-
-Same facts, same words across outputs.
-
----
-
-## 8. Visual concept & Creative Direction (Stage 7)
-
-- [D] Visual language & tradition (`14-visual-language.md`): [primary tradition + modifying influence, if any]
+- [D] Visual language & tradition (`14-visual-language.md`): [Primary tradition + modifying influence]
 - [D] Dimensions profile (`15-creative-direction-framework.md`):
   - Aesthetic tradition: [vernacular / commercial / modernist / editorial / hybrid]
   - Emotional register: [warm-intimate / confident-generous / energetic-festive / cool-precise]
-  - Energy level: [restrained / balanced / dynamic / explosive]
-  - Price positioning: [mass-accessible / premium-craft / exclusive]
-  - Cultural register: [deeply local / regional specific / contemporary Indonesian / neutral]
+  - Energy level: [restrained / balanced / dynamic / dense]
+  - Price positioning: [mass-accessible / everyday-quality / considered-craft / premium]
+  - Cultural register: [deeply local / regional specific / contemporary Indonesian]
   - Typographic personality: [sturdy sign-painter / refined serif / bold grotesque / friendly rounded]
   - Surface & texture: [tactile-organic / matte clean / raw industrial]
-- [D] Candidate territories explored internally: (2-3 distinct territories considered before selection)
-- [D] Concept sentence: *[Single dominant visual idea — what occupies the primary zone and what it communicates], feels [feeling 1] and [feeling 2], for [specific audience], seen at [distance/duration] on [medium]. Visual logic: [why this serves the concept and business].*
-- [D] Concept logic (why this idea, derived from what facts about this business):
-- [D] Distinctiveness test:
-  - Avoided category conventions: (e.g. avoided cream+script for bakery, avoided sky blue for laundry)
-  - Avoided generic AI defaults: (no glowing gradients, plastic gloss, centered symmetry)
-  - Passes swap test? Could it only belong to this business? Y/N
-- Options offered (if owner unsure): 3-4 named options from genuinely different traditions with descriptions
-- Direction chosen (or stated as recommendation):
-- Local flavor and region-specific anchors:
-- People in design: Y/N, who, treatment:
-- Space preference and audience-based budget:
+- [D] Internal candidate territories explored: (at least 2 distinct territories considered)
+- [D] Concept sentence: *[Single dominant visual idea], feels [feeling 1] and [feeling 2], for [specific audience], seen at [distance/duration] on [medium]. Visual logic: [why this serves the business and objective].*
+- [D] Distinctiveness test: Avoided category clichés Y/N · Avoided AI defaults Y/N · Passes swap test Y/N
 
 ---
 
-## 9. Design plan (Stages 8-9)
+## 6. Visual System & Production Specs (Stage 6)
 
-**Logo status:** has logo / no logo. If no logo → identity treatment:
+**Logo status:** Has logo / No logo. If no logo → identity treatment:
 - Type character:
 - Graphic device:
 - Color mark:
 
 **Visual System** (written once, copied verbatim into every prompt of a set):
-
 ```
 Type: [headline character — weight, personality, case]; [support character]; [size relationship].
 Style and material: [photo/illustration, texture, finish, light quality].
-Image treatment: [how real photos are handled — grounding, cleaning, cropping].
+Image treatment: [how real photos are handled — grounded shadow, clean edge, no glow].
 Device: [one recurring graphic element, or none].
-Space level: [calm / moderate / dense-but-grouped].
+Space level: [calm / moderate / dense-but-grouped — state intent].
 ```
-Color direction and palette: goes in Creative Direction (Section 10) — derived from concept, product, and audience. Not in this shared block.
-
-**Design decisions and their reasons:**
-| Decision | What | Why (concept / audience / context) |
-|---|---|---|
-| Primary | | |
-| Color world | | |
-| Type | | |
-| Space level | | |
-| Composition | | |
-| Device | | |
-
-**Subtraction pass:**
-| Element | Decision | Reason |
-|---|---|---|
-| | Remove / Merge / Relocate / Shrink / Keep | |
-
-**Swap test result:** passed Y/N — what was sharpened:
-
-**Per output:**
-| Output | Hero | Primary / Secondary / Action | Reading path | Calm-space % and zone | Element count | Text strategy | Reason |
-|---|---|---|---|---|---|---|---|
-| P1 | | | | | | A/B/C | |
+Color direction & palette: Described in Creative Direction (Stage 7), derived from concept and product.
 
 **Viewer simulation:**
-- 2 seconds at [distance]: what does the viewer notice?
-- After that: what do they understand?
-- If they look closer: what pulls them in?
-- At the end: is the action obvious?
+- 0–2s glance: Hero element noticed; silhouette reads clearly?
+- 3–5s approach: Core message & offer understood?
+- Closer reading: Essential details & action clear?
 
-**Asumsi saya (stated defaults):**
-
----
-
-## 10. Creative Direction Summary (Stage 10)
-
-Produce one summary per output. Complete before writing any prompt.
-
-The Creative Direction Summary crystallizes all design thinking into a clear brief for the image model. It is not a spatial blueprint — it communicates what the design must feel like, what must appear, and what makes it specific to this business. The image model determines the composition.
-
-### Concept Trace
-
-- Concept sentence (from Section 8):
-- Hero decision traces to: [which element of the concept / business fact]
-- Dominant color character traces to: [concept / product / audience / context reason]
-- Space character traces to: [concept / viewing context / audience reason]
-- Type character traces to: [concept / personality dial / audience reason]
-- Any decision NOT traceable to the concept: state the reason (business constraint, physical constraint, legal requirement)
-
-### What is being made and what is it for?
-
-- Physical format:
-- Business it belongs to:
-- Specific communication job:
-
-### Who is it speaking to?
-
-- Audience (specific, not demographic label):
-- Their context when they encounter this design:
-- What they need to feel or understand:
-- What visual language resonates with them:
-
-### What must appear?
-
-List only essential content — what would survive the subtraction pass:
-
-| Element | Exact text or description | Priority |
-|---|---|---|
-| Primary message | | L1 |
-| Supporting content | | L2 |
-| Product / service | | |
-| Brand identity | | |
-| Important visual motifs | | |
-
-Elements removed and why:
-
-Logo status: has logo / no logo.
-If no logo → identity treatment (type character, graphic device, color mark):
-
-Text strategy: A / B / C — reason:
-
-### Creative direction
-
-[The visual concept, personality, mood, emotional character, aesthetic world, and overall feeling. Business-derived. 3-6 sentences. Must trace back to the concept sentence, the audience's visual language, and the physical context.]
-
-### Design character
-
-[What makes this design belong specifically to this business — the ownable visual idea, USP expressed visually, specificity anchors. If the business name were removed, what remains that distinguishes this from a generic template?]
-
-### Hero visual
-
-- Subject (physically specific — not "a dish" but the real thing):
-- Lighting: source, direction, quality:
-- Surface and setting:
-- What makes it honest and specific (not generic commercial):
-- Prohibited: what it must not look like:
-- If photo attached: keep / modify instructions:
-
-### Swap test
-
-Run before writing the prompt:
-- [ ] Remove the business name from the Creative Direction Summary. Does enough business-specific information remain to distinguish it from a generic template?
-- [ ] Is there at least one visual element in the creative direction that could only belong to this business?
-- [ ] Does the concept trace back to a real fact about this business — not a category convention?
-
-### Pre-prompt check
-
-- [ ] Concept sentence is specific to this business, not generic style language
-- [ ] Creative direction communicates a visual world, not just adjectives
-- [ ] All essential content identified and exact text confirmed
-- [ ] Text strategy decided with reason
-- [ ] Hero visual described with physical specificity
-- [ ] Swap test passed
-- [ ] Viewer simulation complete — design character matches what the viewing conditions demand
+**Production specs per output:**
+| Output | Medium & Size | Job | Text strategy (A/B/C) & Reason | Bleed / Safe zone | Official marks placeholder |
+|---|---|---|---|---|---|
+| P1 | | | | | |
 
 ---
 
-## 11. Output list
+## 7. Creative Direction Summary (Stage 7)
 
-| ID | Name | Physical format | Dimensions/ratio | Job | Text strategy | Images to attach (local numbering) |
+Produce one summary per output before writing prompts. Captures the creative brief:
+
+1. **What is being made & for what job:** [Format, dimensions, specific communication task]
+2. **Who it is speaking to:** [Audience, encounter context, emotional target]
+3. **What must appear:** [Essential content only, exact text, hero subject, brand identity]
+4. **Creative direction:** [Concept sentence, visual character, mood, aesthetic world, color field, surface feel]
+5. **Design character & distinctiveness:** [Specific anchors, USP expressed visually; passes swap test]
+
+**Pre-prompt checklist:**
+- [ ] Creative Direction Summary completed and passes swap test
+- [ ] Gives image model creative freedom to compose without coordinate micromanagement
+- [ ] Exact text confirmed verbatim; text strategy assigned with reason
+
+---
+
+## 8. Output List & Handoff (Stage 8)
+
+| ID | Name | Physical format | Dimensions / px | Job | Text strategy | Images to attach (local numbering) |
 |---|---|---|---|---|---|---|
 | P1 | | | | | | |
 

@@ -22,7 +22,7 @@ Tidak perlu instal apa pun, tidak perlu paham teknologi atau desain. Kakak hanya
    > *(English: Hi! I own a small business and want a promotional design. Please follow the attached guide fully, asking me at most 3 simple questions at a time. At the end, give me ready-to-use image prompts and the list of images I must attach to each one.)*
 
 4. **Jawab pertanyaannya.** Siapkan foto produk asli, logo, atau desain lama (kalau ada); kirim kapan saja saat ditanya. Jawaban jujur dan konkret (angka, bahan, cerita) menghasilkan desain yang khas.
-5. **Terima hasilnya:** rencana desain, lalu **Prompt 1, Prompt 2, ...** (satu per jenis gambar, misalnya feed dan story). Setiap prompt **berdiri sendiri** dan punya **daftar lampiran**.
+5. **Terima hasilnya:** rencana desain, lalu **Prompt 1, Prompt 2, ...** (satu per jenis gambar, misalnya spanduk dan poster). Setiap prompt **berdiri sendiri** dan punya **daftar lampiran**.
 6. **Buat gambarnya:** buka AI pembuat gambar (chat baru), **salin satu prompt, lampirkan gambar sesuai urutan di daftar lampiran, lalu kirim bersamaan.** Ulangi untuk prompt berikutnya.
 7. **Cek tulisan huruf demi huruf** (nama, harga, tanggal, alamat), tempel logo halal resmi bila perlu, lalu posting. Boleh kembali ke chat awal untuk meminta tinjauan hasil.
 
@@ -90,14 +90,14 @@ umkm-design-director/
 ├── README.md
 ├── siap-pakai/                       # file untuk pengguna akhir (chat umum)
 ├── skills/umkm-design-director/
-│   ├── SKILL.md                      # alur 11 tahap, aturan keputusan, format penyerahan
+│   ├── SKILL.md                      # alur 8 tahap desain (+ ulasan), aturan keputusan, format penyerahan
 │   ├── references/
 │   │   ├── 01-interview-guide.md         # bank pertanyaan, istilah awam, kasus sulit
 │   │   ├── 02-business-distinction.md    # USP, bukti, pesaing, kesan, sifat, uji tukar
 │   │   ├── 03-reference-images.md        # bahan gambar: minta, analisis, perlakuan, mode Perbaiki
 │   │   ├── 04-design-principles.md       # persepsi, ruang kosong, hierarki, psikologi
 │   │   ├── 05-color-and-culture.md       # warna, audiens, konteks budaya Indonesia
-│   │   ├── 06-typography.md              # huruf, batas teks, harga, risiko salah ketik
+│   │   ├── 06-typography-and-lettering.md # huruf, batas teks, harga, risiko salah ketik
 │   │   ├── 07-business-archetypes.md     # arah awal dan bahan yang diminta per jenis usaha
 │   │   ├── 08-formats-and-platforms.md   # ukuran, safe zone, cetak, kepadatan
 │   │   ├── 09-output-sets.md             # beberapa output, sistem visual bersama, prompt mandiri

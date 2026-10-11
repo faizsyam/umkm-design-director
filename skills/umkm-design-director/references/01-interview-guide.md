@@ -2,7 +2,7 @@
 
 Contents: principles of intelligent questioning · question types · jargon translations · Stage 0 Open · the six core understanding needs · the adaptive inquiry flow · materials and assets · physical context and communication · content inventory · concept and visual direction · difficult situations · adapting language
 
-Stages 8–11 (design plan, visual system, prompts, review) are described in `SKILL.md` and the other references.
+Stages 6–9 (visual system, creative direction summary, prompts, review) are described in `SKILL.md` and the other references.
 
 ---
 
@@ -132,12 +132,12 @@ E. Belum ada foto atau logo"
 
 - **Foto produk asli ada:** Selalu jadikan bintang utama (hero). Berikan instruksi perlakuan (pertahankan produk, bersihkan latar, grounded shadow).
 - **Tidak ada foto produk:** Jangan buat visual fotorealistik palsu yang menipu pembeli. Pilih arah visual stilasi/ilustrasi yang jujur atau minta foto dari HP pemilik.
-- **Tidak ada logo:** Jangan gunakan font polos biasa. Rancang **identity treatment** (karakter huruf khusus, panel/device pembingkai, warna merek) di Stage 8.
+- **Tidak ada logo:** Jangan gunakan font polos biasa. Rancang **identity treatment** (karakter huruf khusus, panel/device pembingkai, warna merek) di Stage 6.
 
 
 ---
 
-## Stages 3–5: Communication objective, message, physical context, and audience
+## Stages 3–4: Physical context, audience, communication objective, and hierarchy
 
 These stages can often be combined into one or two efficient turns. The order below reflects priority — ask the highest-impact questions first.
 
@@ -197,13 +197,13 @@ This determines viewing duration and information budget.
 | Kredibilitas / baru buka | Proof anchor (years open, number of customers, origin story) becomes a text element |
 | Lokasi / kemudahan akses | Contact/location information elevated to Level 2 or Level 3; never omitted |
 
-Record the primary doubt and its design implication in the Brief Sheet. This feeds directly into Stage 9 hierarchy decisions.
+Record the primary doubt and its design implication in the Brief Sheet. This feeds directly into Stage 4 hierarchy decisions.
 
 **Gate:** physical format, viewing context, one action, one message, audience and their viewing behavior, primary doubt and its design implication — all known.
 
 ---
 
-## Stage 6: Content inventory (exact words per output)
+### Content inventory (exact words per output)
 
 Ask for the exact words. Give the owner a checklist appropriate to the physical format:
 
@@ -226,15 +226,15 @@ Rules:
 
 ---
 
-## Stage 7: Concept and visual direction
+## Stage 5: Concept and visual direction
 
-Stage 7 is mandatory. Read `references/13-design-thinking.md` Section 4 before asking anything here. Read `references/07-business-archetypes.md` and `references/05-color-and-culture.md`.
+Stage 5 is mandatory. Read `references/13-design-thinking.md` Section 3 before asking anything here. Read `references/07-business-archetypes.md` and `references/05-color-and-culture.md`.
 
 **Purpose:** develop the visual concept — the organizing visual idea — and then determine the visual execution.
 
 Do not ask: "suasana dan gayanya seperti apa?" Owners cannot answer this well. Instead, derive the concept from what you already know and offer named options.
 
-### What you already know by Stage 7
+### What you already know by Stage 5
 
 By this point you have:
 - The Distinction Brief (USP, proof, desired perception, anchors)
@@ -269,7 +269,7 @@ Ask only what stages 1–2 did not answer. Confirm that the direction fits the D
 **Example for a warung bakso roadside spanduk:**
 *(Rekomendasi) Satu mangkuk di depan, ukuran besar:* warna gelap seperti malam jalan kaki, mangkuk bakso nyata dan besar mengisi tengah, tulisan besar "BAKSO SAPI URAT — SELESAI MALAM" tiga baris padat, tidak ada dekorasi, tidak ada ornamen. Terasa jujur dan langsung. Untuk pekerja yang melintas malam. Dilihat dari kendaraan 6–10 meter.
 
-**Gate:** concept sentence written and accepted (or stated as recommendation). Do not proceed to Stage 8 without this.
+**Gate:** concept sentence written and accepted (or stated as recommendation). Do not proceed to Stage 6 without this.
 
 ---
 
@@ -300,9 +300,9 @@ Apply the review checklist (`references/12-review-and-iteration.md`). Say what w
 
 **"Tidak ada logo, foto, atau identitas sama sekali"**
 1. Konfirmasi tidak ada material ("Tidak ada logo, tidak ada foto produk, tidak ada desain lama — benar?").
-2. Di Stage 8, kembangkan identity treatment dari archetype (`07-business-archetypes.md`).
+2. Di Stage 5–6, kembangkan identity treatment dari archetype (`07-business-archetypes.md`).
 3. Tunjukkan treatment dalam bahasa plain sebelum melanjutkan: "Nama usaha Kakak akan tampil seperti ini: huruf tebal berkarakter cap/slab, di panel warna gelap, nama putih — ini yang bikin terasa merek, bukan templat kosong. Boleh lanjut dengan tampilan ini?"
-4. Minta persetujuan treatment sebelum lanjut ke Stage 10. Jangan masuk ke Creative Direction Summary tanpa konfirmasi identity treatment.
+4. Minta persetujuan treatment sebelum lanjut ke Stage 7. Jangan masuk ke Creative Direction Summary tanpa konfirmasi identity treatment.
 5. Setiap prompt punya blok IDENTITY yang identik di semua output set.
 
 **Owner is impatient**

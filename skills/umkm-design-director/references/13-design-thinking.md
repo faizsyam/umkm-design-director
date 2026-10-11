@@ -1,6 +1,6 @@
-# Professional Design Thinking (Stages 6–9)
+# Professional Design Thinking (Stages 3–7)
 
-Contents: what separates design thinking from prompt assembly · Stage 3 in depth: the audience as real people · Stage 6 in depth: physical context as primary constraint · Stage 7 in depth: developing a visual concept · Stage 8 in depth: visual direction from concept · Stage 9: viewer simulation and hierarchy · the physical design checklist · Stage 10: Creative Direction Summary
+Contents: what separates design thinking from prompt assembly · Stage 3: audience as real people · Stage 3: physical context as primary constraint · Stage 5: developing a visual concept · Stage 5: visual direction from concept · Stages 4 & 6: hierarchy, viewer simulation, and subtraction · physical design checklist · prompt decisions · Stage 7: Creative Direction Summary
 
 ---
 
@@ -49,7 +49,7 @@ Are they browsing (comparing options)? Deciding quickly (impulse, passing by)? S
 
 ---
 
-## 3. Stage 6 in depth: physical context as primary design constraint
+## 3. Stage 3 (cont.): physical context as primary design constraint
 
 Physical context is not background information. It is the primary design constraint. Everything else is derived from it.
 
@@ -104,7 +104,7 @@ Physical context translates into the *character* of the design, not into technic
 
 ---
 
-## 4. Stage 7 in depth: developing a visual concept
+## 4. Stage 5 in depth: developing a visual concept
 
 A concept is the organizing idea. It is not a style. It is not a mood. It is an **idea that has logic** — a specific visual thought that could only belong to this business, communicating to this audience, in this context.
 
@@ -179,7 +179,7 @@ Offer 3-4 named options, each with a one-sentence description of what the physic
 
 ---
 
-## 5. Stage 8 in depth: visual direction from concept
+## 5. Stage 5 (cont.): visual direction from concept
 
 Visual direction is the execution of the concept. Every decision in this stage should be traceable back to the concept sentence.
 
@@ -230,7 +230,7 @@ A graphic device does not earn its place when:
 
 ---
 
-## 6. Stage 9: viewer simulation and hierarchy
+## 6. Stages 4 & 6: Hierarchy, viewer simulation, and subtraction
 
 Before finalizing the design direction, simulate the viewer's experience with the physical piece.
 
@@ -275,7 +275,7 @@ For every element planned in the design:
 
 1. **Try removing it.** Does the communication weaken? If no: remove it.
 2. **Try merging it** with another element. Does that work? If yes: merge.
-3. **Try moving it** to the caption, the second side, or the owner's verbal explanation. Does that work? If yes: move it.
+3. **Try moving it** to a secondary flyer, the back side, or the owner's verbal explanation. Does that work? If yes: move it.
 4. **Try shrinking it.** Is there a version of this element that earns its place at a smaller scale?
 
 Do this for text elements, decorative elements, and images alike. Prefer removing to shrinking.
@@ -322,7 +322,7 @@ Before finalizing the design direction and writing the prompt:
 
 ## 8. Translating thinking into prompt decisions
 
-The design thinking done in Stages 1–9 must reach the image model as creative direction, not as a technical blueprint.
+The design thinking done in Stages 1–7 must reach the image model as creative direction, not as a technical blueprint.
 
 The designer has done the expert work: understood the business, identified what makes it different, understood the audience and what visual language speaks to them, defined what the design must accomplish, decided what should dominate and what should recede, determined the concept, established the visual character, and confirmed that the direction passes the swap test and viewer simulation.
 
@@ -343,9 +343,9 @@ The prompt communicates what the design needs to feel like, what needs to appear
 
 ---
 
-## 9. Stage 10: Creative Direction Summary
+## 9. Stage 7 in depth: Creative Direction Summary
 
-After Stage 9 (hierarchy confirmed, viewer simulation complete, swap test passed), capture the complete creative direction before writing any prompt. This is the **Creative Direction Summary** — a compact statement that crystallizes all design thinking into a clear brief for the image model.
+After Stage 6 (visual system established, viewer simulation complete, swap test passed), capture the complete creative direction before writing any prompt. This is the **Creative Direction Summary** — a compact statement that crystallizes all design thinking into a clear brief for the image model.
 
 This stage is not about spatial specification. It is about articulating the design direction precisely enough that a skilled image model has a strong, specific creative north star — without being told where to place every pixel.
 
@@ -382,7 +382,7 @@ Write it compactly, as a brief. It does not need headers. It should read like a 
 
 It is not a layout blueprint. It does not specify which zone occupies what percentage of the canvas. It does not prescribe exact type sizes as canvas height percentages. It does not enumerate exact hex colors in context-free lists. It does not define a reading path with A → B → C coordinates. It does not specify exact spatial relationships between elements.
 
-The image model is capable of finding the right composition for a well-defined creative direction. The job of Stage 10 is to make the creative direction genuinely strong, specific, and distinctive — not to pre-solve the implementation.
+The image model is capable of finding the right composition for a well-defined creative direction. The job of Stage 7 is to make the creative direction genuinely strong, specific, and distinctive — not to pre-solve the implementation.
 
 ### The test
 
