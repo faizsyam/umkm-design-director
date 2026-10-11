@@ -221,19 +221,19 @@ The same palette, the same type character, the same layout logic across multiple
 
 ---
 
-## 10. From principle to prompt instruction
+## 10. From principle to creative direction
 
-Design reasoning becomes specific instructions for the image model:
+Design reasoning becomes creative direction for the image model. The goal is to communicate design intent — not to specify implementation. The image model determines the best composition; the designer's job is to make the creative direction clear, specific, and business-derived.
 
-| Decision | Prompt instruction format |
+| Decision | How it appears in the creative direction |
 |---|---|
-| Hierarchy | Named elements with size ranks: "headline largest at 30% canvas height; price second at 15%; name at 8%; nothing else prominent" |
-| Reading path | "Eye path: headline top-left → product center → price lower third → contact strip bottom" |
-| Viewing distance | "Headline in heavy condensed caps at 28% canvas height, maximum 5 words, no body text" |
-| Contrast | "High value contrast throughout — light (#F6EFE6) text on deep brown (#2B1A0E); no light-on-light or dark-on-dark text" |
-| Balance | "Asymmetric: product occupies left 55%, headline and price right-aligned in right third" |
-| Space | "About 40% of canvas stays calm and empty (flat deep brown, no texture), mainly right side; nothing floats in it; no decorative elements" |
-| Specificity | Concrete subject: "a bowl of bakso soup in a chipped enamel bowl on a worn wooden cart counter, evening window light" |
-| Density | Exact text lines only: "5 text elements total — no additional words, no taglines, no decorative phrases" |
-| Emotional tone | Specific sensory details: "warm late-afternoon light from left, slight steam above the broth, visible texture on the surface" |
-| Print context | "Designed for outdoor print in direct tropical sun — extreme value contrast on all text, flat background with no subtle tonal variation" |
+| Hierarchy | State what dominates and what recedes: "The offer commands immediate attention; the product is the visual anchor; everything else supports without competing" |
+| Viewing distance | Express as design character: "A composition that reads in two seconds from across the street — bold, high-contrast, and immediate" |
+| Contrast | State the character: "Deep warm field, high-contrast text — the kind of clarity that survives tropical sun and visual noise" |
+| Balance | State the spatial feeling: "An asymmetric composition where the product commands one side and the message has room to breathe on the other" |
+| Space | State the intent: "Generous space around the hero — the emptiness is part of the confidence, not something to fill" |
+| Specificity | Concrete subject in HERO VISUAL: "a bowl of bakso soup in a chipped enamel bowl on a worn wooden cart counter, evening window light from the left" |
+| Density | State the information character: "Spare and immediate — the essential offer, nothing more; the design trusts the message" |
+| Emotional tone | Specific sensory direction: "Warm, direct, honest — the character of a neighborhood business that has been serving the same street for years" |
+| Print context | State as design character requirement: "The physical scale and outdoor environment demand a design that is bold and simple enough to register at a glance" |
+| Concept | The organizing idea from Stage 7, restated as the design's visual logic: "A single confident product against generous space — the product's presence is the design" |

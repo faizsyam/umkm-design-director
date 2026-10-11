@@ -164,109 +164,86 @@ Space level: [calm / moderate / dense-but-grouped].
 
 ---
 
-## 10. Design Specification — Visual Blueprint (Stage 10)
+## 10. Creative Direction Summary (Stage 10)
 
-Produce one blueprint per output. Complete before writing any prompt.
+Produce one summary per output. Complete before writing any prompt.
+
+The Creative Direction Summary crystallizes all design thinking into a clear brief for the image model. It is not a spatial blueprint — it communicates what the design must feel like, what must appear, and what makes it specific to this business. The image model determines the composition.
 
 ### Concept Trace
 
 - Concept sentence (from Section 8):
 - Hero decision traces to: [which element of the concept / business fact]
-- Dominant color traces to: [concept / product / audience / context reason]
-- Space level traces to: [concept / viewing context / audience reason]
+- Dominant color character traces to: [concept / product / audience / context reason]
+- Space character traces to: [concept / viewing context / audience reason]
 - Type character traces to: [concept / personality dial / audience reason]
 - Any decision NOT traceable to the concept: state the reason (business constraint, physical constraint, legal requirement)
 
-### Layout Architecture
+### What is being made and what is it for?
 
-- [D] Overall structure (named zones with proportions):
-  - Primary visual zone: [position, approx % of canvas]
-  - Headline zone: [position, approx % of canvas]
-  - Supporting info zone: [position, approx % of canvas]
-  - Brand zone: [position, approx % of canvas]
-  - CTA zone: [position, approx % of canvas]
-  - Calm zone: [position, approx % of canvas, color/surface]
-- [D] Alignment system: symmetric / asymmetric / grid / organic
-- [D] Eye path: [A → B → C → D]
-- [D] Dominant proportion relationship (e.g., 60/40 hero/message):
+- Physical format:
+- Business it belongs to:
+- Specific communication job:
 
-### Information Architecture
+### Who is it speaking to?
 
-| Text element | Level (1–4) | Exact text | Size rel. to primary | Position | Color/contrast |
-|---|---|---|---|---|---|
-| | | | | | |
+- Audience (specific, not demographic label):
+- Their context when they encounter this design:
+- What they need to feel or understand:
+- What visual language resonates with them:
 
-Elements removed at this stage and why:
+### What must appear?
 
-### Logo / Brand Treatment
+List only essential content — what would survive the subtraction pass:
 
-- Logo available: Y / N
-- If yes: file name, placement, size (% canvas), clear space required, prohibitions
-- If no: identity treatment (type character, graphic device, color mark, placement):
-
-### Typography Specification
-
-| Text level | Type character (weight, personality, case) | Size (% canvas height) | Color (#hex) | Background it sits on | Contrast sufficient for viewing distance? |
-|---|---|---|---|---|---|
-| Level 1 | | | | | |
-| Level 2 | | | | | |
-| Level 3 | | | | | |
-
-### Hero Visual Specification
-
-- [D] Subject (physically specific):
-- [D] Why it is the hero (what it communicates):
-- [D] Scale: approx % of canvas height
-- [D] Position: zone and placement
-- [D] Angle and crop:
-- [D] Lighting: source, direction, quality
-- [D] Surface and setting:
-- [D] Relationship to text (overlap / boundary / bleed):
-- [D] Prohibited: what the hero must not look like
-
-### Graphic Elements Audit
-
-| Element | Communication purpose | Placement | Decision: keep / remove |
-|---|---|---|---|
-| | | | |
+| Element | Exact text or description | Priority |
+|---|---|---|
+| Primary message | | L1 |
+| Supporting content | | L2 |
+| Product / service | | |
+| Brand identity | | |
+| Important visual motifs | | |
 
 Elements removed and why:
 
-### Color System Roles
+Logo status: has logo / no logo.
+If no logo → identity treatment (type character, graphic device, color mark):
 
-| Role | Color name | Hex | Approx % canvas | Reserved for |
-|---|---|---|---|---|
-| Dominant field | | | ~60% | |
-| Primary content | | | ~30% | |
-| Accent | | | ~10% | ONE element only: |
-| Structural | | | | |
+Text strategy: A / B / C — reason:
 
-### Whitespace Specification
+### Creative direction
 
-- [D] Calm zone: [location] — approx [%] — [flat color, hex] — no texture or detail
-- [D] Prohibited in calm zone:
-- [D] Minimum clear space around hero:
-- [D] Minimum clear space around headline:
+[The visual concept, personality, mood, emotional character, aesthetic world, and overall feeling. Business-derived. 3-6 sentences. Must trace back to the concept sentence, the audience's visual language, and the physical context.]
 
-### Prohibitions (for the prompt KEEP/AVOID block)
+### Design character
 
-- Must not appear:
-- Generic AI tendencies to block for this brief:
+[What makes this design belong specifically to this business — the ownable visual idea, USP expressed visually, specificity anchors. If the business name were removed, what remains that distinguishes this from a generic template?]
 
-### Implementation Critique
+### Hero visual
+
+- Subject (physically specific — not "a dish" but the real thing):
+- Lighting: source, direction, quality:
+- Surface and setting:
+- What makes it honest and specific (not generic commercial):
+- Prohibited: what it must not look like:
+- If photo attached: keep / modify instructions:
+
+### Swap test
 
 Run before writing the prompt:
-- [ ] Could another designer recreate this composition from this blueprint alone?
-- [ ] Is every major element spatially addressed (zone, %, relationship)?
-- [ ] Is hierarchy unambiguous — no two elements claiming the same rank?
-- [ ] Is exact text confirmed for all elements?
-- [ ] Is logo treatment or identity treatment fully specified?
-- [ ] Is hero visual physically specific (subject, scale, angle, light, surface)?
-- [ ] Does every graphic element have a stated purpose?
-- [ ] Is the calm zone explicitly protected (location, color, prohibitions)?
-- [ ] Is this design specific to this business — not reusable for a competitor?
-- [ ] Would the design survive the actual physical viewing conditions?
-- [ ] Are there any remaining ambiguous spatial decisions? → resolve before proceeding
+- [ ] Remove the business name from the Creative Direction Summary. Does enough business-specific information remain to distinguish it from a generic template?
+- [ ] Is there at least one visual element in the creative direction that could only belong to this business?
+- [ ] Does the concept trace back to a real fact about this business — not a category convention?
+
+### Pre-prompt check
+
+- [ ] Concept sentence is specific to this business, not generic style language
+- [ ] Creative direction communicates a visual world, not just adjectives
+- [ ] All essential content identified and exact text confirmed
+- [ ] Text strategy decided with reason
+- [ ] Hero visual described with physical specificity
+- [ ] Swap test passed
+- [ ] Viewer simulation complete — design character matches what the viewing conditions demand
 
 ---
 

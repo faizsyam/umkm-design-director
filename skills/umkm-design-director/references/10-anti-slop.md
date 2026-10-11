@@ -84,25 +84,25 @@ Knowing *why* a tell exists is more useful than just recognizing it.
 
 ---
 
-## 4. Fixes: from tell to decision
+## 4. Fixes: from tell to creative direction
 
-| Tell | Decision that replaces it |
+| Tell | Creative direction that replaces it |
 |---|---|
-| Neon gradient | Deep flat background color derived from product palette; named with hex |
-| Plastic gloss on food | "Natural window light from [direction], matte surface, visible texture, slight imperfection" |
-| Floating ingredients | "Product grounded on a real named surface; contact shadow beneath; nothing floats" |
-| Centered, everything equal | Asymmetric zone map with named positions and size percentages for each element |
-| Rounded glass text boxes | Plain text in calm flat area, or text on solid panel with strong contrast |
-| Decorative filler | Deleted in the subtraction pass; replaced with one specific product-related prop if needed |
-| No breathing room | "About 40% of canvas calm and empty (flat [color], no texture), mainly [where]; nothing floats" |
-| Generic stock people | Real photo with consent, or specific age/clothing/setting/expression description, or no people |
-| Generic food gloss | Real photo of real dish; if no photo, physically described with surface, light direction, texture, realistic proportions |
-| Many fonts | Two type characters with explicitly defined roles |
-| Garbled text | Short, quoted lines; critical details added later in editor |
-| Generic copy | Concrete copy from USP and proof: specific number, ingredient, time, place, or process |
+| Neon gradient | A committed palette derived from the real product and brand — the dominant field described by what it communicates, not just its hex |
+| Plastic gloss on food | "Natural window light from [direction], matte surface, visible texture, slight imperfection" — described in HERO VISUAL with physical specificity |
+| Floating ingredients | "Product grounded on a real named surface; contact shadow beneath; nothing floats" — part of the honest imagery direction |
+| Centered, everything equal | A clear hierarchy communicated in CREATIVE DIRECTION: what dominates, what recedes, what the eye should land on first |
+| Rounded glass text boxes | A design character that calls for text in a calm area or on a solid surface — stated as part of what the design should feel like |
+| Decorative filler | Deleted in the subtraction pass — the DESIGN CHARACTER block names only ownable, specific elements |
+| No breathing room | A creative direction that calls for spacious, uncluttered treatment — "generous space around the hero signals confidence" — not a measurement |
+| Generic stock people | Real photo with consent, or specific description (age, clothing, setting, genuine expression), or no people — stated in HERO VISUAL |
+| Generic food gloss | Honest, credible imagery described with surface, light direction, texture, realistic proportions — the character of the product, not the look of advertising |
+| Many fonts | Two type characters with defined personalities, each traceable to the concept |
+| Garbled text | Short, quoted lines in CONTENT block; critical details reserved for editor (text strategy B) |
+| Generic copy | Concrete copy from USP and proof: specific number, ingredient, time, place, or process — stated in CONTENT |
 | Invented logo / marks | Reserved placeholder; owner adds real logo and official marks after generation |
 | Wrong cultural details | Named, specific, region-correct details from the owner's own context |
-| No visual direction | Concept sentence from Stage 7; applied as the logic of every design decision |
+| No visual direction | Concept sentence from Stage 7 carried into CREATIVE DIRECTION and DESIGN CHARACTER blocks |
 
 ---
 
@@ -170,20 +170,20 @@ The result should look like a deliberate brand decision — not a placeholder. S
 
 Apply to the design plan, the prompt, and the generated image:
 
-1. **One clear hero.** Is there a single dominant element at every viewing distance?
-2. **Squint test.** Blur your eyes: one dominant shape, one headline block, one end point?
-3. **A concept, not just a style.** Is there an organizing idea, not just a collection of attributes?
-4. **Two ownable anchors.** Are there at least two visual elements specific to this business?
-5. **Every element earns its place.** Does each element pass the inclusion test?
-6. **Colors committed with roles.** Are all colors specified with hex values and roles?
-7. **Two type characters maximum.** Both readable at the intended viewing distance?
-8. **Text correct, short, and concrete.** No generic copy. No garbled or invented words.
-9. **Product looks like the real product.** Honest imagery, not aspirational fabrication.
-10. **People, food, and motifs culturally correct.** Right for the specific audience.
-11. **Space allocated.** Calm area present; margins clear; inter-group gaps larger than intra-group gaps.
-12. **Swap test passed.** Would this design look wrong for a different business?
-13. **USP and character expressed.** Does the design communicate what makes this business different?
-14. **Visual direction explicit.** Does the design have a named concept and direction from Stage 7 — not from model defaults?
+1. **One clear hero.** Is there a single dominant element that delivers the primary message?
+2. **Squint test.** Blur your eyes: one dominant shape, one headline block, one clear end point?
+3. **A concept, not just a style.** Is there an organizing idea that comes from the business — not a collection of generic adjectives?
+4. **Two ownable anchors.** Are there at least two visual elements that could only belong to this business?
+5. **Every element earns its place.** Does each element pass the subtraction test — does removing it weaken communication?
+6. **Creative direction is business-derived.** Does the CREATIVE DIRECTION block trace back to the actual business, product, audience, and context — or is it generic style language?
+7. **Two type characters maximum.** Both appropriate to the concept and legible at the intended viewing distance?
+8. **Text correct, short, and concrete.** No generic copy. No garbled or invented words. Text quoted exactly.
+9. **Product looks like the real product.** Honest imagery described with physical specificity — light, surface, texture, proportions.
+10. **People, food, and motifs culturally correct.** Right for the specific audience and context.
+11. **Space character stated.** Does the creative direction communicate the intended feeling of space — generous, restrained, structured — without prescribing measurements?
+12. **Swap test passed.** Remove the business name from the prompt: would the design direction still be distinguishable from a generic template?
+13. **USP and character expressed.** Does the DESIGN CHARACTER block communicate what makes this business different — visually, not just verbally?
+14. **Physical context reflected.** Does the prompt's creative direction reflect the viewing conditions — the scale, contrast level, and simplicity the physical medium demands?
 
 Fewer than 12 passes → revise before delivering.
 
