@@ -1,6 +1,6 @@
 # Interview Guide: Adaptive, Concept-Driven Questioning (All Stages)
 
-Contents: principles of intelligent questioning · question types · jargon translations · Stage 0 Open · Stage 1 Business · Stage 2 Materials · Stages 3–5 Understanding (objective, message, context, audience) · Stage 6 Content · Stage 7 Concept and visual direction · difficult situations · adapting language
+Contents: principles of intelligent questioning · question types · jargon translations · Stage 0 Open · the six core understanding needs · the adaptive inquiry flow · materials and assets · physical context and communication · content inventory · concept and visual direction · difficult situations · adapting language
 
 Stages 8–11 (design plan, visual system, prompts, review) are described in `SKILL.md` and the other references.
 
@@ -83,61 +83,57 @@ If the owner has not specified what they need, ask: "Materi cetak apa yang Kakak
 
 ---
 
-## Stage 1: Understand the business (Distinction Brief)
+---
 
-**Goal:** fill the Distinction Map. Two to three turns maximum. Round A gets facts; Rounds B and C find what makes the business different.
+## The Six Core Understanding Needs
 
-Read `references/02-business-distinction.md` for the full method and the Distinction Brief format.
+The system does NOT follow a fixed questionnaire or a rigid template. Instead, it must understand six core areas sufficiently well to make sound design decisions. How you gather this depends entirely on what the user has already shared.
 
-**Round A: Core facts**
-
-| Ask | Example wording | Why |
-|---|---|---|
-| What is sold | "Jual apa? Ceritakan singkat, misalnya 'laundry kiloan di area kampus Surabaya'." | Product, category conventions |
-| Price tier | "Harganya untuk siapa: A. Murah/terjangkau B. Menengah C. Premium?" (single-select) | Tone, polish, price display |
-| How and where | "Jualnya bagaimana dan di mana? A. Toko/warung B. Keliling/mobile C. Online D. Kombinasi" (multi-select) | Physical context, action |
-
-**Round B: Differentiation**
-
-| Ask | Example wording | Follow-up trigger |
-|---|---|---|
-| USP | "Apa yang bikin Kakak beda dari yang lain? Kalau cuma satu hal." (free text) | Generic ("enak, murah") → "Bisa lebih spesifik? Ada ukuran, resep, cara buat, atau cerita di baliknya?" |
-| Proof | "Buktinya apa? (angka, bahan, proses, tahun berdiri, jumlah pelanggan)" (free text) | Klaim tanpa bukti → perlunak atau hilangkan |
-| Customer's reason | "Pelanggan biasanya bilang apa kenapa pilih Kakak?" (free text) | Jangan pakai adjektif pemilik — minta kalimat pelanggan |
-| Competitors look | "Pesaing terdekat Kakak tampilannya seperti apa? Warna apa yang mereka sering pakai? Ada yang terasa terlalu generik di kategori ini?" (free text) | Tidak tahu → gunakan hipotesis dari archetype di `07-business-archetypes.md` dan nyatakan sebagai asumsi |
-| Competitors list | "Siapa pesaing terdekat, dan harganya kira-kira sama atau beda?" (free text) | Tidak ada → "Kalau pembeli bingung, mereka banding dengan siapa?" |
-
-**Round C: Perception and personality**
-
-| Ask | Example wording | Notes |
-|---|---|---|
-| Desired perception | "Orang yang baru lihat gambar ini harus merasa apa? Pilih dua perasaan, misalnya: jujur, bersih, royal, cepat, premium." (free text) | Becomes the emotional spine |
-| Never be | "Dan jangan sampai orang anggap usaha Kakak apa?" (free text) | Prevents wrong direction |
-| Personality dials | "Pilih yang lebih cocok (boleh pilih lebih dari satu pasangan): A. Hangat atau Serius? B. Tradisional atau Modern? C. Ramai atau Tenang? D. Merakyat atau Premium?" (multi-select) | See `02-business-distinction.md` for design parameters |
-| Ownable specifics | "Ada detail khas yang bisa dijadikan ciri? (resep keluarga, bahan tertentu, nama yang artinya sesuatu, lokasi yang ikonik)" (free text) | Specificity anchors |
-
-**Gate:** Distinction Brief written in six lines and confirmed by owner.
+| Understanding Need | What the designer must understand | High-impact design decision it unlocks | If missing or vague |
+|---|---|---|---|
+| **1. Business Offering & Authenticity** | Who sells what, at what price tier, and what makes it genuinely different (USP + concrete proof, recipe, process, origin). | Hero subject, copy claims, specificity anchors, avoiding category clichés. | Ask: "Apa yang bikin produk Kakak beda dari yang lain, dan apa buktinya?" |
+| **2. Physical Context & Viewing Reality** | Medium (spanduk, poster, menu, etc.), dimensions, distance (meters), duration (2s, 10s, reading), environment (sun, indoor). | Information density budget, minimum type scale, value contrast, layout complexity. | Ask: "Materi ini akan jadi apa dan dipasang di mana? Kira-kira orang lihat dari jarak berapa?" |
+| **3. Audience & Perception Boundary** | Real audience (who they are, what they care about or doubt) + desired feeling at first glance + what it must NEVER look like. | Visual tone, color temperature, trust signals (halal, hygiene, scale), emotional spine. | Ask: "Orang yang lihat harus merasa apa, dan jangan sampai dianggap apa?" |
+| **4. Primary Job & Core Message** | The ONE primary communication job (hook passersby, communicate offer, build trust) + the single takeaway that must stick. | Visual hierarchy (what leads vs. supports), hero prominence, call to action. | Ask: "Satu hal paling penting yang harus langsung dipahami orang apa?" |
+| **5. Exact Text Content** | Exact business name, headline/offer, price, essential conditions, contact/location. | Text strategy (A vs. B/C), typographic layout, word budget adherence. | Ask for exact wording; if user has no headline, propose 2–3 options based on USP. |
+| **6. Real Assets & Materials** | Real product photos, logo file, old design (Enhance mode), or confirmed absence of assets. | Image roles & treatments in prompt, or need for identity treatment when no logo exists. | Ask: "Ada foto produk asli atau logo yang bisa dilampirkan?" |
 
 ---
 
-## Stage 2: Materials
+## The Adaptive Inquiry Flow
 
-Ask after Stage 1, so the request is specific to what makes the business different. Read `references/03-reference-images.md` for full method.
+### Step 1: Triage the user's opening message
+Every conversation starts from what the user gave you:
+- **Case A: Rich opening brief (e.g. user provides business, price, audience, platform, offer, photo).**
+  Extract all answers immediately into the working brief. Acknowledge and restate in 2–3 lines. Do NOT ask about what is already answered. Ask only about 1–2 genuine high-impact gaps (e.g. physical dimensions or exact headline).
+- **Case B: Vague or minimal opening (e.g. "buatin poster promo buat warung bakso saya dong").**
+  Acknowledge warmly. Ask at most 3 core foundation questions: (1) what is sold & what makes it different/best seller, (2) format/where it will be placed, and (3) available photos/logo.
+- **Case C: Existing design shared (Enhance mode).**
+  Acknowledge what is working first. Ask: what parts to keep, what is missing or frustrating, and whether the text content stays the same.
 
-"Ada gambar yang bisa jadi acuan supaya hasilnya benar-benar mirip usaha Kakak? Boleh pilih lebih dari satu:
-A. Logo
-B. Foto produk (makanan, barang, kemasan)
-C. Maskot atau foto orang (pemilik/staf/pelanggan)
+### Step 2: Adaptive follow-up principles
+- **Never ask what can be inferred or reasonably decided:** If an owner sells "es teh jumbo 3rb di depan sekolah", do not ask if the price tier is budget. State it under "Asumsi saya" in the plan.
+- **Ladder vague answers once, then propose:** If they say "makanannya enak", follow up once: "Enaknya yang gimana Kak? Ada bumbu rahasia, porsi royal, atau cara masak khusus?" If still vague, propose a concrete differentiator based on category archetype.
+- **Help users with concrete contrasts:** Never ask "What design aesthetic do you prefer?" Instead: "Tampilannya lebih cocok yang mana: A. Hangat dan tradisional ala warung rumahan, atau B. Bersih dan modern ala kedai kekinian?"
+- **Honor user delegation ("terserah / bantu pilihkan"):** If the user says "terserah", do not repeat the question. Make an expert recommendation with a one-sentence rationale tied to their context.
+- **Stop asking as soon as you have enough:** You do NOT need 100% of all fields before proposing a direction. Once the core needs (offering, difference, medium, objective, text) are clear, transition immediately to the design plan.
+
+---
+
+## Materials & Asset Audit (Stage 2)
+
+Ask about materials early so the design concept is built around real assets:
+"Ada gambar yang bisa jadi acuan supaya hasilnya benar-benar khas usaha Kakak?
+A. Foto produk asli (makanan, barang, kemasan)
+B. Logo usaha
+C. Foto toko / warung / gerobak
 D. Desain lama yang mau diperbaiki
-E. Contoh desain yang Kakak suka
-F. Foto toko/warung/gerobak/tempat usaha
-G. Belum ada"
+E. Belum ada foto atau logo"
 
-Verify each image that arrives. Number them in order received. Confirm role.
+- **Foto produk asli ada:** Selalu jadikan bintang utama (hero). Berikan instruksi perlakuan (pertahankan produk, bersihkan latar, grounded shadow).
+- **Tidak ada foto produk:** Jangan buat visual fotorealistik palsu yang menipu pembeli. Pilih arah visual stilasi/ilustrasi yang jujur atau minta foto dari HP pemilik.
+- **Tidak ada logo:** Jangan gunakan font polos biasa. Rancang **identity treatment** (karakter huruf khusus, panel/device pembingkai, warna merek) di Stage 8.
 
-If existing design is shared (Enhance mode): "Bagian mana yang Kakak suka? Mana yang kurang? Apa yang paling ingin diperbaiki?" (multi-select + free text).
-
-**Gate:** every image has a role and treatment plan, or no materials confirmed. Mode set (Build or Enhance).
 
 ---
 

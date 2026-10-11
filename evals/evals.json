@@ -18,18 +18,18 @@
       "id": 2,
       "name": "full-info-one-message",
       "prompt": "Saya punya Kopi Mbak Rini di Bekasi, jual kopi susu literan Rp55.000, beli 2 jadi Rp100.000 sampai Minggu. Pembeli anak kos dan pekerja kantor. Mau dipasang di feed IG, orderan lewat WA 0812-0000-0000. Saya punya foto botolnya (foto terlampir). Suka gaya hangat tapi modern, nggak suka warna pastel.",
-      "expected_output": "Extracts the brief, restates it briefly, asks only about real gaps (or none), shows a short plain-language plan with assumptions, and then (or after confirmation) delivers one compact prompt with exact quoted text, a product-photo keep-exactly instruction, color roles, composition zones, eye path, and a short exclusion line.",
+      "expected_output": "Extracts the brief, restates it briefly, asks only about real gaps (or none), shows a short plain-language plan with assumptions, and then (or after confirmation) delivers one compact standalone prompt with exact quoted text, a product-photo keep-exactly instruction, color character with hex values, creative direction, design character, calm-space intent, and exclusions.",
       "assertions": [
         "Restates the brief before building",
         "Prompt names the product photo as the hero and says to keep it exactly",
         "Prompt quotes the exact Indonesian text including price Rp 55.000 and the deadline",
-        "Prompt specifies composition zones and an eye path",
-        "Prompt gives color roles with hex values and avoids pastel",
+        "Prompt specifies creative direction and design character blocks",
+        "Prompt gives color roles or hex values and avoids pastel",
         "Prompt contains no quality buzzwords like 8k or masterpiece",
         "Prompt is roughly 150-350 words",
         "Does not render phone number as the only copy of contact (offers adding it later or flags proofreading)",
         "Gives a Lampiran (attachment) list naming the bottle photo as Image 1 in the same order as the prompt",
-        "Prompt includes an explicit calm-space instruction with a percentage"
+        "Prompt communicates calm breathing space intent without micromanaging coordinates"
       ]
     },
     {

@@ -1,6 +1,6 @@
 # 15 — Creative Direction Framework
 
-Contents: Part 1: the 10 design dimensions · Part 2: how dimensions interact (aligned, tensions, combinations, 8 combination profiles) · Part 3: creative direction selection process (5 steps) · Part 4: distinctiveness as a design objective (recognizing generic directions, sources of distinctiveness, the test) · Part 5: failure modes by business type
+Contents: Part 1: the 10 design dimensions · Part 2: how dimensions interact (aligned, tensions, combinations, illustrative profiles) · Part 3: creative direction selection process (5 steps) · Part 4: distinctiveness as a design objective (generic warnings, sources of distinctiveness, visual metaphor, substrates, specificity vs decoration, the test) · Part 5: failure modes by business type
 
 > **Role in the system:** This framework is used at Stage 7, after the Distinction Brief, emotional brief, message hierarchy, and physical context are established. It provides a structured method for reasoning across multiple design dimensions simultaneously and selecting a creative direction that is genuinely fit for purpose — not merely plausible or visually fashionable. Use it alongside **Reference 14 (Visual Language Knowledge Base)** for vocabulary of specific traditions, and **Reference 13 (Design Thinking)** for the Creative Direction Summary format.
 
@@ -8,7 +8,12 @@ Contents: Part 1: the 10 design dimensions · Part 2: how dimensions interact (a
 
 ## Part 1: The Design Dimensions
 
-A creative direction is not a style label. It is a set of coordinated positions across multiple design dimensions that together produce a coherent visual character. Each dimension below has a spectrum; the design must hold a clear position on each. The positions are not independent — they interact, reinforce, and constrain each other, which is the subject of Part 2.
+A creative direction is not a style label or a checklist. It is a set of coordinated decisions across multiple design dimensions that together produce a coherent visual character. 
+
+> [!IMPORTANT]
+> **Open Creative Principles, Not a Closed Catalogue:** The dimensions and spectra below are illustrative, extensible principles for reasoning — not a mandatory 10-point checklist where every box must be checked, nor a rigid menu of approved values. A compelling creative direction may focus deeply on just three or four decisive dimensions and leave others quiet. The system is explicitly encouraged to discover relevant qualities, metaphors, and aesthetic territories beyond the examples listed here whenever the business's authentic truth calls for it.
+
+Each dimension below has a spectrum; the design must hold an intentional position on the dimensions that matter for the brief. The positions interact, reinforce, and constrain each other, which is explored in Part 2.
 
 ---
 
@@ -203,9 +208,12 @@ Some of the most distinctive design directions come from deliberately pushing tw
 
 ---
 
-### Combination Profiles
+### Combination Profiles (Illustrative Landmarks)
 
-The following profiles are not templates — they are maps of coherent creative territories. Each represents a distinct combination of positions across dimensions.
+The following profiles are **not a closed menu or approved templates** — they are reference maps of coherent creative territories to illustrate how different dimensions reinforce each other. 
+
+> [!TIP]
+> **Open Creative Synthesis:** The art director is expected and encouraged to synthesize bespoke combinations or unlisted creative territories that emerge naturally from a business's unique truth, location, and audience. Do not force a design into one of these 8 boxes if a different synthesis is more honest and effective.
 
 | Profile | Aesthetic Tradition | Emotional Register | Energy | Price Position | Cultural Register | Type | Ornament | UMKM Example | Best For |
 |---|---|---|---|---|---|---|---|---|---|
@@ -326,9 +334,22 @@ Distinctiveness does not come from novelty. It comes from specificity — from d
 - A color drawn from the product itself or its place of origin, not a palette-generator default
 - A typographic choice rooted in a specific cultural or historical reference that connects genuinely to the business
 
-**Local character used specifically, not generically:**
-- A batik-derived pattern system created from the specific motif of the region where the business is located, not a generic "Indonesian pattern"
-- The vernacular lettering style specific to the city's market signage tradition, observed and translated — not approximated
+**Visual Metaphor and Micro-Narrative:**
+- A creative direction is elevated when organized around a visual metaphor rooted in the business's core truth:
+  - *Scale contrast as promise:* A single bottle isolated in generous quiet space communicates that this one bottle is enough for the entire day.
+  - *Time and ritual as proof:* A close-up of a simmering broth pot with low morning light signals hours of preparation before the market opens.
+  - *Material honesty:* Raw stone, weathered wood, or porous clay background anchors the product in physical reality and craft, resisting artificial digital perfection.
+
+**Physical Print Substrate and Tactile Realism:**
+The physical substrate is not an afterthought; it shapes how the creative direction should be rendered:
+- *Vinyl / Tarpaulin (Outdoor Spanduk):* Coarse weave, semi-gloss sheen, viewed under harsh sunlight or motorcycle headlights. Demands bold silhouette shapes, high-contrast values, and avoidance of micro-textures or fine hairlines that blur on vinyl.
+- *Uncoated Kraft Paper / Recycled Cardboard:* Absorbs ink, softens colors, adds organic warm undertones. Best with deep single-color or dual-color ink prints (linocut, woodblock, rubber stamp feel) rather than delicate full-color photographic gradations.
+- *Coated Art Paper / Glossy Poster:* High ink holdout, crisp edges, deep blacks. Ideal for editorial photography and clean typographical hierarchy, but prone to tropical glare under fluorescent bulbs.
+- *Stickers and Packaging Labels:* Small scale, handheld intimacy. Demands concise visual focus and tactile clarity.
+
+**Meaningful Specificity vs. Superficial Decoration:**
+- *Superficial decoration:* Adding floating coffee beans, sparkles, generic floral borders, or random geometric confetti simply because an area feels empty. This is AI slop that distracts from communication.
+- *Meaningful specificity:* A visual element that carries informational or emotional weight — the exact brass portafilter used by the barista, the specific leaf shape of the pandan plant harvested by the family, the actual wooden texture of the roadside cart counter. Every detail must earn its presence.
 
 ---
 

@@ -51,7 +51,7 @@ Read `references/13-design-thinking.md` before Stage 6. This is the intellectual
 
 Deeply understand the business before thinking about anything visual. Read `references/02-business-distinction.md` for method.
 
-This stage produces the **Distinction Brief** — six confirmed lines that govern all subsequent design decisions:
+This stage produces the **Distinction Brief** — six key points that govern all subsequent design decisions:
 1. Who sells what to whom, and where
 2. USP and concrete proof
 3. Why customers choose this business (in their words)
@@ -59,7 +59,7 @@ This stage produces the **Distinction Brief** — six confirmed lines that gover
 5. Competitive positioning and visual territory
 6. Two or three ownable specifics (anchors)
 
-Gate: Distinction Brief written and confirmed by owner.
+Gate: Distinction Brief synthesized (confirmed adaptively or presented in the collaborative design plan).
 
 ### Stage 2: Understand the materials
 
@@ -145,11 +145,11 @@ Do not jump from information-gathering to choosing colors. First develop a **con
 
 Read `references/13-design-thinking.md` Stage 7 section for the concept-development method.
 
-**Before developing the concept, read `references/14-visual-language.md`** for the vocabulary of visual traditions and their emotional, cultural, and communicative characteristics. Then read `references/15-creative-direction-framework.md` to understand how to reason across multiple design dimensions and select a direction that is coherent and distinctive.
+**Before developing the concept, read `references/14-visual-language.md` and `references/15-creative-direction-framework.md`** (mandatory). Treat visual traditions and design dimensions as an open creative vocabulary and decision framework — not a closed catalogue or rigid checklist. The system can synthesize custom territories that emerge from the business's authentic truth.
 
 The concept answers: *What visual idea can communicate this business, message, audience, and objective most effectively?*
 
-A concept is not a style. "Modern, clean, and colorful" is a style description. A concept has an idea — a specific, ownable visual thought that could only belong to this business.
+A concept is not a style. "Modern, clean, and colorful" is a style description. A concept has an organizing idea and micro-narrative — a specific, ownable visual thought that could only belong to this business.
 
 **Internally explore at least two genuinely different creative territories** before selecting one. Different traditions, different energy levels, different cultural registers — not just color variations. Select the direction that best fits this specific business, audience, and physical context. Do not expose this exploration to the owner unless they ask for alternatives.
 
@@ -485,7 +485,7 @@ State A, B, or C explicitly with a reason in the plan and in the prompt. Do not 
 
 # Interview Guide: Adaptive, Concept-Driven Questioning (All Stages)
 
-Contents: principles of intelligent questioning · question types · jargon translations · Stage 0 Open · Stage 1 Business · Stage 2 Materials · Stages 3–5 Understanding (objective, message, context, audience) · Stage 6 Content · Stage 7 Concept and visual direction · difficult situations · adapting language
+Contents: principles of intelligent questioning · question types · jargon translations · Stage 0 Open · the six core understanding needs · the adaptive inquiry flow · materials and assets · physical context and communication · content inventory · concept and visual direction · difficult situations · adapting language
 
 Stages 8–11 (design plan, visual system, prompts, review) are described in `SKILL.md` and the other references.
 
@@ -568,61 +568,57 @@ If the owner has not specified what they need, ask: "Materi cetak apa yang Kakak
 
 ---
 
-## Stage 1: Understand the business (Distinction Brief)
+---
 
-**Goal:** fill the Distinction Map. Two to three turns maximum. Round A gets facts; Rounds B and C find what makes the business different.
+## The Six Core Understanding Needs
 
-Read `references/02-business-distinction.md` for the full method and the Distinction Brief format.
+The system does NOT follow a fixed questionnaire or a rigid template. Instead, it must understand six core areas sufficiently well to make sound design decisions. How you gather this depends entirely on what the user has already shared.
 
-**Round A: Core facts**
-
-| Ask | Example wording | Why |
-|---|---|---|
-| What is sold | "Jual apa? Ceritakan singkat, misalnya 'laundry kiloan di area kampus Surabaya'." | Product, category conventions |
-| Price tier | "Harganya untuk siapa: A. Murah/terjangkau B. Menengah C. Premium?" (single-select) | Tone, polish, price display |
-| How and where | "Jualnya bagaimana dan di mana? A. Toko/warung B. Keliling/mobile C. Online D. Kombinasi" (multi-select) | Physical context, action |
-
-**Round B: Differentiation**
-
-| Ask | Example wording | Follow-up trigger |
-|---|---|---|
-| USP | "Apa yang bikin Kakak beda dari yang lain? Kalau cuma satu hal." (free text) | Generic ("enak, murah") → "Bisa lebih spesifik? Ada ukuran, resep, cara buat, atau cerita di baliknya?" |
-| Proof | "Buktinya apa? (angka, bahan, proses, tahun berdiri, jumlah pelanggan)" (free text) | Klaim tanpa bukti → perlunak atau hilangkan |
-| Customer's reason | "Pelanggan biasanya bilang apa kenapa pilih Kakak?" (free text) | Jangan pakai adjektif pemilik — minta kalimat pelanggan |
-| Competitors look | "Pesaing terdekat Kakak tampilannya seperti apa? Warna apa yang mereka sering pakai? Ada yang terasa terlalu generik di kategori ini?" (free text) | Tidak tahu → gunakan hipotesis dari archetype di `07-business-archetypes.md` dan nyatakan sebagai asumsi |
-| Competitors list | "Siapa pesaing terdekat, dan harganya kira-kira sama atau beda?" (free text) | Tidak ada → "Kalau pembeli bingung, mereka banding dengan siapa?" |
-
-**Round C: Perception and personality**
-
-| Ask | Example wording | Notes |
-|---|---|---|
-| Desired perception | "Orang yang baru lihat gambar ini harus merasa apa? Pilih dua perasaan, misalnya: jujur, bersih, royal, cepat, premium." (free text) | Becomes the emotional spine |
-| Never be | "Dan jangan sampai orang anggap usaha Kakak apa?" (free text) | Prevents wrong direction |
-| Personality dials | "Pilih yang lebih cocok (boleh pilih lebih dari satu pasangan): A. Hangat atau Serius? B. Tradisional atau Modern? C. Ramai atau Tenang? D. Merakyat atau Premium?" (multi-select) | See `02-business-distinction.md` for design parameters |
-| Ownable specifics | "Ada detail khas yang bisa dijadikan ciri? (resep keluarga, bahan tertentu, nama yang artinya sesuatu, lokasi yang ikonik)" (free text) | Specificity anchors |
-
-**Gate:** Distinction Brief written in six lines and confirmed by owner.
+| Understanding Need | What the designer must understand | High-impact design decision it unlocks | If missing or vague |
+|---|---|---|---|
+| **1. Business Offering & Authenticity** | Who sells what, at what price tier, and what makes it genuinely different (USP + concrete proof, recipe, process, origin). | Hero subject, copy claims, specificity anchors, avoiding category clichés. | Ask: "Apa yang bikin produk Kakak beda dari yang lain, dan apa buktinya?" |
+| **2. Physical Context & Viewing Reality** | Medium (spanduk, poster, menu, etc.), dimensions, distance (meters), duration (2s, 10s, reading), environment (sun, indoor). | Information density budget, minimum type scale, value contrast, layout complexity. | Ask: "Materi ini akan jadi apa dan dipasang di mana? Kira-kira orang lihat dari jarak berapa?" |
+| **3. Audience & Perception Boundary** | Real audience (who they are, what they care about or doubt) + desired feeling at first glance + what it must NEVER look like. | Visual tone, color temperature, trust signals (halal, hygiene, scale), emotional spine. | Ask: "Orang yang lihat harus merasa apa, dan jangan sampai dianggap apa?" |
+| **4. Primary Job & Core Message** | The ONE primary communication job (hook passersby, communicate offer, build trust) + the single takeaway that must stick. | Visual hierarchy (what leads vs. supports), hero prominence, call to action. | Ask: "Satu hal paling penting yang harus langsung dipahami orang apa?" |
+| **5. Exact Text Content** | Exact business name, headline/offer, price, essential conditions, contact/location. | Text strategy (A vs. B/C), typographic layout, word budget adherence. | Ask for exact wording; if user has no headline, propose 2–3 options based on USP. |
+| **6. Real Assets & Materials** | Real product photos, logo file, old design (Enhance mode), or confirmed absence of assets. | Image roles & treatments in prompt, or need for identity treatment when no logo exists. | Ask: "Ada foto produk asli atau logo yang bisa dilampirkan?" |
 
 ---
 
-## Stage 2: Materials
+## The Adaptive Inquiry Flow
 
-Ask after Stage 1, so the request is specific to what makes the business different. Read `references/03-reference-images.md` for full method.
+### Step 1: Triage the user's opening message
+Every conversation starts from what the user gave you:
+- **Case A: Rich opening brief (e.g. user provides business, price, audience, platform, offer, photo).**
+  Extract all answers immediately into the working brief. Acknowledge and restate in 2–3 lines. Do NOT ask about what is already answered. Ask only about 1–2 genuine high-impact gaps (e.g. physical dimensions or exact headline).
+- **Case B: Vague or minimal opening (e.g. "buatin poster promo buat warung bakso saya dong").**
+  Acknowledge warmly. Ask at most 3 core foundation questions: (1) what is sold & what makes it different/best seller, (2) format/where it will be placed, and (3) available photos/logo.
+- **Case C: Existing design shared (Enhance mode).**
+  Acknowledge what is working first. Ask: what parts to keep, what is missing or frustrating, and whether the text content stays the same.
 
-"Ada gambar yang bisa jadi acuan supaya hasilnya benar-benar mirip usaha Kakak? Boleh pilih lebih dari satu:
-A. Logo
-B. Foto produk (makanan, barang, kemasan)
-C. Maskot atau foto orang (pemilik/staf/pelanggan)
+### Step 2: Adaptive follow-up principles
+- **Never ask what can be inferred or reasonably decided:** If an owner sells "es teh jumbo 3rb di depan sekolah", do not ask if the price tier is budget. State it under "Asumsi saya" in the plan.
+- **Ladder vague answers once, then propose:** If they say "makanannya enak", follow up once: "Enaknya yang gimana Kak? Ada bumbu rahasia, porsi royal, atau cara masak khusus?" If still vague, propose a concrete differentiator based on category archetype.
+- **Help users with concrete contrasts:** Never ask "What design aesthetic do you prefer?" Instead: "Tampilannya lebih cocok yang mana: A. Hangat dan tradisional ala warung rumahan, atau B. Bersih dan modern ala kedai kekinian?"
+- **Honor user delegation ("terserah / bantu pilihkan"):** If the user says "terserah", do not repeat the question. Make an expert recommendation with a one-sentence rationale tied to their context.
+- **Stop asking as soon as you have enough:** You do NOT need 100% of all fields before proposing a direction. Once the core needs (offering, difference, medium, objective, text) are clear, transition immediately to the design plan.
+
+---
+
+## Materials & Asset Audit (Stage 2)
+
+Ask about materials early so the design concept is built around real assets:
+"Ada gambar yang bisa jadi acuan supaya hasilnya benar-benar khas usaha Kakak?
+A. Foto produk asli (makanan, barang, kemasan)
+B. Logo usaha
+C. Foto toko / warung / gerobak
 D. Desain lama yang mau diperbaiki
-E. Contoh desain yang Kakak suka
-F. Foto toko/warung/gerobak/tempat usaha
-G. Belum ada"
+E. Belum ada foto atau logo"
 
-Verify each image that arrives. Number them in order received. Confirm role.
+- **Foto produk asli ada:** Selalu jadikan bintang utama (hero). Berikan instruksi perlakuan (pertahankan produk, bersihkan latar, grounded shadow).
+- **Tidak ada foto produk:** Jangan buat visual fotorealistik palsu yang menipu pembeli. Pilih arah visual stilasi/ilustrasi yang jujur atau minta foto dari HP pemilik.
+- **Tidak ada logo:** Jangan gunakan font polos biasa. Rancang **identity treatment** (karakter huruf khusus, panel/device pembingkai, warna merek) di Stage 8.
 
-If existing design is shared (Enhance mode): "Bagian mana yang Kakak suka? Mana yang kurang? Apa yang paling ingin diperbaiki?" (multi-select + free text).
-
-**Gate:** every image has a role and treatment plan, or no materials confirmed. Mode set (Build or Enhance).
 
 ---
 
@@ -2184,7 +2180,7 @@ If a prompt needs no images, write "Prompt 3: tidak ada lampiran". Do not make a
 
 # Anti-Slop: Root Causes, Specificity, and Intentional Design
 
-Contents: what slop actually is · the eleven root causes · the visual tells (with their real causes) · fixes: from tell to decision · the positive-specification principle · realistic product imagery for physical print · missing brand assets · the 14-point slop audit · human traces that work in print
+Contents: what slop actually is · the eleven root causes · the visual tells (with their real causes) · fixes: from tell to decision · the positive-specification principle · realistic product imagery for physical print · missing brand assets · the 14-point slop audit · human traces that work in print · the five critical distinctions
 
 ---
 
@@ -2242,9 +2238,9 @@ Knowing *why* a tell exists is more useful than just recognizing it.
 
 | Tell | Root cause | Fix |
 |---|---|---|
-| Cramped, every corner filled | No space allocation — model fills voids | Allocate specific percentage of calm space in the prompt with a flat-color instruction |
-| Everything centered and symmetrical | Composition default when no spatial structure specified | Specify asymmetric zones: "product occupies left 55%, headline right-aligned in upper third" |
-| Equal sizing — no clear hierarchy | No size ranks specified | Rank every element by size: "headline at 30% canvas height, price at 15%, name at 8%" |
+| Cramped, every corner filled | No space intent — model fills voids with clutter | Specify space character and intent: "calm, generous breathing space around the hero; no decorative filler" |
+| Everything centered and symmetrical | Composition default when no spatial structure specified | Specify dynamic or asymmetric balance in CREATIVE DIRECTION; establish an intentional focal anchor |
+| Equal sizing — no clear hierarchy | No clear dominance specified | State clear visual dominance: establish one hero element, make headline primary, subordinate supporting details |
 | Text floating in rounded translucent boxes | Default "text-on-image" solution when no text zone planned | Plan a calm flat zone for text; specify text on a solid panel with high contrast |
 | Decorative filler (scattered beans, flowers, icons) | Empty space treated as needing content | Specify "no decorative elements" and remove them in the subtraction pass |
 | Cream/beige + sage/terracotta auto-aesthetic | Current "tasteful" default palette | Derive palette from actual brand and product; specify with hex values |
@@ -2384,6 +2380,20 @@ Use only if they fit the brand and concept:
 - **A voice:** copy that sounds like the owner talking to a regular customer; concrete and specific
 - **A recurring graphic device** that becomes the business's visual signature across printed pieces
 - **Restraint:** fewer elements, larger scale, calmer field — the opposite of trying to fill space
+
+---
+
+## 10. The Five Critical Distinctions
+
+To ensure originality and avoid superficial execution, test decisions against these five diagnostic pairs:
+
+| Axis | Genuine Design Judgment | Superficial Slop Pattern |
+|---|---|---|
+| **Specificity vs. Decoration** | Visual elements carry proof, origin, or narrative (the actual brass kettle, the family recipe stamp, real sauce texture). | Adding props or ornaments just because space feels empty (floating beans, sparkles, generic borders). |
+| **Coherent Synthesis vs. Random Mixing** | Traditions combined with conceptual purpose (e.g., vernacular lettering + Swiss spatial clarity = elevated street trust). | Eclectic grab-bag mixing unrelated styles without a unifying idea simply to look "unique". |
+| **Distinctive Language vs. AI Clichés** | Visual world rooted in the business's physical environment and audience visual culture. | Defaulting to popular AI generator defaults (neon backlighting, hyper-gloss, plastic food, centered haze). |
+| **Appropriate Simplicity vs. Sterile Minimalism** | Restraint that maximizes message clarity and viewing-distance impact while retaining local soul. | Empty corporate template look that strips out all warmth, texture, and cultural flavor. |
+| **Rooted Cultural Identity vs. Tokenistic Decoration** | Specific engagement with the owner's actual regional tradition (provenance, motif grammar, local substrate). | Slapping a generic "batik background" or random ethnic motif on a business with no connection to it. |
 
 
 
@@ -3882,7 +3892,7 @@ These are not style categories but *feeling dimensions* that cut across all the 
 
 # 15 — Creative Direction Framework
 
-Contents: Part 1: the 10 design dimensions · Part 2: how dimensions interact (aligned, tensions, combinations, 8 combination profiles) · Part 3: creative direction selection process (5 steps) · Part 4: distinctiveness as a design objective (recognizing generic directions, sources of distinctiveness, the test) · Part 5: failure modes by business type
+Contents: Part 1: the 10 design dimensions · Part 2: how dimensions interact (aligned, tensions, combinations, illustrative profiles) · Part 3: creative direction selection process (5 steps) · Part 4: distinctiveness as a design objective (generic warnings, sources of distinctiveness, visual metaphor, substrates, specificity vs decoration, the test) · Part 5: failure modes by business type
 
 > **Role in the system:** This framework is used at Stage 7, after the Distinction Brief, emotional brief, message hierarchy, and physical context are established. It provides a structured method for reasoning across multiple design dimensions simultaneously and selecting a creative direction that is genuinely fit for purpose — not merely plausible or visually fashionable. Use it alongside **Reference 14 (Visual Language Knowledge Base)** for vocabulary of specific traditions, and **Reference 13 (Design Thinking)** for the Creative Direction Summary format.
 
@@ -3890,7 +3900,12 @@ Contents: Part 1: the 10 design dimensions · Part 2: how dimensions interact (a
 
 ## Part 1: The Design Dimensions
 
-A creative direction is not a style label. It is a set of coordinated positions across multiple design dimensions that together produce a coherent visual character. Each dimension below has a spectrum; the design must hold a clear position on each. The positions are not independent — they interact, reinforce, and constrain each other, which is the subject of Part 2.
+A creative direction is not a style label or a checklist. It is a set of coordinated decisions across multiple design dimensions that together produce a coherent visual character. 
+
+> [!IMPORTANT]
+> **Open Creative Principles, Not a Closed Catalogue:** The dimensions and spectra below are illustrative, extensible principles for reasoning — not a mandatory 10-point checklist where every box must be checked, nor a rigid menu of approved values. A compelling creative direction may focus deeply on just three or four decisive dimensions and leave others quiet. The system is explicitly encouraged to discover relevant qualities, metaphors, and aesthetic territories beyond the examples listed here whenever the business's authentic truth calls for it.
+
+Each dimension below has a spectrum; the design must hold an intentional position on the dimensions that matter for the brief. The positions interact, reinforce, and constrain each other, which is explored in Part 2.
 
 ---
 
@@ -4085,9 +4100,12 @@ Some of the most distinctive design directions come from deliberately pushing tw
 
 ---
 
-### Combination Profiles
+### Combination Profiles (Illustrative Landmarks)
 
-The following profiles are not templates — they are maps of coherent creative territories. Each represents a distinct combination of positions across dimensions.
+The following profiles are **not a closed menu or approved templates** — they are reference maps of coherent creative territories to illustrate how different dimensions reinforce each other. 
+
+> [!TIP]
+> **Open Creative Synthesis:** The art director is expected and encouraged to synthesize bespoke combinations or unlisted creative territories that emerge naturally from a business's unique truth, location, and audience. Do not force a design into one of these 8 boxes if a different synthesis is more honest and effective.
 
 | Profile | Aesthetic Tradition | Emotional Register | Energy | Price Position | Cultural Register | Type | Ornament | UMKM Example | Best For |
 |---|---|---|---|---|---|---|---|---|---|
@@ -4208,9 +4226,22 @@ Distinctiveness does not come from novelty. It comes from specificity — from d
 - A color drawn from the product itself or its place of origin, not a palette-generator default
 - A typographic choice rooted in a specific cultural or historical reference that connects genuinely to the business
 
-**Local character used specifically, not generically:**
-- A batik-derived pattern system created from the specific motif of the region where the business is located, not a generic "Indonesian pattern"
-- The vernacular lettering style specific to the city's market signage tradition, observed and translated — not approximated
+**Visual Metaphor and Micro-Narrative:**
+- A creative direction is elevated when organized around a visual metaphor rooted in the business's core truth:
+  - *Scale contrast as promise:* A single bottle isolated in generous quiet space communicates that this one bottle is enough for the entire day.
+  - *Time and ritual as proof:* A close-up of a simmering broth pot with low morning light signals hours of preparation before the market opens.
+  - *Material honesty:* Raw stone, weathered wood, or porous clay background anchors the product in physical reality and craft, resisting artificial digital perfection.
+
+**Physical Print Substrate and Tactile Realism:**
+The physical substrate is not an afterthought; it shapes how the creative direction should be rendered:
+- *Vinyl / Tarpaulin (Outdoor Spanduk):* Coarse weave, semi-gloss sheen, viewed under harsh sunlight or motorcycle headlights. Demands bold silhouette shapes, high-contrast values, and avoidance of micro-textures or fine hairlines that blur on vinyl.
+- *Uncoated Kraft Paper / Recycled Cardboard:* Absorbs ink, softens colors, adds organic warm undertones. Best with deep single-color or dual-color ink prints (linocut, woodblock, rubber stamp feel) rather than delicate full-color photographic gradations.
+- *Coated Art Paper / Glossy Poster:* High ink holdout, crisp edges, deep blacks. Ideal for editorial photography and clean typographical hierarchy, but prone to tropical glare under fluorescent bulbs.
+- *Stickers and Packaging Labels:* Small scale, handheld intimacy. Demands concise visual focus and tactile clarity.
+
+**Meaningful Specificity vs. Superficial Decoration:**
+- *Superficial decoration:* Adding floating coffee beans, sparkles, generic floral borders, or random geometric confetti simply because an area feels empty. This is AI slop that distracts from communication.
+- *Meaningful specificity:* A visual element that carries informational or emotional weight — the exact brass portafilter used by the barista, the specific leaf shape of the pandan plant harvested by the family, the actual wooden texture of the roadside cart counter. Every detail must earn its presence.
 
 ---
 

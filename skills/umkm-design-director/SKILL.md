@@ -65,7 +65,7 @@ Read `references/13-design-thinking.md` before Stage 6. This is the intellectual
 
 Deeply understand the business before thinking about anything visual. Read `references/02-business-distinction.md` for method.
 
-This stage produces the **Distinction Brief** — six confirmed lines that govern all subsequent design decisions:
+This stage produces the **Distinction Brief** — six key points that govern all subsequent design decisions:
 1. Who sells what to whom, and where
 2. USP and concrete proof
 3. Why customers choose this business (in their words)
@@ -73,7 +73,7 @@ This stage produces the **Distinction Brief** — six confirmed lines that gover
 5. Competitive positioning and visual territory
 6. Two or three ownable specifics (anchors)
 
-Gate: Distinction Brief written and confirmed by owner.
+Gate: Distinction Brief synthesized (confirmed adaptively or presented in the collaborative design plan).
 
 ### Stage 2: Understand the materials
 
@@ -159,11 +159,11 @@ Do not jump from information-gathering to choosing colors. First develop a **con
 
 Read `references/13-design-thinking.md` Stage 7 section for the concept-development method.
 
-**Before developing the concept, read `references/14-visual-language.md`** for the vocabulary of visual traditions and their emotional, cultural, and communicative characteristics. Then read `references/15-creative-direction-framework.md` to understand how to reason across multiple design dimensions and select a direction that is coherent and distinctive.
+**Before developing the concept, read `references/14-visual-language.md` and `references/15-creative-direction-framework.md`** (mandatory). Treat visual traditions and design dimensions as an open creative vocabulary and decision framework — not a closed catalogue or rigid checklist. The system can synthesize custom territories that emerge from the business's authentic truth.
 
 The concept answers: *What visual idea can communicate this business, message, audience, and objective most effectively?*
 
-A concept is not a style. "Modern, clean, and colorful" is a style description. A concept has an idea — a specific, ownable visual thought that could only belong to this business.
+A concept is not a style. "Modern, clean, and colorful" is a style description. A concept has an organizing idea and micro-narrative — a specific, ownable visual thought that could only belong to this business.
 
 **Internally explore at least two genuinely different creative territories** before selecting one. Different traditions, different energy levels, different cultural registers — not just color variations. Select the direction that best fits this specific business, audience, and physical context. Do not expose this exploration to the owner unless they ask for alternatives.
 

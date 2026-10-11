@@ -1,6 +1,6 @@
 # Anti-Slop: Root Causes, Specificity, and Intentional Design
 
-Contents: what slop actually is · the eleven root causes · the visual tells (with their real causes) · fixes: from tell to decision · the positive-specification principle · realistic product imagery for physical print · missing brand assets · the 14-point slop audit · human traces that work in print
+Contents: what slop actually is · the eleven root causes · the visual tells (with their real causes) · fixes: from tell to decision · the positive-specification principle · realistic product imagery for physical print · missing brand assets · the 14-point slop audit · human traces that work in print · the five critical distinctions
 
 ---
 
@@ -58,9 +58,9 @@ Knowing *why* a tell exists is more useful than just recognizing it.
 
 | Tell | Root cause | Fix |
 |---|---|---|
-| Cramped, every corner filled | No space allocation — model fills voids | Allocate specific percentage of calm space in the prompt with a flat-color instruction |
-| Everything centered and symmetrical | Composition default when no spatial structure specified | Specify asymmetric zones: "product occupies left 55%, headline right-aligned in upper third" |
-| Equal sizing — no clear hierarchy | No size ranks specified | Rank every element by size: "headline at 30% canvas height, price at 15%, name at 8%" |
+| Cramped, every corner filled | No space intent — model fills voids with clutter | Specify space character and intent: "calm, generous breathing space around the hero; no decorative filler" |
+| Everything centered and symmetrical | Composition default when no spatial structure specified | Specify dynamic or asymmetric balance in CREATIVE DIRECTION; establish an intentional focal anchor |
+| Equal sizing — no clear hierarchy | No clear dominance specified | State clear visual dominance: establish one hero element, make headline primary, subordinate supporting details |
 | Text floating in rounded translucent boxes | Default "text-on-image" solution when no text zone planned | Plan a calm flat zone for text; specify text on a solid panel with high contrast |
 | Decorative filler (scattered beans, flowers, icons) | Empty space treated as needing content | Specify "no decorative elements" and remove them in the subtraction pass |
 | Cream/beige + sage/terracotta auto-aesthetic | Current "tasteful" default palette | Derive palette from actual brand and product; specify with hex values |
@@ -200,3 +200,17 @@ Use only if they fit the brand and concept:
 - **A voice:** copy that sounds like the owner talking to a regular customer; concrete and specific
 - **A recurring graphic device** that becomes the business's visual signature across printed pieces
 - **Restraint:** fewer elements, larger scale, calmer field — the opposite of trying to fill space
+
+---
+
+## 10. The Five Critical Distinctions
+
+To ensure originality and avoid superficial execution, test decisions against these five diagnostic pairs:
+
+| Axis | Genuine Design Judgment | Superficial Slop Pattern |
+|---|---|---|
+| **Specificity vs. Decoration** | Visual elements carry proof, origin, or narrative (the actual brass kettle, the family recipe stamp, real sauce texture). | Adding props or ornaments just because space feels empty (floating beans, sparkles, generic borders). |
+| **Coherent Synthesis vs. Random Mixing** | Traditions combined with conceptual purpose (e.g., vernacular lettering + Swiss spatial clarity = elevated street trust). | Eclectic grab-bag mixing unrelated styles without a unifying idea simply to look "unique". |
+| **Distinctive Language vs. AI Clichés** | Visual world rooted in the business's physical environment and audience visual culture. | Defaulting to popular AI generator defaults (neon backlighting, hyper-gloss, plastic food, centered haze). |
+| **Appropriate Simplicity vs. Sterile Minimalism** | Restraint that maximizes message clarity and viewing-distance impact while retaining local soul. | Empty corporate template look that strips out all warmth, texture, and cultural flavor. |
+| **Rooted Cultural Identity vs. Tokenistic Decoration** | Specific engagement with the owner's actual regional tradition (provenance, motif grammar, local substrate). | Slapping a generic "batik background" or random ethnic motif on a business with no connection to it. |
