@@ -1,6 +1,6 @@
 # Interview Guide: Adaptive, Concept-Driven Questioning (All Stages)
 
-Contents: principles of intelligent questioning · question types · jargon translations · Stage 0 Open · the eight core understanding needs (including aesthetic preference discovery) & 4C probes · the adaptive inquiry flow · aesthetic preference elicitation · epistemic grounding (facts vs inferences vs assumptions vs preferences) · materials and assets · physical context and communication · content inventory · Stage 5 concept divergence and visual direction · difficult situations · adapting language
+Contents: principles of intelligent questioning · question types · jargon translations · Stage 0 Open · eight core understanding needs (Tracks 1 & 2) · adaptive inquiry flow · aesthetic preference elicitation · latent brand opportunities · epistemic grounding (facts vs preferences vs inferences vs assumptions) · materials & physical context · Stage 5 concept divergence & visual thesis · difficult situations · adapting language
 
 Stages 6–9 (visual system, creative direction summary, prompts, review and iteration) are described in `SKILL.md` and the other references.
 
@@ -153,6 +153,28 @@ Some users know exactly what they want — ask directly first before using indir
 - If the user says "terserah, yang penting bagus" → record as `[DELEGASI]` (delegated to designer). Generate concepts based on business context AND your best design judgment, but still present options for user feedback.
 - If the user gives contradictory preferences ("mewah tapi murah meriah") → do NOT silently resolve the tension. Name it: "Menarik — kesan mewah dan murah biasanya bertolak belakang. Saya coba kombinasikan: bahan visual yang terasa berkualitas, tapi tulisan harganya jelas dan besar. Gimana menurut Kakak?"
 - If the user provides a visual reference → analyze what specific visual qualities they're responding to (color? typography? layout? photography style? energy level?) and confirm: "Dari desain ini, yang Kakak suka itu yang mana: warnanya, gaya hurufnya, tata letaknya, atau suasana keseluruhannya?"
+
+### Step 2c: Discovering Latent Brand Opportunities (Listening Beyond Literal Words)
+
+UMKM owners speak about their work in practical, operational, or humble terms. They rarely describe their business using brand strategy or visual concept terminology. A world-class art director listens actively for **latent creative opportunities** — distinctive authentic details that the owner mentions in passing but takes for granted:
+
+1. **Uncovering Physical Craft Artifacts & Tools:**
+   - *Client mention:* "Kami masih ngulek bumbu pakai cobek batu kali warisan simbah."
+   - *Art direction probe:* "Cobek batu kali itu punya nilai cerita yang sangat kuat. Boleh foto cobeknya saat bumbu sedang diulek? Tekstur batu dan bumbu ulek kasar itu bisa jadi bukti visual kesegaran yang mengalahkan saus pabrikan."
+2. **Uncovering Daily Production Rituals:**
+   - *Client mention:* "Kaldunya harus direbus pelan-pelan dari jam 4 subuh biar bening gurih."
+   - *Art direction probe:* "Waktu rebusan subuh itu adalah bukti dedikasi rasa. Bagaimana kalau kita angkat nuansa cahaya fajar subuh dan uap kuah alami sebagai atmosfer visual utama, dengan penegasan 'Direbus sejak subuh' di judul?"
+3. **Uncovering Architectural & Neighborhood Character:**
+   - *Client mention:* "Toko kami di ruko tua Pecinan, lantainya masih ubin motif kuno."
+   - *Art direction probe:* "Motif ubin kuno itu bisa kita adaptasi jadi bingkai geometris elegan khas tempat Kakak, jadi desainnya punya rasa 'berakar di tempat' tanpa perlu pakai batik pasaran."
+4. **Uncovering Customer Subcultures & Real Moments:**
+   - *Client mention:* "Yang beli kebanyakan anak bengkel dan ojol yang butuh makan siang cepat dan kenyang."
+   - *Art direction probe:* "Bagi mereka, kejelasan harga dan porsi mantap adalah rasa hormat. Kita buat tata letak berani dengan huruf besar tegas dan porsi nyata, bukan desain manis berbunga-bunga yang terasa asing."
+
+**Protocol for Latent Opportunities:**
+- Never invent facts. Use the client's actual words as the seed.
+- Formulate the opportunity as a collaborative proposal: *"Menarik sekali bagian [X] yang Kakak ceritakan tadi — dari kacamata desain, ini bisa jadi ide visual yang bikin beda dari semua pesaing kalau kita tampilkan sebagai [Y]. Kakak setuju kita eksplorasi arah ini?"*
+- If confirmed, tag as `[FAKTA]` (the truth) + `[INFERENSI]` (the visual opportunity).
 
 ### Step 3: Transparent Epistemic Summary
 Before moving to concepts, reflect the brief back to the owner with clear epistemic tags:

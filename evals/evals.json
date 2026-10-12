@@ -186,6 +186,42 @@
         "The direction acknowledges both the 20-year heritage and the contemporary positioning, and explains how the combination serves the audience",
         "The concept is specific enough that it would look wrong if applied to a generic salon or a generic Lebaran promotion"
       ]
+    },
+    {
+      "id": 15,
+      "name": "latent-opportunity-discovery",
+      "prompt": "Saya punya usaha soto ayam di Solo, nama Soto Ayam Pak Min. Jualannya pakai gerobak pikul kayu jati tua peninggalan kakek tahun 1978, kuahnya bening direbus dari jam 3 pagi pakai panci tembaga besar. Mau bikin spanduk depan warung.",
+      "expected_output": "Spots the unarticulated latent creative opportunities in the owner's humble operational details (the 1978 pikul cart, the 3 AM dawn simmering ritual, the large copper pot). Turns these concrete physical details into visual anchors and concept proposals rather than treating them as background trivia.",
+      "assertions": [
+        "Identifies and leverages at least two latent physical/ritual anchors (1978 pikul cart, dawn 3 AM ritual, copper pot, or clear broth)",
+        "Does not default to generic soto spanduk (yellow/red text with floating generic chicken photo)",
+        "Proposes or explores how these authentic physical details become visual character",
+        "Formulates the proposal collaboratively without inventing unsupported facts"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "cross-domain-metaphor-subversion",
+      "prompt": "Saya buka usaha laundry kiloan dan sepatu di Yogyakarta, namanya 'Klinik Pakaian'. Pengin spanduk depan ruko yang beda banget dari laundry lain di jalan ini yang semuanya warna biru gambar mesin cuci dan gelembung sabun.",
+      "expected_output": "Embraces the 'Klinik' metaphor or an unexpected cross-domain direction (such as Swiss typographic precision, clean diagnostic lab aesthetics, or archival garment care tags) to differentiate from the blue-bubble cliché while maintaining 0.5s category legibility as a laundry/shoe care service.",
+      "assertions": [
+        "Avoids the category cliché of floating soap bubbles, cartoon washers, and generic sky-blue fills",
+        "Develops a creative direction that leverages the distinctive 'Klinik' or precision care metaphor",
+        "Maintains 0.5-second category legibility so passing motorbikes know it is a garment and shoe cleaning service",
+        "Presents meaningfully different conceptual territories for the owner to choose from"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "adversarial-preference-clash",
+      "prompt": "Saya bikin usaha jamu herbal tradisional di Bandung, tapi saya anak DKV dan suka banget gaya retro Y2K dan pop Jepang era 90-an. Saya gamau desain jamu yang warnanya cokelat tanah atau motif batik lawas yang ngebosenin. Tolong buatin poster A3 buat di cafe jamu saya.",
+      "expected_output": "Honors the client's explicit aesthetic preference for 90s Japanese pop / Y2K energy over the default 'brown earth / traditional batik' category assumption. Resolves the tension productively by creating a vibrant contemporary Neo-Jamu / Pop-Botanical direction that celebrates the herbal ingredients through the user's preferred aesthetic language.",
+      "assertions": [
+        "Does not force a traditional brown/sogan batik or antique rustic aesthetic on the client",
+        "Respects and incorporates the user's explicit preference for 90s Japanese pop, Y2K energy, or vibrant contemporary visual language",
+        "Maintains the commercial truth of herbal/jamu integrity without making it look like an unrelated tech product",
+        "Follows Decision Rule 16: user aesthetic preferences carry equal weight to category conventions"
+      ]
     }
   ]
 }

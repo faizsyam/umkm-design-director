@@ -134,14 +134,15 @@ Before finalizing any Distinction Brief or design plan, execute the **Visual Swa
 
 ## 8. The Distinction Brief (Output of Stage 1)
 
-Synthesize the brief into seven structured lines with explicit epistemic tags:
+Synthesize the brief into eight structured lines with explicit epistemic tags:
 
 1. **Usaha `[FAKTA]`:** [Siapa menjual apa, kepada siapa, di mana, tier harga].
 2. **Beda karena `[FAKTA/BUKTI]`:** [USP yang lolos 4C Gate + bukti fisik/proses nyata].
 3. **Pembeli memilih karena `[FAKTA]`:** [Kata-kata asli pelanggan / alasan membeli nyata].
 4. **Kesan yang diinginkan `[INFERENSI]`:** [Pasangan rasa, misal "Jujur dan royal"], **bukan** [pantangan rasa].
-5. **Posisi & Pesaing `[FAKTA/INFERENSI]`:** [Tier harga]. Pesaing sekitar umumnya [kebiasaan visual]; kami mengklaim wilayah [wilayah visual terbuka]; tetap mempertahankan sinyal [sinyal kategori wajib].
-6. **Jangkar khas `[FAKTA]`:** [2–3 detail fisik/alat/bahan unik yang diterjemahkan ke visual].
-7. **Asumsi & Kebutuhan terbuka:** `[ASUMSI]` [Hipotesis kerja yang butuh konfirmasi]; `[GAP]` [Celah kritis jika ada].
+5. **Preferensi estetik `[PREFERENSI]`:** [Warna disukai & dealbreaker yang dihindari, mood, analog spasial, referensi visual].
+6. **Posisi & Pesaing `[FAKTA/INFERENSI]`:** [Tier harga]. Pesaing sekitar umumnya [kebiasaan visual]; kami mengklaim wilayah [wilayah visual terbuka]; tetap mempertahankan sinyal [sinyal kategori wajib].
+7. **Jangkar khas `[FAKTA]`:** [2–3 detail fisik/alat/bahan unik yang diterjemahkan ke visual].
+8. **Asumsi & Kebutuhan terbuka:** `[ASUMSI]` [Hipotesis kerja yang butuh konfirmasi]; `[GAP]` [Celah kritis jika ada].
 
-*Gate:* Distinction Brief synthesized, 4C Gate verified, epistemic status clearly tagged, and swap test passed.
+*Gate:* Distinction Brief synthesized, 4C Gate verified, epistemic status clearly tagged, aesthetic preferences recorded, and swap test passed.
