@@ -942,7 +942,7 @@ Hand off to the review file. The extra fidelity questions: Does the product matc
 
 # 04 — Design Principles: Perception, Hierarchy, Space, and Formal Visual Grammar
 
-Contents: how viewers perceive physical design in real space · space as active design mass · visual hierarchy and ranking · Gestalt grouping & perceptual laws · formal design grammar (shape vocabulary, line character, edge treatment) · contrast, alignment, balance, rhythm · cognitive load & Hick's Law · psychology of trust, desire, and perceived value · decoration vs communication · translating principles into art-directed prompt directives
+Contents: how viewers perceive physical design in real space · space as active design mass · visual hierarchy and ranking · Gestalt grouping & perceptual laws · formal design grammar (shape, line, edge, surface) · compositional architectures & spatial systems · visual storytelling, metaphor & synecdoche · print substrates, inks & optical physics · contrast, balance, rhythm, proportion · cognitive load & Hick's Law · psychology of trust & desire · decoration vs communication · translating principles into art-directed prompt directives
 
 ---
 
@@ -1019,7 +1019,110 @@ World-class art direction requires a precise formal design vocabulary:
 
 ---
 
-## 6. Contrast, Balance, Rhythm, and Proportion
+## 6. Compositional Architectures and Spatial Systems
+
+In world-class graphic design, layout is never arbitrary arrangement; it is an engineered spatial architecture that guides the viewer's eye along an intentional path of discovery.
+
+### A. Modular Swiss Grid (Asymmetric Functionalism)
+- **Spatial Logic:** Rigid underlying columnar structure (3-column, 4-column, or 6-column grid) with mathematical gutter spacing. Elements snap to structural coordinates.
+- **Visual Tension:** Asymmetric weighting — an off-center photographic hero in the lower-right balanced by disciplined, left-aligned typography occupying the upper-left quadrant.
+- **Negative Space Allocation:** 35%–45% active unprinted field serving as a visual stabilizer.
+- **Appropriate Contexts:** Contemporary specialty coffee, modern bakeries, professional laundry and dry cleaning, architecture-led retail, editorial catalogs.
+
+### B. Dynamic Diagonal Constructivist Vector (20°–35° Tilt)
+- **Spatial Logic:** A dominant structural diagonal axis cutting across the composition, typically rising from lower-left to upper-right (signaling progress, velocity, and forward energy).
+- **Visual Tension:** High kinetic force. The angled baseline breaks the static stability of horizontal/vertical framing, creating visceral urgency without turning into chaotic clutter.
+- **Negative Space Allocation:** Triangular wedges of solid color field (30%–40%) framing the canted typography and hero silhouette.
+- **Appropriate Contexts:** Roadside food promotions, urgent laundry discounts, automotive repair workshops, express delivery, vibrant street-level announcements.
+
+### C. Monumental Bilateral Symmetry (Ceremonial Stature & Heirloom Dignity)
+- **Spatial Logic:** Strict central vertical axis. Every graphic element, typographic lockup, and decorative framing device is mirrored with precision across the midline.
+- **Visual Tension:** Absolute stillness, permanence, monumental solemnity, and ceremonial dignity.
+- **Negative Space Allocation:** Equal flanking margins (40%–50% total calm field) isolating the central architectural column.
+- **Appropriate Contexts:** Traditional Javanese jamu, courtly wedding catering, heirloom batik houses, colonial Peranakan tea merchants, commemorative certificates, premium estate roasteries.
+
+### D. Plakatstil Centered Hero Isolation (The German Object Poster)
+- **Spatial Logic:** A single monumental subject (the hero dish, package, or tool) isolated in the optical center or lower optical third, surrounded by an expanse of flat, unbroken color.
+- **Visual Tension:** Total reduction. Zero background environmental noise, zero floating props, zero secondary clutter. The composition relies entirely on the raw physical presence of the hero object and a bold, declarative headline above it.
+- **Negative Space Allocation:** 45%–60% flat, opaque color field acting as an active visual megaphone.
+- **Appropriate Contexts:** Iconic culinary specialties (a solitary steaming bowl of bakso, a single monumental martabak slice), hero retail products, outdoor billboard announcements.
+
+### E. Modular Split-Level Package Framing (The Architectural Fascia)
+- **Spatial Logic:** Canvas strictly partitioned into functional horizontal architectural zones:
+  - *Top Zone (20%–25%):* Header band containing brand identity, provenance seal, and category declaration.
+  - *Center Zone (50%–60%):* Unobstructed hero exhibition field (still-life photograph, woodcut relief, or botanical illustration).
+  - *Bottom Zone (20%–25%):* Grounding pedestal band housing certification marks, net weight, price tier, and call-to-action anchor.
+- **Visual Tension:** Rational, orderly, highly legible at distance, evoking classic apothecary, vintage export crates, and colonial mercantile signage.
+- **Negative Space Allocation:** Disciplined inter-zone horizontal margins and calm inner margins within each panel.
+- **Appropriate Contexts:** Packaged consumer goods (*oleh-oleh*), cosmetic bottles, standing roll-up banners, vertical storefront entrance signs.
+
+### F. Radial Focal Burst (Centripetal Energy & Celebration)
+- **Spatial Logic:** Energy radiating outward from a tight focal core or converging inward toward the primary hero badge. Rhythmic geometric rays, concentric circular frames, or radiating linework.
+- **Visual Tension:** Festive celebration, folk abundance, dynamic marketplace vitality.
+- **Typographic Anchor Rule:** Because radial lines create high background vibration, typography MUST be anchored inside solid, opaque rectangular or cartouche panels to preserve 100% legibility. Never let raw text float across radiating rays.
+- **Appropriate Contexts:** Pasar festivals, grand opening celebrations, promotional discount spanduk, celebratory food stalls.
+
+---
+
+## 7. Visual Storytelling, Metaphor, and Synecdoche: Authentic Craft Truth
+
+Generative AI models instinctively default to generic clichéd outcomes ("a delicious plate of food", "a smiling clean worker"). A world-class art director commands **the authentic physical conditions, tools, and micro-evidence of craft**. Viewers subconsciously register trust through tangible physical friction, never through sanitized perfection.
+
+### A. The Principle of Craft Truth vs. Cliché Simulation
+- **The Cliché Trap:** Showing a generic cartoon chef giving a thumbs up, floating sparkle stars, or a 3D rendered glossy burger with impossible perfection.
+- **The Craft Truth:** Showing the unglamorous, highly specific physical reality of the maker: the seasoned iron wok with charred patina, the dusting of raw flour on a baker's forearm, the hand-sharpened shears on a barber's leather strop.
+
+### B. Physical Tools of the Trade as Heroic Anchors
+Incorporate the authentic working instruments of the trade as primary or secondary visual anchors:
+- **Kuliner & Warung:** Heavy volcanic stone mortar (*cobek batu kali* & *ulekan*) with crushed fresh bird's eye chilies and garlic oil sheen; blackened brass skimmer with steam rising; traditional clay charcoal brazier (*anglo tanah liat*) with glowing embers; vintage enamel plates (*piring seng blirik*).
+- **Bengkel & Otomotif:** Forged chrome-vanadium combination wrench with satin patina and honest machine-oil film; brass dial caliper measuring engine tolerance; heavy cast-iron bench vise holding a milled component.
+- **Laundry & Tekstil:** Solid cast-brass vintage dry iron with turned dark-wood handle; immaculate stack of combed cotton towels showing micro-weave loops; hand-stamped unbleached kraft paper package bound with raw jute twine.
+- **Jamu & Herbal:** Unglazed earthenware herbal brewing pot (*kuali tanah liat*); freshly sliced raw turmeric root (*kunyit*) showing wet saffron-orange flesh and fibrous cell structure; antique brass apothecary beam balance.
+- **Kopi & Kafe:** Heavy stainless-steel bottomless portafilter with polished brass wings; dense unpressed cake of finely ground dark roast; calibrated goose-neck kettle with steady laminar water stream.
+
+### C. Micro-Evidence of Craft (Sensory Physical Proof)
+Physical credibility relies on tiny, non-accidental sensory details directed in the prompt:
+- Fine particulate flour settling on a dark slate workbench.
+- Tiny golden beads of shallot-infused oil floating atop a rich beef broth.
+- Cold ambient moisture beads running down the condensation curve of an amber iced tea glass.
+- Natural 0.2mm ink bleed and fiber wicking into porous unbleached paper.
+- Authentic screenprint plate misregistration (0.5mm physical offset exposing substrate).
+- Natural textile slub and raw thread weave catching directional light.
+
+### D. Visual Synecdoche (The Part Representing the Whole)
+Instead of attempting to illustrate an entire complex environment (which leads to chaotic AI generation), employ **visual synecdoche**: let a single, monumental, masterfully executed physical detail stand for the entire craft experience:
+- A single monumental cross-section of fresh beef marrow bone, simmering in golden spiced broth, stands for a 40-year soup legacy.
+- The steady hands of a master artisan drawing hot beeswax through a copper *canting* needle stands for an entire batik house.
+- A single macro focus on a razor-sharp straight razor carving a crisp hairline on skin stands for the precision of an entire barbershop.
+
+---
+
+## 8. Print Substrates, Inks, and Optical Physics
+
+Graphic design for physical print does not exist in a vacuum of RGB pixels; it exists as ink deposited onto physical matter under natural ambient illumination. World-class art direction specifies the physical material physics of the finished piece.
+
+### A. Substrate Material Physics & Surface Tooth
+- **Uncoated Wood-Pulp Kraft (280–350 gsm):** Fibrous, warm ochre/tan cellulose matrix with visible natural wood fibers and tactile tooth. High ink absorption, zero surface glare. Signals earthy provenance, artisanal sincerity, and unpretentious durability.
+- **Clay-Coated Art Carton (260–310 gsm):** Semi-gloss or matte coated surface with smooth, uniform holdout. Retains ultra-sharp vector edges and intense color saturation without ink wicking. Signals crisp contemporary commercial precision.
+- **Heavyweight Flex Tarpaulin / Vinyl (440–510 gsm):** Coarse woven polyester scrim visible beneath matte PVC coating. Robust outdoor weather resistance, slight industrial drape fold, absorbs ambient outdoor daylight without specular blowouts. The authentic standard for Indonesian roadside *spanduk*.
+- **Duplex Boxboard (300–400 gsm):** Bright white coated exterior paired with an unbleached raw grey recycled chipboard underside. The tactile hallmark of authentic Indonesian takeaway boxes, snack packaging, and local retail cartons.
+- **Natural Cotton Muslin / Calico Canvas (*Kain Blacu*):** Open plain-weave unbleached textile with organic slub texture and warm cream tone. The living medium of traditional *Spanduk Pecel Lele* and *Soto Lamongan* sign-painting.
+
+### B. Ink Finish and Edge Behaviors
+- **Matte Screenprint Enamel:** High-opacity pigment layer resting physically on top of the substrate with subtle raised tactile relief (50–80 microns). Razor-sharp graphic boundaries with zero digital airbrush feathering.
+- **Porous Ink-Bleed & Dot Gain:** Natural microscopic capillary wicking of liquid dyes into uncoated paper fibers, yielding soft, warm 0.2mm organic edges that convey historical warmth and printmaking reality.
+- **Non-Specular Metallic Bronze / Gold Flake:** Matte metallic powder suspended in transparent varnish, producing warm directional luster rather than mirror-like chrome reflection. Evokes archival cigar bands, jamu packaging, and heritage commercial seals.
+- **Screenprint Plate Misregistration:** Deliberate 0.5–1.0 mm mechanical offset between spot-color separations, revealing thin white paper slivers along edges. Instantly eliminates the sterile look of digital vectors.
+
+### C. Directional Lighting & Optical Physics Directives
+To eliminate the "floating clipart sticker" syndrome in generative imagery, every scene prompt must specify optical physics:
+- **45° Directional Raking Daylight:** Raking window light skimming across the substrate at a grazing angle, throwing delicate micro-shadows into paper fibers, raised ink relief, and food textures.
+- **Diffused Equatorial Monsoon Overcast (5500K):** Soft, omnidirectional ambient daylight with gentle shadow falloff and zero blown-out specular highlights. Preserves deep shadow details and rich local color saturation.
+- **Grounding Contact Shadows & Ambient Occlusion:** Heavy, sharp, physics-based contact shadows directly beneath physical vessels, tools, plates, and typography bars, firmly anchoring them to the ground plane or tabletop.
+
+---
+
+## 9. Contrast, Balance, Rhythm, and Proportion
 
 - **Value Contrast over Hue Contrast:** Hue contrast alone (e.g. red text on green background) fails in direct sunlight and for colorblind viewers. High value contrast (lightness vs darkness) does 90% of legibility work.
 - **Asymmetric Balance vs. Bilateral Symmetry:**
@@ -1029,7 +1132,7 @@ World-class art direction requires a precise formal design vocabulary:
 
 ---
 
-## 7. Cognitive Load & Hick's Law
+## 10. Cognitive Load & Hick's Law
 
 - **Working Memory Limit (The Rule of Four):** A viewer can hold at most four distinct information chunks simultaneously. Graphic pieces with more than four competing elements induce cognitive friction; passing viewers look away.
 - **Hick's Law:** Decision time increases logarithmically with the number of choices. Present one singular call to action, one clear price offer, and one phone number. Never offer five competing contact channels on an outdoor banner.
@@ -1037,7 +1140,7 @@ World-class art direction requires a precise formal design vocabulary:
 
 ---
 
-## 8. Psychology of Trust, Desire, and Perceived Value
+## 11. Psychology of Trust, Desire, and Perceived Value
 
 - **Legibility Equals Trust:** Clear, high-contrast, perfectly spelled text signals that the business is competent, respectful, and established. Warped letters or messy layouts immediately trigger suspicion.
 - **Sensory Desire in Food Design:** True appetite appeal comes from specific, honest physical cues: authentic steam wisps, visible meatball tendon texture, golden chili oil droplets, natural crispy batter flakes, and grounded earthenware vessels. Generic glossy CGI food creates suspicion.
@@ -1048,7 +1151,7 @@ World-class art direction requires a precise formal design vocabulary:
 
 ---
 
-## 9. Decoration vs. Communication: The Subtraction Pass
+## 12. Decoration vs. Communication: The Subtraction Pass
 
 Every mark on a graphic is either **communicating meaning** or **unearned decoration**.
 
@@ -1066,16 +1169,18 @@ Floating sparkles, lens flare bursts, random geometric confetti, decorative flor
 
 ---
 
-## 10. Translating Formal Principles into Prompt Directives
+## 13. Translating Formal Principles into Prompt Directives
 
 | Design Principle | Weak / Descriptive Phrasing (Fails) | Professional Art-Directed Prompt Phrasing (Succeeds) |
 |---|---|---|
 | **Hierarchy & Dominance** | "The headline is really big and important" | "Asymmetric typographic hierarchy: headline rendered at 3.5x scale ratio in heavy condensed grotesque display capitals, dominating the upper composition with unmistakable authority" |
 | **Active Negative Space** | "Make it clean with lots of empty space" | "Generous unprinted negative space (approximately 45% of canvas) surrounding the hero product, allowing the solid dark-coffee field (#2A1810) to function as active, confident visual mass" |
 | **Figure-Ground Contrast** | "High contrast colors" | "Extreme value contrast: bone-white lettering (#FAF0E6) and warm cadmium yellow accents (#FFD700) set against a flat, opaque midnight-navy field (#0F2444); engineered for instant outdoor sunlight legibility" |
+| **Compositional Architecture** | "Good balanced layout" | "Modular Swiss grid layout: asymmetric 4-column structure with crisp left-aligned typographic axis, hero object locked into lower-right intersection, 40% calm negative space in upper quadrants" |
 | **Shape & Edge Language** | "Geometric style" | "Reductive rectilinear form language: crisp 90-degree vector cuts, unbordered color blocks, and solid architectural base band; zero airbrushed gradients, zero curved bevels" |
-| **Tactile Texture** | "Looks textured and vintage" | "Uncoated fibrous kraft paper substrate with visible wood pulp tooth and matte ink absorption, paired with chiseled woodblock stamp lettering showing subtle organic ink-bleed edges" |
-| **Honest Specificity** | "Show a delicious meal" | "Artisanal food still life: earthenware bowl with visible shredded beef tendon and golden oil droplets on broth, resting on a worn dark-teak wooden surface with satin grain, 45-degree directional window light" |
+| **Tactile Substrate Physics** | "Looks textured and vintage" | "Uncoated fibrous kraft paper substrate with visible wood pulp tooth and matte ink absorption, paired with chiseled woodblock stamp lettering showing subtle organic ink-bleed edges" |
+| **Visual Synecdoche & Craft Truth** | "Show a delicious meal and kitchen" | "Authentic culinary synecdoche: macro close-up of a hand-carved volcanic stone cobek with crushed red chilies, garlic oil droplets, and coarse sea salt crystals; zero generic smiling cartoon mascots" |
+| **Optical Lighting & Grounding** | "Nice bright lighting" | "Directional 45-degree raking daylight from left, casting crisp contact shadows and ambient occlusion beneath the ceramic bowl, firmly grounding it to the weathered teak surface" |
 
 ---
 
@@ -1089,7 +1194,7 @@ Floating sparkles, lens flare bursts, random geometric confetti, decorative flor
 
 # Color, Audience, and Cultural Context
 
-Contents: how to choose a palette · roles and proportions · legibility rules · color meanings (tendencies) · Indonesian context · audience differences · palette recipes · AI color defaults to avoid · cultural care checklist
+Contents: how to choose a palette · roles and proportions · legibility rules · color meanings (tendencies) · Indonesian regional color semiotics (Java, Sunda, Betawi, Minang, Batak, Aceh, Bali, Bugis, Dayak) · tropical print physics & viewing optics · religious & seasonal palettes · audience differences · starting palette explorations · color relationship vocabulary · AI defaults to avoid · cultural care checklist
 
 Color meanings are **tendencies that vary by person, region, religion, age, and product category.** Use them as hypotheses, confirm with the owner, and never override the brand's existing colors without a reason.
 
@@ -1132,14 +1237,78 @@ Work in this order:
 | Black / charcoal | Premium, modern, strong | Barber, coffee, fashion, tech, night economy | Mourning associations in some contexts (esp. for celebrations/greetings); needs one bright accent to avoid heaviness |
 | White / off-white | Clean, simple, honest, premium space | Health, laundry, minimal brands | Cold and "template-like" if default; "cream+beige everything" is a new slop default |
 
-## 5. Indonesian context (use with the owner, not as stereotype)
+## 5. Indonesian Regional Color Semiotics & Visual Culture
 
-- **Red and white** evoke national identity; they are strong around Independence Day (August) and for patriotic/community events, and can feel "official". Red is also considered auspicious and festive among many Chinese-Indonesian communities, notably around Imlek, often with gold.
-- **Green and gold** are strongly associated with Islamic celebration seasons (Ramadan, Lebaran, Idul Adha). Seasonal promo palettes: deep green, gold, cream; or warm earth tones. Check respectfully that imagery (ketupat, lantern, crescent) suits the owner's audience; do not use religious symbols as pure decoration for unrelated products.
-- **Black** is widely tied to mourning in Indonesian settings; avoid for greetings or celebratory events unless balanced by clearly festive elements. For modern premium products it is fine.
-- **White/yellow** may carry ceremonial or regional meaning in some customs; if the product is for weddings, mourning, or rituals, ask the owner about local norms.
-- **Heat and sun:** signage and phone screens are viewed in bright tropical light; saturated, high-value-contrast palettes survive better than pastel-on-white.
-- **Regional visual vocabulary** is rich and specific: batik (motifs differ by region and meaning, some are reserved or ceremonial), songket, tenun/ikat, wayang, Dayak/Toraja/Bali carving patterns, Betawi ondel-ondel and ornament, Malay Riau/Melayu ornament, Minang rumah gadang forms, rattan, bamboo, banana leaf, enamel plates, hand-painted warung and angkot lettering, mural-painted truck art. Using a motif from the owner's own region and heritage can be a powerful anchor; using a random motif for "Indonesian feel" is generic and can be disrespectful or wrong. **Ask where the owner is from and whether a motif is part of their identity before using one**, and name the motif specifically in the prompt (e.g. "Kawung batik pattern as a quiet 5% border"), never "batik style".
+Indonesian visual culture is not a monolithic template of brown batik and tropical greens. Regional visual traditions possess distinct color grammars rooted in local dye chemistry, cosmology, trade history, and material environments:
+
+### A. Regional Color Grammars
+
+1. **Javanese Traditions: Inland Court (*Pedalaman*) vs. Coastal Trading (*Pesisir*)**
+   - **Inland Court (Surakarta & Yogyakarta):** *Sogan* (warm mahogany-brown extracted from soga tree bark), *babar biru* (deep fermented indigo), *mori blacu* (unbleached warm cream cotton), and charcoal ink. Signals aristocratic restraint (*halus*), contemplative depth, generational pedigree, and rooted domestic comfort.
+   - **Coastal Trading (Pekalongan, Lasem, Cirebon):** Vivid, multi-cultural trading chemistry influenced by Peranakan Chinese, Arab, and European trade. Carmine red (*abang getih*), rich emerald (*ijo lumut*), turmeric yellow (*kuning kunyit*), and cobalt blue against crisp ivory. Celebratory, entrepreneurial, commercial, and energetic.
+
+2. **Sundanese / Parahyangan (West Java)**
+   - Verdant highland naturalism: Mountain clay terracotta (*lempung*), fresh banana leaf (*daun gedang*), bamboo shoot ochre, and dark river-stone charcoal (*batu kali*). Expresses warmth, sincere hospitality (*someah*), crisp culinary freshness (lalapan, sambal terasi), and organic living ecology.
+
+3. **Betawi (Jakarta Urban Vernacular)**
+   - High-energy festive chromaticism: Saturated turmeric yellow, chili vermilion, vibrant kelly green, and cobalt blue. Derived from *gigi balang* architectural fascia trims, ondel-ondel regalia, and traditional Lenong stage sets. Signals open-hearted humor, neighborhood warmth, direct street honesty, and celebratory gathering.
+
+4. **Minangkabau (West Sumatra)**
+   - The *Marawa* Sacred Tri-Color:
+     - **Black (*Hitam*):** Wisdom, patience, and the elder leadership (*panghulu*).
+     - **Red (*Merah*):** Courage, dynamism, and the intellectual protectors (*cadiak pandai*).
+     - **Yellow / Gold (*Kuning/Ameh*):** Prosperity, spiritual law, and moral dignity (*alim ulama*).
+     - Paired with metallic silver and gold threads of *songket* weaving against deep crimson or midnight grounds. Signals matrilineal nobility, architectural authority, and uncompromising pride in craft.
+
+5. **Batak (North Sumatra — Toba, Karo, Simalungun, Mandailing)**
+   - The Cosmological Tri-Color of *Bonang Manalu*:
+     - **White (*Puti*):** Celestial realm (*banua ginjang*), purity, and truth.
+     - **Red (*Bara*):** Earthly realm (*banua tonga*), vitality, courage, and human struggle.
+     - **Black (*Birong*):** Ancestral underworld (*banua toru*), permanence, and rooted endurance.
+     - Found across *Gorga* architectural relief carvings and *Ulos* textiles. Extreme graphic contrast, monumental architectural weight, and protective ancestral dignity.
+
+6. **Aceh (Northern Sumatra)**
+   - Islamic trade and sovereignty: Deep imperial emerald green, burnished brass gold, crisp ivory, and deep madder red. Expresses botanical arabesque geometry (*Pintu Aceh*), maritime trading prestige, and spiritual sobriety.
+
+7. **Balinese Hindu Traditions**
+   - *Kain Poleng (Rwa Bhineda):* High-contrast black-and-white checkerboard weave representing the cosmic equilibrium of opposing forces (day and night, order and chaos).
+   - *Tridatu:* Red (Brahma / Creation), Black (Vishnu / Preservation), White (Shiva / Transformation).
+   - Paired with gilded temple leaf (*prada*), weathered volcanic tuff (*batu paras*), and warm frangipani yellow. Intense optical vibration, sacred drama, and ceremonial pageantry.
+
+8. **Bugis & Makassar (South Sulawesi)**
+   - The *Sulapa Eppa* (four-corner universe) and *Sutra Lagosi* weaving: Rich magenta, saffron gold, bottle green, and jet black, paired with Phinisi boat timber teak and marine navy. Communicates maritime courage, honorable trade (*siri'*), and aristocratic textile richness.
+
+9. **Dayak Traditions (Kalimantan)**
+   - Primary mineral and forest pigments: Iron-oxide red ochre, soot charcoal, bone lime white, and vibrant yellow-orange beadwork contrasts. Conveys river vitality, jungle power, and protective spiritual geometry.
+
+---
+
+### B. Tropical Print Physics & Viewing Realities
+
+Designing for Indonesian physical print requires engineering for equatorial light and climate:
+
+1. **Midday Tropical Sunlight Glare (Up to 100,000 Lux):**
+   - High-noon equatorial sunlight creates intense blinding ambient glare that bleaches out low-contrast pastels, delicate hairlines, and subtle tonal grays.
+   - Outdoor banners (*spanduk* roadside and storefront signage) require **extreme value contrast** (minimum 4.5:1, ideally 7:1+). Dark grounds with brilliant white/yellow typography survive sunlight wash; pale beige or grey layouts become invisible.
+2. **Monsoon Humidity & Physical Ink Aging:**
+   - Outdoor flexi banners (*tarpaulin flex*) age under UV exposure and monsoon rain. Highly saturated pure black lines and opaque primary grounds preserve their readability far longer than complex photographic gradients.
+   - Kraft paper, unbleached cartons, and cardboard absorb moisture in humid air, slightly spreading ink edges. Factor this ink-bleed into typographic tracking and stroke weights.
+3. **Competing Ambient Street Noise:**
+   - Indonesian commercial corridors are dense with visual stimuli: tangled wiring, lush green tropical trees, rusted metal roofs, colorful motorbikes, and rival red warung signs.
+   - To win visual attention, claim an **uncontested color value territory** (e.g., solid midnight navy or deep charcoal when all neighbors use cheap red vinyl).
+
+---
+
+### C. Religious & Festive Nuance Without Kitsch
+
+1. **Islamic Celebrations (Ramadan, Lebaran, Idul Adha):**
+   - *Avoid:* Cheap neon-green gradients, floating 3D glitter crescents, and decorative mosque clipart pasted indiscriminately on unrelated commercial products.
+   - *Art-Directed Alternative:* Deep mineral pine green, warm antique brass/gold, and soft linen cream; or midnight lapis lazuli navy with warm 2700K dawn window illumination. Emphasize warm hospitality, family return (*mudik*), and sincere generous abundance.
+2. **Chinese-Indonesian Celebrations (Imlek / Lunar New Year):**
+   - *Avoid:* Generic ketchup-red fills with cartoon gold coins.
+   - *Art-Directed Alternative:* Rich cinnabar lacquer red (#9B1B1B), antique vermilion, warm gold foil stamps, ink-wash charcoal, and celadon jade accents (#7BA08B).
+3. **National Identity (17 Agustus / Kemerdekaan):**
+   - Pair crisp Indonesian flag vermilion (#D91424) and bone white (#FDFBF7) with mid-century Indonesian printmaking aesthetics (woodcut or linocut relief) or authentic archival typography rather than plastic modern clip-art banners.
 
 ## 6. Audience differences
 
@@ -1205,7 +1374,7 @@ Neon purple-to-blue gradients; teal-and-orange "cinematic grade" on everything; 
 
 # 06 — Typography, Lettering, and Readability for Physical Print
 
-Contents: why type decides trust in physical print · physical print viewing distance & scale · anatomical & stylistic type classifications · describing letterforms to an image model · typographic contrast & hierarchy · prices, numbers, and currency formatting · Indonesian language typographic nuances · text on backgrounds & calm zones · proofreading & in-image rendering safeguards
+Contents: why type decides trust in physical print · physical print viewing distance & scale · anatomical & stylistic type classifications · Indonesian vernacular lettering traditions & regional scripts · describing letterforms to an image model · typography personality axes · typographic contrast & hierarchy · prices, numbers, and currency formatting · Indonesian language typographic nuances · in-image rendering safeguards
 
 ---
 
@@ -1264,6 +1433,34 @@ Image models reproduce typography with vastly greater precision when directed us
 | **Vernacular Sign-Painter Extended** | Bold outlines, drop shadows, dimensional shading, high-contrast fills, optimized for distance | Street-level energy, festive, approachable, Indonesian commercial tradition |
 | **Stencil & Industrial** | Broken letterforms suggesting spray-paint or cut-out origin, utilitarian geometry | Raw, industrial, military, workshop, masculine utility |
 | **Retrofuturistic / Space Age** | Extended horizontal proportions, rounded geometric forms, 1960s-70s space-era optimism | Tech-forward nostalgia, creative studios, experimental food concepts |
+
+---
+
+## 3b. Indonesian Vernacular Lettering Traditions & Regional Scripts
+
+Indonesian commercial typography has rich, distinct vernacular traditions that carry deep cultural resonance and immediate public recognition:
+
+### 1. Spanduk Kain Pecel Lele & Soto Lamongan (The Canvas Sign-Painter Tradition)
+- **Anatomy:** Heavy, fluid sign-painter casual capitals with thick calligraphic downstrokes, flared entry strokes, and distinct manual brush fringe.
+- **Dimensionality:** Two-layer or three-layer graphic outlines: a vivid yellow or white core letter, framed by a razor-thin contrasting keyline, backed by an offset solid black or dark red drop-shadow block.
+- **Substrate Physics:** Hand-painted pigment soaked into coarse white cotton drill cloth (*kain blacu / drill*). Under ambient night streetlights, the high-contrast yellow-on-dark lettering creates unmistakable peripheral recognition for passing motorbikes.
+- **Application:** Authentic traditional eateries, nighttime food stalls, grassroots street food brands wanting unapologetic local pride.
+
+### 2. Seni Reklame Cat Minyak Seng & Papan Toko Lawas (Enamel & Zinc Sheet Painting)
+- **Anatomy:** Sturdy, upright condensed sans-serifs and slabs constructed using ruler and compass guidelines. Visible hand-painted enamel brush marks, subtle paint pooling along letter edges, and slightly weathered patina.
+- **Dimensionality:** Isometric 45° cast shadows (*bayangan timbul*) hand-painted in black or dark umber.
+- **Application:** Traditional workshops (*bengkel*), hardware shops (*toko bangunan*), vintage barbershops, and heritage grocery stores (*toko kelontong*).
+
+### 3. Batavia Colonial Letterpress & Roman Display
+- **Anatomy:** Early 20th-century Dutch-Indies commercial typography: sturdy Clarendon slabs, bracketed antique Romans, and condensed Egyptian display types with ornate spurred terminals and high horizontal crossbars.
+- **Application:** Heritage coffee roasteries (*koffiebranderij*), multigenerational bakeries, jamu apothecaries, and institutional craftsmanship.
+
+### 4. Regional & Bilingual Script Integration
+When incorporating Indonesian regional scripts, treat them with authentic cultural dignity:
+- **Aksara Jawa / Hanacaraka:** Use as an elegant identity stamp, seal, or secondary cultural grounding device for Javanese heritage brands. Specify authentic calligraphic stroke modulation (thick vertical downstroke, thin connecting curve), never distorted clip-art fonts.
+- **Aksara Sunda:** Characterized by geometric angularity and triangular accents. Excellent as a contemporary cultural mark for Parahyangan coffee, tea, and culinary brands.
+- **Aksara Lontara (Bugis-Makassar):** Distinctive diamond and angular letterforms reflecting the *Sulapa Eppa* worldview. Powerful for maritime, culinary, and textile identities.
+- **Arab Pegon / Jawi:** Nastaliq or Naskh calligraphic character used historically for Javanese, Sundanese, and Malay commercial trade. Ideal for traditional herbal, santri-community craft, and generational trade goods.
 
 ---
 

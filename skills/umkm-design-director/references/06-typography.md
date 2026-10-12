@@ -1,6 +1,6 @@
 # 06 — Typography, Lettering, and Readability for Physical Print
 
-Contents: why type decides trust in physical print · physical print viewing distance & scale · anatomical & stylistic type classifications · describing letterforms to an image model · typographic contrast & hierarchy · prices, numbers, and currency formatting · Indonesian language typographic nuances · text on backgrounds & calm zones · proofreading & in-image rendering safeguards
+Contents: why type decides trust in physical print · physical print viewing distance & scale · anatomical & stylistic type classifications · Indonesian vernacular lettering traditions & regional scripts · describing letterforms to an image model · typography personality axes · typographic contrast & hierarchy · prices, numbers, and currency formatting · Indonesian language typographic nuances · in-image rendering safeguards
 
 ---
 
@@ -59,6 +59,34 @@ Image models reproduce typography with vastly greater precision when directed us
 | **Vernacular Sign-Painter Extended** | Bold outlines, drop shadows, dimensional shading, high-contrast fills, optimized for distance | Street-level energy, festive, approachable, Indonesian commercial tradition |
 | **Stencil & Industrial** | Broken letterforms suggesting spray-paint or cut-out origin, utilitarian geometry | Raw, industrial, military, workshop, masculine utility |
 | **Retrofuturistic / Space Age** | Extended horizontal proportions, rounded geometric forms, 1960s-70s space-era optimism | Tech-forward nostalgia, creative studios, experimental food concepts |
+
+---
+
+## 3b. Indonesian Vernacular Lettering Traditions & Regional Scripts
+
+Indonesian commercial typography has rich, distinct vernacular traditions that carry deep cultural resonance and immediate public recognition:
+
+### 1. Spanduk Kain Pecel Lele & Soto Lamongan (The Canvas Sign-Painter Tradition)
+- **Anatomy:** Heavy, fluid sign-painter casual capitals with thick calligraphic downstrokes, flared entry strokes, and distinct manual brush fringe.
+- **Dimensionality:** Two-layer or three-layer graphic outlines: a vivid yellow or white core letter, framed by a razor-thin contrasting keyline, backed by an offset solid black or dark red drop-shadow block.
+- **Substrate Physics:** Hand-painted pigment soaked into coarse white cotton drill cloth (*kain blacu / drill*). Under ambient night streetlights, the high-contrast yellow-on-dark lettering creates unmistakable peripheral recognition for passing motorbikes.
+- **Application:** Authentic traditional eateries, nighttime food stalls, grassroots street food brands wanting unapologetic local pride.
+
+### 2. Seni Reklame Cat Minyak Seng & Papan Toko Lawas (Enamel & Zinc Sheet Painting)
+- **Anatomy:** Sturdy, upright condensed sans-serifs and slabs constructed using ruler and compass guidelines. Visible hand-painted enamel brush marks, subtle paint pooling along letter edges, and slightly weathered patina.
+- **Dimensionality:** Isometric 45° cast shadows (*bayangan timbul*) hand-painted in black or dark umber.
+- **Application:** Traditional workshops (*bengkel*), hardware shops (*toko bangunan*), vintage barbershops, and heritage grocery stores (*toko kelontong*).
+
+### 3. Batavia Colonial Letterpress & Roman Display
+- **Anatomy:** Early 20th-century Dutch-Indies commercial typography: sturdy Clarendon slabs, bracketed antique Romans, and condensed Egyptian display types with ornate spurred terminals and high horizontal crossbars.
+- **Application:** Heritage coffee roasteries (*koffiebranderij*), multigenerational bakeries, jamu apothecaries, and institutional craftsmanship.
+
+### 4. Regional & Bilingual Script Integration
+When incorporating Indonesian regional scripts, treat them with authentic cultural dignity:
+- **Aksara Jawa / Hanacaraka:** Use as an elegant identity stamp, seal, or secondary cultural grounding device for Javanese heritage brands. Specify authentic calligraphic stroke modulation (thick vertical downstroke, thin connecting curve), never distorted clip-art fonts.
+- **Aksara Sunda:** Characterized by geometric angularity and triangular accents. Excellent as a contemporary cultural mark for Parahyangan coffee, tea, and culinary brands.
+- **Aksara Lontara (Bugis-Makassar):** Distinctive diamond and angular letterforms reflecting the *Sulapa Eppa* worldview. Powerful for maritime, culinary, and textile identities.
+- **Arab Pegon / Jawi:** Nastaliq or Naskh calligraphic character used historically for Javanese, Sundanese, and Malay commercial trade. Ideal for traditional herbal, santri-community craft, and generational trade goods.
 
 ---
 

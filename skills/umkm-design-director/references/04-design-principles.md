@@ -1,6 +1,6 @@
 # 04 — Design Principles: Perception, Hierarchy, Space, and Formal Visual Grammar
 
-Contents: how viewers perceive physical design in real space · space as active design mass · visual hierarchy and ranking · Gestalt grouping & perceptual laws · formal design grammar (shape vocabulary, line character, edge treatment) · contrast, alignment, balance, rhythm · cognitive load & Hick's Law · psychology of trust, desire, and perceived value · decoration vs communication · translating principles into art-directed prompt directives
+Contents: how viewers perceive physical design in real space · space as active design mass · visual hierarchy and ranking · Gestalt grouping & perceptual laws · formal design grammar (shape, line, edge, surface) · compositional architectures & spatial systems · visual storytelling, metaphor & synecdoche · print substrates, inks & optical physics · contrast, balance, rhythm, proportion · cognitive load & Hick's Law · psychology of trust & desire · decoration vs communication · translating principles into art-directed prompt directives
 
 ---
 
@@ -77,7 +77,110 @@ World-class art direction requires a precise formal design vocabulary:
 
 ---
 
-## 6. Contrast, Balance, Rhythm, and Proportion
+## 6. Compositional Architectures and Spatial Systems
+
+In world-class graphic design, layout is never arbitrary arrangement; it is an engineered spatial architecture that guides the viewer's eye along an intentional path of discovery.
+
+### A. Modular Swiss Grid (Asymmetric Functionalism)
+- **Spatial Logic:** Rigid underlying columnar structure (3-column, 4-column, or 6-column grid) with mathematical gutter spacing. Elements snap to structural coordinates.
+- **Visual Tension:** Asymmetric weighting — an off-center photographic hero in the lower-right balanced by disciplined, left-aligned typography occupying the upper-left quadrant.
+- **Negative Space Allocation:** 35%–45% active unprinted field serving as a visual stabilizer.
+- **Appropriate Contexts:** Contemporary specialty coffee, modern bakeries, professional laundry and dry cleaning, architecture-led retail, editorial catalogs.
+
+### B. Dynamic Diagonal Constructivist Vector (20°–35° Tilt)
+- **Spatial Logic:** A dominant structural diagonal axis cutting across the composition, typically rising from lower-left to upper-right (signaling progress, velocity, and forward energy).
+- **Visual Tension:** High kinetic force. The angled baseline breaks the static stability of horizontal/vertical framing, creating visceral urgency without turning into chaotic clutter.
+- **Negative Space Allocation:** Triangular wedges of solid color field (30%–40%) framing the canted typography and hero silhouette.
+- **Appropriate Contexts:** Roadside food promotions, urgent laundry discounts, automotive repair workshops, express delivery, vibrant street-level announcements.
+
+### C. Monumental Bilateral Symmetry (Ceremonial Stature & Heirloom Dignity)
+- **Spatial Logic:** Strict central vertical axis. Every graphic element, typographic lockup, and decorative framing device is mirrored with precision across the midline.
+- **Visual Tension:** Absolute stillness, permanence, monumental solemnity, and ceremonial dignity.
+- **Negative Space Allocation:** Equal flanking margins (40%–50% total calm field) isolating the central architectural column.
+- **Appropriate Contexts:** Traditional Javanese jamu, courtly wedding catering, heirloom batik houses, colonial Peranakan tea merchants, commemorative certificates, premium estate roasteries.
+
+### D. Plakatstil Centered Hero Isolation (The German Object Poster)
+- **Spatial Logic:** A single monumental subject (the hero dish, package, or tool) isolated in the optical center or lower optical third, surrounded by an expanse of flat, unbroken color.
+- **Visual Tension:** Total reduction. Zero background environmental noise, zero floating props, zero secondary clutter. The composition relies entirely on the raw physical presence of the hero object and a bold, declarative headline above it.
+- **Negative Space Allocation:** 45%–60% flat, opaque color field acting as an active visual megaphone.
+- **Appropriate Contexts:** Iconic culinary specialties (a solitary steaming bowl of bakso, a single monumental martabak slice), hero retail products, outdoor billboard announcements.
+
+### E. Modular Split-Level Package Framing (The Architectural Fascia)
+- **Spatial Logic:** Canvas strictly partitioned into functional horizontal architectural zones:
+  - *Top Zone (20%–25%):* Header band containing brand identity, provenance seal, and category declaration.
+  - *Center Zone (50%–60%):* Unobstructed hero exhibition field (still-life photograph, woodcut relief, or botanical illustration).
+  - *Bottom Zone (20%–25%):* Grounding pedestal band housing certification marks, net weight, price tier, and call-to-action anchor.
+- **Visual Tension:** Rational, orderly, highly legible at distance, evoking classic apothecary, vintage export crates, and colonial mercantile signage.
+- **Negative Space Allocation:** Disciplined inter-zone horizontal margins and calm inner margins within each panel.
+- **Appropriate Contexts:** Packaged consumer goods (*oleh-oleh*), cosmetic bottles, standing roll-up banners, vertical storefront entrance signs.
+
+### F. Radial Focal Burst (Centripetal Energy & Celebration)
+- **Spatial Logic:** Energy radiating outward from a tight focal core or converging inward toward the primary hero badge. Rhythmic geometric rays, concentric circular frames, or radiating linework.
+- **Visual Tension:** Festive celebration, folk abundance, dynamic marketplace vitality.
+- **Typographic Anchor Rule:** Because radial lines create high background vibration, typography MUST be anchored inside solid, opaque rectangular or cartouche panels to preserve 100% legibility. Never let raw text float across radiating rays.
+- **Appropriate Contexts:** Pasar festivals, grand opening celebrations, promotional discount spanduk, celebratory food stalls.
+
+---
+
+## 7. Visual Storytelling, Metaphor, and Synecdoche: Authentic Craft Truth
+
+Generative AI models instinctively default to generic clichéd outcomes ("a delicious plate of food", "a smiling clean worker"). A world-class art director commands **the authentic physical conditions, tools, and micro-evidence of craft**. Viewers subconsciously register trust through tangible physical friction, never through sanitized perfection.
+
+### A. The Principle of Craft Truth vs. Cliché Simulation
+- **The Cliché Trap:** Showing a generic cartoon chef giving a thumbs up, floating sparkle stars, or a 3D rendered glossy burger with impossible perfection.
+- **The Craft Truth:** Showing the unglamorous, highly specific physical reality of the maker: the seasoned iron wok with charred patina, the dusting of raw flour on a baker's forearm, the hand-sharpened shears on a barber's leather strop.
+
+### B. Physical Tools of the Trade as Heroic Anchors
+Incorporate the authentic working instruments of the trade as primary or secondary visual anchors:
+- **Kuliner & Warung:** Heavy volcanic stone mortar (*cobek batu kali* & *ulekan*) with crushed fresh bird's eye chilies and garlic oil sheen; blackened brass skimmer with steam rising; traditional clay charcoal brazier (*anglo tanah liat*) with glowing embers; vintage enamel plates (*piring seng blirik*).
+- **Bengkel & Otomotif:** Forged chrome-vanadium combination wrench with satin patina and honest machine-oil film; brass dial caliper measuring engine tolerance; heavy cast-iron bench vise holding a milled component.
+- **Laundry & Tekstil:** Solid cast-brass vintage dry iron with turned dark-wood handle; immaculate stack of combed cotton towels showing micro-weave loops; hand-stamped unbleached kraft paper package bound with raw jute twine.
+- **Jamu & Herbal:** Unglazed earthenware herbal brewing pot (*kuali tanah liat*); freshly sliced raw turmeric root (*kunyit*) showing wet saffron-orange flesh and fibrous cell structure; antique brass apothecary beam balance.
+- **Kopi & Kafe:** Heavy stainless-steel bottomless portafilter with polished brass wings; dense unpressed cake of finely ground dark roast; calibrated goose-neck kettle with steady laminar water stream.
+
+### C. Micro-Evidence of Craft (Sensory Physical Proof)
+Physical credibility relies on tiny, non-accidental sensory details directed in the prompt:
+- Fine particulate flour settling on a dark slate workbench.
+- Tiny golden beads of shallot-infused oil floating atop a rich beef broth.
+- Cold ambient moisture beads running down the condensation curve of an amber iced tea glass.
+- Natural 0.2mm ink bleed and fiber wicking into porous unbleached paper.
+- Authentic screenprint plate misregistration (0.5mm physical offset exposing substrate).
+- Natural textile slub and raw thread weave catching directional light.
+
+### D. Visual Synecdoche (The Part Representing the Whole)
+Instead of attempting to illustrate an entire complex environment (which leads to chaotic AI generation), employ **visual synecdoche**: let a single, monumental, masterfully executed physical detail stand for the entire craft experience:
+- A single monumental cross-section of fresh beef marrow bone, simmering in golden spiced broth, stands for a 40-year soup legacy.
+- The steady hands of a master artisan drawing hot beeswax through a copper *canting* needle stands for an entire batik house.
+- A single macro focus on a razor-sharp straight razor carving a crisp hairline on skin stands for the precision of an entire barbershop.
+
+---
+
+## 8. Print Substrates, Inks, and Optical Physics
+
+Graphic design for physical print does not exist in a vacuum of RGB pixels; it exists as ink deposited onto physical matter under natural ambient illumination. World-class art direction specifies the physical material physics of the finished piece.
+
+### A. Substrate Material Physics & Surface Tooth
+- **Uncoated Wood-Pulp Kraft (280–350 gsm):** Fibrous, warm ochre/tan cellulose matrix with visible natural wood fibers and tactile tooth. High ink absorption, zero surface glare. Signals earthy provenance, artisanal sincerity, and unpretentious durability.
+- **Clay-Coated Art Carton (260–310 gsm):** Semi-gloss or matte coated surface with smooth, uniform holdout. Retains ultra-sharp vector edges and intense color saturation without ink wicking. Signals crisp contemporary commercial precision.
+- **Heavyweight Flex Tarpaulin / Vinyl (440–510 gsm):** Coarse woven polyester scrim visible beneath matte PVC coating. Robust outdoor weather resistance, slight industrial drape fold, absorbs ambient outdoor daylight without specular blowouts. The authentic standard for Indonesian roadside *spanduk*.
+- **Duplex Boxboard (300–400 gsm):** Bright white coated exterior paired with an unbleached raw grey recycled chipboard underside. The tactile hallmark of authentic Indonesian takeaway boxes, snack packaging, and local retail cartons.
+- **Natural Cotton Muslin / Calico Canvas (*Kain Blacu*):** Open plain-weave unbleached textile with organic slub texture and warm cream tone. The living medium of traditional *Spanduk Pecel Lele* and *Soto Lamongan* sign-painting.
+
+### B. Ink Finish and Edge Behaviors
+- **Matte Screenprint Enamel:** High-opacity pigment layer resting physically on top of the substrate with subtle raised tactile relief (50–80 microns). Razor-sharp graphic boundaries with zero digital airbrush feathering.
+- **Porous Ink-Bleed & Dot Gain:** Natural microscopic capillary wicking of liquid dyes into uncoated paper fibers, yielding soft, warm 0.2mm organic edges that convey historical warmth and printmaking reality.
+- **Non-Specular Metallic Bronze / Gold Flake:** Matte metallic powder suspended in transparent varnish, producing warm directional luster rather than mirror-like chrome reflection. Evokes archival cigar bands, jamu packaging, and heritage commercial seals.
+- **Screenprint Plate Misregistration:** Deliberate 0.5–1.0 mm mechanical offset between spot-color separations, revealing thin white paper slivers along edges. Instantly eliminates the sterile look of digital vectors.
+
+### C. Directional Lighting & Optical Physics Directives
+To eliminate the "floating clipart sticker" syndrome in generative imagery, every scene prompt must specify optical physics:
+- **45° Directional Raking Daylight:** Raking window light skimming across the substrate at a grazing angle, throwing delicate micro-shadows into paper fibers, raised ink relief, and food textures.
+- **Diffused Equatorial Monsoon Overcast (5500K):** Soft, omnidirectional ambient daylight with gentle shadow falloff and zero blown-out specular highlights. Preserves deep shadow details and rich local color saturation.
+- **Grounding Contact Shadows & Ambient Occlusion:** Heavy, sharp, physics-based contact shadows directly beneath physical vessels, tools, plates, and typography bars, firmly anchoring them to the ground plane or tabletop.
+
+---
+
+## 9. Contrast, Balance, Rhythm, and Proportion
 
 - **Value Contrast over Hue Contrast:** Hue contrast alone (e.g. red text on green background) fails in direct sunlight and for colorblind viewers. High value contrast (lightness vs darkness) does 90% of legibility work.
 - **Asymmetric Balance vs. Bilateral Symmetry:**
@@ -87,7 +190,7 @@ World-class art direction requires a precise formal design vocabulary:
 
 ---
 
-## 7. Cognitive Load & Hick's Law
+## 10. Cognitive Load & Hick's Law
 
 - **Working Memory Limit (The Rule of Four):** A viewer can hold at most four distinct information chunks simultaneously. Graphic pieces with more than four competing elements induce cognitive friction; passing viewers look away.
 - **Hick's Law:** Decision time increases logarithmically with the number of choices. Present one singular call to action, one clear price offer, and one phone number. Never offer five competing contact channels on an outdoor banner.
@@ -95,7 +198,7 @@ World-class art direction requires a precise formal design vocabulary:
 
 ---
 
-## 8. Psychology of Trust, Desire, and Perceived Value
+## 11. Psychology of Trust, Desire, and Perceived Value
 
 - **Legibility Equals Trust:** Clear, high-contrast, perfectly spelled text signals that the business is competent, respectful, and established. Warped letters or messy layouts immediately trigger suspicion.
 - **Sensory Desire in Food Design:** True appetite appeal comes from specific, honest physical cues: authentic steam wisps, visible meatball tendon texture, golden chili oil droplets, natural crispy batter flakes, and grounded earthenware vessels. Generic glossy CGI food creates suspicion.
@@ -106,7 +209,7 @@ World-class art direction requires a precise formal design vocabulary:
 
 ---
 
-## 9. Decoration vs. Communication: The Subtraction Pass
+## 12. Decoration vs. Communication: The Subtraction Pass
 
 Every mark on a graphic is either **communicating meaning** or **unearned decoration**.
 
@@ -124,16 +227,18 @@ Floating sparkles, lens flare bursts, random geometric confetti, decorative flor
 
 ---
 
-## 10. Translating Formal Principles into Prompt Directives
+## 13. Translating Formal Principles into Prompt Directives
 
 | Design Principle | Weak / Descriptive Phrasing (Fails) | Professional Art-Directed Prompt Phrasing (Succeeds) |
 |---|---|---|
 | **Hierarchy & Dominance** | "The headline is really big and important" | "Asymmetric typographic hierarchy: headline rendered at 3.5x scale ratio in heavy condensed grotesque display capitals, dominating the upper composition with unmistakable authority" |
 | **Active Negative Space** | "Make it clean with lots of empty space" | "Generous unprinted negative space (approximately 45% of canvas) surrounding the hero product, allowing the solid dark-coffee field (#2A1810) to function as active, confident visual mass" |
 | **Figure-Ground Contrast** | "High contrast colors" | "Extreme value contrast: bone-white lettering (#FAF0E6) and warm cadmium yellow accents (#FFD700) set against a flat, opaque midnight-navy field (#0F2444); engineered for instant outdoor sunlight legibility" |
+| **Compositional Architecture** | "Good balanced layout" | "Modular Swiss grid layout: asymmetric 4-column structure with crisp left-aligned typographic axis, hero object locked into lower-right intersection, 40% calm negative space in upper quadrants" |
 | **Shape & Edge Language** | "Geometric style" | "Reductive rectilinear form language: crisp 90-degree vector cuts, unbordered color blocks, and solid architectural base band; zero airbrushed gradients, zero curved bevels" |
-| **Tactile Texture** | "Looks textured and vintage" | "Uncoated fibrous kraft paper substrate with visible wood pulp tooth and matte ink absorption, paired with chiseled woodblock stamp lettering showing subtle organic ink-bleed edges" |
-| **Honest Specificity** | "Show a delicious meal" | "Artisanal food still life: earthenware bowl with visible shredded beef tendon and golden oil droplets on broth, resting on a worn dark-teak wooden surface with satin grain, 45-degree directional window light" |
+| **Tactile Substrate Physics** | "Looks textured and vintage" | "Uncoated fibrous kraft paper substrate with visible wood pulp tooth and matte ink absorption, paired with chiseled woodblock stamp lettering showing subtle organic ink-bleed edges" |
+| **Visual Synecdoche & Craft Truth** | "Show a delicious meal and kitchen" | "Authentic culinary synecdoche: macro close-up of a hand-carved volcanic stone cobek with crushed red chilies, garlic oil droplets, and coarse sea salt crystals; zero generic smiling cartoon mascots" |
+| **Optical Lighting & Grounding** | "Nice bright lighting" | "Directional 45-degree raking daylight from left, casting crisp contact shadows and ambient occlusion beneath the ceramic bowl, firmly grounding it to the weathered teak surface" |
 
 ---
 
