@@ -52,6 +52,13 @@ Image models reproduce typography with vastly greater precision when directed us
 | **Transitional / Old Style Serif** | Moderate stroke contrast, diagonal stress, bracketed serifs, organic warmth | Dignified, permanent, literate, trustworthy, authentic | Heritage institutions, formal menus, traditional Jamu branding |
 | **Sign-Painter Casuals / Brush Enamel** | Flared brush terminals, gestural stroke stress, hand-painted enamel character | Energetic, local, welcoming, authentic human touch | Indonesian warung banners, pasar stall signage, street food heroes |
 | **Chiseled Relief / Woodblock** | Angular gouge terminations, slight organic asymmetries, stamped ink texture | Raw, artisanal, small-batch, grounded, traditional | Stone-ground sambal, artisan coffee, traditional craft labels |
+| **Display Serif Revival** | High-contrast strokes, dramatic thick-thin transitions, large x-height, ornamental ball terminals | Elevated, sophisticated, editorial, contemporary premium |
+| **Decorative / Novelty Display** | Unique structural features: inline, stencil, 3D, shadowed, textured, or themed shapes | Event-specific, seasonal, playful emphasis, one-use headlines |
+| **Script & Calligraphic** | Continuous flowing strokes, pen-derived forms, varying from formal copperplate to casual brush | Personal warmth, invitation quality, artisanal character, feminine elegance |
+| **Hand-lettering & Brush** | Irregular stroke weight, visible brush or pen texture, organic imperfections, unique to each execution | Authentic, handmade, personal, street art, artisanal craft |
+| **Vernacular Sign-Painter Extended** | Bold outlines, drop shadows, dimensional shading, high-contrast fills, optimized for distance | Street-level energy, festive, approachable, Indonesian commercial tradition |
+| **Stencil & Industrial** | Broken letterforms suggesting spray-paint or cut-out origin, utilitarian geometry | Raw, industrial, military, workshop, masculine utility |
+| **Retrofuturistic / Space Age** | Extended horizontal proportions, rounded geometric forms, 1960s-70s space-era optimism | Tech-forward nostalgia, creative studios, experimental food concepts |
 
 ---
 
@@ -70,6 +77,18 @@ $$\text{Text Element} = \text{Verbatim String} + \text{Role} + \text{Classificat
 
 - **Weak:** *"Clean font for the contact number"*
 - **Masterclass:** *"Contact 'WA 0812-3456-7890' set in high-contrast neutral neo-grotesque bold numerals, clean open counters, rendered crisply in deep navy (#0F2444) on a luminous white base strip"*
+
+### Typography personality axes
+
+When developing typographic direction, consider these independent personality dimensions:
+- **Formal ↔ Casual:** Court invitation vs handwritten note
+- **Loud ↔ Quiet:** Massive condensed display vs delicate hairline caption
+- **Geometric ↔ Organic:** Futura vs hand-lettered brush
+- **Historical ↔ Contemporary:** Caslon vs Neue Haas Grotesk
+- **Singular ↔ Systematic:** One expressive display face vs a disciplined type system
+- **Culture-specific ↔ Culture-neutral:** Vernacular sign-painter vs neutral grotesque
+
+These axes are independent — a typeface can be formal AND loud (monumental serif), or casual AND quiet (relaxed humanist sans at small size). Combine axes deliberately.
 
 ---
 

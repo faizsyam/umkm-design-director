@@ -155,11 +155,14 @@ When generating food or product visuals without reference photos, specify realis
 
 ---
 
-## 8. Length & Tool Notes
+## 8. Length & Effectiveness
 
-- **Length:** 220–420 words per prompt. High information density enables complete art direction within a compact footprint.
-- **Midjourney v6+:** Add `--ar [ratio]` flag at the end of the prompt.
-- **Ideogram v2+ / DALL-E 3 / Imagen / Flux:** Set aspect ratio in the UI.
+- **Length guidance:** 220–420 words per prompt for most outputs. This is guidance, not a target — shorter is better if every sentence changes the visual output. Do not pad prompts to reach a minimum length. A 180-word prompt with zero redundancy outperforms a 350-word prompt with filler.
+- **The redundancy test:** Before delivering a prompt, check each sentence: "If I remove this sentence, will the generated image change?" If not, remove it.
+- **Cross-block overlap:** Information should appear in exactly one block. If the material substrate is described in CREATIVE DIRECTION, do not repeat it in HERO VISUAL. If the type character is defined in VISUAL SYSTEM, do not re-describe it in CREATIVE DIRECTION.
+- **OBJECTIVE and CONCEPT blocks:** These orient the image model but should contain only information that changes the visual output. Remove contextual narration, viewer behavior descriptions, and marketing language that has no visual consequence.
+- **Midjourney v6+:** Add `--ar [ratio]` and consider `--style raw --s 100` flags to reduce AI beautification defaults.
+- **Ideogram v2+ / DALL-E 3 / Imagen / Flux:** Set aspect ratio in the UI. For Flux, use dense descriptive prose. For DALL-E 3, explicitly instruct no CGI or digital rendering artifacts.
 
 ---
 

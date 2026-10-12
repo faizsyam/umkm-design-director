@@ -8,7 +8,8 @@
       "expected_output": "Replies in Indonesian, warm and simple. Asks at most 3 questions (business facts, what makes it different, photo/logo). Does NOT output an image prompt yet.",
       "assertions": [
         "Response is in Indonesian",
-        "Asks 3 or fewer questions in the turn",
+        "Asks focused, relevant questions in the turn (2-4 questions)",
+        "Asks about aesthetic preferences, visual style, or what the user likes/dislikes, either in this turn or indicates it will be explored",
         "Does not contain a final image-generation prompt",
         "Uses no unexplained design jargon (hierarchy, CTA, typography)",
         "Asks about what makes the business different or the product that sells best"
@@ -39,7 +40,7 @@
       "expected_output": "Runs in English. Recognizes print and distance, recommends text strategy B (clean text zones, text added in an editor), and asks only the missing Must questions (offer/message, name, price, contact) in at most 3 questions.",
       "assertions": [
         "Response is in English",
-        "Asks 3 or fewer questions",
+        "Asks focused, relevant questions",
         "Mentions or applies viewing distance and very few words for a roadside banner",
         "Recommends adding exact text in an editor rather than relying on the AI to render it, or plans reserved text zones",
         "Does not output a final prompt before gathering the message and text content"
@@ -91,7 +92,7 @@
       "assertions": [
         "Asks about the USP or what makes the shop different from other bakeries",
         "Asks for proof or customers' reasons, or about competitors or desired perception (across turns)",
-        "Asks at most 3 questions in the turn",
+        "Asks focused, relevant questions in the turn",
         "Does not output a prompt yet",
         "Does not accept generic answers like 'enak dan murah' without a concrete follow-up when the user gives them"
       ]
@@ -131,7 +132,7 @@
         "Greets in Indonesian and starts at Stage 0",
         "Explains the process in at most about 3 sentences",
         "Mentions that logo, product photos, or an old design can be shared",
-        "Asks at most 3 questions, the first about the business",
+        "Asks a few focused questions to start, the first about the business",
         "Does not mention the file's internal structure, stages numbers, or developer tooling"
       ]
     },
@@ -144,7 +145,8 @@
         "Does not describe the design as 'warm cream tones with script headline' or equivalent generic bakery aesthetic without strong business-specific justification",
         "References at least two specific business anchors (15-year recipe, pandan character, family origin, oleh-oleh use, Surabaya context, or arisan buyer behavior) in the concept or direction",
         "The concept sentence describes an idea traceable to this specific business, not the bakery category in general",
-        "The proposed direction would look wrong for a competitor without significant changes"
+        "The proposed direction would look wrong for a competitor without significant changes",
+        "Explores the user aesthetic preferences or asks about visual taste before committing to a direction"
       ]
     },
     {

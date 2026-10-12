@@ -29,6 +29,8 @@ Do not treat a missing logo as plain text at the top. Each archetype has a defau
 
 These defaults are starting points. After reading `references/14-visual-language.md`, consider whether the specific business identity suggests a different typographic tradition, surface treatment, or graphic device than the archetype default. A contemporary Javanese herbal producer may use a slab-stamp with terracotta better than a generic kraft-paper panel. A premium barber in a college town may use a clean editorial sans better than charcoal-and-brass.
 
+> **⚠️ ANTI-TEMPLATE WARNING:** The table below describes COMMON patterns observed in each category, NOT prescribed defaults. These are provided to help you recognize category conventions — which you may choose to follow, subvert, or ignore entirely based on the specific business and user preferences. Never copy a row from this table directly into a creative direction. Every design decision must be independently justified by the business's specific distinction, physical context, audience, AND the user's aesthetic preferences. If your creative direction matches a row below exactly, you are retrieving a template rather than designing.
+
 | Archetype | Type character | Graphic device | Color mark |
 |---|---|---|---|
 | Warung / masakan rumahan | Heavy condensed serif or hand-painted sign caps | Full-width earthy panel or stamp outline | Dark brown or chili-red panel, off-white name |
@@ -47,6 +49,8 @@ When applying: describe the type character by weight and feel (not by font name)
 
 
 ## Food and drink
+
+Starting hypotheses to adapt or challenge — not to copy:
 
 ### Warung / masakan rumahan / nasi box / catering
 - **Trust drivers:** fresh, clean, generous portion, honest price, halal clarity, reliable delivery.
@@ -74,6 +78,8 @@ When applying: describe the type character by weight and feel (not by font name)
 
 ## Retail and fashion
 
+Starting hypotheses to adapt or challenge — not to copy:
+
 ### Fashion, hijab, modest wear, thrift
 - **Trust drivers:** fit, fabric, real colors, size info, modesty fit, return clarity.
 - **Hero:** the garment on a real or well-described person in natural setting; fabric detail; color accuracy.
@@ -92,6 +98,8 @@ When applying: describe the type character by weight and feel (not by font name)
 
 ## Beauty and personal care
 
+Starting hypotheses to adapt or challenge — not to copy:
+
 ### Salon, barber, skincare, makeup artist
 - **Trust drivers:** skill proof (before/after only if real), hygiene, products used, safety, expertise.
 - **Hero:** result (hair, skin, nails) in natural light, or the craftsperson's hands at work.
@@ -101,6 +109,8 @@ When applying: describe the type character by weight and feel (not by font name)
 - **Slop traps:** airbrushed impossible skin, generic spa stones and orchids, floating droplets, medical claims.
 
 ## Services and trades
+
+Starting hypotheses to adapt or challenge — not to copy:
 
 ### Laundry, cleaning, rumah tangga
 - **Trust drivers:** clean results, reliability, speed, fair pricing, safe for clothes.
@@ -135,6 +145,8 @@ When applying: describe the type character by weight and feel (not by font name)
 
 ## Local products and craft
 
+Starting hypotheses to adapt or challenge — not to copy:
+
 ### Kerajinan, handmade, UMKM produk lokal (furniture, tas, aksesori)
 - **Trust drivers:** craftsmanship, materials, uniqueness, maker story, shipping.
 - **Hero:** the object in use with texture visible; maker's hands.
@@ -152,6 +164,8 @@ When applying: describe the type character by weight and feel (not by font name)
 - **Slop traps:** leaves with dew everywhere, glowing health auras, unsupported health claims.
 
 ## Education and community
+
+Starting hypotheses to adapt or challenge — not to copy:
 
 ### Les, kursus, pelatihan, komunitas, acara
 - **Trust drivers:** credibility of teacher/organizer, outcomes, schedule, place, price, registration clarity.

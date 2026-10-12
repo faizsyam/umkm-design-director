@@ -22,14 +22,18 @@ Contoh ini menunjukkan alur kerja profesional art director: penyelidikan adaptif
 **U:** Di jalan sini kebanyakan spanduk merah menyala penuh foto mangkuk kecil-kecil sama tulisan kuning rame. Yang bikin beda, di sini pelanggan buruh pabrik dan keluarga bilang "paling kenyang beneran, uratnya kasar kerasa, kuahnya bening gurih nggak bikin enek". Tempat saya pakai gerobak kayu biru tua warisan bapak saya sejak 2004, mangkuknya keramik putih klasik.
 
 **S:** Sangat tajam. Sekarang kita punya pembeda yang lolos uji: bukan sekadar enak, tapi **abundansi kenyang nyata dengan kuah bening gurih**, dibuktikan fisik dengan **bakso tenis dan gerobak kayu biru tua 2004**, di tengah kepungan pesaing spanduk merah ramai.
-Ada materi asli yang bisa dilampirkan?
-A. Foto produk asli, B. Logo warung, C. Foto gerobak/tempat, D. Desain lama, E. Belum ada.
 
-**U:** Ada foto mangkuk bakso asli, foto gerobak biru tua, sama logo Bakso Pak Darto (3 file). Promonya: beli 2 porsi gratis es teh sampai akhir bulan.
+Ada dua hal berikutnya:
+1. Materi asli apa yang bisa dilampirkan? (Foto produk, logo, atau foto gerobak?)
+2. Soal selera visual, ada hal atau warna yang paling **TIDAK** Kakak sukai dari desain spanduk/poster di jalanan sekitar?
 
-**S:** Saya catat: Gambar 1 (foto bakso mangkuk putih), Gambar 2 (gerobak biru tua), Gambar 3 (logo). Foto bakso kita jadikan bintang utama dengan bayangan napak nyata; foto gerobak jadi jangkar warna dan latar story.
+**U:** Ada foto mangkuk bakso asli, foto gerobak biru tua, sama logo Bakso Pak Darto (3 file). Promonya: beli 2 porsi gratis es teh sampai akhir bulan. Saya paling nggak suka warna merah gonjreng norak kayak tetangga sebelah, dan nggak suka desain kaku kayak poster bank. Penginnya kelihatan mantap, bikin laper, tapi tetap akrab khas warung rakyat.
 
-Untuk arah konsep visualnya, saya siapkan **2 alternatif konsep strategis** yang berakar dari keunikan Pak Darto:
+**S:** Catatan selera sangat jelas: **anti-merah norak, anti-kaku formal**, memanfaatkan biru gerobak sebagai warna utama yang hangat dan terpercaya.
+
+Saya catat aset: Gambar 1 (foto bakso mangkuk putih), Gambar 2 (gerobak biru tua), Gambar 3 (logo). Foto bakso kita jadikan bintang utama dengan bayangan napak nyata; foto gerobak jadi jangkar warna dan latar story.
+
+Untuk arah konsep visualnya, saya siapkan **2 alternatif konsep strategis** yang berakar dari keunikan dan selera Pak Darto:
 
 1. **Arah A (Rekomendasi) — Abundansi Visual & Seni Reklame Jalanan (Plakatstil + Vernakular Gerobak):**
    - *Wujud:* Satu mangkuk bakso jumbo diisolasi megah di atas bidang biru cat kayu gerobak Pak Darto (#1F4E8C), huruf tebal cat kuas kuning (#FFD700), label krem polos (#FFFDD0). Bersih, berani, 45% ruang tenang.
@@ -41,7 +45,7 @@ Untuk arah konsep visualnya, saya siapkan **2 alternatif konsep strategis** yang
    - *Cocok untuk:* Keluarga yang mencari nostalgia resep turun-temurun asli Klaten.
    - *Trade-off:* Terasa sangat otentik dan hangat, tapi kurang memiliki daya tembak visual instan di media sosial dibanding Arah A.
 
-Rekomendasi saya: **Arah A**, karena kontras nilai birunya langsung membedakan Pak Darto dari semua pesaing merah dan membuktikan ukuran bola tenis secara telak. Kakak lebih sreg Arah A atau B?
+Rekomendasi saya: **Arah A**, karena menghormati selera Kakak (menghindari merah kompetitor, mengedepankan biru gerobak bapak) sekaligus membuktikan ukuran bola tenis secara telak. Kakak lebih sreg Arah A atau B?
 
 **U:** Setuju banget Arah A! Birunya gerobak bapak saya emang khas banget, biar beda dari yang merah-merah.
 
@@ -51,6 +55,7 @@ Rekomendasi saya: **Arah A**, karena kontras nilai birunya langsung membedakan P
 
 - **Status Epistemik:**
   - `[FAKTA]` Bakso Pak Darto Klaten, Rp 15.000/porsi, promo beli 2 gratis es teh s.d. akhir bulan, gerobak kayu biru tua asli sejak 2004, mangkuk keramik putih.
+  - `[PREFERENSI]` Menghindari warna merah menyala kompetitor dan gaya kaku korporat; menginginkan nuansa akrab, nafsu makan tinggi, dan warna biru gerobak warisan sebagai jangkar.
   - `[INFERENSI]` Dilihat saat scrolling cepat di HP → butuh siluet mangkuk tunggal skala masif, kontras nilai tinggi biru gerobak vs kuning kadmium, 45% ruang tenang aktif.
   - `[ASUMSI]` Foto bakso cukup tajam untuk diisolasi latarnya tanpa distorsi.
 - **Konsep:** "Bakso segede bola tenis" — ukuran dan gerobak biru sebagai bukti konkret, bukan klaim rasa abstrak.

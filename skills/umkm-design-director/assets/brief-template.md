@@ -38,6 +38,21 @@ Every decision must trace directly back to business distinction, audience postur
 
 ---
 
+## 2b. Aesthetic Preferences & Brand Personality (Track 2)
+
+- [PREFERENSI] Colors liked:
+- [PREFERENSI] Colors disliked / dealbreakers:
+- [PREFERENSI] Mood / personality (from contrast pairs): (e.g., warm-akrab / rapi-profesional / ramai-meriah / bersih-simpel)
+- [PREFERENSI] Visual references shared: (description of what the user admires, what specific qualities they respond to)
+- [PREFERENSI] Anti-preferences / dislikes: (specific visual treatments the user finds unappealing)
+- [PREFERENSI] Brand spatial metaphor: (e.g., "lebih mirip Pasar Santa" or "suasana Senopati")
+- [DELEGASI] Aesthetic decisions delegated to designer:
+- [INFERENSI] Emotional-to-visual translation: [Client phrase] → [specific visual parameter]
+
+Note: [PREFERENSI] items carry equal weight to [FAKTA]. They must be honored in all concept territories unless a functional conflict is identified, explained, and approved by the user.
+
+---
+
 ## 3. Physical Context, Audience & Category Check (Stage 3)
 
 **Physical Context:**
@@ -78,6 +93,7 @@ Every decision must trace directly back to business distinction, audience postur
 2. Territory B: [Name, strategic visual logic, aesthetic tradition, commercial trade-off]
 3. Territory C (optional): [Name, strategic visual logic, aesthetic tradition, commercial trade-off]
 - Selected Territory: [A/B/C] (Confirmed by client or stated under validated recommendation)
+- Preference Alignment Check: All [PREFERENSI] items honored Y/N. If any overridden, trade-off explained and approved Y/N
 
 **Visual Thesis Formulation (`15-creative-direction-framework.md`):**
 - Primary Visual Lineage: [e.g. German Plakatstil / Mid-century litho / Swiss Modernist / Nusantara vernacular]

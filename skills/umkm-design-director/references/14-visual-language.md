@@ -262,6 +262,36 @@ Festive abundance, pasar malam celebration graphics, traditional market banners.
 - **Form & Edges:** Delicate, organic contours; fine cross-hatching for volume; natural leaf venation and root textures.
 - **Application:** Traditional herbal medicine (jamu), organic farm produce, artisanal honey, specialty loose-leaf tea.
 
+### 2.4 Grafis Nusantara / Archival Indonesian Ephemera
+
+- **Visual Language:** Reinterpreted vintage Indonesian commercial graphics from the 1960s-1980s: kretek cigarette wrappers, jamu packaging, firecracker labels, matchbox art, traditional bus ticket stubs. Dual-tone spot-color printing, risograph halftone screens, quirky expressive lettering, localized botanical illustrations, gold bronze ink accents.
+- **Form & Edges:** Slightly irregular hand-drawn contours, halftone dot patterns, deliberate ink misregistration, layered overprint effects.
+- **Application:** Heritage food products seeking authenticity without tourist kitsch, artisanal producers, traditional remedy brands, contemporary cafes with nostalgic identity.
+
+### 2.5 Contemporary Tropical Studio (Modern Indonesian Minimalism)
+
+- **Visual Language:** Clean architectural restraint inspired by contemporary Indonesian design studios (Thinking*Room, Nusae): warm neutral palettes (travertine stone, sage grey, off-black charcoal), generous editorial negative space, bold geometric neo-grotesque typography, organic material accents.
+- **Form & Edges:** Rectilinear discipline with warm-toned surfaces, sharp photographic edges, asymmetric editorial layouts with generous breathing room.
+- **Application:** Urban premium cafes, modern lifestyle brands, specialty food with contemporary positioning, design-literate audiences, professional services.
+
+### 2.6 Y2K / Retro-Digital Revival
+
+- **Visual Language:** Nostalgic early-internet and late-1990s digital aesthetics: gradient mesh fills, chrome/metallic type effects, pixel-influenced geometry, saturated acidic color palettes (lime, hot pink, electric blue), bubble forms.
+- **Form & Edges:** Rounded pill shapes, soft gradient transitions, outlined geometric frames, sticker-sheet composition.
+- **Application:** Youth-targeted beverage brands, trendy snack packaging, campus-adjacent businesses, pop-up events, viral food concepts.
+
+### 2.7 Illustrated Flat / Contemporary Illustration
+
+- **Visual Language:** Custom flat illustration with personality: simplified geometric human figures, stylized food/product illustrations, limited spot-color palettes, hand-drawn imperfections, playful compositional rhythm.
+- **Form & Edges:** Clean vector contours with hand-drawn personality, flat color fills with occasional texture overlay, simplified but characterful shapes.
+- **Application:** Friendly F&B brands, children/family-oriented services, community businesses, playful packaging, social media graphics.
+
+### 2.8 Documentary / Authentic Lifestyle Photography
+
+- **Visual Language:** Candid, unposed photography that captures real people in real environments: natural available light, genuine expressions, authentic Indonesian settings, editorial crop and framing, film-stock color grading (warm Kodak or cool Fuji tones).
+- **Form & Edges:** Natural photographic edges, shallow depth of field, environmental context visible, honest imperfections.
+- **Application:** Community-oriented businesses, businesses where the maker/owner IS the brand, food where the preparation process is the story, services built on personal trust.
+
 ---
 
 ## Part 3 — Indonesian Regional & Vernacular Graphic Traditions
@@ -396,6 +426,8 @@ Swiss International Style asymmetric grid + Commercial screenprinting technique 
 ---
 
 ## Quick Decision Matrix
+
+> **⚠️ This matrix is an anti-cliché reference, NOT a selection guide.** The pairings below show common category associations that produce competent but predictable results. Use them as starting points to challenge and combine — not as automatic defaults. For every business, explore at least one direction that does NOT appear in this matrix. The best creative directions often come from unexpected combinations or cross-domain inspiration.
 
 | Business Archetype | Primary Lineage Candidates | Image-Making Technique | Key Visual Vocabulary | Cliché Trap to Avoid |
 |---|---|---|---|---|

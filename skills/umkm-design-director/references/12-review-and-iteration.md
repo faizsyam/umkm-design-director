@@ -25,6 +25,18 @@ Check in this order (functional first, aesthetic last). Items 10-11 apply whenev
 
 Report in plain language: "3 hal sudah bagus, 2 hal perlu diperbaiki: ..." and give the fixes.
 
+## 2b. Aesthetic quality assessment (pre-generation and post-generation)
+
+Before delivering a prompt AND when reviewing a generated result, evaluate aesthetic quality — not just technical compliance:
+
+1. **Conceptual distinctiveness:** Is the creative direction traceable to THIS specific business, or is it a category default? Would a different business in the same category get a meaningfully different direction?
+2. **Visual interest:** Does the direction produce something a design-literate viewer would find compelling, or merely competent? Is there visual tension, surprise, or delight?
+3. **Aesthetic coherence:** Do all elements (type, color, imagery, texture, space) feel like they belong to the same visual world, or are they assembled from unrelated sources?
+4. **User preference alignment:** Does the direction honor the user's stated aesthetic preferences? Were any overrides explained and approved?
+5. **Diversity from previous work:** Is this direction substantially different from what you would produce for the last 3 businesses in this category? If not, investigate what is causing the repetition and make a deliberate departure.
+
+This is NOT a checklist to be mechanically completed. It requires genuine aesthetic judgment — asking whether the design direction is *good*, not just whether it follows rules.
+
 ## 3. Symptom → fix
 
 | What you see | Likely cause | One-change fix to the prompt |

@@ -115,11 +115,24 @@ To produce an art-directed prompt, the designer must never impose a single preco
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
-### The 3 Divergent Conceptual Territories:
-From the verified distinction, explore at least two (ideally three) genuinely distinct territories:
-- **Territory A (Abundance & Direct Urgency):** High scale contrast, monumental hero silhouette, bold declarative type, unadorned high-contrast background field. (Best for roadside speed, immediate appetite appeal).
-- **Territory B (Heirloom Craft & Provenance):** Tactile relief or vintage lithography, earthy mineral palette, weathered physical substrates, period-appropriate display lettering. (Best for deep authenticity, gift-giving, premium craft).
-- **Territory C (Modern Functional Clarity):** Asymmetric modular grid, objective clean typography, generous quiet negative space, crisp studio lighting. (Best for urban professionals, wellness, high-trust services).
+### Generating Divergent Territories (Not Retrieving Fixed Archetypes)
+
+The three territories must be INVENTED for each specific business, not selected from a fixed menu. To generate genuinely distinct territories:
+
+1. **Start from user preferences and business context together.** If the user likes bold colors and hand-crafted feel but runs a modern cafe, explore how to reconcile these — not by ignoring one input.
+2. **Diverge along orthogonal axes.** Each territory should differ from the others across at least 3 of these dimensions: conceptual premise (the story), visual tradition, graphic density/tension, typography personality, color philosophy, material substrate, and emotional register.
+3. **Use the Cliché Landscape Audit.** Before generating options, identify the 3-5 most exhausted visual tropes in the business category and exclude them from ALL territories.
+4. **Inject cross-domain inspiration.** At least one territory should draw from an unexpected visual tradition or cross-domain metaphor — not the obvious category association.
+5. **Honor stated preferences.** If the user has expressed aesthetic preferences (colors, mood, style references, dislikes), at least 2 of 3 territories must be compatible with them. If one territory deliberately challenges a preference, explain why and present it as an experimental option.
+
+The following are EXAMPLES of territory types that might emerge, NOT a fixed selection menu:
+- Abundance & Direct Urgency (monumental hero, bold declaration, maximum contrast)
+- Heirloom Craft & Provenance (tactile heritage, earthy materials, period typography)
+- Modern Functional Clarity (asymmetric grid, objective photography, generous negative space)
+- Vernacular Pop & Street Energy (hand-painted signage, saturated primaries, festive density)
+- Editorial & Contemporary Studio (refined photography, restrained typography, warm neutrals)
+- Archival Nostalgia & Ephemera (vintage print techniques, risograph grain, muted spot colors)
+- Botanical & Natural Illustration (fine-line ink, watercolor tint, organic contours, antique paper)
 
 Evaluate each territory's commercial trade-offs, recommend the strongest fit, and let the client confirm the direction.
 
@@ -152,6 +165,8 @@ A master art director does not merely specify the overall style; they establish 
 
 ### The Visual Swap Test
 > *If you remove the business name and logo, does the graphic still uniquely reflect this specific business, or could it be swapped into any competitor's storefront?*
+
+The aesthetic alignment test: beyond passing the swap test (unique to this business), verify that the direction also aligns with the user's stated aesthetic preferences. A design that is business-specific but aesthetically unwanted by the user is still a failure.
 
 ### Superficial Personalization (Fails the Test)
 - Taking a generic corporate template or pastel bakery template and pasting the owner's menu text into it.

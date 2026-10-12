@@ -67,7 +67,9 @@ Work in this order:
 
 Socioeconomic fit matters: a design too far above or below the audience's world reads as "not for me" or "not trustworthy". Match *aspiration*, not just demographics.
 
-## 7. Palette recipes (starting points to adapt, not to copy)
+### Starting palette explorations (adapt, combine, or discard — never copy)
+
+These are EXAMPLES of palette directions that have worked in specific contexts. They are explicitly non-exhaustive and must never be applied as defaults. Before using any of these, verify: (1) Does this palette match the user's stated color preferences? (2) Is this palette distinct from what competitors use? (3) Does this palette serve the physical viewing context (outdoor contrast, indoor subtlety)? If any answer is no, develop a different palette.
 
 - **Warm local eatery:** deep warm brown or terracotta field, off-white text, chili-red accent; hand-lettered or sign-painter type.
 - **Modern kopi/kekinian:** dark espresso or muted olive field, soft warm white, one citrus-orange or caramel accent.
@@ -77,6 +79,20 @@ Socioeconomic fit matters: a design too far above or below the audience's world 
 - **Craft/handmade:** natural paper tone, charcoal or indigo ink, one earthen accent drawn from the product.
 - **Premium/gift/hampers:** deep, desaturated base (bottle green, oxblood, navy) with muted gold or warm ivory type; lots of space.
 - **Ramadan/Lebaran seasonal:** deep emerald or night blue, warm gold, soft ivory; subtle, not glittery.
+- **Unexpected contrast play:** Pair a deep jewel tone with an acidic contemporary accent — e.g., deep plum field with chartreuse accent, or midnight teal with warm coral.
+- **Monochromatic depth:** Build the entire palette from tonal variations of a single hue family — e.g., five values of warm terracotta from near-white to near-black. Powerful for artisanal and premium positioning.
+- **Muted contemporary neutrals:** Warm stone, sage grey, charcoal, with a single vivid accent. Contemporary studio aesthetic.
+- **High-saturation tropical:** Papaya orange, deep leaf green, bright turmeric yellow against rich dark grounds. Authentic to Indonesian visual culture without defaulting to brown/earth.
+- **Cool modern confidence:** Slate blue, cool grey, crisp white with warm brass or golden accent. Professional services, tech-adjacent businesses.
+
+### Color relationship vocabulary
+
+When describing color interactions in creative direction, use precise terms:
+- **Analogous harmony:** Colors adjacent on the wheel (warm earth tones, cool blues) — creates unity and calm.
+- **Split-complementary tension:** A base color plus the two colors adjacent to its complement — creates energy with more nuance than direct complementary.
+- **Triadic balance:** Three colors equally spaced — creates vibrant, balanced compositions when one dominates.
+- **Chromatic grey and near-neutrals:** Greys mixed with a color undertone (warm grey, cool grey, green-grey) — sophisticated, contemporary.
+- **Value contrast as the primary tool:** Regardless of hue choices, the lightness/darkness relationship between elements determines legibility and hierarchy. For outdoor print, value contrast matters more than hue contrast.
 
 ## 8. AI color defaults to avoid
 

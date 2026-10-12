@@ -56,16 +56,17 @@ Each step directly informs the next. Upstream business truth governs downstream 
 
 Read `references/13-design-thinking.md`, `references/14-visual-language.md`, and `references/15-creative-direction-framework.md`. These constitute the intellectual and art-direction core of the system.
 
-### Stage 1: Understand the business & verify distinction (The 4C Gate)
-Deeply understand the business before thinking visually. Read `references/02-business-distinction.md`.
-Never accept generic marketing adjectives at face value. Put claims through the **4C Distinction Verification Gate**:
-1. **Commonality Check:** Do rivals make the same claim? If yes, it is a category expectation; probe micro-differentiators.
-2. **Credibility & Concrete Proof:** Verifiable physical facts (simmering hours, recipe years, ingredients, visible craft).
-3. **Customer Buying Driver:** Why buyers actually part with money (in customer words, not owner pride).
-4. **Competitor Contrast:** What 2–3 rivals look and sound like; claim open visual territory while retaining category cues.
+### Stage 1: Understand the business, verify distinction (The 4C Gate) & discover aesthetic preferences
+Deeply understand the business and aesthetic preferences before thinking visually. The interview runs two parallel tracks: business distinction AND aesthetic taste. Read `references/01-interview-guide.md` and `references/02-business-distinction.md`.
+- **Track 1 (Business Distinction):** Never accept generic marketing adjectives at face value. Put claims through the **4C Distinction Verification Gate**:
+  1. **Commonality Check:** Do rivals make the same claim? If yes, it is a category expectation; probe micro-differentiators.
+  2. **Credibility & Concrete Proof:** Verifiable physical facts (simmering hours, recipe years, ingredients, visible craft).
+  3. **Customer Buying Driver:** Why buyers actually part with money (in customer words, not owner pride).
+  4. **Competitor Contrast:** What 2–3 rivals look and sound like; claim open visual territory while retaining category cues.
+- **Track 2 (Aesthetic Discovery):** Actively discover owner aesthetic preferences: colors they like or dislike, mood, personality, visual references, and existing ideas or instincts.
 
 Tag all brief data with epistemic transparency: `[FAKTA]` (verified fact), `[INFERENSI]` (deduction), `[ASUMSI]` (working hypothesis), `[GAP]` (critical unknown).
-*Gate:* Distinction Brief synthesized, 4C Gate verified, and visual swap test passed.
+*Gate:* Distinction Brief synthesized, 4C Gate verified, aesthetic preferences captured, and visual swap test passed.
 
 ### Stage 2: Audit materials & assets
 Audit real assets so the design builds around truth. Read `references/03-reference-images.md`.
@@ -105,7 +106,7 @@ Determine what the viewer must do, then ruthlessly rank content. Read `reference
 Develop the organizing visual idea and formulate the **Visual Thesis**. Read `references/13-design-thinking.md`, `references/14-visual-language.md`, and `references/15-creative-direction-framework.md` (mandatory).
 - **Strategic Concept Divergence:** Never impose a single predetermined concept. Develop and present **2 to 3 genuinely distinct conceptual territories** rooted in the verified distinction, each with a different strategic angle, aesthetic tradition, and commercial trade-off. Recommend one with business rationale, but give the owner real agency.
 - **Formulating the Visual Thesis:** Once confirmed, synthesize the overarching artistic grammar:
-  $$\text{Visual Thesis} = \text{Visual Lineage} + \text{Image-Making Technique} + \text{Form Language/Edges} + \text{Material Substrate} + \text{Typographic Anatomy}$$
+  $$\text{Visual Thesis} = \text{Visual Lineage} + \text{Image-Making Technique} + \text{Form Language/Edges} + \text{Material Substrate} + \text{Typographic Anatomy} + \text{Color Philosophy \& Palette} + \text{Spatial / Compositional Balance} + \text{User Aesthetic Preferences Integration}$$
 - **Concept sentence format:**
   *[Single dominant visual idea], feels [feeling 1] and [feeling 2], for [specific audience], seen at [distance/duration] on [physical medium]. Visual logic: [why this serves the business and objective].*
 *Gate:* Concept selected from divergent options and formal Visual Thesis formulated; passes the swap test.
@@ -175,6 +176,7 @@ Each prompt must:
 13. **One family, standalone prompts.** Multiple outputs share one word-for-word identical Visual System. Prompts are completely self-contained.
 14. **Creative brief, not coordinate blueprint.** Specify what the design communicates, what visual world it inhabits, and its essential constraints. Let the model compose creatively.
 15. **Final Integrated Artwork default.** All typography, pricing, and branding are rendered directly by the image model. No reserved text zones unless specifically requested.
+16. **User aesthetic preferences.** User aesthetic preferences — explicitly stated color preferences, mood preferences, style likes/dislikes, and visual references — carry equal weight to business-derived design logic. When a user has stated a clear preference, the design direction must honor it unless there is a specific functional reason not to (e.g., poor legibility). In that case, explain the trade-off and seek agreement rather than silently overriding.
 
 ---
 
@@ -204,6 +206,9 @@ Each prompt must:
 - [ ] Direction informed by `14-visual-language.md` and `15-creative-direction-framework.md`; free of AI clichés.
 - [ ] Word-for-word identical Visual System defined across all prompts in the set.
 - [ ] Stage 7 Creative Direction Summary written before composing any prompt; swap test verified.
+- [ ] Does this direction produce a design that would be genuinely compelling and visually interesting, not merely technically correct?
+- [ ] Is this direction meaningfully different from what the system would produce for a different business in the same category?
+- [ ] Have user aesthetic preferences been honored? If any were overridden, was the trade-off explained and approved?
 
 **Stage 8: Image-Generation Prompts:**
 - [ ] Fully standalone: works in a fresh chat with zero cross-prompt dependencies.
@@ -232,7 +237,7 @@ Each prompt must:
 
 | File | Read when |
 |---|---|
-| `references/01-interview-guide.md` | All stages: adaptive inquiry flow, 4C probes, jargon translation table |
+| `references/01-interview-guide.md` | All stages: adaptive inquiry flow, 4C probes, aesthetic preference discovery, jargon translation table |
 | `references/02-business-distinction.md` | Stage 1: 4C verification gate, epistemic tracking, competitors, Distinction Brief |
 | `references/03-reference-images.md` | Stage 2: image analysis, treatments, Enhance mode, photo guidelines |
 | `references/04-design-principles.md` | Stages 4, 6: 0.5s category legibility, space budgets, hierarchy, formal visual grammar |

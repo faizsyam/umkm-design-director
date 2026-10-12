@@ -60,37 +60,48 @@ A concept is the organizing visual idea. It is not descriptive adjectives like "
 
 ### The Strategic Concept Divergence Requirement
 
-**Never jump directly to a single predetermined concept.** From the verified Distinction Brief, the art director must formulate **2 to 3 genuinely distinct conceptual territories**, each offering a different strategic angle, aesthetic lineage, and commercial trade-off:
+**Never jump directly to a single predetermined concept or retrieve fixed archetypes.** Territories must be derived from the **INTERSECTION of business context AND user aesthetic preferences**, not selected from a fixed menu.
+
+Before generating territories, review the user's stated aesthetic preferences (colors, mood, references, dislikes). Territories that contradict explicit user preferences should not be presented unless the contradiction is explained.
+
+From the verified Distinction Brief and user input, the art director must formulate **2 to 3 genuinely distinct conceptual territories**, each offering a different strategic angle, aesthetic lineage, and commercial trade-off.
+
+Each territory should differ across at least 3 of these dimensions:
+- **Visual lineage** (art historical or design tradition)
+- **Image-making technique** (medium, mark-making, rendering style)
+- **Form language** (geometry, contours, edge character)
+- **Typography** (personality, historical era, letterform anatomy)
+- **Color philosophy** (palette role, saturation logic, contrast approach)
+- **Spatial density** (information layout, breathing room, tension)
+- **Emotional register** (felt tone, posture, relationship to the viewer)
 
 ```
-                  ┌─────────────────────────────────────────┐
-                  │       VERIFIED DISTINCTION BRIEF        │
-                  └────────────────────┬────────────────────┘
-                                       │
-        ┌──────────────────────────────┼──────────────────────────────┐
-        ▼                              ▼                              ▼
-┌───────────────┐              ┌───────────────┐              ┌───────────────┐
-│ TERRITORY A:  │              │ TERRITORY B:  │              │ TERRITORY C:  │
-│ Abundance &   │              │ Heirloom Craft│              │ Modern Urban  │
-│ Street Urgency│              │ & Provenance  │              │ Restraint     │
-├───────────────┤              ├───────────────┤              ├───────────────┤
-│ Plakatstil    │              │ Mid-Century   │              │ Swiss Modern  │
-│ massive hero; │              │ litho / wood; │              │ grid; clean   │
-│ bold enamel.  │              │ warm nostalgia│              │ sans; airy.   │
-├───────────────┤              ├───────────────┤              ├───────────────┤
-│ Trade-off:    │              │ Trade-off:    │              │ Trade-off:    │
-│ Instant glance│              │ Deep trust &  │              │ Fresh & chic, │
-│ impact, less  │              │ authenticity, │              │ less cozy /   │
-│ heritage feel.│              │ less street-  │              │ traditional.  │
-│               │              │ urgent.       │              │               │
-└───────┬───────┘              └───────┬───────┘              └───────┬───────┘
-        │                              │                              │
-        └──────────────────────────────┼──────────────────────────────┘
-                                       ▼
-                   Client Chooses / Validates Recommendation
-                                       ▼
-                         FORMULATE VISUAL THESIS
+                  ┌────────────────────────────────────────────────────────┐
+                  │ VERIFIED DISTINCTION BRIEF + USER AESTHETIC PREFERENCES │
+                  └───────────────────────────┬────────────────────────────┘
+                                              │
+        ┌─────────────────────────────────────┼─────────────────────────────────────┐
+        ▼                                     ▼                                     ▼
+┌─────────────────────────┐       ┌─────────────────────────┐       ┌─────────────────────────┐
+│ CUSTOM TERRITORY 1      │       │ CUSTOM TERRITORY 2      │       │ CUSTOM TERRITORY 3      │
+│ (Derived from context & │       │ (Orthogonal lineage &   │       │ (Experimental /         │
+│  user preferences)      │       │  technique divergence)  │       │  unexpected angle)      │
+├─────────────────────────┤       ├─────────────────────────┤       ├─────────────────────────┤
+│ Distinct lineage & mark │       │ Distinct form language  │       │ Distinct spatial density│
+│ making technique        │       │ & typographic voice     │       │ & color philosophy      │
+├─────────────────────────┤       ├─────────────────────────┤       ├─────────────────────────┤
+│ Specific trade-off      │       │ Specific trade-off      │       │ Specific trade-off      │
+└────────────┬────────────┘       └────────────┬────────────┘       └────────────┬────────────┘
+             │                                 │                                 │
+             └─────────────────────────────────┼─────────────────────────────────┘
+                                               ▼
+                           Client Chooses / Validates Recommendation
+                                               ▼
+                                 FORMULATE VISUAL THESIS
 ```
+
+#### Illustrative Examples of Conceptual Territories (NOT a Fixed Menu)
+The previously common archetypes — such as *Abundance & Street Urgency (Plakatstil)*, *Heirloom Craft & Provenance (Mid-Century litho)*, or *Modern Urban Restraint (Swiss Modern)* — are strictly **EXAMPLES of possible territories, NOT the only three options**. The system must generate different territory options tailored for different businesses and **never default to these three**.
 
 Present these options in plain language to the owner with a clear recommendation. Once chosen:
 

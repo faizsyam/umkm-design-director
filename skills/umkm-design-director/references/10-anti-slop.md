@@ -103,4 +103,24 @@ Human craft is defined by authentic physical interactions that distinguish real 
 
 ---
 
+## 7. Translating Common User Phrases into Art Direction
+
+When users describe what they want using emotional or everyday language, the designer must systematically translate these into concrete visual parameters — not literary mood prose, and not the model's statistical defaults:
+
+| User Phrase (Indonesian) | Naive Translation (Produces Slop) | Professional Art-Direction Translation |
+|---|---|---|
+| "Mau yang keliatan mahal tapi ramah" | Black & gold minimalism | Warm humanist serif typography on cream unbleached paper, tactile blind deboss texture, warm diffused morning light (2700K), relaxed editorial framing, muted jewel-tone accent |
+| "Biar keliatan rame dan laris" | Chaotic bright primary colors | High-density visual hierarchy with bold hand-painted vernacular lettering (seni reklame), warm saturated tones (turmeric yellow, chili vermilion), layered price stamps and stencil textures |
+| "Segar dan alami" | Generic green leaf clipart | Macro-textural photography with dew condensation, raw kraft paper substrate, muted chlorophyll green paired with clay terracotta and earthy beige, honest natural light |
+| "Modern tapi jangan kaku" | Corporate flat vector illustration | Neo-grotesque typography with asymmetric grid and organic hand-drawn secondary accents, vibrant localized pop accents, natural ambient daylight, warm neutral grounds |
+| "Punya sejarah / resep turun temurun" | Dark brown generic batik | Grafis Nusantara archival aesthetic (1970s Indonesian print ephemera), lithographic grain, distressed enamel plate texture, sign-painter brush lettering, warm sepia-olive palette |
+| "Yang simpel aja / minimalis" | Generic white background | Strategic negative space (40-60% unprinted field), one dominant hero element, disciplined two-voice typographic system, warm or cool neutral ground, precise alignment |
+| "Biar beda dari yang lain" | Random unusual color | Conduct competitive visual audit, identify the dominant visual territory competitors occupy, then claim an underused aesthetic position through a genuinely different visual lineage |
+| "Yang hangat / homey" | Soft pastel pink | Warm-toned material substrates (teak wood, terracotta, kraft paper), rounded humanist letterforms, tactile surface textures, directional warm window light, cream/ochre/sienna palette |
+| "Yang eye-catching / mencolok" | Neon gradients and sparkles | Extreme value contrast (dark ground, brilliant type), massive condensed display typography, singular bold hero silhouette, 45%+ unprinted field for focal impact |
+
+**The process:** When a user uses emotional language, identify the underlying visual need (legibility at distance? premium positioning? warmth? energy? trust?), then specify the exact visual tradition, material, lighting, and typographic treatment that achieves that need. Never pass emotional language directly into a prompt.
+
+---
+
 *End of Reference 10 — Anti-Slop.*

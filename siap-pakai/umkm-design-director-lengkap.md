@@ -42,16 +42,17 @@ Each step directly informs the next. Upstream business truth governs downstream 
 
 Read `references/13-design-thinking.md`, `references/14-visual-language.md`, and `references/15-creative-direction-framework.md`. These constitute the intellectual and art-direction core of the system.
 
-### Stage 1: Understand the business & verify distinction (The 4C Gate)
-Deeply understand the business before thinking visually. Read `references/02-business-distinction.md`.
-Never accept generic marketing adjectives at face value. Put claims through the **4C Distinction Verification Gate**:
-1. **Commonality Check:** Do rivals make the same claim? If yes, it is a category expectation; probe micro-differentiators.
-2. **Credibility & Concrete Proof:** Verifiable physical facts (simmering hours, recipe years, ingredients, visible craft).
-3. **Customer Buying Driver:** Why buyers actually part with money (in customer words, not owner pride).
-4. **Competitor Contrast:** What 2–3 rivals look and sound like; claim open visual territory while retaining category cues.
+### Stage 1: Understand the business, verify distinction (The 4C Gate) & discover aesthetic preferences
+Deeply understand the business and aesthetic preferences before thinking visually. The interview runs two parallel tracks: business distinction AND aesthetic taste. Read `references/01-interview-guide.md` and `references/02-business-distinction.md`.
+- **Track 1 (Business Distinction):** Never accept generic marketing adjectives at face value. Put claims through the **4C Distinction Verification Gate**:
+  1. **Commonality Check:** Do rivals make the same claim? If yes, it is a category expectation; probe micro-differentiators.
+  2. **Credibility & Concrete Proof:** Verifiable physical facts (simmering hours, recipe years, ingredients, visible craft).
+  3. **Customer Buying Driver:** Why buyers actually part with money (in customer words, not owner pride).
+  4. **Competitor Contrast:** What 2–3 rivals look and sound like; claim open visual territory while retaining category cues.
+- **Track 2 (Aesthetic Discovery):** Actively discover owner aesthetic preferences: colors they like or dislike, mood, personality, visual references, and existing ideas or instincts.
 
 Tag all brief data with epistemic transparency: `[FAKTA]` (verified fact), `[INFERENSI]` (deduction), `[ASUMSI]` (working hypothesis), `[GAP]` (critical unknown).
-*Gate:* Distinction Brief synthesized, 4C Gate verified, and visual swap test passed.
+*Gate:* Distinction Brief synthesized, 4C Gate verified, aesthetic preferences captured, and visual swap test passed.
 
 ### Stage 2: Audit materials & assets
 Audit real assets so the design builds around truth. Read `references/03-reference-images.md`.
@@ -91,7 +92,7 @@ Determine what the viewer must do, then ruthlessly rank content. Read `reference
 Develop the organizing visual idea and formulate the **Visual Thesis**. Read `references/13-design-thinking.md`, `references/14-visual-language.md`, and `references/15-creative-direction-framework.md` (mandatory).
 - **Strategic Concept Divergence:** Never impose a single predetermined concept. Develop and present **2 to 3 genuinely distinct conceptual territories** rooted in the verified distinction, each with a different strategic angle, aesthetic tradition, and commercial trade-off. Recommend one with business rationale, but give the owner real agency.
 - **Formulating the Visual Thesis:** Once confirmed, synthesize the overarching artistic grammar:
-  $$\text{Visual Thesis} = \text{Visual Lineage} + \text{Image-Making Technique} + \text{Form Language/Edges} + \text{Material Substrate} + \text{Typographic Anatomy}$$
+  $$\text{Visual Thesis} = \text{Visual Lineage} + \text{Image-Making Technique} + \text{Form Language/Edges} + \text{Material Substrate} + \text{Typographic Anatomy} + \text{Color Philosophy \& Palette} + \text{Spatial / Compositional Balance} + \text{User Aesthetic Preferences Integration}$$
 - **Concept sentence format:**
   *[Single dominant visual idea], feels [feeling 1] and [feeling 2], for [specific audience], seen at [distance/duration] on [physical medium]. Visual logic: [why this serves the business and objective].*
 *Gate:* Concept selected from divergent options and formal Visual Thesis formulated; passes the swap test.
@@ -161,6 +162,7 @@ Each prompt must:
 13. **One family, standalone prompts.** Multiple outputs share one word-for-word identical Visual System. Prompts are completely self-contained.
 14. **Creative brief, not coordinate blueprint.** Specify what the design communicates, what visual world it inhabits, and its essential constraints. Let the model compose creatively.
 15. **Final Integrated Artwork default.** All typography, pricing, and branding are rendered directly by the image model. No reserved text zones unless specifically requested.
+16. **User aesthetic preferences.** User aesthetic preferences — explicitly stated color preferences, mood preferences, style likes/dislikes, and visual references — carry equal weight to business-derived design logic. When a user has stated a clear preference, the design direction must honor it unless there is a specific functional reason not to (e.g., poor legibility). In that case, explain the trade-off and seek agreement rather than silently overriding.
 
 ---
 
@@ -190,6 +192,9 @@ Each prompt must:
 - [ ] Direction informed by `14-visual-language.md` and `15-creative-direction-framework.md`; free of AI clichés.
 - [ ] Word-for-word identical Visual System defined across all prompts in the set.
 - [ ] Stage 7 Creative Direction Summary written before composing any prompt; swap test verified.
+- [ ] Does this direction produce a design that would be genuinely compelling and visually interesting, not merely technically correct?
+- [ ] Is this direction meaningfully different from what the system would produce for a different business in the same category?
+- [ ] Have user aesthetic preferences been honored? If any were overridden, was the trade-off explained and approved?
 
 **Stage 8: Image-Generation Prompts:**
 - [ ] Fully standalone: works in a fresh chat with zero cross-prompt dependencies.
@@ -218,7 +223,7 @@ Each prompt must:
 
 | File | Read when |
 |---|---|
-| `references/01-interview-guide.md` | All stages: adaptive inquiry flow, 4C probes, jargon translation table |
+| `references/01-interview-guide.md` | All stages: adaptive inquiry flow, 4C probes, aesthetic preference discovery, jargon translation table |
 | `references/02-business-distinction.md` | Stage 1: 4C verification gate, epistemic tracking, competitors, Distinction Brief |
 | `references/03-reference-images.md` | Stage 2: image analysis, treatments, Enhance mode, photo guidelines |
 | `references/04-design-principles.md` | Stages 4, 6: 0.5s category legibility, space budgets, hierarchy, formal visual grammar |
@@ -244,7 +249,7 @@ Each prompt must:
 
 # Interview Guide: Adaptive, Concept-Driven Questioning (All Stages)
 
-Contents: principles of intelligent questioning · question types · jargon translations · Stage 0 Open · the six core understanding needs & 4C probes · the adaptive inquiry flow · epistemic grounding (facts vs inferences vs assumptions) · materials and assets · physical context and communication · content inventory · Stage 5 concept divergence and visual direction · difficult situations · adapting language
+Contents: principles of intelligent questioning · question types · jargon translations · Stage 0 Open · the eight core understanding needs (including aesthetic preference discovery) & 4C probes · the adaptive inquiry flow · aesthetic preference elicitation · epistemic grounding (facts vs inferences vs assumptions vs preferences) · materials and assets · physical context and communication · content inventory · Stage 5 concept divergence and visual direction · difficult situations · adapting language
 
 Stages 6–9 (visual system, creative direction summary, prompts, review and iteration) are described in `SKILL.md` and the other references.
 
@@ -258,20 +263,26 @@ Before asking anything, ask yourself: if the answer were different, would the vi
 **2. Probe for true distinction — never accept category clichés.**
 When an owner says "kuahnya enak" or "harga murah", do not accept it as a differentiator. 90% of competitors claim the same thing. Probe deeper with the 4C framework: commonality, concrete evidence, customer buying driver, and competitor contrast.
 
-**3. Distinguish facts from inferences and assumptions.**
-Acknowledge what the owner stated (`[FAKTA]`). State your design deductions (`[INFERENSI]`). Explicitly label your working hypotheses (`[ASUMSI]`) so the owner can confirm or veto them. Never treat your own assumptions as client truth.
+**3. Discover aesthetic preferences as rigorously as business facts.**
+The interview must uncover two parallel tracks: what the business *is* (distinction, context, audience) and what the user *wants it to look like* (mood, personality, colors, typography feel, references, dislikes). A design that perfectly reflects business truth but ignores user taste is a failure. Never assume the user has no visual preferences — they almost always do, but may lack the vocabulary to express them. Help them discover and articulate their taste rather than substituting your own.
 
-**4. Start with high-impact physical realities.**
+**4. Distinguish facts, inferences, assumptions, and preferences.**
+Acknowledge what the owner stated (`[FAKTA]`). State your design deductions (`[INFERENSI]`). Explicitly label your working hypotheses (`[ASUMSI]`) so the owner can confirm or veto them. Separately track aesthetic preferences the user has expressed (`[PREFERENSI]`) — these carry as much weight as business facts. Never treat your own assumptions as client truth, and never override stated preferences without explaining why and obtaining agreement.
+
+**5. Start with high-impact physical realities.**
 For physical print, format, mounting, viewing distance, and duration dictate the entire information budget before anything aesthetic is chosen. Roadside banners at 50 km/h demand 3–5 words; handheld menus allow multi-level reading.
 
-**5. Pace the conversation (at most 3 questions per turn).**
-Never dump a long questionnaire. Guide with 2–4 purposeful rounds of at most 3 focused questions. Prefer concrete choices and tappable options; always allow "belum tahu / bantu pilihkan."
+**6. Pace the conversation with relevance, not arbitrary limits.**
+Never dump a long questionnaire. Ask 2–3 focused questions per turn, but do not treat this as a hard ceiling that causes you to skip essential topics. Continue asking as long as each question will meaningfully change a design decision. When the user provides rich information upfront, condense; when they are vague or uncertain, explore further. Prefer concrete choices and tappable options; always allow "belum tahu / bantu pilihkan."
 
-**6. Translate between ordinary speech and design thinking.**
+**7. Translate between ordinary speech and design thinking.**
 Never use raw design jargon ("visual hierarchy", "negative space", "visual thesis"). Translate into sensory physical realities: "kalau orang melintas cuma 2 detik dari jalan, satu hal apa yang harus langsung nyangkut di kepala mereka?"
 
-**7. Offer genuine strategic alternatives, not variations of one idea.**
-At Stage 5, present 2–3 genuinely distinct conceptual territories with clear commercial trade-offs. Recommend one with a business-driven rationale, but give the owner real agency.
+**8. Offer genuine strategic alternatives, not variations of one idea.**
+At Stage 5, present 2–3 genuinely distinct conceptual territories with clear commercial trade-offs. Each territory must differ across multiple design dimensions (not just color or one style label). Recommend one with a business-driven rationale, but give the owner real agency.
+
+**9. Separate what the user explicitly wants from what you recommend.**
+Track three categories clearly: (a) what the user has explicitly requested or preferred, (b) what remains undecided and needs the user's input, (c) what the user has delegated to you. Do not mistake an incomplete answer, a partial response, or a provided tagline for blanket approval of a creative direction. When in doubt, confirm.
 
 ---
 
@@ -315,9 +326,11 @@ If the owner has not specified their format, clarify: "Materi ini nantinya akan 
 
 ---
 
-## The Six Core Understanding Needs & The 4C Probes
+## The Eight Core Understanding Needs & The 4C Probes
 
-The system does not follow a mechanical checklist. It must achieve rigorous understanding across six core areas before generating creative directions:
+The system does not follow a mechanical checklist. It must achieve rigorous understanding across eight core areas before generating creative directions. The first six discover what the business IS; the final two discover what the user WANTS IT TO LOOK LIKE. Both tracks are essential.
+
+### Track 1: Business & Context Discovery
 
 | # | Understanding Need | What the designer must uncover | High-impact decision unlocked | The Probing Question & 4C Check |
 |---|---|---|---|---|
@@ -327,6 +340,13 @@ The system does not follow a mechanical checklist. It must achieve rigorous unde
 | 4 | **Primary Objective & Message** | Single communication job + ranked hierarchy (L1 hero to L4 detail) | Compositional dominance, call to action placement | "Kalau orang cuma punya waktu 2–3 detik, satu pesan utama apa yang wajib langsung paham?" |
 | 5 | **Exact On-Image Content** | Exact business name, headline/offer, price, contact, essential conditions | In-image typographic layout, word budget enforcement | "Nama usaha persisnya apa? Teks penawaran dan harga yang mau dicantumkan apa saja?" |
 | 6 | **Physical Assets & Materials** | Real product photo, logo, storefront photo, old design, or confirmed absence | Asset treatment (isolate/ground), identity treatment if no logo | "Ada foto produk asli atau logo yang bisa dilampirkan supaya hasilnya khas usaha Kakak?" |
+
+### Track 2: Aesthetic Preference Discovery
+
+| # | Understanding Need | What the designer must uncover | High-impact decision unlocked | Elicitation Approach |
+|---|---|---|---|---|
+| 7 | **Visual Taste & Style Preferences** | Colors the user likes/dislikes, mood (playful vs serious, bold vs subtle), design references they admire, styles they find unappealing, existing visual ideas | Color palette, typography personality, illustration style, overall visual energy level, what to avoid | Use contrast pairs, anti-preference discovery, and sensory metaphors (see below) |
+| 8 | **Brand Personality & Desired Impression** | How the user wants their business to be perceived visually — warm vs professional, traditional vs modern, premium vs accessible, energetic vs calm | Visual lineage selection, graphic density, material treatment, compositional approach | "Kalau usaha Kakak adalah satu tempat di Indonesia, suasananya lebih mirip mana: Pasar Santa yang indie-kreatif, Senopati yang modern-premium, atau warung kampung yang hangat-akrab? Atau beda dari semua itu?"
 
 ---
 
@@ -347,11 +367,51 @@ When an owner gives a common answer (*"bakso kami enak dan murah"* or *"kopi kam
 3. **Uncover Customer Buying Drivers:** "Pelanggan setia yang sering balik biasanya paling suka apa? Bagian mana yang paling sering mereka puji?"
 4. **Identify Competitor Reality:** "Spanduk atau papan nama pesaing paling dekat warnanya apa dan tampilannya gimana? Biar desain Kakak nggak kembar sama mereka."
 
+### Step 2b: Aesthetic Preference Discovery (Track 2)
+
+After establishing business facts, discover the user's visual taste. **This step is as important as business distinction.** Many users have strong preferences but lack design vocabulary — help them discover and articulate their taste through concrete methods, not abstract questions.
+
+**Method 1: Anti-Preference Discovery (Dealbreakers First)**
+Ask what the user actively *dislikes* — people identify dealbreakers faster than aspirations:
+"Ada 2 hal yang paling TIDAK Kakak sukai dari desain / spanduk usaha lain di sekitar, atau dari brand manapun? Misalnya: terlalu rame, warnanya norak, terlalu kaku, atau kurang menarik?"
+
+**Method 2: Contrast Pairs (Binary Choices)**
+Present two opposing aesthetic poles and ask which feels closer to the business's personality:
+- "Desainnya nanti lebih cocok ramai-meriah atau bersih-simpel?"
+- "Kesannya lebih hangat-akrab atau rapi-profesional?"
+- "Warnanya lebih kuat-terang atau lembut-kalem?"
+- "Hurufnya lebih tegas-maskulin atau luwes-santai?"
+
+Do NOT treat these as either/or binaries — the user may say "di tengah-tengah" or combine seemingly contradictory preferences ("mahal tapi ramah"). That tension is valuable information for creative direction.
+
+**Method 3: Sensory & Spatial Metaphors**
+Translate abstract preferences into tangible comparisons:
+- "Kalau usaha Kakak adalah satu tempat di Indonesia, suasananya lebih mirip mana: Pasar Santa, Jalan Braga Bandung, Senopati Jakarta, Malioboro Jogja, atau pinggir sawah Ubud?"
+- "Material fisik apa yang paling terasa kalau orang datang ke tempat usaha Kakak? Kayu jati, gerobak stainless, keramik putih bersih, kertas cokelat bungkus, atau anyaman bambu?"
+
+**Method 4: Existing Visual References**
+Ask if the user has seen designs they admire or want to reference:
+"Pernah lihat desain atau brand lain yang Kakak suka tampilannya? Bisa dari mana saja — Instagram, kemasan produk, papan nama toko lain. Kalau ada, kirim fotonya supaya saya bisa tangkap apa yang Kakak suka dari situ."
+
+**Method 5: Direct Color & Mood Preferences**
+Some users know exactly what they want — ask directly first before using indirect methods:
+"Ada warna yang Kakak suka atau yang jelas-jelas nggak cocok buat usaha ini? Atau suasana tertentu yang mau ditampilkan?"
+
+**Handling the responses:**
+- If the user has clear preferences → record as `[PREFERENSI]` and ensure all creative directions honor them.
+- If the user says "terserah, yang penting bagus" → record as `[DELEGASI]` (delegated to designer). Generate concepts based on business context AND your best design judgment, but still present options for user feedback.
+- If the user gives contradictory preferences ("mewah tapi murah meriah") → do NOT silently resolve the tension. Name it: "Menarik — kesan mewah dan murah biasanya bertolak belakang. Saya coba kombinasikan: bahan visual yang terasa berkualitas, tapi tulisan harganya jelas dan besar. Gimana menurut Kakak?"
+- If the user provides a visual reference → analyze what specific visual qualities they're responding to (color? typography? layout? photography style? energy level?) and confirm: "Dari desain ini, yang Kakak suka itu yang mana: warnanya, gaya hurufnya, tata letaknya, atau suasana keseluruhannya?"
+
 ### Step 3: Transparent Epistemic Summary
-Before moving to concepts, reflect the brief back to the owner:
+Before moving to concepts, reflect the brief back to the owner with clear epistemic tags:
 - **`[Fakta Usaha]`**: What the owner verified (product, price, hours, proof).
-- **`[Inferensi Desain]`**: Design implications (viewing duration, word budget, color contrast).
+- **`[Preferensi Estetik]`**: What the owner explicitly prefers or dislikes about visual style, color, mood, or references.
+- **`[Inferensi Desain]`**: Design implications (viewing duration, word budget, color contrast, style logic).
 - **`[Asumsi Saya]`**: Explicit working hypotheses: "Saya asumsikan pembeli utama adalah [X] dan kita fokus ke [Y] — cocok, atau ada yang mau dikoreksi?"
+- **`[Delegasi]`**: Aesthetic decisions the user has explicitly left to you.
+
+Note: `[PREFERENSI]` items carry the same weight as `[FAKTA]`. Do not override them without explicit discussion.
 
 ---
 
@@ -399,34 +459,41 @@ Jalankan **subtraction pass**: hapus semua ornamen atau teks sampingan yang mele
 
 Read `references/13-design-thinking.md`, `references/14-visual-language.md`, and `references/15-creative-direction-framework.md` (mandatory).
 
-**Never impose a single predetermined concept.** Develop and present **2 to 3 genuinely distinct conceptual territories** rooted in the verified distinction, each representing a different strategic posture, aesthetic lineage, and commercial trade-off:
+**Never impose a single predetermined concept.** Develop and present **2 to 3 genuinely distinct conceptual territories** rooted in the verified distinction AND aligned with user aesthetic preferences. Each territory must represent a different strategic posture, aesthetic lineage, and commercial trade-off.
+
+**Before generating territories:**
+1. Review all `[PREFERENSI]` items — territories that contradict stated preferences should not be presented unless the contradiction is explained and offered as a deliberate challenge.
+2. Conduct a **Cliché Landscape Audit** — identify the 3-5 most exhausted visual tropes in this business category and exclude them from ALL territories.
+3. Ensure territories differ across at least 3 design dimensions (visual lineage, image-making technique, typography, color, spatial density, emotional register, form language).
 
 ### Format Presentasi Pilihan Konsep ke Pemilik Usaha:
 
 ```
-Saya siapkan 2 (atau 3) arah konsep visual yang berakar dari keunikan usaha Kakak:
+Berdasarkan keunikan usaha dan selera visual Kakak, saya siapkan 2 (atau 3) arah konsep:
 
-1. Arah A: [Nama Konsep — misal: Keotentikan Resep & Kehangatan Tradisi]
+1. Arah A (Rekomendasi): [Nama Konsep]
    - Ide visual: [Deskripsi wujud fisik yang dilihat penonton]
-   - Tradisi & Gaya: [misal: Litografi etiket klasik era 1950-an, warna hangat]
-   - Cocok untuk: [Target pembeli yang mencari rasa rumahan terpercaya]
-   - Kelebihan & Trade-off: [Sangat terpercaya dan bernostalgia, tapi terasa kurang santai untuk anak muda]
+   - Tradisi & Gaya: [Visual lineage dan teknik pembuatan gambar]
+   - Palet warna: [Arah warna utama yang sesuai preferensi Kakak]
+   - Cocok untuk: [Target pembeli dan konteks]
+   - Kelebihan & Trade-off: [Apa yang didapat dan apa yang dikorbankan]
 
-2. Arah B: [Nama Konsep — misal: Abundansi Kaki Lima & Energi Jalanan]
-   - Ide visual: [Deskripsi wujud fisik — mangkuk tunggal raksasa, warna berani]
-   - Tradisi & Gaya: [misal: Plakatstil poster objek berpadu cat enamel jalanan]
-   - Cocok untuk: [Pengendara motor yang lapar dan butuh porsi kenyang cepat]
-   - Kelebihan & Trade-off: [Sangat menonjol dan terbaca cepat dari jauh, tapi nuansa sejarahnya berkurang]
+2. Arah B: [Nama Konsep]
+   - Ide visual: [Deskripsi wujud fisik — harus benar-benar berbeda dari Arah A]
+   - Tradisi & Gaya: [Visual lineage berbeda]
+   - Palet warna: [Arah warna berbeda yang tetap sesuai preferensi Kakak]
+   - Cocok untuk: [Situasi pembeli berbeda]
+   - Kelebihan & Trade-off: [Trade-off berbeda dari Arah A]
 
-Rekomendasi saya: Arah [A/B], karena [alasan bisnis, audiens, dan konteks pasang].
-Kakak lebih sreg lanjut dengan Arah A atau Arah B?
+Rekomendasi saya: Arah [A/B], karena [alasan bisnis, audiens, konteks, dan kesesuaian dengan selera Kakak].
+Kakak lebih sreg lanjut dengan Arah A atau Arah B? Atau ada yang mau disesuaikan?
 ```
 
 Once the owner chooses or confirms a direction:
 Formulate the **Visual Thesis**:
-$$\text{Visual Thesis} = \text{Visual Lineage} + \text{Image-Making Technique} + \text{Form Language/Edges} + \text{Material Substrate} + \text{Typographic Anatomy}$$
+$$\text{Visual Thesis} = \text{Visual Lineage} + \text{Image-Making Technique} + \text{Form Language/Edges} + \text{Material Substrate} + \text{Typographic Anatomy} + \text{Color Philosophy \& Palette} + \text{Spatial Balance} + \text{User Preference Integration}$$
 
-*Gate:* Concept approved from divergent options and formal Visual Thesis synthesized; passes visual swap test.
+*Gate:* Concept approved from divergent options; formal Visual Thesis synthesized; passes visual swap test; passes aesthetic preference alignment check.
 
 ---
 
@@ -551,15 +618,20 @@ Choose 1–2 micro-differentiators. A true, modest, concrete truth beats a grand
 
 ---
 
-## 5. Translating Business Anchors into Visual Materials & Tool Marks
+### Translating business anchors into visual possibilities (explore, not prescribe)
 
-Business anchors must not merely be written into headline text; they must dictate the physical materials, rendering medium, tool marks, and textures in the prompt (`references/14-visual-language.md`):
+Business anchors suggest visual directions but do not determine them. The mappings below are POSSIBLE translations, not automatic defaults. The actual visual translation must also consider: the user's aesthetic preferences, the competitive visual landscape (avoid what competitors already use), and the physical viewing context. Multiple valid translations exist for every anchor type.
 
 - **Origin / Heritage (Heirloom Recipe):** $\implies$ Antique commercial lithography or relief woodcut, muted mineral patina, period-appropriate hand-cut Egyptian slab-serif or Didone display lettering.
+  - *Alternative:* Contemporary editorial still-life emphasizing aged physical materials; or minimalist identity with founding year as a prominent typographic element.
 - **Process / Fire (Slow-simmered 8 hours):** $\implies$ Heavy cast-iron or earthenware vessel, dark charcoal and charred-wood textures, warm low-key directional lighting, natural grounded steam physics.
+  - *Alternative:* Crisp contemporary split-screen showing raw ingredients alongside concentrated rich reduction; or modern high-speed macro splash photography with precise dramatic rim lighting.
 - **Ingredients / Nature (Pure Botanical / Mountain Harvest):** $\implies$ Raw unbleached kraft paper or jute fiber substrate, fine botanical engraving line character, deep forest green and terra cotta pigment fields.
+  - *Alternative:* High-key macro photography of fresh glistening botanicals on clean matte ceramic; or vibrant modern tropical color blocks with simplified geometric ingredient silhouettes.
 - **Craft / Tools (Hand-carved / Hand-woven):** $\implies$ Tactile surface grain, visible tool marks, warp/weft fiber relief, honest workshop window daylight.
+  - *Alternative:* Contemporary minimalist gallery presentation with dramatic single-source spotlighting; or intimate documentary-style portraiture of artisan hands at work with natural depth of field.
 - **Place / Street Vernacular (Roadside Warung Cart):** $\implies$ Painted enamel on teak wood, sign-painter casual lettering with subtle brush fringe, durable flex tarpaulin texture.
+  - *Alternative:* Bold graphic pop-art poster with saturated screen-printed color blocks and punchy vernacular typography; or atmospheric nocturnal documentary capture with warm glowing cart lanterns and street-level vibrancy.
 
 ---
 
@@ -1060,7 +1132,9 @@ Work in this order:
 
 Socioeconomic fit matters: a design too far above or below the audience's world reads as "not for me" or "not trustworthy". Match *aspiration*, not just demographics.
 
-## 7. Palette recipes (starting points to adapt, not to copy)
+### Starting palette explorations (adapt, combine, or discard — never copy)
+
+These are EXAMPLES of palette directions that have worked in specific contexts. They are explicitly non-exhaustive and must never be applied as defaults. Before using any of these, verify: (1) Does this palette match the user's stated color preferences? (2) Is this palette distinct from what competitors use? (3) Does this palette serve the physical viewing context (outdoor contrast, indoor subtlety)? If any answer is no, develop a different palette.
 
 - **Warm local eatery:** deep warm brown or terracotta field, off-white text, chili-red accent; hand-lettered or sign-painter type.
 - **Modern kopi/kekinian:** dark espresso or muted olive field, soft warm white, one citrus-orange or caramel accent.
@@ -1070,6 +1144,20 @@ Socioeconomic fit matters: a design too far above or below the audience's world 
 - **Craft/handmade:** natural paper tone, charcoal or indigo ink, one earthen accent drawn from the product.
 - **Premium/gift/hampers:** deep, desaturated base (bottle green, oxblood, navy) with muted gold or warm ivory type; lots of space.
 - **Ramadan/Lebaran seasonal:** deep emerald or night blue, warm gold, soft ivory; subtle, not glittery.
+- **Unexpected contrast play:** Pair a deep jewel tone with an acidic contemporary accent — e.g., deep plum field with chartreuse accent, or midnight teal with warm coral.
+- **Monochromatic depth:** Build the entire palette from tonal variations of a single hue family — e.g., five values of warm terracotta from near-white to near-black. Powerful for artisanal and premium positioning.
+- **Muted contemporary neutrals:** Warm stone, sage grey, charcoal, with a single vivid accent. Contemporary studio aesthetic.
+- **High-saturation tropical:** Papaya orange, deep leaf green, bright turmeric yellow against rich dark grounds. Authentic to Indonesian visual culture without defaulting to brown/earth.
+- **Cool modern confidence:** Slate blue, cool grey, crisp white with warm brass or golden accent. Professional services, tech-adjacent businesses.
+
+### Color relationship vocabulary
+
+When describing color interactions in creative direction, use precise terms:
+- **Analogous harmony:** Colors adjacent on the wheel (warm earth tones, cool blues) — creates unity and calm.
+- **Split-complementary tension:** A base color plus the two colors adjacent to its complement — creates energy with more nuance than direct complementary.
+- **Triadic balance:** Three colors equally spaced — creates vibrant, balanced compositions when one dominates.
+- **Chromatic grey and near-neutrals:** Greys mixed with a color undertone (warm grey, cool grey, green-grey) — sophisticated, contemporary.
+- **Value contrast as the primary tool:** Regardless of hue choices, the lightness/darkness relationship between elements determines legibility and hierarchy. For outdoor print, value contrast matters more than hue contrast.
 
 ## 8. AI color defaults to avoid
 
@@ -1145,6 +1233,13 @@ Image models reproduce typography with vastly greater precision when directed us
 | **Transitional / Old Style Serif** | Moderate stroke contrast, diagonal stress, bracketed serifs, organic warmth | Dignified, permanent, literate, trustworthy, authentic | Heritage institutions, formal menus, traditional Jamu branding |
 | **Sign-Painter Casuals / Brush Enamel** | Flared brush terminals, gestural stroke stress, hand-painted enamel character | Energetic, local, welcoming, authentic human touch | Indonesian warung banners, pasar stall signage, street food heroes |
 | **Chiseled Relief / Woodblock** | Angular gouge terminations, slight organic asymmetries, stamped ink texture | Raw, artisanal, small-batch, grounded, traditional | Stone-ground sambal, artisan coffee, traditional craft labels |
+| **Display Serif Revival** | High-contrast strokes, dramatic thick-thin transitions, large x-height, ornamental ball terminals | Elevated, sophisticated, editorial, contemporary premium |
+| **Decorative / Novelty Display** | Unique structural features: inline, stencil, 3D, shadowed, textured, or themed shapes | Event-specific, seasonal, playful emphasis, one-use headlines |
+| **Script & Calligraphic** | Continuous flowing strokes, pen-derived forms, varying from formal copperplate to casual brush | Personal warmth, invitation quality, artisanal character, feminine elegance |
+| **Hand-lettering & Brush** | Irregular stroke weight, visible brush or pen texture, organic imperfections, unique to each execution | Authentic, handmade, personal, street art, artisanal craft |
+| **Vernacular Sign-Painter Extended** | Bold outlines, drop shadows, dimensional shading, high-contrast fills, optimized for distance | Street-level energy, festive, approachable, Indonesian commercial tradition |
+| **Stencil & Industrial** | Broken letterforms suggesting spray-paint or cut-out origin, utilitarian geometry | Raw, industrial, military, workshop, masculine utility |
+| **Retrofuturistic / Space Age** | Extended horizontal proportions, rounded geometric forms, 1960s-70s space-era optimism | Tech-forward nostalgia, creative studios, experimental food concepts |
 
 ---
 
@@ -1163,6 +1258,18 @@ $$\text{Text Element} = \text{Verbatim String} + \text{Role} + \text{Classificat
 
 - **Weak:** *"Clean font for the contact number"*
 - **Masterclass:** *"Contact 'WA 0812-3456-7890' set in high-contrast neutral neo-grotesque bold numerals, clean open counters, rendered crisply in deep navy (#0F2444) on a luminous white base strip"*
+
+### Typography personality axes
+
+When developing typographic direction, consider these independent personality dimensions:
+- **Formal ↔ Casual:** Court invitation vs handwritten note
+- **Loud ↔ Quiet:** Massive condensed display vs delicate hairline caption
+- **Geometric ↔ Organic:** Futura vs hand-lettered brush
+- **Historical ↔ Contemporary:** Caslon vs Neue Haas Grotesk
+- **Singular ↔ Systematic:** One expressive display face vs a disciplined type system
+- **Culture-specific ↔ Culture-neutral:** Vernacular sign-painter vs neutral grotesque
+
+These axes are independent — a typeface can be formal AND loud (monumental serif), or casual AND quiet (relaxed humanist sans at small size). Combine axes deliberately.
 
 ---
 
@@ -1259,6 +1366,8 @@ Do not treat a missing logo as plain text at the top. Each archetype has a defau
 
 These defaults are starting points. After reading `references/14-visual-language.md`, consider whether the specific business identity suggests a different typographic tradition, surface treatment, or graphic device than the archetype default. A contemporary Javanese herbal producer may use a slab-stamp with terracotta better than a generic kraft-paper panel. A premium barber in a college town may use a clean editorial sans better than charcoal-and-brass.
 
+> **⚠️ ANTI-TEMPLATE WARNING:** The table below describes COMMON patterns observed in each category, NOT prescribed defaults. These are provided to help you recognize category conventions — which you may choose to follow, subvert, or ignore entirely based on the specific business and user preferences. Never copy a row from this table directly into a creative direction. Every design decision must be independently justified by the business's specific distinction, physical context, audience, AND the user's aesthetic preferences. If your creative direction matches a row below exactly, you are retrieving a template rather than designing.
+
 | Archetype | Type character | Graphic device | Color mark |
 |---|---|---|---|
 | Warung / masakan rumahan | Heavy condensed serif or hand-painted sign caps | Full-width earthy panel or stamp outline | Dark brown or chili-red panel, off-white name |
@@ -1277,6 +1386,8 @@ When applying: describe the type character by weight and feel (not by font name)
 
 
 ## Food and drink
+
+Starting hypotheses to adapt or challenge — not to copy:
 
 ### Warung / masakan rumahan / nasi box / catering
 - **Trust drivers:** fresh, clean, generous portion, honest price, halal clarity, reliable delivery.
@@ -1304,6 +1415,8 @@ When applying: describe the type character by weight and feel (not by font name)
 
 ## Retail and fashion
 
+Starting hypotheses to adapt or challenge — not to copy:
+
 ### Fashion, hijab, modest wear, thrift
 - **Trust drivers:** fit, fabric, real colors, size info, modesty fit, return clarity.
 - **Hero:** the garment on a real or well-described person in natural setting; fabric detail; color accuracy.
@@ -1322,6 +1435,8 @@ When applying: describe the type character by weight and feel (not by font name)
 
 ## Beauty and personal care
 
+Starting hypotheses to adapt or challenge — not to copy:
+
 ### Salon, barber, skincare, makeup artist
 - **Trust drivers:** skill proof (before/after only if real), hygiene, products used, safety, expertise.
 - **Hero:** result (hair, skin, nails) in natural light, or the craftsperson's hands at work.
@@ -1331,6 +1446,8 @@ When applying: describe the type character by weight and feel (not by font name)
 - **Slop traps:** airbrushed impossible skin, generic spa stones and orchids, floating droplets, medical claims.
 
 ## Services and trades
+
+Starting hypotheses to adapt or challenge — not to copy:
 
 ### Laundry, cleaning, rumah tangga
 - **Trust drivers:** clean results, reliability, speed, fair pricing, safe for clothes.
@@ -1365,6 +1482,8 @@ When applying: describe the type character by weight and feel (not by font name)
 
 ## Local products and craft
 
+Starting hypotheses to adapt or challenge — not to copy:
+
 ### Kerajinan, handmade, UMKM produk lokal (furniture, tas, aksesori)
 - **Trust drivers:** craftsmanship, materials, uniqueness, maker story, shipping.
 - **Hero:** the object in use with texture visible; maker's hands.
@@ -1382,6 +1501,8 @@ When applying: describe the type character by weight and feel (not by font name)
 - **Slop traps:** leaves with dew everywhere, glowing health auras, unsupported health claims.
 
 ## Education and community
+
+Starting hypotheses to adapt or challenge — not to copy:
 
 ### Les, kursus, pelatihan, komunitas, acara
 - **Trust drivers:** credibility of teacher/organizer, outcomes, schedule, place, price, registration clarity.
@@ -1892,6 +2013,26 @@ Human craft is defined by authentic physical interactions that distinguish real 
 
 ---
 
+## 7. Translating Common User Phrases into Art Direction
+
+When users describe what they want using emotional or everyday language, the designer must systematically translate these into concrete visual parameters — not literary mood prose, and not the model's statistical defaults:
+
+| User Phrase (Indonesian) | Naive Translation (Produces Slop) | Professional Art-Direction Translation |
+|---|---|---|
+| "Mau yang keliatan mahal tapi ramah" | Black & gold minimalism | Warm humanist serif typography on cream unbleached paper, tactile blind deboss texture, warm diffused morning light (2700K), relaxed editorial framing, muted jewel-tone accent |
+| "Biar keliatan rame dan laris" | Chaotic bright primary colors | High-density visual hierarchy with bold hand-painted vernacular lettering (seni reklame), warm saturated tones (turmeric yellow, chili vermilion), layered price stamps and stencil textures |
+| "Segar dan alami" | Generic green leaf clipart | Macro-textural photography with dew condensation, raw kraft paper substrate, muted chlorophyll green paired with clay terracotta and earthy beige, honest natural light |
+| "Modern tapi jangan kaku" | Corporate flat vector illustration | Neo-grotesque typography with asymmetric grid and organic hand-drawn secondary accents, vibrant localized pop accents, natural ambient daylight, warm neutral grounds |
+| "Punya sejarah / resep turun temurun" | Dark brown generic batik | Grafis Nusantara archival aesthetic (1970s Indonesian print ephemera), lithographic grain, distressed enamel plate texture, sign-painter brush lettering, warm sepia-olive palette |
+| "Yang simpel aja / minimalis" | Generic white background | Strategic negative space (40-60% unprinted field), one dominant hero element, disciplined two-voice typographic system, warm or cool neutral ground, precise alignment |
+| "Biar beda dari yang lain" | Random unusual color | Conduct competitive visual audit, identify the dominant visual territory competitors occupy, then claim an underused aesthetic position through a genuinely different visual lineage |
+| "Yang hangat / homey" | Soft pastel pink | Warm-toned material substrates (teak wood, terracotta, kraft paper), rounded humanist letterforms, tactile surface textures, directional warm window light, cream/ochre/sienna palette |
+| "Yang eye-catching / mencolok" | Neon gradients and sparkles | Extreme value contrast (dark ground, brilliant type), massive condensed display typography, singular bold hero silhouette, 45%+ unprinted field for focal impact |
+
+**The process:** When a user uses emotional language, identify the underlying visual need (legibility at distance? premium positioning? warmth? energy? trust?), then specify the exact visual tradition, material, lighting, and typographic treatment that achieves that need. Never pass emotional language directly into a prompt.
+
+---
+
 *End of Reference 10 — Anti-Slop.*
 
 
@@ -2057,11 +2198,14 @@ When generating food or product visuals without reference photos, specify realis
 
 ---
 
-## 8. Length & Tool Notes
+## 8. Length & Effectiveness
 
-- **Length:** 220–420 words per prompt. High information density enables complete art direction within a compact footprint.
-- **Midjourney v6+:** Add `--ar [ratio]` flag at the end of the prompt.
-- **Ideogram v2+ / DALL-E 3 / Imagen / Flux:** Set aspect ratio in the UI.
+- **Length guidance:** 220–420 words per prompt for most outputs. This is guidance, not a target — shorter is better if every sentence changes the visual output. Do not pad prompts to reach a minimum length. A 180-word prompt with zero redundancy outperforms a 350-word prompt with filler.
+- **The redundancy test:** Before delivering a prompt, check each sentence: "If I remove this sentence, will the generated image change?" If not, remove it.
+- **Cross-block overlap:** Information should appear in exactly one block. If the material substrate is described in CREATIVE DIRECTION, do not repeat it in HERO VISUAL. If the type character is defined in VISUAL SYSTEM, do not re-describe it in CREATIVE DIRECTION.
+- **OBJECTIVE and CONCEPT blocks:** These orient the image model but should contain only information that changes the visual output. Remove contextual narration, viewer behavior descriptions, and marketing language that has no visual consequence.
+- **Midjourney v6+:** Add `--ar [ratio]` and consider `--style raw --s 100` flags to reduce AI beautification defaults.
+- **Ideogram v2+ / DALL-E 3 / Imagen / Flux:** Set aspect ratio in the UI. For Flux, use dense descriptive prose. For DALL-E 3, explicitly instruct no CGI or digital rendering artifacts.
 
 ---
 
@@ -2257,6 +2401,18 @@ Check in this order (functional first, aesthetic last). Items 10-11 apply whenev
 
 Report in plain language: "3 hal sudah bagus, 2 hal perlu diperbaiki: ..." and give the fixes.
 
+## 2b. Aesthetic quality assessment (pre-generation and post-generation)
+
+Before delivering a prompt AND when reviewing a generated result, evaluate aesthetic quality — not just technical compliance:
+
+1. **Conceptual distinctiveness:** Is the creative direction traceable to THIS specific business, or is it a category default? Would a different business in the same category get a meaningfully different direction?
+2. **Visual interest:** Does the direction produce something a design-literate viewer would find compelling, or merely competent? Is there visual tension, surprise, or delight?
+3. **Aesthetic coherence:** Do all elements (type, color, imagery, texture, space) feel like they belong to the same visual world, or are they assembled from unrelated sources?
+4. **User preference alignment:** Does the direction honor the user's stated aesthetic preferences? Were any overrides explained and approved?
+5. **Diversity from previous work:** Is this direction substantially different from what you would produce for the last 3 businesses in this category? If not, investigate what is causing the repetition and make a deliberate departure.
+
+This is NOT a checklist to be mechanically completed. It requires genuine aesthetic judgment — asking whether the design direction is *good*, not just whether it follows rules.
+
 ## 3. Symptom → fix
 
 | What you see | Likely cause | One-change fix to the prompt |
@@ -2390,37 +2546,48 @@ A concept is the organizing visual idea. It is not descriptive adjectives like "
 
 ### The Strategic Concept Divergence Requirement
 
-**Never jump directly to a single predetermined concept.** From the verified Distinction Brief, the art director must formulate **2 to 3 genuinely distinct conceptual territories**, each offering a different strategic angle, aesthetic lineage, and commercial trade-off:
+**Never jump directly to a single predetermined concept or retrieve fixed archetypes.** Territories must be derived from the **INTERSECTION of business context AND user aesthetic preferences**, not selected from a fixed menu.
+
+Before generating territories, review the user's stated aesthetic preferences (colors, mood, references, dislikes). Territories that contradict explicit user preferences should not be presented unless the contradiction is explained.
+
+From the verified Distinction Brief and user input, the art director must formulate **2 to 3 genuinely distinct conceptual territories**, each offering a different strategic angle, aesthetic lineage, and commercial trade-off.
+
+Each territory should differ across at least 3 of these dimensions:
+- **Visual lineage** (art historical or design tradition)
+- **Image-making technique** (medium, mark-making, rendering style)
+- **Form language** (geometry, contours, edge character)
+- **Typography** (personality, historical era, letterform anatomy)
+- **Color philosophy** (palette role, saturation logic, contrast approach)
+- **Spatial density** (information layout, breathing room, tension)
+- **Emotional register** (felt tone, posture, relationship to the viewer)
 
 ```
-                  ┌─────────────────────────────────────────┐
-                  │       VERIFIED DISTINCTION BRIEF        │
-                  └────────────────────┬────────────────────┘
-                                       │
-        ┌──────────────────────────────┼──────────────────────────────┐
-        ▼                              ▼                              ▼
-┌───────────────┐              ┌───────────────┐              ┌───────────────┐
-│ TERRITORY A:  │              │ TERRITORY B:  │              │ TERRITORY C:  │
-│ Abundance &   │              │ Heirloom Craft│              │ Modern Urban  │
-│ Street Urgency│              │ & Provenance  │              │ Restraint     │
-├───────────────┤              ├───────────────┤              ├───────────────┤
-│ Plakatstil    │              │ Mid-Century   │              │ Swiss Modern  │
-│ massive hero; │              │ litho / wood; │              │ grid; clean   │
-│ bold enamel.  │              │ warm nostalgia│              │ sans; airy.   │
-├───────────────┤              ├───────────────┤              ├───────────────┤
-│ Trade-off:    │              │ Trade-off:    │              │ Trade-off:    │
-│ Instant glance│              │ Deep trust &  │              │ Fresh & chic, │
-│ impact, less  │              │ authenticity, │              │ less cozy /   │
-│ heritage feel.│              │ less street-  │              │ traditional.  │
-│               │              │ urgent.       │              │               │
-└───────┬───────┘              └───────┬───────┘              └───────┬───────┘
-        │                              │                              │
-        └──────────────────────────────┼──────────────────────────────┘
-                                       ▼
-                   Client Chooses / Validates Recommendation
-                                       ▼
-                         FORMULATE VISUAL THESIS
+                  ┌────────────────────────────────────────────────────────┐
+                  │ VERIFIED DISTINCTION BRIEF + USER AESTHETIC PREFERENCES │
+                  └───────────────────────────┬────────────────────────────┘
+                                              │
+        ┌─────────────────────────────────────┼─────────────────────────────────────┐
+        ▼                                     ▼                                     ▼
+┌─────────────────────────┐       ┌─────────────────────────┐       ┌─────────────────────────┐
+│ CUSTOM TERRITORY 1      │       │ CUSTOM TERRITORY 2      │       │ CUSTOM TERRITORY 3      │
+│ (Derived from context & │       │ (Orthogonal lineage &   │       │ (Experimental /         │
+│  user preferences)      │       │  technique divergence)  │       │  unexpected angle)      │
+├─────────────────────────┤       ├─────────────────────────┤       ├─────────────────────────┤
+│ Distinct lineage & mark │       │ Distinct form language  │       │ Distinct spatial density│
+│ making technique        │       │ & typographic voice     │       │ & color philosophy      │
+├─────────────────────────┤       ├─────────────────────────┤       ├─────────────────────────┤
+│ Specific trade-off      │       │ Specific trade-off      │       │ Specific trade-off      │
+└────────────┬────────────┘       └────────────┬────────────┘       └────────────┬────────────┘
+             │                                 │                                 │
+             └─────────────────────────────────┼─────────────────────────────────┘
+                                               ▼
+                           Client Chooses / Validates Recommendation
+                                               ▼
+                                 FORMULATE VISUAL THESIS
 ```
+
+#### Illustrative Examples of Conceptual Territories (NOT a Fixed Menu)
+The previously common archetypes — such as *Abundance & Street Urgency (Plakatstil)*, *Heirloom Craft & Provenance (Mid-Century litho)*, or *Modern Urban Restraint (Swiss Modern)* — are strictly **EXAMPLES of possible territories, NOT the only three options**. The system must generate different territory options tailored for different businesses and **never default to these three**.
 
 Present these options in plain language to the owner with a clear recommendation. Once chosen:
 
@@ -2750,6 +2917,36 @@ Festive abundance, pasar malam celebration graphics, traditional market banners.
 - **Form & Edges:** Delicate, organic contours; fine cross-hatching for volume; natural leaf venation and root textures.
 - **Application:** Traditional herbal medicine (jamu), organic farm produce, artisanal honey, specialty loose-leaf tea.
 
+### 2.4 Grafis Nusantara / Archival Indonesian Ephemera
+
+- **Visual Language:** Reinterpreted vintage Indonesian commercial graphics from the 1960s-1980s: kretek cigarette wrappers, jamu packaging, firecracker labels, matchbox art, traditional bus ticket stubs. Dual-tone spot-color printing, risograph halftone screens, quirky expressive lettering, localized botanical illustrations, gold bronze ink accents.
+- **Form & Edges:** Slightly irregular hand-drawn contours, halftone dot patterns, deliberate ink misregistration, layered overprint effects.
+- **Application:** Heritage food products seeking authenticity without tourist kitsch, artisanal producers, traditional remedy brands, contemporary cafes with nostalgic identity.
+
+### 2.5 Contemporary Tropical Studio (Modern Indonesian Minimalism)
+
+- **Visual Language:** Clean architectural restraint inspired by contemporary Indonesian design studios (Thinking*Room, Nusae): warm neutral palettes (travertine stone, sage grey, off-black charcoal), generous editorial negative space, bold geometric neo-grotesque typography, organic material accents.
+- **Form & Edges:** Rectilinear discipline with warm-toned surfaces, sharp photographic edges, asymmetric editorial layouts with generous breathing room.
+- **Application:** Urban premium cafes, modern lifestyle brands, specialty food with contemporary positioning, design-literate audiences, professional services.
+
+### 2.6 Y2K / Retro-Digital Revival
+
+- **Visual Language:** Nostalgic early-internet and late-1990s digital aesthetics: gradient mesh fills, chrome/metallic type effects, pixel-influenced geometry, saturated acidic color palettes (lime, hot pink, electric blue), bubble forms.
+- **Form & Edges:** Rounded pill shapes, soft gradient transitions, outlined geometric frames, sticker-sheet composition.
+- **Application:** Youth-targeted beverage brands, trendy snack packaging, campus-adjacent businesses, pop-up events, viral food concepts.
+
+### 2.7 Illustrated Flat / Contemporary Illustration
+
+- **Visual Language:** Custom flat illustration with personality: simplified geometric human figures, stylized food/product illustrations, limited spot-color palettes, hand-drawn imperfections, playful compositional rhythm.
+- **Form & Edges:** Clean vector contours with hand-drawn personality, flat color fills with occasional texture overlay, simplified but characterful shapes.
+- **Application:** Friendly F&B brands, children/family-oriented services, community businesses, playful packaging, social media graphics.
+
+### 2.8 Documentary / Authentic Lifestyle Photography
+
+- **Visual Language:** Candid, unposed photography that captures real people in real environments: natural available light, genuine expressions, authentic Indonesian settings, editorial crop and framing, film-stock color grading (warm Kodak or cool Fuji tones).
+- **Form & Edges:** Natural photographic edges, shallow depth of field, environmental context visible, honest imperfections.
+- **Application:** Community-oriented businesses, businesses where the maker/owner IS the brand, food where the preparation process is the story, services built on personal trust.
+
 ---
 
 ## Part 3 — Indonesian Regional & Vernacular Graphic Traditions
@@ -2884,6 +3081,8 @@ Swiss International Style asymmetric grid + Commercial screenprinting technique 
 ---
 
 ## Quick Decision Matrix
+
+> **⚠️ This matrix is an anti-cliché reference, NOT a selection guide.** The pairings below show common category associations that produce competent but predictable results. Use them as starting points to challenge and combine — not as automatic defaults. For every business, explore at least one direction that does NOT appear in this matrix. The best creative directions often come from unexpected combinations or cross-domain inspiration.
 
 | Business Archetype | Primary Lineage Candidates | Image-Making Technique | Key Visual Vocabulary | Cliché Trap to Avoid |
 |---|---|---|---|---|
@@ -3021,11 +3220,24 @@ To produce an art-directed prompt, the designer must never impose a single preco
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
-### The 3 Divergent Conceptual Territories:
-From the verified distinction, explore at least two (ideally three) genuinely distinct territories:
-- **Territory A (Abundance & Direct Urgency):** High scale contrast, monumental hero silhouette, bold declarative type, unadorned high-contrast background field. (Best for roadside speed, immediate appetite appeal).
-- **Territory B (Heirloom Craft & Provenance):** Tactile relief or vintage lithography, earthy mineral palette, weathered physical substrates, period-appropriate display lettering. (Best for deep authenticity, gift-giving, premium craft).
-- **Territory C (Modern Functional Clarity):** Asymmetric modular grid, objective clean typography, generous quiet negative space, crisp studio lighting. (Best for urban professionals, wellness, high-trust services).
+### Generating Divergent Territories (Not Retrieving Fixed Archetypes)
+
+The three territories must be INVENTED for each specific business, not selected from a fixed menu. To generate genuinely distinct territories:
+
+1. **Start from user preferences and business context together.** If the user likes bold colors and hand-crafted feel but runs a modern cafe, explore how to reconcile these — not by ignoring one input.
+2. **Diverge along orthogonal axes.** Each territory should differ from the others across at least 3 of these dimensions: conceptual premise (the story), visual tradition, graphic density/tension, typography personality, color philosophy, material substrate, and emotional register.
+3. **Use the Cliché Landscape Audit.** Before generating options, identify the 3-5 most exhausted visual tropes in the business category and exclude them from ALL territories.
+4. **Inject cross-domain inspiration.** At least one territory should draw from an unexpected visual tradition or cross-domain metaphor — not the obvious category association.
+5. **Honor stated preferences.** If the user has expressed aesthetic preferences (colors, mood, style references, dislikes), at least 2 of 3 territories must be compatible with them. If one territory deliberately challenges a preference, explain why and present it as an experimental option.
+
+The following are EXAMPLES of territory types that might emerge, NOT a fixed selection menu:
+- Abundance & Direct Urgency (monumental hero, bold declaration, maximum contrast)
+- Heirloom Craft & Provenance (tactile heritage, earthy materials, period typography)
+- Modern Functional Clarity (asymmetric grid, objective photography, generous negative space)
+- Vernacular Pop & Street Energy (hand-painted signage, saturated primaries, festive density)
+- Editorial & Contemporary Studio (refined photography, restrained typography, warm neutrals)
+- Archival Nostalgia & Ephemera (vintage print techniques, risograph grain, muted spot colors)
+- Botanical & Natural Illustration (fine-line ink, watercolor tint, organic contours, antique paper)
 
 Evaluate each territory's commercial trade-offs, recommend the strongest fit, and let the client confirm the direction.
 
@@ -3058,6 +3270,8 @@ A master art director does not merely specify the overall style; they establish 
 
 ### The Visual Swap Test
 > *If you remove the business name and logo, does the graphic still uniquely reflect this specific business, or could it be swapped into any competitor's storefront?*
+
+The aesthetic alignment test: beyond passing the swap test (unique to this business), verify that the direction also aligns with the user's stated aesthetic preferences. A design that is business-specific but aesthetically unwanted by the user is still a failure.
 
 ### Superficial Personalization (Fails the Test)
 - Taking a generic corporate template or pastel bakery template and pasting the owner's menu text into it.
@@ -3146,6 +3360,21 @@ Every decision must trace directly back to business distinction, audience postur
 
 ---
 
+## 2b. Aesthetic Preferences & Brand Personality (Track 2)
+
+- [PREFERENSI] Colors liked:
+- [PREFERENSI] Colors disliked / dealbreakers:
+- [PREFERENSI] Mood / personality (from contrast pairs): (e.g., warm-akrab / rapi-profesional / ramai-meriah / bersih-simpel)
+- [PREFERENSI] Visual references shared: (description of what the user admires, what specific qualities they respond to)
+- [PREFERENSI] Anti-preferences / dislikes: (specific visual treatments the user finds unappealing)
+- [PREFERENSI] Brand spatial metaphor: (e.g., "lebih mirip Pasar Santa" or "suasana Senopati")
+- [DELEGASI] Aesthetic decisions delegated to designer:
+- [INFERENSI] Emotional-to-visual translation: [Client phrase] → [specific visual parameter]
+
+Note: [PREFERENSI] items carry equal weight to [FAKTA]. They must be honored in all concept territories unless a functional conflict is identified, explained, and approved by the user.
+
+---
+
 ## 3. Physical Context, Audience & Category Check (Stage 3)
 
 **Physical Context:**
@@ -3186,6 +3415,7 @@ Every decision must trace directly back to business distinction, audience postur
 2. Territory B: [Name, strategic visual logic, aesthetic tradition, commercial trade-off]
 3. Territory C (optional): [Name, strategic visual logic, aesthetic tradition, commercial trade-off]
 - Selected Territory: [A/B/C] (Confirmed by client or stated under validated recommendation)
+- Preference Alignment Check: All [PREFERENSI] items honored Y/N. If any overridden, trade-off explained and approved Y/N
 
 **Visual Thesis Formulation (`15-creative-direction-framework.md`):**
 - Primary Visual Lineage: [e.g. German Plakatstil / Mid-century litho / Swiss Modernist / Nusantara vernacular]

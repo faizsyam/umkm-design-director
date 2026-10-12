@@ -87,15 +87,20 @@ Choose 1–2 micro-differentiators. A true, modest, concrete truth beats a grand
 
 ---
 
-## 5. Translating Business Anchors into Visual Materials & Tool Marks
+### Translating business anchors into visual possibilities (explore, not prescribe)
 
-Business anchors must not merely be written into headline text; they must dictate the physical materials, rendering medium, tool marks, and textures in the prompt (`references/14-visual-language.md`):
+Business anchors suggest visual directions but do not determine them. The mappings below are POSSIBLE translations, not automatic defaults. The actual visual translation must also consider: the user's aesthetic preferences, the competitive visual landscape (avoid what competitors already use), and the physical viewing context. Multiple valid translations exist for every anchor type.
 
 - **Origin / Heritage (Heirloom Recipe):** $\implies$ Antique commercial lithography or relief woodcut, muted mineral patina, period-appropriate hand-cut Egyptian slab-serif or Didone display lettering.
+  - *Alternative:* Contemporary editorial still-life emphasizing aged physical materials; or minimalist identity with founding year as a prominent typographic element.
 - **Process / Fire (Slow-simmered 8 hours):** $\implies$ Heavy cast-iron or earthenware vessel, dark charcoal and charred-wood textures, warm low-key directional lighting, natural grounded steam physics.
+  - *Alternative:* Crisp contemporary split-screen showing raw ingredients alongside concentrated rich reduction; or modern high-speed macro splash photography with precise dramatic rim lighting.
 - **Ingredients / Nature (Pure Botanical / Mountain Harvest):** $\implies$ Raw unbleached kraft paper or jute fiber substrate, fine botanical engraving line character, deep forest green and terra cotta pigment fields.
+  - *Alternative:* High-key macro photography of fresh glistening botanicals on clean matte ceramic; or vibrant modern tropical color blocks with simplified geometric ingredient silhouettes.
 - **Craft / Tools (Hand-carved / Hand-woven):** $\implies$ Tactile surface grain, visible tool marks, warp/weft fiber relief, honest workshop window daylight.
+  - *Alternative:* Contemporary minimalist gallery presentation with dramatic single-source spotlighting; or intimate documentary-style portraiture of artisan hands at work with natural depth of field.
 - **Place / Street Vernacular (Roadside Warung Cart):** $\implies$ Painted enamel on teak wood, sign-painter casual lettering with subtle brush fringe, durable flex tarpaulin texture.
+  - *Alternative:* Bold graphic pop-art poster with saturated screen-printed color blocks and punchy vernacular typography; or atmospheric nocturnal documentary capture with warm glowing cart lanterns and street-level vibrancy.
 
 ---
 
